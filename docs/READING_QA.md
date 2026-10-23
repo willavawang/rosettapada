@@ -1,4 +1,18 @@
-# Reading study 05 — verification
+# Reading study 06 — verification
+
+23 October 2026. Chromium preview at desktop size and embedded 375px / 320px viewports.
+
+- Verified: Contents lists exactly Pairs, Heedfulness, and The Mind, with chapter links and no verse list. Each opens its beginning.
+- Verified: the three pages contain 20, 12, and 11 verses respectively, with English and Pāli columns and visible translator/edition attribution.
+- Verified: verse 20 → 21 and 21 → 20 cross chapter pages, retaining 164% magnification and a 243px horizontal offset. Verse 32 → 33 opens The Mind. Next is disabled at verse 43.
+- Verified: hiding Pāli removes all twelve Pāli poems in Heedfulness; the final English column is protected. Restore defaults restores both columns.
+- Verified: the new chapter pages display at 100% in 375px and 320px windows. The 320px document has no overflow; only the reading sheet pans horizontally. All footer buttons fit and scrollbar styles remain hidden.
+- Offline checks compare all 43 verses, every source segment, and line divisions with the pinned source snapshot. All nine source files match both SHA-256 and upstream Git blob hashes. The inherited sample checksum and all three original reference links are retained.
+- JavaScript syntax and generated deployment/link checks pass.
+
+Physical Safari trackpad gestures and physical mobile touch input remain unverified. No historical concordance has been added beyond the original two-verse sample.
+
+## Previous study 05 record
 
 23 October 2026. Chromium preview, desktop and embedded 375px / 320px viewports.
 

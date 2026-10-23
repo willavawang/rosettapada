@@ -17,5 +17,5 @@ jobs:
       - run: python3 tools/check.py
       - run: node --check reader.js
       - name: Generated pages are current
-        run: git diff --exit-code -- index.html contents.html notes.html
+        run: git diff --exit-code -- '*.html'
 

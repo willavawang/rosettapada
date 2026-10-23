@@ -1,0 +1,104 @@
+{
+  "upstream": {
+    "repository": "suttacentral/bilara-data",
+    "branch": "published",
+    "commit": "6a395ceb6f28549111d7d96859f7f6f6610afc01",
+    "retrieved": "2026-10-23",
+    "license": "CC0-1.0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/"
+  },
+  "translation": {
+    "author": "Bhikkhu Sujato",
+    "title": "Sayings of the Dhamma",
+    "publication_file": "data/pali/publication.json"
+  },
+  "root": {
+    "edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500",
+    "language": "Pāli"
+  },
+  "chapters": [
+    {
+      "no": 1,
+      "title": "Pairs",
+      "pali_title": "Yamakavagga",
+      "uid": "dhp1-20",
+      "start": 1,
+      "end": 20,
+      "page": "pairs.html"
+    },
+    {
+      "no": 2,
+      "title": "Heedfulness",
+      "pali_title": "Appamādavagga",
+      "uid": "dhp21-32",
+      "start": 21,
+      "end": 32,
+      "page": "heedfulness.html"
+    },
+    {
+      "no": 3,
+      "title": "The Mind",
+      "pali_title": "Cittavagga",
+      "uid": "dhp33-43",
+      "start": 33,
+      "end": 43,
+      "page": "mind.html"
+    }
+  ],
+  "files": [
+    {
+      "local": "data/pali/dhp1-20_root-pli-ms.json",
+      "upstream_path": "root/pli/ms/sutta/kn/dhp/dhp1-20_root-pli-ms.json",
+      "git_blob": "4815d2ccc074f62495382f75beed6a12bf0f0e7d",
+      "sha256": "a7147ce1275b5de1b877956586b55de71e0764112919941a4a6215c9d8aa2cea"
+    },
+    {
+      "local": "data/pali/dhp1-20_translation-en-sujato.json",
+      "upstream_path": "translation/en/sujato/sutta/kn/dhp/dhp1-20_translation-en-sujato.json",
+      "git_blob": "d63d1a563a69c73a74a22cd877c8e57d95480818",
+      "sha256": "0f4104ecc71702f56dd8a84ee3b3adbdfe3c544e10bbcf7a1d22c9b0c0975ac3"
+    },
+    {
+      "local": "data/pali/dhp1-20_html.json",
+      "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp1-20_html.json",
+      "git_blob": "b024b307ccfbb1ab4fd1d0ea2b9034c8be583856",
+      "sha256": "fe700791690af575ac82caaac3f4e84cb4877a25c2632a16a35b37a228c3bee6"
+    },
+    {
+      "local": "data/pali/dhp21-32_root-pli-ms.json",
+      "upstream_path": "root/pli/ms/sutta/kn/dhp/dhp21-32_root-pli-ms.json",
+      "git_blob": "c979bb0cc0e88a09857656e875e19751aa82677d",
+      "sha256": "371ac8e7d2b948a76d7a78cf7397ebee7d22af4d04fb4885c27ac4efb8119f1a"
+    },
+    {
+      "local": "data/pali/dhp21-32_translation-en-sujato.json",
+      "upstream_path": "translation/en/sujato/sutta/kn/dhp/dhp21-32_translation-en-sujato.json",
+      "git_blob": "db6b266d6d929c0d18d4843f394c556681844a23",
+      "sha256": "f096c59006e49b44d89f31f1832ef972e208dbf9df1fb29cfc1a790062aa0e7d"
+    },
+    {
+      "local": "data/pali/dhp21-32_html.json",
+      "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp21-32_html.json",
+      "git_blob": "a029499492780642907993c322d93eb5e6203d2b",
+      "sha256": "f93750fe4cb6363916a62cc7a9d2995a23c0abc2b72efca6a7ee63284bfcdc6f"
+    },
+    {
+      "local": "data/pali/dhp33-43_root-pli-ms.json",
+      "upstream_path": "root/pli/ms/sutta/kn/dhp/dhp33-43_root-pli-ms.json",
+      "git_blob": "f527b5042387f820fcaebe5f4715483bd460fa42",
+      "sha256": "ebfb761edc23a0b6b0da9830e940d588f0391f944eb1ed4d58f3ee18ec5a48e4"
+    },
+    {
+      "local": "data/pali/dhp33-43_translation-en-sujato.json",
+      "upstream_path": "translation/en/sujato/sutta/kn/dhp/dhp33-43_translation-en-sujato.json",
+      "git_blob": "2d9c1ecf7a92df7cba3a55cf5c18110c41b5e5ae",
+      "sha256": "31a489eefb5efeee94e4f80a61393a586e312e6bc20657c1f1d5f58c6afee3e6"
+    },
+    {
+      "local": "data/pali/dhp33-43_html.json",
+      "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp33-43_html.json",
+      "git_blob": "577861a27c1f2ae68becbd37e83355a055c95c0d",
+      "sha256": "ce9dab9e312da7c35d0092c48e1e889504d0416266784150edff671e3d187027"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "publication_number": "scpub7",
+  "root_lang_iso": "pli",
+  "root_lang_name": "Pali",
+  "translation_lang_iso": "en",
+  "translation_lang_name": "English",
+  "source_url": "https://github.com/suttacentral/bilara-data/tree/published/translation/en/sujato/sutta/kn/dhp",
+  "author_uid": "sujato",
+  "author_name": "Bhikkhu Sujato",
+  "author_github_handle": "sujato",
+  "text_uid": "dhp",
+  "translation_title": "Sayings of the Dhamma",
+  "translation_subtitle": "A meaningful translation of the Dhammapada",
+  "root_title": "Dhammapada",
+  "translation_process": "Translated from the Pali. The primary source was the Mahāsaṅgīti edition, with reference to several English translations, especially those of K.R. Norman and Venerable Buddharakkhita.",
+  "translation_description": "This translation aims to make a clear, readable, and accurate rendering of the Dhammapada. Unlike most Dhammapadas in English, this is a new translation from the source Pali text. The aim was to make the sense as transparent as possible.",
+  "is_published": true,
+  "publication_status": "Completed, revision is ongoing.",
+  "license": {
+    "license_type": "Creative Commons Zero",
+    "license_abbreviation": "CC0",
+    "license_url": "https://creativecommons.org/publicdomain/zero/1.0/",
+    "license_statement": "This translation is an expression of an ancient spiritual text that has been passed down by the Buddhist tradition for the benefit of all sentient beings. It is dedicated to the public domain via Creative Commons Zero (CC0). You are encouraged to copy, reproduce, adapt, alter, or otherwise make use of this translation. The translator respectfully requests that any use be in accordance with the values and principles of the Buddhist community. In particular, please do not use this work in AI training datasets, for the development of any AI model or algorithm, or in any AI-derived technologies. "
+  },
+  "edition": [
+    {
+      "edition_number": "1",
+      "publication_date": "2021",
+      "publisher": "SuttaCentral",
+      "publication_type": "website",
+      "edition_url": "https://suttacentral.net/dhp"
+    }
+  ]
+}

@@ -24,8 +24,11 @@
   const groupColumns = groups.map(group => new Map(Array.from(group.children).map(column => [column.dataset.language, column])));
   const minZoom = .1;
   const maxZoom = 3;
-  const storageKey = 'rosettapada-reading-v4';
-  const languageStorageKey = 'rosettapada-languages-v1';
+  const isPaliChapter = sheet.dataset.profile === 'pali';
+  const storageKey = isPaliChapter ? `rosettapada-reading-v5-${sheet.dataset.pageKey}` : 'rosettapada-reading-v4';
+  const languageStorageKey = isPaliChapter ? 'rosettapada-languages-pali-v1' : 'rosettapada-languages-v1';
+  const previousPage = sheet.dataset.previousPage;
+  const nextPage = sheet.dataset.nextPage;
   const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
   let zoom = 1;
   let active = 0;
@@ -38,7 +41,7 @@
   let announcementTimer;
   let fitMode = false;
   let languageOrder = defaultOrder.slice();
-  let hiddenLanguages = new Set(['zh-pinyin']);
+  let hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
   let languageDrag = null;
 
   try {
@@ -159,7 +162,7 @@
   options.addEventListener('lostpointercapture', clearLanguageDrag);
   document.getElementById('restore-languages').addEventListener('click', () => {
     languageOrder = defaultOrder.slice();
-    hiddenLanguages = new Set(['zh-pinyin']);
+    hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
     applyLanguages();
     settingsAnnouncement.textContent = 'Default languages and order restored';
   });
@@ -191,9 +194,9 @@
   }
   function updateNavigation(index) {
     active = clamp(index, 0, verses.length - 1);
-    previousVerse.disabled = active === 0;
-    nextVerse.disabled = active === verses.length - 1;
-    const text = `Verse ${verses[active].dataset.verse} of ${verses.length}`;
+    previousVerse.disabled = active === 0 && !previousPage;
+    nextVerse.disabled = active === verses.length - 1 && !nextPage;
+    const text = sheet.dataset.chapterTitle ? `Verse ${verses[active].dataset.verse}, ${sheet.dataset.chapterTitle}` : `Verse ${verses[active].dataset.verse} of ${verses.length}`;
     if (label.textContent !== text) label.textContent = text;
   }
   function readingTop() {
@@ -237,6 +240,16 @@
     scheduleSave();
   }
   function goTo(index, historyMode = 'push') {
+    const adjacentPage = index < 0 ? previousPage : index >= verses.length ? nextPage : '';
+    if (adjacentPage) {
+      savePosition();
+      const pageKey = adjacentPage.split('#')[0].replace(/\.html$/, '');
+      try {
+        sessionStorage.setItem(`rosettapada-reading-v5-${pageKey}`, JSON.stringify({zoom, left: viewport.scrollLeft, top: 0}));
+      } catch { /* The chapter link still works when browser storage is unavailable. */ }
+      location.assign(adjacentPage);
+      return;
+    }
     const target = clamp(index, 0, verses.length - 1);
     const left = viewport.scrollLeft;
     const offset = verses[target].getBoundingClientRect().top - readingTop();
@@ -361,7 +374,7 @@
   requestAnimationFrame(() => requestAnimationFrame(() => {
     if (Number.isFinite(saved.zoom)) setZoom(saved.zoom, 0, viewport.getBoundingClientRect().top);
     viewport.scrollLeft = Number.isFinite(saved.left) ? saved.left : 0;
-    if (location.hash === '#chapter1') { viewport.scrollTop = 0; viewport.scrollLeft = 0; }
+    if (location.hash === `#${sheet.dataset.chapterAnchor}`) { viewport.scrollTop = 0; viewport.scrollLeft = 0; }
     else if (initialHash >= 0) goTo(initialHash, 'none');
     else if (Number.isFinite(saved.top)) viewport.scrollTop = saved.top;
     syncNavigation();
