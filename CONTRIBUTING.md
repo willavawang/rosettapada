@@ -9,5 +9,5 @@ The current task is interface evaluation. Keep changes within the reading experi
 - Change templates rather than only generated HTML. Run the build, integrity check, and JavaScript syntax check. Check the changed interaction in a browser.
 - Prefer small, reviewable interface changes. Record hardware-specific limitations honestly.
 
-Keep the Atlas repository untouched. Preserve existing publication audiences. The approved GitHub Pages reading site is the primary review target; routine interface changes should update that existing site.
+Keep the Atlas repository untouched. GitHub Pages at https://willavawang.github.io/rosettapada/ is the user's only review and publishing target. Publish authorized changes there and verify the live homepage and changed pages. Do not deploy to or return the internal ChatGPT-hosted Site unless explicitly requested. See `AGENTS.md` for the persistent project instructions.
 

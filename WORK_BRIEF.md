@@ -4,7 +4,11 @@
 
 Renamed from Dhammapada Rosetta on 23 October 2026. The user has now requested three complete pages in the usual Pāli order: Pairs, Heedfulness, and The Mind. This authorizes the bounded addition of Pāli verses 1–43 and an existing English translation. It does not authorize full-corpus research or the six-tradition concordance.
 
-`index.html` preserves the original comparative sample. `pairs.html` (1–20), `heedfulness.html` (21–32), and `mind.html` (33–43) use Bhikkhu Sujato's English and the Mahāsaṅgīti Pāli from a pinned, CC0-licensed SuttaCentral/Bilara snapshot. `data/chapters.json` records the exact revision, source paths, Git blob IDs, and checksums. Source text remains offline and reproducible. Keep English wording distinct from the original sample's working translation.
+`index.html` opens the complete Pairs chapter (1–20); `pairs.html` remains available as a compatible alias. `heedfulness.html` (21–32) and `mind.html` (33–43) complete the requested selection. These use Bhikkhu Sujato's English and the Mahāsaṅgīti Pāli from a pinned, CC0-licensed SuttaCentral/Bilara snapshot. The original comparative sample is preserved at `sample.html`. `data/chapters.json` records the exact revision, source paths, Git blob IDs, and checksums. Source text remains offline and reproducible. Keep English wording distinct from the original sample's working translation.
+
+## Publishing preference
+
+The user will review Rosettapada exclusively on GitHub Pages at https://willavawang.github.io/rosettapada/. It is the only publishing target. Commit authorized changes to the GitHub repository and verify that its live homepage and changed pages actually serve the update before reporting completion. Do not deploy to or return the internal ChatGPT-hosted Site unless the user explicitly requests it. `AGENTS.md` records this preference for future development.
 
 ## Reading requirements
 

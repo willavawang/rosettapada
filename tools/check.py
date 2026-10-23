@@ -47,7 +47,7 @@ class Page(HTMLParser):
 
 
 collection = json.loads((ROOT / "data/chapters.json").read_text())
-page_names = ["index.html", "contents.html", "notes.html", *[chapter["page"] for chapter in collection["chapters"]]]
+page_names = ["sample.html", "pairs.html", "contents.html", "notes.html", *[chapter["page"] for chapter in collection["chapters"]]]
 pages = {name: Page(ROOT / name) for name in page_names}
 expected_assets = {*page_names, "styles.css", "reader.js", ".nojekyll"}
 assert {p.name for p in (ROOT / "dist").iterdir()} == expected_assets, "Unexpected deployment file; remove temporary QA fixtures."
@@ -71,7 +71,7 @@ pinyin = {verse['no']: verse['lines'] for verse in json.loads((ROOT / 'data/piny
 assert set(pinyin) == {verse['no'] for verse in data['verses']}, 'Pinyin must cover exactly the existing sample.'
 for verse in data["verses"]:
     assert all(len(row) == len(data["sources"]) for row in verse["rows"]), "Ragged sample data"
-    assert f'dhp{verse["no"]}' in pages["index.html"].ids, "Missing verse deep link"
+    assert f'dhp{verse["no"]}' in pages["sample.html"].ids, "Missing sample verse deep link"
     assert len(pinyin[verse['no']]) == len(verse['rows']), 'Pinyin alignment does not match the Chinese sample.'
 original_urls = set(Page(ROOT / "docs/archive/notes-v2.html").links)
 original_urls = {url for url in original_urls if url.startswith("https://")}
@@ -104,5 +104,7 @@ for chapter in collection["chapters"]:
     assert f'{chapter["page"]}#chapter{chapter["no"]}' in pages["contents.html"].links, "Missing chapter navigation"
 assert chapter_numbers == list(range(1, 44)), "The requested selection must contain exactly verses 1–43."
 assert len([link for link in pages["contents.html"].links if "#chapter" in link]) == 3, "Contents must list exactly three chapter pages."
+assert pages["index.html"].verses == list(range(1, 21)), "The homepage must open the complete first chapter."
+assert (ROOT / "pairs.html").read_bytes() == (ROOT / "index.html").read_bytes(), "The existing Pairs URL must remain available."
 print("Passed: all 43 English–Pāli verses match the source snapshot; sample and references preserved; links and deployment pages valid.")
 

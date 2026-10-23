@@ -95,7 +95,7 @@ sample_verses = [{"no": verse["no"], "lines": {
     for source in SOURCES
 }} for verse in VERSES]
 sample_sources = [{**source, "reference": "Pāli working translation" if source["key"] == "en" else "Not yet verified" if source["key"] == "bo" else source["reference"]} for source in SOURCES]
-render_reader("index.html", sample_sources, sample_verses, "The pairs", "chapter1",
+render_reader("sample.html", sample_sources, sample_verses, "The pairs", "chapter1",
               help_note="Two verses are included in this comparative sample. The English follows Pāli; alignment across traditions is provisional. Complete English–Pāli chapters are available in Contents.")
 
 for index, chapter in enumerate(CHAPTERS):
@@ -117,12 +117,14 @@ for index, chapter in enumerate(CHAPTERS):
                   previous=previous, next_page=next_page, chapter_title=chapter["title"],
                   help_note="English by Bhikkhu Sujato, alongside the Mahāsaṅgīti Pāli. The first three chapters (verses 1–43) are available. Verse arrows continue across chapter boundaries.")
 
+# Preserve links shared before Pairs became the homepage.
+(ROOT / "pairs.html").write_bytes((ROOT / CHAPTERS[0]["page"]).read_bytes())
 chapter_links = "\n".join(f'<a class="toc-page-link" href="{chapter["page"]}#chapter{chapter["no"]}"><span>{e(chapter["title"])}</span><span class="toc-arrow" aria-hidden="true">↗</span></a>' for chapter in CHAPTERS)
 render("contents.html", CHAPTER_LINKS=chapter_links)
 render("notes.html", BILARA_SOURCE_URL=f'https://github.com/suttacentral/bilara-data/tree/{COLLECTION["upstream"]["commit"]}')
 dist = ROOT / "dist"
 dist.mkdir(exist_ok=True)
-for filename in ["index.html", "contents.html", "notes.html", "styles.css", "reader.js", ".nojekyll", *[chapter["page"] for chapter in CHAPTERS]]:
+for filename in ["sample.html", "pairs.html", "contents.html", "notes.html", "styles.css", "reader.js", ".nojekyll", *[chapter["page"] for chapter in CHAPTERS]]:
     shutil.copyfile(ROOT / filename, dist / filename)
 print(f"Built Rosettapada: 3 English–Pāli chapters, 43 verses, plus the unchanged comparative sample.")
 

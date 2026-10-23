@@ -1,10 +1,10 @@
 # Rosettapada
 
-A quiet Dhammapada reading surface. **Reading study 06** adds three complete English–Pāli chapter pages: **Pairs** (1–20), **Heedfulness** (21–32), and **The Mind** (33–43). English is by Bhikkhu Sujato; Pāli follows the Mahāsaṅgīti edition on SuttaCentral. The existing two-verse comparison across historical traditions remains at `index.html`, including optional Mandarin pinyin. Full-corpus research and the six-tradition concordance remain paused.
+A quiet Dhammapada reading surface. **Reading study 06** adds three complete English–Pāli chapter pages: **Pairs** (1–20), **Heedfulness** (21–32), and **The Mind** (33–43). English is by Bhikkhu Sujato; Pāli follows the Mahāsaṅgīti edition on SuttaCentral. The homepage opens the complete Pairs chapter. The existing two-verse comparison across historical traditions remains at `sample.html`, including optional Mandarin pinyin. Full-corpus research and the six-tradition concordance remain paused.
 
 ## Read
 
-Open `contents.html` for the three chapters, or `index.html` for the earlier comparative sample. Files work directly in a modern browser, or serve the project over HTTP:
+Open `index.html` for Pairs, `contents.html` for all three chapters, or `sample.html` for the earlier comparative sample. The previous `pairs.html` URL continues to work. Files work directly in a modern browser, or serve the project over HTTP:
 
 ```sh
 python3 build.py
@@ -53,9 +53,9 @@ Edit `templates/*.html`, `styles.css`, and `reader.js`, then rebuild. Generated 
 
 ## GitHub
 
-Source repository: [willavawang/rosettapada](https://github.com/willavawang/rosettapada). Reading site: [willavawang.github.io/rosettapada](https://willavawang.github.io/rosettapada/). This project is separate from the Buddhist Scripture Atlas. CI checks the static build on pushes and pull requests. Generated root HTML supports Pages publishing from `main` / `(root)`. The optional **Publish GitHub Pages** workflow remains manual for deployments configured to use GitHub Actions.
+Source repository: [willavawang/rosettapada](https://github.com/willavawang/rosettapada). The user's only review and publishing site is [willavawang.github.io/rosettapada](https://willavawang.github.io/rosettapada/). Do not deploy to or return the internal ChatGPT-hosted Site unless explicitly requested. Verify the GitHub Pages homepage and changed pages before reporting completion. This project is separate from the Buddhist Scripture Atlas. CI checks the static build on pushes and pull requests. Generated root HTML supports Pages publishing from `main` / `(root)`. The optional **Publish GitHub Pages** workflow remains manual for deployments configured to use GitHub Actions.
 
-The repository was created public; its visibility has been preserved. The working reading-study Site is private. The new SuttaCentral texts are CC0, with publication metadata retained in `data/pali/`. No blanket license has been applied to the inherited comparative samples; their permissions and editorial verification remain deferred. The tracked `.openai/hosting.json` binds the private working Site and should be preserved when continuing that Site.
+The repository was created public; its visibility has been preserved. The new SuttaCentral texts are CC0, with publication metadata retained in `data/pali/`. No blanket license has been applied to the inherited comparative samples; their permissions and editorial verification remain deferred. The tracked `.openai/hosting.json` is retained only as legacy configuration; it is not the publishing target.
 
 See [WORK_BRIEF.md](WORK_BRIEF.md) for the phase boundary. Review the reading experience before expanding the corpus.
 

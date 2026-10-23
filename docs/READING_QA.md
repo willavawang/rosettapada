@@ -1,5 +1,7 @@
 # Reading study 06 — verification
 
+Homepage follow-up, 23 October 2026: the canonical homepage now contains Pairs verses 1–20. The old `pairs.html` link remains a compatible alias. The earlier eight-option, two-verse comparison is preserved at `sample.html` and linked from Notes. Preview checks verified the homepage verse count, the three Contents links, and the preserved sample. Automated integrity checks require the complete first chapter at the homepage. The user now reviews this project exclusively on GitHub Pages; internal hosting is no longer a publishing target.
+
 23 October 2026. Chromium preview at desktop size and embedded 375px / 320px viewports.
 
 - Verified: Contents lists exactly Pairs, Heedfulness, and The Mind, with chapter links and no verse list. Each opens its beginning.

@@ -2,7 +2,7 @@
 
 ## Three complete English–Pāli chapters
 
-The bounded addition requested on 23 October 2026 contains verses 1–43 in the usual Pāli order: Pairs / Yamakavagga (1–20), Heedfulness / Appamādavagga (21–32), and The Mind / Cittavagga (33–43). These are separate pages linked from Contents. The original comparative sample remains at `index.html`.
+The bounded addition requested on 23 October 2026 contains verses 1–43 in the usual Pāli order: Pairs / Yamakavagga (1–20), Heedfulness / Appamādavagga (21–32), and The Mind / Cittavagga (33–43). The homepage opens Pairs and Contents links to all three chapters. The original comparative sample remains at `sample.html`.
 
 English is Bhikkhu Sujato's *Sayings of the Dhamma*, alongside SuttaCentral's Mahāsaṅgīti Pāli. Source revision, upstream paths, Git blob IDs, and SHA-256 checksums are frozen in `data/chapters.json`; source JSON and the CC0 publication record are in `data/pali/`. The nine source files are byte-identical to their upstream Git blobs. Build and CI work offline.
 
