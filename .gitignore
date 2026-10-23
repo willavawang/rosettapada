@@ -1,0 +1,9 @@
+dist/
+.DS_Store
+__pycache__/
+*.pyc
+.openai/*
+!.openai/hosting.json
+node_modules/
+*.tar.gz
+

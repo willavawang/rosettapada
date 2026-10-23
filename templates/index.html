@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8f7f2">
+  <meta name="description" content="Rosettapada — read the Dhammapada across textual traditions on one continuous sheet. A two-verse reading study.">
+  <title>Rosettapada · The pairs</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="reader.js" defer></script>
+</head>
+<body class="reading-page">
+  <a class="skip-link" href="#viewport">Skip to the reading sheet</a>
+  <header class="masthead">
+    <a class="wordmark" href="index.html" aria-label="Rosettapada, reading sheet">Rosettapada<span class="wordmark-dot" aria-hidden="true">.</span></a>
+    <nav class="top-nav" aria-label="Main navigation">
+      <a href="contents.html">Contents</a>
+      <a href="notes.html">Notes</a>
+      <button class="help-button" type="button" id="open-help" aria-label="Reading help" aria-haspopup="dialog">?</button>
+    </nav>
+  </header>
+
+  <main id="viewport" class="viewport" tabindex="0" aria-label="Reading sheet. Scroll across for textual traditions; scroll down for the next verse.">
+    <div id="sheet" class="sheet">
+      <div class="chapter-heading">
+        <p class="eyebrow">Dhammapada <span aria-hidden="true">/</span> Chapter one</p>
+        <h1>The pairs</h1>
+        <p class="chapter-subtitle">Yamakavagga <span aria-hidden="true">·</span> Verses 1–2</p>
+      </div>
+      <div id="column-headings" class="column-headings" aria-hidden="true">
+        {{COLUMN_HEADINGS}}
+      </div>
+      <div class="verses">{{VERSES}}</div>
+      <div class="sheet-end"><span>End of the reading sample.</span><a href="notes.html">About these texts ↗</a></div>
+    </div>
+  </main>
+
+  <footer class="reading-controls">
+    <nav class="verse-navigation" aria-label="Verse navigation">
+      <button id="prev" class="arrow-button" type="button" aria-label="Previous verse" title="Previous verse ([)" disabled>‹</button>
+      <span id="location" aria-live="polite" aria-atomic="true">Verse 1 of 2</span>
+      <button id="next" class="arrow-button" type="button" aria-label="Next verse" title="Next verse (])">›</button>
+    </nav>
+    <p class="reading-hint">Scroll across. Read down.</p>
+    <div class="zoom-controls" role="group" aria-label="Sheet magnification">
+      <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out (−)">−</button>
+      <button id="reset-zoom" type="button" aria-label="Reset magnification to 100 percent" title="Return to reading size (0)"><output id="zoom-label">100%</output></button>
+      <button id="zoom-in" type="button" aria-label="Zoom in" title="Zoom in (+)">+</button>
+      <button id="fit-sheet" class="fit-button" type="button" aria-label="Fit all seven columns to the window" title="Fit all traditions for an overview">Fit</button>
+    </div>
+  </footer>
+  <div class="sr-only" id="zoom-announcement" role="status"></div>
+
+  <dialog id="reading-help" aria-labelledby="help-title">
+    <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-help" type="button" aria-label="Close reading help">×</button></div>
+    <h2 id="help-title">A sheet to move through.</h2>
+    <p>Read down for the next verse. Move across to hear it in another tradition.</p>
+    <dl class="help-list">
+      <div><dt>Pan</dt><dd>Two-finger scroll in either direction, or hold <kbd>Space</kbd> and drag.</dd></div>
+      <div><dt>Zoom</dt><dd>Pinch on a trackpad, or use <kbd>+</kbd> / <kbd>−</kbd>. <kbd>0</kbd> returns to reading size.</dd></div>
+      <div><dt>Turn</dt><dd>The bottom arrows, or <kbd>[</kbd> / <kbd>]</kbd>, move between verses and keep your place across the sheet.</dd></div>
+    </dl>
+    <p class="help-footnote">Fit gives an overview; 100% is a comfortable place to read. Two verses are included in this study. The English follows Pāli; alignment across traditions is provisional.</p>
+    <a href="notes.html">Textual notes and sources ↗</a>
+  </dialog>
+</body>
+</html>
+

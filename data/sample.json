@@ -1,0 +1,161 @@
+{
+  "sources": [
+    {
+      "key": "en",
+      "language": "English",
+      "reference": "Working translation"
+    },
+    {
+      "key": "pi",
+      "language": "Pāli",
+      "reference": "Dhp 1–2"
+    },
+    {
+      "key": "pd",
+      "language": "Patna",
+      "reference": "PDhp 1–2"
+    },
+    {
+      "key": "ga",
+      "language": "Gāndhārī",
+      "reference": "GDhp 201–202"
+    },
+    {
+      "key": "sa",
+      "language": "Sanskrit",
+      "reference": "Uv 31.23–24"
+    },
+    {
+      "key": "zh",
+      "language": "Chinese",
+      "reference": "T210 9.1–2"
+    },
+    {
+      "key": "bo",
+      "language": "Tibetan",
+      "reference": "Source pending"
+    }
+  ],
+  "verses": [
+    {
+      "no": 1,
+      "title": "The mind and suffering",
+      "rows": [
+        [
+          "Phenomena are preceded by mind.",
+          "manopubbaṅgamā dhammā,",
+          "manopūrvvaṁgamā dhammā",
+          "maṇopuvagama dhama",
+          "manaḥpūrvaṅgamā dharmā",
+          "心為法本，",
+          null
+        ],
+        [
+          "Mind is foremost; they are fashioned by mind.",
+          "manoseṭṭhā manomayā,",
+          "manośreṣṭhā manojavā",
+          "maṇośeṭha maṇojava",
+          "manaḥśreṣṭhā manojavāḥ",
+          "心尊心使，",
+          null
+        ],
+        [
+          "If someone, with a corrupted mind,",
+          "manasā ce paduṭṭhena",
+          "manasā ca praduṣṭena",
+          "maṇasa hi praduṭheṇa",
+          "manasā hi praduṣṭena",
+          "中心念惡，",
+          null
+        ],
+        [
+          "speaks or acts,",
+          "bhāsati vā karoti vā,",
+          "bhāṣate vā karoti vā",
+          "bhaṣadi va karodi va",
+          "bhāṣate vā karoti vā",
+          "即言即行，",
+          null
+        ],
+        [
+          "then suffering follows them,",
+          "tato naṁ dukkham anveti",
+          "tato naṁ dukham anneti",
+          "tado ṇa duhu amedi",
+          "tatas taṁ duḥkham anveti",
+          "罪苦自追，",
+          null
+        ],
+        [
+          "as the wheel follows the draft-ox’s foot.",
+          "cakkaṁ va vahato padaṁ.",
+          "cakram vā vahato padaṁ",
+          "cako va vahaṇe pathi.",
+          "cakraṁ vā vahataḥ padam",
+          "車轢于轍。",
+          null
+        ]
+      ]
+    },
+    {
+      "no": 2,
+      "title": "The mind and happiness",
+      "rows": [
+        [
+          "Phenomena are preceded by mind.",
+          "manopubbaṅgamā dhammā,",
+          "manopūrvvaṁgamā dhammā",
+          "maṇopuvagama dhama",
+          "manaḥpūrvaṅgamā dharmā",
+          "心為法本，",
+          null
+        ],
+        [
+          "Mind is foremost; they are fashioned by mind.",
+          "manoseṭṭhā manomayā,",
+          "manośreṣṭhā manojavā",
+          "maṇośeṭha maṇojava",
+          "manaḥśreṣṭhā manojavāḥ",
+          "心尊心使，",
+          null
+        ],
+        [
+          "If someone, with a clear mind,",
+          "manasā ce pasannena",
+          "manasā ca prasannena",
+          "maṇasa hi prasaneṇa",
+          "manasā hi prasannena",
+          "中心念善，",
+          null
+        ],
+        [
+          "speaks or acts,",
+          "bhāsati vā karoti vā,",
+          "bhāṣate vā karoti vā",
+          "bhaṣadi va karodi va",
+          "bhāṣate vā karoti vā",
+          "即言即行，",
+          null
+        ],
+        [
+          "then happiness follows them,",
+          "tato naṁ sukham anveti",
+          "tato naṁ sukham anneti",
+          "tado ṇa suhu amedi",
+          "tatas taṁ sukham anveti",
+          "福樂自追，",
+          null
+        ],
+        [
+          "like a shadow that never leaves.",
+          "chāyā va anapāyinī.",
+          "cchāyā vā anapāyinī",
+          "chaya va aṇukamiṇi.",
+          "cchāyā vā hy anugāminī",
+          "如影隨形。",
+          null
+        ]
+      ]
+    }
+  ]
+}
