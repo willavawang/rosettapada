@@ -52,7 +52,7 @@ for source in SOURCES:
         f'title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>'
     )
 verses = []
-for verse_index, verse in enumerate(VERSES):
+for verse in VERSES:
     poems = []
     for source in SOURCES:
         key = source["key"]
@@ -68,16 +68,11 @@ for verse_index, verse in enumerate(VERSES):
                 for line in lines
             ) + '</p>'
         poems.append(f'<section class="witness lang-{key}" data-language="{key}" lang="{LANGS[key]}" aria-labelledby="{poem_id}"{hidden}><h3 class="sr-only" id="{poem_id}">{e(label)}</h3>{content}</section>')
-    buttons = []
-    for direction, delta, symbol in [("Previous", -1, "‹"), ("Next", 1, "›")]:
-        target = verse_index + delta
-        attrs = f'data-verse-index="{target}"' if 0 <= target < len(VERSES) else "disabled"
-        buttons.append(f'<button class="verse-arrow" type="button" {attrs} aria-label="{direction} verse" title="{direction} verse">{symbol}</button>')
     verses.append(
         f'<section class="verse" id="dhp{verse["no"]}" data-verse="{verse["no"]}" aria-labelledby="verse-title-{verse["no"]}">'
         f'<h2 class="sr-only" id="verse-title-{verse["no"]}">Verse {verse["no"]}</h2>'
         f'<div class="verse-grid" style="--line-count:{len(verse["rows"])}">' + "\n".join(poems) + '</div>'
-        f'<nav class="verse-end-navigation" aria-label="Navigation after verse {verse["no"]}">' + "".join(buttons) + '</nav></section>'
+        '</section>'
     )
 render("index.html", COLUMN_HEADINGS="\n".join(headings), VERSES="\n".join(verses), LANGUAGE_SETTINGS="\n".join(settings))
 render("contents.html")

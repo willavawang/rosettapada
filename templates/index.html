@@ -33,13 +33,17 @@
   </main>
 
   <footer class="reading-controls">
+    <nav class="verse-navigation" aria-label="Verse navigation">
+      <button id="previous-verse" type="button" aria-label="Previous verse" title="Previous verse ([)" disabled>‹</button>
+      <button id="next-verse" type="button" aria-label="Next verse" title="Next verse (])">›</button>
+    </nav>
     <button id="open-settings" class="settings-button" type="button" aria-label="Languages" title="Languages" aria-controls="reading-settings" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><ellipse cx="12" cy="12" rx="3.8" ry="8.5"/><path d="M3.5 12h17"/></svg></button>
     <span id="location" class="sr-only" aria-live="polite" aria-atomic="true">Verse 1 of 2</span>
     <div class="zoom-controls" role="group" aria-label="Sheet magnification">
       <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out (−)">−</button>
       <button id="reset-zoom" type="button" aria-label="Reset magnification to 100 percent" title="Return to reading size (0)"><output id="zoom-label">100%</output></button>
       <button id="zoom-in" type="button" aria-label="Zoom in" title="Zoom in (+)">+</button>
-      <button id="fit-sheet" class="fit-button" type="button" aria-label="Fit visible columns to the window" aria-pressed="false" title="Fit visible columns"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 4H4v16h4M16 4h4v16h-4"/></svg></button>
+      <button id="fit-sheet" class="fit-button" type="button" aria-label="Fit visible columns to the window" aria-pressed="false" title="Fit visible columns"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5M4 4l6 6M15 20h5v-5M20 20l-6-6"/></svg></button>
     </div>
   </footer>
   <div class="sr-only" id="zoom-announcement" role="status"></div>
@@ -48,7 +52,7 @@
     <header class="settings-titlebar"><h2 id="settings-title">Languages</h2><button id="close-settings" type="button" aria-label="Close reading settings">×</button></header>
     <div class="settings-body">
       <ol id="language-options" class="language-options" aria-label="Language visibility and order">{{LANGUAGE_SETTINGS}}</ol>
-      <span class="sr-only" id="reorder-help">Drag this handle to reorder the language. With the handle focused, use the up and down arrow keys.</span>
+      <span class="sr-only" id="reorder-help">Drag anywhere on the language row except its checkbox to reorder. With the handle focused, use the up and down arrow keys.</span>
       <span class="sr-only" id="settings-announcement" role="status" aria-live="polite"></span>
     </div>
     <footer class="settings-footer"><button id="restore-languages" type="button">Restore defaults</button></footer>
@@ -60,8 +64,8 @@
     <dl class="help-list">
       <div><dt>Pan</dt><dd>Two-finger scroll in either direction, or hold <kbd>Space</kbd> and drag.</dd></div>
       <div><dt>Zoom</dt><dd>Pinch on a trackpad, or use <kbd>+</kbd> / <kbd>−</kbd>. <kbd>0</kbd> returns to reading size.</dd></div>
-      <div><dt>Turn</dt><dd>The arrows after each verse, or <kbd>[</kbd> / <kbd>]</kbd>, move between verses and keep your place across the sheet.</dd></div>
-      <div><dt>Arrange</dt><dd>Open Settings to show or hide languages. Drag a language’s handle to change the column order.</dd></div>
+      <div><dt>Turn</dt><dd>The arrows in the bottom bar, or <kbd>[</kbd> / <kbd>]</kbd>, move between verses and keep your place across the sheet.</dd></div>
+      <div><dt>Arrange</dt><dd>Open Languages to show or hide columns. Drag a language row to reorder it; click its checkbox to show or hide it.</dd></div>
     </dl>
     <p class="help-footnote">Fit gives an overview; 100% is a comfortable place to read. Two verses are included in this study. The English follows Pāli; alignment across traditions is provisional.</p>
     <a href="notes.html">Textual notes and sources ↗</a>

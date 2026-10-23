@@ -1,4 +1,18 @@
-# Reading study 04 — verification
+# Reading study 05 — verification
+
+23 October 2026. Chromium preview, desktop and embedded 375px / 320px viewports.
+
+- Verified: previous/next arrows are in the bottom bar; none remain between poems. The stanza gap is 40px.
+- Verified: dragging English by its name moved it from first to third place, updating headings and both verse grids without changing its checkbox. Dragging the blank middle of its row restored it to first place.
+- Verified: clicking the Chinese checkbox hid the heading and both Chinese poems without changing the column order.
+- Verified: next/previous preserve a 1363px horizontal reading offset; endpoint buttons disable correctly.
+- Verified: the new diagonal fit icon fits all default columns into the 1363px reading viewport at 47%.
+- Verified: all bottom controls fit within 320px with no document overflow. The language window also fits, from x=12px to x=308px. Scrollbars remain hidden.
+- Offline checks preserve the original sample checksum, sources, local links, and generated deployment pages. JavaScript syntax passes.
+
+Physical Safari trackpad gestures and physical mobile touch input remain unverified.
+
+## Previous study 04 record
 
 23 October 2026. Chromium preview, desktop and embedded 375px / 320px viewports.
 

@@ -52,10 +52,7 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 .column-name { display: block; font: 500 15px/1.6 system-ui, sans-serif; letter-spacing: .005em; }
 .column-reference { display: block; margin-top: 3px; font: 12px/1.6 system-ui, sans-serif; color: var(--muted); }
 .verses { padding-top: 23px; }
-.verse { position: relative; margin: 0 0 12px; scroll-margin-top: 100px; }
-.verse-end-navigation { position: sticky; left: var(--padding); width: max-content; display: flex; gap: 2px; margin: 6px 0 0; }
-.verse-arrow { display: grid; place-items: center; border: 0; background: none; color: var(--muted); height: 30px; width: 30px; padding: 0 0 3px; border-radius: 3px; font: 24px/1 Georgia, serif; }
-.verse-arrow:not(:disabled):hover { color: var(--ink); background: var(--hover); }
+.verse { position: relative; margin: 0 0 40px; scroll-margin-top: 100px; }
 .verse-grid { grid-template-rows: repeat(var(--line-count), minmax(40px, auto)); align-items: start; }
 .witness { min-width: 0; display: grid; grid-row: 1 / span var(--line-count); grid-template-rows: subgrid; }
 .poem { display: grid; grid-row: 1 / -1; grid-template-rows: subgrid; margin: 0; font-size: 21px; font-weight: 400; line-height: 1.86; letter-spacing: .002em; }
@@ -68,11 +65,13 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 .sheet-end { width: max-content; position: sticky; left: var(--padding); display: flex; gap: 30px; align-items: baseline; font: 12px/1.6 system-ui, sans-serif; color: var(--muted); }
 .sheet-end a { text-decoration: none; }
 .sheet-end a:hover { text-decoration: underline; }
-.reading-controls { flex: none; display: grid; grid-template-columns: 1fr auto; align-items: center; gap: 16px; min-height: 64px; padding: 8px 30px max(8px, env(safe-area-inset-bottom)); background: var(--paper); font: 12px/1.5 system-ui, sans-serif; z-index: 4; }
+.reading-controls { flex: none; display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: 16px; min-height: 64px; padding: 8px 30px max(8px, env(safe-area-inset-bottom)); background: var(--paper); font: 12px/1.5 system-ui, sans-serif; z-index: 4; }
 .reading-controls button { background: none; border: 0; border-radius: 50%; height: 40px; min-width: 40px; display: inline-grid; place-items: center; padding: 0; }
 .reading-controls button:not(:disabled):hover { background: var(--hover); }
-.reading-controls .settings-button { justify-self: start; border-radius: 3px; }
-.reading-controls svg { display: block; width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.4; }
+.verse-navigation { display: flex; align-items: center; gap: 2px; }
+.verse-navigation button { padding-bottom: 3px; font: 28px/1 Georgia, serif; }
+.reading-controls .settings-button { justify-self: center; border-radius: 3px; }
+.reading-controls svg { display: block; width: 21px; height: 21px; fill: none; stroke: currentColor; stroke-width: 1.4; stroke-linecap: round; stroke-linejoin: round; }
 .settings-button[aria-expanded="true"] { background: var(--hover); }
 .zoom-controls { display: flex; align-items: center; justify-self: end; gap: 2px; }
 .zoom-controls button { font: 22px/1 system-ui, sans-serif; }
@@ -99,15 +98,15 @@ dialog > a { display: inline-block; margin-top: 6px; font: 13px/1.5 system-ui, s
 .settings-body { padding: 17px 16px 12px; overflow-y: auto; max-height: calc(100dvh - 210px); }
 .settings-window .settings-section-title { margin: 0 0 10px; font: 500 12px/1.5 system-ui, sans-serif; color: var(--muted); }
 .language-options { list-style: none; padding: 0; margin: 0; }
-.language-option { position: relative; display: flex; align-items: center; gap: 10px; min-height: 39px; padding: 1px 4px 1px 7px; border-radius: 3px; }
+.language-option { position: relative; display: flex; align-items: center; gap: 10px; min-height: 39px; padding: 1px 4px 1px 7px; border-radius: 3px; cursor: grab; touch-action: none; user-select: none; -webkit-user-drag: none; }
 .language-option:hover, .language-option:focus-within { background: var(--hover); }
-.language-option label { display: flex; align-items: center; gap: 12px; flex: 1; padding: 7px 0; cursor: pointer; }
-.language-option input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); }
+.language-option label { display: flex; align-items: center; gap: 12px; flex: 1; padding: 7px 0; cursor: inherit; }
+.language-option input { width: 16px; height: 16px; margin: 0; accent-color: var(--accent); cursor: pointer; }
 .language-option .drag-handle { width: 28px; height: 28px; background: none; border: 0; border-radius: 2px; opacity: 0; color: var(--muted); font: 21px/1 system-ui, sans-serif; cursor: grab; touch-action: none; user-select: none; -webkit-user-drag: none; }
 .language-option:hover .drag-handle, .language-option:focus-within .drag-handle { opacity: .65; }
 .language-option .drag-handle:focus-visible { opacity: 1; }
 .language-option.is-dragging { opacity: .35; }
-.language-options.is-reordering, .language-options.is-reordering .drag-handle { cursor: grabbing; }
+.language-options.is-reordering, .language-options.is-reordering .language-option, .language-options.is-reordering .drag-handle { cursor: grabbing; }
 .language-option.drop-before::before, .language-option.drop-after::after { content: ''; position: absolute; left: 5px; right: 4px; height: 2px; background: var(--accent); pointer-events: none; }
 .language-option.drop-before::before { top: -1px; }
 .language-option.drop-after::after { bottom: -1px; }

@@ -6,6 +6,8 @@
   const sheet = document.getElementById('sheet');
   const headings = document.getElementById('column-headings');
   const verses = Array.from(sheet.querySelectorAll('.verse'));
+  const previousVerse = document.getElementById('previous-verse');
+  const nextVerse = document.getElementById('next-verse');
   const label = document.getElementById('location');
   const zoomLabel = document.getElementById('zoom-label');
   const announcement = document.getElementById('zoom-announcement');
@@ -98,6 +100,10 @@
     else hiddenLanguages.add(checkbox.dataset.language);
     applyLanguages();
   });
+  // Labels keep the checkbox's accessible name, but the rest of a row is a drag surface.
+  options.addEventListener('click', event => {
+    if (event.target.closest('.language-option') && !event.target.closest('input[type="checkbox"]')) event.preventDefault();
+  });
   options.addEventListener('keydown', event => {
     const handle = event.target.closest('.drag-handle');
     if (!handle || !['ArrowUp', 'ArrowDown'].includes(event.key)) return;
@@ -112,11 +118,11 @@
     if (pointerId !== undefined && options.hasPointerCapture(pointerId)) options.releasePointerCapture(pointerId);
   }
   options.addEventListener('pointerdown', event => {
-    const handle = event.target.closest('.drag-handle');
-    if (!handle || event.button !== 0) return;
+    const row = event.target.closest('.language-option');
+    if (!row || event.target.closest('input[type="checkbox"]') || event.button !== 0) return;
     event.preventDefault();
-    handle.focus({preventScroll: true});
-    languageDrag = {key: handle.dataset.language, pointerId: event.pointerId, x: event.clientX, y: event.clientY, started: false, before: null};
+    row.querySelector('.drag-handle').focus({preventScroll: true});
+    languageDrag = {key: row.dataset.language, pointerId: event.pointerId, x: event.clientX, y: event.clientY, started: false, before: null};
     options.setPointerCapture(event.pointerId);
   });
   options.addEventListener('pointermove', event => {
@@ -185,6 +191,8 @@
   }
   function updateNavigation(index) {
     active = clamp(index, 0, verses.length - 1);
+    previousVerse.disabled = active === 0;
+    nextVerse.disabled = active === verses.length - 1;
     const text = `Verse ${verses[active].dataset.verse} of ${verses.length}`;
     if (label.textContent !== text) label.textContent = text;
   }
@@ -242,7 +250,8 @@
     savePosition();
   }
   function hashIndex() { return verses.findIndex(verse => `#${verse.id}` === location.hash); }
-  sheet.querySelectorAll('[data-verse-index]').forEach(button => button.addEventListener('click', () => goTo(Number(button.dataset.verseIndex))));
+  previousVerse.addEventListener('click', () => goTo(active - 1));
+  nextVerse.addEventListener('click', () => goTo(active + 1));
   document.getElementById('zoom-out').addEventListener('click', () => setZoom(zoom / 1.18));
   document.getElementById('zoom-in').addEventListener('click', () => setZoom(zoom * 1.18));
   document.getElementById('reset-zoom').addEventListener('click', () => setZoom(1));

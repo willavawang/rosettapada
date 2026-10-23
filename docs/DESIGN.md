@@ -1,4 +1,4 @@
-# Reading study 04
+# Reading study 05
 
 The primary action is reading a poem. Comparison should be available with a movement of the hand, without turning each line into a database row.
 
@@ -14,7 +14,7 @@ The overall sheet intentionally exceeds the viewport. Fit reveals all seven colu
 
 ## Orientation and movement
 
-Language headings stay visible during vertical reading and move horizontally with their text. Visible verse titles and numbers are removed. The arrows sit after each verse within a compact stanza gap, staying reachable while panning. The top bar contains the wordmark and navigation; the bottom bar contains a globe, scale controls, and a brackets icon for fitting visible columns. Contextual taglines and introductory eyebrows are removed from the pages.
+Language headings stay visible during vertical reading and move horizontally with their text. Visible verse titles and numbers are removed, leaving a 40px stanza gap. Previous/next verse arrows stay in the bottom bar beside a globe and scale controls. The fit icon uses two diagonal arrows, with rounded strokes in the spirit of Apple's system iconography. Contextual taglines and introductory eyebrows are removed from the pages.
 
 Ordinary wheel and touch scrolling stay native. Trackpad pinch uses ctrl+wheel in Chromium and Safari gesture events where available. Browser Cmd/Ctrl zoom keyboard shortcuts remain untouched. Space+drag is optional, never required for basic navigation.
 
@@ -22,7 +22,7 @@ Zoom preserves the sheet point under the pointer; button zoom uses the viewport 
 
 ## Language window
 
-The globe opens a small nonmodal window with a title bar, close button, and language checkboxes. Changes immediately remove or restore the corresponding columns without leaving empty tracks. Subdued handles appear on hover or focus. Pointer dragging and keyboard up/down reorder the entire sheet, including its accessible reading order. Choices persist locally; Restore defaults restores the original order and hides pinyin. At least one column remains visible. Fit recomputes when the selected languages change.
+The globe opens a small nonmodal window with a title bar, close button, and language checkboxes. Changes immediately remove or restore the corresponding columns without leaving empty tracks. The whole row can be dragged, including its name and empty space; only the checkbox is reserved for visibility changes. Subdued handles appear on hover or focus and provide keyboard up/down reordering. Reordering updates the entire sheet, including its accessible reading order. Choices persist locally; Restore defaults restores the original order and hides pinyin. At least one column remains visible. Fit recomputes when the selected languages change.
 
 Pinyin is a separate optional modern Mandarin reading aid for the existing Chinese sample, initially hidden. It does not expand the historical corpus. Existing sample bytes and source references remain unchanged.
 

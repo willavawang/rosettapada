@@ -1,6 +1,6 @@
 # Rosettapada
 
-A quiet Dhammapada reading surface: English and six historical textual traditions on one continuous, unruled sheet. This is **reading study 04**, containing only the inherited two-verse sample and an optional Mandarin pinyin reading aid. Corpus research and the six-tradition concordance have not started.
+A quiet Dhammapada reading surface: English and six historical textual traditions on one continuous, unruled sheet. This is **reading study 05**, containing only the inherited two-verse sample and an optional Mandarin pinyin reading aid. Corpus research and the six-tradition concordance have not started.
 
 ## Read
 
@@ -16,9 +16,9 @@ Open `http://localhost:8000/`. No installation, API key, account, external font,
 - Two-finger scroll pans horizontally and vertically. Pinch zooms the sheet where supported.
 - `+` / `−` magnifies; `0` or the percentage button returns to 100%. **Fit** shows all seven columns.
 - Hold Space and drag to pan with a pointer. Without Space, text remains selectable.
-- Arrows after each verse or `[` / `]` move between verses while retaining horizontal position.
-- The globe button opens the Languages window. Show or hide columns with checkboxes; drag a row’s handle to reorder them. With a handle focused, the up and down arrow keys also reorder columns. Choices persist in the browser.
-- Chinese pinyin starts hidden and can be shown independently of Chinese characters. Fit follows the currently visible columns; its button uses a brackets icon.
+- Arrows in the bottom bar or `[` / `]` move between verses while retaining horizontal position.
+- The globe button opens the Languages window. Show or hide columns with checkboxes; drag anywhere else on a language row to reorder it. With a handle focused, the up and down arrow keys also reorder columns. Choices persist in the browser.
+- Chinese pinyin starts hidden and can be shown independently of Chinese characters. Fit follows the currently visible columns; its button uses a diagonal expand icon.
 - Contents links to chapter pages, rather than listing verses. Direct verse anchors still work. The current zoom and reading position survive visits to Notes within the browser tab.
 - Scrollbars are hidden throughout the site; native scrolling and panning remain available.
 - Browser zoom shortcuts remain available. The question-mark button explains the controls.
