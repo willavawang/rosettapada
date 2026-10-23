@@ -1,6 +1,6 @@
 # Rosettapada — Work brief
 
-## Current phase: reading experience, study 03
+## Current phase: reading experience, study 04
 
 Renamed from Dhammapada Rosetta on 23 October 2026. Use the existing two-verse sample and source references. Do not begin corpus research, scraping, translation, licensing review, or the six-tradition concordance without a separate instruction.
 
@@ -9,9 +9,11 @@ Renamed from Dhammapada Rosetta on 23 October 2026. Use the existing two-verse s
 1. One continuous, borderless sheet. English, Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan remain horizontally aligned. No visible table grid, cards, or fixed English pane.
 2. Legibility takes priority over fitting. Default English is 22px; historical romanized text is 21px. Horizontal overflow is intentional. Fit is an overview, not a reading-size default.
 3. Use native two-axis trackpad scrolling. Support pointer-centered pinch/gesture magnification and accessible zoom buttons. Preserve ordinary text selection; Space+drag is the optional pointer pan.
-4. Fixed bottom arrows move to previous/next verse, retain the horizontal reading position, and use addressable verse anchors.
-5. A separate Contents page links to included verses. Do not imply the rest of the catalogue is available.
-6. Keep the reading view quiet. Put source explanations and uncertainty in Notes; Tibetan remains explicitly “not yet verified.”
+4. Arrows sit after each verse, outside the fixed bottom bar. They retain horizontal reading position and use addressable verse anchors. Remove visible verse labels and editorial titles; leave a compact stanza gap.
+5. Contents links directly to chapter pages with an up-right arrow; do not list verses. Do not imply the rest of the catalogue is available.
+6. Keep the reading view quiet. Remove contextual taglines and introductory eyebrows. The wordmark is Rosettapada with no period. Put source explanations and uncertainty in Notes; Tibetan remains explicitly “not yet verified.”
+7. The bottom bar uses icons: a globe opens a window-style language panel, and brackets fit visible columns. Keep useful magnification feedback. Hide scrollbars everywhere without disabling native scrolling.
+8. Language checkboxes show/hide columns without empty gaps. Quiet drag handles reorder both headings and poems; support keyboard reordering too. Persist choices. Modern Mandarin pinyin for the two Chinese sample verses is an optional reading aid, hidden by default; it is not another historical tradition.
 
 ## Review before broader milestones
 

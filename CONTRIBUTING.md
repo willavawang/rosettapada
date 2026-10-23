@@ -9,5 +9,5 @@ The current task is interface evaluation. Keep changes within the reading experi
 - Change templates rather than only generated HTML. Run the build, integrity check, and JavaScript syntax check. Check the changed interaction in a browser.
 - Prefer small, reviewable interface changes. Record hardware-specific limitations honestly.
 
-Do not change the Atlas repository or enable a public deployment as part of routine reading-interface development.
+Keep the Atlas repository untouched. Preserve existing publication audiences. The approved GitHub Pages reading site is the primary review target; routine interface changes should update that existing site.
 

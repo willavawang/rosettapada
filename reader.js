@@ -6,15 +6,24 @@
   const sheet = document.getElementById('sheet');
   const headings = document.getElementById('column-headings');
   const verses = Array.from(sheet.querySelectorAll('.verse'));
-  const prev = document.getElementById('prev');
-  const next = document.getElementById('next');
   const label = document.getElementById('location');
   const zoomLabel = document.getElementById('zoom-label');
   const announcement = document.getElementById('zoom-announcement');
   const help = document.getElementById('reading-help');
+  const settings = document.getElementById('reading-settings');
+  const settingsButton = document.getElementById('open-settings');
+  const options = document.getElementById('language-options');
+  const settingsAnnouncement = document.getElementById('settings-announcement');
+  const columnHeads = Array.from(headings.children);
+  const defaultOrder = columnHeads.map(column => column.dataset.language);
+  const columnByKey = new Map(columnHeads.map(column => [column.dataset.language, column]));
+  const rowsByKey = new Map(Array.from(options.children).map(row => [row.dataset.language, row]));
+  const groups = [headings, ...document.querySelectorAll('.verse-grid')];
+  const groupColumns = groups.map(group => new Map(Array.from(group.children).map(column => [column.dataset.language, column])));
   const minZoom = .1;
   const maxZoom = 3;
-  const storageKey = 'rosettapada-reading-v3';
+  const storageKey = 'rosettapada-reading-v4';
+  const languageStorageKey = 'rosettapada-languages-v1';
   const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
   let zoom = 1;
   let active = 0;
@@ -25,6 +34,136 @@
   let frame = 0;
   let saveTimer;
   let announcementTimer;
+  let fitMode = false;
+  let languageOrder = defaultOrder.slice();
+  let hiddenLanguages = new Set(['zh-pinyin']);
+  let languageDrag = null;
+
+  try {
+    const saved = JSON.parse(localStorage.getItem(languageStorageKey));
+    if (saved && Array.isArray(saved.order)) languageOrder = Array.from(new Set([...saved.order.filter(key => defaultOrder.includes(key)), ...defaultOrder]));
+    if (saved && Array.isArray(saved.hidden)) hiddenLanguages = new Set(saved.hidden.filter(key => defaultOrder.includes(key)));
+    if (hiddenLanguages.size === defaultOrder.length) hiddenLanguages.delete('en');
+  } catch { /* Defaults work when storage is unavailable or its contents are invalid. */ }
+
+  function saveLanguages() {
+    try { localStorage.setItem(languageStorageKey, JSON.stringify({order: languageOrder, hidden: Array.from(hiddenLanguages)})); }
+    catch { /* Settings still apply for this visit. */ }
+  }
+  function orderChildren(parent, elements) {
+    languageOrder.forEach((key, index) => {
+      const element = elements.get(key);
+      if (parent.children[index] !== element) parent.insertBefore(element, parent.children[index] || null);
+    });
+  }
+  function applyLanguages(preservePosition = true) {
+    const oldTop = verses[active].getBoundingClientRect().top;
+    const oldLeft = viewport.scrollLeft;
+    const visible = languageOrder.filter(key => !hiddenLanguages.has(key));
+    sheet.style.setProperty('--columns', visible.map(key => columnByKey.get(key).dataset.width).join(' '));
+    groups.forEach((group, index) => {
+      groupColumns[index].forEach((element, key) => { element.hidden = hiddenLanguages.has(key); });
+      orderChildren(group, groupColumns[index]);
+    });
+    orderChildren(options, rowsByKey);
+    rowsByKey.forEach((row, key) => {
+      const checkbox = row.querySelector('input');
+      checkbox.checked = !hiddenLanguages.has(key);
+      checkbox.disabled = visible.length === 1 && checkbox.checked;
+      checkbox.title = checkbox.disabled ? 'Keep at least one column visible' : '';
+    });
+    updateTail();
+    if (preservePosition) {
+      viewport.scrollTop += verses[active].getBoundingClientRect().top - oldTop;
+      viewport.scrollLeft = oldLeft;
+      if (fitMode) fitSheet();
+      saveLanguages();
+      scheduleNavigation();
+    }
+  }
+  function moveLanguage(key, delta) {
+    const from = languageOrder.indexOf(key);
+    const to = clamp(from + delta, 0, languageOrder.length - 1);
+    if (from < 0 || from === to) return;
+    languageOrder.splice(from, 1);
+    languageOrder.splice(to, 0, key);
+    applyLanguages();
+    rowsByKey.get(key).querySelector('.drag-handle').focus({preventScroll: true});
+    settingsAnnouncement.textContent = `${columnByKey.get(key).querySelector('.column-name').textContent} moved to position ${to + 1}`;
+  }
+  options.addEventListener('change', event => {
+    const checkbox = event.target.closest('input[data-language]');
+    if (!checkbox) return;
+    if (checkbox.checked) hiddenLanguages.delete(checkbox.dataset.language);
+    else hiddenLanguages.add(checkbox.dataset.language);
+    applyLanguages();
+  });
+  options.addEventListener('keydown', event => {
+    const handle = event.target.closest('.drag-handle');
+    if (!handle || !['ArrowUp', 'ArrowDown'].includes(event.key)) return;
+    event.preventDefault();
+    moveLanguage(handle.dataset.language, event.key === 'ArrowUp' ? -1 : 1);
+  });
+  function clearLanguageDrag() {
+    const pointerId = languageDrag?.pointerId;
+    languageDrag = null;
+    options.classList.remove('is-reordering');
+    rowsByKey.forEach(row => row.classList.remove('is-dragging', 'drop-before', 'drop-after'));
+    if (pointerId !== undefined && options.hasPointerCapture(pointerId)) options.releasePointerCapture(pointerId);
+  }
+  options.addEventListener('pointerdown', event => {
+    const handle = event.target.closest('.drag-handle');
+    if (!handle || event.button !== 0) return;
+    event.preventDefault();
+    handle.focus({preventScroll: true});
+    languageDrag = {key: handle.dataset.language, pointerId: event.pointerId, x: event.clientX, y: event.clientY, started: false, before: null};
+    options.setPointerCapture(event.pointerId);
+  });
+  options.addEventListener('pointermove', event => {
+    if (!languageDrag || languageDrag.pointerId !== event.pointerId) return;
+    if (!languageDrag.started && Math.hypot(event.clientX - languageDrag.x, event.clientY - languageDrag.y) < 4) return;
+    languageDrag.started = true;
+    options.classList.add('is-reordering');
+    rowsByKey.get(languageDrag.key).classList.add('is-dragging');
+    rowsByKey.forEach(row => row.classList.remove('drop-before', 'drop-after'));
+    const before = Array.from(options.children).find(row => {
+      if (row.dataset.language === languageDrag.key) return false;
+      const rect = row.getBoundingClientRect();
+      return event.clientY < rect.top + rect.height / 2;
+    });
+    languageDrag.before = before?.dataset.language || null;
+    if (before) before.classList.add('drop-before');
+    else options.lastElementChild.classList.add('drop-after');
+  });
+  options.addEventListener('pointerup', event => {
+    if (!languageDrag || languageDrag.pointerId !== event.pointerId) return;
+    const drag = languageDrag;
+    const rect = options.getBoundingClientRect();
+    const inside = event.clientX >= rect.left - 24 && event.clientX <= rect.right + 24 && event.clientY >= rect.top - 24 && event.clientY <= rect.bottom + 24;
+    clearLanguageDrag();
+    if (!drag.started || !inside) return;
+    languageOrder = languageOrder.filter(key => key !== drag.key);
+    const index = drag.before === null ? languageOrder.length : languageOrder.indexOf(drag.before);
+    languageOrder.splice(index, 0, drag.key);
+    applyLanguages();
+    rowsByKey.get(drag.key).querySelector('.drag-handle').focus({preventScroll: true});
+    settingsAnnouncement.textContent = 'Column order updated';
+  });
+  options.addEventListener('pointercancel', clearLanguageDrag);
+  options.addEventListener('lostpointercapture', clearLanguageDrag);
+  document.getElementById('restore-languages').addEventListener('click', () => {
+    languageOrder = defaultOrder.slice();
+    hiddenLanguages = new Set(['zh-pinyin']);
+    applyLanguages();
+    settingsAnnouncement.textContent = 'Default languages and order restored';
+  });
+  function closeSettings() { settings.close(); settingsButton.focus({preventScroll: true}); }
+  settingsButton.addEventListener('click', () => {
+    if (settings.open) closeSettings();
+    else { releasePan(); settings.show(); settingsButton.setAttribute('aria-expanded', 'true'); }
+  });
+  document.getElementById('close-settings').addEventListener('click', closeSettings);
+  settings.addEventListener('close', () => settingsButton.setAttribute('aria-expanded', 'false'));
 
   function readPosition() {
     try { return JSON.parse(sessionStorage.getItem(storageKey)) || {}; }
@@ -48,11 +187,9 @@
     active = clamp(index, 0, verses.length - 1);
     const text = `Verse ${verses[active].dataset.verse} of ${verses.length}`;
     if (label.textContent !== text) label.textContent = text;
-    prev.disabled = active === 0;
-    next.disabled = active === verses.length - 1;
   }
   function readingTop() {
-    return viewport.getBoundingClientRect().top + headings.getBoundingClientRect().height + 28 * zoom;
+    return viewport.getBoundingClientRect().top + headings.getBoundingClientRect().height + 16 * zoom;
   }
   function syncNavigation() {
     frame = 0;
@@ -68,8 +205,10 @@
 
   // CSS zoom keeps glyphs crisp and lets native scrolling use the scaled layout.
   // Disable browser scroll anchoring in CSS, then preserve the content point beneath the pointer.
-  function setZoom(factor, clientX, clientY) {
+  function setZoom(factor, clientX, clientY, mode = 'manual') {
     if (!Number.isFinite(factor)) return;
+    fitMode = mode === 'fit';
+    document.getElementById('fit-sheet').setAttribute('aria-pressed', String(fitMode));
     const target = clamp(factor, minZoom, maxZoom);
     if (Math.abs(target - zoom) < .0001) return;
     const rect = viewport.getBoundingClientRect();
@@ -103,14 +242,12 @@
     savePosition();
   }
   function hashIndex() { return verses.findIndex(verse => `#${verse.id}` === location.hash); }
-  prev.addEventListener('click', () => goTo(active - 1));
-  next.addEventListener('click', () => goTo(active + 1));
+  sheet.querySelectorAll('[data-verse-index]').forEach(button => button.addEventListener('click', () => goTo(Number(button.dataset.verseIndex))));
   document.getElementById('zoom-out').addEventListener('click', () => setZoom(zoom / 1.18));
   document.getElementById('zoom-in').addEventListener('click', () => setZoom(zoom * 1.18));
   document.getElementById('reset-zoom').addEventListener('click', () => setZoom(1));
-  document.getElementById('fit-sheet').addEventListener('click', () => {
-    setZoom(Math.min(1, viewport.clientWidth / sheet.offsetWidth));
-  });
+  function fitSheet() { setZoom(Math.min(1, viewport.clientWidth / sheet.offsetWidth), undefined, undefined, 'fit'); }
+  document.getElementById('fit-sheet').addEventListener('click', fitSheet);
   viewport.addEventListener('scroll', scheduleNavigation, {passive: true});
 
   // Chromium reports a trackpad pinch as ctrl+wheel; ordinary wheel events stay native.
@@ -162,7 +299,8 @@
   function releasePan() { spaceHeld = false; viewport.classList.remove('pannable'); stopDrag(); }
   const interactiveTarget = target => target instanceof Element && target.closest('button, a, input, textarea, select, [contenteditable="true"], dialog');
   document.addEventListener('keydown', event => {
-    if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing || help.open || interactiveTarget(event.target)) return;
+    if (event.key === 'Escape' && settings.open && !help.open) { event.preventDefault(); closeSettings(); return; }
+    if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing || help.open || settings.open || interactiveTarget(event.target)) return;
     if (event.code === 'Space') {
       event.preventDefault();
       spaceHeld = true;
@@ -203,17 +341,19 @@
     else { viewport.scrollTop = 0; updateNavigation(0); }
   });
   window.addEventListener('hashchange', () => { const index = hashIndex(); if (index >= 0) goTo(index, 'none'); });
-  window.addEventListener('resize', () => { updateTail(); scheduleNavigation(); });
+  window.addEventListener('resize', () => { updateTail(); if (fitMode) fitSheet(); scheduleNavigation(); });
   window.addEventListener('pagehide', savePosition);
   document.querySelectorAll('a[href="contents.html"], a[href="notes.html"]').forEach(link => link.addEventListener('click', savePosition));
   const saved = readPosition();
   const initialHash = hashIndex();
+  applyLanguages(false);
   updateTail();
   // Wait through the browser's initial anchor positioning before restoring the sheet.
   requestAnimationFrame(() => requestAnimationFrame(() => {
     if (Number.isFinite(saved.zoom)) setZoom(saved.zoom, 0, viewport.getBoundingClientRect().top);
     viewport.scrollLeft = Number.isFinite(saved.left) ? saved.left : 0;
-    if (initialHash >= 0) goTo(initialHash, 'none');
+    if (location.hash === '#chapter1') { viewport.scrollTop = 0; viewport.scrollLeft = 0; }
+    else if (initialHash >= 0) goTo(initialHash, 'none');
     else if (Number.isFinite(saved.top)) viewport.scrollTop = saved.top;
     syncNavigation();
   }));

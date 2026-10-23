@@ -45,9 +45,12 @@ data_path = ROOT / "data/sample.json"
 provenance = json.loads((ROOT / "data/provenance.json").read_text())
 assert hashlib.sha256(data_path.read_bytes()).hexdigest() == provenance["sample_sha256"], "The inherited sample changed; this phase must preserve it."
 data = json.loads(data_path.read_text())
+pinyin = {verse['no']: verse['lines'] for verse in json.loads((ROOT / 'data/pinyin.json').read_text())['verses']}
+assert set(pinyin) == {verse['no'] for verse in data['verses']}, 'Pinyin must cover exactly the existing sample.'
 for verse in data["verses"]:
     assert all(len(row) == len(data["sources"]) for row in verse["rows"]), "Ragged sample data"
     assert f'dhp{verse["no"]}' in pages["index.html"].ids, "Missing verse deep link"
+    assert len(pinyin[verse['no']]) == len(verse['rows']), 'Pinyin alignment does not match the Chinese sample.'
 original_urls = set(Page(ROOT / "docs/archive/notes-v2.html").links)
 original_urls = {url for url in original_urls if url.startswith("https://")}
 assert original_urls <= set(pages["notes.html"].links), "An inherited source URL was removed."

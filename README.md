@@ -1,6 +1,6 @@
 # Rosettapada
 
-A quiet Dhammapada reading surface: English and six historical textual traditions on one continuous, unruled sheet. This is **reading study 03**, containing only the inherited two-verse sample. Corpus research and the six-tradition concordance have not started.
+A quiet Dhammapada reading surface: English and six historical textual traditions on one continuous, unruled sheet. This is **reading study 04**, containing only the inherited two-verse sample and an optional Mandarin pinyin reading aid. Corpus research and the six-tradition concordance have not started.
 
 ## Read
 
@@ -16,8 +16,11 @@ Open `http://localhost:8000/`. No installation, API key, account, external font,
 - Two-finger scroll pans horizontally and vertically. Pinch zooms the sheet where supported.
 - `+` / `−` magnifies; `0` or the percentage button returns to 100%. **Fit** shows all seven columns.
 - Hold Space and drag to pan with a pointer. Without Space, text remains selectable.
-- Bottom arrows or `[` / `]` move between verses while retaining horizontal position.
-- Contents links open individual verses. The current zoom and reading position survive visits to Contents and Notes within the browser tab.
+- Arrows after each verse or `[` / `]` move between verses while retaining horizontal position.
+- The globe button opens the Languages window. Show or hide columns with checkboxes; drag a row’s handle to reorder them. With a handle focused, the up and down arrow keys also reorder columns. Choices persist in the browser.
+- Chinese pinyin starts hidden and can be shown independently of Chinese characters. Fit follows the currently visible columns; its button uses a brackets icon.
+- Contents links to chapter pages, rather than listing verses. Direct verse anchors still work. The current zoom and reading position survive visits to Notes within the browser tab.
+- Scrollbars are hidden throughout the site; native scrolling and panning remain available.
 - Browser zoom shortcuts remain available. The question-mark button explains the controls.
 
 ## Develop
@@ -35,6 +38,7 @@ Edit `templates/*.html`, `styles.css`, and `reader.js`, then rebuild. Generated 
 | Location | Purpose |
 | --- | --- |
 | `data/sample.json` | Unchanged text from the v2 prototype; not a verified corpus |
+| `data/pinyin.json` | Optional modern Mandarin reading aid for the two Chinese sample verses |
 | `templates/` | Reader, contents, and textual-notes templates |
 | `styles.css` | Typography, invisible line alignment, and responsive controls |
 | `reader.js` | Native panning, zoom, navigation, keyboard and session position |
@@ -47,7 +51,7 @@ Edit `templates/*.html`, `styles.css`, and `reader.js`, then rebuild. Generated 
 
 ## GitHub
 
-Source repository: [willavawang/rosettapada](https://github.com/willavawang/rosettapada). This project is separate from the Buddhist Scripture Atlas. CI checks the static build on pushes and pull requests. The optional **Publish GitHub Pages** workflow is manual; it does not publish on push. It requires Pages to be configured for GitHub Actions and a suitable repository/account plan.
+Source repository: [willavawang/rosettapada](https://github.com/willavawang/rosettapada). Reading site: [willavawang.github.io/rosettapada](https://willavawang.github.io/rosettapada/). This project is separate from the Buddhist Scripture Atlas. CI checks the static build on pushes and pull requests. Generated root HTML supports Pages publishing from `main` / `(root)`. The optional **Publish GitHub Pages** workflow remains manual for deployments configured to use GitHub Actions.
 
 The repository was created public; its visibility has been preserved. The working reading-study Site is private. No blanket license has been applied to the inherited text samples; source permissions and editorial verification remain deferred. The tracked `.openai/hosting.json` binds the private working Site and should be preserved when continuing that Site.
 

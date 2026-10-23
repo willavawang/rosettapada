@@ -1,0 +1,12 @@
+{
+  "language": "Modern Mandarin",
+  "status": "Editorial reading aid for the existing Chinese sample; not a historical textual witness",
+  "verses": [
+    {"no": 1, "lines": ["xīn wéi fǎ běn,", "xīn zūn xīn shǐ,", "zhōng xīn niàn è,", "jí yán jí xíng,", "zuì kǔ zì zhuī,", "chē lì yú zhé."]},
+    {"no": 2, "lines": ["xīn wéi fǎ běn,", "xīn zūn xīn shǐ,", "zhōng xīn niàn shàn,", "jí yán jí xíng,", "fú lè zì zhuī,", "rú yǐng suí xíng."]}
+  ],
+  "pronunciation_references": [
+    "https://dict.revised.moe.edu.tw/dictView.jsp?ID=3498&la=0&powerMode=0",
+    "https://dict.revised.moe.edu.tw/dictView.jsp?ID=7687&la=0&powerMode=0"
+  ]
+}

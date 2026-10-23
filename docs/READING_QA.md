@@ -1,4 +1,20 @@
-# Reading study 03 — verification
+# Reading study 04 — verification
+
+23 October 2026. Chromium preview, desktop and embedded 375px / 320px viewports.
+
+- Verified: no visible verse labels or wordmark period; compact 48px interval between verse grids; arrows appear after verses and are absent from the bottom bar.
+- Verified: globe opens the Languages window; Chinese can be hidden; pinyin can be shown independently and starts hidden on a clean preference set.
+- Verified: pointer drag changed English from second to third position, updating headings and both poems; keyboard up/down moved pinyin to first position. Language choices survived a reload.
+- Verified: one-column mode works and protects the final visible column; Restore defaults restores the original order and pinyin-off state.
+- Verified: Fit recomputes for selected columns; the fitted sheet measured 1362.86px in a 1363px viewport after hiding Chinese.
+- Verified: Contents contains a chapter link, no verse list, and opens the start of the chapter even after reading verse 2.
+- Verified: scrollbar styles are `none` on the reader, document, and window. Native panning and verse navigation still work.
+- Verified: the bottom bar and language window fit at 375px and 320px. A small 320px masthead overflow was corrected by reducing the wordmark size and header gap.
+- Offline checks preserve the original sample checksum, local links, source references, and pinyin/sample line counts.
+
+Physical Safari trackpad gestures and physical mobile touch input remain unverified.
+
+## Previous study 03 record
 
 23 October 2026. Checked in the managed Chromium preview at 1363 × 936 pixels.
 
