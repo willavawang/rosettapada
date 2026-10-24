@@ -1,0 +1,93 @@
+{
+  "repository": "cbeta-org/xml-p5",
+  "commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+  "files": [
+    {
+      "file": "T04n0210-selected.xml",
+      "upstream_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+      "upstream_sha256": "0bf13c3a42b9fdfa1604d5f31a17eaee41ef2a507a398afd422070b88e41c2f6",
+      "selected_sha256": "f6f2bffc17f720f94af247e2f44d0834870886d9963d851b91881a7a7918ba37",
+      "selected_chapters": [
+        9,
+        10,
+        11,
+        31
+      ],
+      "bytes": 518379,
+      "selected_readings": [
+        "T210 9.1",
+        "T210 9.2",
+        "T210 9.5",
+        "T210 9.6",
+        "T210 9.7",
+        "T210 9.8",
+        "T210 9.9",
+        "T210 9.10",
+        "T210 9.11",
+        "T210 9.12",
+        "T210 9.13",
+        "T210 9.14",
+        "T210 9.17",
+        "T210 9.18",
+        "T210 9.19",
+        "T210 9.20",
+        "T210 9.21",
+        "T210 9.22",
+        "T210 10.1",
+        "T210 10.2",
+        "T210 10.3",
+        "T210 10.4",
+        "T210 10.5",
+        "T210 10.6",
+        "T210 10.7",
+        "T210 10.8",
+        "T210 10.9",
+        "T210 10.13",
+        "T210 11.1",
+        "T210 11.2",
+        "T210 11.3",
+        "T210 11.4",
+        "T210 11.5",
+        "T210 11.6",
+        "T210 11.12",
+        "T210 11.9",
+        "T210 11.11",
+        "T210 31.17"
+      ],
+      "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained."
+    },
+    {
+      "file": "T04n0212-selected.xml",
+      "upstream_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0212.xml",
+      "upstream_sha256": "689dd93a727688b1309b6f002ee248ef81154e3313626aef933c0fef762f2779",
+      "selected_sha256": "17a4f4b6c110683e0dede5656ef439fd23160400a5ce78848790e3e0019f093a",
+      "selected_chapters": [
+        15,
+        32
+      ],
+      "bytes": 2854332,
+      "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained.",
+      "selected_readings": [
+        "T212 15.7",
+        "T212 32.2"
+      ]
+    },
+    {
+      "file": "T04n0213-selected.xml",
+      "upstream_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0213.xml",
+      "upstream_sha256": "9988e80c56ca710e39b6341b6cd6fb741ee852e0f4f2173b90fbd6626d091f48",
+      "selected_sha256": "14682d4c6afbdb3ad189de15e1fb1aae2eb60f48c227c523fbfa02e5d9f0ef83",
+      "selected_chapters": [
+        4,
+        14
+      ],
+      "bytes": 230565,
+      "selected_readings": [
+        "T213 4.24",
+        "T213 4.32",
+        "T213 14.10"
+      ],
+      "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained."
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+<?xml version='1.0' encoding='utf-8'?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T04n0210"><teiHeader>
+  <fileDesc>
+    <titleStmt>
+      <title level="s">Taishō Tripiṭaka</title>
+      <title level="s" xml:lang="zh-Hant">大正新脩大藏經</title>
+      <title level="m" xml:lang="zh-Hant">法句經</title>
+      <title>Taishō Tripiṭaka, Electronic version, No. 210 法句經</title>
+      <title xml:lang="zh-Hant">大正新脩大藏經數位版, No. 210 法句經</title>
+      <author>法救撰　吳 維祇難等譯</author>
+      <respStmt>
+        <resp>Electronic Version by</resp>
+        <name>CBETA</name>
+      </respStmt>
+    </titleStmt>
+    <editionStmt>
+      <edition>XML TEI P5</edition>
+      <respStmt xml:id="resp1"><resp>corrections</resp><name>CBETA</name></respStmt>
+      <respStmt xml:id="resp2"><resp>corrections</resp><name>Taisho</name></respStmt>
+      <respStmt xml:id="resp3"><resp>corrections</resp><name>CBETA.maha</name></respStmt>
+      <respStmt xml:id="resp4"><resp>corrections</resp><name>CBETA.grace</name></respStmt>
+      <respStmt xml:id="resp5"><resp>corrections</resp><name>CBETA.liyi</name></respStmt>
+      <respStmt xml:id="resp6"><resp>corrections</resp><name>CBETA.say</name></respStmt>
+    </editionStmt>
+    <extent>2卷</extent>
+    <publicationStmt>
+      <idno type="CBETA">
+        <idno type="canon">T</idno>.<idno type="vol">4</idno>.<idno type="no">210</idno>
+      </idno>
+      <distributor>
+        <name>財團法人佛教電子佛典基金會 (CBETA)</name>
+        <address>
+          <addrLine><email>service@cbeta.org</email></addrLine>
+        </address>
+      </distributor>
+      <availability>
+        <p>Available for non-commercial use when distributed with this header intact.</p>
+      </availability>
+      <date>2026-06-15 07:11:47 +0800</date>
+    </publicationStmt>
+    <sourceDesc>
+      <bibl>大正新脩大藏經</bibl>
+    </sourceDesc>
+  </fileDesc>
+  <encodingDesc>
+    <projectDesc>
+      <p xml:lang="en" cb:type="ly">Text as provided by Mr. Hsiao Chen-Kuo, Tripitaka Koreana as provided by Mr. Christian Wittern, Text as provided by Anonymous from USA, Punctuated text as provided by Mao Pei-Jun and Liao Yu-An</p>
+      <p xml:lang="zh-Hant" cb:type="ly">蕭鎮國大德提供，維習安大德提供之高麗藏 CD 經文，北美某大德提供，毛佩君、廖予安大德提供新式標點</p>
+    </projectDesc>
+    <editorialDecl>
+      <punctuation resp="#resp1"><p>新式標點</p></punctuation>
+    </editorialDecl>
+    <tagsDecl>
+      <namespace name="http://www.tei-c.org/ns/1.0">
+        <tagUsage gi="rdg">
+          <listWit>
+            <witness xml:id="wit.cbeta">【CB】</witness>
+            <witness xml:id="wit.orig">【大】</witness>
+            <witness xml:id="wit1">【聖】</witness>
+            <witness xml:id="wit2">【明】</witness>
+            <witness xml:id="wit3">【宋】</witness>
+            <witness xml:id="wit4">【元】</witness>
+            <witness xml:id="wit5">【麗-CB】</witness>
+            <witness xml:id="wit6">【磧-CB】</witness>
+            <witness xml:id="wit7">【北藏-CB】</witness>
+          </listWit>
+        </tagUsage>
+      </namespace>
+    </tagsDecl>
+    <charDecl>
+      <char xml:id="CB00191">
+        <charName>CBETA CHARACTER CB00191</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[歹*凶]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>凶</value>
+        </charProp>
+        <mapping type="unicode">U+239D1</mapping>
+        <mapping cb:dec="983231" type="PUA">U+F00BF</mapping>
+      </char>
+      <char xml:id="CB00220">
+        <charName>CBETA CHARACTER CB00220</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[王*步]</value>
+        </charProp>
+        <mapping type="unicode">U+3EC9</mapping>
+        <mapping cb:dec="983260" type="PUA">U+F00DC</mapping>
+      </char>
+      <char xml:id="CB00440">
+        <charName>CBETA CHARACTER CB00440</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[門@視]</value>
+        </charProp>
+        <mapping type="unicode">U+28DB3</mapping>
+        <mapping cb:dec="983480" type="PUA">U+F01B8</mapping>
+      </char>
+      <char xml:id="CB00752">
+        <charName>CBETA CHARACTER CB00752</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[卄/(阿-可+辛)/女]</value>
+        </charProp>
+        <mapping type="unicode">U+26FA8</mapping>
+        <mapping cb:dec="983792" type="PUA">U+F02F0</mapping>
+      </char>
+      <char xml:id="CB00834">
+        <charName>CBETA CHARACTER CB00834</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[烈-列+(里*吉)]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>黠</value>
+        </charProp>
+        <mapping type="unicode">U+2DD91</mapping>
+        <mapping cb:dec="983874" type="PUA">U+F0342</mapping>
+      </char>
+      <char xml:id="CB00985">
+        <charName>CBETA CHARACTER CB00985</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[億-音+(夫*夫)]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>愆</value>
+        </charProp>
+        <mapping type="unicode">U+2039D</mapping>
+        <mapping cb:dec="984025" type="PUA">U+F03D9</mapping>
+      </char>
+      <char xml:id="CB02141">
+        <charName>CBETA CHARACTER CB02141</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[狂-王+苟]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>狗</value>
+        </charProp>
+        <mapping type="unicode">U+3E83</mapping>
+        <mapping cb:dec="985181" type="PUA">U+F085D</mapping>
+      </char>
+      <char xml:id="CB02560">
+        <charName>CBETA CHARACTER CB02560</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[雨/井]</value>
+        </charProp>
+        <mapping type="unicode">U+4A0D</mapping>
+        <mapping cb:dec="985600" type="PUA">U+F0A00</mapping>
+      </char>
+      <char xml:id="CB02578">
+        <charName>CBETA CHARACTER CB02578</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[跳-兆+參]</value>
+        </charProp>
+        <mapping type="unicode">U+2E712</mapping>
+        <mapping cb:dec="985618" type="PUA">U+F0A12</mapping>
+      </char>
+      <char xml:id="CB02581">
+        <charName>CBETA CHARACTER CB02581</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[榮-木+巾]</value>
+        </charProp>
+        <mapping type="unicode">U+2210B</mapping>
+        <mapping cb:dec="985621" type="PUA">U+F0A15</mapping>
+      </char>
+      <char xml:id="CB05670">
+        <charName>CBETA CHARACTER CB05670</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[卄/兩]</value>
+        </charProp>
+        <mapping type="unicode">U+44E3</mapping>
+        <mapping cb:dec="988710" type="PUA">U+F1626</mapping>
+      </char>
+      <char xml:id="CB05682">
+        <charName>CBETA CHARACTER CB05682</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[穴/侵]</value>
+        </charProp>
+        <mapping type="unicode">U+2E10A</mapping>
+        <mapping cb:dec="988722" type="PUA">U+F1632</mapping>
+      </char>
+      <char xml:id="CB05683">
+        <charName>CBETA CHARACTER CB05683</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[穴/(妍-女)]</value>
+        </charProp>
+        <mapping type="unicode">U+25934</mapping>
+        <mapping cb:dec="988723" type="PUA">U+F1633</mapping>
+      </char>
+      <char xml:id="CB05698">
+        <charName>CBETA CHARACTER CB05698</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[仁-二+丸]</value>
+        </charProp>
+        <charProp>
+          <localName>normalized form</localName>
+          <value>仇</value>
+        </charProp>
+        <mapping type="unicode">U+2CF66</mapping>
+        <mapping cb:dec="988738" type="PUA">U+F1642</mapping>
+      </char>
+      <char xml:id="CB05702">
+        <charName>CBETA CHARACTER CB05702</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[泳-永+志]</value>
+        </charProp>
+        <mapping type="unicode">U+2C1E8</mapping>
+        <mapping cb:dec="988742" type="PUA">U+F1646</mapping>
+      </char>
+      <char xml:id="CB05724">
+        <charName>CBETA CHARACTER CB05724</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[旅/(同-(一/口)+夕)]</value>
+        </charProp>
+        <mapping cb:dec="988764" type="PUA">U+F165C</mapping>
+      </char>
+      <char xml:id="CB17769">
+        <charName>CBETA CHARACTER CB17769</charName>
+        <charProp>
+          <localName>composition</localName>
+          <value>[愨-心+牛]</value>
+        </charProp>
+        <mapping type="unicode">U+246BC</mapping>
+        <mapping cb:dec="1000809" type="PUA">U+F4569</mapping>
+      </char>
+    </charDecl>
+  </encodingDesc>
+  <profileDesc>
+    <langUsage>
+      <language ident="pi">Pali</language>
+      <language ident="en">English</language>
+      <language ident="zh-Hant">Chinese (Traditional)</language>
+      <language ident="x-unknown"/>
+    </langUsage>
+  </profileDesc>
+  <revisionDesc>
+    <change when="2013-05-20">
+      <name>CW</name><name>Ray Chou 周邦信</name>P4 to P5 conversion by p4top5a.py, intended for publication
+    </change>
+    <change when="1999-08-10T22:49:35">
+      CW (ed.) Created initial TEI XML version with BASICX.BAT (99/8/10)
+    </change>
+  </revisionDesc>
+</teiHeader>
+<text><body><cb:div type="pin"><cb:mulu level="1" n="9" type="品">9 雙要品</cb:mulu><head><anchor xml:id="nkr_note_orig_0562004" n="0562004"/><anchor xml:id="nkr_note_equivalent_0562004" n="0562004"/>雙要品<title><anchor xml:id="beg_14" type="star"/>法句經<anchor xml:id="end_14"/></title>第九<anchor xml:id="fxT04p0562a02"/>二十有二章</head>
+<lg xml:id="selected-pali001-1" corresp="T210 9.1" type="selected-verse"><l><lb n="0562a13" ed="T"/>心為法本，</l><l>心尊心使，</l><l>中心念惡，</l><l><lb n="0562a14" ed="T"/>即言即行，</l><l>罪苦自追，</l><l>車轢于轍；</l></lg><lg xml:id="selected-pali002-1" corresp="T210 9.2" type="selected-verse"><l><lb n="0562a15" ed="T"/>心為法本，</l><l>心尊心使，</l><l>中心念善，</l><l><lb n="0562a16" ed="T"/>即言即行，</l><l>福樂自追，</l><l>如影隨形。</l></lg><lg xml:id="selected-pali005-1" corresp="T210 9.5" type="selected-verse"><l><lb n="0562a19" ed="T"/>慍於怨者，</l><l><lb n="0562a20" ed="T"/>未甞無怨；</l><l>不慍自除，</l><l>是道可宗。</l></lg><lg xml:id="selected-pali006-1" corresp="T210 9.6" type="selected-verse"><l><lb n="0562a21" ed="T"/>不好責彼，</l><l>務自省身，</l><l>如有知此，</l><l><lb n="0562a22" ed="T"/>永滅無患。</l></lg><lg xml:id="selected-pali007-1" corresp="T210 9.7" type="selected-verse"><l><lb n="0562a22" ed="T"/>行見身淨，</l><l>不攝諸根，</l><l><lb n="0562a23" ed="T"/>飲食不節，</l><l>慢墮怯弱，</l><l>為邪所制，</l><l><lb n="0562a24" ed="T"/>如風靡草；</l></lg><lg xml:id="selected-pali008-1" corresp="T210 9.8" type="selected-verse"><l><lb n="0562a24" ed="T"/>觀身不淨，</l><l>能攝諸根，</l><l><lb n="0562a25" ed="T"/>食知節度，</l><l>常樂精進，</l><l>不為邪動，</l><l><lb n="0562a26" ed="T"/>如風大山。</l></lg><lg xml:id="selected-pali009-1" corresp="T210 9.9" type="selected-verse"><l><lb n="0562a26" ed="T"/>不吐毒態，</l><l>欲心馳騁，</l><l><lb n="0562a27" ed="T"/>未能自調，</l><l>不應法衣；</l></lg><lg xml:id="selected-pali010-1" corresp="T210 9.10" type="selected-verse"><l><lb n="0562a27" ed="T"/>能吐毒態，</l><l><lb n="0562a28" ed="T"/>戒意安靜，</l><l>降心已調，</l><l>此應法衣。</l></lg><lg xml:id="selected-pali011-1" corresp="T210 9.11" type="selected-verse"><l><lb n="0562a29" ed="T"/>以真為偽、</l><l>以偽為真，</l><l>是為邪計，</l><l><lb n="0562b01" ed="T"/>不得真利；</l></lg><lg xml:id="selected-pali012-1" corresp="T210 9.12" type="selected-verse"><l><lb n="0562b01" ed="T"/>知真為真、</l><l>見偽知偽，</l><l><lb n="0562b02" ed="T"/>是為正計，</l><l>必得真利。</l></lg><lg xml:id="selected-pali013-1" corresp="T210 9.13" type="selected-verse"><l><lb n="0562b02" ed="T"/>蓋屋不密，</l><l><lb n="0562b03" ed="T"/>天雨則漏，</l><l>意不惟行，</l><l>淫泆為穿；</l></lg><lg xml:id="selected-pali014-1" corresp="T210 9.14" type="selected-verse"><l><lb n="0562b04" ed="T"/>蓋屋善密，</l><l>雨則不漏，</l><l>攝意惟行，</l><l><lb n="0562b05" ed="T"/>淫泆不生。</l></lg><lg xml:id="selected-pali015-1" corresp="T210 9.17" type="selected-verse"><l><lb n="0562b08" ed="T"/>造憂後憂，</l><l>行惡兩憂，</l><l>彼憂惟懼，</l><l><lb n="0562b09" ed="T"/>見罪心懅；</l></lg><lg xml:id="selected-pali016-1" corresp="T210 9.18" type="selected-verse"><l><lb n="0562b09" ed="T"/>造喜後喜，</l><l>行善兩喜，</l><l><lb n="0562b10" ed="T"/>彼喜惟歡，</l><l>見福心安；</l></lg><lg xml:id="selected-pali017-1" corresp="T210 9.19" type="selected-verse"><l><lb n="0562b10" ed="T"/>今悔後悔，</l><l><lb n="0562b11" ed="T"/>為惡兩悔，</l><l>厥為自殃，</l><l>受罪熱惱；</l></lg><lg xml:id="selected-pali018-1" corresp="T210 9.20" type="selected-verse"><l><lb n="0562b12" ed="T"/>今歡後歡，</l><l>為善兩歡，</l><l>厥為自祐，</l><l><lb n="0562b13" ed="T"/>受福悅豫。</l></lg><lg xml:id="selected-pali019-1" corresp="T210 9.21" type="selected-verse"><l><lb n="0562b13" ed="T"/>巧言多求，</l><l>放蕩無戒，</l><l><lb n="0562b14" ed="T"/>懷婬怒癡，</l><l>不惟止觀，</l><l>聚如群牛，</l><l><lb n="0562b15" ed="T"/>非佛弟子；</l></lg><lg xml:id="selected-pali020-1" corresp="T210 9.22" type="selected-verse"><l><lb n="0562b15" ed="T"/>時言少求，</l><l>行道如法，</l><l><lb n="0562b16" ed="T"/>除婬怒癡，</l><l>覺正意解，</l><l>見對不起，</l><l><lb n="0562b17" ed="T"/>是佛弟子。</l></lg></cb:div><cb:div type="pin"><cb:mulu level="1" n="10" type="品">10 放逸品</cb:mulu><head><anchor xml:id="nkr_note_orig_0562024" n="0562024"/><anchor xml:id="nkr_note_equivalent_0562024" n="0562024"/>放逸品<title><anchor xml:id="beg_1b" type="star"/>法句經<anchor xml:id="end_1b"/></title>第十<anchor xml:id="fxT04p0562b07"/>有二十章</head>
+<lg xml:id="selected-pali021-1" corresp="T210 10.1" type="selected-verse"><l><lb n="0562b21" ed="T"/>戒為甘露道，</l><l>放逸為死徑，</l><l><lb n="0562b22" ed="T"/>不貪則不死，</l><l>失道為自喪；</l></lg><lg xml:id="selected-pali022-1" corresp="T210 10.2" type="selected-verse"><l><lb n="0562b23" ed="T"/>慧智守道勝，</l><l>終不為放逸，</l><l><lb n="0562b24" ed="T"/>不貪致歡喜，</l><l>從是得道樂。</l></lg><lg xml:id="selected-pali023-1" corresp="T210 10.3" type="selected-verse"><l><lb n="0562b25" ed="T"/>常當惟念道，</l><l>自強守正行，</l><l><lb n="0562b26" ed="T"/>健者得度世，</l><l>吉祥無有上。</l></lg><lg xml:id="selected-pali024-1" corresp="T210 10.4" type="selected-verse"><l><lb n="0562b27" ed="T"/>正念常興起，</l><l>行淨惡易滅，</l><l><lb n="0562b28" ed="T"/>自制以法壽，</l><l>不犯善名增。</l></lg><lg xml:id="selected-pali025-1" corresp="T210 10.5" type="selected-verse"><l><lb n="0562b29" ed="T"/>發行不放逸，</l><l>約以自調心，</l><l><lb n="0562c01" ed="T"/>慧能作定明，</l><l>不返冥淵中。</l></lg><lg xml:id="selected-pali026-1" corresp="T210 10.6" type="selected-verse"><l><lb n="0562c02" ed="T"/>愚人意難解，</l><l>貪亂好諍訟，</l><l><lb n="0562c03" ed="T"/>上智常重慎，</l><l>護斯為寶尊。</l></lg><lg xml:id="selected-pali027-1" corresp="T210 10.7" type="selected-verse"><l><lb n="0562c04" ed="T"/>莫貪、莫好諍、</l><l>亦莫嗜欲樂，</l><l><lb n="0562c05" ed="T"/>思心不放逸，</l><l>可以獲大安。</l></lg><lg xml:id="selected-pali028-1" corresp="T210 10.8" type="selected-verse"><l><lb n="0562c06" ed="T"/>放逸如自禁，</l><l>能却之為賢，</l><l><lb n="0562c07" ed="T"/>已昇智慧閣，</l><l>去危為即安。</l><l><lb n="0562c08" ed="T"/>明智觀於愚，</l><l>譬如山與地，</l></lg><lg xml:id="selected-pali029-2" corresp="T210 10.9" type="selected-verse"><l><lb n="0562c09" ed="T"/>居亂而身正，</l><l>彼為獨覺悟，</l><l><lb n="0562c10" ed="T"/>是力過師子，</l><l>棄惡為大智。</l></lg><lg xml:id="selected-pali031-1" corresp="T210 10.13" type="selected-verse"><l><lb n="0562c17" ed="T"/>比丘謹慎樂，</l><l>放逸多憂𠎝，</l><l><lb n="0562c18" ed="T"/>變諍小致大，</l><l>積惡入火焰。</l></lg></cb:div><cb:div type="pin"><cb:mulu level="1" n="11" type="品">11 心意品</cb:mulu><head><anchor xml:id="nkr_note_orig_0563001" n="0563001"/><anchor xml:id="nkr_note_equivalent_0563001" n="0563001"/>心意品<title><anchor xml:id="beg_22" type="star"/>法句經<anchor xml:id="end_22"/></title>第十一<anchor xml:id="fxT04p0563a02"/>十有二章</head>
+<lg xml:id="selected-pali033-1" corresp="T210 11.1" type="selected-verse"><l><lb n="0563a04" ed="T"/>意使作㺃，</l><l>難護、難禁，</l><l>慧正其本，</l><l><lb n="0563a05" ed="T"/>其明乃大。</l></lg><lg xml:id="selected-pali035-1" corresp="T210 11.2" type="selected-verse"><l><lb n="0563a05" ed="T"/>輕躁難持，</l><l>唯欲是從，</l><l><lb n="0563a06" ed="T"/>制意為善，</l><l>自調則寧。</l></lg><lg xml:id="selected-pali036-1" corresp="T210 11.3" type="selected-verse"><l><lb n="0563a06" ed="T"/>意微難見，</l><l><lb n="0563a07" ed="T"/>隨欲而行，</l><l>慧常自護，</l><l>能守即安。</l></lg><lg xml:id="selected-pali037-1" corresp="T210 11.4" type="selected-verse"><l><lb n="0563a08" ed="T"/>獨行遠逝，</l><l>覆藏無形，</l><l>損意近道，</l><l><lb n="0563a09" ed="T"/>魔繫乃解。</l></lg><lg xml:id="selected-pali038-1" corresp="T210 11.5" type="selected-verse"><l><lb n="0563a09" ed="T"/>心無住息，</l><l>亦不知法，</l><l><lb n="0563a10" ed="T"/>迷於世事，</l><l>無有正智。</l></lg><lg xml:id="selected-pali039-1" corresp="T210 11.6" type="selected-verse"><l><lb n="0563a10" ed="T"/>念無適止，</l><l><lb n="0563a11" ed="T"/>不絕無邊，</l><l>福能遏惡，</l><l>覺者為賢。</l></lg><lg xml:id="selected-pali040-1" corresp="T210 11.12" type="selected-verse"><l><lb n="0563a18" ed="T"/>藏六如龜，</l><l><lb n="0563a19" ed="T"/>防意如城，</l><l>慧與魔戰，</l><l>勝則無患。</l></lg><lg xml:id="selected-pali041-1" corresp="T210 11.9" type="selected-verse"><l><lb n="0563a14" ed="T"/>有身不久，</l><l><lb n="0563a15" ed="T"/>皆當歸土，</l><l>形壞神去，</l><l>寄住何貪？</l></lg><lg xml:id="selected-pali043-1" corresp="T210 11.11" type="selected-verse"><l><lb n="0563a17" ed="T"/>是意自造，</l><l>非父母為，</l><l><lb n="0563a18" ed="T"/>可勉向正，</l><l>為福勿回。</l></lg></cb:div><cb:div type="pin"><cb:mulu level="1" n="31" type="品">31 象喻品</cb:mulu><head><anchor xml:id="nkr_note_orig_0570017" n="0570017"/><anchor xml:id="nkr_note_equivalent_0570017" n="0570017"/>象喻品<title><anchor xml:id="beg_67" type="star"/>法句經<anchor xml:id="end_67"/></title>第三十一<anchor xml:id="fxT04p0570b04"/>十有八章</head>
+<lg xml:id="selected-pali029-1" corresp="T210 31.17" type="selected-verse"><l><lb n="0570c13" ed="T"/>不自放恣，</l><l>從是多寤，</l><l>羸馬比良，</l><l><lb n="0570c14" ed="T"/>棄惡為賢。</l></lg></cb:div></body></text></TEI>

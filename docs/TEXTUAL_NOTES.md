@@ -1,38 +1,58 @@
-# Textual status
+# Textual status — reading study 07
 
-## Three complete English–Pāli chapters
+The main reader follows Pāli Dhammapada 1–43: Pairs (1–20), Heedfulness (21–32), and The Mind (33–43). All three pages present English plus Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan. These are historical textual counterparts placed in Pāli order, not six new translations of the Pāli. Each verse begins at the same horizontal level; its internal line divisions and length follow its own source.
 
-The bounded addition requested on 23 October 2026 contains verses 1–43 in the usual Pāli order: Pairs / Yamakavagga (1–20), Heedfulness / Appamādavagga (21–32), and The Mind / Cittavagga (33–43). The homepage opens Pairs and Contents links to all three chapters. The original comparative sample remains at `sample.html`.
+## Coverage
 
-English is Bhikkhu Sujato's *Sayings of the Dhamma*, alongside SuttaCentral's Mahāsaṅgīti Pāli. Source revision, upstream paths, Git blob IDs, and SHA-256 checksums are frozen in `data/chapters.json`; source JSON and the CC0 publication record are in `data/pali/`. The nine source files are byte-identical to their upstream Git blobs. Build and CI work offline.
+“Present” means a selected historical counterpart, not identical wording. “Partial” includes fragmentary surviving text and incomplete correspondence. A dash marks “not located in the consulted sources,” never proof of absence throughout a tradition. These counts describe the bounded selection, not all surviving witnesses.
 
-The displayed words, punctuation, and verse-line divisions follow that edition. Surrounding whitespace and three nonprinting `<j>` markers in English verse 17 are omitted. Only source markup explicitly identified as verse lines is displayed; commentary-derived story headings and chapter-ending colophons are not verse headings. No new translation is supplied. The source chapter-two title is “Diligence”; the site uses the conventional alternative “Heedfulness.”
+| Tradition | Present | Partial | Not located (Pāli verse numbers) |
+| --- | --- | --- | --- |
+| Pāli | 43 | 0 | None |
+| Patna | 34 | 3 | 17, 18, 27, 30, 42, 43 |
+| Gāndhārī | 25 | 7 | 3, 4, 5, 6, 17, 18, 23, 35, 36, 42, 43 |
+| Sanskrit Udānavarga | 36 | 3 | 6, 17, 18, 36 |
+| Chinese | 35 | 7 | 42 |
+| Tibetan Udānavarga | 41 | 1 | 36 |
 
-This edition does not settle manuscript variants. Line divisions are editorial presentation, and matching segment IDs do not ensure literal line-by-line correspondence: English in verses 42–43, for example, changes the Pāli word order. Other historical traditions have not been aligned to these 43 verses. Corrections upstream after the pinned snapshot will require a deliberate update and review.
+The site’s Notes includes every selected reference and the differences or uncertainties on individual records. Multiple recorded counterparts may be retained in the data even where the sheet displays one preferred reading.
 
-## Unchanged comparative sample
+## English and Pāli
 
-All verse strings and source labels in `data/sample.json` are preserved from `dhammapada-rosetta-design-v2.zip`. This phase has not checked them against editions or manuscripts. Display grouping has changed; the text has not.
+English is Bhikkhu Sujato’s *Sayings of the Dhamma*, alongside SuttaCentral’s Mahāsaṅgīti Pāli. Their existing revision, upstream paths, Git blob IDs, and SHA-256 checksums remain frozen in `data/chapters.json`; source JSON and the CC0 publication record remain in `data/pali/`.
 
-| Column | Inherited reference | Current uncertainty |
-| --- | --- | --- |
-| English | Working translation | Provisional rendering of Pāli; not a translation of all six traditions |
-| Pāli | Dhp 1–2 | Edition, orthography, punctuation and transcription not re-audited |
-| Patna | PDhp 1–2 | Reading and numbering not independently verified here |
-| Gāndhārī | GDhp 201–202 | Reading and numbering not independently verified here |
-| Sanskrit | Udānavarga 31.23–24 | Reading, numbering and relation to other witnesses not independently verified here |
-| Chinese | Faju jing, T210 9.1–2 | Reading, numbering, punctuation and line segmentation not independently verified here |
-| Tibetan | Source pending | Not yet verified; do not describe this as an absent parallel |
+Words, punctuation, and verse-line divisions follow that edition. Surrounding whitespace and three nonprinting `<j>` markers in English verse 17 are omitted. Only markup identified as verse lines is displayed; commentary-derived story headings and chapter colophons are excluded. The second source heading is “Diligence”; the site uses “Heedfulness.” English translates Pāli and must not be read as a translation of every neighboring witness. Its word order can also differ from Pāli, notably in verses 42–43.
 
-The inherited note contrasts Pāli `manomayā` (“made by mind”) with forms of `manojavā`, provisionally glossed “impelled by mind,” in Patna, Gāndhārī, and Sanskrit. Preserve the difference, but verify both readings and gloss in a later editorial phase.
+## Patna, Gāndhārī, and Sanskrit
 
-Verse titles are editorial. Horizontal line placement is provisional alignment by sense. It is not a completed concordance, evidence that the collections have the same ordering, or an assertion that every witness says the same thing.
+The selected ancient verse texts and correspondence references follow Ānandajoti Bhikkhu’s *A Comparative Edition of the Dhammapada*, fourth revised edition (April 2020), chapters 1–3. The edition in turn identifies Cone’s Patna, Brough’s Gāndhārī, and Bernhard’s Sanskrit Udānavarga texts. URLs and original HTML hashes accompany the records. `tools/import_indic.py` recreates the bounded datasets from downloaded source pages; the imports were compared byte for byte with the retained working HTML before publication.
 
-## Preserved source references
+Surviving lacunae and source uncertainty marks are retained. Dotted underlining marks the edition’s uncertain or conjectural readings; grey text marks contextual lines the source does not align to Pāli. Its comparison emphasis is not reinterpreted as conjecture. Three legacy private-use transliteration glyphs are rendered as standard Unicode equivalents, checked against the source font’s actual glyph names; `normalization.json` records them. The source’s critical editions and compilation have separate rights notices; no blanket project license is asserted. Modern commentary and unrelated parallel works are not copied.
 
-- [Comparative Dhammapada, chapter 1](https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm)
-- [CBETA Chinese T210](https://cbetaonline.dila.edu.tw/T0210)
-- [Pāli–Chinese correspondence table](https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/)
+## Chinese and modern Mandarin pinyin
 
-These references are retained, not newly validated. Full-corpus research, fresh translation, manuscript transcription, licensing audit, and the six-tradition concordance are outside this phase.
+Ken Su’s (蘇錦坤) chapter 1–3 correspondence tables identify counterparts; the displayed text follows the pinned CBETA TEI edition. T210 is preferred. Five positions use documented historical fallbacks: 3 → T212 15.7; 4 → T213 14.10; 30 → T213 4.24; 32 → T213 4.32; 34 → T212 32.2. The actual collection, Taishō page/column/line, source revision, and edition date accompany each reading. Pāli 29 has two recorded T210 counterparts, with the horse comparison displayed first. Pāli 42 remains unlocated in these tables.
 
+The source selection retains CBETA wording and punctuation, including difficult historical characters and differences from the correspondence table. Some matches are partial: the Chinese verse corresponding to 25 uses lamp/illumination language where Pāli has an island; 30 lacks the Pāli Indra reference; 39 praises merit restraining evil rather than abandoning merit and demerit; 40 opens with a tortoise and six faculties rather than a body-as-pot. These differences are preserved, not repaired to fit Pāli. Exact references and additional differences are in Notes and `sources/chinese/README.md`.
+
+Pinyin is a modern editorial Mandarin reading aid for every displayed Chinese reading, hidden by default. It uses citation tones, character spacing, and manual contextual corrections; it does not assert historical pronunciation, tone sandhi, or independently reviewed interpretation of difficult phrases. Chinese source extracts retain CBETA’s attribution, complete edition headers, and CC BY-NC-SA 4.0 notice.
+
+## Tibetan
+
+The native text comes from Esukhia’s public-domain Digital Derge Kangyur, Toh 326, volume 72, folios 209a.1–253a.7, pinned at commit `a582cf471b7c85a101035071078032f106a8e536`. Each reading cites its actual folio and complete-source line span. Native spelling is checked against verbatim retained excerpts, not generated from Pāli, Sanskrit, or an English translation.
+
+Sanskrit correspondence starts from the comparative edition; University of Oslo’s Bibliotheca Polyglotta and Rockhill’s public-domain 1883 Tibetan translation/concordance support identification. Sanskrit and Tibetan numbers are not interchangeable. Native Tibetan counterparts of Pāli 17–18 are included even though the selected Sanskrit mapping lacks them. A related passage at Pāli 6 is explicitly provisional and partial; Pāli 36 remains unlocated.
+
+Physical folio markers and newlines are removed for reading. Shad-delimited reading line breaks are editorial. Where the electronic source records an original spelling and a proposed correction, the original is retained and the suggestion is recorded. Tibetan’s own order and recensional differences remain: verse 1 ends with a wheel cutting off a head; verse 20 is shorter than Pāli; verse 27 ends with exhaustion of the taints. The font is local Noto Serif Tibetan under SIL OFL 1.1. See `sources/tibetan/README.md` for provenance and verification limits.
+
+## Preserved earlier sample
+
+`data/sample.json` is byte-identical to the inherited v2 prototype and remains at `sample.html`, including its working English and unverified Tibetan placeholder. Its provisional sense-based line alignment has not become a verified concordance. The three inherited reference links remain in Notes:
+
+- https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm
+- https://cbetaonline.dila.edu.tw/T0210
+- https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/
+
+## Scope and verification limits
+
+The frozen datasets and source excerpts are recorded in `data/witnesses/provenance.json`. Offline checks compare every displayed reading to its dataset, Chinese text to retained CBETA passages, and Tibetan lines to their cited native excerpts. These establish transcription fidelity and explicit coverage, not a new critical edition or exhaustive manuscript collation. Corrections require deliberate source review. Research beyond Pāli 1–43 remains deferred.

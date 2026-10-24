@@ -1,4 +1,4 @@
-# Reading study 06
+# Reading study 07
 
 The primary action is reading a poem. Comparison should be available with a movement of the hand, without turning each line into a database row.
 
@@ -8,9 +8,9 @@ The same warm paper color extends through the page, with no outline around the s
 
 ## Type and alignment
 
-English is 22px and romanized witnesses are 21px at 100%; Chinese is 23px. The English column is wide enough for the inherited six lines on a desktop. On narrow windows it wraps; CSS subgrid shares row heights across the whole verse so other traditions continue to align. Screen readers encounter each tradition as a complete poem rather than hopping between languages on every line.
+English is 22px and romanized witnesses are 21px at 100%; Chinese and Tibetan are 23px. Historical chapter pages align the beginning of each verse, then allow each tradition its own line divisions and length. The tallest counterpart determines the next verse's starting position. This avoids imposing the Pāli or English line count on another recension. The earlier sample retains its inherited provisional line alignment. Screen readers encounter each tradition as a complete poem rather than hopping between languages on every line.
 
-The comparative sheet intentionally exceeds the viewport. Fit reveals its visible columns; 100% returns to a comfortable reading scale. The three complete chapter pages use English and Pāli only. They retain the same typography, language controls, and continuous paper without filling historical columns with unverified placeholders.
+The comparative sheet intentionally exceeds the viewport. Fit reveals its visible columns; 100% returns to a comfortable reading scale. All three chapter pages contain English and the six historical traditions. A quiet dash marks an unlocated counterpart, with the meaning and exact coverage explained in Notes. Tibetan uses a local font so the script renders consistently.
 
 ## Orientation and movement
 
@@ -24,11 +24,11 @@ Zoom preserves the sheet point under the pointer; button zoom uses the viewport 
 
 The globe opens a small nonmodal window with a title bar, close button, and language checkboxes. Changes immediately remove or restore the corresponding columns without leaving empty tracks. The whole row can be dragged, including its name and empty space; only the checkbox is reserved for visibility changes. Subdued handles appear on hover or focus and provide keyboard up/down reordering. Reordering updates the entire sheet, including its accessible reading order. Choices persist locally; Restore defaults restores the original order and hides pinyin. At least one column remains visible. Fit recomputes when the selected languages change.
 
-Pinyin is a separate optional modern Mandarin reading aid for the existing Chinese sample, initially hidden. It does not expand the historical corpus. The comparative sample's language preferences remain separate from the two-column chapter preferences. Existing sample bytes and source references remain unchanged.
+Pinyin is a separate optional modern Mandarin reading aid for every displayed Chinese counterpart, initially hidden. It is not another historical tradition. All three chapter pages share language preferences. A new preference key prevents old two-column settings from hiding the added traditions. The earlier sample keeps its separate settings. Existing sample bytes and source references remain unchanged.
 
 ## Textual restraint
 
-The sample text and source references are unchanged. One status message per Tibetan poem replaces six repeated placeholders. The new chapter pages use Sujato's existing English translation and SuttaCentral's Mahāsaṅgīti Pāli, with a frozen source revision and CC0 publication record. Edition-specific verse lines are retained; commentary-derived story headings, chapter colophons, and nonprinting join markers are omitted. Notes distinguishes these pages from the inherited sample and explains that segment alignment does not guarantee matching English and Pāli word order.
+The sample text and source references are unchanged. The chapter pages use Sujato's English and SuttaCentral's Mahāsaṅgīti Pāli, with the existing frozen snapshot. Patna, Gāndhārī, and Sanskrit follow the comparative edition; Chinese follows selected CBETA passages with scholarly correspondence references; Tibetan follows the Digital Derge Kangyur with folio citations. Dotted underlines retain uncertain or conjectural readings; gaps and partial matches are documented. No new historical-language translations are supplied. Notes distinguishes verse-level comparison from literal line-by-line agreement.
 
 ## The review that matters
 

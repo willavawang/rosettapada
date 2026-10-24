@@ -1,0 +1,1227 @@
+{
+  "tradition": "bo",
+  "title": "Tibetan Udānavarga — Derge Kangyur Toh 326",
+  "scope": "Historical Tibetan counterparts of Pāli Dhammapada 1–43 only.",
+  "editorial_policy": "These are historical Tibetan Udānavarga witnesses, not new Tibetan translations of Pāli. Folio/line citations identify the Derge source. Sanskrit parallel numbers do not prescribe Tibetan numbering or stanza order. Reading line breaks follow shad-delimited pādas and are editorial; physical folio line breaks remain in the raw excerpts. Original spelling before a correction suggestion is retained. Related passages are labelled partial; an unfound counterpart is not filled with a translation.",
+  "sources": [
+    {
+      "id": "esukhia-derge-toh326",
+      "title": "Udānavarga, Ched du brjod pa’i tshoms, Derge Kangyur Toh 326 (mdo sde, sa), vol 72, ff 209a.1–253a.7",
+      "url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt",
+      "raw_url": "https://raw.githubusercontent.com/Esukhia/derge-kangyur/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt",
+      "repository": "Esukhia/derge-kangyur",
+      "commit": "a582cf471b7c85a101035071078032f106a8e536",
+      "path": "text/072_མདོ་སྡེ།_ས.txt",
+      "git_blob_sha": "d9abab24ddfc32ccd5dc65973cfbbef1dd6bd959",
+      "sha256": "437362220fde32d7c4e4311b4aa0885a5ab76612fe5efc0d9afd62605b763041",
+      "byte_length": 2787425,
+      "license": "Public domain, as declared by the source repository.",
+      "license_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/README.md#license",
+      "attribution": "ཆོས་ཀྱི་འབྱུང་གནས། [1721–31], བཀའ་འགྱུར་སྡེ་དགེ་པར་མ།. Etexts from UVA, BDRC OCR, ACIP, and Adarsha combined and further proofread by Esukhia on behalf of Barom Theksum Choling,2012–2018.",
+      "edition_note": "Based on the Library of Congress Derge Kangyur (BDRC W4CZ5369). The source preserves archaic spellings and carving mistakes. Its README flags potential errors and correction suggestions. No fresh transcription from scans was undertaken here.",
+      "translator_attribution": "Rin chen mchog with the Indian scholar conventionally identified as Vidyākaraprabhā; revised by dPal brtsegs. The Derge colophon at253a.7 spells the Indian name བིདྱཱ་པྲ་བྷ་ཀ་ར; this spelling is not silently normalized.",
+      "accessed": "2026-10-24"
+    },
+    {
+      "id": "polyglotta-uv",
+      "title": "Udānavarga, Bibliotheca Polyglotta, University of Oslo",
+      "url": "https://www2.hf.uio.no/polyglotta/index.php?page=volume&vid=71",
+      "fulltext_url": "https://www2.hf.uio.no/polyglotta/index.php?mid=0&page=fulltext&vid=71&view=fulltext",
+      "role": "Scholarly Sanskrit–Tibetan alignment and bibliographic check. The first ten Apramāda verses were checked against the native Tibetan source. Sanskrit text is based on Bernhard 1965; Tibetan reference is Kg mdo sde sa 209a1–253a7.",
+      "license": "No license assumed for the modern alignment. It is cited as a research reference; display text is taken from the public-domain Esukhia source.",
+      "accessed": "2026-10-24"
+    },
+    {
+      "id": "rockhill1883",
+      "title": "W. Woodville Rockhill, Udânavarga: a collection of verses from the Buddhist canon (London: Trübner,1883)",
+      "url": "https://archive.org/details/udnavargacolle00bkah",
+      "ocr_url": "https://archive.org/download/udnavargacolle00bkah/udnavargacolle00bkah_djvu.txt",
+      "pdf_url": "https://archive.org/download/udnavargacolle00bkah/udnavargacolle00bkah.pdf",
+      "role": "Independent Tibetan verse numbering and Pāli concordance, especially chapter 28.37/Pāli 17 and28.39/Pāli 18 (p 139; concordance p 217). OCR is retained only in bounded research excerpts; no English translation is displayed.",
+      "license": "Public domain (published1883; translator died1914). Archive OCR is an imperfect mechanical derivative; Tibetan text is not taken from OCR.",
+      "accessed": "2026-10-24"
+    },
+    {
+      "id": "anandajoti-comparative",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, chapters 1–3",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/index.htm",
+      "chapter_urls": [
+        "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm",
+        "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm",
+        "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm"
+      ],
+      "role": "Starting Pāli–Sanskrit Uv correspondence supplied by the main researcher; confirmed against the native Tibetan text rather than treating Sanskrit numbering as Tibetan numbering.",
+      "license": "Research reference only; no edition text copied into this Tibetan dataset.",
+      "accessed": "2026-10-24"
+    }
+  ],
+  "verses": [
+    {
+      "pali": 1,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243b.7–244a.1",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3879-L3881",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ཆོས་ཀྱི་སྔོན་དུ་ཡིད་འགྲོ་སྟེ། །",
+            "ཡིད་མགྱོགས་ཡིད་ནི་གཙོ་བོ་ཡིན། །",
+            "གལ་ཏེ་ཡིད་རབ་གདུག་པ་ཡིས། །",
+            "སྨྲས་སམ་ཡང་ན་བྱས་ཀྱང་རུང་། །",
+            "དེ་ཡིས་དེ་ནི་སྡུག་བསྔལ་འཐོབ། །",
+            "འཁོར་ལོས་མགོ་བོ་བཅད་པ་བཞིན། །"
+          ],
+          "folio_start": "243b.7",
+          "folio_end": "244a.1",
+          "source_line_start": 3879,
+          "source_line_end": 3881,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.23",
+          "rockhill_reference": "Uv 31.23",
+          "note": "The Tibetan witness says that mind is swift and ends with a wheel cutting off a head. This is a genuine recensional difference from the Pāli ox-foot simile, not a new translation or a typographical repair."
+        }
+      ],
+      "note": "The Tibetan witness says that mind is swift and ends with a wheel cutting off a head. This is a genuine recensional difference from the Pāli ox-foot simile, not a new translation or a typographical repair."
+    },
+    {
+      "pali": 2,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 244a.1–244a.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3881-L3882",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ཆོས་ཀྱི་སྔོན་དུ་ཡིད་འགྲོ་སྟེ། །",
+            "ཡིད་མགྱོགས་ཡིད་ནི་གཙོ་བོ་ཡིན། །",
+            "གལ་ཏེ་ཡིད་རབ་དང་བ་ཡིས། །",
+            "སྨྲས་སམ་ཡང་ན་བྱས་ཀྱང་རུང་། །",
+            "དེ་ཡིས་དེ་ནི་བདེ་བ་འཐོབ། །",
+            "གྲིབ་མ་རྗེས་སུ་འབྲང་བ་བཞིན། །"
+          ],
+          "folio_start": "244a.1",
+          "folio_end": "244a.2",
+          "source_line_start": 3881,
+          "source_line_end": 3882,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.24",
+          "rockhill_reference": "Uv 31.24",
+          "note": "The Tibetan witness describes mind as swift; the Pāli has manomayā. The shadow comparison is retained."
+        }
+      ],
+      "note": "The Tibetan witness describes mind as swift; the Pāli has manomayā. The shadow comparison is retained."
+    },
+    {
+      "pali": 3,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 221b.2–221b.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3522-L3523",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བདག་ལ་ཁ་ཟེར་བ་དག་ལ་གཤེ། །",
+            "བདག་ཕམ་བདག་ཕམ་བྱེད་པའོ་ཞེས། །",
+            "འདི་གང་སེམས་ལ་འཛིན་བྱེད་པ། །",
+            "དེ་ཡི་འཁོན་ནི་ཞི་མི་འགྱུར། །"
+          ],
+          "folio_start": "221b.2",
+          "folio_end": "221b.3",
+          "source_line_start": 3522,
+          "source_line_end": 3523,
+          "chapter": 14,
+          "sanskrit_parallel": "Uv 14.9",
+          "rockhill_reference": "Uv 14.9"
+        }
+      ]
+    },
+    {
+      "pali": 4,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 221b.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3523-L3523",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བདག་ལ་ཁ་ཟེར་བ་དག་ལ་གཤེ། །",
+            "བདག་ཕམ་བདག་ཕམ་བྱེད་པའོ་ཞེས། །",
+            "འདི་གང་སེམས་ལ་མི་འཛིན་པ། །",
+            "དེ་ཡི་འཁོན་ནི་ཞི་བར་འགྱུར། །"
+          ],
+          "folio_start": "221b.3",
+          "folio_end": "221b.3",
+          "source_line_start": 3523,
+          "source_line_end": 3523,
+          "chapter": 14,
+          "sanskrit_parallel": "Uv 14.10",
+          "rockhill_reference": "Uv 14.10"
+        }
+      ]
+    },
+    {
+      "pali": 5,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 221b.3–221b.4",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3523-L3524",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "འདི་ན་འཁོན་གྱིས་འཁོན་ཅན་དག །",
+            "ནམ་ཡང་ཞི་བར་འགྱུར་བ་མེད། །",
+            "བཟོད་པས་འཁོན་ནི་ཞི་འགྱུར་བ། །",
+            "འདི་ནི་ཆོས་ཀྱི་རང་བཞིན་ཡིན། །"
+          ],
+          "folio_start": "221b.3",
+          "folio_end": "221b.4",
+          "source_line_start": 3523,
+          "source_line_end": 3524,
+          "chapter": 14,
+          "sanskrit_parallel": "Uv 14.11",
+          "rockhill_reference": "Uv 14.11"
+        }
+      ]
+    },
+    {
+      "pali": 6,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 221b.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3522-L3522",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ཁྱོད་ནི་མི་མཁས་ལུགས་ཅན་ཏེ། །",
+            "ཁ་བྱ་ཡིས་ནི་རྩོལ་བྱེད་པ། །",
+            "ཕ་རོལ་པོ་དག་མི་ཤེས་པས། །",
+            "བདག་ནི་འདི་ལ་བརྩོན་པར་བྱེད། །",
+            "འདི་ན་མཁས་པ་གང་ཡིན་པ། །",
+            "དེ་དག་བཞམས་པའི་ཚིག་གིས་ཞི། །"
+          ],
+          "folio_start": "221b.2",
+          "folio_end": "221b.2",
+          "source_line_start": 3522,
+          "source_line_end": 3522,
+          "chapter": 14,
+          "sanskrit_parallel": null,
+          "rockhill_reference": "Uv 14.8",
+          "note": "Related passage only: Tibetan chapter 14.8 shares the contrast between those who do not understand and those who understand, but its wording and the pacification through gentle speech differ substantially. Rockhill does not identify it as Dhammapada 6 in his concordance. It is a provisional partial parallel, not an exact equivalent."
+        }
+      ],
+      "note": "Related passage only: Tibetan chapter 14.8 shares the contrast between those who do not understand and those who understand, but its wording and the pacification through gentle speech differ substantially. Rockhill does not identify it as Dhammapada 6 in his concordance. It is a provisional partial parallel, not an exact equivalent."
+    },
+    {
+      "pali": 7,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 238b.2–238b.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3794-L3795",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གང་ཞིག་དབང་པོ་མ་བསྡམས་ཤིང་། །",
+            "ཟས་ཀྱི་ཚོད་ནི་མི་ཤེས་ལ། །",
+            "དྲན་པ་ཉམས་དང་ལེ་ལོ་ཅན། །",
+            "གཙང་བར་ལྟ་ཞིང་གནས་བྱེད་པ། །",
+            "དེ་ནི་འདོད་ཆགས་རྣམས་ཀྱིས་བཅོམ། །",
+            "རླུང་གིས་མི་བརྟན་ལྗོན་ཤིང་བཞིན། །"
+          ],
+          "folio_start": "238b.2",
+          "folio_end": "238b.3",
+          "source_line_start": 3794,
+          "source_line_end": 3795,
+          "chapter": 29,
+          "sanskrit_parallel": "Uv 29.15",
+          "rockhill_reference": "Uv 29.15",
+          "note": "Tibetan orders the faculties, food, sloth, beauty, and desire motifs differently. It has desire (འདོད་ཆགས), rather than the Pāli verse’s Māra, as the assailant. The source order is retained."
+        }
+      ],
+      "note": "Tibetan orders the faculties, food, sloth, beauty, and desire motifs differently. It has desire (འདོད་ཆགས), rather than the Pāli verse’s Māra, as the assailant. The source order is retained."
+    },
+    {
+      "pali": 8,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 238b.3–238b.4",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3795-L3796",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གང་ཞིག་དབང་པོ་ལེགས་བསྡམས་ཤིང་། །",
+            "ཟས་ཀྱི་ཚོད་ནི་ཤེས་པ་དང་། །",
+            "སོ་སོར་དྲན་ཞིང་བརྩོན་འགྲུས་ལྡན། །",
+            "མི་གཙང་ལྟ་བས་གནས་བྱེད་པ། །",
+            "དེ་ནི་འདོད་ཆགས་ཀྱིས་མི་ཆོམས། །",
+            "རླུང་གིས་རི་བོ་མི་གཡོས་བཞིན། །"
+          ],
+          "folio_start": "238b.3",
+          "folio_end": "238b.4",
+          "source_line_start": 3795,
+          "source_line_end": 3796,
+          "chapter": 29,
+          "sanskrit_parallel": "Uv 29.16",
+          "rockhill_reference": "Uv 29.16",
+          "note": "Tibetan orders the faculties, food, energy, and beauty motifs differently and names desire rather than Māra. The source order is retained."
+        }
+      ],
+      "note": "Tibetan orders the faculties, food, energy, and beauty motifs differently and names desire rather than Māra. The source order is retained."
+    },
+    {
+      "pali": 9,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 238a.4–238a.5",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3788-L3789",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གང་ཞིག་སྙིགས་མ་ཡོད་བཞིན་དུ། །",
+            "ངུར་སྨྲིག་གོས་ནི་གྱོན་བྱེད་པ། །",
+            "དུལ་དང་དེས་པ་མེད་པ་དེ། །",
+            "ངུར་སྨྲིག་གྱོན་པའི་འོས་མ་ཡིན། །"
+          ],
+          "folio_start": "238a.4",
+          "folio_end": "238a.5",
+          "source_line_start": 3788,
+          "source_line_end": 3789,
+          "chapter": 29,
+          "sanskrit_parallel": "Uv 29.7",
+          "rockhill_reference": "Uv 29.7"
+        }
+      ]
+    },
+    {
+      "pali": 10,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 238a.5",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3789-L3789",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གང་ཞིག་སྙིགས་མ་རྣམས་སྤངས་ནས། །",
+            "ཚུལ་ཁྲིམས་ལེགས་པར་མཉམ་བཞག་པ། །",
+            "དུལ་དང་དེས་པར་ལྡན་པ་དེ། །",
+            "ངུར་སྨྲིག་གྱོན་པའི་འོས་ཡིན་ནོ། །"
+          ],
+          "folio_start": "238a.5",
+          "folio_end": "238a.5",
+          "source_line_start": 3789,
+          "source_line_end": 3789,
+          "chapter": 29,
+          "sanskrit_parallel": "Uv 29.8",
+          "rockhill_reference": "Uv 29.8"
+        }
+      ]
+    },
+    {
+      "pali": 11,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 238a.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3786-L3786",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གཅེས་མིན་གཅེས་པར་བློས་འཛིན་ཅིང་། །",
+            "གཅེས་ལ་གཅེས་པ་མིན་རྟོག་པ། །",
+            "ལོག་པར་ཀུན་རྟོག་སྤྱོད་ཡུལ་ཅན། །",
+            "དེས་ནི་གཅེས་པ་ཐོབ་མི་འགྱུར། །"
+          ],
+          "folio_start": "238a.2",
+          "folio_end": "238a.2",
+          "source_line_start": 3786,
+          "source_line_end": 3786,
+          "chapter": 29,
+          "sanskrit_parallel": "Uv 29.3",
+          "rockhill_reference": "Uv 29.3"
+        }
+      ]
+    },
+    {
+      "pali": 12,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 238a.2–238a.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3786-L3787",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གཅེས་པ་མིན་ལ་གཅེས་མིན་དང་། །",
+            "གཅེས་ལ་གཅེས་པར་འདུ་ཤེས་པ། །",
+            "ལེགས་པར་ཀུན་རྟོག་སྤྱོད་ཡུལ་ཅན། །",
+            "དེས་ནི་གཅེས་པ་འཐོབ་པར་འགྱུར། །"
+          ],
+          "folio_start": "238a.2",
+          "folio_end": "238a.3",
+          "source_line_start": 3786,
+          "source_line_end": 3787,
+          "chapter": 29,
+          "sanskrit_parallel": "Uv 29.4",
+          "rockhill_reference": "Uv 29.4"
+        }
+      ]
+    },
+    {
+      "pali": 13,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243a.7–243b.1",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3871-L3873",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ཇི་ལྟར་ཁོང་སྟེང་གཡོགས་ཉེས་ན། །",
+            "ཆར་པ་ཡོངས་སུ་འཛག་པ་ལྟར། །",
+            "དེ་བཞིན་སེམས་ནི་མ་བསྒོམས་པ། །",
+            "འདོད་ཆགས་རྣམས་ཀྱིས་ཡོངས་སུ་བཅོམ། །"
+          ],
+          "folio_start": "243a.7",
+          "folio_end": "243b.1",
+          "source_line_start": 3871,
+          "source_line_end": 3873,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.11",
+          "rockhill_reference": "Uv 31.12",
+          "note": "Sanskrit and Tibetan arrange the roof similes differently; Sanskrit Uv 31.11 is not a Tibetan verse number. Rockhill numbers the bad-roof/desire stanza 31.12. The Derge spelling ཁོང་སྟེང is retained."
+        }
+      ],
+      "note": "Sanskrit and Tibetan arrange the roof similes differently; Sanskrit Uv 31.11 is not a Tibetan verse number. Rockhill numbers the bad-roof/desire stanza 31.12. The Derge spelling ཁོང་སྟེང is retained."
+    },
+    {
+      "pali": 14,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243b.1",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3873-L3873",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ཇི་ལྟར་ཁང་སྟེང་གཡོགས་ལེགས་ན། །",
+            "ཆར་པ་རྣམ་པར་མི་འཛག་པ། །",
+            "དེ་བཞིན་ལེགས་པར་བསྒོམས་པའི་སེམས། །",
+            "འདོད་ཆགས་རྣམས་ཀྱིས་ཡོང་མི་ཆོམས། །"
+          ],
+          "folio_start": "243b.1",
+          "folio_end": "243b.1",
+          "source_line_start": 3873,
+          "source_line_end": 3873,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.17",
+          "rockhill_reference": null,
+          "note": "Sanskrit groups the bad-roof similes before the good-roof similes; this Derge Tibetan source pairs them. This is its good-roof/desire counterpart of Sanskrit Uv 31.17. Rockhill’s English sequence lacks this exact good-roof/desire stanza: his 31.14 instead follows the bad-roof/passions stanza. No Rockhill verse number is assigned to this Derge reading."
+        }
+      ],
+      "note": "Sanskrit groups the bad-roof similes before the good-roof similes; this Derge Tibetan source pairs them. This is its good-roof/desire counterpart of Sanskrit Uv 31.17. Rockhill’s English sequence lacks this exact good-roof/desire stanza: his 31.14 instead follows the bad-roof/passions stanza. No Rockhill verse number is assigned to this Derge reading."
+    },
+    {
+      "pali": 15,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 237b.1–237b.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3777-L3778",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བདག་ཉིད་ནག་པོའི་ལས་དང་ལྡན་མཐོང་ནས། །",
+            "འདིར་ཡང་མྱ་ངན་གཞན་དུའང་མྱ་ངན་བྱེད། །",
+            "སྡིག་པ་བྱས་པས་གཉི་གར་མྱ་ངན་བྱེད། །",
+            "དེ་ནི་མྱ་ངན་དེ་རབ་མྱ་ངན་བྱེད། །"
+          ],
+          "folio_start": "237b.1",
+          "folio_end": "237b.2",
+          "source_line_start": 3777,
+          "source_line_end": 3778,
+          "chapter": 28,
+          "sanskrit_parallel": "Uv 28.34",
+          "rockhill_reference": "Uv 28.33",
+          "note": "Tibetan chapter 28.33 corresponds to Pāli 15; the Sanskrit comparative edition labels its counterpart Uv 28.34. The order of the clauses is different."
+        }
+      ],
+      "note": "Tibetan chapter 28.33 corresponds to Pāli 15; the Sanskrit comparative edition labels its counterpart Uv 28.34. The order of the clauses is different."
+    },
+    {
+      "pali": 16,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 237b.2–237b.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3778-L3779",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བདག་ཉིད་རྣམ་དག་ལས་དང་ལྡན་མཐོང་ནས། །",
+            "འདི་ན་དགའ་འགྱུར་གཞན་དུའང་དགའ་བར་འགྱུར། །",
+            "བསོད་ནམས་བྱས་པས་གཉི་གར་དགའ་འགྱུར་ཞིང་། །",
+            "དེ་ནི་དགའ་འགྱུར་དེ་རབ་དགའ་བར་འགྱུར། །"
+          ],
+          "folio_start": "237b.2",
+          "folio_end": "237b.3",
+          "source_line_start": 3778,
+          "source_line_end": 3779,
+          "chapter": 28,
+          "sanskrit_parallel": "Uv 28.35",
+          "rockhill_reference": "Uv 28.35",
+          "note": "Tibetan chapter 28.35 corresponds to Pāli 16. It describes the deeds as perfectly pure; the related Tibetan chapter 28.39 uses white deeds."
+        }
+      ],
+      "note": "Tibetan chapter 28.35 corresponds to Pāli 16. It describes the deeds as perfectly pure; the related Tibetan chapter 28.39 uses white deeds."
+    },
+    {
+      "pali": 17,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 237b.4–237b.5",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3780-L3781",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བདག་ཉིད་ནག་པོའི་ལས་དང་ལྡན་མཐོང་ནས། །",
+            "འདི་ན་གདུང་འགྱུར་ཕ་རོལ་གདུང་བར་འགྱུར། །",
+            "སྡིག་པ་བྱས་པས་གཉི་གར་གདུང་འགྱུར་ཞིང་། །",
+            "དེ་ནི་གདུང་འགྱུར་དེ་རབ་གདུང་བར་འགྱུར། །"
+          ],
+          "folio_start": "237b.4",
+          "folio_end": "237b.5",
+          "source_line_start": 3780,
+          "source_line_end": 3781,
+          "chapter": 28,
+          "sanskrit_parallel": null,
+          "rockhill_reference": "Uv 28.37",
+          "note": "An independently attested Tibetan counterpart: Rockhill 1883 explicitly identifies Tibetan28.37 with Pāli 17. It repeats the here/hereafter/both pattern and speaks of seeing black deeds; it does not reproduce every clause of Pāli 17. No Sanskrit counterpart was supplied by the comparative edition used here."
+        }
+      ],
+      "note": "An independently attested Tibetan counterpart: Rockhill 1883 explicitly identifies Tibetan28.37 with Pāli 17. It repeats the here/hereafter/both pattern and speaks of seeing black deeds; it does not reproduce every clause of Pāli 17. No Sanskrit counterpart was supplied by the comparative edition used here."
+    },
+    {
+      "pali": 18,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 237b.5–237b.6",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3781-L3782",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བདག་ཉིད་དཀར་པོའི་ལས་དང་ལྡན་མཐོང་ནས། །",
+            "འདི་ན་དགའ་འགྱུར་ཕ་རོལ་དགའ་བར་འགྱུར། །",
+            "བསོད་ནམས་བྱས་པས་གཉི་གར་དགའ་འགྱུར་ཞིང་། །",
+            "དེ་ནི་དགའ་འགྱུར་དེ་རབ་དགའ་བར་འགྱུར། །"
+          ],
+          "folio_start": "237b.5",
+          "folio_end": "237b.6",
+          "source_line_start": 3781,
+          "source_line_end": 3782,
+          "chapter": 28,
+          "sanskrit_parallel": null,
+          "rockhill_reference": "Uv 28.39",
+          "note": "An independently attested Tibetan counterpart: Rockhill 1883 explicitly identifies Tibetan28.39 with Pāli 18. It speaks of white deeds and repeats the here/hereafter/both pattern, without every clause of Pāli 18. No Sanskrit counterpart was supplied by the comparative edition used here."
+        }
+      ],
+      "note": "An independently attested Tibetan counterpart: Rockhill 1883 explicitly identifies Tibetan28.39 with Pāli 18. It speaks of white deeds and repeats the here/hereafter/both pattern, without every clause of Pāli 18. No Sanskrit counterpart was supplied by the comparative edition used here."
+    },
+    {
+      "pali": 19,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 213b.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3394-L3394",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གལ་ཏེ་རིགས་བཅས་མང་དུ་སྨྲས་ཀྱང་ནི། །",
+            "བག་མེད་མི་དག་དེ་ལྟར་བྱེད་མི་འགྱུར། །",
+            "དཔེར་ན་ཕྱུགས་རྫིས་གཞན་གྱི་ཕྱུགས་བགྲངས་ལྟར། །",
+            "དེ་དག་དགེ་སྦྱོང་སྐལ་བ་ཐོབ་མ་ཡིན། །"
+          ],
+          "folio_start": "213b.2",
+          "folio_end": "213b.2",
+          "source_line_start": 3394,
+          "source_line_end": 3394,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.22",
+          "rockhill_reference": "Uv 4.22"
+        }
+      ]
+    },
+    {
+      "pali": 20,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 213b.2–213b.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3394-L3395",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གལ་ཏེ་རིགས་བཅས་ཉུང་ངུ་སྨྲ་བྱེད་ཀྱང་། །",
+            "ཆོས་ཀྱི་རྗེས་སུ་ཆོས་ལ་སྤྱོད་པ་དང་། །",
+            "འདོད་ཆགས་ཞེ་སྡང་གཏི་མུག་སྤོང་བྱེད་པ། །",
+            "དེ་དག་དགེ་སྦྱོང་སྐལ་བ་ཐོབ་པ་ཡིན། །"
+          ],
+          "folio_start": "213b.2",
+          "folio_end": "213b.3",
+          "source_line_start": 3394,
+          "source_line_end": 3395,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.23",
+          "rockhill_reference": "Uv 4.23",
+          "note": "The Tibetan recension is four pādas here and is shorter than the six-pāda Pāli stanza. This is a complete Tibetan counterpart, not a modern abridgement."
+        }
+      ],
+      "note": "The Tibetan recension is four pādas here and is shorter than the six-pāda Pāli stanza. This is a complete Tibetan counterpart, not a modern abridgement."
+    },
+    {
+      "pali": 21,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 212b.3–212b.4",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3379-L3380",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བག་ཡོད་འཆི་མེད་གནས་ཡིན་ཏེ། །",
+            "བག་མེད་པ་ནི་འཆི་བའི་གནས། །",
+            "བག་ཡོད་འཆི་བར་མི་འགྱུར་ཏེ། །",
+            "བག་མེད་པ་ནི་རྟག་ཏུ་འཆི། །"
+          ],
+          "folio_start": "212b.3",
+          "folio_end": "212b.4",
+          "source_line_start": 3379,
+          "source_line_end": 3380,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.1",
+          "rockhill_reference": "Uv 4.1"
+        }
+      ]
+    },
+    {
+      "pali": 22,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 212b.4",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3380-L3380",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "དེ་ཡི་ཁྱད་པར་དེ་རིག་པས། །",
+            "མཁས་པ་རྣམས་ནི་བག་དང་བཅས། །",
+            "བག་ཡོད་པ་ལ་རབ་དགའ་བ། །",
+            "འཕགས་པའི་སྤྱོད་ཡུལ་དགའ་བ་ཡིན། །"
+          ],
+          "folio_start": "212b.4",
+          "folio_end": "212b.4",
+          "source_line_start": 3380,
+          "source_line_end": 3380,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.2",
+          "rockhill_reference": "Uv 4.2"
+        }
+      ]
+    },
+    {
+      "pali": 23,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 212b.4–212b.5",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3380-L3381",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "དེ་ལ་རྒྱུན་དུ་བསྒོམས་པ་དང་། །",
+            "རྟག་ཏུ་ཕ་རོལ་གནོན་བརྟན་པའི། །",
+            "བརྟན་པས་གྲུབ་བདེ་བླ་མེད་པ། །",
+            "མྱ་ངན་འདས་ལ་རེག་པ་ཡིན། །"
+          ],
+          "folio_start": "212b.4",
+          "folio_end": "212b.5",
+          "source_line_start": 3380,
+          "source_line_end": 3381,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.3",
+          "rockhill_reference": "Uv 4.3"
+        }
+      ]
+    },
+    {
+      "pali": 24,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 212b.6–212b.7",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3382-L3383",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བརྩོན་འགྲུས་ལྡན་ཞིང་དྲན་དང་ལྡན་པ་དང་། །",
+            "སྤྱོད་པ་གཙང་ཞིང་བརྟགས་ནས་བྱེད་པ་དང་། །",
+            "ཡང་དག་སྡོམ་དང་ཆོས་ཀྱིས་འཚོ་བ་དང་། །",
+            "བག་ཡོད་རྣམས་ཀྱི་གྲགས་པ་མངོན་པར་འཕེལ། །"
+          ],
+          "folio_start": "212b.6",
+          "folio_end": "212b.7",
+          "source_line_start": 3382,
+          "source_line_end": 3383,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.6",
+          "rockhill_reference": "Uv 4.6"
+        }
+      ]
+    },
+    {
+      "pali": 25,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 212b.6",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3382-L3382",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བརྩོན་འགྲུས་དང་ནི་བག་ཡོད་དང་། །",
+            "ཡང་དག་སྡོམ་དང་དུལ་བ་ཡིས། །",
+            "མཁས་པས་གླིང་དུ་བྱས་ནས་ནི། །",
+            "ཆུ་བོ་ཆེན་པོ་མངོན་དུ་ཟློག །"
+          ],
+          "folio_start": "212b.6",
+          "folio_end": "212b.6",
+          "source_line_start": 3382,
+          "source_line_end": 3382,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.5",
+          "rockhill_reference": "Uv 4.5"
+        }
+      ]
+    },
+    {
+      "pali": 26,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 213a.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3386-L3386",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བག་མེད་པ་ལ་སྦྱོར་བྱེད་པ། །",
+            "སྐྱེ་བོ་བྱིས་པ་བསམ་བརླག་ཡིན། །",
+            "ཚོང་དཔོན་ནོར་རྣམས་སྲུང་བ་ལྟར། །",
+            "མཁས་པ་བག་དང་ལྡན་པར་བྱ། །"
+          ],
+          "folio_start": "213a.2",
+          "folio_end": "213a.2",
+          "source_line_start": 3386,
+          "source_line_end": 3386,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.10",
+          "rockhill_reference": "Uv 4.10"
+        }
+      ]
+    },
+    {
+      "pali": 27,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 213a.2–213a.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3386-L3387",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བག་མེད་པ་ལ་མི་སྦྱོར་ཞིང་། །",
+            "འདོད་ལ་དགའ་བ་མི་སོགས་དང་། །",
+            "རྟག་ཏུ་བག་ཡོད་སེམས་བྱེད་པ། །",
+            "ཟག་པ་ཟད་པ་ཐོབ་པར་འགྱུར། །"
+          ],
+          "folio_start": "213a.2",
+          "folio_end": "213a.3",
+          "source_line_start": 3386,
+          "source_line_end": 3387,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.12",
+          "rockhill_reference": "Uv 4.11",
+          "note": "The Tibetan counterpart ends with exhaustion of the taints, rather than the Pāli wording about abundant happiness. It precedes the lion simile in this Tibetan source; the Sanskrit numbering differs."
+        }
+      ],
+      "note": "The Tibetan counterpart ends with exhaustion of the taints, rather than the Pāli wording about abundant happiness. It precedes the lion simile in this Tibetan source; the Sanskrit numbering differs."
+    },
+    {
+      "pali": 28,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 212b.5–212b.6",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3381-L3382",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གང་ཚེ་མཁས་པས་བག་ཡོད་པས། །",
+            "བག་མེད་བཅོམ་པ་དེ་ཡི་ཚེ། །",
+            "ཤེས་རབ་ཁང་བཟངས་སྟེང་འཛེགས་ནས། །",
+            "མྱ་ངན་མེད་པས་གདུང་བཅས་དང་། །",
+            "བརྟན་རྣམས་རི་བོའི་སྤོ་དག་ལས། །",
+            "ས་སྟེངས་བྱིས་པ་རྣམས་ལ་བལྟ། །"
+          ],
+          "folio_start": "212b.5",
+          "folio_end": "212b.6",
+          "source_line_start": 3381,
+          "source_line_end": 3382,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.4",
+          "rockhill_reference": "Uv 4.4",
+          "source_annotations": [
+            {
+              "printed": "བཟངས་",
+              "editorial_suggestion": "བཟང་",
+              "choice": "printed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pali": 29,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 226a.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3594-L3594",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བག་ཡོད་པ་ཡིས་བག་མེད་དང་། །",
+            "མི་ཉལ་མང་པོས་གཉིད་ལོག་དང་། །",
+            "རྟ་བཟངས་ཀྱིས་ནི་རྟ་རྒོད་ལྟར། །",
+            "ཤིན་ཏུ་མཁས་པས་སྤངས་ནས་འགྲོ། །"
+          ],
+          "folio_start": "226a.2",
+          "folio_end": "226a.2",
+          "source_line_start": 3594,
+          "source_line_end": 3594,
+          "chapter": 19,
+          "sanskrit_parallel": "Uv 19.4",
+          "rockhill_reference": "Uv 19.4",
+          "source_annotations": [
+            {
+              "printed": "བཟངས་ཀྱིས་",
+              "editorial_suggestion": "བཟང་གིས་",
+              "choice": "printed"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "pali": 30,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 213b.3",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3395-L3395",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བག་ཡོད་བསྔགས་པ་རྗོད་བྱེད་ཅིང་། །",
+            "རྟག་ཏུ་བག་མེད་ལ་སྨོད་པས། །",
+            "བག་ཡོད་མཆོད་སྦྱིན་བརྒྱ་པ་ཡང་། །",
+            "ལྷ་རྣམས་ནང་ན་གཙོ་བོར་གྱུར། །"
+          ],
+          "folio_start": "213b.3",
+          "folio_end": "213b.3",
+          "source_line_start": 3395,
+          "source_line_end": 3395,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.24",
+          "rockhill_reference": "Uv 4.24"
+        }
+      ]
+    },
+    {
+      "pali": 31,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 213b.6",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3398-L3398",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "དགེ་སློང་བག་ཡོད་ལ་དགའ་ཞིང་། །",
+            "བག་མེད་པ་ལ་འཇིགས་ལྟ་བས། །",
+            "ཀུན་ཏུ་སྦྱོར་བ་ཕྲ་སྦོམ་དག །",
+            "མེ་ཡིས་བསྲེགས་པ་བཞིན་དུ་འགྲོ། །"
+          ],
+          "folio_start": "213b.6",
+          "folio_end": "213b.6",
+          "source_line_start": 3398,
+          "source_line_end": 3398,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.29",
+          "rockhill_reference": "Uv 4.29"
+        }
+      ]
+    },
+    {
+      "pali": 32,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 213b.7–214a.1",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3399-L3401",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "དགེ་སློང་བག་ཡོད་ལ་དགའ་ཞིང་། །",
+            "བག་མེད་པ་ལ་འཇིགས་ལྟ་བ། །",
+            "མྱ་ངན་འདས་དང་ཉེ་བའི་ཕྱིར། །",
+            "ཡོངས་སུ་ཉམས་འགྱུར་མི་སྲིད་དོ། །"
+          ],
+          "folio_start": "213b.7",
+          "folio_end": "214a.1",
+          "source_line_start": 3399,
+          "source_line_end": 3401,
+          "chapter": 4,
+          "sanskrit_parallel": "Uv 4.32",
+          "rockhill_reference": "Uv 4.32"
+        }
+      ]
+    },
+    {
+      "pali": 33,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243a.5–243a.6",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3869-L3870",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "སེམས་ནི་གཡོ་ཞིང་བརྫུན་པ་སྟེ། །",
+            "རིང་དུ་འགྲོ་ཞིང་བཟློག་དཀའ་བ། །",
+            "མདའ་མཁན་མེ་ཡིས་སྲོང་བ་ལྟར། །",
+            "ཡིད་གཞུངས་པ་ཡིས་བསྲང་བར་བྱ། །"
+          ],
+          "folio_start": "243a.5",
+          "folio_end": "243a.6",
+          "source_line_start": 3869,
+          "source_line_end": 3870,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.8",
+          "rockhill_reference": "Uv 31.8",
+          "source_annotations": [
+            {
+              "printed": "བརྫུན་",
+              "editorial_suggestion": "རྫུན་",
+              "choice": "printed"
+            }
+          ],
+          "note": "The four pādas corresponding to Pāli 33 are excerpted. Rockhill groups the two preceding clauses about separation from formations with this verse; the primary text has continuous shad punctuation without modern stanza blocks."
+        }
+      ],
+      "note": "The four pādas corresponding to Pāli 33 are excerpted. Rockhill groups the two preceding clauses about separation from formations with this verse; the primary text has continuous shad punctuation without modern stanza blocks."
+    },
+    {
+      "pali": 34,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243a.1–243a.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3865-L3866",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "བདུད་ཀྱི་གཞི་དག་སྤོང་བ་ན། །",
+            "ཆུ་བོའི་གནས་ནས་རབ་བཏོན་ཏེ། །",
+            "ཐང་ལ་བོར་བའི་ཉ་ལྟ་བུར། །",
+            "བདག་གི་སེམས་ནི་ཡོངས་སུ་གཡོ། །"
+          ],
+          "folio_start": "243a.1",
+          "folio_end": "243a.2",
+          "source_line_start": 3865,
+          "source_line_end": 3866,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.2",
+          "rockhill_reference": "Uv 31.2"
+        }
+      ]
+    },
+    {
+      "pali": 35,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243a.1",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3865-L3865",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གཟུང་བར་དཀའ་ཞིང་ཡང་བ་དང་། །",
+            "གང་དུ་དགའ་བར་འགྲོ་བ་ཡི། །",
+            "སེམས་དུལ་བ་ནི་ལེགས་པ་སྟེ། །",
+            "སེམས་དུལ་བ་ཡིས་བདེ་བ་འདྲེན། །"
+          ],
+          "folio_start": "243a.1",
+          "folio_end": "243a.1",
+          "source_line_start": 3865,
+          "source_line_end": 3865,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.1",
+          "rockhill_reference": "Uv 31.1"
+        }
+      ]
+    },
+    {
+      "pali": 36,
+      "status": "not-located",
+      "readings": [],
+      "note": "No sufficiently close Tibetan counterpart was located in the bounded comparison. The Mind chapter contains other verses about guarding mind, but they are not substituted for this verse. This is not proof that no parallel exists anywhere in Tibetan literature."
+    },
+    {
+      "pali": 37,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243a.6",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3870-L3870",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "གང་ཞིག་ལུས་མེད་ཕུག་ན་གནས། །",
+            "གཅིག་པུ་རྒྱུ་ཞིང་རིང་འགྲོ་བའི། །",
+            "སེམས་དེ་འདུལ་བར་བྱེད་པ་ནི། །",
+            "འཇིགས་པ་ཆེ་ལས་ཐར་བར་འགྱུར། །"
+          ],
+          "folio_start": "243a.6",
+          "folio_end": "243a.6",
+          "source_line_start": 3870,
+          "source_line_end": 3870,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.8A",
+          "rockhill_reference": "Uv 31.9",
+          "note": "This native Tibetan stanza is Rockhill 31.9. The Sanskrit comparative edition calls the corresponding additional stanza Uv 31.8A. Neither 8A nor the Pāli number is a Tibetan source number."
+        }
+      ],
+      "note": "This native Tibetan stanza is Rockhill 31.9. The Sanskrit comparative edition calls the corresponding additional stanza Uv 31.8A. Neither 8A nor the Pāli number is a Tibetan source number."
+    },
+    {
+      "pali": 38,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 244a.4",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3884-L3884",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "སེམས་ཀྱི་བརྟན་པ་མེད་པ་ཡིས། །",
+            "དམ་ཆོས་རྣམ་པར་ཤེས་མི་འགྱུར། །",
+            "དད་པ་འགྱུར་ལྡོག་བྱེད་པ་ཡི། །",
+            "ཤེས་རབ་ཡོངས་སུ་རྫོགས་མི་འགྱུར། །"
+          ],
+          "folio_start": "244a.4",
+          "folio_end": "244a.4",
+          "source_line_start": 3884,
+          "source_line_end": 3884,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.28",
+          "rockhill_reference": "Uv 31.28"
+        }
+      ]
+    },
+    {
+      "pali": 39,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 236a.7",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3759-L3759",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "སེམས་ཀྱི་ཟག་པ་མེད་པ་དང་། །",
+            "སེམས་ནི་འཆིང་བས་མ་བཅོམ་ལ། །",
+            "དགེ་དང་སྡིག་པ་རབ་སྤངས་པ། །",
+            "ངན་འགྲོ་རྣམས་ཀྱིས་འཇིགས་པ་མེད། །"
+          ],
+          "folio_start": "236a.7",
+          "folio_end": "236a.7",
+          "source_line_start": 3759,
+          "source_line_end": 3759,
+          "chapter": 28,
+          "sanskrit_parallel": "Uv 28.6",
+          "rockhill_reference": "Uv 28.6",
+          "note": "The Tibetan witness speaks of an untainted and unbound mind, abandonment of good and evil, and absence of fear of bad destinies. Preserve these differences from Pāli 39."
+        }
+      ],
+      "note": "The Tibetan witness speaks of an untainted and unbound mind, abandonment of good and evil, and absence of fear of bad destinies. Preserve these differences from Pāli 39."
+    },
+    {
+      "pali": 40,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 244b.1–244b.2",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3889-L3890",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ལུས་འདི་བུམ་པ་འདྲ་བར་རྟོགས་བྱས་ཤིང་། །",
+            "གྲོང་ཁྱེར་འདྲ་བའི་སེམས་ཀྱིས་སྲན་བཙུགས་ནས། །",
+            "ཤེས་རབ་མཚོན་གྱིས་བདུད་དང་གཡུལ་སྤྲད་དེ། །",
+            "བཏུལ་ནས་གནས་མེད་པར་ནི་བསྲུང་བར་བྱ། །"
+          ],
+          "folio_start": "244b.1",
+          "folio_end": "244b.2",
+          "source_line_start": 3889,
+          "source_line_end": 3890,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.35",
+          "rockhill_reference": "Uv 31.35",
+          "note": "The Tibetan witness uses wisdom as a weapon; the other imagery corresponds at verse level. Its wording is retained without harmonizing it to Pāli."
+        }
+      ],
+      "note": "The Tibetan witness uses wisdom as a weapon; the other imagery corresponds at verse level. Its wording is retained without harmonizing it to Pāli."
+    },
+    {
+      "pali": 41,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 210b.1",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3345-L3345",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ཀྱེ་མ་ལུས་འདི་མི་ཐོགས་པར། །",
+            "སྟོང་ཞིང་རྣམ་ཤེས་དང་བྲལ་ནས། །",
+            "དུར་ཁྲོད་བོར་བའི་མགལ་དུམ་ལྟར། །",
+            "ས་ཡི་སྟེང་དུ་འགྱེལ་བར་འགྱུར། །"
+          ],
+          "folio_start": "210b.1",
+          "folio_end": "210b.1",
+          "source_line_start": 3345,
+          "source_line_end": 3345,
+          "chapter": 1,
+          "sanskrit_parallel": "Uv 1.35",
+          "rockhill_reference": "Uv 1.36",
+          "note": "The Tibetan source is Rockhill 1.36, corresponding to Sanskrit Uv 1.35. It describes an abandoned firebrand in a charnel ground rather than silently adopting the Pāli wording."
+        }
+      ],
+      "note": "The Tibetan source is Rockhill 1.36, corresponding to Sanskrit Uv 1.35. It describes an abandoned firebrand in a charnel ground rather than silently adopting the Pāli wording."
+    },
+    {
+      "pali": 42,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243a.6–243a.7",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3870-L3871",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ལོག་པའི་སྨོན་ལྡན་སེམས་གང་གིས། །",
+            "བདག་ཉིད་སྡུག་བསྔལ་བྱེད་འགྱུར་བའི། །",
+            "དེ་ལྟར་འཁོན་གྱིས་འཁོན་ཅན་དང་། །",
+            "དགྲ་བོས་དགྲ་ལའང་བྱེད་མི་འགྱུར། །"
+          ],
+          "folio_start": "243a.6",
+          "folio_end": "243a.7",
+          "source_line_start": 3870,
+          "source_line_end": 3871,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.9",
+          "rockhill_reference": "Uv 31.10"
+        }
+      ]
+    },
+    {
+      "pali": 43,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Toh 326 · Derge 72, 243a.7",
+          "source_id": "esukhia-derge-toh326",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3871-L3871",
+          "language": "bo",
+          "script": "Tibt",
+          "lines": [
+            "ཡང་དག་སྨོན་ལྡན་སེམས་གང་གིས། །",
+            "བདག་ཉིད་བདེ་བར་བྱེད་འགྱུར་བ། །",
+            "དེ་ལྟར་ཕ་དང་མ་དག་དང་། །",
+            "གཉེན་གཞན་གྱིས་ཀྱང་བྱེད་མི་འགྱུར། །"
+          ],
+          "folio_start": "243a.7",
+          "folio_end": "243a.7",
+          "source_line_start": 3871,
+          "source_line_end": 3871,
+          "chapter": 31,
+          "sanskrit_parallel": "Uv 31.10",
+          "rockhill_reference": "Uv 31.11"
+        }
+      ]
+    }
+  ]
+}

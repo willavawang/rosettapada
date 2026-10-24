@@ -1,0 +1,1391 @@
+{
+  "tradition": "zh",
+  "language": "Chinese",
+  "language_tag": "zh-Hant",
+  "scope": "Pāli Dhammapada verses 1–43, in Pāli order",
+  "editorial_policy": "T210 is preferred. Actual T212 or T213 historical counterparts are used only where the selected table has no T210 counterpart, and each reading retains its exact Taishō collection reference. Missing coverage is not filled by retranslating Pāli.",
+  "coverage": {
+    "present": 42,
+    "not_located": [
+      42
+    ],
+    "fallbacks": {
+      "3": "T212 15.7",
+      "4": "T213 14.10",
+      "30": "T213 4.24",
+      "32": "T213 4.32",
+      "34": "T212 32.2"
+    }
+  },
+  "sources": [
+    {
+      "id": "ken-su-correspondence",
+      "title": "Pāli–Chinese Dhammapada correspondence tables, chapters 1–3",
+      "compiler": "蘇錦坤 (Ken Su)",
+      "url": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali/",
+      "snapshot": "data/witnesses/sources/chinese/correspondence-mapping.json",
+      "note": "Only correspondence facts and ancient verse quotations are retained; modern Pāli translations and explanatory commentary are not reproduced."
+    },
+    {
+      "id": "cbeta-t210",
+      "title": "法句經 (Faju jing)",
+      "collection": "T210",
+      "edition": "CBETA XML TEI P5, Taishō Tripiṭaka vol. 4",
+      "edition_date": "2026-06-15 07:11:47 +0800",
+      "retrieved": "2026-10-23",
+      "url": "https://cbetaonline.dila.edu.tw/T0210",
+      "upstream_repository": "cbeta-org/xml-p5",
+      "upstream_commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+      "snapshot": "data/witnesses/sources/chinese/T04n0210-selected.xml",
+      "snapshot_sha256": "f6f2bffc17f720f94af247e2f44d0834870886d9963d851b91881a7a7918ba37",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "copyright_url": "https://cbeta.org/copyright",
+      "notice": "data/witnesses/sources/chinese/CBETA-NOTICE.txt"
+    },
+    {
+      "id": "cbeta-t212",
+      "title": "出曜經 (Chuyao jing)",
+      "collection": "T212",
+      "edition": "CBETA XML TEI P5, Taishō Tripiṭaka vol. 4",
+      "edition_date": "2025-11-04 18:06:03 +0800",
+      "retrieved": "2026-10-23",
+      "url": "https://cbetaonline.dila.edu.tw/T0212",
+      "upstream_repository": "cbeta-org/xml-p5",
+      "upstream_commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+      "snapshot": "data/witnesses/sources/chinese/T04n0212-selected.xml",
+      "snapshot_sha256": "17a4f4b6c110683e0dede5656ef439fd23160400a5ce78848790e3e0019f093a",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "copyright_url": "https://cbeta.org/copyright",
+      "notice": "data/witnesses/sources/chinese/CBETA-NOTICE.txt"
+    },
+    {
+      "id": "cbeta-t213",
+      "title": "法集要頌經 (Faji yaosong jing)",
+      "collection": "T213",
+      "edition": "CBETA XML TEI P5, Taishō Tripiṭaka vol. 4",
+      "edition_date": "2026-06-15 07:11:47 +0800",
+      "retrieved": "2026-10-23",
+      "url": "https://cbetaonline.dila.edu.tw/T0213",
+      "upstream_repository": "cbeta-org/xml-p5",
+      "upstream_commit": "dbdea41071e1e260ad84b72faefd4587333cf76d",
+      "snapshot": "data/witnesses/sources/chinese/T04n0213-selected.xml",
+      "snapshot_sha256": "14682d4c6afbdb3ad189de15e1fb1aae2eb60f48c227c523fbfa02e5d9f0ef83",
+      "license": "CC-BY-NC-SA-4.0",
+      "license_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "copyright_url": "https://cbeta.org/copyright",
+      "notice": "data/witnesses/sources/chinese/CBETA-NOTICE.txt"
+    }
+  ],
+  "pinyin": {
+    "type": "modern Mandarin pronunciation aid",
+    "method": "pypinyin 0.55.0 citation-tone output, with manual contextual corrections for polyphonic and historical characters. Syllables are spaced character by character; word segmentation and tone sandhi are not asserted.",
+    "status": "editorial reading aid; not an independently reviewed historical pronunciation or translation",
+    "manual_character_readings": {
+      "為": "wéi",
+      "佛": "fó",
+      "調": "tiáo",
+      "降": "xiáng",
+      "靡": "mǐ",
+      "好": "hào",
+      "𠎝": "qiān",
+      "得": "dé",
+      "行": "xíng",
+      "興": "xīng",
+      "禁": "jìn",
+      "樂": "lè",
+      "省": "xǐng",
+      "子": "zǐ"
+    },
+    "pronunciation_references": [
+      {
+        "character": "㺃",
+        "reading": "gǒu",
+        "url": "https://www.cns11643.gov.tw/wordView.jsp?ID=212268"
+      },
+      {
+        "character": "𠎝",
+        "reading": "qiān",
+        "url": "https://www.cns11643.gov.tw/wordView.jsp?ID=664642"
+      },
+      {
+        "character": "為",
+        "reading": "wéi in these usages",
+        "url": "https://dict.revised.moe.edu.tw/dictView.jsp?ID=11400&la=1&powerMode=0"
+      }
+    ]
+  },
+  "verses": [
+    {
+      "pali": 1,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.1",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "心為法本，",
+            "心尊心使，",
+            "中心念惡，",
+            "即言即行，",
+            "罪苦自追，",
+            "車轢于轍；"
+          ],
+          "pinyin": [
+            "xīn wéi fǎ běn，",
+            "xīn zūn xīn shǐ，",
+            "zhōng xīn niàn è，",
+            "jí yán jí xíng，",
+            "zuì kǔ zì zhuī，",
+            "chē lì yú zhé；"
+          ],
+          "taisho_start": "0562a13",
+          "taisho_end": "0562a14",
+          "location": "T04, no. 210, 0562a13–0562a14",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 2,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.2",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "心為法本，",
+            "心尊心使，",
+            "中心念善，",
+            "即言即行，",
+            "福樂自追，",
+            "如影隨形。"
+          ],
+          "pinyin": [
+            "xīn wéi fǎ běn，",
+            "xīn zūn xīn shǐ，",
+            "zhōng xīn niàn shàn，",
+            "jí yán jí xíng，",
+            "fú lè zì zhuī，",
+            "rú yǐng suí xíng。"
+          ],
+          "taisho_start": "0562a15",
+          "taisho_end": "0562a16",
+          "location": "T04, no. 210, 0562a15–0562a16",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 3,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T212 15.7",
+          "source_id": "cbeta-t212",
+          "lines": [
+            "人若罵我，",
+            "勝我不勝，",
+            "快意從者，",
+            "怨終不息。"
+          ],
+          "pinyin": [
+            "rén ruò mà wǒ，",
+            "shèng wǒ bù shèng，",
+            "kuài yì cóng zhě，",
+            "yuàn zhōng bù xī。"
+          ],
+          "taisho_start": "0696c24",
+          "taisho_end": "0696c25",
+          "location": "T04, no. 212, 0696c24–0696c25",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0212.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/",
+      "note": "T210 has no counterpart identified in the table. The displayed reading is from T212; its first phrase is 人若罵我 in CBETA, whereas the table quotes 若人罵我."
+    },
+    {
+      "pali": 4,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "T213 14.10",
+          "source_id": "cbeta-t213",
+          "lines": [
+            "若人致毀罵，",
+            "彼勝我不勝，",
+            "快樂從意者，",
+            "怨終得休息。"
+          ],
+          "pinyin": [
+            "ruò rén zhì huǐ mà，",
+            "bǐ shèng wǒ bù shèng，",
+            "kuài lè cóng yì zhě，",
+            "yuàn zhōng dé xiū xī。"
+          ],
+          "taisho_start": "0784b03",
+          "taisho_end": "0784b04",
+          "location": "T04, no. 213, 0784b03–0784b04",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0213.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/",
+      "note": "The table lists T213 14.10 for both Pāli 3 and 4. The Chinese verse is not an exact positive/negative pair like the Pāli; its relation is a qualified parallel."
+    },
+    {
+      "pali": 5,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.5",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "慍於怨者，",
+            "未甞無怨；",
+            "不慍自除，",
+            "是道可宗。"
+          ],
+          "edition_difference": {
+            "table": "慍於怨者未嘗無怨不慍自除是道可宗",
+            "cbeta": "慍於怨者未甞無怨不慍自除是道可宗"
+          },
+          "pinyin": [
+            "yùn yú yuàn zhě，",
+            "wèi cháng wú yuàn；",
+            "bù yùn zì chú，",
+            "shì dào kě zōng。"
+          ],
+          "taisho_start": "0562a19",
+          "taisho_end": "0562a20",
+          "location": "T04, no. 210, 0562a19–0562a20",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 6,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "T210 9.6",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "不好責彼，",
+            "務自省身，",
+            "如有知此，",
+            "永滅無患。"
+          ],
+          "pinyin": [
+            "bù hào zé bǐ，",
+            "wù zì xǐng shēn，",
+            "rú yǒu zhī cǐ，",
+            "yǒng miè wú huàn。"
+          ],
+          "taisho_start": "0562a21",
+          "taisho_end": "0562a22",
+          "location": "T04, no. 210, 0562a21–0562a22",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/",
+      "note": "Ken Su identifies this T210 counterpart, but its admonition to examine oneself differs from the Pāli wording. Alignment is by verse, not literal phrase."
+    },
+    {
+      "pali": 7,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.7",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "行見身淨，",
+            "不攝諸根，",
+            "飲食不節，",
+            "慢墮怯弱，",
+            "為邪所制，",
+            "如風靡草；"
+          ],
+          "pinyin": [
+            "xíng jiàn shēn jìng，",
+            "bù shè zhū gēn，",
+            "yǐn shí bù jié，",
+            "màn duò qiè ruò，",
+            "wéi xié suǒ zhì，",
+            "rú fēng mǐ cǎo；"
+          ],
+          "taisho_start": "0562a22",
+          "taisho_end": "0562a24",
+          "location": "T04, no. 210, 0562a22–0562a24",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 8,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.8",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "觀身不淨，",
+            "能攝諸根，",
+            "食知節度，",
+            "常樂精進，",
+            "不為邪動，",
+            "如風大山。"
+          ],
+          "pinyin": [
+            "guān shēn bù jìng，",
+            "néng shè zhū gēn，",
+            "shí zhī jié dù，",
+            "cháng lè jīng jìn，",
+            "bù wéi xié dòng，",
+            "rú fēng dà shān。"
+          ],
+          "taisho_start": "0562a24",
+          "taisho_end": "0562a26",
+          "location": "T04, no. 210, 0562a24–0562a26",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 9,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.9",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "不吐毒態，",
+            "欲心馳騁，",
+            "未能自調，",
+            "不應法衣；"
+          ],
+          "pinyin": [
+            "bù tǔ dú tài，",
+            "yù xīn chí chěng，",
+            "wèi néng zì tiáo，",
+            "bù yīng fǎ yī；"
+          ],
+          "taisho_start": "0562a26",
+          "taisho_end": "0562a27",
+          "location": "T04, no. 210, 0562a26–0562a27",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 10,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.10",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "能吐毒態，",
+            "戒意安靜，",
+            "降心已調，",
+            "此應法衣。"
+          ],
+          "pinyin": [
+            "néng tǔ dú tài，",
+            "jiè yì ān jìng，",
+            "xiáng xīn yǐ tiáo，",
+            "cǐ yīng fǎ yī。"
+          ],
+          "taisho_start": "0562a27",
+          "taisho_end": "0562a28",
+          "location": "T04, no. 210, 0562a27–0562a28",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 11,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.11",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "以真為偽、",
+            "以偽為真，",
+            "是為邪計，",
+            "不得真利；"
+          ],
+          "edition_difference": {
+            "table": "以真為偽以真為偽是為邪計不得真利",
+            "cbeta": "以真為偽以偽為真是為邪計不得真利"
+          },
+          "pinyin": [
+            "yǐ zhēn wéi wěi、",
+            "yǐ wěi wéi zhēn，",
+            "shì wéi xié jì，",
+            "bù dé zhēn lì；"
+          ],
+          "taisho_start": "0562a29",
+          "taisho_end": "0562b01",
+          "location": "T04, no. 210, 0562a29–0562b01",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/",
+      "note": "The correspondence table repeats 以真為偽 in its second clause. The display follows CBETA: 以真為偽、以偽為真."
+    },
+    {
+      "pali": 12,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.12",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "知真為真、",
+            "見偽知偽，",
+            "是為正計，",
+            "必得真利。"
+          ],
+          "pinyin": [
+            "zhī zhēn wéi zhēn、",
+            "jiàn wěi zhī wěi，",
+            "shì wéi zhèng jì，",
+            "bì dé zhēn lì。"
+          ],
+          "taisho_start": "0562b01",
+          "taisho_end": "0562b02",
+          "location": "T04, no. 210, 0562b01–0562b02",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 13,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.13",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "蓋屋不密，",
+            "天雨則漏，",
+            "意不惟行，",
+            "淫泆為穿；"
+          ],
+          "pinyin": [
+            "gài wū bù mì，",
+            "tiān yǔ zé lòu，",
+            "yì bù wéi xíng，",
+            "yín yì wéi chuān；"
+          ],
+          "taisho_start": "0562b02",
+          "taisho_end": "0562b03",
+          "location": "T04, no. 210, 0562b02–0562b03",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 14,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.14",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "蓋屋善密，",
+            "雨則不漏，",
+            "攝意惟行，",
+            "淫泆不生。"
+          ],
+          "pinyin": [
+            "gài wū shàn mì，",
+            "yǔ zé bù lòu，",
+            "shè yì wéi xíng，",
+            "yín yì bù shēng。"
+          ],
+          "taisho_start": "0562b04",
+          "taisho_end": "0562b05",
+          "location": "T04, no. 210, 0562b04–0562b05",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 15,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.17",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "造憂後憂，",
+            "行惡兩憂，",
+            "彼憂惟懼，",
+            "見罪心懅；"
+          ],
+          "pinyin": [
+            "zào yōu hòu yōu，",
+            "xíng è liǎng yōu，",
+            "bǐ yōu wéi jù，",
+            "jiàn zuì xīn jù；"
+          ],
+          "taisho_start": "0562b08",
+          "taisho_end": "0562b09",
+          "location": "T04, no. 210, 0562b08–0562b09",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 16,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.18",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "造喜後喜，",
+            "行善兩喜，",
+            "彼喜惟歡，",
+            "見福心安；"
+          ],
+          "pinyin": [
+            "zào xǐ hòu xǐ，",
+            "xíng shàn liǎng xǐ，",
+            "bǐ xǐ wéi huān，",
+            "jiàn fú xīn ān；"
+          ],
+          "taisho_start": "0562b09",
+          "taisho_end": "0562b10",
+          "location": "T04, no. 210, 0562b09–0562b10",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 17,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.19",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "今悔後悔，",
+            "為惡兩悔，",
+            "厥為自殃，",
+            "受罪熱惱；"
+          ],
+          "pinyin": [
+            "jīn huǐ hòu huǐ，",
+            "wéi è liǎng huǐ，",
+            "jué wéi zì yāng，",
+            "shòu zuì rè nǎo；"
+          ],
+          "taisho_start": "0562b10",
+          "taisho_end": "0562b11",
+          "location": "T04, no. 210, 0562b10–0562b11",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 18,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.20",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "今歡後歡，",
+            "為善兩歡，",
+            "厥為自祐，",
+            "受福悅豫。"
+          ],
+          "pinyin": [
+            "jīn huān hòu huān，",
+            "wéi shàn liǎng huān，",
+            "jué wéi zì yòu，",
+            "shòu fú yuè yù。"
+          ],
+          "taisho_start": "0562b12",
+          "taisho_end": "0562b13",
+          "location": "T04, no. 210, 0562b12–0562b13",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 19,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.21",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "巧言多求，",
+            "放蕩無戒，",
+            "懷婬怒癡，",
+            "不惟止觀，",
+            "聚如群牛，",
+            "非佛弟子；"
+          ],
+          "pinyin": [
+            "qiǎo yán duō qiú，",
+            "fàng dàng wú jiè，",
+            "huái yín nù chī，",
+            "bù wéi zhǐ guān，",
+            "jù rú qún niú，",
+            "fēi fó dì zǐ；"
+          ],
+          "taisho_start": "0562b13",
+          "taisho_end": "0562b15",
+          "location": "T04, no. 210, 0562b13–0562b15",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 20,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 9.22",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "時言少求，",
+            "行道如法，",
+            "除婬怒癡，",
+            "覺正意解，",
+            "見對不起，",
+            "是佛弟子。"
+          ],
+          "pinyin": [
+            "shí yán shǎo qiú，",
+            "xíng dào rú fǎ，",
+            "chú yín nù chī，",
+            "jué zhèng yì jiě，",
+            "jiàn duì bù qǐ，",
+            "shì fó dì zǐ。"
+          ],
+          "taisho_start": "0562b15",
+          "taisho_end": "0562b17",
+          "location": "T04, no. 210, 0562b15–0562b17",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/"
+    },
+    {
+      "pali": 21,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 10.1",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "戒為甘露道，",
+            "放逸為死徑，",
+            "不貪則不死，",
+            "失道為自喪；"
+          ],
+          "pinyin": [
+            "jiè wéi gān lù dào，",
+            "fàng yì wéi sǐ jìng，",
+            "bù tān zé bù sǐ，",
+            "shī dào wéi zì sàng；"
+          ],
+          "taisho_start": "0562b21",
+          "taisho_end": "0562b22",
+          "location": "T04, no. 210, 0562b21–0562b22",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/"
+    },
+    {
+      "pali": 22,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 10.2",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "慧智守道勝，",
+            "終不為放逸，",
+            "不貪致歡喜，",
+            "從是得道樂。"
+          ],
+          "pinyin": [
+            "huì zhì shǒu dào shèng，",
+            "zhōng bù wéi fàng yì，",
+            "bù tān zhì huān xǐ，",
+            "cóng shì dé dào lè。"
+          ],
+          "taisho_start": "0562b23",
+          "taisho_end": "0562b24",
+          "location": "T04, no. 210, 0562b23–0562b24",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/"
+    },
+    {
+      "pali": 23,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 10.3",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "常當惟念道，",
+            "自強守正行，",
+            "健者得度世，",
+            "吉祥無有上。"
+          ],
+          "pinyin": [
+            "cháng dāng wéi niàn dào，",
+            "zì qiáng shǒu zhèng xíng，",
+            "jiàn zhě dé dù shì，",
+            "jí xiáng wú yǒu shàng。"
+          ],
+          "taisho_start": "0562b25",
+          "taisho_end": "0562b26",
+          "location": "T04, no. 210, 0562b25–0562b26",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/"
+    },
+    {
+      "pali": 24,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 10.4",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "正念常興起，",
+            "行淨惡易滅，",
+            "自制以法壽，",
+            "不犯善名增。"
+          ],
+          "pinyin": [
+            "zhèng niàn cháng xīng qǐ，",
+            "xíng jìng è yì miè，",
+            "zì zhì yǐ fǎ shòu，",
+            "bù fàn shàn míng zēng。"
+          ],
+          "taisho_start": "0562b27",
+          "taisho_end": "0562b28",
+          "location": "T04, no. 210, 0562b27–0562b28",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/"
+    },
+    {
+      "pali": 25,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "T210 10.5",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "發行不放逸，",
+            "約以自調心，",
+            "慧能作定明，",
+            "不返冥淵中。"
+          ],
+          "edition_difference": {
+            "table": "發行不放逸約以自調心慧能作錠明不返冥淵中",
+            "cbeta": "發行不放逸約以自調心慧能作定明不返冥淵中"
+          },
+          "pinyin": [
+            "fā xíng bù fàng yì，",
+            "yuē yǐ zì tiáo xīn，",
+            "huì néng zuò dìng míng，",
+            "bù fǎn míng yuān zhōng。"
+          ],
+          "taisho_start": "0562b29",
+          "taisho_end": "0562c01",
+          "location": "T04, no. 210, 0562b29–0562c01",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/",
+      "note": "The table quotes 錠明; this CBETA edition reads 定明. That Chinese lamp/illumination wording differs from the Pāli island image; no harmonization is made."
+    },
+    {
+      "pali": 26,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 10.6",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "愚人意難解，",
+            "貪亂好諍訟，",
+            "上智常重慎，",
+            "護斯為寶尊。"
+          ],
+          "pinyin": [
+            "yú rén yì nán jiě，",
+            "tān luàn hào zhèng sòng，",
+            "shàng zhì cháng zhòng shèn，",
+            "hù sī wéi bǎo zūn。"
+          ],
+          "taisho_start": "0562c02",
+          "taisho_end": "0562c03",
+          "location": "T04, no. 210, 0562c02–0562c03",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/"
+    },
+    {
+      "pali": 27,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 10.7",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "莫貪、莫好諍、",
+            "亦莫嗜欲樂，",
+            "思心不放逸，",
+            "可以獲大安。"
+          ],
+          "pinyin": [
+            "mò tān、 mò hào zhèng、",
+            "yì mò shì yù lè，",
+            "sī xīn bù fàng yì，",
+            "kě yǐ huò dà ān。"
+          ],
+          "taisho_start": "0562c04",
+          "taisho_end": "0562c05",
+          "location": "T04, no. 210, 0562c04–0562c05",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/"
+    },
+    {
+      "pali": 28,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 10.8",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "放逸如自禁，",
+            "能却之為賢，",
+            "已昇智慧閣，",
+            "去危為即安。",
+            "明智觀於愚，",
+            "譬如山與地，"
+          ],
+          "pinyin": [
+            "fàng yì rú zì jìn，",
+            "néng què zhī wéi xián，",
+            "yǐ shēng zhì huì gé，",
+            "qù wēi wéi jí ān。",
+            "míng zhì guān yú yú，",
+            "pì rú shān yǔ dì，"
+          ],
+          "taisho_start": "0562c06",
+          "taisho_end": "0562c08",
+          "location": "T04, no. 210, 0562c06–0562c08",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/",
+      "note": "Ken Su's verse division groups six clauses here; CBETA punctuation places a full stop after 去危為即安 and continues the final two clauses before the next mapped verse. This grouping follows the correspondence table, with CBETA punctuation retained."
+    },
+    {
+      "pali": 29,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 31.17",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "不自放恣，",
+            "從是多寤，",
+            "羸馬比良，",
+            "棄惡為賢。"
+          ],
+          "edition_difference": {
+            "table": "不自放逸從是多悟羸馬比良棄惡為賢",
+            "cbeta": "不自放恣從是多寤羸馬比良棄惡為賢"
+          },
+          "pinyin": [
+            "bù zì fàng zì，",
+            "cóng shì duō wù，",
+            "léi mǎ bǐ liáng，",
+            "qì è wéi xián。"
+          ],
+          "taisho_start": "0570c13",
+          "taisho_end": "0570c14",
+          "location": "T04, no. 210, 0570c13–0570c14",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        },
+        {
+          "reference": "T210 10.9",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "居亂而身正，",
+            "彼為獨覺悟，",
+            "是力過師子，",
+            "棄惡為大智。"
+          ],
+          "note": "An additional counterpart in Ken Su's table; the first listed reading (T210 31.17) retains the horse image more closely.",
+          "pinyin": [
+            "jū luàn ér shēn zhèng，",
+            "bǐ wéi dú jué wù，",
+            "shì lì guò shī zǐ，",
+            "qì è wéi dà zhì。"
+          ],
+          "taisho_start": "0562c09",
+          "taisho_end": "0562c10",
+          "location": "T04, no. 210, 0562c09–0562c10",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/",
+      "note": "Ken Su lists two T210 counterparts. T210 31.17 is selected first because it retains the horse comparison. The display preserves CBETA 放恣 and 寤, against the table's 放逸 and 悟. Verse numbers follow the correspondence table; CBETA does not assign those local verse numbers."
+    },
+    {
+      "pali": 30,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "T213 4.24",
+          "source_id": "cbeta-t213",
+          "lines": [
+            "讚歎不放逸，",
+            "毀彼放逸人，",
+            "恒獲人天報，",
+            "最上為殊勝。"
+          ],
+          "pinyin": [
+            "zàn tàn bù fàng yì，",
+            "huǐ bǐ fàng yì rén，",
+            "héng huò rén tiān bào，",
+            "zuì shàng wéi shū shèng。"
+          ],
+          "taisho_start": "0779b17",
+          "taisho_end": "0779b18",
+          "location": "T04, no. 213, 0779b17–0779b18",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0213.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/",
+      "note": "T210 has no counterpart identified in the table. This is T213 4.24: it preserves praise of heedfulness and criticism of heedlessness but omits the Pāli reference to Maghavā/Indra."
+    },
+    {
+      "pali": 31,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "T210 10.13",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "比丘謹慎樂，",
+            "放逸多憂𠎝，",
+            "變諍小致大，",
+            "積惡入火焰。"
+          ],
+          "edition_difference": {
+            "table": "比丘謹慎樂放逸多憂愆變諍小致大積惡入火焰",
+            "cbeta": "比丘謹慎樂放逸多憂𠎝變諍小致大積惡入火焰"
+          },
+          "pinyin": [
+            "bǐ qiū jǐn shèn lè，",
+            "fàng yì duō yōu qiān，",
+            "biàn zhèng xiǎo zhì dà，",
+            "jī è rù huǒ yàn。"
+          ],
+          "taisho_start": "0562c17",
+          "taisho_end": "0562c18",
+          "location": "T04, no. 210, 0562c17–0562c18",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/",
+      "note": "The Chinese counterpart differs substantially in its fire image: T210 speaks of accumulated evil entering fire, while the Pāli heedful monk burns fetters. CBETA's historical character 𠎝 is retained; Mandarin qiān corresponds to 愆."
+    },
+    {
+      "pali": 32,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T213 4.32",
+          "source_id": "cbeta-t213",
+          "lines": [
+            "苾芻懷謹慎，",
+            "放逸多憂愆，",
+            "煩惱若消除，",
+            "能得涅槃樂。"
+          ],
+          "pinyin": [
+            "bì chú huái jǐn shèn，",
+            "fàng yì duō yōu qiān，",
+            "fán nǎo ruò xiāo chú，",
+            "néng dé niè pán lè。"
+          ],
+          "taisho_start": "0779c04",
+          "taisho_end": "0779c05",
+          "location": "T04, no. 213, 0779c04–0779c05",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0213.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap02/",
+      "note": "T210 has no counterpart identified in the table. The displayed T213 4.32 is an actual historical Chinese verse, not a new translation of the Pāli."
+    },
+    {
+      "pali": 33,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 11.1",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "意使作㺃，",
+            "難護、難禁，",
+            "慧正其本，",
+            "其明乃大。"
+          ],
+          "edition_difference": {
+            "table": "意使作笱難護難禁慧正其本其明乃大",
+            "cbeta": "意使作㺃難護難禁慧正其本其明乃大"
+          },
+          "pinyin": [
+            "yì shǐ zuò gǒu，",
+            "nán hù、 nán jìn，",
+            "huì zhèng qí běn，",
+            "qí míng nǎi dà。"
+          ],
+          "taisho_start": "0563a04",
+          "taisho_end": "0563a05",
+          "location": "T04, no. 210, 0563a04–0563a05",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/",
+      "note": "CBETA reads 意使作㺃; the correspondence table prints 笱. The historical character 㺃 is retained (modern Mandarin gǒu). The phrase is textually difficult; its interpretation is not resolved here."
+    },
+    {
+      "pali": 34,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T212 32.2",
+          "source_id": "cbeta-t212",
+          "lines": [
+            "如魚在旱地，",
+            "以離於深淵，",
+            "心識極惶懅，",
+            "魔眾而奔馳。"
+          ],
+          "pinyin": [
+            "rú yú zài hàn dì，",
+            "yǐ lí yú shēn yuān，",
+            "xīn shí jí huáng jù，",
+            "mó zhòng ér bēn chí。"
+          ],
+          "taisho_start": "0758c25",
+          "taisho_end": "0758c26",
+          "location": "T04, no. 212, 0758c25–0758c26",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0212.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/",
+      "note": "T210 has no counterpart identified in the table. The displayed verse is T212 32.2."
+    },
+    {
+      "pali": 35,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 11.2",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "輕躁難持，",
+            "唯欲是從，",
+            "制意為善，",
+            "自調則寧。"
+          ],
+          "pinyin": [
+            "qīng zào nán chí，",
+            "wéi yù shì cóng，",
+            "zhì yì wéi shàn，",
+            "zì tiáo zé níng。"
+          ],
+          "taisho_start": "0563a05",
+          "taisho_end": "0563a06",
+          "location": "T04, no. 210, 0563a05–0563a06",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/"
+    },
+    {
+      "pali": 36,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 11.3",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "意微難見，",
+            "隨欲而行，",
+            "慧常自護，",
+            "能守即安。"
+          ],
+          "pinyin": [
+            "yì wēi nán jiàn，",
+            "suí yù ér xíng，",
+            "huì cháng zì hù，",
+            "néng shǒu jí ān。"
+          ],
+          "taisho_start": "0563a06",
+          "taisho_end": "0563a07",
+          "location": "T04, no. 210, 0563a06–0563a07",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/"
+    },
+    {
+      "pali": 37,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 11.4",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "獨行遠逝，",
+            "覆藏無形，",
+            "損意近道，",
+            "魔繫乃解。"
+          ],
+          "pinyin": [
+            "dú xíng yuǎn shì，",
+            "fù cáng wú xíng，",
+            "sǔn yì jìn dào，",
+            "mó xì nǎi jiě。"
+          ],
+          "taisho_start": "0563a08",
+          "taisho_end": "0563a09",
+          "location": "T04, no. 210, 0563a08–0563a09",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/"
+    },
+    {
+      "pali": 38,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 11.5",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "心無住息，",
+            "亦不知法，",
+            "迷於世事，",
+            "無有正智。"
+          ],
+          "pinyin": [
+            "xīn wú zhù xī，",
+            "yì bù zhī fǎ，",
+            "mí yú shì shì，",
+            "wú yǒu zhèng zhì。"
+          ],
+          "taisho_start": "0563a09",
+          "taisho_end": "0563a10",
+          "location": "T04, no. 210, 0563a09–0563a10",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/"
+    },
+    {
+      "pali": 39,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "T210 11.6",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "念無適止，",
+            "不絕無邊，",
+            "福能遏惡，",
+            "覺者為賢。"
+          ],
+          "pinyin": [
+            "niàn wú shì zhǐ，",
+            "bù jué wú biān，",
+            "fú néng è è，",
+            "jué zhě wéi xián。"
+          ],
+          "taisho_start": "0563a10",
+          "taisho_end": "0563a11",
+          "location": "T04, no. 210, 0563a10–0563a11",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/",
+      "note": "The historical Chinese verse praises merit restraining evil, whereas the Pāli refers to one who has abandoned merit and demerit. Both wordings are preserved."
+    },
+    {
+      "pali": 40,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "T210 11.12",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "藏六如龜，",
+            "防意如城，",
+            "慧與魔戰，",
+            "勝則無患。"
+          ],
+          "pinyin": [
+            "cáng liù rú guī，",
+            "fáng yì rú chéng，",
+            "huì yǔ mó zhàn，",
+            "shèng zé wú huàn。"
+          ],
+          "taisho_start": "0563a18",
+          "taisho_end": "0563a19",
+          "location": "T04, no. 210, 0563a18–0563a19",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "partial"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/",
+      "note": "The Chinese opening uses a tortoise and the six faculties, rather than the Pāli body-as-pot image. The remaining fortress and Māra imagery supports the table's partial correspondence."
+    },
+    {
+      "pali": 41,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 11.9",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "有身不久，",
+            "皆當歸土，",
+            "形壞神去，",
+            "寄住何貪？"
+          ],
+          "pinyin": [
+            "yǒu shēn bù jiǔ，",
+            "jiē dāng guī tǔ，",
+            "xíng huài shén qù，",
+            "jì zhù hé tān？"
+          ],
+          "taisho_start": "0563a14",
+          "taisho_end": "0563a15",
+          "location": "T04, no. 210, 0563a14–0563a15",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/"
+    },
+    {
+      "pali": 42,
+      "status": "not-located",
+      "readings": [],
+      "note": "No counterpart is listed for Pāli 42 in T210, T212, or T213 in the selected scholarly correspondence table. This is not a claim that no Chinese parallel exists anywhere."
+    },
+    {
+      "pali": 43,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "T210 11.11",
+          "source_id": "cbeta-t210",
+          "lines": [
+            "是意自造，",
+            "非父母為，",
+            "可勉向正，",
+            "為福勿回。"
+          ],
+          "pinyin": [
+            "shì yì zì zào，",
+            "fēi fù mǔ wéi，",
+            "kě miǎn xiàng zhèng，",
+            "wéi fú wù huí。"
+          ],
+          "taisho_start": "0563a17",
+          "taisho_end": "0563a18",
+          "location": "T04, no. 210, 0563a17–0563a18",
+          "source_url": "https://github.com/cbeta-org/xml-p5/blob/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
+          "parallel_type": "verse-parallel"
+        }
+      ],
+      "correspondence_source": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap03/"
+    }
+  ]
+}

@@ -1,3 +1,10 @@
+@font-face {
+  font-family: 'Rosettapada Tibetan';
+  src: url('assets/fonts/NotoSerifTibetan-Regular.woff') format('woff');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
 :root {
   color-scheme: light;
   --paper: #f8f7f2;
@@ -60,6 +67,23 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 .lang-en .poem { font-size: 22px; color: #35432f; }
 .lang-zh .poem { font-family: 'Noto Serif CJK TC', 'Songti TC', 'PMingLiU', serif; font-size: 23px; line-height: 1.78; letter-spacing: .05em; }
 .lang-bo { display: block; }
+.sheet[data-profile="historical"] .verse-grid { grid-template-rows: auto; align-items: start; }
+.sheet[data-profile="historical"] .witness { display: block; grid-row: auto; }
+.sheet[data-profile="historical"] .poem { display: block; }
+.sheet[data-profile="historical"] .lang-bo .poem { font-family: 'Rosettapada Tibetan', 'Kailasa', serif; font-size: 23px; line-height: 1.9; letter-spacing: 0; }
+.unlocated { margin: 3px 0 0; color: var(--muted); font: 18px/1.8 Georgia, serif; }
+.uncertain-reading { text-decoration: underline dotted #929a87; text-underline-offset: .17em; text-decoration-thickness: 1px; }
+.parallel-context { color: var(--muted); }
+.parallel-table-wrap { max-width: 100%; overflow-x: auto; margin: 24px 0; }
+.parallel-table { min-width: 940px; width: 100%; border-collapse: collapse; text-align: left; font: 12px/1.7 system-ui, sans-serif; }
+.parallel-table th, .parallel-table td { padding: 12px 14px 12px 0; vertical-align: top; border-bottom: 1px solid #dedfd7; }
+.parallel-table th { font-weight: 500; }
+.parallel-table a { text-decoration: none; }
+.parallel-table a:hover { text-decoration: underline; }
+.parallel-status { display: block; color: var(--muted); font-size: 11px; }
+.notes-wrap .source-detail { margin: 16px 0; font: 13px/1.8 system-ui, sans-serif; }
+.source-detail summary { cursor: pointer; }
+.source-detail li { margin: 10px 0; }
 .unverified { margin: 3px 0 0; font: italic 14px/1.7 Georgia, serif; color: var(--muted); }
 .unverified span { display: block; margin-top: 7px; font: 12px/1.65 system-ui, sans-serif; }
 .sheet-end { width: max-content; position: sticky; left: var(--padding); display: flex; gap: 30px; align-items: baseline; font: 12px/1.6 system-ui, sans-serif; color: var(--muted); }

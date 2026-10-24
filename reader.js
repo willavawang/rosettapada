@@ -24,9 +24,9 @@
   const groupColumns = groups.map(group => new Map(Array.from(group.children).map(column => [column.dataset.language, column])));
   const minZoom = .1;
   const maxZoom = 3;
-  const isPaliChapter = sheet.dataset.profile === 'pali';
-  const storageKey = isPaliChapter ? `rosettapada-reading-v5-${sheet.dataset.pageKey}` : 'rosettapada-reading-v4';
-  const languageStorageKey = isPaliChapter ? 'rosettapada-languages-pali-v1' : 'rosettapada-languages-v1';
+  const isChapter = sheet.dataset.profile !== 'sample';
+  const storageKey = isChapter ? `rosettapada-reading-v5-${sheet.dataset.pageKey}` : 'rosettapada-reading-v4';
+  const languageStorageKey = isChapter ? 'rosettapada-languages-historical-v1' : 'rosettapada-languages-v1';
   const previousPage = sheet.dataset.previousPage;
   const nextPage = sheet.dataset.nextPage;
   const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
@@ -371,7 +371,7 @@
   applyLanguages(false);
   updateTail();
   // Wait through the browser's initial anchor positioning before restoring the sheet.
-  requestAnimationFrame(() => requestAnimationFrame(() => {
+  const restoreReadingPosition = () => requestAnimationFrame(() => requestAnimationFrame(() => {
     if (Number.isFinite(saved.zoom)) setZoom(saved.zoom, 0, viewport.getBoundingClientRect().top);
     viewport.scrollLeft = Number.isFinite(saved.left) ? saved.left : 0;
     if (location.hash === `#${sheet.dataset.chapterAnchor}`) { viewport.scrollTop = 0; viewport.scrollLeft = 0; }
@@ -379,5 +379,7 @@
     else if (Number.isFinite(saved.top)) viewport.scrollTop = saved.top;
     syncNavigation();
   }));
+  if (document.fonts) document.fonts.ready.then(restoreReadingPosition);
+  else restoreReadingPosition();
 })();
 

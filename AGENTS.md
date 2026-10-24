@@ -12,6 +12,6 @@
 
 - Read `WORK_BRIEF.md` and preserve the reading interface requirements.
 - Keep the inherited sample bytes and source references unchanged. Preserve the pinned source snapshot for the three English–Pāli chapters.
-- Full-corpus research and the historical concordance remain paused unless separately requested.
+- The user has explicitly authorized aligning the first three Pāli chapters (verses 1–43) across Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan, with English alongside them. The main chapter pages must preserve this multilingual experience. Full-corpus expansion beyond these 43 verses remains paused.
 - Edit templates and rebuild generated HTML. Run the existing integrity and JavaScript syntax checks, then verify the changed reading path in a browser.
 - Keep the Buddhist Scripture Atlas project separate.

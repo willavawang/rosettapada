@@ -1,9 +1,10 @@
 # Working on Rosettapada
 
-The current task is interface evaluation. Keep changes within the reading experience unless the user explicitly expands the phase.
+The current task is the reading experience and the explicitly authorized six-tradition comparison of Pāli verses 1–43. Expansion beyond these three chapters remains deferred.
 
 - Preserve `data/sample.json` and the three inherited source URLs. Do not silently normalize spellings, punctuation, source numbers, or translations.
 - A missing or unverified reading is not evidence of absence from a tradition.
+- Keep historical counterparts distinct from new translations. Preserve recensional differences, uncertainty markings, and exact references. Freeze deliberate source updates in `data/witnesses/provenance.json`; never fill a historical gap by translating Pāli.
 - Keep one horizontal sheet and meaningful text selection. Avoid visible cells, repeated status labels, overlays over the poems, or controls that replace verse navigation with language navigation.
 - Keep fonts and scripts local. No corpus fetches, analytics, account system, or backend is needed in this phase.
 - Change templates rather than only generated HTML. Run the build, integrity check, and JavaScript syntax check. Check the changed interaction in a browser.

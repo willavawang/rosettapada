@@ -1,3 +1,20 @@
+# Reading study 07 — multilingual verification
+
+23 October 2026 (New York). Chromium preview at desktop size, plus embedded 320px and 375px reading viewports.
+
+- All three chapter pages contain English, Pāli, Patna, Gāndhārī, Sanskrit, Chinese, Tibetan, and hidden-by-default Chinese pinyin. The homepage contains Pairs 1–20, followed by Heedfulness 21–32 and The Mind 33–43 through Contents.
+- At desktop Fit (45%), all seven default columns appear on one borderless sheet. Verse beginnings align; each tradition retains its own number of lines. Tibetan renders in the bundled reading font, and missing counterparts appear as quiet dashes.
+- Language controls show pinyin and hide Chinese independently. Keyboard reordering moves Tibetan and updates every verse. These choices survive reload and chapter changes. Restore defaults restores all six traditions and English, hiding pinyin.
+- Pairs 20 → Heedfulness 21 and the reverse retain 139% magnification and a 1412px horizontal offset. Heedfulness 32 → The Mind 33 also retains those values. Restoration waits for the local font to load. Next is disabled at 43; Previous remains available.
+- Contents lists exactly the three chapter pages, without verses. Its Pairs link opens the beginning. No visible verse labels, editorial titles, grid lines, or scrollbars have been introduced.
+- At 320px, document width is exactly 320px, with all seven footer controls inside the viewport. The eight-option language window is 440px high and spans x=12 to x=308. The 375px reader also displays normally; only the reading sheet overflows horizontally.
+- The Indic datasets regenerate byte-identically from the retained working source HTML. All 42 Tibetan source selections match exact line spans in the complete pinned volume. Offline checks compare every historical reading to the dataset, Chinese to retained CBETA selections, and Tibetan to its verbatim native excerpts, as well as checking source hashes, original sample integrity, links, and assets.
+- Python build, integrity checks, and JavaScript syntax pass. No live corpus requests are required by the reader.
+
+Physical Safari trackpad gestures and physical mobile touch input remain unverified. This establishes the source fidelity and reading behavior of the bounded selection, not an exhaustive critical concordance. GitHub Pages deployment is verified separately before completion.
+
+---
+
 # Reading study 06 — verification
 
 Homepage follow-up, 23 October 2026: the canonical homepage now contains Pairs verses 1–20. The old `pairs.html` link remains a compatible alias. The earlier eight-option, two-verse comparison is preserved at `sample.html` and linked from Notes. Preview checks verified the homepage verse count, the three Contents links, and the preserved sample. Automated integrity checks require the complete first chapter at the homepage. The user now reviews this project exclusively on GitHub Pages; internal hosting is no longer a publishing target.

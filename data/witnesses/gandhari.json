@@ -1,0 +1,856 @@
+{
+  "tradition": "ga",
+  "sources": [
+    {
+      "id": "CD-01-Yamaka",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm",
+      "retrieved": "2026-10-23",
+      "html_sha256": "410afab9dc56988ac2ba399da35a9fc4adeef09cd6f2f38ff916e2b26124637a",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-02-Appamada",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm",
+      "retrieved": "2026-10-23",
+      "html_sha256": "f83fe0334eee8ffe923b4ca011a8d3ae980d043ea90450c89f7f915ba27ecb04",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-03-Citta",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm",
+      "retrieved": "2026-10-23",
+      "html_sha256": "9ecb19c4db9d516c517ca6c5b2bd487e8642d41417e8fb014184e3b44c1fed94",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    }
+  ],
+  "verses": [
+    {
+      "pali": 1,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 201 [13.1] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_1",
+          "lines": [
+            "maṇopuvagama dhama",
+            "maṇośeṭha maṇojava",
+            "maṇasa hi praduṭheṇa",
+            "bhaṣadi va karodi va",
+            "tado ṇa duhu amedi",
+            "cako va vahaṇe pathi."
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "i",
+              "text": "va"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 2,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 202 [13.2] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_2",
+          "lines": [
+            "maṇopuvagama dhama",
+            "maṇośeṭha maṇojava",
+            "maṇasa hi prasaneṇa",
+            "bhaṣadi va karodi va",
+            "tado ṇa suhu amedi",
+            "chaya va aṇukamiṇi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 3,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 4,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 5,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 6,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 7,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 217 [13.17] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_7",
+          "lines": [
+            "śuhaṇupaśi viharadu",
+            "idrieṣu asavudu",
+            "bhoyaṇasa amatraño",
+            "kusidu hiṇaviryava",
+            "ta gu prasahadi raku",
+            "vadu rakhkṣa ba drubala."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 8,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 218 [13.18] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_8",
+          "lines": [
+            "aśuhaṇupaśi viharadu",
+            "idrieṣu sisavudu",
+            "bhoyaṇasa ya matraño",
+            "ṣadhu aradhaviryava",
+            "ta gu na prasahadi raku",
+            "vadu śela va parvada."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 9,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 192 [12.11] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_9",
+          "lines": [
+            "anikaṣayu kaṣaya",
+            "yo vastra parihasidi",
+            "avedu damasoraca",
+            "na so kaṣaya arahadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 10,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 193 [12.12] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_10",
+          "lines": [
+            "yo du vadakaṣayu",
+            "śileṣu susamahidu",
+            "uvedu damasoraca",
+            "so du kaṣaya arahadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 11,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 213 [13.13] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_11",
+          "lines": [
+            "asari saravadiṇo",
+            "sari asaradaśiṇo",
+            "te sara nadhikachadi",
+            "michasaggapagoyara."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 12,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 214 [13.14] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_12",
+          "lines": [
+            "sara du saradu ñatva",
+            "asara ji asarado",
+            "te sara adhikachadi",
+            "samesagapagoyara."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 13,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 219 [13.19] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_13",
+          "lines": [
+            "yadha akara druchana",
+            "vuṭhi samadibhinadi",
+            "emu arakṣida cata",
+            "raku samadibhinadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 14,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 220 [13.20] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_14",
+          "lines": [
+            "yadha akara suchana",
+            "vuṭhi na samadibhinadi",
+            "emu surakṣida cita",
+            "raku na samadibhinadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 15,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 205 [13.5] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_15",
+          "lines": [
+            "idha śoyadi preca śoyadi",
+            "pavakamu duhayatra śoyadi",
+            "so śoyadi so vihañadi",
+            "diṣpa kamu kiliṭha atvaṇo."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 16,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 206 [13.6] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_16",
+          "lines": [
+            "idha nanadi preca nanadi",
+            "puñakamo duhayatra nanadi",
+            "so nanadi so pramodadi",
+            "diṣpa kamu viśudhu atvaṇo."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 17,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 18,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 19,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 190 [12.9] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_19",
+          "lines": [
+            "baho bi ida sahida bhaṣamaṇa",
+            "na takaru bhodi naru pramatu",
+            "govo va gaü gaṇaü pareṣa",
+            "na bhakava ṣamañathasa bhodi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 20,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 191 [12.10] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_20",
+          "lines": [
+            "apa bi ida sahida bhaṣamaṇa",
+            "dhamasa bhodi aṇudhamacari",
+            "aṇuvadiaṇu idha va horo va",
+            "so bhakava ṣamañathasa bhodi."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "i"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ma"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "i"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 21,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 115 [7.6] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_21",
+          "lines": [
+            "apramadu amudapada",
+            "pramadu mucuṇo pada",
+            "apramata na miyadi",
+            "ye pramata yadha mudu."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 22,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 116 [7.7] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_22",
+          "lines": [
+            "eda viśeṣadha ñatva",
+            "apramadasa paṇido",
+            "apramadi pramodia",
+            "ariaṇa goyari rado."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 23,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 24,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 112 [7.3] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_24",
+          "lines": [
+            "uhaṇamado svadimado",
+            "suyikamasa niśamacariṇo",
+            "sañadasa hi dhamajiviṇo",
+            "apramatasa yaśidha vaḍhadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 25,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 111 [7.2] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_25",
+          "lines": [
+            "uhaṇeṇa apramadeṇa",
+            "sañameṇa dameṇa ca",
+            "divu karodi medhavi",
+            "ya jara nabhimardadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 26,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 117 [7.8] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_26",
+          "lines": [
+            "pramada aṇuyujadi",
+            "bala drumedhiṇo jaṇa",
+            "apramada du medhavi",
+            "dhaṇa śeṭhi va rakṣadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 27,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 129 [7.20] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_27",
+          "lines": [
+            "apramadi pramodia",
+            "ma gamiradisabhamu",
+            "apramato hi ayadu",
+            "viśeṣa adhikachadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "apramadi pramodia"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "viśeṣa adhikachadi."
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": true
+        },
+        {
+          "reference": "Gāndhārī 134 [7.25] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_27",
+          "lines": [
+            "naï pramadasamayu",
+            "aprati asavakṣayi",
+            "apramato hi jayadu",
+            "pranodi paramu sukhu."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "naï pramadasamayu"
+            },
+            {
+              "line": 1,
+              "kind": "s",
+              "text": "aprati asavakṣayi"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": true,
+          "preferred": true,
+          "note": "Partial parallel: this reading preserves the concluding happiness line. Both listed Gāndhārī parallels are retained in the source notes."
+        }
+      ]
+    },
+    {
+      "pali": 28,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 119 [7.10] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_28",
+          "lines": [
+            "pramadu apramadeṇa",
+            "yadha nudadi paṇidu",
+            "prañaprasada aruśu",
+            "aśoka śoiṇo jaṇa",
+            "pravadaho va bhumaha",
+            "dhiru bala avekṣidi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 29,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 118 [7.9] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_29",
+          "lines": [
+            "apramatu pramateṣu",
+            "suteṣu bahojagaru",
+            "avalaśa va bhadraśu",
+            "hitva yadi sumedhasu."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 30,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 120 [7.11] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_30",
+          "lines": [
+            "apramadeṇa makavha",
+            "devaṇa samidhi gadu",
+            "apramada praśaadi",
+            "pramadu gara hidu sada."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 31,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 74 [2.24] Bhikhu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_31",
+          "lines": [
+            "apramadaradu yo bhikhu",
+            "pramadi bhayadaśima",
+            "sañoyaṇa aṇuthula",
+            "ḍahu agi va gachadi."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "i",
+              "text": "śima"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "aṇu"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "l"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 32,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 73 [2.23] Bhikhu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_32",
+          "lines": [
+            "apramadaradu yo bhikhu",
+            "pramadi bhayadaśima",
+            "abhavu parihaṇaï",
+            "nivaṇaseva sadii."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 33,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 136 [8.2] Cita",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_33",
+          "lines": [
+            "phanaṇa cavala cita",
+            "drurakṣa drunivaraṇa",
+            "u . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": [],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 34,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 137b [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_34",
+          "lines": [
+            "vario va thale kṣito",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "i",
+              "text": "o"
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 35,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 36,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 37,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 137a [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_37",
+          "lines": [
+            "duragama eka",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ma"
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 38,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 137c [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_38",
+          "lines": [
+            "aṇunahidacitasa",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": [],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 39,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 137d [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_39",
+          "lines": [
+            "aṇuvaṣudacitasa",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . .."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "sa"
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 40,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 138b. [8.?] Cita",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_40",
+          "lines": [
+            "kummovamu kaya . .",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . .."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ya"
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 41,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 153 [10.19] Jara",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_41",
+          "lines": [
+            "ayireṇa vadaï kayu",
+            "paḍhaï vari śaïṣadi",
+            "tuchu avakadaviñaṇa",
+            "niratha ba kaḍigḡara."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "avaka"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 42,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 43,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    }
+  ]
+}

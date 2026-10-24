@@ -1,0 +1,10 @@
+{
+  "purpose": "Render legacy private-use transliteration glyphs with standard Unicode, without changing their readings.",
+  "source_font": "https://ancient-buddhist-texts.net/download/ITM_TMS_UNI-Regular.ttf",
+  "verification": "Glyph names read from the source website's actual TrueType cmap using fontTools; the font itself is not redistributed.",
+  "characters": {
+    "F816": {"glyph_name": "jmacron", "unicode": "j̄"},
+    "F82A": {"glyph_name": "rringbelow", "unicode": "r̥"},
+    "F83E": {"glyph_name": "tacutedotbelow", "unicode": "ṭ́"}
+  }
+}
