@@ -1,0 +1,59 @@
+{
+  "policy": "A source reading is corrected only against a separately checked native edition, with the original reading and reason retained. Correspondence and wording are not harmonized to Pāli.",
+  "checked": "2026-10-26",
+  "corrections": [
+    {
+      "pali": 158,
+      "tradition": "pd",
+      "reference": "Patna 317 [17.12] Ātta",
+      "issue": "The comparative chapter 12 identifies Patna 317, but its verse text repeats Patna 312, the counterpart of Pāli 157. Cone's native chapter 17 separately prints the genuine Patna 317 and identifies it with Pāli 158.",
+      "comparative_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_158",
+      "comparative_lines": [
+        "āttānaṁ ce priyaṁ ñāyyā",
+        "rakkheyā naṁ surakkhitaṁ |",
+        "ttiṇṇam añataraṁ yāmānaṁ",
+        "paṭijāggreya paṇḍito ||"
+      ],
+      "primary_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_317",
+      "primary_html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08",
+      "replacement_lines": [
+        "āttānam eva paṭhamaṁ",
+        "paṭirūpe niyojaye |",
+        "athāṁñam anuśāsanto",
+        "na kiliśśati praṁñavā ||"
+      ],
+      "line_break_method": "Split the native edition's two half-verse paragraphs at their printed em-space pāda boundaries; omit metre scans and the modern prosodic tooltip.",
+      "display_note": "The comparative page accidentally repeats the preceding verse under Patna 317. This reading follows the separately checked Cone/Ānandajoti native Patna chapter 17, verse 317; the original duplicate and correction are retained in the source record."
+    }
+  ],
+  "edition_differences": [
+    {
+      "pali": 106,
+      "reference": "Patna 379 [21.4] Sahasra",
+      "action": "Retain the comparative edition's wording and literal angle brackets; do not silently substitute the older native digital edition.",
+      "native_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_379",
+      "display_note": "The comparative edition prints yajetha and bhāvi<tta>tāttānaṁ. Cone's separately checked native digital text prints yajeya and bhāvitāttānaṁ. The comparative wording and its angle brackets are retained; these are edition differences, not a newly supplied Pāli reading."
+    },
+    {
+      "pali": 157,
+      "reference": "Patna 312 [17.7] Ātta",
+      "action": "Retain the comparative edition's wording.",
+      "native_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_312",
+      "display_note": "The comparative edition prints āttānañ and aññataraṁ; the older native digital Patna edition prints āttānaṁ and añataraṁ. The comparative wording is retained. This verse is distinct from Patna 317, whose duplicated comparative-page text is corrected separately."
+    },
+    {
+      "pali": 224,
+      "reference": "Patna 292 [16.15] Vācā",
+      "action": "Retain the comparative edition's wording.",
+      "native_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_292",
+      "display_note": "The comparative edition prints krujjheyā; the older native digital Patna edition prints kujjheyā. The comparative wording is retained."
+    },
+    {
+      "pali": 290,
+      "reference": "Patna 77 [5.13] Attha",
+      "action": "Retain the comparative edition's wording.",
+      "native_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/05-Attha.htm#PDhp_77",
+      "display_note": "The comparative edition prints vipulaṁ in both occurrences; the older native digital Patna edition prints vipulāṁ. The comparative wording is retained."
+    }
+  ]
+}

@@ -18,10 +18,13 @@ class Page(HTMLParser):
         self.poems, self.reading_status = {}, {}
         self.current_verse, self.line_depth = None, 0
         self.language, self.current_line = None, None
+        self.adjacent_pages = []
         self.feed(path.read_text(encoding="utf-8"))
 
     def handle_starttag(self, tag, attrs):
         attrs = dict(attrs)
+        if attrs.get("id") == "sheet":
+            self.adjacent_pages = [attrs.get("data-previous-page", ""), attrs.get("data-next-page", "")]
         if tag == "section" and "data-verse" in attrs:
             self.current_verse = int(attrs["data-verse"])
             self.verses.append(self.current_verse)
@@ -67,7 +70,7 @@ expected_assets = {*page_names, "styles.css", "reader.js", ".nojekyll", "assets"
 assert {p.name for p in (ROOT / "dist").iterdir()} == expected_assets, "Unexpected deployment file; remove temporary QA fixtures."
 for name, page in pages.items():
     assert "{{" not in (ROOT / name).read_text(), f"Unexpanded template: {name}"
-    for link in page.links:
+    for link in page.links + [link for link in page.adjacent_pages if link]:
         url = urlsplit(link)
         if url.scheme or url.netloc:
             continue
@@ -116,8 +119,17 @@ for chapter in collection["chapters"]:
             expected_lines.extend((language, key, text[key].replace("<j>", "").strip()) for key in keys)
     assert page.lines == expected_lines, f'Imported text or line divisions changed in {chapter["page"]}'
     assert f'{chapter["page"]}#chapter{chapter["no"]}' in pages["contents.html"].links, "Missing chapter navigation"
-assert chapter_numbers == list(range(1, 44)), "The requested selection must contain exactly verses 1–43."
-assert len([link for link in pages["contents.html"].links if "#chapter" in link]) == 3, "Contents must list exactly three chapter pages."
+expected_numbers = [*range(1, 44), *range(100, 116), *range(157, 167), *range(221, 235), *range(290, 306)]
+assert chapter_numbers == expected_numbers and len(chapter_numbers) == 99, "Available pages must cover exactly the authorized 99 positions."
+assert collection["pilot_chapters"] == [1, 2, 8, 12, 17, 21], "The six-chapter pilot selection changed."
+assert len([link for link in pages["contents.html"].links if "#chapter" in link]) == 7, "Contents must retain six pilot pages and the earlier Mind page."
+pilot = [chapter for chapter in collection["chapters"] if chapter["no"] in collection["pilot_chapters"]]
+for index, chapter in enumerate(pilot):
+    previous = f'{pilot[index - 1]["page"]}#dhp{pilot[index - 1]["end"]}' if index else ""
+    following = f'{pilot[index + 1]["page"]}#dhp{pilot[index + 1]["start"]}' if index + 1 < len(pilot) else ""
+    assert pages[chapter["page"]].adjacent_pages == [previous, following], "Pilot chapter arrows target the wrong selection or verse."
+assert pages["heedfulness.html"].adjacent_pages[1] == "thousands.html#dhp100", "A jump over unpublished chapters must use its real destination anchor."
+assert pages["thousands.html"].adjacent_pages[0] == "heedfulness.html#dhp32", "The reverse jump must return to the published previous chapter."
 assert pages["index.html"].verses == list(range(1, 21)), "The homepage must open the complete first chapter."
 assert (ROOT / "pairs.html").read_bytes() == (ROOT / "index.html").read_bytes(), "The existing Pairs URL must remain available."
 
@@ -130,7 +142,7 @@ def normalize(value):
 for filename in ["patna.json", "gandhari.json", "sanskrit.json", "chinese.json", "tibetan.json"]:
     witness = json.loads((ROOT / "data/witnesses" / filename).read_text())
     language = witness["tradition"]
-    assert [v["pali"] for v in witness["verses"]] == list(range(1, 44)), f'Incomplete coverage ledger: {filename}'
+    assert [v["pali"] for v in witness["verses"]] == expected_numbers, f'Incomplete coverage ledger: {filename}'
     source_ids = {source["id"] for source in witness["sources"]}
     for record in witness["verses"]:
         number = record["pali"]
@@ -154,6 +166,23 @@ for filename in ["patna.json", "gandhari.json", "sanskrit.json", "chinese.json",
             assert page.poems.get((number, "zh-pinyin"), []) == (chosen["pinyin"] if chosen else []), f'Pinyin changed: {number}'
 
 # Check native text against retained source passages, not just the rendered data.
+indic_source = json.loads((ROOT / "data/witnesses/sources/indic/selected-source-passages.json").read_text())
+indic_passages = {(entry["tradition"], entry["pali"]): entry["readings"] for entry in indic_source["verses"]}
+patna_corrections = {entry["pali"]: entry for entry in indic_source["primary_corrections"]}
+for filename in ["patna.json", "gandhari.json", "sanskrit.json"]:
+    witness = json.loads((ROOT / "data/witnesses" / filename).read_text())
+    for record in witness["verses"]:
+        source_readings = indic_passages[witness["tradition"], record["pali"]]
+        assert len(record["readings"]) == len(source_readings), "An Indic counterpart was lost from the source selection."
+        for reading, source in zip(record["readings"], source_readings):
+            assert reading["reference"] == source["reference"], "Indic source reference changed."
+            if witness["tradition"] == "pd" and record["pali"] in patna_corrections:
+                correction = patna_corrections[record["pali"]]
+                assert source["lines"] == correction["comparative_lines"], "Patna correction lost its original source text."
+                assert reading["lines"] == correction["replacement_lines"] and reading["source_url"] == correction["primary_source_url"], "Patna correction differs from its separately checked primary edition."
+            else:
+                assert reading["lines"] == source["lines"] and reading["annotations"] == source["annotations"], "Indic reading differs from its retained source passage."
+
 ns = {"t": "http://www.tei-c.org/ns/1.0"}
 chinese_sources = {}
 for number in [210, 212, 213]:
@@ -184,6 +213,30 @@ for record in tibetan["verses"]:
         cursor = position + len(line)
     assert reading["source_line_start"] == excerpt["source_line_start"] and reading["source_line_end"] == excerpt["source_line_end"], "Tibetan citation changed"
 
+# Keep published Tibetan attestations distinct from direct native checks and semantic identity.
+audit = json.loads((ROOT / "data/witnesses/sources/tibetan/correspondence-audit.json").read_text())
+assert [record["pali"] for record in audit["verses"]] == list(range(1, 424)), "The Tibetan research ledger must cover all 423 Pāli positions."
+assert len(audit["chapters"]) == 26, "The Tibetan research summary must cover all 26 Pāli chapters."
+tibetan_records = {record["pali"]: record for record in tibetan["verses"]}
+for record in audit["verses"]:
+    published = any(not ref["tentative"] for ref in record["rockhill_references"])
+    native = tibetan_records.get(record["pali"])
+    assert record["published_parallel"] == published, "A tentative Tibetan citation entered the secure count."
+    assert record["direct_native_status"] == (native["status"] if native else None), "Tibetan audit differs from the reader's native verification status."
+    assert record["native_checked"] == bool(native and native["readings"]), "A native text check was claimed without a retained reading."
+    assert record["attested_parallel"] == (published or bool(native and native["status"] == "present")), "Tibetan attestation was inferred without the declared evidence."
+    if native and native["readings"]:
+        assert [(r["source_line_start"], r["source_line_end"]) for r in record["native_references"]] == [(r["source_line_start"], r["source_line_end"]) for r in native["readings"]], "Tibetan research and reading source locators disagree."
+for chapter in audit["chapters"]:
+    records = [record for record in audit["verses"] if record["pali_chapter"] == chapter["pali_chapter"]]
+    assert chapter["positions"] == len(records), "Tibetan chapter denominator changed."
+    assert chapter["attested_lower_bound"] == sum(record["attested_parallel"] for record in records), "Tibetan chapter attestation count changed."
+    assert chapter["native_checked"] == sum(record["native_checked"] for record in records), "Tibetan chapter native check count changed."
+    assert chapter["same_title_chapter_lower_bound"] == sum(record["same_title_parallel"] for record in records), "Tibetan same-theme count changed."
+    assert chapter["coverage_lower_bound"] == chapter["attested_lower_bound"] / chapter["positions"], "Tibetan coverage denominator changed."
+assert audit["summary"]["attested_lower_bound"] == sum(record["attested_parallel"] for record in audit["verses"]), "Tibetan overall lower bound changed."
+assert audit["summary"]["native_checked"] == sum(record["native_checked"] for record in audit["verses"]), "Tibetan overall native count changed."
+
 frozen = json.loads((ROOT / "data/witnesses/provenance.json").read_text())
 for source in frozen["files"]:
     assert hashlib.sha256((ROOT / source["path"]).read_bytes()).hexdigest() == source["sha256"], f'Historical snapshot changed: {source["path"]}'
@@ -193,5 +246,5 @@ for source in (ROOT / "assets").rglob("*"):
         assert target.read_bytes() == source.read_bytes(), "Font/asset deployment differs from source"
 for chapter in collection["chapters"]:
     assert not any('\ue000' <= char <= '\uf8ff' for char in (ROOT / chapter["page"]).read_text()), "An unsupported legacy glyph reached the reader."
-print("Passed: 43 verses across six traditions match the source records; pinyin, coverage gaps, source hashes, sample, links, and assets verified.")
+print("Passed: 99 available verse positions across six traditions match the source records; six-chapter navigation jumps, pinyin, coverage gaps, source hashes, sample, links, and assets verified.")
 

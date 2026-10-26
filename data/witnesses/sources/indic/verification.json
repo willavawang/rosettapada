@@ -1,0 +1,69 @@
+{
+  "checked": "2026-10-26",
+  "scope": "Six pilot chapters plus preserved Mind page; 99 position records per tradition.",
+  "traditions": {
+    "pd": {
+      "positions": 99,
+      "readings_checked": 83,
+      "status_counts": {
+        "present": 79,
+        "partial": 4,
+        "not-located": 16
+      },
+      "first_43_records_identical_to_previous_published_dataset": true
+    },
+    "ga": {
+      "positions": 99,
+      "readings_checked": 73,
+      "status_counts": {
+        "present": 54,
+        "not-located": 28,
+        "partial": 17
+      },
+      "first_43_records_identical_to_previous_published_dataset": true
+    },
+    "sa": {
+      "positions": 99,
+      "readings_checked": 92,
+      "status_counts": {
+        "present": 77,
+        "not-located": 7,
+        "partial": 15
+      },
+      "first_43_records_identical_to_previous_published_dataset": true
+    }
+  },
+  "readings_checked": 248,
+  "padas_checked": 1072,
+  "display_data_matches_selected_source_passages": true,
+  "one_documented_primary_text_correction": {
+    "pali": 158,
+    "reference": "Patna317",
+    "primary_text_and_hash_checked_by_importer": true
+  },
+  "new_patna_native_comparison": {
+    "readings_checked": 46,
+    "letter_identical_ignoring_punctuation_and_line_breaks": 42,
+    "retained_edition_differences_at_pali": [
+      106,
+      157,
+      224,
+      290
+    ]
+  },
+  "additional_font_mapping": {
+    "source_font_sha256": "a63d3521a58a4bcb1405b207d0588e2b25be17d981f596481d152ee7782139ac",
+    "F83C": {
+      "glyph_name": "smacrondotbelow",
+      "display": "ṣ̄"
+    },
+    "F84F": {
+      "glyph_name": "gmacronacute",
+      "display": "ḡ́"
+    }
+  },
+  "limits": [
+    "The checks establish selected-source transcription fidelity, not identical semantics or complete manuscript collation.",
+    "Gaps mean unlocated in the consulted selection, not absence from the whole tradition."
+  ]
+}

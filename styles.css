@@ -147,6 +147,9 @@ dialog > a { display: inline-block; margin-top: 6px; font: 13px/1.5 system-ui, s
 .toc-page-link { display: flex; align-items: baseline; justify-content: space-between; gap: 30px; padding: 16px 0; font-size: 29px; line-height: 1.4; text-decoration: none; }
 .toc-page-link:hover { color: var(--accent); }
 .toc-page-link:hover .toc-arrow { transform: translate(3px, -3px); }
+.additional-chapters { margin-top: 48px; }
+.additional-chapters h2 { font: 400 16px/1.4 system-ui, sans-serif; color: var(--muted); margin: 0; }
+.additional-chapters .toc-pages { margin-top: 8px; }
 .notes-wrap > h1 { margin-bottom: 56px; }
 .document-intro { font-size: 22px; font-style: italic; color: var(--muted); line-height: 1.5; margin: 0 0 75px; }
 .toc-chapter { display: grid; grid-template-columns: 70px 1fr; gap: 24px; }

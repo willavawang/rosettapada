@@ -1,27 +1,27 @@
 {
-  "scope": "Pāli Dhammapada 1–43, six historical traditions; English–Pāli snapshot remains separately frozen in data/chapters.json.",
-  "frozen": "2026-10-24",
+  "scope": "Six pilot chapters (88 Pāli positions), preserved Mind page (11), and a separate full-26 Tibetan correspondence audit. English–Pāli files remain frozen separately in data/chapters.json.",
+  "frozen": "2026-10-26",
   "purpose": "Deliberate source selection and display-transcription snapshot; hashes establish integrity, not the truth of a correspondence.",
   "files": [
     {
       "path": "data/witnesses/chinese.json",
-      "sha256": "48f032778fc49304b9a9bc01cb85b0ee01b1fb9145b38ffa037b5c1c715109f6"
+      "sha256": "4925b385310f5c97c963f186b51e45b8d2a601e34a1c6694b14cf7f3caaa4580"
     },
     {
       "path": "data/witnesses/gandhari.json",
-      "sha256": "ccbc707668e2230f89d9e703e6b37be59864fc43d32bb44afdcca57be29f920c"
+      "sha256": "aba2f7cf3ba2b476e6040fd4e11ca0cc6f439b8b07f6e2643bb91155072543ec"
     },
     {
       "path": "data/witnesses/normalization.json",
-      "sha256": "3490d62559dafef64fe73b43334346e9f9b5f214c31e87e8264f58b64f056574"
+      "sha256": "75c9c998794c87e5399ebe8bdfba799ff08772e8f0e1e03035df49b777bb9837"
     },
     {
       "path": "data/witnesses/patna.json",
-      "sha256": "54c9f5c99e9a2e62495dd6a8a758ec0c161a3400c81ad39cf22cfc09094ea304"
+      "sha256": "beca0251f60b2bba22ef655c0dec218c974b794abc726cc830ee0e027a000977"
     },
     {
       "path": "data/witnesses/sanskrit.json",
-      "sha256": "38414627cba3d96e0b562750becaead1c6d06d6d77af0eb66f88582550e53219"
+      "sha256": "cbc4f1cbe53daee2def32e9eed9068f145ea9ae2847ae6d1dc4f203d8f862393"
     },
     {
       "path": "data/witnesses/sources/chinese/CBETA-NOTICE.txt",
@@ -29,35 +29,71 @@
     },
     {
       "path": "data/witnesses/sources/chinese/README.md",
-      "sha256": "42a6d4cbc6fba08b981fce36ea0eaa87b3a21003fbbbf7b81b27e612c86ed598"
+      "sha256": "1060df8ab4504c4912569ac4e7d0931541f5bc6bae86785d05fa931f0813ca7b"
     },
     {
       "path": "data/witnesses/sources/chinese/T04n0210-selected.xml",
-      "sha256": "f6f2bffc17f720f94af247e2f44d0834870886d9963d851b91881a7a7918ba37"
+      "sha256": "625a311226104603b0f1eda67a905df17bc8b83e4c6c68967451c55313ba9309"
     },
     {
       "path": "data/witnesses/sources/chinese/T04n0212-selected.xml",
-      "sha256": "17a4f4b6c110683e0dede5656ef439fd23160400a5ce78848790e3e0019f093a"
+      "sha256": "a15283e2c3891f19d6b06e2d94e8ee6d4053aa470cd12b8b6c207ae07ec86d54"
     },
     {
       "path": "data/witnesses/sources/chinese/T04n0213-selected.xml",
-      "sha256": "14682d4c6afbdb3ad189de15e1fb1aae2eb60f48c227c523fbfa02e5d9f0ef83"
+      "sha256": "2aad569b7516a7c41fa184b6393f162106e207cfbf198337a2538c441a6f0cfd"
     },
     {
       "path": "data/witnesses/sources/chinese/cbeta-provenance.json",
-      "sha256": "55b9526db0c6dcc022ae6214a9c0708f65c8b1bc451a39f90aa501abb542ab01"
+      "sha256": "e9ce98d20ffc53e20fca3fb983d0b1bd6e15264032c8ad296ea0c5259f0a02e6"
     },
     {
       "path": "data/witnesses/sources/chinese/correspondence-mapping.json",
-      "sha256": "11915f19fcc13ee981b76e13a6a6ba0f6c374f53ee325ca3fa202e14953ee2a2"
+      "sha256": "3a4a73eb3e5e46d20469814d6eae9de308d48fb6525ec462d83f65ee97edf244"
+    },
+    {
+      "path": "data/witnesses/sources/chinese/verification.json",
+      "sha256": "2c6f9401e81a610e955d2e91046a0f2bfb796aa1e1377606714c61f3568dbbdf"
+    },
+    {
+      "path": "data/witnesses/sources/indic/README.md",
+      "sha256": "4c8a423026cd42d7ca27b3e00ed5358d7d62ffce3659f0751f12573e2f46b09f"
+    },
+    {
+      "path": "data/witnesses/sources/indic/corrections.json",
+      "sha256": "2821d8029721f5ee29efcdcff132210ca2db431a31b50dc12dd776c4d8455cd5"
+    },
+    {
+      "path": "data/witnesses/sources/indic/native-patna-check.json",
+      "sha256": "c474fa5c279aa69240aac6b44d0b182ebc00699ca63357ba67ff8547bfa5d8d6"
+    },
+    {
+      "path": "data/witnesses/sources/indic/selected-source-passages.json",
+      "sha256": "dec85808945b8918404af9443ea6e16a9222507c47889f04ca18dafd137f0ad9"
+    },
+    {
+      "path": "data/witnesses/sources/indic/verification.json",
+      "sha256": "2eb69d1bc2915d4284e25357c1fe2c27d9bdb320fbee2df5ebe33f74c438303a"
     },
     {
       "path": "data/witnesses/sources/tibetan/README.md",
-      "sha256": "058fb1f4fd8dfad82902a62d821caaab948218f07f8b2974664f2a25b9e4ce12"
+      "sha256": "a6aceb6cdbbcf5f26d7ce628064aa4cc28c68833bcb02192aa99fe25af2bc5fb"
+    },
+    {
+      "path": "data/witnesses/sources/tibetan/correspondence-audit.json",
+      "sha256": "eeb6553d1b25c8f148b98daa68a3311efa637f7457591eafe4ce5e60471836a2"
     },
     {
       "path": "data/witnesses/sources/tibetan/esukhia-README.md",
       "sha256": "5e738086cffdce391aeb046ee6e6e15885c92d98a8767e669ac4b1af32c99f34"
+    },
+    {
+      "path": "data/witnesses/sources/tibetan/pilot-selection-map.json",
+      "sha256": "79a9cdbf96b2c7f94d76ad7d39757ccc78a2be9b21eff1e17e463f69a0106996"
+    },
+    {
+      "path": "data/witnesses/sources/tibetan/rockhill-concordance-transcription.txt",
+      "sha256": "fedc43f3310cba47e7106908654cd2b9f2cc62045ea03898211c3aa7271ceb4d"
     },
     {
       "path": "data/witnesses/sources/tibetan/rockhill1883-selected-ocr.json",
@@ -65,15 +101,15 @@
     },
     {
       "path": "data/witnesses/sources/tibetan/selected-derge-excerpts.json",
-      "sha256": "9e38cbd519a223d093b3f49f8e932c3be4c5c213ac0c1a670259a76f6c0d7878"
+      "sha256": "72289c8403273811466df7233aca691c820dfd90b5e29d4a5a15e5dbf416002b"
     },
     {
       "path": "data/witnesses/sources/tibetan/verification.json",
-      "sha256": "b81223b3e3190df4d3f48a207ad790bd0fe8e7e2bd0f5c687e5bcfa35adcdfc8"
+      "sha256": "64480a7e22f68f7e441f0a5c37581010a3d5998ee03f625291dbbe55585821b2"
     },
     {
       "path": "data/witnesses/tibetan.json",
-      "sha256": "e19124423c6001c53e2874f7f06ee2859aa1b1af2d8752d0c42db290c77714b8"
+      "sha256": "5f87161e858f44fe8a428dfd1cda07f59c5e8985799e7ac5d2526796f4f0ec92"
     }
   ]
 }

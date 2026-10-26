@@ -1,3 +1,20 @@
+# Reading study 08 — six-chapter pilot verification
+
+26 October 2026. Source and managed Chromium preview checks for six pilot chapters plus the retained Mind page.
+
+- Contents lists Pairs, Heedfulness, Thousands, Self, Anger, and Miscellaneous. Mind remains under Also available. All seven chapter pages contain English, six historical traditions, and hidden-by-default pinyin. The six pilot pages contain 88 Pāli positions; all available pages contain 99.
+- Native source checks cover all 248 selected Indic readings, 105 Chinese reading occurrences, and 96 Tibetan selections (408 pādas). Chinese whole text and punctuation match the pinned full CBETA edition; Tibetan lines occur verbatim and in order within their exact pinned Derge spans. The first43 historical verse records and42 Tibetan excerpts are unchanged. Patna158 uses a separately verified primary-text correction, and documented edition differences remain visible in Notes.
+- The independent Tibetan research ledger covers all423 Pāli positions. It distinguishes305 secure published attestations,18 direct additions, one tentative citation,99 reviewed reader positions, and96 located native texts. Its323/423 total is a lower bound, not semantic identity or a complete absence census.
+- Browser navigation checks verify32→100,115→157 and the reverse,166→221,234→290, and the disabled Next endpoint at305 after the font-dependent position restoration. The115↔157 transition retains164% magnification and a2429px horizontal offset.
+- At desktop Fit (45%), all seven default columns share one continuous borderless sheet. First-verse tops coincide. The local Rosettapada Tibetan font loads and renders. Source glyph normalization also covers references and accessible labels, with no private-use glyphs in generated chapter pages.
+- Showing pinyin, hiding Chinese, and keyboard-reordering Tibetan persist across a new chapter transition. Restore defaults restores the seven default columns and hides pinyin.
+- Embedded320px and375px viewports have no document overflow. The320px footer controls stay within x=6–314; its Languages window stays within x=12–308 and has a440px height. The reading sheet retains intentional horizontal overflow.
+- The Python build,99-position integrity checks, source hashes, local links and navigation targets, preserved sample, deployable assets, and JavaScript syntax pass. Temporary responsive fixtures were removed from deployment output.
+
+Physical Safari trackpad gestures and physical mobile touch input remain unverified. These checks establish source fidelity and the selected reading behavior, not an exhaustive critical edition or a uniform semantic-equivalence judgment.
+
+---
+
 # Reading study 07 — multilingual verification
 
 24 October 2026. Chromium preview at desktop size, plus embedded 320px and 375px reading viewports.

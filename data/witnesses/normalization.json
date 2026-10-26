@@ -5,6 +5,8 @@
   "characters": {
     "F816": {"glyph_name": "jmacron", "unicode": "j̄"},
     "F82A": {"glyph_name": "rringbelow", "unicode": "r̥"},
-    "F83E": {"glyph_name": "tacutedotbelow", "unicode": "ṭ́"}
+    "F83E": {"glyph_name": "tacutedotbelow", "unicode": "ṭ́"},
+    "F83C": {"glyph_name": "smacrondotbelow", "unicode": "ṣ̄"},
+    "F84F": {"glyph_name": "gmacronacute", "unicode": "ḡ́"}
   }
 }

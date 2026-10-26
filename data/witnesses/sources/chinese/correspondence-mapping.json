@@ -1029,6 +1029,1490 @@
           ]
         }
       ]
+    },
+    {
+      "chapter": 8,
+      "source_url": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap08/",
+      "html_sha256": "fa13c864c002c5e8d0a9d2533dec4f6176aed4580e81ce69bf3ba9f103f3b4c0",
+      "records": [
+        {
+          "pali": 100,
+          "T210": [
+            {
+              "reference": "T210 16.1",
+              "chapter": 16,
+              "verse": 1,
+              "table_text": "雖誦千言，句義不正，不如一要，聞可滅意。(1)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.2",
+              "chapter": 25,
+              "verse": 2,
+              "table_text": "雖誦千章，法義具足，聞一法句，可從滅意。(2)"
+            }
+          ],
+          "T213": []
+        },
+        {
+          "pali": 101,
+          "T210": [
+            {
+              "reference": "T210 16.2",
+              "chapter": 16,
+              "verse": 2,
+              "table_text": "雖誦千章，不義何益？不如一義，聞行可度。(2)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.1",
+              "chapter": 25,
+              "verse": 1,
+              "table_text": "雖誦千章，不義何益？寧解一句，聞可得道。(1)"
+            }
+          ],
+          "T213": []
+        },
+        {
+          "pali": 102,
+          "T210": [
+            {
+              "reference": "T210 16.3",
+              "chapter": 16,
+              "verse": 3,
+              "table_text": "雖多誦經，不解何益？解一法句，行可得道。(3)"
+            }
+          ],
+          "T212": [],
+          "T213": [
+            {
+              "reference": "T213 24.1",
+              "chapter": 24,
+              "verse": 1,
+              "table_text": "雖說百伽陀，句義不周正，不如解一句聞乃得解脫。 (1)"
+            }
+          ]
+        },
+        {
+          "pali": 103,
+          "T210": [
+            {
+              "reference": "T210 16.4",
+              "chapter": 16,
+              "verse": 4,
+              "table_text": "千千為敵，一夫勝之，未若自勝，為戰中上。(4)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 24.3",
+              "chapter": 24,
+              "verse": 3,
+              "table_text": "千千為敵，一夫勝之，莫若自伏，為戰中勝。〈24 我品〉(3)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 23.3",
+              "chapter": 23,
+              "verse": 3,
+              "table_text": "千千而為敵，一夫能勝之，莫若自伏心，便為戰中勝。〈23 己身品〉 (3)"
+            }
+          ]
+        },
+        {
+          "pali": 104,
+          "T210": [
+            {
+              "reference": "T210 16.5",
+              "chapter": 16,
+              "verse": 5,
+              "table_text": "自勝最賢，故曰人雄，護意調身，自損至終。(5)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 24.4",
+              "chapter": 24,
+              "verse": 4,
+              "table_text": "自勝為上，如彼眾生，自降之士，眾行具足。〈24 我品〉(4)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 23.4",
+              "chapter": 23,
+              "verse": 4,
+              "table_text": "自勝而為上，如彼眾生心，自降為大士，眾行則具足。〈23 己身品〉 (4)"
+            }
+          ]
+        },
+        {
+          "pali": 105,
+          "T210": [
+            {
+              "reference": "T210 16.6",
+              "chapter": 16,
+              "verse": 6,
+              "table_text": "雖曰尊天，神魔梵釋，皆莫能勝，自勝之人。(6)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 24.5",
+              "chapter": 24,
+              "verse": 5,
+              "table_text": "非天犍沓和，非魔及梵天，棄勝最為上，如智慧比丘。〈24 我品〉(5)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 23.5",
+              "chapter": 23,
+              "verse": 5,
+              "table_text": "非天彥達嚩，非魔及梵天，棄勝最為上，如智慧苾芻。〈23 己身品〉 (5)"
+            }
+          ]
+        },
+        {
+          "pali": 106,
+          "T210": [
+            {
+              "reference": "T210 16.7",
+              "chapter": 16,
+              "verse": 7,
+              "table_text": "月千反祠，終身不輟，不如須臾，一心念法，一念道福，勝彼終身。(7)"
+            }
+          ],
+          "T212": [],
+          "T213": [
+            {
+              "reference": "T213 24.32",
+              "chapter": 24,
+              "verse": 32,
+              "table_text": "月月常千祀，終身而不輟，不如須臾間，一心念真法，一念福無邊，勝彼終身祀。〈24 廣說品〉(32)"
+            }
+          ]
+        },
+        {
+          "pali": 107,
+          "T210": [
+            {
+              "reference": "T210 16.8",
+              "chapter": 16,
+              "verse": 8,
+              "table_text": "雖終百歲，奉事火祠，不如須臾，供養三尊，一供養福，勝彼百年。(8)"
+            }
+          ],
+          "T212": [],
+          "T213": [
+            {
+              "reference": "T213 24.33",
+              "chapter": 24,
+              "verse": 33,
+              "table_text": "雖終百歲壽，奉事祀火神，不如須臾間，供養佛法僧，一念供養福，勝彼終身祀。〈廣說品 24〉(33)"
+            }
+          ]
+        },
+        {
+          "pali": 108,
+          "T210": [
+            {
+              "reference": "T210 16.9",
+              "chapter": 16,
+              "verse": 9,
+              "table_text": "祭神以求福，從後觀其報，四分未望一，不如禮賢者。(9)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.18",
+              "chapter": 25,
+              "verse": 18,
+              "table_text": "若人禱神祀，經歲望其福，彼於四分中，亦未獲其一。(18)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 24.21",
+              "chapter": 24,
+              "verse": 21,
+              "table_text": "若人禱神祀，經歲望其福，彼於四分中，亦不獲其一。(21)"
+            }
+          ]
+        },
+        {
+          "pali": 109,
+          "T210": [
+            {
+              "reference": "T210 16.10",
+              "chapter": 16,
+              "verse": 10,
+              "table_text": "能善行禮節，常敬長老者，四福自然增，色力壽而安。(10)"
+            }
+          ],
+          "T212": [],
+          "T213": []
+        },
+        {
+          "pali": 110,
+          "T210": [
+            {
+              "reference": "T210 16.11",
+              "chapter": 16,
+              "verse": 11,
+              "table_text": "若人壽百歲，遠正不持戒，不如生一日，守戒正意禪。(11)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.3",
+              "chapter": 25,
+              "verse": 3,
+              "table_text": "雖復壽百年，毀戒意不定，不如一日中，供養持戒人。(3)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 24.4",
+              "chapter": 24,
+              "verse": 4,
+              "table_text": "若人壽百歲，毀戒意不息，不如一日中，供養持戒人。(4)"
+            }
+          ]
+        },
+        {
+          "pali": 111,
+          "T210": [
+            {
+              "reference": "T210 16.12",
+              "chapter": 16,
+              "verse": 12,
+              "table_text": "若人壽百歲，邪偽無有智，不如生一日，一心學正智。(12)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.4",
+              "chapter": 25,
+              "verse": 4,
+              "table_text": "雖壽百年，無慧不定，不如一日，黠慧有定。(4)"
+            }
+          ],
+          "T213": []
+        },
+        {
+          "pali": 112,
+          "T210": [
+            {
+              "reference": "T210 16.13",
+              "chapter": 16,
+              "verse": 13,
+              "table_text": "若人壽百歲，懈怠不精進，不如生一日，勉力行精進。(13)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.5",
+              "chapter": 25,
+              "verse": 5,
+              "table_text": "雖復壽百年，懈怠不精進，不如一日中，精進不怯弱。(5)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 24.5",
+              "chapter": 24,
+              "verse": 5,
+              "table_text": "若人壽百歲，懈怠劣精進，不如一日中，勇猛行精進。(5)"
+            }
+          ]
+        },
+        {
+          "pali": 113,
+          "T210": [
+            {
+              "reference": "T210 16.14",
+              "chapter": 16,
+              "verse": 14,
+              "table_text": "若人壽百歲，不知成敗事，不如生一日，見微知所忌。(14)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.6",
+              "chapter": 25,
+              "verse": 6,
+              "table_text": "雖復壽百歲，不知生滅事，不如一日中，曉了生滅事。(6)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 24.6",
+              "chapter": 24,
+              "verse": 6,
+              "table_text": "若人壽百歲，不觀生滅法，不如一日中，而解生滅法。(6)"
+            }
+          ]
+        },
+        {
+          "pali": 114,
+          "T210": [
+            {
+              "reference": "T210 16.15",
+              "chapter": 16,
+              "verse": 15,
+              "table_text": "若人壽百歲，不見甘露道，不如生一日，服行甘露味。(15)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 25.13",
+              "chapter": 25,
+              "verse": 13,
+              "table_text": "(雖復壽百歲，不知甘露跡，如一日中，)察甘露行跡。(13)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 24.15",
+              "chapter": 24,
+              "verse": 15,
+              "table_text": "若人壽百歲，不見甘露句，不如一日中，得服甘露味。(15)"
+            }
+          ]
+        },
+        {
+          "pali": 115,
+          "T210": [
+            {
+              "reference": "T210 16.16",
+              "chapter": 16,
+              "verse": 16,
+              "table_text": "若人壽百歲，不知大道義，不如生一日，學惟佛法要。(16)"
+            }
+          ],
+          "T212": [],
+          "T213": [
+            {
+              "reference": "T213 24.13",
+              "chapter": 24,
+              "verse": 13,
+              "table_text": "若人壽百歲，不見最上句，不如一日中得見最上道。 (13)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 12,
+      "source_url": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap12/",
+      "html_sha256": "2d3c6e88b1dc03b1d2bc76c3977ad7d2846558780f2aa26d8bd4d9ac193afe1c",
+      "records": [
+        {
+          "pali": 157,
+          "T210": [
+            {
+              "reference": "T210 20.1",
+              "chapter": 20,
+              "verse": 1,
+              "table_text": "自愛身者，慎護所守，希望欲解，學正不寐。(1)"
+            },
+            {
+              "reference": "T210 30.12",
+              "chapter": 30,
+              "verse": 12,
+              "table_text": "如備邊城，中外牢固，自守其心，非法不生，行缺致憂，令墮地獄。(12)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 6.12",
+              "chapter": 6,
+              "verse": 12,
+              "table_text": "夫欲自念者，善宜自守護，猶如防邊城，深塹固乃牢，失三離三者，智者宜自悟。。〈6 念品〉(12)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 5.13",
+              "chapter": 5,
+              "verse": 13,
+              "table_text": "夫欲自念者，宜自善守護，如防護邊城，乃牢固墻塹。〈5 愛樂品〉 (13)"
+            }
+          ]
+        },
+        {
+          "pali": 158,
+          "T210": [
+            {
+              "reference": "T210 20.2",
+              "chapter": 20,
+              "verse": 2,
+              "table_text": "身為第一，常自勉學，利乃誨人，不惓則智。(2)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 24.7",
+              "chapter": 24,
+              "verse": 7,
+              "table_text": "先自正己，然後正人，夫自正者，不侵智者。(7)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 23.7",
+              "chapter": 23,
+              "verse": 7,
+              "table_text": "先自而正己，然後正他人，若自而正者，不侵名真智。(7)"
+            }
+          ]
+        },
+        {
+          "pali": 159,
+          "T210": [
+            {
+              "reference": "T210 20.3",
+              "chapter": 20,
+              "verse": 3,
+              "table_text": "學先自正，然後正人，調身入慧，必遷為上。(3)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 24.6",
+              "chapter": 24,
+              "verse": 6,
+              "table_text": "先自正己，然後正人，夫自正者，乃謂為上。(6)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 23.6",
+              "chapter": 23,
+              "verse": 6,
+              "table_text": "先自而正己，然後正他人，若自而正者，乃謂之上士。(6)"
+            }
+          ]
+        },
+        {
+          "pali": 160,
+          "T210": [
+            {
+              "reference": "T210 20.4",
+              "chapter": 20,
+              "verse": 4,
+              "table_text": "身不能利，安能利人？心調體正，何願不至？(4)"
+            }
+          ],
+          "T212": [],
+          "T213": [
+            {
+              "reference": "T213 23.20",
+              "chapter": 23,
+              "verse": 20,
+              "table_text": "自己心為師，不依他師，自己為者長作真智師。 (20)"
+            }
+          ]
+        },
+        {
+          "pali": 161,
+          "T210": [
+            {
+              "reference": "T210 20.5",
+              "chapter": 20,
+              "verse": 5,
+              "table_text": "本我所造，後我自受，為惡自更，如剛鑽珠。(5)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 29.12",
+              "chapter": 29,
+              "verse": 12,
+              "table_text": "達己淨不淨，何慮他人淨？愚者不自練，如鐵鑽純鋼。〈29 惡行品〉(12)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 28.11",
+              "chapter": 28,
+              "verse": 11,
+              "table_text": "達己淨不淨，何慮他人淨？愚者不自鍊，如鐵鑽鈍鋼。〈28 罪障品〉 (11)"
+            }
+          ]
+        },
+        {
+          "pali": 162,
+          "T210": [
+            {
+              "reference": "T210 20.6",
+              "chapter": 20,
+              "verse": 6,
+              "table_text": "人不持戒，滋蔓如藤，逞情極欲，惡行日增。(6)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 12.10",
+              "chapter": 12,
+              "verse": 10,
+              "table_text": "至竟犯戒人，葛藤纏樹枯，斯作自為身，為恚火所燒。〈12 沙門品〉(10)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 11.10",
+              "chapter": 11,
+              "verse": 10,
+              "table_text": "畏罪懷驚懼，假名為沙門，身披僧伽胝，如刳娑羅皮。〈11 沙門品〉(10)"
+            }
+          ]
+        },
+        {
+          "pali": 163,
+          "T210": [
+            {
+              "reference": "T210 20.7",
+              "chapter": 20,
+              "verse": 7,
+              "table_text": "惡行危身，愚以為易，善最安身，愚以為難。(7)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 29.17",
+              "chapter": 29,
+              "verse": 17,
+              "table_text": "善哉修善者，善哉為甚惡，惡惡自為易，惡人為善難。〈29 惡行品〉(17)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 28.16",
+              "chapter": 28,
+              "verse": 16,
+              "table_text": "善哉修善者，傷哉為甚惡，惡惡自為易，惡人為善難。〈28 罪障品〉 (16)"
+            }
+          ]
+        },
+        {
+          "pali": 164,
+          "T210": [
+            {
+              "reference": "T210 20.8",
+              "chapter": 20,
+              "verse": 8,
+              "table_text": "如真人教，以道法身，愚者疾之，見而為惡，行惡得惡，如種苦種。(8)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 9.8",
+              "chapter": 9,
+              "verse": 8,
+              "table_text": "竹蘆生節，還害其軀，吐言當善，不演惡教。〈9 誹謗品〉(8)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 8.10",
+              "chapter": 8,
+              "verse": 10,
+              "table_text": "竹蘆生實乾，還害其自軀，若吐言當善，不演惡法教。〈8 語言品〉(10)"
+            }
+          ]
+        },
+        {
+          "pali": 165,
+          "T210": [
+            {
+              "reference": "T210 20.9",
+              "chapter": 20,
+              "verse": 9,
+              "table_text": "惡自受罪，善自受福，亦各須熟，彼不自代，習善得善，亦如種甜。(9)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 29.11",
+              "chapter": 29,
+              "verse": 11,
+              "table_text": "人之為惡，後自受報，己不為惡，後無所憂。〈29 惡行品〉(11)"
+            }
+          ],
+          "T213": []
+        },
+        {
+          "pali": 166,
+          "T210": [
+            {
+              "reference": "T210 20.10",
+              "chapter": 20,
+              "verse": 10,
+              "table_text": "自利利人，益而不費，欲知利身，戒聞為最。(10)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 24.10",
+              "chapter": 24,
+              "verse": 10,
+              "table_text": "為己或為彼，多有不成就，其有覺此者，正己乃訓彼。(10)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 23.10",
+              "chapter": 23,
+              "verse": 10,
+              "table_text": "為己或為彼，多有不成就，其有學此者，自正兼訓彼。(10)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 17,
+      "source_url": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap17/",
+      "html_sha256": "20c09024d463914625d0001392a81cab45e2612756eee48a02310ae462721475",
+      "records": [
+        {
+          "pali": 221,
+          "T210": [
+            {
+              "reference": "T210 25.16",
+              "chapter": 25,
+              "verse": 16,
+              "table_text": "捨恚離慢，避諸愛貪，不著名色，無為滅苦。(16)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 21.1",
+              "chapter": 21,
+              "verse": 1,
+              "table_text": "除恚去憍慢，超度諸結使，不染著名色，除有何有哉？(1)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 20.1",
+              "chapter": 20,
+              "verse": 1,
+              "table_text": "除瞋去我慢，遠離諸煩惱，不染彼名色冤家無有伴。 (1)"
+            }
+          ]
+        },
+        {
+          "pali": 222,
+          "T210": [
+            {
+              "reference": "T210 25.3",
+              "chapter": 25,
+              "verse": 3,
+              "table_text": "恚能自制，如止奔車，是為善御，棄冥入明。(3)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 21.20",
+              "chapter": 21,
+              "verse": 20,
+              "table_text": "恚能自制，如止奔車，是為善御，去冥入明。(20)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 20.19",
+              "chapter": 20,
+              "verse": 19,
+              "table_text": "恚能自制斷，如止奔走車，是為善調御，去冥入光明。(19)"
+            }
+          ]
+        },
+        {
+          "pali": 223,
+          "T210": [
+            {
+              "reference": "T210 25.4",
+              "chapter": 25,
+              "verse": 4,
+              "table_text": "忍辱勝恚，善勝不善，勝者能施，至誠勝欺。(4)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 15.11",
+              "chapter": 15,
+              "verse": 11,
+              "table_text": "忍辱勝怨，善勝不善，勝者能施，至誠勝欺。〈15 忿怒品〉(11)"
+            },
+            {
+              "reference": "T212 21.18",
+              "chapter": 21,
+              "verse": 18,
+              "table_text": "忍辱勝怨，善勝不善，勝者能施，真誠勝欺。(18)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 20.17",
+              "chapter": 20,
+              "verse": 17,
+              "table_text": "忍辱勝於怨，善勝不善者，勝者能施善，真誠勝欺善。(17)"
+            }
+          ]
+        },
+        {
+          "pali": 224,
+          "T210": [
+            {
+              "reference": "T210 25.5",
+              "chapter": 25,
+              "verse": 5,
+              "table_text": "不欺不怒，意不多求，如是三事，死則上天。(5)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 21.15",
+              "chapter": 21,
+              "verse": 15,
+              "table_text": "諦說不瞋恚，乞者念以施，三分有定處，自然處天宮。(15)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 20.14",
+              "chapter": 20,
+              "verse": 14,
+              "table_text": "諦說不瞋恚，乞者念以施，三分有定處，自然處天宮。(14)"
+            }
+          ]
+        },
+        {
+          "pali": 225,
+          "T210": [
+            {
+              "reference": "T210 7.1",
+              "chapter": 7,
+              "verse": 1,
+              "table_text": "為仁不殺，常能攝身，是處不死，所適無患。〈7 慈仁品〉 (1)"
+            },
+            {
+              "reference": "T210 25.6",
+              "chapter": 25,
+              "verse": 6,
+              "table_text": "常自攝身，慈心不殺，是生天上，到彼無憂。(6)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 8.7",
+              "chapter": 8,
+              "verse": 7,
+              "table_text": "慈仁不殺，常能攝身，是處不死，所適無患。〈8 學品〉(7)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 7.7",
+              "chapter": 7,
+              "verse": 7,
+              "table_text": "慈仁行不殺，常能善攝身，彼得無盡位，所適皆無患。〈7 善行品〉 (7)"
+            }
+          ]
+        },
+        {
+          "pali": 226,
+          "T210": [
+            {
+              "reference": "T210 6.9",
+              "chapter": 6,
+              "verse": 9,
+              "table_text": "以覺意能應，日夜務學行，當解甘露要，令諸漏得盡。 〈6 惟念品〉(9)"
+            },
+            {
+              "reference": "T210 25.7",
+              "chapter": 25,
+              "verse": 7,
+              "table_text": "意常覺悟，明暮勤學，漏盡意解，可致泥洹。(7)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 16.9",
+              "chapter": 16,
+              "verse": 9,
+              "table_text": "以覺意得應，日夜慕學行，當解甘露要，令諸漏得盡。 〈16 惟念品〉(9)"
+            },
+            {
+              "reference": "T212 7.7",
+              "chapter": 7,
+              "verse": 7,
+              "table_text": "意常覺寤，晝夜力學，漏盡意解，可致泥洹。〈7 戒品〉(7)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 6.9",
+              "chapter": 6,
+              "verse": 9,
+              "table_text": "意常生覺悟，晝夜精勤學，漏盡心明解，可致圓寂道。〈6 持戒品〉 (9)"
+            },
+            {
+              "reference": "T213 15.10",
+              "chapter": 15,
+              "verse": 10,
+              "table_text": "以覺意得應，晝夜慕習學，解脫甘露要，決定得無漏。〈15 憶念品〉 (10)"
+            }
+          ]
+        },
+        {
+          "pali": 227,
+          "T210": [
+            {
+              "reference": "T210 25.8",
+              "chapter": 25,
+              "verse": 8,
+              "table_text": "人相謗毀，自古至今，既毀多言，又毀訥訒，亦毀中和，世無不毀。(8)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 15.5",
+              "chapter": 15,
+              "verse": 5,
+              "table_text": "人相謗毀，自古至今，既毀多言，又毀訥訒，亦毀中和，世無不毀。〈15 忿怒品〉 (5)"
+            },
+            {
+              "reference": "T212 30.35",
+              "chapter": 30,
+              "verse": 35,
+              "table_text": "或有寂然罵，或有在眾罵，或有未聲罵，世無有不罵。〈30 雙要品〉(35)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 14.5",
+              "chapter": 14,
+              "verse": 5,
+              "table_text": "眾相共毀謗，各發恚怒聲，歡心平等忍，此忍最無比。〈14 怨家品〉(5)"
+            },
+            {
+              "reference": "T213 29.40",
+              "chapter": 29,
+              "verse": 40,
+              "table_text": "或有寂然罵，或有在眾罵，或有未聲罵，世無有不罵。〈29 相應品〉(40)"
+            }
+          ]
+        },
+        {
+          "pali": 228,
+          "T210": [
+            {
+              "reference": "T210 25.9",
+              "chapter": 25,
+              "verse": 9,
+              "table_text": "欲意非聖，不能制中，一毀一譽，但為利名。(9)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 30.36",
+              "chapter": 30,
+              "verse": 36,
+              "table_text": "一毀一譽，但利其名，非有非無，亦不可知。〈30 雙要品〉(36)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 29.41",
+              "chapter": 29,
+              "verse": 41,
+              "table_text": "一毀及一譽，但利養其名，非有亦非有，則亦不可知。〈29 相應品〉(41)"
+            }
+          ]
+        },
+        {
+          "pali": 229,
+          "T210": [
+            {
+              "reference": "T210 25.10",
+              "chapter": 25,
+              "verse": 10,
+              "table_text": "明智所譽，唯稱是賢，慧人守戒，無所譏謗。(10)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 30.37",
+              "chapter": 30,
+              "verse": 37,
+              "table_text": "叡人所譽，若好若醜，智人無缺，叡定解脫，〈30 雙要品〉(37)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 29.42",
+              "chapter": 29,
+              "verse": 42,
+              "table_text": "智人所稱譽，若好兼及醜，智人無缺漏，慧定得解脫。〈29 相應品〉(42)"
+            }
+          ]
+        },
+        {
+          "pali": 230,
+          "T210": [
+            {
+              "reference": "T210 25.11",
+              "chapter": 25,
+              "verse": 11,
+              "table_text": "如羅漢淨，莫而誣謗，諸天咨嗟，梵釋所稱。(11)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 30.37",
+              "chapter": 30,
+              "verse": 37,
+              "table_text": "（叡人所譽，）如紫磨金，內外淨徹。〈30 雙要品〉(37)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 29.42",
+              "chapter": 29,
+              "verse": 42,
+              "table_text": "如紫磨真金，內外徹清淨。〈29 相應品〉(42)"
+            }
+          ]
+        },
+        {
+          "pali": 231,
+          "T210": [
+            {
+              "reference": "T210 25.12",
+              "chapter": 25,
+              "verse": 12,
+              "table_text": "常守慎身，以護瞋恚，除身惡行，進修德行。(12)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 8.1",
+              "chapter": 8,
+              "verse": 1,
+              "table_text": "護身惡行，自正身行，護身惡者，修身善行。〈8 學品〉(1)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 7.1",
+              "chapter": 7,
+              "verse": 1,
+              "table_text": "守護身惡行，自正行，守護身惡者常修身善行。 〈7 善行品〉(1)"
+            }
+          ]
+        },
+        {
+          "pali": 232,
+          "T210": [
+            {
+              "reference": "T210 25.13",
+              "chapter": 25,
+              "verse": 13,
+              "table_text": "常守慎言，以護瞋恚，除口惡言，誦習法言。(13)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 8.2",
+              "chapter": 8,
+              "verse": 2,
+              "table_text": "護口惡行，自正口行，護口惡者，修口善行。〈8 學品〉(2)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 7.2",
+              "chapter": 7,
+              "verse": 2,
+              "table_text": "守護口惡行，自正護口行，守護口惡者，常修口善行。〈7 善行品〉(2)"
+            }
+          ]
+        },
+        {
+          "pali": 233,
+          "T210": [
+            {
+              "reference": "T210 25.14",
+              "chapter": 25,
+              "verse": 14,
+              "table_text": "常守慎心，以護瞋恚，除意惡念，思惟念道。(14)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 8.3",
+              "chapter": 8,
+              "verse": 3,
+              "table_text": "護意惡行，自正意行，護意惡者，修意善行。〈8 學品〉(3)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 7.3",
+              "chapter": 7,
+              "verse": 3,
+              "table_text": "守護意惡行，自正護意行，守護意惡者，常修意善行。〈7 善行品〉 (3)"
+            }
+          ]
+        },
+        {
+          "pali": 234,
+          "T210": [
+            {
+              "reference": "T210 25.15",
+              "chapter": 25,
+              "verse": 15,
+              "table_text": "節身慎言，守攝其心，捨恚行道，忍辱最強。(15)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 8.5",
+              "chapter": 8,
+              "verse": 5,
+              "table_text": "身修善行，口善亦爾，意修善行，無欲盡漏。〈8 學品〉(5)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 7.5",
+              "chapter": 7,
+              "verse": 5,
+              "table_text": "身當修善行，修口善亦然，及修意善者，無欲盡諸漏。〈7 善行品〉(5)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "chapter": 21,
+      "source_url": "https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap21/",
+      "html_sha256": "13ad167a4e2d2db3a666ec2adceacc0864f3257a0289968da668c42be4d2bb96",
+      "records": [
+        {
+          "pali": 290,
+          "T210": [
+            {
+              "reference": "T210 29.1",
+              "chapter": 29,
+              "verse": 1,
+              "table_text": "施安雖小，其報彌大，慧從小施，受見景福。(1)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 31.31",
+              "chapter": 31,
+              "verse": 31,
+              "table_text": "慎莫著於樂，當就護來行念捨於世，觀快樂事。〈31 樂品〉(31)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 30.31",
+              "chapter": 30,
+              "verse": 31,
+              "table_text": "慎莫著於樂，當就護來行，當念捨於世，觀於快樂事。 〈30 樂品〉 (31)"
+            }
+          ]
+        },
+        {
+          "pali": 291,
+          "T210": [
+            {
+              "reference": "T210 29.2",
+              "chapter": 29,
+              "verse": 2,
+              "table_text": "施勞於人，而欲望祐，殃咎歸身，自遘廣怨。(2)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 31.2",
+              "chapter": 31,
+              "verse": 2,
+              "table_text": "若人嬈亂彼，自求安樂世，遂成其怨憎，終不脫苦患。〈31 樂品〉(2)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 30.2",
+              "chapter": 30,
+              "verse": 2,
+              "table_text": "若人擾亂彼，自求安樂世，遂成其怨憎，終不得解脫。〈30 樂品〉 (2)"
+            }
+          ]
+        },
+        {
+          "pali": 292,
+          "T210": [
+            {
+              "reference": "T210 29.3",
+              "chapter": 29,
+              "verse": 3,
+              "table_text": "已為多事，非事亦造，伎樂放逸，惡習日增。(3)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 5.4",
+              "chapter": 5,
+              "verse": 4,
+              "table_text": "行亦應正，非事莫豫，邪徑增垢，諸漏興盛，漏已熾盛，除邪漏盡。〈5 放逸品〉(4)"
+            }
+          ],
+          "T213": []
+        },
+        {
+          "pali": 293,
+          "T210": [
+            {
+              "reference": "T210 29.4",
+              "chapter": 29,
+              "verse": 4,
+              "table_text": "精進惟行，習是捨非，修身自覺，是為正習。(4)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 5.5",
+              "chapter": 5,
+              "verse": 5,
+              "table_text": "諸有倚權慧，常念於身患，非事亦不為，應為而不捨，有念思智慧，永無有諸漏。〈5 放逸品〉(5)"
+            }
+          ],
+          "T213": []
+        },
+        {
+          "pali": 294,
+          "T210": [
+            {
+              "reference": "T210 2.12",
+              "chapter": 2,
+              "verse": 12,
+              "table_text": "學先斷母，率君二臣，廢諸營從，是上道人。〈2 教學品〉(12)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 30.24",
+              "chapter": 30,
+              "verse": 24,
+              "table_text": "除其父母緣，王家及二種，遍滅其境土，無垢為梵志。〈30 雙要品〉(24)"
+            },
+            {
+              "reference": "T212 34.60",
+              "chapter": 34,
+              "verse": 60,
+              "table_text": "先去其母，王及二臣，盡勝境界，是謂梵志。〈34 梵志品〉(60)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 29.23",
+              "chapter": 29,
+              "verse": 23,
+              "table_text": "除其父母緣，王家及二種，徧滅其境界，無垢為梵行。〈29 相應品〉 (23)"
+            },
+            {
+              "reference": "T213 33.59",
+              "chapter": 33,
+              "verse": 59,
+              "table_text": "學先去其母，率君及二臣，盡勝諸境界，是名為梵志。〈33 梵志品〉 (59)"
+            }
+          ]
+        },
+        {
+          "pali": 295,
+          "T210": [],
+          "T212": [],
+          "T213": []
+        },
+        {
+          "pali": 296,
+          "T210": [
+            {
+              "reference": "T210 6.11",
+              "chapter": 6,
+              "verse": 11,
+              "table_text": "己知自覺意，是為佛弟子，常當晝夜念，佛與法及僧。〈6 惟念品〉 (11)"
+            },
+            {
+              "reference": "T210 29.8",
+              "chapter": 29,
+              "verse": 8,
+              "table_text": "為佛弟子，常寤自覺，晝夜念佛，惟法思眾。(8)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 16.13",
+              "chapter": 16,
+              "verse": 13,
+              "table_text": "能知自覺者，是瞿曇弟子，晝夜當念是，一心歸命佛。〈16 惟念品〉(13)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 15.14",
+              "chapter": 15,
+              "verse": 14,
+              "table_text": "善知自覺者，是瞿曇聲聞，應當於晝夜，一心恒念佛。〈15 憶念品〉 (14)"
+            }
+          ]
+        },
+        {
+          "pali": 297,
+          "T210": [
+            {
+              "reference": "T210 6.11",
+              "chapter": 6,
+              "verse": 11,
+              "table_text": "己知自覺意，是為佛弟子，常當晝夜念，佛與法及僧。〈6 惟念品〉 (11)"
+            },
+            {
+              "reference": "T210 29.8",
+              "chapter": 29,
+              "verse": 8,
+              "table_text": "為佛弟子，常寤自覺，晝夜念佛，惟法思眾。(8)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 16.14",
+              "chapter": 16,
+              "verse": 14,
+              "table_text": "善覺自覺者，是瞿曇弟子，晝夜當念是，一心念於法。〈16 惟念品〉(14)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 15.15",
+              "chapter": 15,
+              "verse": 15,
+              "table_text": "善知自覺者，是瞿曇聲聞，應當於晝夜，一心恒念法。〈15 憶念品〉 (15)"
+            }
+          ]
+        },
+        {
+          "pali": 298,
+          "T210": [
+            {
+              "reference": "T210 6.11",
+              "chapter": 6,
+              "verse": 11,
+              "table_text": "己知自覺意，是為佛弟子，常當晝夜念，佛與法及僧。〈6 惟念品〉 (11))"
+            },
+            {
+              "reference": "T210 29.8",
+              "chapter": 29,
+              "verse": 8,
+              "table_text": "為佛弟子，常寤自覺，晝夜念佛，惟法思眾。(8)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 16.15",
+              "chapter": 16,
+              "verse": 15,
+              "table_text": "善覺自覺者，是瞿曇弟子，晝夜當念是，一心念於眾。〈16 惟念品〉(15)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 15.16",
+              "chapter": 15,
+              "verse": 16,
+              "table_text": "善知自覺者，是瞿曇聲聞，應當於晝夜，一心恒念僧。〈15 憶念品〉 (16)"
+            }
+          ]
+        },
+        {
+          "pali": 299,
+          "T210": [],
+          "T212": [
+            {
+              "reference": "T212 16.17",
+              "chapter": 16,
+              "verse": 17,
+              "table_text": "念身念非常，念戒布施德，念天安般死，晝夜當念是。〈16 惟念品〉(17)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 15.20",
+              "chapter": 15,
+              "verse": 20,
+              "table_text": "善知自覺者，是能仁弟子，應當於晝夜，一心恒念身。〈15 憶念品〉 (20)"
+            }
+          ]
+        },
+        {
+          "pali": 300,
+          "T210": [],
+          "T212": [
+            {
+              "reference": "T212 16.18",
+              "chapter": 16,
+              "verse": 18,
+              "table_text": "善覺自覺者，是瞿曇弟子，晝夜當念是，一心念不害。〈16 惟念品〉(18)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 15.22",
+              "chapter": 15,
+              "verse": 22,
+              "table_text": "善知自覺者，是能仁弟子，應當於晝夜，一心念不殺。〈15 憶念品〉 (22)"
+            }
+          ]
+        },
+        {
+          "pali": 301,
+          "T210": [
+            {
+              "reference": "T210 29.9",
+              "chapter": 29,
+              "verse": 9,
+              "table_text": "為佛弟子，常寤自覺，日暮思禪，樂觀一心。(9)"
+            }
+          ],
+          "T212": [],
+          "T213": []
+        },
+        {
+          "pali": 302,
+          "T210": [
+            {
+              "reference": "T210 29.11",
+              "chapter": 29,
+              "verse": 11,
+              "table_text": "學難捨罪難，居在家亦難，會止同利難，難難無過有。(11)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 12.8",
+              "chapter": 12,
+              "verse": 8,
+              "table_text": "學難捨罪難，居在家亦難，會止同利難，艱難不過有。〈12 沙門品〉(8)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 11.8",
+              "chapter": 11,
+              "verse": 8,
+              "table_text": "學難捨罪難，居在家亦難，會止同利難，艱難不過是。〈11 沙門品〉 (8)"
+            }
+          ]
+        },
+        {
+          "pali": 303,
+          "T210": [
+            {
+              "reference": "T210 4.8",
+              "chapter": 4,
+              "verse": 8,
+              "table_text": "信使戒誠，亦受智慧，在在能行，處處見養。〈4 篤信品〉(8)"
+            },
+            {
+              "reference": "T210 29.13",
+              "chapter": 29,
+              "verse": 13,
+              "table_text": "有信則戒成，從戒多致寶，亦從得諧偶，在所見供養。(13)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 11.6",
+              "chapter": 11,
+              "verse": 6,
+              "table_text": "信使戒成，亦壽智慧，在在能行，處處見養。〈11 信品〉(6)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 10.7",
+              "chapter": 10,
+              "verse": 7,
+              "table_text": "信使戒成就，亦獲壽及慧，在在則能行，處處見供養。〈10 正信品〉 (7)"
+            }
+          ]
+        },
+        {
+          "pali": 304,
+          "T210": [
+            {
+              "reference": "T210 29.7",
+              "chapter": 29,
+              "verse": 7,
+              "table_text": "近道名顯，如高山雪，遠道闇昧，如夜發箭。(7)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 30.19",
+              "chapter": 30,
+              "verse": 19,
+              "table_text": "難移難可動，如彼重雪山，非賢則不現，猶夜射冥室。〈30 雙要品〉(19)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 29.18",
+              "chapter": 29,
+              "verse": 18,
+              "table_text": "難移難可動，如彼重雪山，非賢則不現，猶夜射冥室。〈29 相應品〉 (18)"
+            }
+          ]
+        },
+        {
+          "pali": 305,
+          "T210": [
+            {
+              "reference": "T210 29.14",
+              "chapter": 29,
+              "verse": 14,
+              "table_text": "一坐一處臥，一行無放恣，守一以正身，心樂居樹間。(14)"
+            }
+          ],
+          "T212": [
+            {
+              "reference": "T212 24.2",
+              "chapter": 24,
+              "verse": 2,
+              "table_text": "一坐一臥，獨步無伴，當自降伏，隻樂山林。〈24 我品〉(2)"
+            }
+          ],
+          "T213": [
+            {
+              "reference": "T213 23.2",
+              "chapter": 23,
+              "verse": 2,
+              "table_text": "一坐而一臥，獨步而無伴，當自降伏心，自樂居山林。〈23 己身品〉 (2)"
+            }
+          ]
+        }
+      ]
     }
   ]
 }

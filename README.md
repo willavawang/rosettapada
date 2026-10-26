@@ -1,10 +1,10 @@
 # Rosettapada
 
-A quiet Dhammapada reading surface. **Reading study 07** presents **Pairs** (1–20), **Heedfulness** (21–32), and **The Mind** (33–43) across **Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan**, with Bhikkhu Sujato's Pāli-based English alongside them. The homepage opens Pairs. Historical counterparts follow the Pāli order without harmonizing their wording; fragments, partial matches, and unlocated counterparts remain explicit in Notes. Optional modern Mandarin pinyin starts hidden. The earlier two-verse sample is preserved at `sample.html`. Expansion beyond these 43 verse positions remains paused.
+A quiet Dhammapada reading surface. **Reading study 08** presents a six-chapter pilot: **Pairs**, **Heedfulness**, **Thousands**, **Self**, **Anger**, and **Miscellaneous**, across **Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan**, with Bhikkhu Sujato’s Pāli-based English alongside them. The six selected chapters contain 88 Pāli verse positions. The earlier **Mind** page remains available separately, bringing the total to 99. Historical counterparts follow Pāli order without harmonizing their wording; fragments, partial matches, and unlocated counterparts remain explicit in Notes. Optional modern Mandarin pinyin starts hidden. The earlier two-verse sample is preserved at `sample.html`. Further reader expansion remains paused while a separate Tibetan contents audit covers all 26 Pāli chapters.
 
 ## Read
 
-Open `index.html` for Pairs, `contents.html` for all three chapters, or `sample.html` for the earlier comparative sample. The previous `pairs.html` URL continues to work. Files work directly in a modern browser, or serve the project over HTTP:
+Open `index.html` for Pairs, `contents.html` for the six-chapter selection and earlier Mind page, or `sample.html` for the earlier comparative sample. The previous `pairs.html` URL continues to work. Files work directly in a modern browser, or serve the project over HTTP:
 
 ```sh
 python3 build.py
@@ -19,7 +19,7 @@ Open `http://localhost:8000/`. No installation, API key, account, external font 
 - Arrows in the bottom bar or `[` / `]` move between verses while retaining horizontal position. On the full chapter pages, they continue across chapter boundaries with the same zoom.
 - The globe button opens the Languages window. Show or hide columns with checkboxes; drag anywhere else on a language row to reorder it. With a handle focused, the up and down arrow keys also reorder columns. Choices persist in the browser.
 - Chinese pinyin starts hidden and can be shown independently of Chinese characters. Fit follows the currently visible columns; its button uses a diagonal expand icon.
-- Contents links to three chapter pages, rather than listing verses. Direct verse anchors work. Zoom and position are remembered per page; language settings are shared across the three multilingual chapter pages and kept separate from the comparative sample. The new language preference key opens all six traditions for readers coming from the old two-column pages.
+- Contents links to the six pilot chapter pages, with Mind listed separately, rather than listing verses. Direct verse anchors work. Zoom and position are remembered per page; language settings are shared across all multilingual chapter pages and kept separate from the comparative sample. The new language preference key opens all six traditions for readers coming from the old two-column pages.
 - Scrollbars are hidden throughout the site; native scrolling and panning remain available.
 - Browser zoom shortcuts remain available. The question-mark button explains the controls.
 
@@ -40,14 +40,15 @@ Edit `templates/*.html`, `styles.css`, and `reader.js`, then rebuild. Generated 
 | `data/sample.json` | Unchanged text from the v2 prototype; not a verified corpus |
 | `data/pinyin.json` | Optional modern Mandarin reading aid for the two Chinese sample verses |
 | `data/chapters.json` | Chapter order, ranges, source revision, and checksums |
-| `data/pali/` | Frozen Pāli, English, source markup, license, and publication metadata for verses 1–43 |
+| `data/pali/` | Frozen Pāli, English, source markup, license, and publication metadata for the selected 99 verse positions |
 | `data/witnesses/` | Five additional historical traditions, per-verse source references, optional Chinese pinyin, bounded source extracts, coverage, and checksums |
 | `assets/fonts/` | Local Tibetan reading font and SIL Open Font License |
 | `templates/` | Reader, contents, and textual-notes templates |
 | `styles.css` | Typography, invisible line alignment, and responsive controls |
 | `reader.js` | Native panning, zoom, navigation, keyboard and session position |
 | `build.py` | Offline standard-library page generator |
-| `tools/check.py` | All 43 verse positions, historical readings, native Chinese/Tibetan source fidelity, frozen hashes, links, deployment output, and sample integrity |
+| `tools/check.py` | All 99 available verse positions, historical readings, native Chinese/Tibetan source fidelity, frozen hashes, links, deployment output, and sample integrity |
+| `tools/import_pali.py` | Fetch new chapters at the existing pinned Bilara revision; verify existing frozen sources |
 | `tools/import_indic.py` | Recreate the bounded Patna, Gāndhārī, and Sanskrit datasets from downloaded comparative-edition pages |
 | `docs/DESIGN.md` | Interface decisions and review questions |
 | `docs/TEXTUAL_NOTES.md` | Inherited references and unresolved readings |

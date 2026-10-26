@@ -1,11 +1,17 @@
 from pathlib import Path
 from lxml import etree as E
-import re,json,sys
+import re,json,sys,os
+from functools import lru_cache
 BASE=Path(__file__).resolve().parent
 NS={'t':'http://www.tei-c.org/ns/1.0','cb':'http://www.cbeta.org/ns/1.0'}
 
+@lru_cache(maxsize=None)
 def load(number):
- root=E.parse(str(BASE/f'T04n{number:04d}-selected.xml'))
+ source=Path(os.environ.get('CBETA_SOURCE_DIRECTORY',str(BASE)))
+ candidates=[source/f'T04n{number:04d}.xml',source/f'cbeta-t{number}.xml',source/f'T04n{number:04d}-selected.xml']
+ path=next((p for p in candidates if p.exists()),None)
+ if path is None:raise FileNotFoundError(f'No CBETA source for T{number} in {source}')
+ root=E.parse(str(path))
  chars={}
  for c in root.findall('.//t:char',NS):
   uid=c.get('{http://www.w3.org/XML/1998/namespace}id')

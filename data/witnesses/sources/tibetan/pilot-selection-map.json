@@ -1,0 +1,477 @@
+{
+  "purpose": "Explicit source selections for the four newly authorized Pāli chapters; pāda positions refer to this importer's shad-delimited native chapter stream, not Sanskrit stanza numbers.",
+  "selections": [
+    {
+      "pali": 100,
+      "chapter": 24,
+      "pada_start": 1,
+      "pada_end": 4,
+      "rockhill_reference": "Uv 24.1",
+      "status": "present",
+      "note": "The Tibetan witness contrasts a hundred meaningless stanzas with one meaningful word, whereas Pāli has a thousand words. Its native numerical wording is retained."
+    },
+    {
+      "pali": 101,
+      "status": "not-located",
+      "note": "No sufficiently close distinct Tibetan counterpart was established for Pāli101 in the consulted concordance and native comparison. The shared wording of the neighboring hundred-stanzas comparison is not duplicated here to create a second apparent witness."
+    },
+    {
+      "pali": 102,
+      "chapter": 24,
+      "pada_start": 5,
+      "pada_end": 8,
+      "rockhill_reference": "Uv 24.2",
+      "status": "present"
+    },
+    {
+      "pali": 103,
+      "chapter": 23,
+      "pada_start": 9,
+      "pada_end": 12,
+      "rockhill_reference": "Uv 23.3",
+      "status": "present"
+    },
+    {
+      "pali": 104,
+      "chapter": 23,
+      "pada_start": 13,
+      "pada_end": 16,
+      "rockhill_reference": "Uv 23.4",
+      "status": "present"
+    },
+    {
+      "pali": 105,
+      "chapter": 23,
+      "pada_start": 17,
+      "pada_end": 20,
+      "rockhill_reference": "Uv 23.5",
+      "status": "present"
+    },
+    {
+      "pali": 106,
+      "chapter": 24,
+      "pada_start": 103,
+      "pada_end": 106,
+      "rockhill_reference": "Uv 24.26",
+      "status": "partial",
+      "note": "Related passage only: the Tibetan witness contrasts monthly thousandfold offerings over a century with faith in the Buddha. Pāli contrasts them with momentary homage to a developed person. The shared sacrifice comparison does not establish an exact verse counterpart; this provisional partial is excluded from secure Tibetan coverage."
+    },
+    {
+      "pali": 107,
+      "chapter": 24,
+      "pada_start": 65,
+      "pada_end": 70,
+      "rockhill_reference": "Uv 24.17",
+      "status": "present",
+      "note": "The native Tibetan verse has six pādas. Its homage to a person cultivating the self is retained, with no wording added from Pāli."
+    },
+    {
+      "pali": 108,
+      "chapter": 24,
+      "pada_start": 135,
+      "pada_end": 138,
+      "rockhill_reference": "Uv 24.34",
+      "status": "present"
+    },
+    {
+      "pali": 109,
+      "status": "not-located",
+      "note": "No sufficiently close Tibetan Udānavarga counterpart to the four blessings from honoring elders was established in the consulted concordance and native comparison. This is not a claim of absence elsewhere in Tibetan literature."
+    },
+    {
+      "pali": 110,
+      "chapter": 24,
+      "pada_start": 9,
+      "pada_end": 12,
+      "rockhill_reference": "Uv 24.3",
+      "status": "present",
+      "note": "The native Tibetan shorter-life expression is a few days (ཉིན་ཞག་འགའ་ཞིག), rather than the Pāli one day; it is retained."
+    },
+    {
+      "pali": 111,
+      "chapter": 24,
+      "pada_start": 17,
+      "pada_end": 20,
+      "rockhill_reference": "Uv 24.5",
+      "status": "present",
+      "note": "The native Tibetan shorter-life expression is a few days (ཉིན་ཞག་འགའ་ཞིག), rather than the Pāli one day; it is retained."
+    },
+    {
+      "pali": 112,
+      "chapter": 24,
+      "pada_start": 13,
+      "pada_end": 16,
+      "rockhill_reference": "Uv 24.4",
+      "status": "present",
+      "note": "The native Tibetan shorter-life expression is a few days (ཉིན་ཞག་འགའ་ཞིག), rather than the Pāli one day; it is retained."
+    },
+    {
+      "pali": 113,
+      "chapter": 24,
+      "pada_start": 21,
+      "pada_end": 24,
+      "rockhill_reference": "Uv 24.6",
+      "status": "present",
+      "note": "The native Tibetan shorter-life expression is a few days (ཉིན་ཞག་འགའ་ཞིག), rather than the Pāli one day; it is retained."
+    },
+    {
+      "pali": 114,
+      "chapter": 24,
+      "pada_start": 33,
+      "pada_end": 36,
+      "rockhill_reference": "Uv 24.9",
+      "status": "present",
+      "note": "The Tibetan witness concerns the unchanging state (གོ་འཕང་མི་གཡོ); Pāli names the deathless state. These are related recensional expressions, not identical words. The native Tibetan shorter-life expression is a few days (ཉིན་ཞག་འགའ་ཞིག), rather than the Pāli one day; it is retained."
+    },
+    {
+      "pali": 115,
+      "chapter": 24,
+      "pada_start": 37,
+      "pada_end": 40,
+      "rockhill_reference": "Uv 24.10",
+      "status": "partial",
+      "note": "Rockhill’s concordance identifies Tibetan24.10, concerning the state difficult to see, with Pāli115, which concerns the supreme Dhamma. The common century-versus-short-life comparison is retained, but this is a partial correspondence in content. The different Tibetan predicate has not been replaced by a closer-sounding stanza from elsewhere in its expanded series. The native Tibetan shorter-life expression is a few days (ཉིན་ཞག་འགའ་ཞིག), rather than the Pāli one day; it is retained."
+    },
+    {
+      "pali": 157,
+      "chapter": 5,
+      "pada_start": 61,
+      "pada_end": 64,
+      "rockhill_reference": "Uv 5.16",
+      "status": "present",
+      "note": "This native passage is Tibetan5.16 in Rockhill; Sanskrit Uv5.15 is a different edition’s reference. Tibetan preserves the three watches of the night."
+    },
+    {
+      "pali": 158,
+      "chapter": 23,
+      "pada_start": 21,
+      "pada_end": 24,
+      "rockhill_reference": "Uv 23.6",
+      "status": "present",
+      "note": "The Tibetan counterpart is a four-pāda stanza whose first and third pādas repeat establishing oneself properly. Its longer native pādas have not been divided or rewritten to imitate Pāli."
+    },
+    {
+      "pali": 159,
+      "chapter": 23,
+      "pada_start": 29,
+      "pada_end": 32,
+      "rockhill_reference": "Uv 23.8",
+      "status": "present",
+      "note": "The Derge witness ends by finding joy through taming oneself. Rockhill renders the corresponding ending as the difficulty of self-restraint; the Derge wording is retained and is not harmonized with either his translation or Pāli."
+    },
+    {
+      "pali": 160,
+      "chapter": 23,
+      "pada_start": 81,
+      "pada_end": 84,
+      "rockhill_reference": "Uv 23.20",
+      "status": "present",
+      "note": "The Tibetan counterpart is the patron-in-oneself stanza (Rockhill23.20) from an expanded self-as-refuge series. The Sanskrit reference Uv23.11 is not assigned to the Tibetan text."
+    },
+    {
+      "pali": 161,
+      "chapter": 28,
+      "pada_start": 49,
+      "pada_end": 52,
+      "rockhill_reference": "Uv 28.12",
+      "status": "present"
+    },
+    {
+      "pali": 162,
+      "chapter": 11,
+      "pada_start": 37,
+      "pada_end": 40,
+      "rockhill_reference": "Uv 11.10",
+      "status": "present"
+    },
+    {
+      "pali": 163,
+      "chapter": 28,
+      "pada_start": 65,
+      "pada_end": 68,
+      "rockhill_reference": "Uv 28.16",
+      "status": "present"
+    },
+    {
+      "pali": 164,
+      "chapter": 8,
+      "pada_start": 25,
+      "pada_end": 30,
+      "rockhill_reference": "Uv 8.7",
+      "status": "present",
+      "note": "Tibetan preserves six pādas about rejecting the teaching under a bad view and a bamboo destroyed by its own fruit. Its native stanza length is retained."
+    },
+    {
+      "pali": 165,
+      "chapter": 28,
+      "pada_start": 43,
+      "pada_end": 48,
+      "rockhill_reference": "Uv 28.11",
+      "status": "present",
+      "note": "Tibetan has six pādas, including purity and impurity being one’s own doing. The shorter preceding two-pāda karma maxim has not been substituted for this passage."
+    },
+    {
+      "pali": 166,
+      "chapter": 23,
+      "pada_start": 33,
+      "pada_end": 36,
+      "rockhill_reference": "Uv 23.9",
+      "status": "present"
+    },
+    {
+      "pali": 221,
+      "chapter": 20,
+      "pada_start": 1,
+      "pada_end": 4,
+      "rockhill_reference": "Uv 20.1",
+      "status": "present"
+    },
+    {
+      "pali": 222,
+      "chapter": 20,
+      "pada_start": 87,
+      "pada_end": 90,
+      "rockhill_reference": "Uv 20.21",
+      "status": "present"
+    },
+    {
+      "pali": 223,
+      "chapter": 20,
+      "pada_start": 75,
+      "pada_end": 78,
+      "rockhill_reference": "Uv 20.18",
+      "status": "present"
+    },
+    {
+      "pali": 224,
+      "chapter": 20,
+      "pada_start": 63,
+      "pada_end": 66,
+      "rockhill_reference": "Uv 20.15",
+      "status": "present"
+    },
+    {
+      "pali": 225,
+      "chapter": 7,
+      "pada_start": 25,
+      "pada_end": 28,
+      "rockhill_reference": "Uv 7.7",
+      "status": "present",
+      "note": "The full Tibetan bodily-restraint, non-harming, deathless-state counterpart is in chapter7 (Rockhill7.7), independently checked in Derge. Rockhill’s index instead points to the related chapter20.19; that printed cross-reference is not imposed on this native selection."
+    },
+    {
+      "pali": 226,
+      "chapter": 15,
+      "pada_start": 35,
+      "pada_end": 38,
+      "rockhill_reference": "Uv 15.8",
+      "status": "present",
+      "note": "This directly checked Tibetan counterpart is Rockhill15.8: wakeful effort, day-and-night study, devotion to the deathless, and exhaustion of taints. It is omitted from his final Pāli index, illustrating why that index alone is a lower bound."
+    },
+    {
+      "pali": 227,
+      "chapter": 29,
+      "pada_start": 221,
+      "pada_end": 224,
+      "rockhill_reference": "Uv 29.48",
+      "status": "present"
+    },
+    {
+      "pali": 228,
+      "chapter": 29,
+      "pada_start": 225,
+      "pada_end": 228,
+      "rockhill_reference": "Uv 29.49",
+      "status": "present"
+    },
+    {
+      "pali": 229,
+      "chapter": 29,
+      "pada_start": 233,
+      "pada_end": 236,
+      "rockhill_reference": "Uv 29.51",
+      "status": "present",
+      "note": "The Tibetan29.51 stanza corresponds to the Pāli229–230 pair. Its first four pādas are aligned here; the final two, including the gold comparison, are aligned at230. This division is editorial and preserves native word order."
+    },
+    {
+      "pali": 230,
+      "chapter": 29,
+      "pada_start": 237,
+      "pada_end": 238,
+      "rockhill_reference": "Uv 29.51",
+      "status": "partial",
+      "note": "Only the last two pādas of Tibetan29.51 are aligned here: none should blame such people, like Jambu-island gold ornaments. The Pāli clauses about gods and Brahmā are not present in this selection. This is labelled a partial counterpart, not padded out with a modern translation."
+    },
+    {
+      "pali": 231,
+      "chapter": 7,
+      "pada_start": 1,
+      "pada_end": 4,
+      "rockhill_reference": "Uv 7.1",
+      "status": "present"
+    },
+    {
+      "pali": 232,
+      "chapter": 7,
+      "pada_start": 5,
+      "pada_end": 8,
+      "rockhill_reference": "Uv 7.2",
+      "status": "present"
+    },
+    {
+      "pali": 233,
+      "chapter": 7,
+      "pada_start": 9,
+      "pada_end": 12,
+      "rockhill_reference": "Uv 7.3",
+      "status": "present"
+    },
+    {
+      "pali": 234,
+      "chapter": 7,
+      "pada_start": 37,
+      "pada_end": 42,
+      "rockhill_reference": "Uv 7.10",
+      "status": "present",
+      "note": "The Tibetan counterpart adds reaching the deathless state and going without sorrow to the restraint of body, speech, and mind. All six native pādas are retained."
+    },
+    {
+      "pali": 290,
+      "chapter": 30,
+      "pada_start": 129,
+      "pada_end": 132,
+      "rockhill_reference": "Uv 30.32",
+      "status": "present"
+    },
+    {
+      "pali": 291,
+      "chapter": 30,
+      "pada_start": 5,
+      "pada_end": 8,
+      "rockhill_reference": "Uv 30.2",
+      "status": "present"
+    },
+    {
+      "pali": 292,
+      "chapter": 4,
+      "pada_start": 71,
+      "pada_end": 76,
+      "rockhill_reference": "Uv 4.19",
+      "status": "present",
+      "note": "The Tibetan stanza has six pādas, adding a statement about distance from the taintless state. It is a historical counterpart with additional material."
+    },
+    {
+      "pali": 293,
+      "chapter": 4,
+      "pada_start": 77,
+      "pada_end": 84,
+      "rockhill_reference": "Uv 4.20",
+      "status": "present",
+      "note": "Tibetan has eight pādas here, including bodily mindfulness and an added closing taintless-state statement. Native length and order are retained."
+    },
+    {
+      "pali": 294,
+      "chapter": 33,
+      "pada_start": 299,
+      "pada_end": 302,
+      "rockhill_reference": "Uv 33.70",
+      "status": "present",
+      "note": "The mother/father/two-kings/kingdom stanza is in Tibetan chapter33.70, not Sanskrit chapter29.24. Its Tibetan wording and source location independently establish the counterpart."
+    },
+    {
+      "pali": 295,
+      "chapter": 33,
+      "pada_start": 303,
+      "pada_end": 306,
+      "rockhill_reference": "Uv 33.71",
+      "status": "present",
+      "note": "The Tibetan mother/father/two-kings/tiger stanza is in chapter33.71. The closing description and the two kings’ wording are retained as this recension gives them."
+    },
+    {
+      "pali": 296,
+      "chapter": 15,
+      "pada_start": 51,
+      "pada_end": 54,
+      "rockhill_reference": "Uv 15.12",
+      "status": "present"
+    },
+    {
+      "pali": 297,
+      "chapter": 15,
+      "pada_start": 55,
+      "pada_end": 58,
+      "rockhill_reference": "Uv 15.13",
+      "status": "present"
+    },
+    {
+      "pali": 298,
+      "chapter": 15,
+      "pada_start": 59,
+      "pada_end": 62,
+      "rockhill_reference": "Uv 15.14",
+      "status": "present"
+    },
+    {
+      "pali": 299,
+      "chapter": 15,
+      "pada_start": 75,
+      "pada_end": 78,
+      "rockhill_reference": "Uv 15.18",
+      "status": "present",
+      "note": "Tibetan15.18 is the bodily-mindfulness member of the expanded awakening series; Sanskrit15.15 is a cross-reference in another edition, not this source’s number."
+    },
+    {
+      "pali": 300,
+      "chapter": 15,
+      "pada_start": 83,
+      "pada_end": 86,
+      "rockhill_reference": "Uv 15.21",
+      "status": "present",
+      "note": "The non-harming member is Tibetan15.21, within a larger series that also names non-ill-will, concentration, emptiness, and other practices."
+    },
+    {
+      "pali": 301,
+      "chapter": 15,
+      "pada_start": 91,
+      "pada_end": 94,
+      "rockhill_reference": "Uv 15.22",
+      "status": "present",
+      "note": "The meditation member is Tibetan15.22; Sanskrit15.25 is not used as a Tibetan number."
+    },
+    {
+      "pali": 302,
+      "chapter": 11,
+      "pada_start": 29,
+      "pada_end": 32,
+      "rockhill_reference": "Uv 11.8",
+      "status": "present",
+      "note": "The native Tibetan counterpart contrasts difficult renunciation and household life and repeated suffering. It is in the Śramaṇa chapter, outside the Tibetan Miscellaneous chapter."
+    },
+    {
+      "pali": 303,
+      "chapter": 10,
+      "pada_start": 29,
+      "pada_end": 32,
+      "rockhill_reference": "Uv 10.8",
+      "status": "present",
+      "note": "The Tibetan witness emphasizes generosity and the abandonment of stinginess alongside faith and virtue. It has not been rewritten to reproduce the Pāli list of reputation and wealth."
+    },
+    {
+      "pali": 304,
+      "chapter": 29,
+      "pada_start": 77,
+      "pada_end": 80,
+      "rockhill_reference": "Uv 29.19",
+      "status": "present"
+    },
+    {
+      "pali": 305,
+      "chapter": 23,
+      "pada_start": 5,
+      "pada_end": 8,
+      "rockhill_reference": "Uv 23.2",
+      "status": "present",
+      "note": "The Tibetan counterpart stands in the Self chapter as Rockhill23.2. It retains single sitting/bedding, absence of sloth, dwelling alone in the forest, and taming oneself."
+    }
+  ]
+}

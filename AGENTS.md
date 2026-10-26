@@ -12,6 +12,7 @@
 
 - Read `WORK_BRIEF.md` and preserve the reading interface requirements.
 - Keep the inherited sample bytes and source references unchanged. Preserve the pinned source snapshot for the three English–Pāli chapters.
-- The user has explicitly authorized aligning the first three Pāli chapters (verses 1–43) across Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan, with English alongside them. The main chapter pages must preserve this multilingual experience. Full-corpus expansion beyond these 43 verses remains paused.
+- The user has explicitly authorized a six-chapter pilot: Pairs (1–20), Heedfulness (21–32), Thousands (100–115), Self (157–166), Anger (221–234), and Miscellaneous (290–305), across Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan, with English alongside them. Preserve the previously published Mind page (33–43) as a secondary page. These seven available pages contain 99 Pāli verse positions; the six pilot chapters contain 88. Preserve this multilingual experience. Further reader expansion remains paused.
+- A full 26-chapter Tibetan contents audit is authorized for research. Distinguish published concordance attestations, directly checked native text, partial/uncertain matches, and positions not located; do not inherit Sanskrit presence flags as verified Tibetan matches.
 - Edit templates and rebuild generated HTML. Run the existing integrity and JavaScript syntax checks, then verify the changed reading path in a browser.
 - Keep the Buddhist Scripture Atlas project separate.

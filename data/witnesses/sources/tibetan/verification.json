@@ -1,17 +1,24 @@
 {
-  "checked": "2026-10-24",
-  "pali_records": 43,
-  "readings_checked": 42,
-  "padas_checked": 180,
+  "checked": "2026-10-26",
+  "pali_records": 99,
+  "native_reviewed": 99,
+  "readings_checked": 96,
+  "padas_checked": 408,
   "native_lines_in_cited_span": true,
   "all_lines_in_source_order": true,
   "verbatim_raw_excerpts_match_source_line_spans": true,
   "full_source_sha256_verified": "437362220fde32d7c4e4311b4aa0885a5ab76612fe5efc0d9afd62605b763041",
   "full_source_git_blob_verified": "d9abab24ddfc32ccd5dc65973cfbbef1dd6bd959",
+  "reader_status_counts": {
+    "present": 92,
+    "partial": 4,
+    "not-located": 3
+  },
   "display_preparation": [
     "Removed physical folio/line markers and physical newlines, joining source words split across folio lines.",
-    "At the three source annotations in selected passages, retained the first/printed spelling and recorded the proposed correction separately.",
-    "Added reading line breaks at source shad boundaries. Every displayed line, including punctuation, occurs verbatim and in order in the cited span after those structural/annotation operations.",
-    "No Tibetan words added, translated, modernized, or harmonized. Source single-shad spacing after དག and ཟློག is retained."
+    "For correction annotations, retained the first/printed form and recorded the suggestion separately.",
+    "Reading line breaks follow source shad punctuation. Original words and punctuation are preserved; every displayed line occurs verbatim in its source span, in order.",
+    "No Tibetan words added, translated, modernized, or harmonized.",
+    "This checks transcription fidelity. Correspondence assessments and explicit partial/provisional qualifications remain separate."
   ]
 }

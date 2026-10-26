@@ -27,6 +27,42 @@
       "html_sha256": "9ecb19c4db9d516c517ca6c5b2bd487e8642d41417e8fb014184e3b44c1fed94",
       "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
       "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-08-Sahassa",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "6c6e31eb460a9d08fd9de0923fb6f59b1d9b6f8ae7d0c1bd658be6408ca31847",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-12-Atta",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "4127e37a249658fd5bbf9323180477cac8998a96cbf3d9480d1498fffed0116d",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-17-Kodha",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "a86b7b99b4ea6e0f0c7b0a4566c0bd138666eefd2e8171a19be44aff62c3d535",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-21-Pakinnaka",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "f67e3a802955d9127886d033e3040f1117ef8c791d654bb8c724db297d133def",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
     }
   ],
   "verses": [
@@ -851,6 +887,1126 @@
       "status": "not-located",
       "readings": [],
       "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 100,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 306 [19.2] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_100",
+          "lines": [
+            "sahasa bi ya vayaṇa",
+            "aṇathapadasahida",
+            "eka vayapada ṣevha",
+            "ya ṣutva uvaśamadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 101,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 308 [19.4] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_101",
+          "lines": [
+            ". hasa bi ya gadhaṇa",
+            "aṇathapadasahida",
+            "eka gadhapada ṣeho",
+            "ya ṣutva uvaśamadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ha"
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 102,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 309 [19.5] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_102",
+          "lines": [
+            "yo ja gadhaśada bhaṣi",
+            "aṇathapadasahida",
+            "eka gadhapada ṣebha",
+            "ya ṣutva uvaśamadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "yo"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 103,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 305 [19.1] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_103",
+          "lines": [
+            "yo sahasa sahasaṇi",
+            "saǵami maṇuṣa jiṇi",
+            "eka ji jiṇi atvaṇa",
+            "so ho sagamu utamu."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "sa"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 104,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 105,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 106,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 310 [19.6] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_106",
+          "lines": [
+            "masamasi sahasiṇa",
+            "yo yaea śadeṇa ca",
+            "nevi budhi prasadasa",
+            "kala avedi ṣoḍaśa."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "nevi budhi prasadasa"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "kala avedi ṣoḍaśa."
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": true
+        },
+        {
+          "reference": "Gāndhārī 320 [19.16] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_106",
+          "lines": [
+            "eka ji bhavidatvaṇa",
+            "muhuta viva puyaï",
+            "sameva puyaṇa ṣevha",
+            "ya ji vaṣaśada hodu."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false,
+          "preferred": true,
+          "note": "The source lists two distinct Gāndhārī stanzas that parallel different portions of Pāli 106. The sheet displays the stanza about honoring a developed person for a moment; the monthly-sacrifice stanza remains separately recorded. They are not combined into an invented verse."
+        }
+      ]
+    },
+    {
+      "pali": 107,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 319-320 [19.15-16] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_107",
+          "lines": [
+            "ya ja vaṣaśada jadu",
+            "agi pariyara vaṇi",
+            "kṣireṇa sapiteleṇa",
+            "divaratra atadrido.",
+            "eka ji bhavidatvaṇa",
+            "muhuta viva puyaï",
+            "sameva puyaṇa ṣevha",
+            "ya ji vaṣaśada hodu."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "kṣireṇa sapiteleṇa"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "divaratra atadrido."
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": true
+        }
+      ]
+    },
+    {
+      "pali": 108,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 321 [19.17] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_108",
+          "lines": [
+            "ya keja yaṭha va hoda va loke",
+            "savatsara yayadi puñavekṣa",
+            "sava bi ta na cadubhaku vedi",
+            "ahivadaṇa ujukadeṣu ṣiho."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "e"
+            },
+            {
+              "line": 0,
+              "kind": "i",
+              "text": "o"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "sa"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "sa"
+            },
+            {
+              "line": 1,
+              "kind": "i",
+              "text": "ve"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "kṣa"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 109,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 172 [11.11] Suha",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_109",
+          "lines": [
+            "ahivadaṇaśilisa",
+            "nica vridhavayariṇo",
+            "catvari tasa vardhadi",
+            "ayo kirta suha bala."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 110,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 111,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 112,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 316 [19.12] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_112",
+          "lines": [
+            "ya ja vaṣaśada jivi",
+            "kusidhu hiṇaviyava",
+            "muhutu jivida ṣevha",
+            "virya arahado driḍha."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 113,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 317 [19.13] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_113",
+          "lines": [
+            "ya ji vaṣaśado jivi",
+            "apaśu udakavaya",
+            "muhutu jivida ṣevha",
+            "paśado udakavaya."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 114,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 115,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 318 [19.14] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_115",
+          "lines": [
+            "ya ja vaṣaśada jivi",
+            "apaśu dhamu utamu",
+            "mohotu jivida ṣehu",
+            "paśadu dhamu utamu."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 157,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 158,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 227 [14.4] [Paṇida]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_158",
+          "lines": [
+            "atmaṇam eva pradhamu",
+            "pradiruvi niveśaï",
+            "tadañi aṇuśaśea",
+            "na kiliśea paṇidu."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 159,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 160,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 161,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 162,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 330 [20.9] [Śilavaga?]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_162",
+          "lines": [
+            "yasa acadadruśilia",
+            "malua va vilada vaṇi",
+            "kuya so tadha atvaṇa",
+            "yadha ṇa viṣamu ichadi."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "a"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 163,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 264 [16.6] [Prakiṇakavaga?]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_163",
+          "lines": [
+            "sukaraṇi asadhuṇi",
+            "atvaṇo ahidaṇa yi",
+            "ya du hida ji sadhu ji",
+            "ta gu pramadrukara."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 164,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 258 [15.16] [Bahoṣuda]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_164",
+          "lines": [
+            "ye śaśaṇa arahadu",
+            "ariaṇa dhamajiviṇo",
+            "paḍikośadi drumedho",
+            "diṭhi niṣaDē pavia",
+            "phalaṇi kaḍakaseva",
+            "atvakañaï phaladi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 165,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 166,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 265 [16.7] [Prakiṇakavaga?]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_166",
+          "lines": [
+            "apaṇatha paratheṇa",
+            "na kudayiṇo havaï",
+            "atvatha paramu ñatva",
+            "svakathaparamu sia."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 221,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 274 [17.1] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_221",
+          "lines": [
+            "kothu jahi viprayahea maṇa",
+            "sañoyaṇa savi adikamea",
+            "ta namaruvasa aṣajamaṇa",
+            "akijaṇa naṇuvadadi dukhu."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 222,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 275 [17.2] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_222",
+          "lines": [
+            "yo du upadida kodhu",
+            "radha bhada va dharaï",
+            "tam aho saradi bromi",
+            "rasviggaha idara jaṇa."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 223,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 280 [17.7] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_223",
+          "lines": [
+            "jiṇa kodha akotheṇa",
+            "asadhu sadhuṇa jiṇa",
+            "jiṇa kradava daṇeṇa",
+            "saceṇa alia jiṇa."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 224,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 281 [17.8] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_224",
+          "lines": [
+            "saca bhaṇi na kuvea",
+            "daya apadu yayida",
+            "edehi trihi haṇehi",
+            "gacha devaṇa sadii."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 225,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 226,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 227,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 237 [14.14] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_227",
+          "lines": [
+            "poraṇam ida adura",
+            "na ida ajetaṇa iva",
+            "ninadi tuibhaveṇa",
+            "ninadi bahobhaṇiṇo",
+            "manabhaṇi vi ninadi",
+            "nasti loki aninia."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 228,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 240 [14.17] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_228",
+          "lines": [
+            "ekada ninido prodhu",
+            "ekada ji praśaidu",
+            "na i aha na i bheṣida",
+            "na yi edarahi vijadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 229,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 241 [14.18] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_229",
+          "lines": [
+            "yo nu ho viña praśaadi",
+            "aṇuija śuhaśuhu",
+            "achidravuti medhavi",
+            "prañaśilasamahida."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 230,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 242 [14.19] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_230",
+          "lines": [
+            "nikhu jabodaṇaseva",
+            "ko ṇa ninidu arahadi",
+            "deva mi ṇa praśajadi",
+            "bramoṇa vi praśajidu."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 231,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 232,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 233,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 234,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 51 [2.1] Bhikhu",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_234",
+          "lines": [
+            "kaeṇa savrudo bhikhu",
+            "atha vayaï savrudo",
+            "maṇeṇa savrudo bhikhu",
+            "sarva druggadeo jahi."
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "sarva druggadeo jahi."
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": true
+        }
+      ]
+    },
+    {
+      "pali": 290,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 164 [11.3] Suha",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_290",
+          "lines": [
+            ". . . trasuhaparicaï",
+            "yo paśi vivulu suha",
+            "cayi matrasuha dhiro",
+            "sabaśu vivula suha."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "pa"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "v"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ca"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "v"
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 291,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 179 [11.18] Suha",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_291",
+          "lines": [
+            "pa . . . . . . . . . ṇeṇa",
+            "yo atvaṇa su . .icha . .",
+            ". . rasaṣaga . . tsiṭha",
+            "so duha na parimucadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "pa"
+            },
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "e"
+            },
+            {
+              "line": 1,
+              "kind": "i",
+              "text": "yo atva"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ṇa s"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "icha"
+            },
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "t"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "siṭha"
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 292,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 339 [21.8] [Kicavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_292",
+          "lines": [
+            "ya kica ta a . . . . . .",
+            ". . . . . . . . . kiyadi",
+            "unaḍaṇa pramataṇa",
+            ". . . . . . . . . . . . . . .",
+            "asava teṣa vaḍhadi",
+            "ara te asavakṣaya."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ki"
+            },
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "taṇa"
+            },
+            {
+              "line": 4,
+              "kind": "s",
+              "text": "asava teṣa vaḍhadi"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "ara te asavakṣa"
+            },
+            {
+              "line": 5,
+              "kind": "i",
+              "text": "ya"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "."
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": true
+        }
+      ]
+    },
+    {
+      "pali": 293,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 340 [21.9] [Kicavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_293",
+          "lines": [
+            "yeṣa du susamaradha",
+            "nica kayakada svadi",
+            ". . . . . . . . . . . . . . .",
+            ". . . . . . . . . . . . . . .",
+            "sadaṇa sabrayaṇaṇa",
+            "taṣa kṣayadi . . . . ."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "d"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "taṣa kṣay"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "ad"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "i . . . . ."
+            }
+          ],
+          "fragmentary": true,
+          "partial_correspondence": true
+        }
+      ]
+    },
+    {
+      "pali": 294,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 12 [1.12] Brammaṇa",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_294",
+          "lines": [
+            "madara pidara atva",
+            "rayaṇa dvayu śotria",
+            "raṭha saṇuyara atva",
+            "aṇiho yadi brammaṇo."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "u"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 295,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 296,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 100 [6.4] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_296",
+          "lines": [
+            "supraküdhu praüjadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica budhakada svadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 297,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 101 [6.5] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_297",
+          "lines": [
+            "supraFüdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica dhamakada svadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 298,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 102 [6.6] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_298",
+          "lines": [
+            "supra2üdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica saakada svadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 299,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 103 [6.7] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_299",
+          "lines": [
+            "suprahüdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica kayakada svadi."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 300,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 104 [6.8] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_300",
+          "lines": [
+            "supra2üdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "ahitsaē rado maṇo."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 301,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 105 [6.9] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_301",
+          "lines": [
+            "supraüdhu praTüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "bhamaṇaï rado maṇo."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 302,
+      "status": "present",
+      "readings": [
+        {
+          "reference": "Gāndhārī 262 [16.4] [Prakiṇakavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_302",
+          "lines": [
+            "druprava1ē druabhiramu",
+            "druaavasaṇa ghara",
+            "dukhu samaṇasavaso",
+            "dukhaṇuvadida bhava."
+          ],
+          "annotations": [],
+          "fragmentary": false,
+          "partial_correspondence": false
+        }
+      ]
+    },
+    {
+      "pali": 303,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 323 [20.2] [Śilavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_303",
+          "lines": [
+            "ṣadhu śileṇa sabaṇo",
+            "yaśabhoasamapidu",
+            "yeṇa yeṇeva vayadi",
+            "teṇa teṇeva puyidu."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "yeṇa yeṇeva vayadi"
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": true
+        }
+      ]
+    },
+    {
+      "pali": 304,
+      "status": "not-located",
+      "readings": [],
+      "note": "No parallel is listed in the consulted comparative edition; this is not a claim of absence from the whole tradition."
+    },
+    {
+      "pali": 305,
+      "status": "partial",
+      "readings": [
+        {
+          "reference": "Gāndhārī 259 [16.1] [Prakiṇakavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_305",
+          "lines": [
+            "ekasaṇa ekasaya",
+            "ekaïyaPē savudu",
+            "eku ramahi atvaṇa",
+            "arañi ekao vasa."
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "arañi ekao vasa."
+            }
+          ],
+          "fragmentary": false,
+          "partial_correspondence": true
+        }
+      ]
     }
   ]
 }

@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version='1.0' encoding='UTF-8'?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:cb="http://www.cbeta.org/ns/1.0" xml:id="T04n0212"><teiHeader>
   <fileDesc>
     <titleStmt>
@@ -875,5 +875,6 @@
   </revisionDesc>
 </teiHeader>
 <text><body><cb:div type="pin"><cb:mulu level="1" n="15" type="品">15 忿怒品</cb:mulu><head>忿怒品第十<anchor xml:id="nkr_note_orig_0693011" n="0693011"/><anchor xml:id="nkr_note_mod_0693011" n="0693011"/><anchor xml:id="beg0693011" n="0693011"/>五<anchor xml:id="end0693011"/></head>
-<lg xml:id="selected-pali003-1" corresp="T212 15.7" type="selected-verse"><l><lb n="0696c24" ed="T"/>人若罵我，</l><l>勝我不勝，</l><l>快意從者，</l><l><lb n="0696c25" ed="T"/>怨終不息。</l></lg></cb:div><cb:div type="pin"><cb:mulu level="1" n="32" type="品">32 心意品</cb:mulu><head>心意品第三十<anchor xml:id="nkr_note_orig_0758015" n="0758015"/><anchor xml:id="nkr_note_mod_0758015" n="0758015"/><anchor xml:id="beg0758015" n="0758015"/>二<anchor xml:id="end0758015"/></head>
-<lg xml:id="selected-pali034-1" corresp="T212 32.2" type="selected-verse"><l><lb n="0758c25" ed="T"/>如魚在旱地，</l><l>以離於深淵，</l><l><lb n="0758c26" ed="T"/>心識極惶懅，</l><l>魔眾而奔馳。</l></lg></cb:div></body></text></TEI>
+<lg xml:id="selected-pali003-1" corresp="T212 15.7" type="selected-verse"><l><lb n="0696c24" ed="T"/>人若罵我，</l><l><lb n="0696c24" ed="T"/>勝我不勝，</l><l><lb n="0696c24" ed="T"/>快意從者，</l><l><lb n="0696c25" ed="T"/>怨終不息。</l></lg></cb:div><cb:div type="pin"><cb:mulu level="1" n="16" type="品">16 惟念品</cb:mulu><head><anchor xml:id="nkr_note_orig_0698003" n="0698003"/><anchor xml:id="nkr_note_mod_0698003" n="0698003"/>惟念品第十<anchor xml:id="nkr_note_orig_0698004" n="0698004"/><anchor xml:id="nkr_note_mod_0698004" n="0698004"/><anchor xml:id="beg0698004" n="0698004"/>六<anchor xml:id="end0698004"/></head>
+<lg xml:id="selected-pali300-1" corresp="T212 16.18" type="selected-verse"><l><lb n="0701c26" ed="T"/>善覺自覺者，</l><l><lb n="0701c26" ed="T"/>是瞿曇弟子，</l><l><lb n="0701c27" ed="T"/>晝夜當念是，</l><l><lb n="0701c27" ed="T"/>一心念不害。</l></lg></cb:div><cb:div type="pin"><cb:mulu level="1" n="32" type="品">32 心意品</cb:mulu><head>心意品第三十<anchor xml:id="nkr_note_orig_0758015" n="0758015"/><anchor xml:id="nkr_note_mod_0758015" n="0758015"/><anchor xml:id="beg0758015" n="0758015"/>二<anchor xml:id="end0758015"/></head>
+<lg xml:id="selected-pali034-1" corresp="T212 32.2" type="selected-verse"><l><lb n="0758c25" ed="T"/>如魚在旱地，</l><l><lb n="0758c25" ed="T"/>以離於深淵，</l><l><lb n="0758c26" ed="T"/>心識極惶懅，</l><l><lb n="0758c26" ed="T"/>魔眾而奔馳。</l></lg></cb:div></body></text></TEI>

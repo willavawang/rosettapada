@@ -43,7 +43,51 @@
       "start": 33,
       "end": 43,
       "page": "mind.html"
+    },
+    {
+      "no": 8,
+      "title": "Thousands",
+      "pali_title": "Sahassavagga",
+      "uid": "dhp100-115",
+      "start": 100,
+      "end": 115,
+      "page": "thousands.html"
+    },
+    {
+      "no": 12,
+      "title": "Self",
+      "pali_title": "Attavagga",
+      "uid": "dhp157-166",
+      "start": 157,
+      "end": 166,
+      "page": "self.html"
+    },
+    {
+      "no": 17,
+      "title": "Anger",
+      "pali_title": "Kodhavagga",
+      "uid": "dhp221-234",
+      "start": 221,
+      "end": 234,
+      "page": "anger.html"
+    },
+    {
+      "no": 21,
+      "title": "Miscellaneous",
+      "pali_title": "Pakiṇṇakavagga",
+      "uid": "dhp290-305",
+      "start": 290,
+      "end": 305,
+      "page": "miscellaneous.html"
     }
+  ],
+  "pilot_chapters": [
+    1,
+    2,
+    8,
+    12,
+    17,
+    21
   ],
   "files": [
     {
@@ -99,6 +143,78 @@
       "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp33-43_html.json",
       "git_blob": "577861a27c1f2ae68becbd37e83355a055c95c0d",
       "sha256": "ce9dab9e312da7c35d0092c48e1e889504d0416266784150edff671e3d187027"
+    },
+    {
+      "local": "data/pali/dhp100-115_root-pli-ms.json",
+      "upstream_path": "root/pli/ms/sutta/kn/dhp/dhp100-115_root-pli-ms.json",
+      "git_blob": "f94571ed379d94f9a0f8dd2780ccf5513dd22bd7",
+      "sha256": "3758c891e228c698b6d18cb29df5dd67fb5aef61e7601befee6fd4fd032fe5ed"
+    },
+    {
+      "local": "data/pali/dhp100-115_translation-en-sujato.json",
+      "upstream_path": "translation/en/sujato/sutta/kn/dhp/dhp100-115_translation-en-sujato.json",
+      "git_blob": "3a4abfb726f52d75330ac37b1ea02a9839e04e86",
+      "sha256": "b9c52d3a794187900007211c6006caf6cae68456791cea7c2246b90fc6676a8a"
+    },
+    {
+      "local": "data/pali/dhp100-115_html.json",
+      "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp100-115_html.json",
+      "git_blob": "cf1e78375c597de9501e2f725a59cf506f2dc651",
+      "sha256": "4c44be933de4e0abbdb70e78edf454e42d2e79a0f7871d8b95d3d3e254dadc64"
+    },
+    {
+      "local": "data/pali/dhp157-166_root-pli-ms.json",
+      "upstream_path": "root/pli/ms/sutta/kn/dhp/dhp157-166_root-pli-ms.json",
+      "git_blob": "1dd9a48220910246a9d658adadf841dfbe4aa782",
+      "sha256": "c8dd7bc1c2d4710cb820694950575c9f7bcffbe19833de9e0270e65fed21dbe9"
+    },
+    {
+      "local": "data/pali/dhp157-166_translation-en-sujato.json",
+      "upstream_path": "translation/en/sujato/sutta/kn/dhp/dhp157-166_translation-en-sujato.json",
+      "git_blob": "621cae2ab6820df6a8a640c1359a88a96c013432",
+      "sha256": "d52783478ba6dfca20319b46c8a8b326e94a6579c73ccde2be2ae106b1745821"
+    },
+    {
+      "local": "data/pali/dhp157-166_html.json",
+      "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp157-166_html.json",
+      "git_blob": "f49208c7cd3d5e1c493951c2f2f74e221498da19",
+      "sha256": "4e38633fbe9c549fbfa70968c17e29ded04bfa833b8d80518f973776e84fdcfe"
+    },
+    {
+      "local": "data/pali/dhp221-234_root-pli-ms.json",
+      "upstream_path": "root/pli/ms/sutta/kn/dhp/dhp221-234_root-pli-ms.json",
+      "git_blob": "ddfa20da049095f9c55ca957e942257a9a0de181",
+      "sha256": "374807ca82b92ef9a1eb4f4641580c4fb6c8de10de9e8ae0744014ece1e4cc01"
+    },
+    {
+      "local": "data/pali/dhp221-234_translation-en-sujato.json",
+      "upstream_path": "translation/en/sujato/sutta/kn/dhp/dhp221-234_translation-en-sujato.json",
+      "git_blob": "6f86e557e075172e45e4029c21731507079e95f2",
+      "sha256": "27d3d62b326b8939447d05f79b3ddd2d8a3732a32e1c4a3238f649589402014c"
+    },
+    {
+      "local": "data/pali/dhp221-234_html.json",
+      "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp221-234_html.json",
+      "git_blob": "06d404067924edd15bdef9386fe0c133fe20ad04",
+      "sha256": "887ce5698d2d22b9c7973dc81f1cbb2b16a0aa14f7cae233c4b1983db42e7c0e"
+    },
+    {
+      "local": "data/pali/dhp290-305_root-pli-ms.json",
+      "upstream_path": "root/pli/ms/sutta/kn/dhp/dhp290-305_root-pli-ms.json",
+      "git_blob": "36099b9346c79b2cc38fec7894483bdab9387514",
+      "sha256": "34bc8e2d7565e2c25da3ad88847ef367c479d49b0bb2368337355330bec9fbdc"
+    },
+    {
+      "local": "data/pali/dhp290-305_translation-en-sujato.json",
+      "upstream_path": "translation/en/sujato/sutta/kn/dhp/dhp290-305_translation-en-sujato.json",
+      "git_blob": "8af77cd1df76e322cf8f22c5423778a27d1a9fbc",
+      "sha256": "b50dc5cc2fc6f0b3c24ff8509ddd2f325e17498f5e3bcde62b2ad41f2e596828"
+    },
+    {
+      "local": "data/pali/dhp290-305_html.json",
+      "upstream_path": "html/pli/ms/sutta/kn/dhp/dhp290-305_html.json",
+      "git_blob": "e320ab9dce6bfbebf1f4caf7a077b4799a344513",
+      "sha256": "3c9b9bc0f8a2a2e0d13c846339c19dc0c8dacd6f33d71dc463962329ae45e040"
     }
   ]
 }

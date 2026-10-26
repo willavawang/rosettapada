@@ -1,0 +1,903 @@
+{
+  "method": "Compare selected ancient readings, ignoring punctuation, line breaks, and documented font-code substitutions.",
+  "readings": [
+    {
+      "pali": 100,
+      "patna": 376,
+      "letter_match": true,
+      "comparative": [
+        "sahasram api ce vācā",
+        "anatthapadasāhitā |",
+        "ekaṁ atthapadaṁ śreyo",
+        "yaṁ śottā upaśāṁmati ||"
+      ],
+      "native": [
+        "sahasram api ce vācā",
+        "anatthapadasāhitā |",
+        "ekaṁ atthapadaṁ śreyo",
+        "yaṁ śottā upaśāṁmati ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_376",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 102,
+      "patna": 377,
+      "letter_match": true,
+      "comparative": [
+        "yo ca gāthāśataṁ bhāṣe",
+        "anatthapadasāhitaṁ |",
+        "ekaṁ dhamapadaṁ śreyo",
+        "yaṁ śottā upaśāṁmati ||"
+      ],
+      "native": [
+        "yo ca gāthāśataṁ bhāṣe",
+        "anatthapadasāhitaṁ |",
+        "ekaṁ dhamapadaṁ śreyo",
+        "yaṁ śottā upaśāṁmati ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_377",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 103,
+      "patna": 378,
+      "letter_match": true,
+      "comparative": [
+        "yo sahasraṁ sahasrāṇāṁ",
+        "saṁggrāme mānuṣe jine |",
+        "ekaṁ ca paṁñam āttānaṁ",
+        "sa ve saṁggrāmamuttamo ||"
+      ],
+      "native": [
+        "yo sahasraṁ sahasrāṇāṁ",
+        "saṁggrāme mānuṣe jine |",
+        "ekaṁ ca paṁñam āttānaṁ",
+        "sa ve saṁggrāmamuttamo ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_378",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 104,
+      "patna": 319,
+      "letter_match": true,
+      "comparative": [
+        "āttā hi bhe varaṁ dānto",
+        "yacchāyam itarā prajā |",
+        "āttadāntassa poṣassa",
+        "sadā saṁyyatacāriṇo ||"
+      ],
+      "native": [
+        "āttā hi bhe varaṁ dānto",
+        "yacchāyam itarā prajā |",
+        "āttadāntassa poṣassa",
+        "sadā saṁyyatacāriṇo ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_319",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 105,
+      "patna": 320,
+      "letter_match": true,
+      "comparative": [
+        "neva devā na gandhabbā",
+        "na māro saha brahmuṇā |",
+        "jitaṁ apajitaṁ kayirā",
+        "tattharūpassa jantuno ||"
+      ],
+      "native": [
+        "neva devā na gandhabbā",
+        "na māro saha brahmuṇā |",
+        "jitaṁ apajitaṁ kayirā",
+        "tattharūpassa jantuno ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_320",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 106,
+      "patna": 379,
+      "letter_match": false,
+      "comparative": [
+        "māse māse sahasreṇa",
+        "yo yajetha śataṁ samā |",
+        "ekañ ca bhāvi<tta>tāttānaṁ",
+        "muhuttam api pūjaye |",
+        "sā eva pūjanā śreyo",
+        "yac cha vaśśaśataṁ hutaṁ ||"
+      ],
+      "native": [
+        "māse māse sahasreṇa",
+        "yo yajeya śataṁ samā |",
+        "ekañ ca bhāvitāttānaṁ",
+        "muhuttam api pūjaye |",
+        "sā eva pūjanā śreyo",
+        "yac cha vaśśaśataṁ hutaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_379",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 107,
+      "patna": 380,
+      "letter_match": true,
+      "comparative": [
+        "yo ca vaśśaśataṁ jantū",
+        "aggiṁ paricare vane |",
+        "ekañ ca bhāvitāttānaṁ",
+        "muhuttam api pūjaye |",
+        "sā eva pūjanā śreyo",
+        "yac cha vaśśaśataṁ hutaṁ ||"
+      ],
+      "native": [
+        "yo ca vaśśaśataṁ jantū",
+        "aggiṁ paricare vane |",
+        "ekañ ca bhāvitāttānaṁ",
+        "muhuttam api pūjaye |",
+        "sā eva pūjanā śreyo",
+        "yac cha vaśśaśataṁ hutaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_380",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 108,
+      "patna": 381,
+      "letter_match": true,
+      "comparative": [
+        "yaṁ kiñci yaṣṭaṁ va hutaṁ va loke",
+        "saṁvatsaraṁ yajate puṁñapekhī |",
+        "sabbaṁ pi taṁ na catubbhāgam eti",
+        "abhivādanā ujjugatesu śreyo ||"
+      ],
+      "native": [
+        "yaṁ kiñci yaṣṭaṁ va hutaṁ va loke",
+        "saṁvatsaraṁ yajate puṁñapekhī |",
+        "sabbaṁ pi taṁ na catubbhāgam eti",
+        "abhivādanā ujjugatesu śreyo ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_381",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 110,
+      "patna": 390,
+      "letter_match": true,
+      "comparative": [
+        "yo ca vaśśaśataṁ jīve",
+        "duśśīlo asamāhito |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "śīlavantassa jhāyato ||"
+      ],
+      "native": [
+        "yo ca vaśśaśataṁ jīve",
+        "duśśīlo asamāhito |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "śīlavantassa jhāyato ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_390",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 111,
+      "patna": 391,
+      "letter_match": true,
+      "comparative": [
+        "yo ca vaśśaśataṁ jīve",
+        "dupraṁño asamāhito |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "praṁñavantassa jhāyato ||"
+      ],
+      "native": [
+        "yo ca vaśśaśataṁ jīve",
+        "dupraṁño asamāhito |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "praṁñavantassa jhāyato ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_391",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 112,
+      "patna": 392,
+      "letter_match": true,
+      "comparative": [
+        "yo ca vaśśaśataṁ jīve",
+        "kusīdo hīnavīriyo |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "vīryyam ārabhato dḍaṁ ||"
+      ],
+      "native": [
+        "yo ca vaśśaśataṁ jīve",
+        "kusīdo hīnavīriyo |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "vīryyam ārabhato dḍaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_392",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 113,
+      "patna": 393,
+      "letter_match": true,
+      "comparative": [
+        "yo ca vaśśaśataṁ jīve",
+        "apaśśaṁ udayavyayaṁ |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "paśśato udayavyayaṁ ||"
+      ],
+      "native": [
+        "yo ca vaśśaśataṁ jīve",
+        "apaśśaṁ udayavyayaṁ |",
+        "ekāhaṁ jīvitaṁ śreyo",
+        "paśśato udayavyayaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_393",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 114,
+      "patna": 395,
+      "letter_match": true,
+      "comparative": [
+        "yo ca vaśśasataṁ jīve",
+        "apaśśaṁ amataṁ padaṁ |",
+        "ekā 'haṁ jīvitaṁ śreyo",
+        "paśśato amataṁ padaṁ ||"
+      ],
+      "native": [
+        "yo ca vaśśasataṁ jīve",
+        "apaśśaṁ amataṁ padaṁ |",
+        "ekā 'haṁ jīvitaṁ śreyo",
+        "paśśato amataṁ padaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_395",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 115,
+      "patna": 394,
+      "letter_match": true,
+      "comparative": [
+        "yo ca vaśśaśataṁ jīve",
+        "apaśśaṁ dhammam uttamaṁ |",
+        "ekā 'haṁ jīvitaṁ śreyo",
+        "paśśato dhammam uttamaṁ ||"
+      ],
+      "native": [
+        "yo ca vaśśaśataṁ jīve",
+        "apaśśaṁ dhammam uttamaṁ |",
+        "ekā 'haṁ jīvitaṁ śreyo",
+        "paśśato dhammam uttamaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/21-Sahasra.htm#PDhp_394",
+      "html_sha256": "b1b5be621ca075c7077a26e2c56e58daa0d47eb9ca1bafb431151c14aa631032"
+    },
+    {
+      "pali": 157,
+      "patna": 312,
+      "letter_match": false,
+      "comparative": [
+        "āttānañ ce priyaṁ ñāyyā,",
+        "rakkheyā naṁ surakkhitaṁ",
+        "ttiṇṇam aññataraṁ yāmānaṁ",
+        "paṭijāggreya paṇḍito."
+      ],
+      "native": [
+        "āttānaṁ ce priyaṁ ñāyyā",
+        "rakkheyā naṁ surakkhitaṁ |",
+        "ttiṇṇam añataraṁ yāmānaṁ",
+        "paṭijāggreya paṇḍito ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_312",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 158,
+      "patna": 317,
+      "letter_match": true,
+      "comparative": [
+        "āttānam eva paṭhamaṁ",
+        "paṭirūpe niyojaye |",
+        "athāṁñam anuśāsanto",
+        "na kiliśśati praṁñavā ||"
+      ],
+      "native": [
+        "āttānam eva paṭhamaṁ",
+        "paṭirūpe niyojaye |",
+        "athāṁñam anuśāsanto",
+        "na kiliśśati praṁñavā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_317",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 159,
+      "patna": 318,
+      "letter_match": true,
+      "comparative": [
+        "āttanā ye tathā kayirā",
+        "yathāṁñam anuśāsaye |",
+        "adānto vata dameyā",
+        "āttā hi kira duddamo ||"
+      ],
+      "native": [
+        "āttanā ye tathā kayirā",
+        "yathāṁñam anuśāsaye |",
+        "adānto vata dameyā",
+        "āttā hi kira duddamo ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_318",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 160,
+      "patna": 321,
+      "letter_match": true,
+      "comparative": [
+        "āttā hi āttano nātho",
+        "ko hi nātho paro siyā |",
+        "āttanā hi sucinnena",
+        "nāthaṁ labhati dullabhaṁ ||"
+      ],
+      "native": [
+        "āttā hi āttano nātho",
+        "ko hi nātho paro siyā |",
+        "āttanā hi sucinnena",
+        "nāthaṁ labhati dullabhaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_321",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 161,
+      "patna": 307,
+      "letter_match": true,
+      "comparative": [
+        "āttanā hi kataṁ pāpaṁ",
+        "āttajaṁ āttasaṁbhavaṁ |",
+        "anumaṁdhati dummedhaṁ",
+        "vayiraṁ vā ahmamayaṁ maṇiṁ ||"
+      ],
+      "native": [
+        "āttanā hi kataṁ pāpaṁ",
+        "āttajaṁ āttasaṁbhavaṁ |",
+        "anumaṁdhati dummedhaṁ",
+        "vayiraṁ vā ahmamayaṁ maṇiṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_307",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 162,
+      "patna": 306,
+      "letter_match": true,
+      "comparative": [
+        "yassa accantadośśillaṁ",
+        "malutā sālam ivo 'tatā |",
+        "karoti so tathāttānaṁ",
+        "yathā naṁ biṣam icchati ||"
+      ],
+      "native": [
+        "yassa accantadośśillaṁ",
+        "malutā sālam ivo 'tatā |",
+        "karoti so tathāttānaṁ",
+        "yathā naṁ biṣam icchati ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_306",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 163,
+      "patna": 167,
+      "letter_match": true,
+      "comparative": [
+        "sukarāṇi asādhūni",
+        "āttano ahitāni ca |",
+        "yaṁ ve hitaṁ ca sādhuñ ca",
+        "taṁ ve paramadukkaraṁ ||"
+      ],
+      "native": [
+        "sukarāṇi asādhūni",
+        "āttano ahitāni ca |",
+        "yaṁ ve hitaṁ ca sādhuñ ca",
+        "taṁ ve paramadukkaraṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/10-Mala.htm#PDhp_167",
+      "html_sha256": "a3946f30a7e4970eae9f2d67c1b71b7479400eb2f9caa51bbf9d8350c1dd88fe"
+    },
+    {
+      "pali": 164,
+      "patna": 315,
+      "letter_match": true,
+      "comparative": [
+        "yo śāsanaṁ arahatāṁ",
+        "ayirāṇāṁ dhammajīvināṁ |",
+        "paṭikrośati dummedho",
+        "dṣṭiṁ niśśaya pāpikāṁ |",
+        "phalāni kaṇṭakasseva",
+        "āttaghannāya phallati ||"
+      ],
+      "native": [
+        "yo śāsanaṁ arahatāṁ",
+        "ayirāṇāṁ dhammajīvināṁ |",
+        "paṭikrośati dummedho",
+        "dṣṭiṁ niśśaya pāpikāṁ |",
+        "phalāni kaṇṭakasseva",
+        "āttaghannāya phallati ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_315",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 165,
+      "patna": 308,
+      "letter_match": true,
+      "comparative": [
+        "āttanā hi kataṁ pāpaṁ",
+        "āttanā saṁkiliśśati |",
+        "āttanā akataṁ pāpaṁ",
+        "āttanā ye viśujjhati |",
+        "śoddhī aśoddhī praccattaṁ",
+        "nāṁño aṁñaṁ viśodhaye ||"
+      ],
+      "native": [
+        "āttanā hi kataṁ pāpaṁ",
+        "āttanā saṁkiliśśati |",
+        "āttanā akataṁ pāpaṁ",
+        "āttanā ye viśujjhati |",
+        "śoddhī aśoddhī praccattaṁ",
+        "nāṁño aṁñaṁ viśodhaye ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_308",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 166,
+      "patna": 325,
+      "letter_match": true,
+      "comparative": [
+        "āttadātthaṁ parātthena",
+        "bahunā pi na hāpaye |",
+        "āttadātthaṁ paraṁ ñāttā",
+        "sadātthaparamo siyā ||"
+      ],
+      "native": [
+        "āttadātthaṁ parātthena",
+        "bahunā pi na hāpaye |",
+        "āttadātthaṁ paraṁ ñāttā",
+        "sadātthaparamo siyā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_325",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    },
+    {
+      "pali": 221,
+      "patna": 238,
+      "letter_match": true,
+      "comparative": [
+        "krodhaṁ jahe viprajaheya mānaṁ",
+        "saṁyojanaṁ sabbam atikrameyā |",
+        "taṁ nāmarūpamhi asajjamānaṁ",
+        "akiṁcanaṁ nānupatanti dukkhā ||"
+      ],
+      "native": [
+        "krodhaṁ jahe viprajaheya mānaṁ",
+        "saṁyojanaṁ sabbam atikrameyā |",
+        "taṁ nāmarūpamhi asajjamānaṁ",
+        "akiṁcanaṁ nānupatanti dukkhā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/13-Sarana.htm#PDhp_238",
+      "html_sha256": "daa95f4190efed168ad4a969d6bbb7b9cae7f86251a4cf416cc688bba324838a"
+    },
+    {
+      "pali": 224,
+      "patna": 292,
+      "letter_match": false,
+      "comparative": [
+        "saccaṁ bhaṇe na krujjheyā",
+        "deyā appā pi yācito |",
+        "etehi ttihi ṭṭhāṇehi",
+        "gacche devāna santike ||"
+      ],
+      "native": [
+        "saccaṁ bhaṇe na kujjheyā",
+        "deyā appā pi yācito |",
+        "etehi ttihi ṭṭhāṇehi",
+        "gacche devāna santike ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_292",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 225,
+      "patna": 240,
+      "letter_match": true,
+      "comparative": [
+        "ahiṁsakā ye munayo",
+        "niccaṁ kāyena saṁvtā |",
+        "te yānti accutaṁ ṭṭhāṇaṁ",
+        "yattha gantā na śocati ||"
+      ],
+      "native": [
+        "ahiṁsakā ye munayo",
+        "niccaṁ kāyena saṁvtā |",
+        "te yānti accutaṁ ṭṭhāṇaṁ",
+        "yattha gantā na śocati ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/14-Khanti.htm#PDhp_240",
+      "html_sha256": "eb868a3214bb57d9730549ee26abf90f5251df2e28eb88e654cc6786fe0d0771"
+    },
+    {
+      "pali": 226,
+      "patna": 269,
+      "letter_match": true,
+      "comparative": [
+        "jāgarikām anuyuttānāṁ",
+        "ahorāttānuśikkhiṇāṁ |",
+        "nibbāṇe adhimuttānāṁ",
+        "atthaṁ gacchaṁti āsavā ||"
+      ],
+      "native": [
+        "jāgarikām anuyuttānāṁ",
+        "ahorāttānuśikkhiṇāṁ |",
+        "nibbāṇe adhimuttānāṁ",
+        "atthaṁ gacchaṁti āsavā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/15-Asava.htm#PDhp_269",
+      "html_sha256": "23951990a01e62850e6a5ba6773d1b818fb618b19d2015697aa0232229995115"
+    },
+    {
+      "pali": 227,
+      "patna": 283,
+      "letter_match": true,
+      "comparative": [
+        "porāṇam etaṁ ādhora",
+        "na etaṁ ahunā r iva |",
+        "nindanti tohnim āsīnaṁ",
+        "nindanti mitabhāṇikaṁ |",
+        "bahubhāṇikaṁ pi nindanti",
+        "nāsti loke anindito ||"
+      ],
+      "native": [
+        "porāṇam etaṁ ādhora",
+        "na etaṁ ahunā-r-iva |",
+        "nindanti tohnim āsīnaṁ",
+        "nindanti mitabhāṇikaṁ |",
+        "bahubhāṇikaṁ pi nindanti",
+        "nāsti loke anindito ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_283",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 228,
+      "patna": 284,
+      "letter_match": true,
+      "comparative": [
+        "na cābhu na ca bhaviṣyati",
+        "na cetarahi vijjati |",
+        "ekāntanindito poṣo",
+        "ekāntaṁ vā praśaṁsito ||"
+      ],
+      "native": [
+        "na cābhu na ca bhaviṣyati",
+        "na cetarahi vijjati |",
+        "ekāntanindito poṣo",
+        "ekāntaṁ vā praśaṁsito ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_284",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 229,
+      "patna": 286,
+      "letter_match": true,
+      "comparative": [
+        "yaṁ ca viñū praśaṁsanti",
+        "anuvicca suve suve |",
+        "acchidravattiṁ medhāviṁ",
+        "praṁñāśīlasamāhitaṁ ||"
+      ],
+      "native": [
+        "yaṁ ca viñū praśaṁsanti",
+        "anuvicca suve suve |",
+        "acchidravattiṁ medhāviṁ",
+        "praṁñāśīlasamāhitaṁ ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_286",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 230,
+      "patna": 287,
+      "letter_match": true,
+      "comparative": [
+        "nikkhaṁ jāṁbūnadasseva",
+        "ko taṁ ninditum arihati |",
+        "devā pi naṁ praśansanti",
+        "brahmuṇā pi praśaṁsito ||"
+      ],
+      "native": [
+        "nikkhaṁ jāṁbūnadasseva",
+        "ko taṁ ninditum arihati |",
+        "devā pi naṁ praśansanti",
+        "brahmuṇā pi praśaṁsito ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_287",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 231,
+      "patna": 279,
+      "letter_match": true,
+      "comparative": [
+        "kāyapradoṣaṁ rakkheyā",
+        "kāyena saṁvto siyā |",
+        "kāyaduccaritaṁ hettā",
+        "kāyena sucaritaṁ care ||"
+      ],
+      "native": [
+        "kāyapradoṣaṁ rakkheyā",
+        "kāyena saṁvto siyā |",
+        "kāyaduccaritaṁ hettā",
+        "kāyena sucaritaṁ care ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_279",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 232,
+      "patna": 280,
+      "letter_match": true,
+      "comparative": [
+        "vācāpradoṣaṁ rakkheyā",
+        "vācāya saṁvto siyā |",
+        "vācāduccaritaṁ hettā",
+        "vācāya sucaritaṁ care ||"
+      ],
+      "native": [
+        "vācāpradoṣaṁ rakkheyā",
+        "vācāya saṁvto siyā |",
+        "vācāduccaritaṁ hettā",
+        "vācāya sucaritaṁ care ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_280",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 233,
+      "patna": 281,
+      "letter_match": true,
+      "comparative": [
+        "manapradoṣaṁ rakkheyā",
+        "manasā saṁvto siyā |",
+        "manoduccaritaṁ hettā",
+        "manasā sucaritaṁ care ||"
+      ],
+      "native": [
+        "manapradoṣaṁ rakkheyā",
+        "manasā saṁvto siyā |",
+        "manoduccaritaṁ hettā",
+        "manasā sucaritaṁ care ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_281",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 234,
+      "patna": 282,
+      "letter_match": true,
+      "comparative": [
+        "kāyena saṁvtā dhīrā",
+        "vācāya utta cetasā |",
+        "sabbattha saṁvtā dhīrā",
+        "te ve suparisaṁvtā ||"
+      ],
+      "native": [
+        "kāyena saṁvtā dhīrā",
+        "vācāya utta cetasā |",
+        "sabbattha saṁvtā dhīrā",
+        "te ve suparisaṁvtā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_282",
+      "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+    },
+    {
+      "pali": 290,
+      "patna": 77,
+      "letter_match": false,
+      "comparative": [
+        "māttāsukhapariccāgā",
+        "paśśe ce vipulaṁ sukhaṁ |",
+        "caje māttāsukhaṁ dhīro",
+        "saṁpaśśaṁ vipulaṁ sukham ||"
+      ],
+      "native": [
+        "māttāsukhapariccāgā",
+        "paśśe ce vipulāṁ sukhaṁ |",
+        "caje māttāsukhaṁ dhīro",
+        "saṁpaśśaṁ vipulāṁ sukham ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/05-Attha.htm#PDhp_77",
+      "html_sha256": "5e91619df9316ad52a4f22542858bbc7bfd129d48b00962c25c2d06c3a082cb0"
+    },
+    {
+      "pali": 291,
+      "patna": 117,
+      "letter_match": true,
+      "comparative": [
+        "paradukkhopadhānena",
+        "yo icche sukham āttano |",
+        "verasaṁsaggasaṁsaṭṭho",
+        "dukkhā na parimuccati ||"
+      ],
+      "native": [
+        "paradukkhopadhānena",
+        "yo icche sukham āttano |",
+        "verasaṁsaggasaṁsaṭṭho",
+        "dukkhā na parimuccati ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/07-Kalyani.htm#PDhp_117",
+      "html_sha256": "b1e750562a8939ef0a06896a18637eed05f6681ceac8c02d0092d2d55b11bbbd"
+    },
+    {
+      "pali": 292,
+      "patna": 266,
+      "letter_match": true,
+      "comparative": [
+        "yad<a>hi kiccaṁ tad apaviddhaṁ",
+        "akiccaṁ puna kīrati |",
+        "unnaddhānāṁ pramattānāṁ",
+        "tesaṁ vaddhaṁti āsavā ||"
+      ],
+      "native": [
+        "yad<a>hi kiccaṁ tad apaviddhaṁ",
+        "akiccaṁ puna kīrati |",
+        "unnaddhānāṁ pramattānāṁ",
+        "tesaṁ vaddhaṁti āsavā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/15-Asava.htm#PDhp_266",
+      "html_sha256": "23951990a01e62850e6a5ba6773d1b818fb618b19d2015697aa0232229995115"
+    },
+    {
+      "pali": 293,
+      "patna": 267,
+      "letter_match": true,
+      "comparative": [
+        "yesaṁ ca susamāraddhā",
+        "niccaṁ kāyagatā satī |",
+        "akiccaṁ te na sevaṁti",
+        "kicce sātaccakāriṇo |",
+        "satānāṁ samprajānānāṁ",
+        "tesaṁ khīyaṁti āsavā ||"
+      ],
+      "native": [
+        "yesaṁ ca susamāraddhā",
+        "niccaṁ kāyagatā satī |",
+        "akiccaṁ te na sevaṁti",
+        "kicce sātaccakāriṇo |",
+        "satānāṁ samprajānānāṁ",
+        "tesaṁ khīyaṁti āsavā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/15-Asava.htm#PDhp_267",
+      "html_sha256": "23951990a01e62850e6a5ba6773d1b818fb618b19d2015697aa0232229995115"
+    },
+    {
+      "pali": 294,
+      "patna": 47,
+      "letter_match": true,
+      "comparative": [
+        "mātaraṁ paṭhamaṁ hantā",
+        "rājānaṁ do ca khattiye |",
+        "rāṣṭaṁ sānucaraṁ hantā",
+        "anigho carati brāhmaṇo ||"
+      ],
+      "native": [
+        "mātaraṁ paṭhamaṁ hantā",
+        "rājānaṁ do ca khattiye |",
+        "rāṣṭaṁ sānucaraṁ hantā",
+        "anigho carati brāhmaṇo ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/03-Brahmana.htm#PDhp_47",
+      "html_sha256": "e8f473a06ae05e904ef5c49b95b3441ba5cfeb02f034dc38d33b63c4e6ef86b8"
+    },
+    {
+      "pali": 299,
+      "patna": 243,
+      "letter_match": true,
+      "comparative": [
+        "suprabuddhaṁ prabujjhanti",
+        "sadā gotamasāvakā |",
+        "yesāṁ divā ca rātto ca",
+        "niccaṁ kāyagatā satī ||"
+      ],
+      "native": [
+        "suprabuddhaṁ prabujjhanti",
+        "sadā gotamasāvakā |",
+        "yesāṁ divā ca rātto ca",
+        "niccaṁ kāyagatā satī ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/14-Khanti.htm#PDhp_243",
+      "html_sha256": "eb868a3214bb57d9730549ee26abf90f5251df2e28eb88e654cc6786fe0d0771"
+    },
+    {
+      "pali": 300,
+      "patna": 241,
+      "letter_match": true,
+      "comparative": [
+        "suprabuddhaṁ prabujjhanti",
+        "sadā gotamasāvakā |",
+        "yesāṁ divā ca rātto ca",
+        "ahiṁsāya rato mano ||"
+      ],
+      "native": [
+        "suprabuddhaṁ prabujjhanti",
+        "sadā gotamasāvakā |",
+        "yesāṁ divā ca rātto ca",
+        "ahiṁsāya rato mano ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/14-Khanti.htm#PDhp_241",
+      "html_sha256": "eb868a3214bb57d9730549ee26abf90f5251df2e28eb88e654cc6786fe0d0771"
+    },
+    {
+      "pali": 301,
+      "patna": 242,
+      "letter_match": true,
+      "comparative": [
+        "suprabuddhaṁ prabujjhanti",
+        "sadā gotamasāvakā |",
+        "yesāṁ divā ca rātto ca",
+        "bhāvanāya rato mano ||"
+      ],
+      "native": [
+        "suprabuddhaṁ prabujjhanti",
+        "sadā gotamasāvakā |",
+        "yesāṁ divā ca rātto ca",
+        "bhāvanāya rato mano ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/14-Khanti.htm#PDhp_242",
+      "html_sha256": "eb868a3214bb57d9730549ee26abf90f5251df2e28eb88e654cc6786fe0d0771"
+    },
+    {
+      "pali": 303,
+      "patna": 331,
+      "letter_match": true,
+      "comparative": [
+        "śraddho sīlena saṁpanno",
+        "yaśabhogasamāhito |",
+        "yaṁ yaṁ so bhajate deśaṁ",
+        "tattha tattheva pūjiyo ||"
+      ],
+      "native": [
+        "śraddho sīlena saṁpanno",
+        "yaśabhogasamāhito |",
+        "yaṁ yaṁ so bhajate deśaṁ",
+        "tattha tattheva pūjiyo ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/18-Dadanti.htm#PDhp_331",
+      "html_sha256": "7029de219b95e746054d6743d08944f91d294c6aa19a8be5688f20184d01c8c6"
+    },
+    {
+      "pali": 305,
+      "patna": 313,
+      "letter_match": true,
+      "comparative": [
+        "ekāsanaṁ ekaśeyaṁ",
+        "ekacariyām atandrito |",
+        "eko ramayam āttānaṁ",
+        "vanānte ramitā siyā ||"
+      ],
+      "native": [
+        "ekāsanaṁ ekaśeyaṁ",
+        "ekacariyām atandrito |",
+        "eko ramayam āttānaṁ",
+        "vanānte ramitā siyā ||"
+      ],
+      "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_313",
+      "html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08"
+    }
+  ]
+}

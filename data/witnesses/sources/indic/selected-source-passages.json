@@ -1,0 +1,6556 @@
+{
+  "scope": "Ancient Indic passages used for the six-chapter pilot and preserved Mind page; no modern commentary or unselected works.",
+  "sources": [
+    {
+      "id": "CD-01-Yamaka",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm",
+      "retrieved": "2026-10-23",
+      "html_sha256": "410afab9dc56988ac2ba399da35a9fc4adeef09cd6f2f38ff916e2b26124637a",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-02-Appamada",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm",
+      "retrieved": "2026-10-23",
+      "html_sha256": "f83fe0334eee8ffe923b4ca011a8d3ae980d043ea90450c89f7f915ba27ecb04",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-03-Citta",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm",
+      "retrieved": "2026-10-23",
+      "html_sha256": "9ecb19c4db9d516c517ca6c5b2bd487e8642d41417e8fb014184e3b44c1fed94",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-08-Sahassa",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "6c6e31eb460a9d08fd9de0923fb6f59b1d9b6f8ae7d0c1bd658be6408ca31847",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-12-Atta",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "4127e37a249658fd5bbf9323180477cac8998a96cbf3d9480d1498fffed0116d",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-17-Kodha",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "a86b7b99b4ea6e0f0c7b0a4566c0bd138666eefd2e8171a19be44aff62c3d535",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    },
+    {
+      "id": "CD-21-Pakinnaka",
+      "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)",
+      "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm",
+      "retrieved": "2026-10-24",
+      "html_sha256": "f67e3a802955d9127886d033e3040f1117ef8c791d654bb8c724db297d133def",
+      "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.",
+      "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"
+    }
+  ],
+  "verses": [
+    {
+      "tradition": "pd",
+      "pali": 1,
+      "readings": [
+        {
+          "reference": "Patna 1 [1.1] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_1",
+          "lines": [
+            "manopūrvvaṁgamā dhammā",
+            "manośreṣṭhā manojavā |",
+            "manasā ca praduṣṭena",
+            "bhāṣate vā karoti vā |",
+            "tato naṁ dukham anneti",
+            "cakram vā vahato padaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 2,
+      "readings": [
+        {
+          "reference": "Patna 2 [1.2] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_2",
+          "lines": [
+            "manopūrvvaṁgamā dhammā",
+            "manośreṣṭhā manojavā |",
+            "manasā ca prasannena",
+            "bhāṣate vā karoti vā |",
+            "tato naṁ sukham anneti",
+            "cchāyā vā anapāyinī ||"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "nopūrvvaṁ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 3,
+      "readings": [
+        {
+          "reference": "Patna 5 [1.5] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_3",
+          "lines": [
+            "ākrośi maṁ avadhi maṁ",
+            "ajini maṁ ahāsi me |",
+            "ye tāni upanahyanti",
+            "veraṁ tesaṁ na śāmyati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 4,
+      "readings": [
+        {
+          "reference": "Patna 6 [1.6] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_4",
+          "lines": [
+            "ākrośi maṁ avadhi maṁ",
+            "ajini maṁ ahāsi me |",
+            "ye tāni nopanahyanti",
+            "veraṁ tesaṁ upaśāmyati ||"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "śi maṁ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 5,
+      "readings": [
+        {
+          "reference": "Patna 253 [14.15] Khānti",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_5",
+          "lines": [
+            "na hi vereṇa verāṇi",
+            "śāmantīha kadācanaṁ |",
+            "avereṇa tu śāmaṁti",
+            "esa dhaṁmo sanātano ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 6,
+      "readings": [
+        {
+          "reference": "Patna 254 [14.16] Khānti",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_6",
+          "lines": [
+            "pare ca na vijānaṁti",
+            "vayam ettha jayāmatha |",
+            "ye ca tattha vijānaṁti",
+            "tato śāṁmaṁti medhakā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 7,
+      "readings": [
+        {
+          "reference": "Patna 7 [1.7] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_7",
+          "lines": [
+            "śubhā 'nupaśśiṁ viharantaṁ",
+            "indriyesu asaṁvtaṁ |",
+            "bhojanamhi amāttaṁñū",
+            "kuśīdaṁ hīnavīriyaṁ ||",
+            "taṁ ve prasahate māro",
+            "vāto rukkham va dubbalaṁ |"
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "bhojana"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 8,
+      "readings": [
+        {
+          "reference": "Patna 8 [1.8] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_8",
+          "lines": [
+            "aśubhānupaśśiṁ viharantaṁ",
+            "indriyeṣu susaṁvtaṁ ||",
+            "bhojanamhi ca mā. . .",
+            ". . .ddhaṁ āraddhavīriyaṁ |",
+            "taṁ ve na prasahate māro",
+            "vāto śelaṁ va parvvataṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 9,
+      "readings": [
+        {
+          "reference": "Patna 94 [6.11] Śoka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_9",
+          "lines": [
+            "anikkaṣāyo kāṣāyaṁ",
+            "yo vastaṁ paridhehiti |",
+            "apeto damasaccena",
+            "na so kāṣāyam arihati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 10,
+      "readings": [
+        {
+          "reference": "Patna 95 [6.12] Śoka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_10",
+          "lines": [
+            "yo tu vāntakaṣāyassa",
+            "śīlehi susamāhito |",
+            "upeto damasaccena",
+            "sa ve kāṣāyam arihati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 11,
+      "readings": [
+        {
+          "reference": "Patna 171 [10.15] Mala",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_11",
+          "lines": [
+            "asāre sāramatino",
+            "sāre cā 'sārasaṁñino |",
+            "te sāran nādhigacchanti",
+            "micchasaṁkappagocarā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 12,
+      "readings": [
+        {
+          "reference": "Patna 172 [10.16] Mala",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_12",
+          "lines": [
+            "sārañ ca sārato ññāttā",
+            "asārañ ca asārato |",
+            "te sāram adhigacchanti",
+            "saṁmasaṁkappagocarā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 13,
+      "readings": [
+        {
+          "reference": "Patna 351 [19.10] Citta",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_13",
+          "lines": [
+            "yathā agāraṁ ducchannaṁ",
+            "vaṭṭhī samitivijjhati |",
+            "evaṁ abhāvitaṁ cittaṁ",
+            "rāgo samitivijjhati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 14,
+      "readings": [
+        {
+          "reference": "Patna 352 [19.11] Citta",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_14",
+          "lines": [
+            "yathā agāraṁ succhannaṁ",
+            "vaṭṭhī na samitivijjhati |",
+            "evaṁ subhāvitaṁ cittaṁ",
+            "rāgo na samitivijjhati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 15,
+      "readings": [
+        {
+          "reference": "Patna 3 [1.3] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_15",
+          "lines": [
+            "iha śocati precca śocati",
+            "pāpakammo ubhayattha śocati |",
+            "so śocati so vihaṁnyati",
+            "dṣṭā kammakileśam āttano ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "mo ubhaya"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 16,
+      "readings": [
+        {
+          "reference": "Patna 4 [1.4] Jama",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_16",
+          "lines": [
+            "iha nandati precca nandati",
+            "katapuṁño ubhayattha nandati |",
+            "so nandati . . . . . .dati",
+            "dṣṭā kammaviśuddhim āttano ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 17,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 18,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 19,
+      "readings": [
+        {
+          "reference": "Patna 290 [16.13] Vācā",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_19",
+          "lines": [
+            "bahuṁ pi ce sahitaṁ bhāṣamāno",
+            "na takkaro hoti naro pramatto |",
+            "gopo va gāvo gaṇayaṁ paresaṁ",
+            "na bhāgavā śāmaṇṇassa hoti ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 20,
+      "readings": [
+        {
+          "reference": "Patna 291 [16.14] Vācā",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_20",
+          "lines": [
+            "appaṁ pi ce sahitaṁ bhāṣamāno",
+            "dhammassa hoti anudhammacārī |",
+            "rāgaṁ ca doṣaṁ ca prahāya mohaṁ",
+            "vimuttacitto akhilo akaṁcho |",
+            "anupādiyāno iha vā hure vā",
+            "sa bhāgavā śāmannassa hoti ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 21,
+      "readings": [
+        {
+          "reference": "Patna 14 [2.1] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_21",
+          "lines": [
+            "apramādo amatapadaṁ",
+            "pramādo maccuno padaṁ |",
+            "apramattā na mrīyanti",
+            "ye pramattā yathā matā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 22,
+      "readings": [
+        {
+          "reference": "Patna 15 [2.2] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_22",
+          "lines": [
+            "etaṁ viśeṣataṁ nyāttā",
+            "apramādamhi paṇḍitā |",
+            "apramāde pramodanti",
+            "ayirāṇāṁ gocare ratā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 23,
+      "readings": [
+        {
+          "reference": "Patna 16 [2.3] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_23",
+          "lines": [
+            "te jhāyino sātatikā",
+            "niccaṁ dḍhaparākramā |",
+            "phusanti dhīrā nibbāṇaṁ",
+            "yogacchemaṁ anuttaraṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 24,
+      "readings": [
+        {
+          "reference": "Patna 28 [2.15] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_24",
+          "lines": [
+            "uṭṭhāṇavato satīmato",
+            "śucikammassa niśāmmakāriṇo |",
+            "saṁyyatassa ca dhammajīvino",
+            "apramattassa yaśo 'ssa vaddhati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 25,
+      "readings": [
+        {
+          "reference": "Patna 29 [2.16] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_25",
+          "lines": [
+            "uṭṭhāṇenā 'pramādena",
+            "saṁyyamena damena ca |",
+            "dīpaṁ kayirātha medhāvī",
+            "yam ogho nādhipūrati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 26,
+      "readings": [
+        {
+          "reference": "Patna 17 [2.4] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_26",
+          "lines": [
+            "pramādam anuyuñjanti",
+            "bālā dummedhino janā |",
+            "apramādan tu medhāvī",
+            "dhanaṁ śreṣṭhaṁ va rakkhati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 27,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 28,
+      "readings": [
+        {
+          "reference": "Patna 19 [2.6] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_28",
+          "lines": [
+            "pramādam apramādena",
+            "yadā nudati paṇḍito |",
+            "praṁñāprāsādam āruyha",
+            "aśoko śokiniṁ prajāṁ |",
+            "parvvataṭṭho va bhoma 'ṭṭhe",
+            "dhīro bāle avecchati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 29,
+      "readings": [
+        {
+          "reference": "Patna 18 [2.5] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_29",
+          "lines": [
+            "apramatto pramattesu",
+            "suttesu bahujāgaro |",
+            "abalāśśam va śīghrāśśo",
+            "hettā yāti sumedhaso ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 30,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 31,
+      "readings": [
+        {
+          "reference": "Patna 23 [2.10] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_31",
+          "lines": [
+            "apramādagaru bhikkhū",
+            "pramāde bhayadaṁśino",
+            "saṁyojanam aṇutthūlaṁ",
+            "dahaṁ aggīva gacchati |"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 32,
+      "readings": [
+        {
+          "reference": "Patna 22 [2.9] Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_32",
+          "lines": [
+            "apramādagaru bhikkhū",
+            "pramāde bhayadaṁśino |",
+            "abhavvo parihāṇāya",
+            "nibbāṇasseva santike ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 33,
+      "readings": [
+        {
+          "reference": "Patna 342 [19.1] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_33",
+          "lines": [
+            "phandanaṁ capalaṁ cittaṁ",
+            "durakkhaṁ dunnivārayaṁ |",
+            "ujjuṁ karoti medhāvī",
+            "uṣukāro va tejanā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 34,
+      "readings": [
+        {
+          "reference": "Patna 343 [19.2] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_34",
+          "lines": [
+            "vārijo va thale khitto",
+            "okamokātu ubbhato |",
+            "pariphandatimaṁ cittaṁ",
+            "māradheyaṁ prahātaye ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 35,
+      "readings": [
+        {
+          "reference": "Patna 345 [19.4] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_35",
+          "lines": [
+            "dunniggrahassa laghuno",
+            "yatthakāmanipātino |",
+            "cittassa damatho sādhu",
+            "cittaṁ dāntaṁ sukhāvahaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 36,
+      "readings": [
+        {
+          "reference": "Patna 346 [19.5] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_36",
+          "lines": [
+            "sududdaśaṁ sunipuṇaṁ",
+            "yatthakāmanipātinaṁ |",
+            "cittaṁ rakkheya medhāvī",
+            "tad<a>hi guttaṁ sukhāvahaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 37,
+      "readings": [
+        {
+          "reference": "Patna 344 [19.3] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_37",
+          "lines": [
+            "dūraṁgamaṁ ekacaraṁ",
+            "aśarīraṁ guhāśayaṁ |",
+            "ye cittaṁ saṁyyamehinti",
+            "mokkhaṁte mārabaṁdhanā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 38,
+      "readings": [
+        {
+          "reference": "Patna 335 [18.9] Dadantī",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_38",
+          "lines": [
+            "anavaṭṭhitacittassa",
+            "saddhaṁmam avijānato |",
+            "pāriplavaprasādassa",
+            "praṁñā na paripūrati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 39,
+      "readings": [
+        {
+          "reference": "Patna 347 [19.6] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_39",
+          "lines": [
+            "anaprāśrayamāṇassa",
+            "ananvāhatacetaso |",
+            "hettā kallāṇapāpāni",
+            "nāsti jāgarato bhayaṁ ||"
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "hettā kallāṇapāpāni"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 40,
+      "readings": [
+        {
+          "reference": "Patna 350 [19.9] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_40",
+          "lines": [
+            "kuṁbhopamaṁ kāyam imaṁ vidittā",
+            "nagaropamaṁ cittam adhiṣṭhihittā |",
+            "yodheya māraṁ praṁñāyudhena",
+            "jitaṁ ca rakkhe aniveśano siyā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 41,
+      "readings": [
+        {
+          "reference": "Patna 349 [19.8] Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_41",
+          "lines": [
+            "acirā vata ayaṁ kāyo",
+            "paṭhaviṁ abhiśehiti |",
+            "chūḍo apetaviṁnyāṇo",
+            "nirātthaṁ vā kaṭiṁgaraṁ ||"
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ḍ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 42,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 43,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 100,
+      "readings": [
+        {
+          "reference": "Patna 376 [21.1] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_100",
+          "lines": [
+            "sahasram api ce vācā",
+            "anatthapadasāhitā |",
+            "ekaṁ atthapadaṁ śreyo",
+            "yaṁ śottā upaśāṁmati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 101,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 102,
+      "readings": [
+        {
+          "reference": "Patna 377 [21.2] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_102",
+          "lines": [
+            "yo ca gāthāśataṁ bhāṣe",
+            "anatthapadasāhitaṁ |",
+            "ekaṁ dhamapadaṁ śreyo",
+            "yaṁ śottā upaśāṁmati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 103,
+      "readings": [
+        {
+          "reference": "Patna 378 [21.3] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_103",
+          "lines": [
+            "yo sahasraṁ sahasrāṇāṁ",
+            "saṁggrāme mānuṣe jine |",
+            "ekaṁ ca paṁñam āttānaṁ",
+            "sa ve saṁggrāmamuttamo ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 104,
+      "readings": [
+        {
+          "reference": "Patna 319 [17.14] Ātta",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_104",
+          "lines": [
+            "āttā hi bhe varaṁ dānto",
+            "yacchāyam itarā prajā |",
+            "āttadāntassa poṣassa",
+            "sadā saṁyyatacāriṇo ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 105,
+      "readings": [
+        {
+          "reference": "Patna 320 [17.15] Ātta",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_105",
+          "lines": [
+            "neva devā na gandhabbā",
+            "na māro saha brahmuṇā |",
+            "jitaṁ apajitaṁ kayirā",
+            "tattharūpassa jantuno ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 106,
+      "readings": [
+        {
+          "reference": "Patna 379 [21.4] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_106",
+          "lines": [
+            "māse māse sahasreṇa",
+            "yo yajetha śataṁ samā |",
+            "ekañ ca bhāvi<tta>tāttānaṁ",
+            "muhuttam api pūjaye |",
+            "sā eva pūjanā śreyo",
+            "yac cha vaśśaśataṁ hutaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 107,
+      "readings": [
+        {
+          "reference": "Patna 380 [21.5] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_107",
+          "lines": [
+            "yo ca vaśśaśataṁ jantū",
+            "aggiṁ paricare vane |",
+            "ekañ ca bhāvitāttānaṁ",
+            "muhuttam api pūjaye |",
+            "sā eva pūjanā śreyo",
+            "yac cha vaśśaśataṁ hutaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 108,
+      "readings": [
+        {
+          "reference": "Patna 381 [21.6] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_108",
+          "lines": [
+            "yaṁ kiñci yaṣṭaṁ va hutaṁ va loke",
+            "saṁvatsaraṁ yajate puṁñapekhī |",
+            "sabbaṁ pi taṁ na catubbhāgam eti",
+            "abhivādanā ujjugatesu śreyo ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 109,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 110,
+      "readings": [
+        {
+          "reference": "Patna 390 [21.15] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_110",
+          "lines": [
+            "yo ca vaśśaśataṁ jīve",
+            "duśśīlo asamāhito |",
+            "ekāhaṁ jīvitaṁ śreyo",
+            "śīlavantassa jhāyato ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 111,
+      "readings": [
+        {
+          "reference": "Patna 391 [21.16] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_111",
+          "lines": [
+            "yo ca vaśśaśataṁ jīve",
+            "dupraṁño asamāhito |",
+            "ekāhaṁ jīvitaṁ śreyo",
+            "praṁñavantassa jhāyato ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 112,
+      "readings": [
+        {
+          "reference": "Patna 392 [21.17] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_112",
+          "lines": [
+            "yo ca vaśśaśataṁ jīve",
+            "kusīdo hīnavīriyo |",
+            "ekāhaṁ jīvitaṁ śreyo",
+            "vīryyam ārabhato dḍaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 113,
+      "readings": [
+        {
+          "reference": "Patna 393 [21.18] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_113",
+          "lines": [
+            "yo ca vaśśaśataṁ jīve",
+            "apaśśaṁ udayavyayaṁ |",
+            "ekāhaṁ jīvitaṁ śreyo",
+            "paśśato udayavyayaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 114,
+      "readings": [
+        {
+          "reference": "Patna 395 [21.20] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_114",
+          "lines": [
+            "yo ca vaśśasataṁ jīve",
+            "apaśśaṁ amataṁ padaṁ |",
+            "ekā 'haṁ jīvitaṁ śreyo",
+            "paśśato amataṁ padaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 115,
+      "readings": [
+        {
+          "reference": "Patna 394 [21.19] Sahasra",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_115",
+          "lines": [
+            "yo ca vaśśaśataṁ jīve",
+            "apaśśaṁ dhammam uttamaṁ |",
+            "ekā 'haṁ jīvitaṁ śreyo",
+            "paśśato dhammam uttamaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 157,
+      "readings": [
+        {
+          "reference": "Patna 312 [17.7] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_157",
+          "lines": [
+            "āttānañ ce priyaṁ ñāyyā,",
+            "rakkheyā naṁ surakkhitaṁ",
+            "ttiṇṇam aññataraṁ yāmānaṁ",
+            "paṭijāggreya paṇḍito."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ñ"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 158,
+      "readings": [
+        {
+          "reference": "Patna 317 [17.12] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_158",
+          "lines": [
+            "āttānaṁ ce priyaṁ ñāyyā",
+            "rakkheyā naṁ surakkhitaṁ |",
+            "ttiṇṇam añataraṁ yāmānaṁ",
+            "paṭijāggreya paṇḍito ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 159,
+      "readings": [
+        {
+          "reference": "Patna 318 [17.13] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_159",
+          "lines": [
+            "āttanā ye tathā kayirā",
+            "yathāṁñam anuśāsaye |",
+            "adānto vata dameyā",
+            "āttā hi kira duddamo ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 160,
+      "readings": [
+        {
+          "reference": "Patna 321 [17.16] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_160",
+          "lines": [
+            "āttā hi āttano nātho",
+            "ko hi nātho paro siyā |",
+            "āttanā hi sucinnena",
+            "nāthaṁ labhati dullabhaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 161,
+      "readings": [
+        {
+          "reference": "Patna 307 [17.2] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_161",
+          "lines": [
+            "āttanā hi kataṁ pāpaṁ",
+            "āttajaṁ āttasaṁbhavaṁ |",
+            "anumaṁdhati dummedhaṁ",
+            "vayiraṁ vā ahmamayaṁ maṇiṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 162,
+      "readings": [
+        {
+          "reference": "Patna 306 [17.1] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_162",
+          "lines": [
+            "yassa accantadośśillaṁ",
+            "malutā sālam ivo 'tatā |",
+            "karoti so tathāttānaṁ",
+            "yathā naṁ biṣam icchati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 163,
+      "readings": [
+        {
+          "reference": "Patna 167 [10.11] Mala",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_163",
+          "lines": [
+            "sukarāṇi asādhūni",
+            "āttano ahitāni ca |",
+            "yaṁ ve hitaṁ ca sādhuñ ca",
+            "taṁ ve paramadukkaraṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 164,
+      "readings": [
+        {
+          "reference": "Patna 315 [17.10] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_164",
+          "lines": [
+            "yo śāsanaṁ arahatāṁ",
+            "ayirāṇāṁ dhammajīvināṁ |",
+            "paṭikrośati dummedho",
+            "dṣṭiṁ niśśaya pāpikāṁ |",
+            "phalāni kaṇṭakasseva",
+            "āttaghannāya phallati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 165,
+      "readings": [
+        {
+          "reference": "Patna 308 [17.3] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_165",
+          "lines": [
+            "āttanā hi kataṁ pāpaṁ",
+            "āttanā saṁkiliśśati |",
+            "āttanā akataṁ pāpaṁ",
+            "āttanā ye viśujjhati |",
+            "śoddhī aśoddhī praccattaṁ",
+            "nāṁño aṁñaṁ viśodhaye ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 166,
+      "readings": [
+        {
+          "reference": "Patna 325 [17.20] Ātta",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_166",
+          "lines": [
+            "āttadātthaṁ parātthena",
+            "bahunā pi na hāpaye |",
+            "āttadātthaṁ paraṁ ñāttā",
+            "sadātthaparamo siyā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 221,
+      "readings": [
+        {
+          "reference": "Patna 238 [13.23] Śaraṇa",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_221",
+          "lines": [
+            "krodhaṁ jahe viprajaheya mānaṁ",
+            "saṁyojanaṁ sabbam atikrameyā |",
+            "taṁ nāmarūpamhi asajjamānaṁ",
+            "akiṁcanaṁ nānupatanti dukkhā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 222,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 223,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 224,
+      "readings": [
+        {
+          "reference": "Patna 292 [16.15] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_224",
+          "lines": [
+            "saccaṁ bhaṇe na krujjheyā",
+            "deyā appā pi yācito |",
+            "etehi ttihi ṭṭhāṇehi",
+            "gacche devāna santike ||"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "r"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 225,
+      "readings": [
+        {
+          "reference": "Patna 240 [14.2] Khānti",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_225",
+          "lines": [
+            "ahiṁsakā ye munayo",
+            "niccaṁ kāyena saṁvtā |",
+            "te yānti accutaṁ ṭṭhāṇaṁ",
+            "yattha gantā na śocati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 226,
+      "readings": [
+        {
+          "reference": "Patna 269 [15.9] Āsava",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_226",
+          "lines": [
+            "jāgarikām anuyuttānāṁ",
+            "ahorāttānuśikkhiṇāṁ |",
+            "nibbāṇe adhimuttānāṁ",
+            "atthaṁ gacchaṁti āsavā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 227,
+      "readings": [
+        {
+          "reference": "Patna 283 [16.6] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_227",
+          "lines": [
+            "porāṇam etaṁ ādhora",
+            "na etaṁ ahunā r iva |",
+            "nindanti tohnim āsīnaṁ",
+            "nindanti mitabhāṇikaṁ |",
+            "bahubhāṇikaṁ pi nindanti",
+            "nāsti loke anindito ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 228,
+      "readings": [
+        {
+          "reference": "Patna 284 [16.7] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_228",
+          "lines": [
+            "na cābhu na ca bhaviṣyati",
+            "na cetarahi vijjati |",
+            "ekāntanindito poṣo",
+            "ekāntaṁ vā praśaṁsito ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 229,
+      "readings": [
+        {
+          "reference": "Patna 286 [16.9] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_229",
+          "lines": [
+            "yaṁ ca viñū praśaṁsanti",
+            "anuvicca suve suve |",
+            "acchidravattiṁ medhāviṁ",
+            "praṁñāśīlasamāhitaṁ ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 230,
+      "readings": [
+        {
+          "reference": "Patna 287 [16.10] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_230",
+          "lines": [
+            "nikkhaṁ jāṁbūnadasseva",
+            "ko taṁ ninditum arihati |",
+            "devā pi naṁ praśansanti",
+            "brahmuṇā pi praśaṁsito ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 231,
+      "readings": [
+        {
+          "reference": "Patna 279 [16.2] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_231",
+          "lines": [
+            "kāyapradoṣaṁ rakkheyā",
+            "kāyena saṁvto siyā |",
+            "kāyaduccaritaṁ hettā",
+            "kāyena sucaritaṁ care ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 232,
+      "readings": [
+        {
+          "reference": "Patna 280 [16.3] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_232",
+          "lines": [
+            "vācāpradoṣaṁ rakkheyā",
+            "vācāya saṁvto siyā |",
+            "vācāduccaritaṁ hettā",
+            "vācāya sucaritaṁ care ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 233,
+      "readings": [
+        {
+          "reference": "Patna 281 [16.4] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_233",
+          "lines": [
+            "manapradoṣaṁ rakkheyā",
+            "manasā saṁvto siyā |",
+            "manoduccaritaṁ hettā",
+            "manasā sucaritaṁ care ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 234,
+      "readings": [
+        {
+          "reference": "Patna 282 [16.5] Vācā",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_234",
+          "lines": [
+            "kāyena saṁvtā dhīrā",
+            "vācāya utta cetasā |",
+            "sabbattha saṁvtā dhīrā",
+            "te ve suparisaṁvtā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 290,
+      "readings": [
+        {
+          "reference": "Patna 77 [5.13] Attha",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_290",
+          "lines": [
+            "māttāsukhapariccāgā",
+            "paśśe ce vipulaṁ sukhaṁ |",
+            "caje māttāsukhaṁ dhīro",
+            "saṁpaśśaṁ vipulaṁ sukham ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 291,
+      "readings": [
+        {
+          "reference": "Patna 117 [7.22] Kalyāṇī",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_291",
+          "lines": [
+            "paradukkhopadhānena",
+            "yo icche sukham āttano |",
+            "verasaṁsaggasaṁsaṭṭho",
+            "dukkhā na parimuccati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 292,
+      "readings": [
+        {
+          "reference": "Patna 266 [15.6] Āsava",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_292",
+          "lines": [
+            "yad<a>hi kiccaṁ tad apaviddhaṁ",
+            "akiccaṁ puna kīrati |",
+            "unnaddhānāṁ pramattānāṁ",
+            "tesaṁ vaddhaṁti āsavā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 293,
+      "readings": [
+        {
+          "reference": "Patna 267 [15.7] Āsava",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_293",
+          "lines": [
+            "yesaṁ ca susamāraddhā",
+            "niccaṁ kāyagatā satī |",
+            "akiccaṁ te na sevaṁti",
+            "kicce sātaccakāriṇo |",
+            "satānāṁ samprajānānāṁ",
+            "tesaṁ khīyaṁti āsavā ||"
+          ],
+          "annotations": [
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "tesaṁ khīyaṁti āsavā ||"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 294,
+      "readings": [
+        {
+          "reference": "Patna 47 [3.14] Brāhmaṇa",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_294",
+          "lines": [
+            "mātaraṁ paṭhamaṁ hantā",
+            "rājānaṁ do ca khattiye |",
+            "rāṣṭaṁ sānucaraṁ hantā",
+            "anigho carati brāhmaṇo ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 295,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 296,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 297,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 298,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 299,
+      "readings": [
+        {
+          "reference": "Patna 243 [14.5] Khānti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_299",
+          "lines": [
+            "suprabuddhaṁ prabujjhanti",
+            "sadā gotamasāvakā |",
+            "yesāṁ divā ca rātto ca",
+            "niccaṁ kāyagatā satī ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 300,
+      "readings": [
+        {
+          "reference": "Patna 241 [14.3] Khānti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_300",
+          "lines": [
+            "suprabuddhaṁ prabujjhanti",
+            "sadā gotamasāvakā |",
+            "yesāṁ divā ca rātto ca",
+            "ahiṁsāya rato mano ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 301,
+      "readings": [
+        {
+          "reference": "Patna 242 [14.4] Khānti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_301",
+          "lines": [
+            "suprabuddhaṁ prabujjhanti",
+            "sadā gotamasāvakā |",
+            "yesāṁ divā ca rātto ca",
+            "bhāvanāya rato mano ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 302,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 303,
+      "readings": [
+        {
+          "reference": "Patna 331 [18.5] Dadantī",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_303",
+          "lines": [
+            "śraddho sīlena saṁpanno",
+            "yaśabhogasamāhito |",
+            "yaṁ yaṁ so bhajate deśaṁ",
+            "tattha tattheva pūjiyo ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "pd",
+      "pali": 304,
+      "readings": []
+    },
+    {
+      "tradition": "pd",
+      "pali": 305,
+      "readings": [
+        {
+          "reference": "Patna 313 [17.8] Ātta",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_305",
+          "lines": [
+            "ekāsanaṁ ekaśeyaṁ",
+            "ekacariyām atandrito |",
+            "eko ramayam āttānaṁ",
+            "vanānte ramitā siyā ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 1,
+      "readings": [
+        {
+          "reference": "Gāndhārī 201 [13.1] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_1",
+          "lines": [
+            "maṇopuvagama dhama",
+            "maṇośeṭha maṇojava",
+            "maṇasa hi praduṭheṇa",
+            "bhaṣadi va karodi va",
+            "tado ṇa duhu amedi",
+            "cako va vahaṇe pathi."
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "i",
+              "text": "va"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 2,
+      "readings": [
+        {
+          "reference": "Gāndhārī 202 [13.2] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_2",
+          "lines": [
+            "maṇopuvagama dhama",
+            "maṇośeṭha maṇojava",
+            "maṇasa hi prasaneṇa",
+            "bhaṣadi va karodi va",
+            "tado ṇa suhu amedi",
+            "chaya va aṇukamiṇi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 3,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 4,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 5,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 6,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 7,
+      "readings": [
+        {
+          "reference": "Gāndhārī 217 [13.17] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_7",
+          "lines": [
+            "śuhaṇupaśi viharadu",
+            "idrieṣu asavudu",
+            "bhoyaṇasa amatraño",
+            "kusidu hiṇaviryava",
+            "ta gu prasahadi raku",
+            "vadu rakhkṣa ba drubala."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 8,
+      "readings": [
+        {
+          "reference": "Gāndhārī 218 [13.18] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_8",
+          "lines": [
+            "aśuhaṇupaśi viharadu",
+            "idrieṣu sisavudu",
+            "bhoyaṇasa ya matraño",
+            "ṣadhu aradhaviryava",
+            "ta gu na prasahadi raku",
+            "vadu śela va parvada."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 9,
+      "readings": [
+        {
+          "reference": "Gāndhārī 192 [12.11] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_9",
+          "lines": [
+            "anikaṣayu kaṣaya",
+            "yo vastra parihasidi",
+            "avedu damasoraca",
+            "na so kaṣaya arahadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 10,
+      "readings": [
+        {
+          "reference": "Gāndhārī 193 [12.12] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_10",
+          "lines": [
+            "yo du vadakaṣayu",
+            "śileṣu susamahidu",
+            "uvedu damasoraca",
+            "so du kaṣaya arahadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 11,
+      "readings": [
+        {
+          "reference": "Gāndhārī 213 [13.13] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_11",
+          "lines": [
+            "asari saravadiṇo",
+            "sari asaradaśiṇo",
+            "te sara nadhikachadi",
+            "michasaggapagoyara."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 12,
+      "readings": [
+        {
+          "reference": "Gāndhārī 214 [13.14] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_12",
+          "lines": [
+            "sara du saradu ñatva",
+            "asara ji asarado",
+            "te sara adhikachadi",
+            "samesagapagoyara."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 13,
+      "readings": [
+        {
+          "reference": "Gāndhārī 219 [13.19] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_13",
+          "lines": [
+            "yadha akara druchana",
+            "vuṭhi samadibhinadi",
+            "emu arakṣida cata",
+            "raku samadibhinadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 14,
+      "readings": [
+        {
+          "reference": "Gāndhārī 220 [13.20] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_14",
+          "lines": [
+            "yadha akara suchana",
+            "vuṭhi na samadibhinadi",
+            "emu surakṣida cita",
+            "raku na samadibhinadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 15,
+      "readings": [
+        {
+          "reference": "Gāndhārī 205 [13.5] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_15",
+          "lines": [
+            "idha śoyadi preca śoyadi",
+            "pavakamu duhayatra śoyadi",
+            "so śoyadi so vihañadi",
+            "diṣpa kamu kiliṭha atvaṇo."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 16,
+      "readings": [
+        {
+          "reference": "Gāndhārī 206 [13.6] Yamaka",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_16",
+          "lines": [
+            "idha nanadi preca nanadi",
+            "puñakamo duhayatra nanadi",
+            "so nanadi so pramodadi",
+            "diṣpa kamu viśudhu atvaṇo."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 17,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 18,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 19,
+      "readings": [
+        {
+          "reference": "Gāndhārī 190 [12.9] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_19",
+          "lines": [
+            "baho bi ida sahida bhaṣamaṇa",
+            "na takaru bhodi naru pramatu",
+            "govo va gaü gaṇaü pareṣa",
+            "na bhakava ṣamañathasa bhodi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 20,
+      "readings": [
+        {
+          "reference": "Gāndhārī 191 [12.10] Thera",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_20",
+          "lines": [
+            "apa bi ida sahida bhaṣamaṇa",
+            "dhamasa bhodi aṇudhamacari",
+            "aṇuvadiaṇu idha va horo va",
+            "so bhakava ṣamañathasa bhodi."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "i"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ma"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "i"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 21,
+      "readings": [
+        {
+          "reference": "Gāndhārī 115 [7.6] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_21",
+          "lines": [
+            "apramadu amudapada",
+            "pramadu mucuṇo pada",
+            "apramata na miyadi",
+            "ye pramata yadha mudu."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 22,
+      "readings": [
+        {
+          "reference": "Gāndhārī 116 [7.7] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_22",
+          "lines": [
+            "eda viśeṣadha ñatva",
+            "apramadasa paṇido",
+            "apramadi pramodia",
+            "ariaṇa goyari rado."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 23,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 24,
+      "readings": [
+        {
+          "reference": "Gāndhārī 112 [7.3] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_24",
+          "lines": [
+            "uhaṇamado svadimado",
+            "suyikamasa niśamacariṇo",
+            "sañadasa hi dhamajiviṇo",
+            "apramatasa yaśidha vaḍhadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 25,
+      "readings": [
+        {
+          "reference": "Gāndhārī 111 [7.2] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_25",
+          "lines": [
+            "uhaṇeṇa apramadeṇa",
+            "sañameṇa dameṇa ca",
+            "divu karodi medhavi",
+            "ya jara nabhimardadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 26,
+      "readings": [
+        {
+          "reference": "Gāndhārī 117 [7.8] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_26",
+          "lines": [
+            "pramada aṇuyujadi",
+            "bala drumedhiṇo jaṇa",
+            "apramada du medhavi",
+            "dhaṇa śeṭhi va rakṣadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 27,
+      "readings": [
+        {
+          "reference": "Gāndhārī 129 [7.20] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_27",
+          "lines": [
+            "apramadi pramodia",
+            "ma gamiradisabhamu",
+            "apramato hi ayadu",
+            "viśeṣa adhikachadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "apramadi pramodia"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "viśeṣa adhikachadi."
+            }
+          ]
+        },
+        {
+          "reference": "Gāndhārī 134 [7.25] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_27",
+          "lines": [
+            "naï pramadasamayu",
+            "aprati asavakṣayi",
+            "apramato hi jayadu",
+            "pranodi paramu sukhu."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "naï pramadasamayu"
+            },
+            {
+              "line": 1,
+              "kind": "s",
+              "text": "aprati asavakṣayi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 28,
+      "readings": [
+        {
+          "reference": "Gāndhārī 119 [7.10] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_28",
+          "lines": [
+            "pramadu apramadeṇa",
+            "yadha nudadi paṇidu",
+            "prañaprasada aruśu",
+            "aśoka śoiṇo jaṇa",
+            "pravadaho va bhumaha",
+            "dhiru bala avekṣidi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 29,
+      "readings": [
+        {
+          "reference": "Gāndhārī 118 [7.9] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_29",
+          "lines": [
+            "apramatu pramateṣu",
+            "suteṣu bahojagaru",
+            "avalaśa va bhadraśu",
+            "hitva yadi sumedhasu."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 30,
+      "readings": [
+        {
+          "reference": "Gāndhārī 120 [7.11] Apramadu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_30",
+          "lines": [
+            "apramadeṇa makavha",
+            "devaṇa samidhi gadu",
+            "apramada praśaadi",
+            "pramadu gara hidu sada."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 31,
+      "readings": [
+        {
+          "reference": "Gāndhārī 74 [2.24] Bhikhu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_31",
+          "lines": [
+            "apramadaradu yo bhikhu",
+            "pramadi bhayadaśima",
+            "sañoyaṇa aṇuthula",
+            "ḍahu agi va gachadi."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "i",
+              "text": "śima"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "aṇu"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "l"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 32,
+      "readings": [
+        {
+          "reference": "Gāndhārī 73 [2.23] Bhikhu",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_32",
+          "lines": [
+            "apramadaradu yo bhikhu",
+            "pramadi bhayadaśima",
+            "abhavu parihaṇaï",
+            "nivaṇaseva sadii."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 33,
+      "readings": [
+        {
+          "reference": "Gāndhārī 136 [8.2] Cita",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_33",
+          "lines": [
+            "phanaṇa cavala cita",
+            "drurakṣa drunivaraṇa",
+            "u . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 34,
+      "readings": [
+        {
+          "reference": "Gāndhārī 137b [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_34",
+          "lines": [
+            "vario va thale kṣito",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "i",
+              "text": "o"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 35,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 36,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 37,
+      "readings": [
+        {
+          "reference": "Gāndhārī 137a [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_37",
+          "lines": [
+            "duragama eka",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ma"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 38,
+      "readings": [
+        {
+          "reference": "Gāndhārī 137c [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_38",
+          "lines": [
+            "aṇunahidacitasa",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . . ."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 39,
+      "readings": [
+        {
+          "reference": "Gāndhārī 137d [8.?] Citavaga",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_39",
+          "lines": [
+            "aṇuvaṣudacitasa",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . .."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "sa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 40,
+      "readings": [
+        {
+          "reference": "Gāndhārī 138b. [8.?] Cita",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_40",
+          "lines": [
+            "kummovamu kaya . .",
+            ". . . . . . . .",
+            ". . . . . . . .",
+            ". . . . . . . .."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ya"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 41,
+      "readings": [
+        {
+          "reference": "Gāndhārī 153 [10.19] Jara",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_41",
+          "lines": [
+            "ayireṇa vadaï kayu",
+            "paḍhaï vari śaïṣadi",
+            "tuchu avakadaviñaṇa",
+            "niratha ba kaḍigḡara."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "avaka"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 42,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 43,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 100,
+      "readings": [
+        {
+          "reference": "Gāndhārī 306 [19.2] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_100",
+          "lines": [
+            "sahasa bi ya vayaṇa",
+            "aṇathapadasahida",
+            "eka vayapada ṣevha",
+            "ya ṣutva uvaśamadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 101,
+      "readings": [
+        {
+          "reference": "Gāndhārī 308 [19.4] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_101",
+          "lines": [
+            ". hasa bi ya gadhaṇa",
+            "aṇathapadasahida",
+            "eka gadhapada ṣeho",
+            "ya ṣutva uvaśamadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 102,
+      "readings": [
+        {
+          "reference": "Gāndhārī 309 [19.5] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_102",
+          "lines": [
+            "yo ja gadhaśada bhaṣi",
+            "aṇathapadasahida",
+            "eka gadhapada ṣebha",
+            "ya ṣutva uvaśamadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "yo"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 103,
+      "readings": [
+        {
+          "reference": "Gāndhārī 305 [19.1] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_103",
+          "lines": [
+            "yo sahasa sahasaṇi",
+            "saǵami maṇuṣa jiṇi",
+            "eka ji jiṇi atvaṇa",
+            "so ho sagamu utamu."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "sa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 104,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 105,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 106,
+      "readings": [
+        {
+          "reference": "Gāndhārī 310 [19.6] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_106",
+          "lines": [
+            "masamasi sahasiṇa",
+            "yo yaea śadeṇa ca",
+            "nevi budhi prasadasa",
+            "kala avedi ṣoḍaśa."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "nevi budhi prasadasa"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "kala avedi ṣoḍaśa."
+            }
+          ]
+        },
+        {
+          "reference": "Gāndhārī 320 [19.16] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_106",
+          "lines": [
+            "eka ji bhavidatvaṇa",
+            "muhuta viva puyaï",
+            "sameva puyaṇa ṣevha",
+            "ya ji vaṣaśada hodu."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 107,
+      "readings": [
+        {
+          "reference": "Gāndhārī 319-320 [19.15-16] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_107",
+          "lines": [
+            "ya ja vaṣaśada jadu",
+            "agi pariyara vaṇi",
+            "kṣireṇa sapiteleṇa",
+            "divaratra atadrido.",
+            "eka ji bhavidatvaṇa",
+            "muhuta viva puyaï",
+            "sameva puyaṇa ṣevha",
+            "ya ji vaṣaśada hodu."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "kṣireṇa sapiteleṇa"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "divaratra atadrido."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 108,
+      "readings": [
+        {
+          "reference": "Gāndhārī 321 [19.17] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_108",
+          "lines": [
+            "ya keja yaṭha va hoda va loke",
+            "savatsara yayadi puñavekṣa",
+            "sava bi ta na cadubhaku vedi",
+            "ahivadaṇa ujukadeṣu ṣiho."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "e"
+            },
+            {
+              "line": 0,
+              "kind": "i",
+              "text": "o"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "sa"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "sa"
+            },
+            {
+              "line": 1,
+              "kind": "i",
+              "text": "ve"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "kṣa"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 109,
+      "readings": [
+        {
+          "reference": "Gāndhārī 172 [11.11] Suha",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_109",
+          "lines": [
+            "ahivadaṇaśilisa",
+            "nica vridhavayariṇo",
+            "catvari tasa vardhadi",
+            "ayo kirta suha bala."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 110,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 111,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 112,
+      "readings": [
+        {
+          "reference": "Gāndhārī 316 [19.12] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_112",
+          "lines": [
+            "ya ja vaṣaśada jivi",
+            "kusidhu hiṇaviyava",
+            "muhutu jivida ṣevha",
+            "virya arahado driḍha."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 113,
+      "readings": [
+        {
+          "reference": "Gāndhārī 317 [19.13] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_113",
+          "lines": [
+            "ya ji vaṣaśado jivi",
+            "apaśu udakavaya",
+            "muhutu jivida ṣevha",
+            "paśado udakavaya."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 114,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 115,
+      "readings": [
+        {
+          "reference": "Gāndhārī 318 [19.14] [Sahasa]",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_115",
+          "lines": [
+            "ya ja vaṣaśada jivi",
+            "apaśu dhamu utamu",
+            "mohotu jivida ṣehu",
+            "paśadu dhamu utamu."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 157,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 158,
+      "readings": [
+        {
+          "reference": "Gāndhārī 227 [14.4] [Paṇida]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_158",
+          "lines": [
+            "atmaṇam eva pradhamu",
+            "pradiruvi niveśaï",
+            "tadañi aṇuśaśea",
+            "na kiliśea paṇidu."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 159,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 160,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 161,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 162,
+      "readings": [
+        {
+          "reference": "Gāndhārī 330 [20.9] [Śilavaga?]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_162",
+          "lines": [
+            "yasa acadadruśilia",
+            "malua va vilada vaṇi",
+            "kuya so tadha atvaṇa",
+            "yadha ṇa viṣamu ichadi."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "a"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 163,
+      "readings": [
+        {
+          "reference": "Gāndhārī 264 [16.6] [Prakiṇakavaga?]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_163",
+          "lines": [
+            "sukaraṇi asadhuṇi",
+            "atvaṇo ahidaṇa yi",
+            "ya du hida ji sadhu ji",
+            "ta gu pramadrukara."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 164,
+      "readings": [
+        {
+          "reference": "Gāndhārī 258 [15.16] [Bahoṣuda]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_164",
+          "lines": [
+            "ye śaśaṇa arahadu",
+            "ariaṇa dhamajiviṇo",
+            "paḍikośadi drumedho",
+            "diṭhi niṣaDē pavia",
+            "phalaṇi kaḍakaseva",
+            "atvakañaï phaladi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 165,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 166,
+      "readings": [
+        {
+          "reference": "Gāndhārī 265 [16.7] [Prakiṇakavaga?]",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_166",
+          "lines": [
+            "apaṇatha paratheṇa",
+            "na kudayiṇo havaï",
+            "atvatha paramu ñatva",
+            "svakathaparamu sia."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 221,
+      "readings": [
+        {
+          "reference": "Gāndhārī 274 [17.1] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_221",
+          "lines": [
+            "kothu jahi viprayahea maṇa",
+            "sañoyaṇa savi adikamea",
+            "ta namaruvasa aṣajamaṇa",
+            "akijaṇa naṇuvadadi dukhu."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 222,
+      "readings": [
+        {
+          "reference": "Gāndhārī 275 [17.2] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_222",
+          "lines": [
+            "yo du upadida kodhu",
+            "radha bhada va dharaï",
+            "tam aho saradi bromi",
+            "rasviggaha idara jaṇa."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 223,
+      "readings": [
+        {
+          "reference": "Gāndhārī 280 [17.7] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_223",
+          "lines": [
+            "jiṇa kodha akotheṇa",
+            "asadhu sadhuṇa jiṇa",
+            "jiṇa kradava daṇeṇa",
+            "saceṇa alia jiṇa."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 224,
+      "readings": [
+        {
+          "reference": "Gāndhārī 281 [17.8] [Kodha]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_224",
+          "lines": [
+            "saca bhaṇi na kuvea",
+            "daya apadu yayida",
+            "edehi trihi haṇehi",
+            "gacha devaṇa sadii."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 225,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 226,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 227,
+      "readings": [
+        {
+          "reference": "Gāndhārī 237 [14.14] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_227",
+          "lines": [
+            "poraṇam ida adura",
+            "na ida ajetaṇa iva",
+            "ninadi tuibhaveṇa",
+            "ninadi bahobhaṇiṇo",
+            "manabhaṇi vi ninadi",
+            "nasti loki aninia."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 228,
+      "readings": [
+        {
+          "reference": "Gāndhārī 240 [14.17] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_228",
+          "lines": [
+            "ekada ninido prodhu",
+            "ekada ji praśaidu",
+            "na i aha na i bheṣida",
+            "na yi edarahi vijadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 229,
+      "readings": [
+        {
+          "reference": "Gāndhārī 241 [14.18] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_229",
+          "lines": [
+            "yo nu ho viña praśaadi",
+            "aṇuija śuhaśuhu",
+            "achidravuti medhavi",
+            "prañaśilasamahida."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 230,
+      "readings": [
+        {
+          "reference": "Gāndhārī 242 [14.19] [Paṇida]",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_230",
+          "lines": [
+            "nikhu jabodaṇaseva",
+            "ko ṇa ninidu arahadi",
+            "deva mi ṇa praśajadi",
+            "bramoṇa vi praśajidu."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 231,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 232,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 233,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 234,
+      "readings": [
+        {
+          "reference": "Gāndhārī 51 [2.1] Bhikhu",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_234",
+          "lines": [
+            "kaeṇa savrudo bhikhu",
+            "atha vayaï savrudo",
+            "maṇeṇa savrudo bhikhu",
+            "sarva druggadeo jahi."
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "sarva druggadeo jahi."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 290,
+      "readings": [
+        {
+          "reference": "Gāndhārī 164 [11.3] Suha",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_290",
+          "lines": [
+            ". . . trasuhaparicaï",
+            "yo paśi vivulu suha",
+            "cayi matrasuha dhiro",
+            "sabaśu vivula suha."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "pa"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "v"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ca"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "v"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 291,
+      "readings": [
+        {
+          "reference": "Gāndhārī 179 [11.18] Suha",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_291",
+          "lines": [
+            "pa . . . . . . . . . ṇeṇa",
+            "yo atvaṇa su . .icha . .",
+            ". . rasaṣaga . . tsiṭha",
+            "so duha na parimucadi."
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "pa"
+            },
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "e"
+            },
+            {
+              "line": 1,
+              "kind": "i",
+              "text": "yo atva"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ṇa s"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "icha"
+            },
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "t"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "siṭha"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 292,
+      "readings": [
+        {
+          "reference": "Gāndhārī 339 [21.8] [Kicavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_292",
+          "lines": [
+            "ya kica ta a . . . . . .",
+            ". . . . . . . . . kiyadi",
+            "unaḍaṇa pramataṇa",
+            ". . . . . . . . . . . . . . .",
+            "asava teṣa vaḍhadi",
+            "ara te asavakṣaya."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ki"
+            },
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "taṇa"
+            },
+            {
+              "line": 4,
+              "kind": "s",
+              "text": "asava teṣa vaḍhadi"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "ara te asavakṣa"
+            },
+            {
+              "line": 5,
+              "kind": "i",
+              "text": "ya"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 293,
+      "readings": [
+        {
+          "reference": "Gāndhārī 340 [21.9] [Kicavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_293",
+          "lines": [
+            "yeṣa du susamaradha",
+            "nica kayakada svadi",
+            ". . . . . . . . . . . . . . .",
+            ". . . . . . . . . . . . . . .",
+            "sadaṇa sabrayaṇaṇa",
+            "taṣa kṣayadi . . . . ."
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "d"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "taṣa kṣay"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "ad"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "i . . . . ."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 294,
+      "readings": [
+        {
+          "reference": "Gāndhārī 12 [1.12] Brammaṇa",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_294",
+          "lines": [
+            "madara pidara atva",
+            "rayaṇa dvayu śotria",
+            "raṭha saṇuyara atva",
+            "aṇiho yadi brammaṇo."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "i",
+              "text": "u"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 295,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 296,
+      "readings": [
+        {
+          "reference": "Gāndhārī 100 [6.4] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_296",
+          "lines": [
+            "supraküdhu praüjadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica budhakada svadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 297,
+      "readings": [
+        {
+          "reference": "Gāndhārī 101 [6.5] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_297",
+          "lines": [
+            "supraFüdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica dhamakada svadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 298,
+      "readings": [
+        {
+          "reference": "Gāndhārī 102 [6.6] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_298",
+          "lines": [
+            "supra2üdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica saakada svadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 299,
+      "readings": [
+        {
+          "reference": "Gāndhārī 103 [6.7] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_299",
+          "lines": [
+            "suprahüdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "nica kayakada svadi."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 300,
+      "readings": [
+        {
+          "reference": "Gāndhārī 104 [6.8] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_300",
+          "lines": [
+            "supra2üdhu praüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "ahitsaē rado maṇo."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 301,
+      "readings": [
+        {
+          "reference": "Gāndhārī 105 [6.9] Magu",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_301",
+          "lines": [
+            "supraüdhu praTüadi",
+            "imi godamaṣavaka",
+            "yeṣa diva ya radi ca",
+            "bhamaṇaï rado maṇo."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 302,
+      "readings": [
+        {
+          "reference": "Gāndhārī 262 [16.4] [Prakiṇakavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_302",
+          "lines": [
+            "druprava1ē druabhiramu",
+            "druaavasaṇa ghara",
+            "dukhu samaṇasavaso",
+            "dukhaṇuvadida bhava."
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 303,
+      "readings": [
+        {
+          "reference": "Gāndhārī 323 [20.2] [Śilavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_303",
+          "lines": [
+            "ṣadhu śileṇa sabaṇo",
+            "yaśabhoasamapidu",
+            "yeṇa yeṇeva vayadi",
+            "teṇa teṇeva puyidu."
+          ],
+          "annotations": [
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "yeṇa yeṇeva vayadi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "ga",
+      "pali": 304,
+      "readings": []
+    },
+    {
+      "tradition": "ga",
+      "pali": 305,
+      "readings": [
+        {
+          "reference": "Gāndhārī 259 [16.1] [Prakiṇakavaga?]",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_305",
+          "lines": [
+            "ekasaṇa ekasaya",
+            "ekaïyaPē savudu",
+            "eku ramahi atvaṇa",
+            "arañi ekao vasa."
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "arañi ekao vasa."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 1,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.23 Citta",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_1",
+          "lines": [
+            "manaḥpūrvaṅgamā dharmā",
+            "manaḥśreṣṭhā manojavāḥ |",
+            "manasā hi praduṣṭena",
+            "bhāṣate vā karoti vā |",
+            "tatas taṁ duḥkham anveti",
+            "cakraṁ vā vahataḥ padam //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ḥ"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 2,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.24 Citta",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_2",
+          "lines": [
+            "manaḥpūrvaṅgamā dharmā",
+            "manaḥśreṣṭhā manojavāḥ /",
+            "manasā hi prasannena",
+            "bhāṣate vā karoti vā |",
+            "tatas taṁ sukham anveti",
+            "cchāyā vā hy anugāminī //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "ā"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 3,
+      "readings": [
+        {
+          "reference": "Udānavarga 14.9 Droha",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_3",
+          "lines": [
+            "ākrośan mām avocan mām",
+            "ajayan mām ajāpayet /",
+            "atra ye hy upanahyanti",
+            "vairaṁ teṣāṁ na śāmyati //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "m avocan mām"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ajayan mām a"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "e"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 4,
+      "readings": [
+        {
+          "reference": "Udānavarga 14.10 Droha",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_4",
+          "lines": [
+            "ākrośan mām avocan mām",
+            "ajayan mām ajāpayet /",
+            "atra ye nopanahyanti",
+            "vairaṁ teṣāṁ praśāmyati //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 5,
+      "readings": [
+        {
+          "reference": "Udānavarga 14.11 Droha",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_5",
+          "lines": [
+            "na hi vaireṇa vairāṇi",
+            "śāmyantīha kadā cana |",
+            "kṣāntyā vairāṇi śāmyanti",
+            "eṣa dharmaḥ sanātanaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 6,
+      "readings": []
+    },
+    {
+      "tradition": "sa",
+      "pali": 7,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.15 Yuga",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_7",
+          "lines": [
+            "śubhānudarśinaṁ nityam",
+            "indriyaiś cāpy asaṁvtam /",
+            "bhojane cāpy amātrajñaṁ",
+            "hīnaṁ jāgarikāsu ca |",
+            "taṁ vai prasahate rāgo",
+            "vāto vkṣam ivābalam //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "h"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 8,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.16 Yuga",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_8",
+          "lines": [
+            "aśubhānudarśinaṁ nityam",
+            "indriyaiś ca susaṁvtam /",
+            "bhojane cāpi mātrajñaṁ",
+            "yuktaṁ jāgarikāsu ca |",
+            "taṁ na prasahate rāgo",
+            "vātaḥ śailam iva sthiram //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 9,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.7 Yuga",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_9",
+          "lines": [
+            "aniṣkaṣāyaḥ kāṣāyaṁ",
+            "yo vastraṁ paridhāsyati |",
+            "apetadamasauratyo",
+            "nāsau kāṣāyam arhati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 10,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.8 Yuga",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_10",
+          "lines": [
+            "yas tu vāntakaṣāyaḥ syāc",
+            "chīleṣu susamāhitaḥ /",
+            "upetadamasauratyaḥ",
+            "sa vai kāṣāyam arhati //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ḥ"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 11,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.3 Yuga",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_11",
+          "lines": [
+            "asāre sāramatayaḥ",
+            "sāre cāsārasaṁjñinaḥ /",
+            "te sāraṁ nādhigacchanti",
+            "mithyāsaṁkalpagocarāḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 12,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.4 Yuga",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_12",
+          "lines": [
+            "sāraṁ tu sārato jñātvā",
+            "hy asāraṁ cāpy asārataḥ /",
+            "te sāram adhigacchanti",
+            "samyaksaṁkalpagocarāḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 13,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.11 Citta",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_13",
+          "lines": [
+            "yathā hy agāraṁ ducchannaṁ",
+            "vṣṭiḥ samatibhindati |",
+            "evaṁ hy abhāvitaṁ cittaṁ",
+            "rāgaḥ samatibhindati //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 14,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.17 Citta",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_14",
+          "lines": [
+            "yathā hy agāraṁ succhannaṁ",
+            "vṣṭir na vyatibhindati |",
+            "evaṁ subhāvitaṁ cittaṁ",
+            "rāgo na vyatibhindati //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 15,
+      "readings": [
+        {
+          "reference": "Udānavarga 28.34 Pāpa",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_15",
+          "lines": [
+            "iha śocati pretya śocati",
+            "pāpakarmā hy ubhayatra śocati |",
+            "sa hi śocati sa praśocati",
+            "dṣṭvā karma hi kliṣṭam ātmanaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 16,
+      "readings": [
+        {
+          "reference": "Udānavarga 28.35 Pāpa",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_16",
+          "lines": [
+            "iha nandati pretya nandati",
+            "ktapuṇyo hy ubhayatra nandati |",
+            "sa hi nandati sa pramodate",
+            "dṣṭvā karma hi viśuddham ātmanaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 17,
+      "readings": []
+    },
+    {
+      "tradition": "sa",
+      "pali": 18,
+      "readings": []
+    },
+    {
+      "tradition": "sa",
+      "pali": 19,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.22 Apramāda",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_19",
+          "lines": [
+            "subahv apīha sahitaṁ bhāṣamāṇo",
+            "na tatkaro bhavati naraḥ pramattaḥ /",
+            "gopaiva gāḥ saṁgaṇayaṁ pareṣāṁ",
+            "na bhāgavāṁ cchrāmaṇyārthasya bhavati //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 20,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.23 Apramāda",
+          "source_id": "CD-01-Yamaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm#CD_20",
+          "lines": [
+            "alpam api cet sahitaṁ bhāṣamāṇo",
+            "dharmasya bhavati hy anudharmacārī |",
+            "rāgaṁ ca doṣaṁ ca tathaiva mohaṁ",
+            "prahāya bhāgī śrāmaṇyārthasya bhavati //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 21,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.1 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_21",
+          "lines": [
+            "apramādo hy amtapadaṁ",
+            "pramādo mtyunaḥ padam /",
+            "apramattā na mriyante",
+            "ye pramattāḥ sadā mtāḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 22,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.2 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_22",
+          "lines": [
+            "etāṁ viśeṣatāṁ jñātvā",
+            "hy apramādasya paṇḍitaḥ /",
+            "apramādaṁ pramudyeta",
+            "nityam āryaḥ svagocaram //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "u"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 23,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.3 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_23",
+          "lines": [
+            "apramattāḥ sātatikā",
+            "nityaṁ dḍhaparākramāḥ /",
+            "spśanti dhīrā nirvāṇaṁ",
+            "yogakṣemam anuttaram //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 24,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.6 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_24",
+          "lines": [
+            "utthānavataḥ smtātmanaḥ",
+            "śubhacittasya niśāmyacāriṇaḥ /",
+            "saṁyatasya hi dharmajīvino",
+            "hy apramattasya yaśo 'bhivardhate //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "s",
+              "text": "śubhacittasya niśāmyacāriṇaḥ"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 25,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.5 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_25",
+          "lines": [
+            "utthānenāpramādena",
+            "saṁyamena damena ca |",
+            "dvīpaṁ karoti medhāvī",
+            "tam ogho nābhimardati //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ā"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 26,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.10 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_26",
+          "lines": [
+            "pramādam anuvartante",
+            "bālā durmedhaso janāḥ /",
+            "apramādaṁ tu medhāvī",
+            "dhanaṁ śreṣṭhīva rakṣati //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 27,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.12 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_27",
+          "lines": [
+            "pramādaṁ nānuyujyeta",
+            "na kāmaratisaṁstavam /",
+            "apramattaḥ sadā dhyāyī",
+            "rāpnute hy acalaṁ sukham //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 28,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.4 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_28",
+          "lines": [
+            "pramādam apramādena",
+            "yadā nudati paṇḍitaḥ /",
+            "prajñāprāsādam āruhya",
+            "tv aśokaḥ śokinīṁ prajām |",
+            "parvatasthaiva bhūmisthāṁ",
+            "dhīro bālān avekṣate //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 29,
+      "readings": [
+        {
+          "reference": "Udānavarga 19.4 Aśva",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_29",
+          "lines": [
+            "apramattaḥ pramatteṣu",
+            "supteṣu bahujāgaraḥ /",
+            "abalāśva iva bhadrāśvaṁ",
+            "hitvā yāti sumedhasam //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "tteṣu"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "supteṣu bahu"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "a"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 30,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.24 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_30",
+          "lines": [
+            "apramādaṁ praśaṁsanti",
+            "pramādo garhitaḥ sadā |",
+            "apramādena maghavāṁ",
+            "devānāṁ śreṣṭhatāṁ gataḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 31,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.29 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_31",
+          "lines": [
+            "apramādarato bhikṣuḥ",
+            "pramāde bhayadarśakaḥ /",
+            "saṁyojanam aṇusthūlaṁ",
+            "dahann agnir iva gacchati ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 32,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.32 Apramāda",
+          "source_id": "CD-02-Appamada",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-02-Appamada.htm#CD_32",
+          "lines": [
+            "apramādarato bhikṣuḥ",
+            "pramāde bhayadarśakaḥ /",
+            "abhavyaḥ parihāṇāya",
+            "nirvāṇasyaiva so 'ntike //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 33,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.8 Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_33",
+          "lines": [
+            "spandanaṁ capalaṁ cittaṁ",
+            "durakṣyaṁ durnivāraṇam /",
+            "juṁ karoti medhāvī",
+            "iṣukāra iva tejasā ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 34,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.2 Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_34",
+          "lines": [
+            "vārijo vā sthale kṣipta",
+            "okād oghāt samuddhtaḥ /",
+            "parispandati vai cittaṁ",
+            "māradheyaṁ prahātavai ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ḥ /"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 35,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.1 Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_35",
+          "lines": [
+            "durnigrahasya laghuno",
+            "yatrakāmanipātinaḥ /",
+            "cittasya damanaṁ sādhu",
+            "cittaṁ dāntaṁ sukhāvaham ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 36,
+      "readings": []
+    },
+    {
+      "tradition": "sa",
+      "pali": 37,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.8A Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_37",
+          "lines": [
+            "dūraṁgamam ekacaram",
+            "aśarīraṁ guhāśayam /",
+            "ye cittaṁ damayiṣyanti",
+            "vimokṣyante mahābhayāt //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "dūraṁgamam ekacaram"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "aśarīraṁ guhāśayam /"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ye cittaṁ damayiṣyanti"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "vimokṣyante mahābhayāt //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 38,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.28 Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_38",
+          "lines": [
+            "anavasthitacittasya",
+            "saddharmam avijānataḥ |",
+            "pāriplavaprasādasya",
+            "prajñā na paripūryate //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 39,
+      "readings": [
+        {
+          "reference": "Udānavarga 28.6 Pāpa",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_39",
+          "lines": [
+            "anavasrutacittasya",
+            "tv anunnahanacetasaḥ /",
+            "puṇyapāpaprahīṇasya",
+            "nāsti durgatito bhayam //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "n"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 40,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.35 Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_40",
+          "lines": [
+            "kumbhopamaṁ kāyam imaṁ viditvā",
+            "nagaropamaṁ cittam adhiṣṭhitaṁ ca |",
+            "yudhyeta māraṁ prajñāyudhena",
+            "jitaṁ ca rakṣed aniveśanaḥ syāt //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 41,
+      "readings": [
+        {
+          "reference": "Udānavarga 1.35 Anitya",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_41",
+          "lines": [
+            "aciraṁ bata kāyo 'yaṁ",
+            "pthivīm adhiśeṣyate |",
+            "śunyo vyapetavijñāno",
+            "nirastaṁ vā kaḍaṅgaram //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "aciraṁ bata"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 42,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.9 Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_42",
+          "lines": [
+            "na dveṣī dveṣiṇaḥ kuryād",
+            "vairī vā vairiṇo hitam /",
+            "mithyāpraṇihitaṁ cittaṁ",
+            "yat kuryād ātmanātmanaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "na dveṣī dveṣiṇaḥ kuryād"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "yat kuryād ātmanātmanaḥ"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 43,
+      "readings": [
+        {
+          "reference": "Udānavarga 31.10 Citta",
+          "source_id": "CD-03-Citta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-03-Citta.htm#CD_43",
+          "lines": [
+            "na taṁ mātā pitā vāpi",
+            "kuryāj jñātis tathāparaḥ /",
+            "samyakpraṇihitaṁ cittaṁ",
+            "yat kuryād dhitam ātmanaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "yat kuryād dhitam ātmanaḥ"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 100,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.1 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_100",
+          "lines": [
+            "yac ca gāthāśataṁ bhāṣed",
+            "anarthapadasaṁhitam /",
+            "ekam arthapadaṁ śreyo",
+            "yac chrutvā hy upaśāmyati ||"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "yac ca gāthāśataṁ bhāṣed"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "dasaṁhitam /"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ekam arthapadaṁ śr"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "y"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "u"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "y u"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 101,
+      "readings": []
+    },
+    {
+      "tradition": "sa",
+      "pali": 102,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.2 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_102",
+          "lines": [
+            "yac ca gāthāśataṁ bhāṣed",
+            "adharmapadasaṁhitam /",
+            "ekaṁ dharmapadaṁ śreyo",
+            "yac chrutvā hy upaśāmyati //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "hy upaśāmyati //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 103,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.3 Ātma",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_103",
+          "lines": [
+            "yaḥ sahasraṁ sahasrāṇāṁ",
+            "saṁgrāme dviṣatāṁ jayet /",
+            "yaś cātmānaṁ jayed ekaṁ",
+            "saṁgrāmo durjayaḥ sa vai |/"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 104,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.4 Ātma",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_104",
+          "lines": [
+            "ātmā hy asya jitaḥ śreyāṁ",
+            "yac ceyam itarāḥ prajāḥ |",
+            "ātmadāntasya puruṣasya",
+            "nityaṁ saṁvtacāriṇaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 105,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.5 Ātma",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_105",
+          "lines": [
+            "na devā nāpi gandharvā",
+            "na māro brāhmaṇā saha |",
+            "jitasyāpajitaṁ kuryus",
+            "tathā prājñasya bhikṣuṇaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "tathā prājñasya bhikṣuṇaḥ"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 106,
+      "readings": []
+    },
+    {
+      "tradition": "sa",
+      "pali": 107,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.16 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_107",
+          "lines": [
+            "yac ca varṣaśataṁ pūrṇam",
+            "agniṁ paricared vane |",
+            "yac caikaṁ bhāvitātmānaṁ",
+            "muhūrtam api pūjayet /",
+            "sā tasya pūjanā śreṣṭhā",
+            "na tad varṣaśataṁ hutam //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "e"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 4,
+              "kind": "ins",
+              "text": "tasya"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 108,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.30 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_108",
+          "lines": [
+            "yat kiṁ cid iṣṭaṁ ca hutaṁ ca loke",
+            "saṁvatsaraṁ yajati puṇyaprekṣī /",
+            "sarvaṁ pi taṁ na caturbhāgam eti",
+            "abhivādanaṁ tv jjugateṣu śreyaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "yat kiṁ cid iṣṭaṁ ca hutaṁ ca loke"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "saṁvatsaraṁ yajati puṇyaprekṣī /"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "r"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "aṁ pi"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "m eti"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "abhivādanaṁ tv jjugateṣu śreyaḥ //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 109,
+      "readings": []
+    },
+    {
+      "tradition": "sa",
+      "pali": 110,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.3 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_110",
+          "lines": [
+            "yac ca varṣaśataṁ jīved",
+            "duḥśīlo hy asamāhitaḥ /",
+            "ekāhaṁ jīvitaṁ śreyaḥ",
+            "sadā śīlavataḥ śuceḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "yac ca varṣaśataṁ jī"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "ā"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 111,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.4 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_111",
+          "lines": [
+            "yac ca varṣaśataṁ jīved",
+            "duṣprajño hy asamāhitaḥ /",
+            "ekāhaṁ jīvitaṁ śreyaḥ",
+            "prājñasya dhyāyinaḥ sadā //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "c ca"
+            },
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ed"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "vit"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "r"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 112,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.5 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_112",
+          "lines": [
+            "yac ca varṣaśataṁ jīvet",
+            "kusīdo hīnavīryavān /",
+            "ekāhaṁ jīvitaṁ śreyo",
+            "vīryam ārabhato dḍham //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "taṁ"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "vīr"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "o"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "ḍham //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 113,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.6 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_113",
+          "lines": [
+            "yac ca varṣaśataṁ jīved",
+            "apaśyann udayavyayam /",
+            "ekāhaṁ jīvitaṁ śreyaḥ",
+            "paśyato hy udayavyayam //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "n"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "am //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 114,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.15 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_114",
+          "lines": [
+            "yac ca varṣaśataṁ jīved",
+            "apaśyann amtaṁ padam /",
+            "ekāhaṁ jīvitaṁ śreyaḥ",
+            "paśyato hy amtaṁ padam //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "n"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 115,
+      "readings": [
+        {
+          "reference": "Udānavarga 24.14 Peyāla",
+          "source_id": "CD-08-Sahassa",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-08-Sahassa.htm#CD_115",
+          "lines": [
+            "yac ca varṣaśataṁ jīved",
+            "apaśyann uttamaṁ padam /",
+            "ekāhaṁ jīvitaṁ śreyaḥ",
+            "paśyato hy uttamaṁ padam //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 157,
+      "readings": [
+        {
+          "reference": "Udānavarga 5.15 Priya",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_157",
+          "lines": [
+            "ātmānaṁ cet priyaṁ vidyād",
+            "rakṣed enaṁ surakṣitam /",
+            "yathā pratyantanagaraṁ",
+            "gambhīraparikhaṁ dḍham /",
+            "trayāṇām anyatamaṁ yāmaṁ",
+            "pratijāgreta paṇḍitaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "yathā pratyantanagaraṁ"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "gambhīraparikhaṁ dḍham"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 158,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.7 Ātma",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_158",
+          "lines": [
+            "ātmānam eva prathamaṁ",
+            "pratirūpe niveśayet /",
+            "tato 'nyam anuśāsīta",
+            "a kliśyeta hi paṇḍitaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "a"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "paṇḍitaḥ //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 159,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.8 Ātma",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_159",
+          "lines": [
+            "ātmānaṁ hi tathā kuryāc",
+            "chāsītānyaṁ yathā svayam /",
+            "sudānto bata me nityam",
+            "ātmā sa hi sudurdamaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ku"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ā"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 160,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.11 Ātma",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_160",
+          "lines": [
+            "ātmā tv ihātmano nāthaḥ",
+            "ko nu nāthaḥ paro bhavet /",
+            "ātmanā hi sudāntena",
+            "nāthaṁ labhati paṇḍitaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "nāthaḥ"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ko nu nā"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ḥ par"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "avet /"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ātmanā"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "abha"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "taḥ //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 161,
+      "readings": [
+        {
+          "reference": "Udānavarga 28.12 Pāpa",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_161",
+          "lines": [
+            "aśuddhabuddhiṁ pratyātmaṁ",
+            "nānyo hy anyaṁ viśodhayet /",
+            "abhimathnāti taṁ pāpaṁ",
+            "vajram aśmamaṇiṁ yathā //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "aśuddhabuddhiṁ pratyātmaṁ"
+            },
+            {
+              "line": 1,
+              "kind": "s",
+              "text": "nānyo hy anyaṁ viśodhayet"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "śmamaṇiṁ ya"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 162,
+      "readings": [
+        {
+          "reference": "Udānavarga 11.10 Śramaṇa",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_162",
+          "lines": [
+            "yo 'sāv atyantaduḥśīlaḥ",
+            "sālavāṁ mālutā yathā /",
+            "karoty asau tathāṭmānaṁ",
+            "yathainaṁ dviṣa d icchati //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 163,
+      "readings": [
+        {
+          "reference": "Udānavarga 28.16 Pāpa",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_163",
+          "lines": [
+            "sukarāṇi hy asādhūni",
+            "svātmano hy ahitāni ca /",
+            "yad vai hitaṁ ca pathyaṁ ca",
+            "tad vai paramaduṣkaram //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ṁ"
+            },
+            {
+              "line": 2,
+              "kind": "ins",
+              "text": "ṁ"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 164,
+      "readings": [
+        {
+          "reference": "Udānavarga 8.7 Vāca",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_164",
+          "lines": [
+            "yaḥ śāsanaṁ hy arhatām",
+            "āryāṇāṁ dharmajīvinām /",
+            "pratikrośati durmedhā",
+            "dṣṭiṁ niḥśritya pāpikām /",
+            "phalaṁ kaṇṭakaveṇur vā",
+            "halaty ātmavadhāya saḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 165,
+      "readings": [
+        {
+          "reference": "Udānavarga 28.11-12 Pāpa",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_165",
+          "lines": [
+            "ātmanā hi kte pāpe",
+            "tv ātmanā kliśyate sadā |",
+            "ātmanā tv akte pāpe",
+            "hy ātmanaiva viśudhyate //",
+            "aśuddhabuddhiṁ pratyātmaṁ",
+            "nānyo hy anyaṁ viśodhayet /",
+            "abhimathnāti taṁ pāpaṁ",
+            "vajram aśmamaṇiṁ yathā //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 6,
+              "kind": "s",
+              "text": "abhimathnāti taṁ pāpaṁ"
+            },
+            {
+              "line": 7,
+              "kind": "s",
+              "text": "vajram a"
+            },
+            {
+              "line": 7,
+              "kind": "ins",
+              "text": "śmamaṇiṁ ya"
+            },
+            {
+              "line": 7,
+              "kind": "s",
+              "text": "thā"
+            },
+            {
+              "line": 7,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 166,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.10 Ātma",
+          "source_id": "CD-12-Atta",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_166",
+          "lines": [
+            "ātmano 'rthaṁ parārthena",
+            "bahunāpi na hāpayet /",
+            "ātmārthaṁ paramaṁ jñātvā",
+            "svakārthaparamo bhavet //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "u"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "ay"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 221,
+      "readings": [
+        {
+          "reference": "Udānavarga 20.1 Krodha",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_221",
+          "lines": [
+            "krodhaṁ jahed viprajahec ca mānaṁ",
+            "saṁyojanaṁ sarvam atikrameta /",
+            "taṁ nāmne rūpe ca asajyamānam",
+            "akiñcanaṁ nānupatanti saṅgāḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 222,
+      "readings": [
+        {
+          "reference": "Udānavarga 20.22 Krodha",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_222",
+          "lines": [
+            "yas tv ihotpatitaṁ krodhaṁ",
+            "rathaṁ bhrāntam iva dhārayet /",
+            "vadāmi sārathiṁ taṁ tu",
+            "aśmigrāho 'yam anyathā ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 223,
+      "readings": [
+        {
+          "reference": "Udānavarga 20.19 Krodha",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_223",
+          "lines": [
+            "akrodhena jayet krodham",
+            "asādhuṁ sādhunā jayet /",
+            "jayet kadaryaṁ dānena",
+            "satyena tv antaṁ jayet //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 224,
+      "readings": [
+        {
+          "reference": "Udānavarga 20.16 Krodha",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_224",
+          "lines": [
+            "satyaṁ vaden na ca krudhyed",
+            "dadyād alpād api svayam /",
+            "sthānair ebhis tribhir yukto",
+            "devānām antikaṁ vrajet //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 225,
+      "readings": [
+        {
+          "reference": "Udānavarga 7.7 Sucarita",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_225",
+          "lines": [
+            "ahiṁsakā vai munayo",
+            "nityaṁ kāyena saṁvtāḥ |",
+            "te yānti hy acyutaṁ sthānaṁ",
+            "atra gatvā na śocati ||"
+          ],
+          "annotations": []
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 226,
+      "readings": [
+        {
+          "reference": "Udānavarga 15.8 Smti",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_226",
+          "lines": [
+            "jāgaryam anuyuktānām",
+            "ahorātrānuśikṣiṇām /",
+            "amtaṁ cādhimuktānām",
+            "astaṁ gacchanti āsravāḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "ḥ //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 227,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.45 Yuga",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_227",
+          "lines": [
+            "nindanti tuṣṇim āsīnaṁ",
+            "nindanti bahubhāṣiṇam |",
+            "alpabhāṇiṁ ca nindanti",
+            "nāsti lokeṣv aninditaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 228,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.46 Yuga",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_228",
+          "lines": [
+            "ekāntaninditaḥ puruṣaḥ",
+            "ekāntaṁ vā praśaṁsitaḥ /",
+            "nābhūd bhaviṣyati ca no",
+            "a cāpy etarhi vidyate //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 229,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.47-48 Yuga",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_229",
+          "lines": [
+            "yaṁ tu vijñāḥ praśaṁsanti",
+            "hy anuyujya śubhāśubham /",
+            "praśaṁsā sā samākhyātā",
+            "na tv ajñair yaḥ praśaṁsitaḥ //",
+            "medhāvinaṁ vttayuktaṁ",
+            "prājñaṁ śīleṣu saṁvtam /",
+            "niṣkaṁ jāmbunadasyaiva",
+            "kas taṁ ninditum arhati //"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "ins",
+              "text": "ḥ"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "praśaṁsā sā samākhyātā"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "na tv ajñair yaḥ praśaṁsitaḥ"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 6,
+              "kind": "s",
+              "text": "niṣkaṁ jāmbunadasyaiva"
+            },
+            {
+              "line": 7,
+              "kind": "s",
+              "text": "kas taṁ ninditum arhati"
+            },
+            {
+              "line": 7,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 230,
+      "readings": [
+        {
+          "reference": "Udānavarga 22.11 Tathāgata",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_230",
+          "lines": [
+            "bahuśrutaṁ dharmadharaṁ",
+            "prājñaṁ nityaṁ samāhitam /",
+            "niṣkaṁ jāmbunadasyaiva",
+            "kas taṁ ninditum arhati |/"
+          ],
+          "annotations": [
+            {
+              "line": 0,
+              "kind": "s",
+              "text": "bahuśrutaṁ dharmadharaṁ"
+            },
+            {
+              "line": 1,
+              "kind": "s",
+              "text": "prājñaṁ nityaṁ samāhitam"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 231,
+      "readings": [
+        {
+          "reference": "Udānavarga 7.1 Sucarita",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_231",
+          "lines": [
+            "kāyapradoṣaṁ rakṣeta",
+            "syāt kāyena susaṁvtaḥ /",
+            "kāyaduścaritaṁ hitvā",
+            "kāyena suktaṁ caret ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 232,
+      "readings": [
+        {
+          "reference": "Udānavarga 7.2 Sucarita",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_232",
+          "lines": [
+            "vācaḥ pradoṣaṁ rakṣeta",
+            "vacasā saṁvto bhavet /",
+            "vāco duścaritaṁ hitvā",
+            "vācā sucaritaṁ caret //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 233,
+      "readings": [
+        {
+          "reference": "Udānavarga 7.3 Sucarita",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_233",
+          "lines": [
+            "manaḥpradoṣaṁ rakṣeta",
+            "manasā saṁvto bhavet /",
+            "manoduścaritaṁ hitvā",
+            "manaḥsucaritaṁ caret ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 234,
+      "readings": [
+        {
+          "reference": "Udānavarga 7.10 Sucarita",
+          "source_id": "CD-17-Kodha",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-17-Kodha.htm#CD_234",
+          "lines": [
+            "kāyena saṁvtā dhīrā",
+            "dhīrā vācā susaṁvtāḥ |",
+            "manasā saṁvtā dhīrā",
+            "dhīrāḥ sarvatra saṁvtāḥ |",
+            "te yānti hy acyutaṁ sthānaṁ",
+            "yatra gatvā na śocati ||"
+          ],
+          "annotations": [
+            {
+              "line": 4,
+              "kind": "s",
+              "text": "te yānti hy acyutaṁ sthānaṁ"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "yatra gatvā na śocati ||"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 290,
+      "readings": [
+        {
+          "reference": "Udānavarga 30.30 Sukha",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_290",
+          "lines": [
+            "mātrāsukhaparityāgād",
+            "yaḥ paśyed vipulaṁ sukham /",
+            "tyajen mātrāsukhaṁ dhīraḥ",
+            "saṁpaśyaṁ vipulaṁ sukham //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 291,
+      "readings": [
+        {
+          "reference": "Udānavarga 30.2 Sukha",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_291",
+          "lines": [
+            "paraduḥkhopadhānena",
+            "ya icchet sukham ātmanaḥ /",
+            "vairasaṁsargasaṁsakto",
+            "duḥkhān na parimucyate ||"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 292,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.19 Apramāda",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_292",
+          "lines": [
+            "yat ktyaṁ tad apaviddham",
+            "aktyaṁ kriyate punaḥ /",
+            "uddhatānāṁ pramattānāṁ",
+            "teṣāṁ vardhanti āsravāḥ /",
+            "āsravās teṣu vardhante",
+            "rāt te hy āsravakṣayāt //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 4,
+              "kind": "s",
+              "text": "āsravās teṣu vardhante"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "rāt te hy āsravakṣayāt"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 293,
+      "readings": [
+        {
+          "reference": "Udānavarga 4.20 Apramāda",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_293",
+          "lines": [
+            "yeṣāṁ tu susamārabdhā",
+            "nityaṁ kāyagatā smtiḥ /",
+            "aktyaṁ te na kurvanti",
+            "ktye sātatyakāriṇaḥ /",
+            "smtānāṁ saṁprajānānām",
+            "astaṁ gacchanti āsravāḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 5,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 294,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.24 Yuga",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_294",
+          "lines": [
+            "mātaraṁ pitaraṁ hatvā",
+            "rājānaṁ dvau ca śrotriyau |",
+            "rāṣṭraṁ sānucaraṁ hatvā",
+            "anigho yāti brāhmaṇaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "ā"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 295,
+      "readings": [
+        {
+          "reference": "Udānavarga 33.62-61 Brāhmaṇa",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_295",
+          "lines": [
+            "mātaraṁ pitaraṁ hatvā",
+            "rājānaṁ dvau ca śrotiyau |",
+            "vyāghraṁ ca pañcamaṁ hatvā",
+            "śuddha ity ucyate naraḥ //",
+            "mātaraṁ pitaraṁ hatvā",
+            "rājānaṁ dvau ca śrotiyau |",
+            "rāṣṭraṁ sānucaraṁ hatvā",
+            "anigho yāti brāhmaṇaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "śuddha ity ucyate naraḥ"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            },
+            {
+              "line": 4,
+              "kind": "s",
+              "text": "mātaraṁ"
+            },
+            {
+              "line": 4,
+              "kind": "ins",
+              "text": "pi"
+            },
+            {
+              "line": 4,
+              "kind": "s",
+              "text": "taraṁ hatvā"
+            },
+            {
+              "line": 5,
+              "kind": "s",
+              "text": "rājānaṁ dvau ca śrotiyau |"
+            },
+            {
+              "line": 6,
+              "kind": "s",
+              "text": "rāṣṭraṁ sānucaraṁ hatvā"
+            },
+            {
+              "line": 7,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 296,
+      "readings": [
+        {
+          "reference": "Udānavarga 15.12 Smti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_296",
+          "lines": [
+            "suprabuddhaṁ prabudhyante",
+            "ime gautamaśrāvakāḥ /",
+            "yeṣāṁ divā ca rātrau ca",
+            "nityaṁ buddhagatā smtiḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 297,
+      "readings": [
+        {
+          "reference": "Udānavarga 15.13 Smti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_297",
+          "lines": [
+            "suprabuddhaṁ prabudhyante",
+            "ime gautamaśrāvakāḥ /",
+            "yeṣāṁ divā ca rātrau ca",
+            "nityaṁ dharmagatā smtiḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 298,
+      "readings": [
+        {
+          "reference": "Udānavarga 15.14 Smti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_298",
+          "lines": [
+            "suprabuddhaṁ prabudhyante",
+            "ime gautamaśrāvakāḥ /",
+            "yeṣāṁ divā ca rātrau ca",
+            "ityaṁ saṁghagatā smtiḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 299,
+      "readings": [
+        {
+          "reference": "Udānavarga 15.15 Smti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_299",
+          "lines": [
+            "suprabuddhaṁ prabudhyante",
+            "ime gautamaśrāvakāḥ /",
+            "yeṣāṁ divā ca rātrau ca",
+            "ityaṁ kāyagatā smtiḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 300,
+      "readings": [
+        {
+          "reference": "Udānavarga 15.17 Smti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_300",
+          "lines": [
+            "suprabuddhaṁ prabudhyante",
+            "ime gautamaśrāvakāḥ /",
+            "yeṣāṁ divā ca rātrau caiv≈",
+            "≈āhiṁsāyāṁ rataṁ manaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 301,
+      "readings": [
+        {
+          "reference": "Udānavarga 15.25 Smti",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_301",
+          "lines": [
+            "suprabuddhaṁ prabudhyante",
+            "ime gautamaśrāvakāḥ /",
+            "yeṣāṁ divā ca rātrau ca",
+            "bhāvanāyāṁ rataṁ manaḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "ḥ //"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 302,
+      "readings": [
+        {
+          "reference": "Udānavarga 11.8 Śramaṇa",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_302",
+          "lines": [
+            "duṣpravrajyaṁ durabhiramaṁ",
+            "duradhyāvasitā ghāḥ /",
+            "duḥkhāsamānasaṁvāsā",
+            "duḥkāś copacitā bhavāḥ //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 303,
+      "readings": [
+        {
+          "reference": "Udānavarga 10.8 Śraddhā",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_303",
+          "lines": [
+            "śrāddhāḥ śīlena saṁpannas",
+            "tyāgavāṁ vītamatsaraḥ /",
+            "vrajate yatra yatraiva",
+            "tatra tatraiva pūjyate //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "s",
+              "text": "tyāgavāṁ vītamatsaraḥ"
+            },
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 2,
+              "kind": "s",
+              "text": "vrajate yatra yatraiva"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 304,
+      "readings": [
+        {
+          "reference": "Udānavarga 29.19 Yuga",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_304",
+          "lines": [
+            "dūrāt santaḥ prakāśyante",
+            "himavān iva parvataḥ /",
+            "asanto na prakāśyante",
+            "rātrikṣiptāḥ śarā yathā //"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "iptāḥ śarā ya"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "//"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "tradition": "sa",
+      "pali": 305,
+      "readings": [
+        {
+          "reference": "Udānavarga 23.2 Ātma",
+          "source_id": "CD-21-Pakinnaka",
+          "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-21-Pakinnaka.htm#CD_305",
+          "lines": [
+            "ekāsanaṁ tv ekaśayyām",
+            "ekacaryām atandritaḥ /",
+            "ramayec caikam ātmānaṁ",
+            "vaneṣv ekaḥ sadā vaset |/"
+          ],
+          "annotations": [
+            {
+              "line": 1,
+              "kind": "ins",
+              "text": "/"
+            },
+            {
+              "line": 3,
+              "kind": "s",
+              "text": "vaneṣv ekaḥ sadā vaset |"
+            },
+            {
+              "line": 3,
+              "kind": "ins",
+              "text": "/"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "primary_corrections": [
+    {
+      "pali": 158,
+      "tradition": "pd",
+      "reference": "Patna 317 [17.12] Ātta",
+      "issue": "The comparative chapter 12 identifies Patna 317, but its verse text repeats Patna 312, the counterpart of Pāli 157. Cone's native chapter 17 separately prints the genuine Patna 317 and identifies it with Pāli 158.",
+      "comparative_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-12-Atta.htm#CD_158",
+      "comparative_lines": [
+        "āttānaṁ ce priyaṁ ñāyyā",
+        "rakkheyā naṁ surakkhitaṁ |",
+        "ttiṇṇam añataraṁ yāmānaṁ",
+        "paṭijāggreya paṇḍito ||"
+      ],
+      "primary_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/17-Atta.htm#PDhp_317",
+      "primary_html_sha256": "bfb8b9d2ae4ddf1187ebefa3503ee2d82447dcdc26008f38cd2a0792014d8b08",
+      "replacement_lines": [
+        "āttānam eva paṭhamaṁ",
+        "paṭirūpe niyojaye |",
+        "athāṁñam anuśāsanto",
+        "na kiliśśati praṁñavā ||"
+      ],
+      "line_break_method": "Split the native edition's two half-verse paragraphs at their printed em-space pāda boundaries; omit metre scans and the modern prosodic tooltip.",
+      "display_note": "The comparative page accidentally repeats the preceding verse under Patna 317. This reading follows the separately checked Cone/Ānandajoti native Patna chapter 17, verse 317; the original duplicate and correction are retained in the source record."
+    }
+  ]
+}

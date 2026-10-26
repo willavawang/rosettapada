@@ -1,0 +1,957 @@
+{
+  "checked": "2026-10-26",
+  "pali_records": 99,
+  "readings_checked": 105,
+  "all_selected_han_characters_found_in_pinned_cbeta": true,
+  "full_text_and_punctuation_in_source": true,
+  "unchanged_complete_tei_headers": true,
+  "taisho_locators_verified": true,
+  "first_43_records_preserved": true,
+  "readings": [
+    {
+      "pali": 1,
+      "reference": "T210 9.1",
+      "taisho_start": "0562a13",
+      "taisho_end": "0562a14",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 2,
+      "reference": "T210 9.2",
+      "taisho_start": "0562a15",
+      "taisho_end": "0562a16",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 5,
+      "reference": "T210 9.5",
+      "taisho_start": "0562a19",
+      "taisho_end": "0562a20",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 6,
+      "reference": "T210 9.6",
+      "taisho_start": "0562a21",
+      "taisho_end": "0562a22",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 7,
+      "reference": "T210 9.7",
+      "taisho_start": "0562a22",
+      "taisho_end": "0562a24",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 8,
+      "reference": "T210 9.8",
+      "taisho_start": "0562a24",
+      "taisho_end": "0562a26",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 9,
+      "reference": "T210 9.9",
+      "taisho_start": "0562a26",
+      "taisho_end": "0562a27",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 10,
+      "reference": "T210 9.10",
+      "taisho_start": "0562a27",
+      "taisho_end": "0562a28",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 11,
+      "reference": "T210 9.11",
+      "taisho_start": "0562a29",
+      "taisho_end": "0562b01",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 12,
+      "reference": "T210 9.12",
+      "taisho_start": "0562b01",
+      "taisho_end": "0562b02",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 13,
+      "reference": "T210 9.13",
+      "taisho_start": "0562b02",
+      "taisho_end": "0562b03",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 14,
+      "reference": "T210 9.14",
+      "taisho_start": "0562b04",
+      "taisho_end": "0562b05",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 15,
+      "reference": "T210 9.17",
+      "taisho_start": "0562b08",
+      "taisho_end": "0562b09",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 16,
+      "reference": "T210 9.18",
+      "taisho_start": "0562b09",
+      "taisho_end": "0562b10",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 17,
+      "reference": "T210 9.19",
+      "taisho_start": "0562b10",
+      "taisho_end": "0562b11",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 18,
+      "reference": "T210 9.20",
+      "taisho_start": "0562b12",
+      "taisho_end": "0562b13",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 19,
+      "reference": "T210 9.21",
+      "taisho_start": "0562b13",
+      "taisho_end": "0562b15",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 20,
+      "reference": "T210 9.22",
+      "taisho_start": "0562b15",
+      "taisho_end": "0562b17",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 21,
+      "reference": "T210 10.1",
+      "taisho_start": "0562b21",
+      "taisho_end": "0562b22",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 22,
+      "reference": "T210 10.2",
+      "taisho_start": "0562b23",
+      "taisho_end": "0562b24",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 23,
+      "reference": "T210 10.3",
+      "taisho_start": "0562b25",
+      "taisho_end": "0562b26",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 24,
+      "reference": "T210 10.4",
+      "taisho_start": "0562b27",
+      "taisho_end": "0562b28",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 25,
+      "reference": "T210 10.5",
+      "taisho_start": "0562b29",
+      "taisho_end": "0562c01",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 26,
+      "reference": "T210 10.6",
+      "taisho_start": "0562c02",
+      "taisho_end": "0562c03",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 27,
+      "reference": "T210 10.7",
+      "taisho_start": "0562c04",
+      "taisho_end": "0562c05",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 28,
+      "reference": "T210 10.8",
+      "taisho_start": "0562c06",
+      "taisho_end": "0562c08",
+      "han_characters": 30,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 29,
+      "reference": "T210 31.17",
+      "taisho_start": "0570c13",
+      "taisho_end": "0570c14",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 29,
+      "reference": "T210 10.9",
+      "taisho_start": "0562c09",
+      "taisho_end": "0562c10",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 31,
+      "reference": "T210 10.13",
+      "taisho_start": "0562c17",
+      "taisho_end": "0562c18",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 33,
+      "reference": "T210 11.1",
+      "taisho_start": "0563a04",
+      "taisho_end": "0563a05",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 35,
+      "reference": "T210 11.2",
+      "taisho_start": "0563a05",
+      "taisho_end": "0563a06",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 36,
+      "reference": "T210 11.3",
+      "taisho_start": "0563a06",
+      "taisho_end": "0563a07",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 37,
+      "reference": "T210 11.4",
+      "taisho_start": "0563a08",
+      "taisho_end": "0563a09",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 38,
+      "reference": "T210 11.5",
+      "taisho_start": "0563a09",
+      "taisho_end": "0563a10",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 39,
+      "reference": "T210 11.6",
+      "taisho_start": "0563a10",
+      "taisho_end": "0563a11",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 40,
+      "reference": "T210 11.12",
+      "taisho_start": "0563a18",
+      "taisho_end": "0563a19",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 41,
+      "reference": "T210 11.9",
+      "taisho_start": "0563a14",
+      "taisho_end": "0563a15",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 43,
+      "reference": "T210 11.11",
+      "taisho_start": "0563a17",
+      "taisho_end": "0563a18",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 100,
+      "reference": "T210 16.1",
+      "taisho_start": "0564b19",
+      "taisho_end": "0564b20",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 101,
+      "reference": "T210 16.2",
+      "taisho_start": "0564b20",
+      "taisho_end": "0564b21",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 102,
+      "reference": "T210 16.3",
+      "taisho_start": "0564b21",
+      "taisho_end": "0564b22",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 103,
+      "reference": "T210 16.4",
+      "taisho_start": "0564b23",
+      "taisho_end": "0564b24",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 104,
+      "reference": "T210 16.5",
+      "taisho_start": "0564b24",
+      "taisho_end": "0564b25",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 105,
+      "reference": "T210 16.6",
+      "taisho_start": "0564b25",
+      "taisho_end": "0564b26",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 106,
+      "reference": "T210 16.7",
+      "taisho_start": "0564b27",
+      "taisho_end": "0564b28",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 107,
+      "reference": "T210 16.8",
+      "taisho_start": "0564b29",
+      "taisho_end": "0564c01",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 108,
+      "reference": "T210 16.9",
+      "taisho_start": "0564c02",
+      "taisho_end": "0564c03",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 109,
+      "reference": "T210 16.10",
+      "taisho_start": "0564c04",
+      "taisho_end": "0564c05",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 110,
+      "reference": "T210 16.11",
+      "taisho_start": "0564c06",
+      "taisho_end": "0564c07",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 111,
+      "reference": "T210 16.12",
+      "taisho_start": "0564c08",
+      "taisho_end": "0564c09",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 112,
+      "reference": "T210 16.13",
+      "taisho_start": "0564c10",
+      "taisho_end": "0564c11",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 113,
+      "reference": "T210 16.14",
+      "taisho_start": "0564c12",
+      "taisho_end": "0564c13",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 114,
+      "reference": "T210 16.15",
+      "taisho_start": "0564c14",
+      "taisho_end": "0564c15",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 115,
+      "reference": "T210 16.16",
+      "taisho_start": "0564c16",
+      "taisho_end": "0564c17",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 157,
+      "reference": "T210 20.1",
+      "taisho_start": "0565c21",
+      "taisho_end": "0565c22",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 157,
+      "reference": "T210 30.12",
+      "taisho_start": "0570b01",
+      "taisho_end": "0570b02",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 158,
+      "reference": "T210 20.2",
+      "taisho_start": "0565c22",
+      "taisho_end": "0565c23",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 159,
+      "reference": "T210 20.3",
+      "taisho_start": "0565c23",
+      "taisho_end": "0566a01",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 160,
+      "reference": "T210 20.4",
+      "taisho_start": "0566a02",
+      "taisho_end": "0566a03",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 161,
+      "reference": "T210 20.5",
+      "taisho_start": "0566a03",
+      "taisho_end": "0566a04",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 162,
+      "reference": "T210 20.6",
+      "taisho_start": "0566a04",
+      "taisho_end": "0566a05",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 163,
+      "reference": "T210 20.7",
+      "taisho_start": "0566a06",
+      "taisho_end": "0566a07",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 164,
+      "reference": "T210 20.8",
+      "taisho_start": "0566a07",
+      "taisho_end": "0566a09",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 165,
+      "reference": "T210 20.9",
+      "taisho_start": "0566a09",
+      "taisho_end": "0566a11",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 166,
+      "reference": "T210 20.10",
+      "taisho_start": "0566a11",
+      "taisho_end": "0566a12",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 221,
+      "reference": "T210 25.16",
+      "taisho_start": "0568a26",
+      "taisho_end": "0568a27",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 222,
+      "reference": "T210 25.3",
+      "taisho_start": "0568a08",
+      "taisho_end": "0568a09",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 223,
+      "reference": "T210 25.4",
+      "taisho_start": "0568a09",
+      "taisho_end": "0568a10",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 224,
+      "reference": "T210 25.5",
+      "taisho_start": "0568a10",
+      "taisho_end": "0568a11",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 225,
+      "reference": "T210 7.1",
+      "taisho_start": "0561b17",
+      "taisho_end": "0561b18",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 225,
+      "reference": "T210 25.6",
+      "taisho_start": "0568a12",
+      "taisho_end": "0568a13",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 226,
+      "reference": "T210 6.9",
+      "taisho_start": "0561b06",
+      "taisho_end": "0561b07",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 226,
+      "reference": "T210 25.7",
+      "taisho_start": "0568a13",
+      "taisho_end": "0568a14",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 227,
+      "reference": "T210 25.8",
+      "taisho_start": "0568a14",
+      "taisho_end": "0568a16",
+      "han_characters": 24,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 228,
+      "reference": "T210 25.9",
+      "taisho_start": "0568a16",
+      "taisho_end": "0568a17",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 229,
+      "reference": "T210 25.10",
+      "taisho_start": "0568a18",
+      "taisho_end": "0568a19",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 230,
+      "reference": "T210 25.11",
+      "taisho_start": "0568a19",
+      "taisho_end": "0568a20",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 231,
+      "reference": "T210 25.12",
+      "taisho_start": "0568a20",
+      "taisho_end": "0568a21",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 232,
+      "reference": "T210 25.13",
+      "taisho_start": "0568a22",
+      "taisho_end": "0568a23",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 233,
+      "reference": "T210 25.14",
+      "taisho_start": "0568a23",
+      "taisho_end": "0568a24",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 234,
+      "reference": "T210 25.15",
+      "taisho_start": "0568a24",
+      "taisho_end": "0568a25",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 290,
+      "reference": "T210 29.1",
+      "taisho_start": "0569c11",
+      "taisho_end": "0569c12",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 291,
+      "reference": "T210 29.2",
+      "taisho_start": "0569c12",
+      "taisho_end": "0569c13",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 292,
+      "reference": "T210 29.3",
+      "taisho_start": "0569c13",
+      "taisho_end": "0569c14",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 293,
+      "reference": "T210 29.4",
+      "taisho_start": "0569c15",
+      "taisho_end": "0569c16",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 294,
+      "reference": "T210 2.12",
+      "taisho_start": "0559c03",
+      "taisho_end": "0559c04",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 296,
+      "reference": "T210 6.11",
+      "taisho_start": "0561b10",
+      "taisho_end": "0561b11",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 296,
+      "reference": "T210 29.8",
+      "taisho_start": "0569c20",
+      "taisho_end": "0569c21",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 297,
+      "reference": "T210 6.11",
+      "taisho_start": "0561b10",
+      "taisho_end": "0561b11",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 297,
+      "reference": "T210 29.8",
+      "taisho_start": "0569c20",
+      "taisho_end": "0569c21",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 298,
+      "reference": "T210 6.11",
+      "taisho_start": "0561b10",
+      "taisho_end": "0561b11",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 298,
+      "reference": "T210 29.8",
+      "taisho_start": "0569c20",
+      "taisho_end": "0569c21",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 301,
+      "reference": "T210 29.9",
+      "taisho_start": "0569c21",
+      "taisho_end": "0569c22",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 302,
+      "reference": "T210 29.11",
+      "taisho_start": "0569c25",
+      "taisho_end": "0569c26",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 303,
+      "reference": "T210 4.8",
+      "taisho_start": "0560c04",
+      "taisho_end": "0560c05",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 303,
+      "reference": "T210 29.13",
+      "taisho_start": "0570a01",
+      "taisho_end": "0570a02",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 304,
+      "reference": "T210 29.7",
+      "taisho_start": "0569c19",
+      "taisho_end": "0569c20",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 305,
+      "reference": "T210 29.14",
+      "taisho_start": "0570a03",
+      "taisho_end": "0570a04",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 3,
+      "reference": "T212 15.7",
+      "taisho_start": "0696c24",
+      "taisho_end": "0696c25",
+      "han_characters": 16,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 34,
+      "reference": "T212 32.2",
+      "taisho_start": "0758c25",
+      "taisho_end": "0758c26",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 300,
+      "reference": "T212 16.18",
+      "taisho_start": "0701c26",
+      "taisho_end": "0701c27",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 4,
+      "reference": "T213 14.10",
+      "taisho_start": "0784b03",
+      "taisho_end": "0784b04",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 30,
+      "reference": "T213 4.24",
+      "taisho_start": "0779b17",
+      "taisho_end": "0779b18",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 32,
+      "reference": "T213 4.32",
+      "taisho_start": "0779c04",
+      "taisho_end": "0779c05",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    },
+    {
+      "pali": 299,
+      "reference": "T213 15.20",
+      "taisho_start": "0784c23",
+      "taisho_end": "0784c24",
+      "han_characters": 20,
+      "source_verified": true,
+      "full_text_and_punctuation_in_source": true
+    }
+  ]
+}

@@ -15,9 +15,14 @@ SOURCES.insert(6, {"key": "zh-pinyin", "language": "Chinese pinyin", "reference"
 VERSES = DATA["verses"]
 COLLECTION = json.loads((ROOT / "data/chapters.json").read_text(encoding="utf-8"))
 CHAPTERS = COLLECTION["chapters"]
+PILOT_NUMBERS = COLLECTION["pilot_chapters"]
+PILOT_CHAPTERS = [chapter for chapter in CHAPTERS if chapter["no"] in PILOT_NUMBERS]
+SECONDARY_CHAPTERS = [chapter for chapter in CHAPTERS if chapter["no"] not in PILOT_NUMBERS]
+READING_NUMBERS = [number for chapter in CHAPTERS for number in range(chapter["start"], chapter["end"] + 1)]
 WITNESS_FILES = {"pd": "patna.json", "ga": "gandhari.json", "sa": "sanskrit.json", "zh": "chinese.json", "bo": "tibetan.json"}
 WITNESSES = {key: json.loads((ROOT / "data/witnesses" / filename).read_text(encoding="utf-8")) for key, filename in WITNESS_FILES.items()}
 WITNESS_INDEX = {key: {verse["pali"]: verse for verse in data["verses"]} for key, data in WITNESSES.items()}
+TIBETAN_AUDIT = json.loads((ROOT / "data/witnesses/sources/tibetan/correspondence-audit.json").read_text(encoding="utf-8"))
 NORMALIZATION = json.loads((ROOT / "data/witnesses/normalization.json").read_text(encoding="utf-8"))
 CHARACTERS = {int(code, 16): record["unicode"] for code, record in NORMALIZATION["characters"].items()}
 SOURCE_INDEX = {source["key"]: index for index, source in enumerate(DATA["sources"])}
@@ -63,7 +68,7 @@ def annotated_line(text, annotations):
 def historical_notes():
     labels = {"pd": "Patna", "ga": "Gāndhārī", "sa": "Sanskrit", "zh": "Chinese", "bo": "Tibetan"}
     rows, details = [], []
-    for number in range(1, 44):
+    for number in READING_NUMBERS:
         chapter = next(chapter for chapter in CHAPTERS if chapter["start"] <= number <= chapter["end"])
         cells = [f'<th scope="row"><a href="{chapter["page"]}#dhp{number}">{number}</a></th>']
         for key, label in labels.items():
@@ -72,7 +77,7 @@ def historical_notes():
             for reading in record["readings"]:
                 source = next(source for source in WITNESSES[key]["sources"] if source["id"] == reading["source_id"])
                 url = reading.get("source_url") or source["url"]
-                links.append(f'<a href="{e(url)}">{e(reading["reference"])}</a>')
+                links.append(f'<a href="{e(url)}">{e(reading_text(reading["reference"]))}</a>')
                 flags = []
                 if reading.get("fragmentary"):
                     flags.append("Fragmentary text")
@@ -92,7 +97,7 @@ def historical_notes():
                     if value:
                         flags.extend(value if isinstance(value, list) else [value])
                 if flags:
-                    details.append(f'<li><a href="{chapter["page"]}#dhp{number}">Pāli {number}</a> · {label} · {e(reading["reference"])}: {e(" ".join(flags))}</li>')
+                    details.append(f'<li><a href="{chapter["page"]}#dhp{number}">Pāli {number}</a> · {label} · {e(reading_text(reading["reference"]))}: {e(reading_text(" ".join(flags)))}</li>')
             text = '<br>'.join(links) if links else "No parallel located"
             if record["status"] == "partial":
                 text += '<span class="parallel-status">Partial correspondence</span>'
@@ -101,7 +106,7 @@ def historical_notes():
             cells.append(f'<td>{text}</td>')
         rows.append(f'<tr id="parallel-{number}">' + "".join(cells) + '</tr>')
     head = '<thead><tr><th scope="col">Pāli</th>' + ''.join(f'<th scope="col">{name}</th>' for name in labels.values()) + '</tr></thead>'
-    table = '<div class="parallel-table-wrap"><table class="parallel-table"><caption class="sr-only">Source references for parallels to Pāli verses 1–43</caption>' + head + '<tbody>' + ''.join(rows) + '</tbody></table></div>'
+    table = '<div class="parallel-table-wrap"><table class="parallel-table"><caption class="sr-only">Source references for the selected Pāli verse positions</caption>' + head + '<tbody>' + ''.join(rows) + '</tbody></table></div>'
     details_html = '<details class="source-detail"><summary>Reading differences and uncertainties</summary><ul>' + ''.join(details) + '</ul></details>'
     links, seen = [], set()
     for data in WITNESSES.values():
@@ -120,7 +125,7 @@ def render(name, template=None, **values):
         **values,
     }
     for key, value in values.items():
-        text = text.replace("{{" + key + "}}", value)
+        text = text.replace("{{" + key + "}}", str(value))
     (ROOT / name).write_text(text, encoding="utf-8")
 
 
@@ -153,7 +158,7 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
             label = f'{source["language"]}, verse {verse["no"]}'
             record = verse.get("witnesses", {}).get(key)
             reading = preferred_reading(record) if record else None
-            reference = reading["reference"] if reading else "No parallel located in the consulted sources" if record else ""
+            reference = reading_text(reading["reference"]) if reading else "No parallel located in the consulted sources" if record else ""
             status = record["status"] if record else "unverified" if all(line is None for line in lines) else "present"
             if reference:
                 label += f', {reference}'
@@ -189,7 +194,7 @@ sample_verses = [{"no": verse["no"], "lines": {
 }} for verse in VERSES]
 sample_sources = [{**source, "reference": "Pāli working translation" if source["key"] == "en" else "Not yet verified" if source["key"] == "bo" else source["reference"]} for source in SOURCES]
 render_reader("sample.html", sample_sources, sample_verses, "The pairs", "chapter1",
-              help_note="Two verses are included in this earlier comparative sample. The English follows Pāli; alignment across traditions is provisional. The three multilingual chapter pages are available in Contents.")
+              help_note="Two verses are included in this earlier comparative sample. The English follows Pāli; alignment across traditions is provisional. The multilingual chapter pages are available in Contents.")
 
 for index, chapter in enumerate(CHAPTERS):
     uid = chapter["uid"]
@@ -213,22 +218,34 @@ for index, chapter in enumerate(CHAPTERS):
         verses.append({"no": number, "segments": keys, "lines": lines, "witnesses": witnesses})
     references = {"en": "Bhikkhu Sujato · Pāli", "pi": "Mahāsaṅgīti edition", "pd": "Dharmapada", "ga": "Dharmapada", "sa": "Udānavarga", "zh": "Historical Chinese recensions", "zh-pinyin": "Modern Mandarin reading aid", "bo": "Udānavarga · Toh 326"}
     sources = [{**source, "reference": references[source["key"]]} for source in SOURCES]
-    previous = f'{CHAPTERS[index - 1]["page"]}#dhp{chapter["start"] - 1}' if index else ""
-    next_page = f'{CHAPTERS[index + 1]["page"]}#dhp{chapter["end"] + 1}' if index + 1 < len(CHAPTERS) else ""
+    navigation = PILOT_CHAPTERS if chapter["no"] in PILOT_NUMBERS else CHAPTERS
+    position = navigation.index(chapter)
+    previous_chapter = navigation[position - 1] if position else None
+    next_chapter = navigation[position + 1] if position + 1 < len(navigation) else None
+    previous = f'{previous_chapter["page"]}#dhp{previous_chapter["end"]}' if previous_chapter else ""
+    next_page = f'{next_chapter["page"]}#dhp{next_chapter["start"]}' if next_chapter else ""
     render_reader(chapter["page"], sources, verses, chapter["title"], f'chapter{chapter["no"]}', profile="historical",
                   previous=previous, next_page=next_page, chapter_title=chapter["title"],
-                  help_note="Pāli verses 1–43 guide the order across six historical traditions. English follows Pāli. A dash marks a parallel not located in the consulted sources; fragments and uncertain readings are retained. Verse arrows continue across chapter boundaries.")
+                  help_note="Selected Pāli chapters guide the order across six historical traditions. English follows Pāli. A dash marks a parallel not located in the consulted sources; fragments and uncertain readings are retained. Verse arrows continue through the selected chapters.")
 
 # Preserve links shared before Pairs became the homepage.
 (ROOT / "pairs.html").write_bytes((ROOT / CHAPTERS[0]["page"]).read_bytes())
-chapter_links = "\n".join(f'<a class="toc-page-link" href="{chapter["page"]}#chapter{chapter["no"]}"><span>{e(chapter["title"])}</span><span class="toc-arrow" aria-hidden="true">↗</span></a>' for chapter in CHAPTERS)
-render("contents.html", CHAPTER_LINKS=chapter_links)
+def chapter_link(chapter):
+    return f'<a class="toc-page-link" href="{chapter["page"]}#chapter{chapter["no"]}"><span>{e(chapter["title"])}</span><span class="toc-arrow" aria-hidden="true">↗</span></a>'
+chapter_links = "\n".join(chapter_link(chapter) for chapter in PILOT_CHAPTERS)
+secondary_links = "\n".join(chapter_link(chapter) for chapter in SECONDARY_CHAPTERS)
+render("contents.html", CHAPTER_LINKS=chapter_links, SECONDARY_CHAPTER_LINKS=secondary_links)
 parallel_table, historical_sources = historical_notes()
-render("notes.html", BILARA_SOURCE_URL=f'https://github.com/suttacentral/bilara-data/tree/{COLLECTION["upstream"]["commit"]}', PARALLEL_TABLE=parallel_table, HISTORICAL_SOURCES=historical_sources)
+chapter_sources = "\n".join(f'<li><a href="https://suttacentral.net/{chapter["uid"]}/en/sujato">{e(chapter["title"])} · English and Pāli on SuttaCentral ↗</a></li>' for chapter in CHAPTERS)
+pilot_positions = [number for chapter in PILOT_CHAPTERS for number in range(chapter["start"], chapter["end"] + 1)]
+tibetan_counts = {status: sum(WITNESS_INDEX["bo"][number]["status"] == status for number in pilot_positions) for status in ["present", "partial", "not-located"]}
+render("notes.html", BILARA_SOURCE_URL=f'https://github.com/suttacentral/bilara-data/tree/{COLLECTION["upstream"]["commit"]}', CHAPTER_SOURCES=chapter_sources, PARALLEL_TABLE=parallel_table, HISTORICAL_SOURCES=historical_sources,
+       TIBETAN_PRESENT=tibetan_counts["present"], TIBETAN_PARTIAL=tibetan_counts["partial"], TIBETAN_NOT_LOCATED=tibetan_counts["not-located"],
+       TIBETAN_ATTESTED=TIBETAN_AUDIT["summary"]["attested_lower_bound"])
 dist = ROOT / "dist"
 dist.mkdir(exist_ok=True)
 for filename in ["sample.html", "pairs.html", "contents.html", "notes.html", "styles.css", "reader.js", ".nojekyll", *[chapter["page"] for chapter in CHAPTERS]]:
     shutil.copyfile(ROOT / filename, dist / filename)
 shutil.copytree(ROOT / "assets", dist / "assets", dirs_exist_ok=True)
-print("Built Rosettapada: 3 chapters, Pāli verses 1–43 with six historical traditions, English, and optional pinyin.")
+print(f"Built Rosettapada: {len(PILOT_CHAPTERS)} pilot chapters, {len(CHAPTERS)} available pages, {len(READING_NUMBERS)} Pāli verse positions with six historical traditions, English, and optional pinyin.")
 

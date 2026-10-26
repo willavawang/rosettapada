@@ -6,11 +6,20 @@
       "file": "T04n0210-selected.xml",
       "upstream_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0210.xml",
       "upstream_sha256": "0bf13c3a42b9fdfa1604d5f31a17eaee41ef2a507a398afd422070b88e41c2f6",
-      "selected_sha256": "f6f2bffc17f720f94af247e2f44d0834870886d9963d851b91881a7a7918ba37",
+      "selected_sha256": "625a311226104603b0f1eda67a905df17bc8b83e4c6c68967451c55313ba9309",
       "selected_chapters": [
+        2,
+        4,
+        6,
+        7,
         9,
         10,
         11,
+        16,
+        20,
+        25,
+        29,
+        30,
         31
       ],
       "bytes": 518379,
@@ -41,6 +50,7 @@
         "T210 10.6",
         "T210 10.7",
         "T210 10.8",
+        "T210 31.17",
         "T210 10.9",
         "T210 10.13",
         "T210 11.1",
@@ -52,42 +62,109 @@
         "T210 11.12",
         "T210 11.9",
         "T210 11.11",
-        "T210 31.17"
+        "T210 16.1",
+        "T210 16.2",
+        "T210 16.3",
+        "T210 16.4",
+        "T210 16.5",
+        "T210 16.6",
+        "T210 16.7",
+        "T210 16.8",
+        "T210 16.9",
+        "T210 16.10",
+        "T210 16.11",
+        "T210 16.12",
+        "T210 16.13",
+        "T210 16.14",
+        "T210 16.15",
+        "T210 16.16",
+        "T210 20.1",
+        "T210 30.12",
+        "T210 20.2",
+        "T210 20.3",
+        "T210 20.4",
+        "T210 20.5",
+        "T210 20.6",
+        "T210 20.7",
+        "T210 20.8",
+        "T210 20.9",
+        "T210 20.10",
+        "T210 25.16",
+        "T210 25.3",
+        "T210 25.4",
+        "T210 25.5",
+        "T210 7.1",
+        "T210 25.6",
+        "T210 6.9",
+        "T210 25.7",
+        "T210 25.8",
+        "T210 25.9",
+        "T210 25.10",
+        "T210 25.11",
+        "T210 25.12",
+        "T210 25.13",
+        "T210 25.14",
+        "T210 25.15",
+        "T210 29.1",
+        "T210 29.2",
+        "T210 29.3",
+        "T210 29.4",
+        "T210 2.12",
+        "T210 6.11",
+        "T210 29.8",
+        "T210 6.11",
+        "T210 29.8",
+        "T210 6.11",
+        "T210 29.8",
+        "T210 29.9",
+        "T210 29.11",
+        "T210 4.8",
+        "T210 29.13",
+        "T210 29.7",
+        "T210 29.14"
       ],
-      "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained."
+      "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained.",
+      "selected_bytes": 42289
     },
     {
       "file": "T04n0212-selected.xml",
       "upstream_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0212.xml",
       "upstream_sha256": "689dd93a727688b1309b6f002ee248ef81154e3313626aef933c0fef762f2779",
-      "selected_sha256": "17a4f4b6c110683e0dede5656ef439fd23160400a5ce78848790e3e0019f093a",
+      "selected_sha256": "a15283e2c3891f19d6b06e2d94e8ee6d4053aa470cd12b8b6c207ae07ec86d54",
       "selected_chapters": [
         15,
+        16,
         32
       ],
       "bytes": 2854332,
       "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained.",
       "selected_readings": [
         "T212 15.7",
-        "T212 32.2"
-      ]
+        "T212 32.2",
+        "T212 16.18"
+      ],
+      "selected_bytes": 34026
     },
     {
       "file": "T04n0213-selected.xml",
       "upstream_url": "https://raw.githubusercontent.com/cbeta-org/xml-p5/dbdea41071e1e260ad84b72faefd4587333cf76d/T/T04/T04n0213.xml",
       "upstream_sha256": "9988e80c56ca710e39b6341b6cd6fb741ee852e0f4f2173b90fbd6626d091f48",
-      "selected_sha256": "14682d4c6afbdb3ad189de15e1fb1aae2eb60f48c227c523fbfa02e5d9f0ef83",
+      "selected_sha256": "2aad569b7516a7c41fa184b6393f162106e207cfbf198337a2538c441a6f0cfd",
       "selected_chapters": [
         4,
-        14
+        14,
+        15
       ],
       "bytes": 230565,
       "selected_readings": [
+        "T213 14.10",
         "T213 4.24",
         "T213 4.32",
-        "T213 14.10"
+        "T213 15.20"
       ],
-      "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained."
+      "scope": "Derived selection of exactly the displayed ancient verse passages, with unchanged complete TEI header, original chapter labels, decoded historical characters, source wording and punctuation, and original Taishō lb markers. No prose commentary or unrelated verses retained.",
+      "selected_bytes": 5974
     }
-  ]
+  ],
+  "selected_on": "2026-10-26"
 }
