@@ -253,7 +253,7 @@ def chapter_link(chapter):
     meta = f'{chapter["represented"]}/6 traditions · {chapter["six_present"]}/{chapter["positions"]} present in all six'
     return (f'<a class="toc-page-link" href="{chapter["page"]}#chapter{chapter["no"]}">'
             f'<span class="toc-number">{chapter["no"]:02}</span><span>{title}<small>{meta}</small></span>'
-            '<span class="toc-arrow" aria-hidden="true">↗</span></a>')
+            '<span class="toc-arrow" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor"><path d="M3 13 13 3M6 3h7v7"/></svg></span></a>')
 
 
 coverage = [chapter_coverage(chapter) for chapter in CHAPTERS]
