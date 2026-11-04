@@ -99,6 +99,10 @@ for source in collection["files"]:
     source_bytes = (ROOT / source["local"]).read_bytes()
     assert hashlib.sha256(source_bytes).hexdigest() == source["sha256"], f'Source snapshot changed: {source["local"]}'
     assert hashlib.sha1(b'blob ' + str(len(source_bytes)).encode() + b'\0' + source_bytes).hexdigest() == source["git_blob"], "Source snapshot differs from its upstream Git blob."
+english_edition = json.loads((ROOT / "data/english/pi.json").read_text())
+assert english_edition["source_language"] == "pi", "English must identify its base language."
+english = english_edition["verses"]
+assert list(map(int, english)) == list(range(1, 424)), "English draft must cover every Pāli position."
 chapter_numbers = []
 for chapter in collection["chapters"]:
     page = pages[chapter["page"]]
@@ -108,28 +112,32 @@ for chapter in collection["chapters"]:
     assert page.languages == {"en", "pi", "pd", "ga", "sa", "zh", "zh-pinyin", "bo"}, "All chapter pages must retain the six historical traditions and English."
     uid = chapter["uid"]
     root = json.loads((ROOT / f'data/pali/{uid}_root-pli-ms.json').read_text())
-    english = json.loads((ROOT / f'data/pali/{uid}_translation-en-sujato.json').read_text())
     markup = json.loads((ROOT / f'data/pali/{uid}_html.json').read_text())
     verse_segments = [key for key, value in markup.items() if "class='verse-line'" in value]
     expected_lines = []
     for number in numbers:
         keys = [key for key in verse_segments if key.startswith(f'dhp{number}:')]
         assert keys, f'Empty verse {number}'
-        for language, text in [("en", english), ("pi", root)]:
-            expected_lines.extend((language, key, text[key].replace("<j>", "").strip()) for key in keys)
+        if number in {416, 423}:
+            keys = [f"dhp{number}:{i}" for i in range(1, {416: 5, 423: 7}[number])]
+        expected_lines.extend(("pi", key, root[key].replace("<j>", "").strip()) for key in keys)
+        entry = english[str(number)]
+        assert entry["lines"] and all(line.strip() for line in entry["lines"]), "Missing English rendering."
+        assert page.poems[number, "en"] == entry["lines"], "English rendering differs from the editorial draft."
+        if entry.get("note"):
+            assert f"notes.html#english-{number}" in page.links, "English reading note is unlinked."
     assert page.lines == expected_lines, f'Imported text or line divisions changed in {chapter["page"]}'
     assert f'{chapter["page"]}#chapter{chapter["no"]}' in pages["contents.html"].links, "Missing chapter navigation"
-expected_numbers = [*range(1, 44), *range(100, 116), *range(157, 167), *range(221, 235), *range(290, 306)]
-assert chapter_numbers == expected_numbers and len(chapter_numbers) == 99, "Available pages must cover exactly the authorized 99 positions."
-assert collection["pilot_chapters"] == [1, 2, 8, 12, 17, 21], "The six-chapter pilot selection changed."
-assert len([link for link in pages["contents.html"].links if "#chapter" in link]) == 7, "Contents must retain six pilot pages and the earlier Mind page."
-pilot = [chapter for chapter in collection["chapters"] if chapter["no"] in collection["pilot_chapters"]]
-for index, chapter in enumerate(pilot):
-    previous = f'{pilot[index - 1]["page"]}#dhp{pilot[index - 1]["end"]}' if index else ""
-    following = f'{pilot[index + 1]["page"]}#dhp{pilot[index + 1]["start"]}' if index + 1 < len(pilot) else ""
-    assert pages[chapter["page"]].adjacent_pages == [previous, following], "Pilot chapter arrows target the wrong selection or verse."
-assert pages["heedfulness.html"].adjacent_pages[1] == "thousands.html#dhp100", "A jump over unpublished chapters must use its real destination anchor."
-assert pages["thousands.html"].adjacent_pages[0] == "heedfulness.html#dhp32", "The reverse jump must return to the published previous chapter."
+expected_numbers = list(range(1, 424))
+assert chapter_numbers == expected_numbers, "Reader pages must cover all 423 positions in sequence."
+assert [chapter["no"] for chapter in collection["chapters"]] == list(range(1, 27)), "Pāli chapter order changed."
+assert collection["pilot_chapters"] == [1, 2, 8, 12, 17, 21], "The archival pilot selection changed."
+assert len([link for link in pages["contents.html"].links if "#chapter" in link]) == 26, "Contents must list all 26 chapters."
+chapters = collection["chapters"]
+for index, chapter in enumerate(chapters):
+    previous = f'{chapters[index - 1]["page"]}#dhp{chapters[index - 1]["end"]}' if index else ""
+    following = f'{chapters[index + 1]["page"]}#dhp{chapters[index + 1]["start"]}' if index + 1 < len(chapters) else ""
+    assert pages[chapter["page"]].adjacent_pages == [previous, following], "Chapter arrows must follow Pāli order."
 assert pages["index.html"].verses == list(range(1, 21)), "The homepage must open the complete first chapter."
 assert (ROOT / "pairs.html").read_bytes() == (ROOT / "index.html").read_bytes(), "The existing Pairs URL must remain available."
 
@@ -139,9 +147,11 @@ characters = {int(code, 16): record["unicode"] for code, record in normalization
 def normalize(value):
     return value.replace("<j>", "").translate(characters).strip()
 
+witness_records = {}
 for filename in ["patna.json", "gandhari.json", "sanskrit.json", "chinese.json", "tibetan.json"]:
     witness = json.loads((ROOT / "data/witnesses" / filename).read_text())
     language = witness["tradition"]
+    witness_records[language] = {v["pali"]: v for v in witness["verses"]}
     assert [v["pali"] for v in witness["verses"]] == expected_numbers, f'Incomplete coverage ledger: {filename}'
     source_ids = {source["id"] for source in witness["sources"]}
     for record in witness["verses"]:
@@ -164,6 +174,18 @@ for filename in ["patna.json", "gandhari.json", "sanskrit.json", "chinese.json",
         assert page.reading_status[number, language] == record["status"], "Lost uncertainty/coverage status"
         if language == "zh":
             assert page.poems.get((number, "zh-pinyin"), []) == (chosen["pinyin"] if chosen else []), f'Pinyin changed: {number}'
+
+coverage = json.loads((ROOT / "data/chapter-coverage.json").read_text())
+assert len(coverage) == 26
+for chapter in coverage:
+    positions = list(range(chapter["start"], chapter["end"] + 1))
+    assert chapter["positions"] == len(positions)
+    expected = {key: sum(bool(records[n]["readings"]) for n in positions) for key, records in witness_records.items()}
+    assert chapter["counts"] == {"pi": len(positions), **expected}
+    assert chapter["represented"] == sum(n > 0 for n in chapter["counts"].values())
+    assert chapter["six_populated"] == sum(all(records[n]["readings"] for records in witness_records.values()) for n in positions)
+    assert chapter["six_present"] == sum(all(records[n]["status"] == "present" for records in witness_records.values()) for n in positions)
+    assert chapter["tier"] == (1 if chapter["six_present"] / len(positions) >= .5 else 2 if chapter["represented"] >= 5 else 3)
 
 # Check native text against retained source passages, not just the rendered data.
 indic_source = json.loads((ROOT / "data/witnesses/sources/indic/selected-source-passages.json").read_text())
@@ -246,5 +268,5 @@ for source in (ROOT / "assets").rglob("*"):
         assert target.read_bytes() == source.read_bytes(), "Font/asset deployment differs from source"
 for chapter in collection["chapters"]:
     assert not any('\ue000' <= char <= '\uf8ff' for char in (ROOT / chapter["page"]).read_text()), "An unsupported legacy glyph reached the reader."
-print("Passed: 99 available verse positions across six traditions match the source records; six-chapter navigation jumps, pinyin, coverage gaps, source hashes, sample, links, and assets verified.")
+print("Passed: 423 verse positions, English draft, historical sources, 26 chapter tiers, navigation, pinyin, sample, links, and assets.")
 

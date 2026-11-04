@@ -13,8 +13,14 @@ import sys
 ROOT = Path(__file__).resolve().parents[1]
 CHAPTER_FILES = {
     1: "CD-01-Yamaka.htm", 2: "CD-02-Appamada.htm", 3: "CD-03-Citta.htm",
-    8: "CD-08-Sahassa.htm", 12: "CD-12-Atta.htm", 17: "CD-17-Kodha.htm",
-    21: "CD-21-Pakinnaka.htm",
+    4: "CD-04-Puppha.htm", 5: "CD-05-Bala.htm", 6: "CD-06-Pandita.htm",
+    7: "CD-07-Arahanta.htm", 8: "CD-08-Sahassa.htm", 9: "CD-09-Papa.htm",
+    10: "CD-10-Danda.htm", 11: "CD-11-Jara.htm", 12: "CD-12-Atta.htm",
+    13: "CD-13-Loka.htm", 14: "CD-14-Buddha.htm", 15: "CD-15-Sukha.htm",
+    16: "CD-16-Piya.htm", 17: "CD-17-Kodha.htm", 18: "CD-18-Mala.htm",
+    19: "CD-19-Dhammattha.htm", 20: "CD-20-Magga.htm", 21: "CD-21-Pakinnaka.htm",
+    22: "CD-22-Niraya.htm", 23: "CD-23-Naga.htm", 24: "CD-24-Tanha.htm",
+    25: "CD-25-Bhikkhu.htm", 26: "CD-26-Brahmana.htm",
 }
 CHAPTERS = list(CHAPTER_FILES.values())
 BASE = "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/"
@@ -135,6 +141,9 @@ def main():
         raw = path.read_bytes()
         parser = Extractor()
         parser.feed(raw.decode("utf-8"))
+        expected = set(range(chapter["start"], chapter["end"] + 1))
+        actual = {record["pali"] for record in parser.records if record["pali"] is not None}
+        assert actual == expected, f"Unexpected Pāli anchors in {path.name}: {sorted(actual ^ expected)}"
         source_id = name.removesuffix(".htm")
         all_records.extend({**record, "source_id": source_id} for record in parser.records)
         sources.append({"id": source_id, "title": "Ānandajoti Bhikkhu, A Comparative Edition of the Dhammapada, fourth revised edition (2020)", "url": BASE + name, "retrieved": "2026-10-23" if chapter["no"] <= 3 else "2026-10-24", "html_sha256": hashlib.sha256(raw).hexdigest(), "license": "Ancient verse text; compilation attribution Ānandajoti Bhikkhu. Modern critical editions have separate rights notices; no blanket license is asserted.", "rights_url": "https://ancient-buddhist-texts.net/Miscellaneous/Copyright-Notice.htm"})
@@ -142,6 +151,7 @@ def main():
     selected_dir.mkdir(parents=True, exist_ok=True)
     corrections = json.loads((ROOT / "data/witnesses/sources/indic/corrections.json").read_text())
     patna_correction = next(c for c in corrections["corrections"] if c["pali"] == 158)
+    anomalies = {(a["tradition"], a["pali"], a["reference"]): a for a in corrections["retained_source_anomalies"]}
     primary_source = None
     if 158 in numbers:
         primary_raw = (source_dir / "17-Atta.htm").read_bytes()
@@ -163,6 +173,10 @@ def main():
             for reading in readings:
                 reading["fragmentary"] = any(re.search(r"\.\s*\.|(^|\s)\.(?=\s|$)", line) for line in reading["lines"])
                 reading["partial_correspondence"] = any(a["kind"] == "s" for a in reading["annotations"])
+                anomaly = anomalies.get((key, number, reading["reference"]))
+                if anomaly:
+                    assert any(anomaly["source_form"] in line for line in reading["lines"]), "Review the retained source anomaly."
+                    reading["note"] = anomaly["display_note"]
             if key == "pd" and number == 158:
                 assert readings[0]["lines"] == patna_correction["comparative_lines"], "Comparative source changed; review the Patna correction."
                 readings[0].update({"source_id": "PDhp-17-Atta", "source_url": patna_correction["primary_source_url"], "lines": patna_correction["replacement_lines"], "annotations": [], "note": patna_correction["display_note"]})
@@ -182,7 +196,7 @@ def main():
         result = {"tradition": key, "sources": sources + ([primary_source] if key == "pd" and primary_source else []), "verses": verses}
         (output_dir / filename).write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(filename, {status: sum(v["status"] == status for v in verses) for status in ["present", "partial", "not-located"]})
-    passages = {"scope": "Ancient Indic passages used for the six-chapter pilot and preserved Mind page; no modern commentary or unselected works.", "sources": sources, "verses": retained, "primary_corrections": [patna_correction] if 158 in numbers else []}
+    passages = {"scope": "Selected ancient Indic passages in Pāli chapter order; no modern commentary or unselected works.", "sources": sources, "verses": retained, "primary_corrections": [patna_correction] if 158 in numbers else []}
     (selected_dir / "selected-source-passages.json").write_text(json.dumps(passages, ensure_ascii=False, indent=2) + "\n")
 
 

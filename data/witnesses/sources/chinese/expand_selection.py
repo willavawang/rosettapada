@@ -1,6 +1,6 @@
 """Prepare the authorized Chinese reader selection from pinned local sources.
 
-The approved first-43 readings stay unchanged. New chapter records come from
+The 99 approved pilot readings stay unchanged. New chapter records come from
 Ken Su's identifiers and CBETA's ancient text, never the table's modern Pāli
 translation. Regeneration needs lxml and pypinyin 0.55.0.
 """
@@ -15,7 +15,8 @@ ROOT=BASE.parents[3]
 NS={'t':'http://www.tei-c.org/ns/1.0','cb':'http://www.cbeta.org/ns/1.0'}
 T=NS['t'];CB=NS['cb'];XML='http://www.w3.org/XML/1998/namespace'
 COMMIT='dbdea41071e1e260ad84b72faefd4587333cf76d'
-DATE='2026-10-26'
+DATE='2026-11-04'
+PILOT=set(range(1,44))|set(range(100,116))|set(range(157,167))|set(range(221,235))|set(range(290,306))
 
 def sha(path):return hashlib.sha256(path.read_bytes()).hexdigest()
 def write(path,value):path.write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
@@ -26,14 +27,15 @@ def main():
  parser.add_argument('--correspondence-directory',type=Path,help='Cached Ken Su chapter HTML pages; only the newly authorized chapters are appended.')
  args=parser.parse_args()
  if args.source_directory:os.environ['CBETA_SOURCE_DIRECTORY']=str(args.source_directory)
- from extract import load,han,extract,plain_readings
+ from extract import load,han,extract,plain_readings,chapter_section
  from pypinyin import pinyin,Style
  manifest=json.loads((ROOT/'data/chapters.json').read_text())
  wanted=sorted(n for c in manifest['chapters'] for n in range(c['start'],c['end']+1))
  previous=json.loads((ROOT/'data/witnesses/chinese.json').read_text())
- approved={r['pali']:deepcopy(r) for r in previous['verses'] if r['pali']<=43}
+ approved={r['pali']:deepcopy(r) for r in previous['verses'] if not args.source_directory or r['pali'] in PILOT}
  mapping=json.loads((BASE/'correspondence-mapping.json').read_text())
  if args.correspondence_directory:
+  mapping['chapters']=[c for c in mapping['chapters'] if c['chapter'] in {1,2,3,8,12,17,21}]
   known={c['chapter'] for c in mapping['chapters']}
   for c in manifest['chapters']:
    if c['no'] in known:continue
@@ -45,7 +47,7 @@ def main():
     if not m:continue
     row={'pali':int(m[1])}
     for number,cell in zip([210,212,213],cells[1:]):
-     matches=list(re.finditer(r'T(210|212|213)-(\d+)-(\d+)\b',cell));items=[]
+     matches=list(re.finditer(r'T(210|212|213)-(\d+)-(\d+)(?!\d)',cell));items=[]
      for i,a in enumerate(matches):
       canon,ch,v=map(int,a.groups())
       text=cell[a.end():matches[i+1].start() if i+1<len(matches) else len(cell)].strip()
@@ -62,10 +64,10 @@ def main():
  loc_cache={}
  def chapter_map(number,chapter):
   if (number,chapter) in loc_cache:return loc_cache[number,chapter]
-  root,render=load(number)
-  div=next((d for d in root.findall('.//cb:div',NS) if d.find('cb:mulu',NS) is not None and d.find('cb:mulu',NS).get('n')==str(chapter)),None)
-  if div is None:raise ValueError((number,chapter))
-  chars=[];locations=[];current=[None]
+  _,render=load(number)
+  section=chapter_section(number,chapter)
+  preceding=section[0].xpath('preceding::t:lb[1]',namespaces=NS)
+  chars=[];locations=[];current=[preceding[0].get('n') if preceding else None]
   def add(text):
    for ch in text or '':
     if han(ch):chars.append(ch);locations.append(current[0])
@@ -81,78 +83,117 @@ def main():
    for child in el:
     visit(child,inside)
     if inside:add(child.tail)
-  visit(div)
-  result=(''.join(chars),locations,div);loc_cache[number,chapter]=result
+  for element in section:visit(element)
+  result=(''.join(chars),locations,section);loc_cache[number,chapter]=result
   return result
 
  changes=dict(previous['pinyin']['manual_character_readings'])
- changes.update({'惓':'juàn','長':'zhǎng','著':'zhuó','率':'shuài','盡':'jìn'})
- phrase_readings={'如種苦種，':'rú zhòng kǔ zhǒng，','亦如種甜，':'yì rú zhòng tián，','以覺意能應，':'yǐ jué yì néng yìng，','伎樂放逸，':'jì yuè fàng yì，'}
+ changes.update({'𦾨':'niè','𣧑':'xiōng','𭶑':'xiá','長':'cháng'})
+ phrase_readings=dict(previous['pinyin']['manual_phrase_readings'])
+ contextual={
+  '長老':('zhǎng','lǎo'),'不著':('bù','zhuó'),'數數':('shuò','shuò'),
+  '無所著':('wú','suǒ','zhuó'),'所著':('suǒ','zhuó'),'為人':('wéi','rén'),
+  '為佛':('wéi','fó'),'為天':('wéi','tiān'),'不為':('bù','wéi'),
+  '相應':('xiāng','yìng'),'應真':('yìng','zhēn'),'稱量':('chēng','liáng')
+ }
  def romanize(line):
   if line in phrase_readings:return phrase_readings[line]
   syllables=[changes.get(ch,pinyin(ch,style=Style.TONE,heteronym=False)[0][0]) for ch in line]
-  result=re.sub(r'\s+([，。；、！？])',r'\1',' '.join(syllables))
-  assert not any(han(ch) for ch in result),(line,result)
+  for phrase,pronunciation in contextual.items():
+   for match in re.finditer(phrase,line):
+    syllables[match.start():match.end()]=pronunciation
+  result=re.sub(r'\s+([，。；、！？：」』])',r'\1',' '.join(syllables))
+  if any(han(ch) for ch in result):raise ValueError(('Missing pinyin',line,result))
   return result
- notes={
- 106:'The T210 counterpart contrasts prolonged ritual offering with a moment of one-pointed recollection of Dharma; the Pāli speaks of honoring a developed person. Both historical formulations are retained.',
- 107:'The Chinese verse refers to honoring the Three Honored Ones (三尊), where Pāli speaks of honoring one who has developed himself.',
- 113:'The Pāli refers to seeing arising and passing away. T210 uses 成敗 and 見微知所忌; its wording is retained without harmonization.',
- 115:'The correspondence table quotes 學惟佛法要. This pinned CBETA edition reads 學推佛法要; the display preserves that source reading.',
- 157:'T210 20.1 is displayed. Ken Su also identifies T210 30.12, which adds a frontier-city and hell image. The first Chinese reading does not reproduce the Pāli three watches of the night.',
- 160:'The Pāli makes oneself one’s refuge. T210 instead asks how a person unable to benefit himself can benefit others, then praises a well-trained mind and body. This is a qualified historical correspondence.',
- 162:'T210 preserves the creeper image but develops it as unchecked misconduct and desire; it does not reproduce the whole tree-and-enemy simile of Pāli.',
- 164:'The Chinese ending uses bitter seed rather than the Pāli bamboo/reed image. Its historical wording is retained.',
- 166:'The Pāli warns against neglecting one’s own welfare for another’s. T210 speaks of benefiting oneself and others without loss, and emphasizes discipline and learning. This is a substantial recensional difference.',
- 221:'This pinned CBETA edition reads 避諸愛會 where the correspondence table quotes 避諸愛貪. The source spelling is preserved.',
- 222:'The Chinese charioteer simile ends with leaving darkness for light; the Pāli contrasts a true charioteer with others who merely hold reins.',
- 224:'T210 says not to demand much where Pāli urges giving when asked even if one has little. The rest of the truthfulness, non-anger, and heaven sequence supports the qualified correspondence.',
- 225:'Ken Su lists both T210 7.1 and 25.6. The first is displayed because its deathless destination is closer to the Pāli; the second speaks of birth in heaven.',
- 226:'Ken Su lists both T210 6.9 and 25.7. Both actual Chinese readings are retained; the first is displayed.',
- 228:'T210 treats praise and blame in terms of advantage and reputation; the Pāli says no one has ever been wholly praised or wholly blamed. This is a qualified correspondence.',
- 230:'T210 retains praise by Brahmā/Śakra but does not reproduce the Pāli gold-ornament simile. This pinned CBETA edition reads 諸人咨嗟, where the correspondence table quotes 諸天咨嗟.',
- 290:'T210 contrasts a small gift of peace with its greater reward, where Pāli contrasts giving up lesser happiness for greater happiness. The historical difference is preserved.',
- 293:'The Chinese verse contrasts diligent practice with doing what should not be done. It does not reproduce Pāli’s explicit mindfulness-of-the-body phrase.',
- 294:'The mother, ruler, ministers, and retinue imagery differs from the Pāli mother, father, kings, kingdom, and attendants sequence. No explanatory allegory is added to the verse.',
- 295:'No counterpart is listed in T210, T212, or T213 in the consulted correspondence table. This records the scope of this comparison, not absence throughout Chinese Buddhist literature.',
- 296:'T210 combines recollection of Buddha, Dharma, and Saṅgha in one stanza. The same whole historical stanza is shown at Pāli 296–298 as a grouped partial parallel; these are not three distinct Chinese verses.',
- 297:'T210 combines recollection of Buddha, Dharma, and Saṅgha in one stanza. The same whole historical stanza is shown at Pāli 296–298 as a grouped partial parallel; these are not three distinct Chinese verses.',
- 298:'T210 combines recollection of Buddha, Dharma, and Saṅgha in one stanza. The same whole historical stanza is shown at Pāli 296–298 as a grouped partial parallel; these are not three distinct Chinese verses.',
- 299:'T210 has no counterpart identified in the table. T213 15.20 is selected because it explicitly preserves the awakened disciple’s day-and-night mindfulness of the body; the listed T212 16.17 includes a broader sequence of recollections.',
- 300:'T210 has no counterpart identified in the table. This is T212 16.18, a historical Chinese verse about day-and-night recollection of non-harm.',
- 303:'Ken Su identifies both T210 4.8 and 29.13. Both Chinese readings are retained, with the first displayed.',
- 304:'T210 contrasts proximity to the Way with distance from it, while retaining the snowy mountain and arrow-at-night images of the Pāli good/bad contrast.'
+
+ # Use T210 by default, with source-specific choices where a listed
+ # alternative preserves a consequential feature of the Pāli verse.
+ preferred={
+  131:'T212 31.3',277:'T212 13.5',278:'T210 28.20',
+  279:'T213 12.9',410:'T212 34.43',411:'T212 34.54',415:'T212 34.36'
  }
- partial={106,107,113,157,160,162,164,166,222,224,228,230,290,293,294,296,297,298,304}
+ notes={
+  44:'T210 speaks of selecting the ground and leaving the prison for heaven. Pāli explicitly asks who will discern this earth, the world of Yama, and the realm of the gods.',
+  45:'T210 continues the prison-to-heaven imagery. Pāli refers to the trainee discerning the earth, the world of Yama, and the gods.',
+  47:'T210 retains flowers, death, and rushing water, but depicts a sick body withering like a falling flower rather than someone gathering flowers as a flood takes a sleeping village.',
+  69:'The two retained Chinese stanzas also occur at Pāli 119 in reverse order. T210 expresses the ripening of misconduct without Pāli 69’s honey image.',
+  80:'T210 speaks of fashioning a horn bow and steering a boat instead of straightening an arrow and channeling water. The self-training comparison is retained.',
+  119:'The same two Chinese stanzas also occur at Pāli 69. The first reading here preserves the wrongdoer seeing good before the bad action ripens.',
+  131:'T212 is preferred because it preserves the harmful action and the lack of future happiness. The listed T210 18.2 expresses the positive counterpart shown at Pāli 132.',
+  132:'T210 retains refraining from harming beings and future well-being. For the negative counterpart at Pāli 131, the reader uses T212 31.3.',
+  145:'T210 uses the same stanza as at Pāli 80. The Chinese keeps the craft and self-training analogy with different crafts in two of the clauses.',
+  315:'T210 30.12, the frontier-city passage, is also retained as a secondary counterpart at Pāli 157.',
+  275:'T210 28.3 describes the taught path and the need to practice it. The second Chinese passage, T210 28.22, supplies the arrow comparison and is also listed at Pāli 276.',
+  276:'T210 28.22 stresses striving for oneself and accepting the Buddha’s words. It also contains the arrow motif of Pāli 275 and does not supply the whole Pāli 276 stanza.',
+  277:'T212 states that all conditioned things are impermanent. The listed T210 28.4 speaks of the impermanence and suffering of birth and death and is retained as an alternate.',
+  278:'T210 28.20 is displayed first because it expressly calls conditioned things painful. The other T210 reading combines the themes of impermanence and suffering.',
+  279:'T213 is preferred because it explicitly states that all phenomena are not-self. T210 uses the wording that conditioned things are not the body, and remains an alternate.',
+  360:'T210 34.1 gathers sense restraint and restraint of body and mind into one stanza, shared by Pāli 360 and 361.',
+  361:'T210 34.1 gathers sense restraint and restraint of body and mind into one stanza, shared by Pāli 360 and 361. T212 8.11 and T213 7.13 are also listed for Pāli 361.',
+  410:'T212 34.43 directly speaks of having no hopes in this world or the next. The broader purity stanza T210 35.28 is also listed at Pāli 411.',
+  411:'T212 34.54 preserves the deathless image and is preferred to the broader purity stanza T210 35.28, which is also listed at Pāli 410.',
+  414:'T210 retains the pit and crossing to the far shore. The listed use of the same stanza at Pāli 415 is replaced there by the closer T212 counterpart.',
+  415:'T212 34.36 preserves abandoning sensual desire and leaving home. T210 35.32 is the crossing verse displayed at Pāli 414.'
+ }
+ partial={44,45,47,69,80,145,275,276,360,361,411,414}
+ qualified_alternates={
+  (131,'T210 18.2'),(277,'T210 28.4'),(278,'T210 28.4'),
+  (279,'T210 28.21'),(410,'T210 35.28'),(411,'T210 35.28'),(415,'T210 35.32')
+ }
  by_number={}
  for chapter in mapping['chapters']:
   for row in chapter['records']:
    n=row['pali']
    if n not in wanted:continue
    if n in approved:by_number[n]=deepcopy(approved[n]);continue
-   selected=row['T210'] or row['T212'] or row['T213']
-   if n==299:selected=row['T213']
-   # Retain alternate T210 counterparts explicitly rather than silently losing
-   # the differences. Fallback collections contribute the selected first reading.
-   if not row['T210']:selected=selected[:1]
-   result={'pali':n,'status':'not-located' if not selected else 'partial' if n in partial else 'present','readings':[],'correspondence_source':chapter['source_url']}
+   listed=[x for key in ['T210','T212','T213'] for x in row[key]]
+   default=row['T210'] or (row['T212']+row['T213'])
+   selected=[x for x in listed if x['reference']==preferred.get(n)]
+   selected+= [x for x in default if x not in selected]
+   result={'pali':n,'status':'not-located','readings':[],'correspondence_source':chapter['source_url']}
    if n in notes:result['note']=notes[n]
-   alternatives=[x['reference'] for key in ['T210','T212','T213'] for x in row[key] if x not in selected]
-   if alternatives:result['alternative_correspondence_references']=alternatives
-   for i,item in enumerate(selected):
+   if not listed:result['note']='No counterpart is listed across T210, T212, and T213 in this correspondence table.'
+   for item in selected:
     canon=int(item['reference'][1:4]);ch=item['chapter']
     quote=re.sub(r'[〈(（].*','',item['table_text']).strip()
-    lines,ratio,expected,actual=extract(canon,ch,quote)
+    try:
+     lines,ratio,expected,actual=extract(canon,ch,quote)
+    except ValueError:
+     # A table quotation may be a different edition, a composite, or an
+     # apparent misreference. Keep its ID in the notes, not its verse text.
+     continue
     text,positions,_=chapter_map(canon,ch);target=''.join(c for line in lines for c in line if han(c));start=text.find(target)
     assert start>=0,(n,item['reference'])
-    reading={'reference':item['reference'],'source_id':f'cbeta-t{canon}','lines':lines,'pinyin':[romanize(line) for line in lines],'taisho_start':positions[start],'taisho_end':positions[start+len(target)-1],'source_url':f'https://github.com/cbeta-org/xml-p5/blob/{COMMIT}/T/T04/T04n{canon:04d}.xml','parallel_type':'partial' if n in partial else 'verse-parallel'}
+    is_partial=n in partial or (n,item['reference']) in qualified_alternates or '參考' in item['table_text']
+    reading={'reference':item['reference'],'source_id':f'cbeta-t{canon}','lines':lines,'pinyin':[romanize(line) for line in lines],'taisho_start':positions[start],'taisho_end':positions[start+len(target)-1],'source_url':f'https://github.com/cbeta-org/xml-p5/blob/{COMMIT}/T/T04/T04n{canon:04d}.xml','parallel_type':'partial' if is_partial else 'verse-parallel'}
     reading['location']=f'T04, no. {canon}, {reading["taisho_start"]}–{reading["taisho_end"]}'
+    if is_partial:reading['partial_correspondence']=True
     if ratio<1:reading['edition_difference']={'table':expected,'cbeta':actual}
-    if i:reading['note']='Additional historical counterpart identified by Ken Su; the first reading is displayed.'
+    if result['readings']:
+     reading['note']='Additional historical counterpart identified by Ken Su; the first reading is displayed.'
+    else:
+     result['status']='partial' if is_partial else 'present'
     result['readings'].append(reading)
+    if not row['T210']:break
+   alternatives=[x['reference'] for x in listed if x['reference'] not in {r['reference'] for r in result['readings']}]
+   if alternatives:result['alternative_correspondence_references']=alternatives
+   if listed and not result['readings']:result['note']='The table lists a reference, but its quotation could not be matched to the pinned CBETA verse text.'
    by_number[n]=result
  records=[by_number[n] for n in wanted]
- assert all(by_number[n]==r for n,r in approved.items()),'Approved first-43 Chinese readings changed.'
+ assert all(by_number[n]==r for n,r in approved.items()),'Approved Chinese readings changed.'
+ by_reference={}
+ for record in records:
+  for reading in record['readings']:
+   by_reference.setdefault(reading['reference'],set()).add(record['pali'])
+ repeated={ref:sorted(numbers) for ref,numbers in by_reference.items() if len(numbers)>1}
+ for record in records:
+  if record['pali'] in approved:continue
+  for reading in record['readings']:
+   if reading['reference'] in repeated:
+    joined=', '.join(map(str,repeated[reading['reference']]))
+    group_note=f'This source stanza is shared by Pāli {joined} in the correspondence table.'
+    reading['note']=' '.join(x for x in [reading.get('note',''),group_note] if x)
+    reading['shared_pali_positions']=repeated[reading['reference']]
 
  # Verify every approved and new reading against the pinned complete text and
  # construct bounded TEI snapshots with exactly the selected ancient passages.
@@ -170,7 +211,7 @@ def main():
    for record in records:
     for i,reading in enumerate(record['readings'],1):
      if reading['source_id']!=f'cbeta-t{number}':continue
-     chapter=int(reading['reference'].split()[1].split('.')[0]);text,positions,original_div=chapter_map(number,chapter)
+     chapter=int(reading['reference'].split()[1].split('.')[0]);text,positions,section=chapter_map(number,chapter)
      target=''.join(ch for line in reading['lines'] for ch in line if han(ch));start=text.find(target)
      assert start>=0,(record['pali'],reading['reference'])
      assert ''.join(reading['lines']) in plain_readings(number,chapter).replace('\u241f',''),(record['pali'],'Source punctuation differs')
@@ -178,7 +219,7 @@ def main():
      if chapter not in grouped:
       div=E.Element(f'{{{CB}}}div',type='pin')
       for tag in ['cb:mulu','t:head']:
-       el=original_div.find(tag,NS)
+       el=next((element for element in section if element.tag==f'{{{NS[tag.split(":")[0]]}}}{tag.split(":")[1]}'),None)
        if el is not None:div.append(deepcopy(el))
       grouped[chapter]=div
      lg=E.SubElement(grouped[chapter],f'{{{T}}}lg',attrib={f'{{{XML}}}id':f'selected-pali{record["pali"]:03d}-{i}','corresp':reading['reference'],'type':'selected-verse'})
@@ -200,7 +241,7 @@ def main():
    info['selected_sha256']=sha(path);info['selected_chapters']=sorted(grouped);info['selected_readings']=[v['reference'] for v in verification if v['reference'].startswith(f'T{number} ')]
    info['selected_bytes']=path.stat().st_size
   provenance['selected_on']=DATE;write(BASE/'cbeta-provenance.json',provenance)
-  write(BASE/'verification.json',{'checked':DATE,'pali_records':len(records),'readings_checked':len(verification),'all_selected_han_characters_found_in_pinned_cbeta':True,'full_text_and_punctuation_in_source':True,'unchanged_complete_tei_headers':True,'taisho_locators_verified':True,'first_43_records_preserved':True,'readings':verification})
+  write(BASE/'verification.json',{'checked':DATE,'pali_records':len(records),'readings_checked':len(verification),'all_selected_han_characters_found_in_pinned_cbeta':True,'full_text_and_punctuation_in_source':True,'unchanged_complete_tei_headers':True,'taisho_locators_verified':True,'first_43_records_preserved':True,'all_99_pilot_records_preserved':True,'readings':verification})
  else:
   # Existing selected snapshots are sufficient for subsequent rebuilds.
   for record in records:
@@ -209,17 +250,17 @@ def main():
     assert ''.join(c for line in reading['lines'] for c in line if han(c)) in text
     assert ''.join(reading['lines']) in plain_readings(canon,ch).replace('\u241f','')
 
- result=deepcopy(previous);result['scope']='Six-chapter pilot plus retained Mind page: Pāli 1–43, 100–115, 157–166, 221–234, and 290–305, in Pāli order'
+ result=deepcopy(previous);result['scope']='Historical Chinese counterparts indexed to all 423 Pāli positions in the 26-chapter reader'
  result['verses']=records
  result['coverage']={'present':sum(bool(r['readings']) for r in records),'not_located':[r['pali'] for r in records if not r['readings']],'fallbacks':{str(r['pali']):r['readings'][0]['reference'] for r in records if r['readings'] and not r['readings'][0]['reference'].startswith('T210 ')},'status_counts':dict(Counter(r['status'] for r in records))}
+ result['shared_source_stanzas']=repeated
  result['pinyin']['manual_character_readings']=changes
- contextual='New selection: contextual readings include 惓 juàn in 不惓, 長 zhǎng in 長老, 著 zhuó in 不著名色, 率 shuài in 率君二臣, 盡 jìn, 種 zhòng when planting and zhǒng for seed, 應 yìng in 能應, and 樂 yuè in 伎樂.'
- result['pinyin']['method']=result['pinyin']['method'].split(' New selection:')[0]+' '+contextual
+ result['pinyin']['method']=result['pinyin']['method'].split(' New selection:')[0].split(' Expanded reader:')[0]+' Expanded reader: rare historical forms 𦾨, 𣧑, and 𭶑 use the readings of 孽, 凶, and 黠 given by the correspondence quotation or CBETA normalization. New syllables have received limited contextual review.'
  result['pinyin']['manual_phrase_readings']=phrase_readings
- result['sources'][0]['title']='Pāli–Chinese Dhammapada correspondence tables, chapters 1–3, 8, 12, 17, and 21'
+ result['sources'][0]['title']='Pāli–Chinese Dhammapada correspondence tables, all 26 Pāli chapters'
  for source in result['sources'][1:]:
   snap=ROOT/source['snapshot'];source['snapshot_sha256']=sha(snap);source['selection_updated']=DATE
  write(ROOT/'data/witnesses/chinese.json',result)
- print(json.dumps({'records':len(records),'coverage':result['coverage'],'approved_first_43_unchanged':True,'verified_readings':len(verification)},ensure_ascii=False))
+ print(json.dumps({'records':len(records),'coverage':result['coverage'],'approved_99_pilot_unchanged':True,'verified_readings':len(verification)},ensure_ascii=False))
 
 if __name__=='__main__':main()

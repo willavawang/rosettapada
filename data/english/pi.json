@@ -1,0 +1,3561 @@
+{
+  "id": "rosettapada-pali-draft",
+  "label": "Rosettapada · Pāli-based draft",
+  "source_language": "pi",
+  "base_edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500",
+  "reference_translation": "Bhikkhu Sujato, Sayings of the Dhamma, CC0 SuttaCentral/Bilara",
+  "method": "Editorial English based on Pāli, with documented help from historical parallels and named secondary readings.",
+  "verses": {
+    "1": {
+      "lines": [
+        "Mind precedes experience.",
+        "Mind leads it, mind shapes it.",
+        "Speak or act with a corrupted mind",
+        "and suffering follows you",
+        "as the wheel follows the foot of the ox."
+      ],
+      "note": "The Pāli describes experience as mind-made. Patna, Gāndhārī, and Sanskrit use a form corresponding to mind-impelled. The Tibetan counterpart ends with a wheel cutting off a head. The English keeps the Pāli ox and wheel."
+    },
+    "2": {
+      "lines": [
+        "Mind precedes experience.",
+        "Mind leads it, mind shapes it.",
+        "Speak or act with a clear mind",
+        "and happiness follows you",
+        "like a shadow that never leaves."
+      ]
+    },
+    "3": {
+      "lines": [
+        "“They insulted me, struck me,",
+        "defeated me, took what was mine.”",
+        "For those who hold on to this,",
+        "hostility does not subside."
+      ]
+    },
+    "4": {
+      "lines": [
+        "“They insulted me, struck me,",
+        "defeated me, took what was mine.”",
+        "For those who let go of this,",
+        "hostility subsides."
+      ]
+    },
+    "5": {
+      "lines": [
+        "Hostility never settles hostility.",
+        "Through non-hostility it settles.",
+        "This is an age-old principle."
+      ],
+      "note": "Avera is the absence of hostility. The Sanskrit kṣānti and Tibetan bzod pa give patience or forbearance as the means by which hostility subsides."
+    },
+    "6": {
+      "lines": [
+        "Others do not see",
+        "that here we must come to an end.",
+        "For those who see it,",
+        "quarrels come to an end."
+      ],
+      "note": "Yamāmase has been read in relation to dying and to restraint. This draft follows the mortality reading. Sujato understands it as restraining ourselves. The provisional Tibetan selection concerns settling conflict through gentle speech."
+    },
+    "7": {
+      "lines": [
+        "Dwelling on what is attractive,",
+        "with the senses unguarded,",
+        "knowing no measure in eating,",
+        "idle and slack in effort,",
+        "one is overpowered by Māra",
+        "as a weak tree by the wind."
+      ]
+    },
+    "8": {
+      "lines": [
+        "Dwelling on what is unattractive,",
+        "with the senses well guarded,",
+        "knowing a measure in eating,",
+        "trusting and firm in effort,",
+        "one is no more shaken by Māra",
+        "than a mountain of rock by the wind."
+      ],
+      "note": "Asubha in this meditation context concerns attending to the unattractive aspects of the body to loosen sensual attachment. See Ṭhānissaro Bhikkhu’s end note on 7–8."
+    },
+    "9": {
+      "lines": [
+        "Whoever puts on the ochre robe",
+        "with their own stains still in place,",
+        "without restraint or truthfulness,",
+        "is unworthy of the ochre robe."
+      ]
+    },
+    "10": {
+      "lines": [
+        "Whoever has cast off the stains,",
+        "is grounded in ethical conduct,",
+        "and has restraint and truthfulness,",
+        "is worthy of the ochre robe."
+      ]
+    },
+    "11": {
+      "lines": [
+        "Seeing substance where there is none",
+        "and taking substance for emptiness,",
+        "those who range in misguided intentions",
+        "never reach what matters."
+      ]
+    },
+    "12": {
+      "lines": [
+        "Knowing substance as substance",
+        "and what is insubstantial as such,",
+        "those who range in right intentions",
+        "reach what matters."
+      ]
+    },
+    "13": {
+      "lines": [
+        "Rain comes through a poorly thatched roof.",
+        "Desire comes through an untrained mind."
+      ]
+    },
+    "14": {
+      "lines": [
+        "Rain does not come through a well-thatched roof.",
+        "Desire does not come through a well-trained mind."
+      ]
+    },
+    "15": {
+      "lines": [
+        "Here they grieve and after death they grieve.",
+        "The one who does harm grieves in both places,",
+        "distressed and sorrowful",
+        "at the sight of their own stained deeds."
+      ]
+    },
+    "16": {
+      "lines": [
+        "Here they rejoice and after death they rejoice.",
+        "The one who does good rejoices in both places,",
+        "glad and delighted",
+        "at the sight of their own clean deeds."
+      ]
+    },
+    "17": {
+      "lines": [
+        "Here they burn and after death they burn.",
+        "The one who does harm burns in both places.",
+        "“I did harm,” they think, and burn.",
+        "In a painful rebirth they burn still more."
+      ]
+    },
+    "18": {
+      "lines": [
+        "Here they delight and after death they delight.",
+        "The one who does good delights in both places.",
+        "“I did good,” they think, and delight.",
+        "In a fortunate rebirth they delight still more."
+      ]
+    },
+    "19": {
+      "lines": [
+        "However much teaching a heedless person recites,",
+        "if they fail to live by it,",
+        "they are like a herder counting another's cattle.",
+        "They have no share in the contemplative life."
+      ]
+    },
+    "20": {
+      "lines": [
+        "Though they recite little, they live by the teaching,",
+        "letting go of passion, aversion, and delusion.",
+        "With clear understanding and a mind set free,",
+        "clinging neither here nor beyond,",
+        "they share in the contemplative life."
+      ]
+    },
+    "21": {
+      "lines": [
+        "Heedfulness is the way to the deathless.",
+        "Heedlessness is the way to death.",
+        "The heedful do not die.",
+        "The heedless are already like the dead."
+      ],
+      "note": "The deathless (amata) names nibbāna in this context. The contrast is between heedfulness on the path of release and the living heedlessness of one compared to the dead."
+    },
+    "22": {
+      "lines": [
+        "Seeing the difference, the wise",
+        "take joy in heedfulness",
+        "and delight in the ground",
+        "where the noble ones walk."
+      ]
+    },
+    "23": {
+      "lines": [
+        "Meditating steadily,",
+        "always firm in their effort,",
+        "the resolute touch nibbāna,",
+        "the highest freedom from bondage."
+      ]
+    },
+    "24": {
+      "lines": [
+        "The standing of the heedful grows",
+        "when they are energetic and mindful,",
+        "clean in their actions, deliberate in what they do,",
+        "restrained and living by the Dhamma."
+      ]
+    },
+    "25": {
+      "lines": [
+        "Through effort and heedfulness,",
+        "through restraint and self-discipline,",
+        "let the wise make an island",
+        "that no flood can overwhelm."
+      ],
+      "note": "Dīpa may mean island or lamp. The flood supports island here. Chinese T210 uses illumination imagery."
+    },
+    "26": {
+      "lines": [
+        "The foolish give themselves to heedlessness.",
+        "The discerning guard heedfulness",
+        "as their finest treasure."
+      ]
+    },
+    "27": {
+      "lines": [
+        "Do not give yourself to heedlessness",
+        "or grow intimate with sensual delights.",
+        "Meditating with heedfulness,",
+        "you reach a deep happiness."
+      ]
+    },
+    "28": {
+      "lines": [
+        "When the wise drive out heedlessness with heedfulness,",
+        "they climb the tower of discernment.",
+        "Sorrowless, they look upon a sorrowing people",
+        "as someone on a mountain",
+        "looks down at those on the plain."
+      ]
+    },
+    "29": {
+      "lines": [
+        "Heedful among the heedless,",
+        "awake among those asleep,",
+        "the wise leave them behind",
+        "as a swift horse leaves a feeble one."
+      ]
+    },
+    "30": {
+      "lines": [
+        "Through heedfulness Maghavā",
+        "rose to first among the gods.",
+        "Heedfulness is praised.",
+        "Heedlessness is always blamed."
+      ],
+      "note": "Maghavā is a name of Sakka, also known as Indra. The selected Chinese parallel at this position gives a different illustration of heedfulness."
+    },
+    "31": {
+      "lines": [
+        "A monastic who delights in heedfulness",
+        "and sees danger in neglect",
+        "goes on like a fire,",
+        "burning through fetters fine and coarse."
+      ]
+    },
+    "32": {
+      "lines": [
+        "A monastic who delights in heedfulness",
+        "and sees danger in neglect",
+        "cannot fall away.",
+        "Such a one is close to nibbāna."
+      ]
+    },
+    "33": {
+      "lines": [
+        "The mind trembles and darts,",
+        "hard to guard, hard to hold back.",
+        "The wise straighten it",
+        "as a fletcher straightens an arrow."
+      ]
+    },
+    "34": {
+      "lines": [
+        "Like a fish hauled from its watery home",
+        "and thrown onto dry ground,",
+        "this mind thrashes",
+        "as it leaves Māra's domain."
+      ]
+    },
+    "35": {
+      "lines": [
+        "Light, hard to rein in,",
+        "landing wherever it pleases,",
+        "the mind is worth taming.",
+        "A tamed mind brings happiness."
+      ]
+    },
+    "36": {
+      "lines": [
+        "Subtle, hard to see,",
+        "landing wherever it pleases,",
+        "the mind is worth guarding.",
+        "A guarded mind brings happiness."
+      ]
+    },
+    "37": {
+      "lines": [
+        "It travels far and goes alone,",
+        "bodiless, dwelling in a cave.",
+        "Whoever restrains this mind",
+        "is freed from Māra's bonds."
+      ]
+    },
+    "38": {
+      "lines": [
+        "Wisdom never comes to fullness",
+        "in one whose mind is unsettled,",
+        "who does not know the true teaching",
+        "and whose trust keeps shifting."
+      ]
+    },
+    "39": {
+      "lines": [
+        "For the wakeful whose mind is free of seepage,",
+        "whose heart is unassailed,",
+        "who have left merit and evil behind,",
+        "there is no fear."
+      ],
+      "note": "Puñña and pāpa refer to merit and evil. The traditional reading concerns an arahant whose actions are free of the conditions for further karmic results. The Chinese passage develops a different contrast."
+    },
+    "40": {
+      "lines": [
+        "Knowing the body to be like a clay pot,",
+        "set the mind in place like a fortress.",
+        "Meet Māra with the weapon of discernment.",
+        "Guard what you have won and take no foothold."
+      ],
+      "note": "The Pāli begins with the body as a clay pot. The selected Chinese counterpart opens with the image of a tortoise guarding its faculties."
+    },
+    "41": {
+      "lines": [
+        "Before long this body",
+        "will lie on the earth,",
+        "discarded, its consciousness gone,",
+        "like a useless piece of wood."
+      ]
+    },
+    "42": {
+      "lines": [
+        "Whatever an enemy can do to an enemy",
+        "or a rival to a rival,",
+        "a mind turned the wrong way",
+        "can do you worse."
+      ]
+    },
+    "43": {
+      "lines": [
+        "What mother, father,",
+        "or any other kin can do for you,",
+        "a mind turned the right way",
+        "can do better."
+      ]
+    },
+    "44": {
+      "lines": [
+        "Who will discern this earth,",
+        "Yama's world and this world with its gods?",
+        "Who will choose a well-taught verse of Dhamma",
+        "as a skillful hand chooses a flower?"
+      ],
+      "note": "Vicessati admits different readings. Here it is rendered as discerning or examining. The flower image describes choosing a well-taught saying."
+    },
+    "45": {
+      "lines": [
+        "The trainee will discern this earth,",
+        "Yama's world and this world with its gods.",
+        "The trainee will choose a well-taught verse of Dhamma",
+        "as a skillful hand chooses a flower."
+      ],
+      "note": "Pāli sekho, Patna śekho, and Sanskrit śaikṣaḥ all name the trainee. The Gāndhārī counterpart instead has budhu, the awakened one."
+    },
+    "46": {
+      "lines": [
+        "Know this body as foam.",
+        "See its nature as a mirage.",
+        "Cut down Māra's blossoms",
+        "and pass beyond the sight of the king of death."
+      ],
+      "note": "The foam simile applies to the body in Pāli, Gāndhārī, and Sanskrit. Patna applies it to this world."
+    },
+    "47": {
+      "lines": [
+        "Death carries off the person",
+        "gathering flowers with a mind caught up in them,",
+        "as a great flood sweeps away",
+        "a sleeping village."
+      ]
+    },
+    "48": {
+      "lines": [
+        "Still gathering flowers,",
+        "still caught up in them,",
+        "still unsatisfied by sensual pleasures,",
+        "one falls under the power of Death."
+      ]
+    },
+    "49": {
+      "lines": [
+        "A bee leaves with the nectar",
+        "without harming the flower's color or scent.",
+        "So should a sage",
+        "go through a village."
+      ]
+    },
+    "50": {
+      "lines": [
+        "Look away from others' faults,",
+        "from what they have done and left undone.",
+        "Look at your own deeds",
+        "and what you have left undone."
+      ]
+    },
+    "51": {
+      "lines": [
+        "A lovely flower bright with color",
+        "may have no scent.",
+        "So fine words bear no fruit",
+        "in one who fails to act on them."
+      ]
+    },
+    "52": {
+      "lines": [
+        "A lovely flower bright with color",
+        "may also carry fragrance.",
+        "So fine words bear fruit",
+        "in one who acts on them."
+      ]
+    },
+    "53": {
+      "lines": [
+        "From a heap of flowers",
+        "many garlands can be made.",
+        "So, having been born a mortal,",
+        "one can do many skillful deeds."
+      ]
+    },
+    "54": {
+      "lines": [
+        "The scent of flowers does not travel against the wind,",
+        "nor does sandalwood, tagara, or jasmine.",
+        "The scent of the good travels against the wind.",
+        "A person of integrity perfumes every direction."
+      ]
+    },
+    "55": {
+      "lines": [
+        "Sandalwood, tagara, blue lotus, jasmine:",
+        "of all these scents,",
+        "the fragrance of ethical conduct",
+        "is unsurpassed."
+      ]
+    },
+    "56": {
+      "lines": [
+        "Faint is the scent",
+        "of tagara and sandalwood.",
+        "The fragrance of those who live well",
+        "reaches even the gods."
+      ]
+    },
+    "57": {
+      "lines": [
+        "Māra cannot find the path",
+        "of those who live with heedfulness,",
+        "whose conduct is complete",
+        "and who are free through right understanding."
+      ]
+    },
+    "58": {
+      "lines": [
+        "From refuse thrown down",
+        "beside a busy road",
+        "a lotus may rise,",
+        "pure in fragrance, a delight to the heart."
+      ]
+    },
+    "59": {
+      "lines": [
+        "So among the people in the dark,",
+        "among those like the refuse heap,",
+        "a disciple of the fully awakened Buddha",
+        "shines out through discernment."
+      ]
+    },
+    "60": {
+      "lines": [
+        "Long is the night for one who lies awake.",
+        "Long is the journey for one who is weary.",
+        "Long is saṃsāra for fools",
+        "who do not know the true teaching."
+      ]
+    },
+    "61": {
+      "lines": [
+        "If on your way you find no one",
+        "your equal or better,",
+        "walk firmly on alone.",
+        "There is no fellowship in folly."
+      ]
+    },
+    "62": {
+      "lines": [
+        "“I have children. I have wealth.”",
+        "So the fool torments themselves.",
+        "Even the self is not one's own.",
+        "How much less children or wealth?"
+      ]
+    },
+    "63": {
+      "lines": [
+        "A fool who knows their own folly",
+        "is wise in that respect.",
+        "A fool who takes themselves for wise",
+        "is rightly called a fool."
+      ]
+    },
+    "64": {
+      "lines": [
+        "A fool can sit with a wise person all their life",
+        "without knowing the taste of the Dhamma,",
+        "as a spoon never knows",
+        "the taste of soup."
+      ]
+    },
+    "65": {
+      "lines": [
+        "A discerning person can sit with the wise for a moment",
+        "and quickly know the taste of the Dhamma,",
+        "as the tongue knows",
+        "the taste of soup."
+      ]
+    },
+    "66": {
+      "lines": [
+        "Fools of little understanding",
+        "go about as their own enemies,",
+        "doing harmful deeds",
+        "that bear bitter fruit."
+      ]
+    },
+    "67": {
+      "lines": [
+        "A deed is poorly done",
+        "when you regret it afterward",
+        "and meet its ripening in tears,",
+        "weeping with a wet face."
+      ]
+    },
+    "68": {
+      "lines": [
+        "A deed is well done",
+        "when you have no regret afterward",
+        "and meet its ripening",
+        "with gladness and an easy heart."
+      ]
+    },
+    "69": {
+      "lines": [
+        "The fool takes wrongdoing for honey",
+        "while it has yet to ripen.",
+        "When the wrongdoing ripens,",
+        "the fool comes to grief."
+      ]
+    },
+    "70": {
+      "lines": [
+        "A fool may eat from the tip of a blade of kusa grass",
+        "month after month,",
+        "yet is worth not a sixteenth part",
+        "of one who has fathomed the teaching."
+      ],
+      "note": "Eating from a grass tip evokes severe ascetic restraint. The verse weighs that outward austerity against understanding the teaching."
+    },
+    "71": {
+      "lines": [
+        "A harmful deed does not ripen at once,",
+        "as fresh milk does not turn at once.",
+        "It follows the fool and burns",
+        "like a fire hidden under ash."
+      ],
+      "note": "The Pāli muccati is difficult in this image. This draft follows the curdling interpretation supported by the comparative readings. Ṭhānissaro Bhikkhu instead understands the Pāli as the deed’s result not coming out at once."
+    },
+    "72": {
+      "lines": [
+        "Whatever recognition a fool gains",
+        "only turns to harm.",
+        "It destroys what is bright in them",
+        "and splits their very head."
+      ]
+    },
+    "73": {
+      "lines": [
+        "A fool may want esteem they have not earned,",
+        "precedence among monastics,",
+        "authority over dwellings,",
+        "and honor from other households."
+      ]
+    },
+    "74": {
+      "lines": [
+        "“Let householders and renunciants alike",
+        "think that I alone did this.",
+        "Whatever the business, large or small,",
+        "let them all follow my wishes.”",
+        "So the fool resolves,",
+        "and their desire and conceit grow."
+      ]
+    },
+    "75": {
+      "lines": [
+        "The way to gain is one thing.",
+        "The way to nibbāna is another.",
+        "Knowing this directly, a monastic disciple of the Buddha",
+        "should take no delight in honors",
+        "and cultivate seclusion."
+      ]
+    },
+    "76": {
+      "lines": [
+        "If someone wise points out your faults",
+        "and corrects you, follow that person",
+        "as you would a guide to hidden treasure.",
+        "Keeping such company,",
+        "things go better for you."
+      ]
+    },
+    "77": {
+      "lines": [
+        "Let them advise, instruct,",
+        "and hold you back from harm.",
+        "The good will find them dear.",
+        "Those who do harm will not."
+      ]
+    },
+    "78": {
+      "lines": [
+        "Keep company with good friends,",
+        "with people of the highest character.",
+        "Leave the company of bad friends",
+        "and those whose conduct is base."
+      ]
+    },
+    "79": {
+      "lines": [
+        "One who drinks in the Dhamma rests easily",
+        "with a clear and trusting heart.",
+        "The wise always delight in the teaching",
+        "made known by the noble ones."
+      ],
+      "note": "The Pāli can be understood as drinking in the Dhamma or taking joy in it. The Patna text supports the drinking image. Gāndhārī and Sanskrit support the sense of joy."
+    },
+    "80": {
+      "lines": [
+        "Irrigators guide the water.",
+        "Fletchers shape the arrow.",
+        "Carpenters shape the wood.",
+        "The wise train themselves."
+      ]
+    },
+    "81": {
+      "lines": [
+        "A single mass of rock",
+        "is not stirred by the wind.",
+        "The wise are just as steady",
+        "amid blame and praise."
+      ]
+    },
+    "82": {
+      "lines": [
+        "A deep lake lies clear,",
+        "its waters undisturbed.",
+        "So the hearts of the wise grow clear",
+        "when they hear the teaching."
+      ]
+    },
+    "83": {
+      "lines": [
+        "Good people let go wherever they are.",
+        "They do not cajole to get their pleasures.",
+        "When touched by happiness or pain,",
+        "the wise show no rise or fall."
+      ]
+    },
+    "84": {
+      "lines": [
+        "For yourself or for another,",
+        "do not seek children, wealth, or a kingdom through wrongdoing.",
+        "Seek no prosperity through injustice.",
+        "Live with virtue, discernment, and integrity."
+      ]
+    },
+    "85": {
+      "lines": [
+        "Few among people",
+        "reach the far shore.",
+        "The rest run back and forth",
+        "along this bank."
+      ]
+    },
+    "86": {
+      "lines": [
+        "Those who live according to the Dhamma",
+        "when it has been rightly taught",
+        "will reach the far shore,",
+        "crossing the realm of death so hard to cross."
+      ]
+    },
+    "87": {
+      "lines": [
+        "The wise leave dark qualities behind",
+        "and develop the bright.",
+        "Leaving home for homelessness,",
+        "they enter seclusion, where delight is hard to find."
+      ]
+    },
+    "88": {
+      "lines": [
+        "Let them find delight there,",
+        "leaving sensual pleasures and possessions behind.",
+        "Let the wise cleanse themselves",
+        "of the stains of the mind."
+      ]
+    },
+    "89": {
+      "lines": [
+        "Those whose minds are well developed",
+        "in the factors of awakening,",
+        "who delight in giving up what they grasped,",
+        "who hold to nothing,",
+        "bright, their taints exhausted,",
+        "are quenched here in this world."
+      ]
+    },
+    "90": {
+      "lines": [
+        "For one whose journey is over,",
+        "free of sorrow, released on every side,",
+        "with every knot untied,",
+        "there is no burning."
+      ]
+    },
+    "91": {
+      "lines": [
+        "The mindful rouse themselves.",
+        "They take no delight in a dwelling.",
+        "As wild geese leave a pool,",
+        "they leave home after home."
+      ]
+    },
+    "92": {
+      "lines": [
+        "They lay up no stores",
+        "and understand food fully.",
+        "Their range is liberation, empty and signless.",
+        "Their course is hard to follow",
+        "as the course of birds in the sky."
+      ]
+    },
+    "93": {
+      "lines": [
+        "Their taints have run out.",
+        "They are unattached to food.",
+        "Their range is liberation, empty and signless.",
+        "Their trace is hard to follow",
+        "as the trace of birds in the sky."
+      ]
+    },
+    "94": {
+      "lines": [
+        "Their senses are calm",
+        "as horses well trained by a charioteer.",
+        "With conceit abandoned and the taints gone,",
+        "such a one is held in esteem even by the gods."
+      ]
+    },
+    "95": {
+      "lines": [
+        "Unresisting as the earth,",
+        "steady as a gatepost and true in conduct,",
+        "like a lake cleared of mud,",
+        "such a one has no further wandering."
+      ]
+    },
+    "96": {
+      "lines": [
+        "Peaceful is their mind,",
+        "peaceful their speech and action.",
+        "Through right understanding they are free,",
+        "at peace and steady."
+      ]
+    },
+    "97": {
+      "lines": [
+        "Without faith, knowing the unmade,",
+        "cutting the link, with no opening left,",
+        "having cast away expectation:",
+        "such a one is the highest person."
+      ],
+      "note": "The stanza plays with expressions that can sound like accusations. Knowing the unmade is a positive reading of akataññū. Freedom from dependence on faith and the cutting of the link point to direct knowledge and the end of renewed becoming."
+    },
+    "98": {
+      "lines": [
+        "Village or forest,",
+        "lowland or high ground,",
+        "wherever arahants live,",
+        "that place is lovely."
+      ]
+    },
+    "99": {
+      "lines": [
+        "Lovely are the forests",
+        "in which most people find no delight.",
+        "Those free of passion delight there,",
+        "for they do not seek sensual pleasures."
+      ]
+    },
+    "100": {
+      "lines": [
+        "A thousand words that carry no meaning",
+        "are worth less than one meaningful word",
+        "that brings peace to the one who hears it."
+      ],
+      "note": "The Tibetan parallel has a hundred stanzas instead of a thousand words. Both value the effect of hearing over the quantity recited."
+    },
+    "101": {
+      "lines": [
+        "A thousand verses that carry no meaning",
+        "are worth less than one line of verse",
+        "that brings peace to the one who hears it."
+      ]
+    },
+    "102": {
+      "lines": [
+        "A hundred verses spoken without meaning",
+        "are worth less than one saying of the Dhamma",
+        "that brings peace to the one who hears it."
+      ]
+    },
+    "103": {
+      "lines": [
+        "Though you conquer a thousand times a thousand",
+        "people on the battlefield,",
+        "the greatest victory in battle",
+        "is to conquer yourself alone."
+      ]
+    },
+    "104": {
+      "lines": [
+        "Victory over oneself is better",
+        "than victory over all those other people.",
+        "When a person has tamed themselves",
+        "and always lives with restraint,"
+      ]
+    },
+    "105": {
+      "lines": [
+        "no god or heavenly musician,",
+        "nor Māra, nor Brahmā,",
+        "can turn the victory",
+        "of such a person into defeat."
+      ],
+      "note": "Gandhabba refers to a class of celestial beings associated with music. Verses 104–105 form a single argument."
+    },
+    "106": {
+      "lines": [
+        "Though you make a thousandfold sacrifice",
+        "month after month for a hundred years,",
+        "to honor for a moment",
+        "one who has cultivated themselves",
+        "is a finer act of reverence",
+        "than a century of sacrifice."
+      ],
+      "note": "Pāli praises honoring a cultivated person. The Chinese counterpart praises recollection of the Dhamma, while a related Tibetan passage praises faith in the Buddha."
+    },
+    "107": {
+      "lines": [
+        "Though you tend the sacred fire",
+        "in the forest for a hundred years,",
+        "to honor for a moment",
+        "one who has cultivated themselves",
+        "is a finer act of reverence",
+        "than a century of sacrifice."
+      ],
+      "note": "The Chinese counterpart names the Three Honored Ones in the place where Pāli speaks of honoring a cultivated person."
+    },
+    "108": {
+      "lines": [
+        "Whatever a seeker of merit",
+        "may sacrifice or offer in a year,",
+        "all of it falls short of a quarter",
+        "of the worth of bowing to the upright."
+      ]
+    },
+    "109": {
+      "lines": [
+        "For someone who makes a habit of bowing",
+        "and always honors their elders,",
+        "four things increase:",
+        "long life, beauty, happiness, and strength."
+      ]
+    },
+    "110": {
+      "lines": [
+        "Better one day of life",
+        "with virtue and meditation",
+        "than a hundred years",
+        "without virtue or a settled mind."
+      ],
+      "note": "The Tibetan parallel speaks of a few days, as do several of its following counterparts in this sequence."
+    },
+    "111": {
+      "lines": [
+        "Better one day of life",
+        "with wisdom and meditation",
+        "than a hundred years",
+        "without wisdom or a settled mind."
+      ]
+    },
+    "112": {
+      "lines": [
+        "Better one day of life",
+        "rousing firm effort",
+        "than a hundred years",
+        "in laziness and lack of effort."
+      ]
+    },
+    "113": {
+      "lines": [
+        "Better one day of life",
+        "seeing arising and passing away",
+        "than a hundred years",
+        "without seeing arising and passing away."
+      ]
+    },
+    "114": {
+      "lines": [
+        "Better one day of life",
+        "seeing the Deathless",
+        "than a hundred years",
+        "without seeing the Deathless."
+      ],
+      "note": "The Deathless (amata) is an epithet for nibbāna. The Tibetan counterpart refers to the unchanging state."
+    },
+    "115": {
+      "lines": [
+        "Better one day of life",
+        "seeing the highest Dhamma",
+        "than a hundred years",
+        "without seeing the highest Dhamma."
+      ],
+      "note": "The recorded Tibetan counterpart speaks of seeing a state difficult to see and contrasts a century with a few days."
+    },
+    "116": {
+      "lines": [
+        "Be quick to do what is good.",
+        "Hold the mind back from evil.",
+        "When one is slow to do good,",
+        "the mind finds pleasure in evil."
+      ]
+    },
+    "117": {
+      "lines": [
+        "If you do an evil deed,",
+        "do not keep doing it.",
+        "Do not take a liking to it.",
+        "The accumulation of evil brings pain."
+      ]
+    },
+    "118": {
+      "lines": [
+        "If you do a good deed,",
+        "do it again and again.",
+        "Take a liking to it.",
+        "The accumulation of good brings happiness."
+      ]
+    },
+    "119": {
+      "lines": [
+        "One who does evil may see good things",
+        "while the evil has yet to ripen.",
+        "When the evil ripens,",
+        "that person sees its bitter fruit."
+      ]
+    },
+    "120": {
+      "lines": [
+        "One who does good may see bad things",
+        "while the good has yet to ripen.",
+        "When the good ripens,",
+        "that person sees its good fruit."
+      ]
+    },
+    "121": {
+      "lines": [
+        "Do not make light of evil,",
+        "thinking it will never reach you.",
+        "A water jar fills",
+        "with drops falling one by one.",
+        "Little by little the fool",
+        "fills up with evil."
+      ]
+    },
+    "122": {
+      "lines": [
+        "Do not make light of good,",
+        "thinking it will never reach you.",
+        "A water jar fills",
+        "with drops falling one by one.",
+        "Little by little the discerning person",
+        "fills up with good."
+      ]
+    },
+    "123": {
+      "lines": [
+        "Stay clear of evil",
+        "as a merchant with great wealth and few companions",
+        "keeps clear of a dangerous road,",
+        "as one who wishes to live keeps clear of poison."
+      ]
+    },
+    "124": {
+      "lines": [
+        "With no wound on your hand,",
+        "you can carry poison in it.",
+        "Poison cannot enter unwounded skin.",
+        "Evil does not accrue to one who does no evil."
+      ],
+      "note": "The last line concerns what accrues from one’s own conduct. The preceding pair, 119–120, explicitly allows that a person doing good may still encounter adversity."
+    },
+    "125": {
+      "lines": [
+        "When a fool wrongs one who has done no wrong,",
+        "a person pure and free of stain,",
+        "the evil comes back upon that fool",
+        "like fine dust thrown against the wind."
+      ]
+    },
+    "126": {
+      "lines": [
+        "Some are born in a womb.",
+        "Those who do evil go to hell.",
+        "Those of good conduct go to heaven.",
+        "Those free of the taints are fully extinguished."
+      ],
+      "note": "“Fully extinguished” renders parinibbanti. Its subject is the extinguishing of the fires of attachment, aversion, and delusion."
+    },
+    "127": {
+      "lines": [
+        "Neither in the sky nor out at sea,",
+        "nor deep in a cleft in the mountains,",
+        "is there a place in all the world",
+        "where you can escape an evil deed."
+      ]
+    },
+    "128": {
+      "lines": [
+        "Neither in the sky nor out at sea,",
+        "nor deep in a cleft in the mountains,",
+        "is there a place in all the world",
+        "where death cannot overtake you."
+      ]
+    },
+    "129": {
+      "lines": [
+        "All tremble before the rod.",
+        "All are afraid of death.",
+        "Taking yourself as the measure,",
+        "do not kill or have another kill."
+      ],
+      "note": "The Patna and Sanskrit counterparts give the second line as the love of life, like Pāli verse 130."
+    },
+    "130": {
+      "lines": [
+        "All tremble before the rod.",
+        "Life is dear to all.",
+        "Taking yourself as the measure,",
+        "do not kill or have another kill."
+      ]
+    },
+    "131": {
+      "lines": [
+        "One who seeks happiness for themselves",
+        "but strikes beings who also seek happiness",
+        "will find no happiness",
+        "after death."
+      ]
+    },
+    "132": {
+      "lines": [
+        "One who seeks happiness for themselves",
+        "and does not strike beings who also seek happiness",
+        "will find happiness",
+        "after death."
+      ]
+    },
+    "133": {
+      "lines": [
+        "Do not speak harshly to anyone.",
+        "They may answer you in kind.",
+        "Hostile words bring pain,",
+        "and blows may come back upon you."
+      ]
+    },
+    "134": {
+      "lines": [
+        "If you make yourself as still",
+        "as a cracked gong,",
+        "you have reached nibbāna.",
+        "There is no hostility left in you."
+      ],
+      "note": "The Pāli gong can be understood as broken and therefore silent. The Sanskrit comparison and the second Patna stanza use the image of an unstruck gong. Patna also gives the opposite case in a separate stanza."
+    },
+    "135": {
+      "lines": [
+        "As a herder drives cattle",
+        "to pasture with a stick,",
+        "old age and death",
+        "drive on the lives of beings."
+      ]
+    },
+    "136": {
+      "lines": [
+        "The fool does evil deeds",
+        "without understanding what they do.",
+        "Their own actions torment them",
+        "like the pain of a burn."
+      ]
+    },
+    "137": {
+      "lines": [
+        "Whoever raises a rod against the defenseless",
+        "and harms the innocent",
+        "will soon meet",
+        "one of ten misfortunes:"
+      ]
+    },
+    "138": {
+      "lines": [
+        "Sharp pain or loss,",
+        "bodily injury or grave illness,",
+        "or the derangement of the mind;"
+      ]
+    },
+    "139": {
+      "lines": [
+        "Peril from the ruler,",
+        "a cruel false accusation,",
+        "the ruin of one’s kin,",
+        "or the breaking up of one’s wealth;"
+      ]
+    },
+    "140": {
+      "lines": [
+        "Or a fire consumes their home.",
+        "When their body breaks up,",
+        "that undiscerning person",
+        "is reborn in hell."
+      ]
+    },
+    "141": {
+      "lines": [
+        "Nudity, matted hair, and mud,",
+        "fasting and sleeping on bare ground,",
+        "dust, dirt, and the exertion of squatting:",
+        "none purifies one who has yet to cross beyond doubt."
+      ]
+    },
+    "142": {
+      "lines": [
+        "Even wearing ornaments, one who lives equably,",
+        "peaceful, tamed, restrained, and devoted to the holy life,",
+        "who has laid down the rod toward every being,",
+        "is a brahmin, an ascetic, a mendicant."
+      ],
+      "note": "Several parallels say “lives by the Dhamma” where Pāli has samaṁ, living equably or uprightly. The contrast is between outward dress and conduct."
+    },
+    "143": {
+      "lines": [
+        "Is there anyone in the world",
+        "held back by conscience,",
+        "who avoids reproach",
+        "as a fine horse avoids the whip?"
+      ],
+      "note": "The English follows the reproach reading nindaṁ in Ānandajoti’s comparative edition. The pinned Pāli reads niddaṁ, allowing a reading about rousing from sleep."
+    },
+    "144": {
+      "lines": [
+        "Like a fine horse touched by the whip,",
+        "be ardent and feel the urgency.",
+        "With trust, virtue, effort,",
+        "collectedness, and discernment of the Dhamma,",
+        "mindful and accomplished in knowledge and conduct,",
+        "you will leave this great suffering behind."
+      ]
+    },
+    "145": {
+      "lines": [
+        "Irrigators guide the water.",
+        "Arrow-makers straighten their shafts.",
+        "Carpenters shape the wood.",
+        "Those who keep their vows tame themselves."
+      ],
+      "note": "The Sanskrit counterpart closes with the wise taming themselves. Pāli here names those of good observance, where verse 80 names the wise."
+    },
+    "146": {
+      "lines": [
+        "What laughter, what delight,",
+        "while the fire keeps burning?",
+        "Wrapped in darkness,",
+        "will you not look for a lamp?"
+      ]
+    },
+    "147": {
+      "lines": [
+        "Look at this painted figure:",
+        "a frame built up around sores,",
+        "afflicted and beset by thoughts,",
+        "with nothing in it that holds steady."
+      ]
+    },
+    "148": {
+      "lines": [
+        "This body wears out,",
+        "a brittle nest of disease.",
+        "The foul mass falls apart.",
+        "Life comes to its end in death."
+      ]
+    },
+    "149": {
+      "lines": [
+        "These dove-gray bones",
+        "lie scattered like gourds in autumn.",
+        "What delight is there",
+        "in looking at them?"
+      ]
+    },
+    "150": {
+      "lines": [
+        "A city built of bones,",
+        "plastered with flesh and blood.",
+        "Here lie old age and death,",
+        "conceit and contempt."
+      ]
+    },
+    "151": {
+      "lines": [
+        "A king’s splendid chariots wear out.",
+        "The body, too, grows old.",
+        "The Dhamma of the good does not grow old.",
+        "The good pass it on to the good."
+      ]
+    },
+    "152": {
+      "lines": [
+        "A person of little learning",
+        "grows old like a plow ox.",
+        "Their flesh grows.",
+        "Their wisdom does not."
+      ]
+    },
+    "153": {
+      "lines": [
+        "Through the round of many births",
+        "I ran, seeking the house-builder,",
+        "and did not find him.",
+        "Painful is birth again and again."
+      ]
+    },
+    "154": {
+      "lines": [
+        "House-builder, I have seen you.",
+        "You will build no house again.",
+        "All your rafters are broken.",
+        "The ridgepole has come down.",
+        "My mind has reached the unconstructed.",
+        "Craving has come to an end."
+      ],
+      "note": "The traditional reading understands the house-builder as craving. The dismantled house carries that meaning through the image. The Sanskrit counterpart retains the building image and ends without explicitly naming craving."
+    },
+    "155": {
+      "lines": [
+        "Those who did not live the holy life",
+        "or gain wealth while young",
+        "brood like old cranes",
+        "at a pond with no fish left."
+      ]
+    },
+    "156": {
+      "lines": [
+        "Those who did not live the holy life",
+        "or gain wealth while young",
+        "lie like arrows spent from the bow,",
+        "lamenting what has passed."
+      ]
+    },
+    "157": {
+      "lines": [
+        "If you know that you are dear to yourself,",
+        "keep good watch over yourself.",
+        "Through at least one of the night’s three watches,",
+        "a wise person would stay alert."
+      ],
+      "note": "The night’s three watches can be read literally. Traditional interpretation also takes them as stages of life."
+    },
+    "158": {
+      "lines": [
+        "First establish yourself",
+        "in what is fitting.",
+        "Then teach others.",
+        "In this way the wise avoid corruption."
+      ]
+    },
+    "159": {
+      "lines": [
+        "If you do as you teach others,",
+        "then, tamed yourself, you can tame another.",
+        "For oneself, they say,",
+        "is hard to tame."
+      ],
+      "note": "The Derge Tibetan counterpart ends in the joy of taming oneself. The Pāli closes on how difficult the work is."
+    },
+    "160": {
+      "lines": [
+        "You are your own protector.",
+        "Who else could protect you?",
+        "With yourself well tamed,",
+        "you gain a protector hard to find."
+      ],
+      "note": "Here attā works as the ordinary reflexive “oneself.” The Chinese counterpart frames the matter as training oneself to be of benefit to others."
+    },
+    "161": {
+      "lines": [
+        "The evil you do yourself,",
+        "born in you and arising from you,",
+        "crushes the undiscerning",
+        "as a diamond crushes a stone-born gem."
+      ]
+    },
+    "162": {
+      "lines": [
+        "As a creeper smothers a sal tree,",
+        "utter misconduct overtakes a person.",
+        "They do to themselves",
+        "what an enemy wishes upon them."
+      ]
+    },
+    "163": {
+      "lines": [
+        "It is easy to do what is wrong",
+        "and harmful to yourself.",
+        "What is good and beneficial",
+        "is exceedingly hard to do."
+      ]
+    },
+    "164": {
+      "lines": [
+        "A fool who clings to a harmful view",
+        "and rejects the teaching of the arahants,",
+        "the noble ones who live by the Dhamma,",
+        "bears fruit only to their own undoing,",
+        "like a bamboo that fruits and dies."
+      ],
+      "note": "The bamboo image is Pāli and Tibetan. The Chinese counterpart uses the image of bitter seed."
+    },
+    "165": {
+      "lines": [
+        "By your own doing is evil done,",
+        "by your own doing are you defiled.",
+        "By your own doing is evil left undone,",
+        "by your own doing are you purified.",
+        "Purity and impurity are each one’s own affair.",
+        "No one can purify another."
+      ]
+    },
+    "166": {
+      "lines": [
+        "Do not neglect your own true good",
+        "for the sake of another’s, however great.",
+        "Having understood your own true good,",
+        "devote yourself to it."
+      ],
+      "note": "The traditional context takes one’s true good to be progress on the path. The Chinese counterpart emphasizes benefiting oneself and others together."
+    },
+    "167": {
+      "lines": [
+        "Do not take up a low way of life",
+        "or make a home in heedlessness.",
+        "Do not cultivate wrong views",
+        "or add to the round of the world."
+      ],
+      "note": "“Add to the round of the world” reads lokavaḍḍhano in the context of perpetuating saṁsāra. The expression is more literally “one who increases the world.”"
+    },
+    "168": {
+      "lines": [
+        "Rise up and be heedful.",
+        "Live by the Dhamma with good conduct.",
+        "One who lives by the Dhamma rests at ease",
+        "in this world and the next."
+      ]
+    },
+    "169": {
+      "lines": [
+        "Live by the Dhamma with good conduct.",
+        "Do not go the way of misconduct.",
+        "One who lives by the Dhamma rests at ease",
+        "in this world and the next."
+      ]
+    },
+    "170": {
+      "lines": [
+        "See the world as you would see a bubble,",
+        "as you would see a mirage.",
+        "The King of Death",
+        "does not see one who looks at the world this way."
+      ]
+    },
+    "171": {
+      "lines": [
+        "Come and see this world,",
+        "ornate as a king’s chariot.",
+        "Fools sink into it.",
+        "Those who understand are free of its bonds."
+      ]
+    },
+    "172": {
+      "lines": [
+        "Someone who was heedless before",
+        "and is heedful now",
+        "lights up this world",
+        "like the moon freed from a cloud."
+      ]
+    },
+    "173": {
+      "lines": [
+        "Someone whose harmful deeds",
+        "are covered over by skillful ones",
+        "lights up this world",
+        "like the moon freed from a cloud."
+      ],
+      "note": "“Covered over” preserves the verb pidhīyati and the image of light breaking through. The verse affirms a change of conduct."
+    },
+    "174": {
+      "lines": [
+        "This world has gone blind.",
+        "Few here see clearly.",
+        "Few make their way to heaven,",
+        "like a bird that has escaped a net."
+      ]
+    },
+    "175": {
+      "lines": [
+        "Swans fly along the sun’s path.",
+        "Those with powers travel through the sky.",
+        "The wise go beyond the world,",
+        "having overcome Māra and his army."
+      ]
+    },
+    "176": {
+      "lines": [
+        "For one who has crossed this one line,",
+        "who lies and casts aside the world to come,",
+        "there is no evil",
+        "they would shrink from doing."
+      ]
+    },
+    "177": {
+      "lines": [
+        "Misers do not go to the realm of the gods.",
+        "Fools see nothing to praise in giving.",
+        "The wise rejoice in the gifts of others,",
+        "and because of this are happy hereafter."
+      ]
+    },
+    "178": {
+      "lines": [
+        "Better than sole rule over the earth,",
+        "better than going to heaven,",
+        "better than dominion over all worlds",
+        "is the fruit of entering the stream."
+      ],
+      "note": "The stream is entry into the noble path. Patna names gaining human birth among the comparisons, where Pāli names dominion over all worlds."
+    },
+    "179": {
+      "lines": [
+        "His victory cannot be undone.",
+        "No one in the world can overtake it.",
+        "The Buddha’s range is boundless.",
+        "By what track would you trace one who leaves no track?"
+      ]
+    },
+    "180": {
+      "lines": [
+        "Craving, the net-maker, the clinger,",
+        "has no hold by which to lead him anywhere.",
+        "The Buddha’s range is boundless.",
+        "By what track would you trace one who leaves no track?"
+      ]
+    },
+    "181": {
+      "lines": [
+        "The wise who give themselves to deep meditation",
+        "and delight in the peace of renunciation,",
+        "awake and mindful,",
+        "are envied even by the gods."
+      ]
+    },
+    "182": {
+      "lines": [
+        "Hard to come by is human birth.",
+        "Hard is the life of mortals.",
+        "Hard to come by is hearing the true Dhamma.",
+        "Rare is the arising of Buddhas."
+      ]
+    },
+    "183": {
+      "lines": [
+        "Do no evil.",
+        "Cultivate what is skillful.",
+        "Cleanse your own mind.",
+        "This is the teaching of the Buddhas."
+      ],
+      "note": "Some parallels give the last line in the singular, as the teaching of the Buddha. Pāli uses the plural."
+    },
+    "184": {
+      "lines": [
+        "Patient endurance is the highest austerity.",
+        "The Buddhas say nibbāna is supreme.",
+        "A renunciant does not injure another.",
+        "One who torments others is no ascetic."
+      ]
+    },
+    "185": {
+      "lines": [
+        "Refrain from abuse and injury.",
+        "Keep restraint under the monastic code.",
+        "Know the right measure in eating.",
+        "Choose a secluded place to rest.",
+        "Devote yourself to the higher training of the mind.",
+        "This is the teaching of the Buddhas."
+      ],
+      "note": "The monastic code is the Pātimokkha. The list joins bodily and verbal conduct with cultivation of the mind."
+    },
+    "186": {
+      "lines": [
+        "Even a rain of coins",
+        "could not satisfy sensual desire.",
+        "Knowing how little sweetness sense pleasures give",
+        "and how much pain they bring,"
+      ]
+    },
+    "187": {
+      "lines": [
+        "the wise find no delight",
+        "even in pleasures of the gods.",
+        "The disciple of the fully awakened Buddha",
+        "delights in the ending of craving."
+      ]
+    },
+    "188": {
+      "lines": [
+        "Driven by fear,",
+        "people seek many places of refuge:",
+        "mountains and forests,",
+        "parks, trees, and shrines."
+      ]
+    },
+    "189": {
+      "lines": [
+        "Such a refuge gives no safety.",
+        "It is no highest refuge.",
+        "By going to that refuge",
+        "one is not released from all suffering."
+      ]
+    },
+    "190": {
+      "lines": [
+        "One who goes for refuge",
+        "to the Buddha, the Dhamma, and the Saṅgha",
+        "sees the four noble truths",
+        "with right discernment:"
+      ]
+    },
+    "191": {
+      "lines": [
+        "Suffering, the arising of suffering,",
+        "the passing beyond suffering,",
+        "and the noble eightfold path",
+        "that leads to the stilling of suffering."
+      ]
+    },
+    "192": {
+      "lines": [
+        "This is the refuge that gives safety.",
+        "This is the highest refuge.",
+        "By going to this refuge",
+        "one is released from all suffering."
+      ]
+    },
+    "193": {
+      "lines": [
+        "Rare is a person of the highest caliber.",
+        "Such a person is not born just anywhere.",
+        "Where that wise one is born,",
+        "the family flourishes in happiness."
+      ]
+    },
+    "194": {
+      "lines": [
+        "A joy is the arising of Buddhas.",
+        "A joy is the teaching of the true Dhamma.",
+        "A joy is harmony in the Saṅgha.",
+        "Joyful is the practice of those in harmony."
+      ]
+    },
+    "195": {
+      "lines": [
+        "When you honor those worthy of honor,",
+        "the awakened ones or their disciples,",
+        "who have gone beyond the mind’s proliferations",
+        "and crossed over grief and lamentation,"
+      ]
+    },
+    "196": {
+      "lines": [
+        "who are quenched and have nothing to fear,",
+        "no one can reckon the merit",
+        "of honoring such people",
+        "and say, “This is how much it is.”"
+      ]
+    },
+    "197": {
+      "lines": [
+        "How happily we live,",
+        "free of hostility among the hostile.",
+        "Among people who bear hostility,",
+        "we live with none."
+      ]
+    },
+    "198": {
+      "lines": [
+        "How happily we live,",
+        "unafflicted among the afflicted.",
+        "Among people who suffer affliction,",
+        "we live untroubled."
+      ]
+    },
+    "199": {
+      "lines": [
+        "How happily we live,",
+        "free of restless longing among the restless.",
+        "Among people with restless longings,",
+        "we live without that longing."
+      ]
+    },
+    "200": {
+      "lines": [
+        "How happily we live,",
+        "we who have nothing to hold to.",
+        "Joy will be our food,",
+        "as it is for the radiant gods."
+      ],
+      "note": "Patna and Gāndhārī keep the contrast between those who have something and those who have nothing. Pāli and Sanskrit also give the radiant gods and their food of joy."
+    },
+    "201": {
+      "lines": [
+        "Victory breeds hostility.",
+        "The defeated lie down in pain.",
+        "The peaceful lie down at ease,",
+        "having let go of both victory and defeat."
+      ]
+    },
+    "202": {
+      "lines": [
+        "No fire is like passion.",
+        "No calamity is like hatred.",
+        "No suffering is like the aggregates.",
+        "No happiness surpasses peace."
+      ],
+      "note": "The aggregates (khandhā) are form, feeling, perception, formations, and consciousness. The line situates suffering in the constituents of lived experience."
+    },
+    "203": {
+      "lines": [
+        "Hunger is the worst disease.",
+        "Conditioned formations are the deepest suffering.",
+        "Knowing this as it is,",
+        "one knows nibbāna as the highest happiness."
+      ]
+    },
+    "204": {
+      "lines": [
+        "Health is the greatest gain.",
+        "Contentment is the greatest wealth.",
+        "A trusted friend is the closest kin.",
+        "Nibbāna is the highest happiness."
+      ]
+    },
+    "205": {
+      "lines": [
+        "One who has tasted seclusion",
+        "and tasted stillness",
+        "is free of distress and wrongdoing,",
+        "drinking in the joy of the Dhamma."
+      ]
+    },
+    "206": {
+      "lines": [
+        "It is good to see the noble ones.",
+        "To live with them is always a joy.",
+        "To stay clear of fools",
+        "would be a lasting happiness."
+      ]
+    },
+    "207": {
+      "lines": [
+        "One who keeps company with fools",
+        "sorrows for a long time.",
+        "Life with fools is painful,",
+        "as life with an enemy always is.",
+        "Life with the wise is a joy,",
+        "like coming together with family."
+      ]
+    },
+    "208": {
+      "lines": [
+        "So follow a person who is wise and learned,",
+        "steady in conduct, true to their vows, and noble.",
+        "Keep company with a good and discerning person,",
+        "as the moon follows the path of the stars."
+      ]
+    },
+    "209": {
+      "lines": [
+        "Devoted to what is unworthy of effort,",
+        "neglecting what is worthy of effort,",
+        "you let go of your aim and cling to what you like.",
+        "Then you envy those who keep working on themselves."
+      ],
+      "note": "Patna and Sanskrit give the final object as those devoted to the aim. The pinned Pāli has attānuyoginaṁ, those devoted to training themselves."
+    },
+    "210": {
+      "lines": [
+        "Do not bind yourself to those you hold dear",
+        "or to those you find disagreeable.",
+        "It hurts to be parted from the dear",
+        "and to be faced with the disagreeable."
+      ]
+    },
+    "211": {
+      "lines": [
+        "So do not fasten on what is dear.",
+        "Parting from those held dear is painful.",
+        "There are no knots for those",
+        "who hold nothing dear or hateful."
+      ],
+      "note": "Here Pāli names parting from what is dear. Sanskrit names the state of holding something dear. Both use the image of bonds."
+    },
+    "212": {
+      "lines": [
+        "From holding dear comes sorrow.",
+        "From holding dear comes fear.",
+        "For one released from holding dear",
+        "there is no sorrow. Where could fear arise?"
+      ]
+    },
+    "213": {
+      "lines": [
+        "From fond attachment comes sorrow.",
+        "From fond attachment comes fear.",
+        "For one released from fond attachment",
+        "there is no sorrow. Where could fear arise?"
+      ]
+    },
+    "214": {
+      "lines": [
+        "From relishing comes sorrow.",
+        "From relishing comes fear.",
+        "For one released from relishing",
+        "there is no sorrow. Where could fear arise?"
+      ]
+    },
+    "215": {
+      "lines": [
+        "From sensual desire comes sorrow.",
+        "From sensual desire comes fear.",
+        "For one released from sensual desire",
+        "there is no sorrow. Where could fear arise?"
+      ]
+    },
+    "216": {
+      "lines": [
+        "From craving comes sorrow.",
+        "From craving comes fear.",
+        "For one released from craving",
+        "there is no sorrow. Where could fear arise?"
+      ],
+      "note": "Verses 212–216 retain their distinct opening terms: what is dear, affectionate attachment, relishing, sensual desire, and craving."
+    },
+    "217": {
+      "lines": [
+        "Established in virtue and vision,",
+        "standing firm in the Dhamma and knowing truth,",
+        "doing what is theirs to do,",
+        "such a person is dear to others."
+      ]
+    },
+    "218": {
+      "lines": [
+        "When aspiration for the unspoken has arisen",
+        "and the mind is filled with it,",
+        "their heart no longer bound to sensual pleasures,",
+        "one is called a traveler upstream."
+      ],
+      "note": "“The unspoken” traditionally points to nibbāna. “Upstream” also names a kind of non-returner in the early texts."
+    },
+    "219": {
+      "lines": [
+        "When a traveler long away from home",
+        "returns safely from afar,",
+        "kin, friends, and loved ones",
+        "rejoice at their arrival."
+      ]
+    },
+    "220": {
+      "lines": [
+        "So too, when a person who has done good",
+        "goes from this world to the next,",
+        "their good deeds receive them",
+        "like kin welcoming home someone dear."
+      ]
+    },
+    "221": {
+      "lines": [
+        "Let anger go, put conceit aside,",
+        "and pass beyond every fetter.",
+        "Suffering cannot overtake one who grasps at nothing",
+        "and clings to neither name nor form."
+      ],
+      "note": "“Name and form” renders nāmarūpa, a technical pairing for the mental and bodily aspects of experience. “Fetters” keeps the image of bonds that tie beings to suffering."
+    },
+    "222": {
+      "lines": [
+        "When anger rears, rein it in",
+        "as you would a runaway chariot.",
+        "That is the one I call a charioteer.",
+        "The others merely hold the reins."
+      ]
+    },
+    "223": {
+      "lines": [
+        "Overcome anger with a mind free of anger,",
+        "harmful conduct with goodness,",
+        "the miser with a gift,",
+        "and the liar with truth."
+      ]
+    },
+    "224": {
+      "lines": [
+        "Speak truth. Give no way to anger.",
+        "When asked, give what little you can.",
+        "By these three practices",
+        "one comes into the company of the gods."
+      ]
+    },
+    "225": {
+      "lines": [
+        "Sages who do no harm,",
+        "always restrained in what they do,",
+        "go to a place that cannot fall away.",
+        "Once there, they grieve no more."
+      ]
+    },
+    "226": {
+      "lines": [
+        "For those who keep awake,",
+        "training through the night and day,",
+        "with their hearts set on nibbāna,",
+        "the taints come to an end."
+      ],
+      "note": "Nibbāna is the goal of liberation. “Taints” renders āsavā, the deep tendencies whose exhaustion marks liberation."
+    },
+    "227": {
+      "lines": [
+        "This is an old story, Atula.",
+        "It did not begin today.",
+        "They fault the one who sits in silence,",
+        "fault the one who talks at length,",
+        "and fault the one who speaks in measure.",
+        "No one in the world goes unblamed."
+      ]
+    },
+    "228": {
+      "lines": [
+        "There never was and never will be,",
+        "nor is there anyone now,",
+        "who is blamed without exception",
+        "or praised without exception."
+      ]
+    },
+    "229": {
+      "lines": [
+        "But when discerning people examine someone day after day",
+        "and praise that person as wise,",
+        "unblemished in conduct,",
+        "grounded in wisdom and virtue,"
+      ]
+    },
+    "230": {
+      "lines": [
+        "who could rightly fault them,",
+        "fine as an ornament of Jambu River gold?",
+        "The gods themselves speak well of them.",
+        "Even Brahmā gives them praise."
+      ],
+      "note": "The Pāli, Patna 287, and Gāndhārī 242 praise the person with an image of Jambu River gold and name the gods and Brahmā. The Tibetan excerpt at Derge 72, 240a.6 keeps the gold and blame lines. Chinese T210 25.11 invokes an arhat’s purity and praise by Brahmā and Śakra."
+    },
+    "231": {
+      "lines": [
+        "Guard against anger in your actions.",
+        "Keep restraint in what you do.",
+        "Lay aside harmful deeds",
+        "and practice good conduct in their place."
+      ]
+    },
+    "232": {
+      "lines": [
+        "Guard against anger in your speech.",
+        "Keep restraint in what you say.",
+        "Lay aside harmful words",
+        "and practice good speech in their place."
+      ]
+    },
+    "233": {
+      "lines": [
+        "Guard against anger in your mind.",
+        "Keep restraint in what you think.",
+        "Lay aside harmful thoughts",
+        "and cultivate good ones in their place."
+      ]
+    },
+    "234": {
+      "lines": [
+        "The wise are restrained in deed",
+        "and restrained in speech.",
+        "They are restrained in mind as well.",
+        "Their restraint is complete."
+      ]
+    },
+    "235": {
+      "lines": [
+        "Already you are like a yellowing leaf.",
+        "Yama’s messengers stand ready for you.",
+        "You are at the threshold of departure",
+        "with no provisions for the road."
+      ]
+    },
+    "236": {
+      "lines": [
+        "Make an island for yourself.",
+        "Make haste, exert yourself, grow wise.",
+        "With the dross blown off and the stains gone,",
+        "you will reach the heavenly ground of the noble ones."
+      ],
+      "note": "Dīpa can mean “lamp” or “island” in Pāli. The Sanskrit parallel to the repeated line in verse 238 (Udānavarga 16.3) has dvīpa, “island.” The island is a place of refuge."
+    },
+    "237": {
+      "lines": [
+        "Your years have brought you to the end.",
+        "You have set out to meet Yama.",
+        "There is nowhere to lodge along the way",
+        "and no provisions for the road."
+      ]
+    },
+    "238": {
+      "lines": [
+        "Make an island for yourself.",
+        "Make haste, exert yourself, grow wise.",
+        "With the dross blown off and the stains gone,",
+        "you will never come to birth and aging again."
+      ],
+      "note": "The Sanskrit Udānavarga 16.3 joins the island and freedom-from-rebirth lines to a smith’s removal of dross, an image Pāli places in the next verse."
+    },
+    "239": {
+      "lines": [
+        "Slowly, little by little,",
+        "moment after moment,",
+        "the wise blow away their own dross",
+        "as a smith refines silver."
+      ]
+    },
+    "240": {
+      "lines": [
+        "Rust arises from the iron",
+        "and eats away the very iron that gave rise to it.",
+        "Just so, those who live in disregard of purity",
+        "are led by their own deeds to a place of suffering."
+      ],
+      "note": "Atidhonacārin is difficult. The English follows the sense of transgressing purity, discussed in Ṭhānissaro Bhikkhu’s note on verse 240. Sanskrit Udānavarga 9.19 describes a person who acts without reflection."
+    },
+    "241": {
+      "lines": [
+        "Without recitation, verses gather rust.",
+        "Without upkeep, houses decay.",
+        "Indolence tarnishes beauty.",
+        "Heedlessness is what tarnishes a guard."
+      ]
+    },
+    "242": {
+      "lines": [
+        "Misconduct is a woman’s stain.",
+        "A giver is stained by withholding.",
+        "Harmful qualities are stains",
+        "in this world and in the next."
+      ]
+    },
+    "243": {
+      "lines": [
+        "A stain worse than these is ignorance,",
+        "the deepest stain of all.",
+        "Put away this stain, monastics.",
+        "Live unstained."
+      ],
+      "note": "The Pāli singles out ignorance as the supreme stain. Patna 159 explicitly names ignorance and death."
+    },
+    "244": {
+      "lines": [
+        "It is easy to live without a conscience,",
+        "brazen as a crow, destructive,",
+        "thrusting oneself forward, insolent,",
+        "and stained in one’s way of life."
+      ]
+    },
+    "245": {
+      "lines": [
+        "It is hard to live with a conscience,",
+        "always looking for what is clean,",
+        "unshrinking yet never brazen,",
+        "discerning, with a livelihood kept pure."
+      ]
+    },
+    "246": {
+      "lines": [
+        "Whoever takes a living being’s life,",
+        "tells a lie,",
+        "takes what has not been given,",
+        "or goes to another’s spouse,"
+      ]
+    },
+    "247": {
+      "lines": [
+        "and whoever gives himself over",
+        "to drinking liquor and other intoxicants,",
+        "digs up his own roots",
+        "here in this very world."
+      ]
+    },
+    "248": {
+      "lines": [
+        "Understand this, friend.",
+        "Unrestrained people take to harmful ways.",
+        "Do not let greed and wrongdoing",
+        "bring you to grief for long."
+      ]
+    },
+    "249": {
+      "lines": [
+        "People give as their faith moves them,",
+        "according to the trust they feel.",
+        "Whoever resents",
+        "the food and drink another receives",
+        "comes to no collectedness of mind,",
+        "whether by night or by day."
+      ]
+    },
+    "250": {
+      "lines": [
+        "But whoever cuts this resentment away,",
+        "digs it up, roots and all,",
+        "comes to collectedness of mind,",
+        "whether by night or by day."
+      ]
+    },
+    "251": {
+      "lines": [
+        "No fire burns like passion.",
+        "Nothing grips like hatred.",
+        "No net entangles like delusion.",
+        "No river runs like craving."
+      ],
+      "note": "Sanskrit Udānavarga 29.37 has a flood of sensual desire where the Pāli has the fire of passion. Both keep the net of delusion and the river of craving."
+    },
+    "252": {
+      "lines": [
+        "How readily we see another’s fault,",
+        "how hard to see our own.",
+        "We winnow the faults of others",
+        "as though they were chaff",
+        "and hide our own",
+        "as a cheat conceals a losing throw."
+      ]
+    },
+    "253": {
+      "lines": [
+        "Keep looking for the faults of others,",
+        "keep finding cause to complain,",
+        "and the taints will only grow.",
+        "Their ending is far off."
+      ]
+    },
+    "254": {
+      "lines": [
+        "There is no track in the sky.",
+        "There is no true contemplative outside the path.",
+        "People delight in spinning out ideas.",
+        "The Tathāgatas are free of such entanglement."
+      ],
+      "note": "“Outside the path” follows the practice context explained in DN 16: the kinds of contemplative realization are found where the noble eightfold path is practiced. Papañca is the proliferation or elaboration of thought."
+    },
+    "255": {
+      "lines": [
+        "There is no track in the sky.",
+        "There is no true contemplative outside the path.",
+        "Nothing formed lasts forever.",
+        "The Buddhas do not waver."
+      ],
+      "note": "Sanskrit Udānavarga 29.38 shares the opening lines with Pāli 254–255 and follows them with the proliferation lines found in Pāli 254."
+    },
+    "256": {
+      "lines": [
+        "Passing judgment rashly",
+        "does not make a judge just.",
+        "A discerning person examines both",
+        "what has merit and what has none."
+      ]
+    },
+    "257": {
+      "lines": [
+        "The wise judge guides others without haste,",
+        "fairly, in accordance with the law.",
+        "Guarded by the law,",
+        "such a person is called just."
+      ]
+    },
+    "258": {
+      "lines": [
+        "Speaking at length",
+        "does not make you wise.",
+        "At peace, free of enmity and fear,",
+        "that is who is called wise."
+      ]
+    },
+    "259": {
+      "lines": [
+        "Reciting at length",
+        "does not make one a bearer of the Dhamma.",
+        "Someone who has heard only a little",
+        "but sees the Dhamma with the body,",
+        "and remains heedful of it,",
+        "truly bears the Dhamma."
+      ],
+      "note": "The Pāli says passati, “sees,” with the body. Patna 32, Gāndhārī 114, and Sanskrit Udānavarga 4.21 use verbs for touching or contacting the teaching. The bodily expression points to direct experience."
+    },
+    "260": {
+      "lines": [
+        "A head of gray hair",
+        "does not make someone an elder.",
+        "Such a person is ripe only in years,",
+        "said to have grown old for nothing."
+      ]
+    },
+    "261": {
+      "lines": [
+        "In whom there are truth and integrity,",
+        "harmlessness, restraint, and self-control,",
+        "in whom the stains have been cast out,",
+        "that wise person is called an elder."
+      ]
+    },
+    "262": {
+      "lines": [
+        "Graceful speech",
+        "and a pleasing face",
+        "cannot make a person good",
+        "who is envious, miserly, and deceitful."
+      ]
+    },
+    "263": {
+      "lines": [
+        "But one who cuts all this away,",
+        "digs it out by the root,",
+        "and wisely casts out ill will",
+        "is called good."
+      ]
+    },
+    "264": {
+      "lines": [
+        "Shaving the head makes no contemplative",
+        "of a liar who keeps no vows.",
+        "How could a person filled with wanting and greed",
+        "be a contemplative?"
+      ]
+    },
+    "265": {
+      "lines": [
+        "Whoever stills all harmful acts,",
+        "whether small or great,",
+        "is called a contemplative",
+        "because those acts have been stilled."
+      ],
+      "note": "The Pāli links sameti, “stills,” and samaṇa, “contemplative,” by sound. Sanskrit Udānavarga 33.8 uses a related pattern to explain who merits the name brahmin."
+    },
+    "266": {
+      "lines": [
+        "Begging from others",
+        "does not make someone a monastic.",
+        "Taking up the ways of household life,",
+        "one does not thereby become a monastic."
+      ],
+      "note": "The reading “ways of household life” is supported by Gāndhārī 67 and Sanskrit Udānavarga 32.18. The Mahāvastu parallel has a different expression, viṣamāṁ dharmāṁ, for an uneven or improper way of conduct."
+    },
+    "267": {
+      "lines": [
+        "But one who puts away merit and evil,",
+        "lives the holy life",
+        "and goes through the world with discernment,",
+        "is rightly called a monastic."
+      ]
+    },
+    "268": {
+      "lines": [
+        "Silence does not make a sage",
+        "of someone bewildered and ignorant.",
+        "The wise lift the scales",
+        "and take up what is good."
+      ]
+    },
+    "269": {
+      "lines": [
+        "They turn away from wrong.",
+        "This is what makes a sage.",
+        "One who weighs both sides of life",
+        "is rightly called a sage."
+      ]
+    },
+    "270": {
+      "lines": [
+        "Harming living beings",
+        "makes no one noble.",
+        "Through harmlessness toward all beings,",
+        "a person is called noble."
+      ]
+    },
+    "271": {
+      "lines": [
+        "Monastic, take no comfort merely in precepts and vows,",
+        "in having heard much,",
+        "in attaining collectedness of mind,",
+        "or in sleeping in solitude."
+      ]
+    },
+    "272": {
+      "lines": [
+        "Even if you can say, “I touch the joy of renunciation",
+        "unknown to ordinary people,”",
+        "do not settle into confidence",
+        "while the taints have yet to end."
+      ],
+      "note": "This reads verses 271–272 as one warning against complacency, following Ṭhānissaro Bhikkhu’s explanation of the construction. Sanskrit Udānavarga 32.32 changes “joy of renunciation” to “joy of awakening.”"
+    },
+    "273": {
+      "lines": [
+        "Among paths, the eightfold is foremost.",
+        "Among truths, the four statements.",
+        "Among qualities, dispassion is foremost.",
+        "Among two-footed beings, the one who sees."
+      ]
+    },
+    "274": {
+      "lines": [
+        "This is the path, the only one",
+        "for making vision clear.",
+        "Follow it.",
+        "By it Māra is confounded."
+      ]
+    },
+    "275": {
+      "lines": [
+        "Follow this path",
+        "and you will end suffering.",
+        "I have made the path known to you,",
+        "having understood how the arrow is drawn out."
+      ],
+      "note": "The Pāli aññāya can be read as “having understood” or “for understanding,” as Ṭhānissaro Bhikkhu notes at verse 275. The Sanskrit Udānavarga 12.9 places the arrow image beside the instruction to do the work oneself."
+    },
+    "276": {
+      "lines": [
+        "You yourselves must put forth the effort.",
+        "The Tathāgatas point the way.",
+        "Those who follow it and meditate",
+        "are freed from Māra’s bonds."
+      ]
+    },
+    "277": {
+      "lines": [
+        "“All conditioned things are impermanent.”",
+        "When one sees this with wisdom,",
+        "one grows disenchanted with suffering.",
+        "This is the path to purity."
+      ]
+    },
+    "278": {
+      "lines": [
+        "“All conditioned things are subject to suffering.”",
+        "When one sees this with wisdom,",
+        "one grows disenchanted with suffering.",
+        "This is the path to purity."
+      ],
+      "note": "The refrain describes conditioned things as subject to dukkha. The following verse uses a wider term, dhammā, for phenomena."
+    },
+    "279": {
+      "lines": [
+        "“No phenomenon is self.”",
+        "When one sees this with wisdom,",
+        "one grows disenchanted with suffering.",
+        "This is the path to purity."
+      ]
+    },
+    "280": {
+      "lines": [
+        "When it is time to rise, they do not rise.",
+        "Young and strong, they give way to sloth.",
+        "Their resolve sinks and their mind goes slack.",
+        "Idle, they do not find the path to wisdom."
+      ]
+    },
+    "281": {
+      "lines": [
+        "Guard your speech and keep your mind well restrained.",
+        "Do nothing harmful with the body.",
+        "Clear these three ways of acting",
+        "and fulfill the path the seers made known."
+      ]
+    },
+    "282": {
+      "lines": [
+        "Wisdom is born of practice.",
+        "Without practice it wears away.",
+        "Know these two directions,",
+        "how it grows and how it declines,",
+        "and set yourself to live",
+        "in a way that makes wisdom grow."
+      ],
+      "note": "The Pāli speaks of wisdom growing through practice. The Sanskrit parallel, Udānavarga 29.40, speaks instead of becoming arising through bonds and ending through release from them."
+    },
+    "283": {
+      "lines": [
+        "Cut down the forest, spare the tree.",
+        "Fear springs from the forest.",
+        "Cut through the forest and its undergrowth.",
+        "Be forest-free, monastics."
+      ],
+      "note": "The forest evokes entanglement in desire, as the calf simile in the next verse illustrates. Pāli nibbanā, “without a forest,” also echoes nibbāna."
+    },
+    "284": {
+      "lines": [
+        "As long as even the least tangle of desire",
+        "a man has for women remains uncut,",
+        "his mind is tethered there",
+        "like a milk-fed calf to its mother."
+      ],
+      "note": "Pāli names a man’s attachment to women. Patna 362 and Sanskrit Udānavarga 18.4 use kin or relations, broadening the object of attachment."
+    },
+    "285": {
+      "lines": [
+        "Sever the hold of self-attachment",
+        "as you pluck an autumn water lily.",
+        "Tend the path to peace,",
+        "to nibbāna taught by the Well-Gone One."
+      ]
+    },
+    "286": {
+      "lines": [
+        "“Here I will stay through the rains,",
+        "here through the cold and the heat.”",
+        "So the fool makes plans,",
+        "unaware of the danger."
+      ]
+    },
+    "287": {
+      "lines": [
+        "Death sweeps away those besotted",
+        "with children and cattle, their minds caught there,",
+        "as a great flood",
+        "sweeps away a sleeping village."
+      ]
+    },
+    "288": {
+      "lines": [
+        "Children offer no refuge,",
+        "nor father, nor family.",
+        "For one caught by death,",
+        "there is no protection among kin."
+      ]
+    },
+    "289": {
+      "lines": [
+        "Seeing what this means,",
+        "the wise, restrained in conduct,",
+        "make haste to clear the path",
+        "that leads to nibbāna."
+      ]
+    },
+    "290": {
+      "lines": [
+        "If by relinquishing a little happiness",
+        "you can see a greater happiness ahead,",
+        "then wisely let the little happiness go,",
+        "keeping the greater in view."
+      ],
+      "note": "The comparison in Pāli, Patna 77, and Sanskrit Udānavarga 30.30 turns on a limited happiness set against a greater one. The English preserves that scale."
+    },
+    "291": {
+      "lines": [
+        "Whoever wants happiness for themselves",
+        "at the cost of suffering for others",
+        "gets caught in the company of hostility",
+        "and does not go free of it."
+      ]
+    },
+    "292": {
+      "lines": [
+        "They set aside what needs doing",
+        "and busy themselves with what does not.",
+        "For the proud and heedless,",
+        "the taints keep growing."
+      ]
+    },
+    "293": {
+      "lines": [
+        "Those who keep mindfulness of the body",
+        "firmly established at all times",
+        "leave aside what need not be done",
+        "and steadily do what needs doing.",
+        "For the mindful and clearly aware,",
+        "the taints come to an end."
+      ]
+    },
+    "294": {
+      "lines": [
+        "Having slain mother and father",
+        "and two warrior kings,",
+        "having slain a kingdom with its retinue,",
+        "the brahmin goes on untroubled."
+      ],
+      "note": "The Dhammapada commentary reads the shocking images figuratively: mother as craving, father as conceit, and the two kings as eternalism and annihilationism. See Ṭhānissaro Bhikkhu’s note on verse 294. Chinese T210 2.12 has a different cast of mother, ruler, ministers, and retinue."
+    },
+    "295": {
+      "lines": [
+        "Having slain mother and father,",
+        "two learned kings,",
+        "and a tiger as the fifth,",
+        "the brahmin goes on untroubled."
+      ],
+      "note": "The Dhammapada commentary reads the tiger image in connection with doubt or the five hindrances. See Ṭhānissaro Bhikkhu’s note on verse 295. Sanskrit Udānavarga 33.62 closes by calling the person pure. The Tibetan at Derge 72, 252a.7–252b.1 calls such a person a brahmin without wrongdoing."
+    },
+    "296": {
+      "lines": [
+        "Gotama’s disciples always",
+        "wake with clear minds,",
+        "their mindfulness resting on the Buddha",
+        "throughout the day and night."
+      ],
+      "note": "Pāli 296–298 present three separate recollections. Chinese T210 6.11 gathers Buddha, Dharma, and Saṅgha into one stanza, shown beside all three Pāli positions."
+    },
+    "297": {
+      "lines": [
+        "Gotama’s disciples always",
+        "wake with clear minds,",
+        "their mindfulness resting on the Dhamma",
+        "throughout the day and night."
+      ],
+      "note": "The Chinese text shared by verses 296–298 is T210 6.11. The Pāli, Gāndhārī 101, Sanskrit Udānavarga 15.13, and Tibetan at Derge 72, 222b.1–222b.2 have a separate recollection of the Dhamma."
+    },
+    "298": {
+      "lines": [
+        "Gotama’s disciples always",
+        "wake with clear minds,",
+        "their mindfulness resting on the Saṅgha",
+        "throughout the day and night."
+      ],
+      "note": "The shared Chinese T210 6.11 stanza recollects the three together. This English follows the separate Pāli recollection of the Saṅgha."
+    },
+    "299": {
+      "lines": [
+        "Gotama’s disciples always",
+        "wake with clear minds,",
+        "their mindfulness resting on the body",
+        "throughout the day and night."
+      ]
+    },
+    "300": {
+      "lines": [
+        "Gotama’s disciples always",
+        "wake with clear minds,",
+        "their hearts delighting in harmlessness",
+        "throughout the day and night."
+      ]
+    },
+    "301": {
+      "lines": [
+        "Gotama’s disciples always",
+        "wake with clear minds,",
+        "their hearts delighting in meditation",
+        "throughout the day and night."
+      ]
+    },
+    "302": {
+      "lines": [
+        "Hard to go forth, hard to find contentment.",
+        "Hard to live at home, with its own pains.",
+        "Hard to live among those unlike you.",
+        "Suffering overtakes the traveler.",
+        "So do not be a traveler.",
+        "Do not let suffering overtake you."
+      ],
+      "note": "The traveler image is read here in the context of suffering and continued wandering. Sanskrit Udānavarga 11.8 and Tibetan Derge 72, 219a.4 end with the suffering of repeated becoming rather than the Pāli’s concluding exhortation."
+    },
+    "303": {
+      "lines": [
+        "Endowed with trust and good conduct,",
+        "with reputation and means,",
+        "one is held in honor",
+        "wherever one goes."
+      ]
+    },
+    "304": {
+      "lines": [
+        "The good are seen from far away,",
+        "like the mountains of the Himalaya.",
+        "Those without goodness are hard to see,",
+        "like arrows let fly in the dark."
+      ]
+    },
+    "305": {
+      "lines": [
+        "Sit alone, sleep alone,",
+        "walk alone without tiring.",
+        "Taming yourself in solitude,",
+        "come to delight in the forest."
+      ],
+      "note": "Pāli damayaṁ describes taming oneself. Patna 313 and Sanskrit Udānavarga 23.2 have forms of ram, suggesting enjoyment or delight in solitude."
+    },
+    "306": {
+      "lines": [
+        "One who speaks falsely goes to hell,",
+        "as does one who acts and says, “I did nothing.”",
+        "After death those two are alike,",
+        "people whose deeds were base."
+      ]
+    },
+    "307": {
+      "lines": [
+        "Many wear ocher at the throat",
+        "while taking to harm without restraint.",
+        "Through the harmful things they do,",
+        "they are reborn in hell."
+      ]
+    },
+    "308": {
+      "lines": [
+        "Better to swallow a ball of iron",
+        "heated to the brightness of a flame",
+        "than to eat the food a country gives in alms",
+        "while living without virtue or restraint."
+      ]
+    },
+    "309": {
+      "lines": [
+        "Four things befall a heedless man",
+        "who goes to another’s wife.",
+        "He gains demerit, loses easy sleep,",
+        "earns blame as a third, and hell as a fourth."
+      ]
+    },
+    "310": {
+      "lines": [
+        "Demerit is gained and a bad destination awaits.",
+        "A frightened pair have only a little pleasure,",
+        "and the king imposes a heavy penalty.",
+        "So a man should leave another’s wife alone."
+      ],
+      "note": "Where the Pāli closes with advice to refrain, Patna 211 and Sanskrit Udānavarga 4.15b close with a rebirth in hell."
+    },
+    "311": {
+      "lines": [
+        "Just as a badly grasped blade of kusa grass",
+        "cuts the very hand that holds it,",
+        "the contemplative life, badly taken up,",
+        "drags one down to hell."
+      ],
+      "note": "Pāli and Patna 296 name kusa grass. Gāndhārī 215 and Sanskrit Udānavarga 11.4 use a different grass term in the same cutting-hand simile."
+    },
+    "312": {
+      "lines": [
+        "A duty carried out slackly,",
+        "a vow kept with stains,",
+        "a holy life that gives reason for suspicion,",
+        "none of these bears much fruit."
+      ]
+    },
+    "313": {
+      "lines": [
+        "If a thing is to be done, do it.",
+        "Set to it with firm resolve.",
+        "The wandering life, pursued halfheartedly,",
+        "only stirs up more dust."
+      ]
+    },
+    "314": {
+      "lines": [
+        "Better to leave a harmful deed undone.",
+        "Done, it burns you later.",
+        "Better to carry out a good deed,",
+        "one you will not regret having done."
+      ]
+    },
+    "315": {
+      "lines": [
+        "As a frontier town is guarded",
+        "within and without,",
+        "guard yourselves in the same way.",
+        "Do not let the moment get past you.",
+        "Those who miss their moment grieve",
+        "when they fall into hell."
+      ]
+    },
+    "316": {
+      "lines": [
+        "Ashamed where there is nothing to be ashamed of,",
+        "unashamed where shame is called for,",
+        "beings who take up wrong view",
+        "go to a place of suffering."
+      ],
+      "note": "Patna 169, Gāndhārī 273, and Sanskrit Udānavarga 16.4 bring together the shame and danger contrasts that Pāli gives as two verses, 316 and 317."
+    },
+    "317": {
+      "lines": [
+        "Seeing danger where there is none,",
+        "seeing safety where there is danger,",
+        "beings who take up wrong view",
+        "go to a place of suffering."
+      ]
+    },
+    "318": {
+      "lines": [
+        "Finding fault where there is none,",
+        "taking what is faulty to be blameless,",
+        "beings who take up wrong view",
+        "go to a place of suffering."
+      ]
+    },
+    "319": {
+      "lines": [
+        "Recognizing a fault for a fault",
+        "and the faultless for what it is,",
+        "beings who take up right view",
+        "go to a good destination."
+      ]
+    },
+    "320": {
+      "lines": [
+        "As an elephant in battle bears",
+        "an arrow loosed from the bow,",
+        "I will bear words of abuse.",
+        "Many people have no restraint."
+      ]
+    },
+    "321": {
+      "lines": [
+        "They lead a tamed beast into the assembly.",
+        "The king mounts a tamed elephant.",
+        "Among people, best is one so well tamed",
+        "they can bear words of abuse."
+      ]
+    },
+    "322": {
+      "lines": [
+        "Fine are tamed mules,",
+        "fine the thoroughbreds of Sindh,",
+        "fine the great tuskers.",
+        "Finer still is one who has tamed themselves."
+      ]
+    },
+    "323": {
+      "lines": [
+        "No such mount can take you",
+        "to the country never reached before.",
+        "The tamed go there",
+        "by means of a well-tamed self."
+      ],
+      "note": "The Pāli repeats danta, “tamed,” and says attanā sudantena, “by a well-tamed self.” The destination is the place still unvisited."
+    },
+    "324": {
+      "lines": [
+        "There is a tusker named Dhanapāla,",
+        "pungent in rut, hard to hold back.",
+        "Tied up, he refuses a mouthful.",
+        "The tusker remembers his forest."
+      ]
+    },
+    "325": {
+      "lines": [
+        "Drowsy and given to overeating,",
+        "fond of sleep, rolling from side to side",
+        "like a great hog fattened on fodder,",
+        "the dull one goes back to the womb again and again."
+      ]
+    },
+    "326": {
+      "lines": [
+        "This mind used to wander at will,",
+        "wherever desire or pleasure led it.",
+        "Today I will wisely hold it in check,",
+        "as a handler guides a rutting elephant with a hook."
+      ]
+    },
+    "327": {
+      "lines": [
+        "Take delight in heedfulness.",
+        "Guard your own mind.",
+        "Lift yourselves out of the mire",
+        "like an elephant struggling free of a bog."
+      ],
+      "note": "Sanskrit Udānavarga 4.27 and 4.36 distribute the heedfulness, guarding the mind, and elephant-in-a-bog images across two verses."
+    },
+    "328": {
+      "lines": [
+        "If you find a discerning companion,",
+        "steady and good to travel with,",
+        "overcome every danger together",
+        "and go on your way joyful and mindful."
+      ]
+    },
+    "329": {
+      "lines": [
+        "If you find no discerning companion,",
+        "steady and good to travel with,",
+        "leave like a king relinquishing a conquered country.",
+        "Go alone, like an elephant in the wild."
+      ]
+    },
+    "330": {
+      "lines": [
+        "Better to go alone.",
+        "A fool offers no companionship.",
+        "Go alone, at ease, doing no wrong,",
+        "like an elephant in the wild."
+      ]
+    },
+    "331": {
+      "lines": [
+        "When need arises, friends are a joy.",
+        "Contentment with what comes is a joy.",
+        "Merit is a joy when life comes to an end.",
+        "The leaving behind of all suffering is a joy."
+      ]
+    },
+    "332": {
+      "lines": [
+        "There is joy in caring for your mother,",
+        "and joy in caring for your father.",
+        "There is joy in honoring contemplatives,",
+        "and joy in honoring brahmins."
+      ]
+    },
+    "333": {
+      "lines": [
+        "There is joy in good conduct into old age,",
+        "in trust firmly established,",
+        "in coming to wisdom,",
+        "and in doing no wrong."
+      ]
+    },
+    "334": {
+      "lines": [
+        "For one who lives heedlessly,",
+        "craving grows like a māluvā vine.",
+        "They spring from here to there",
+        "like a monkey after fruit in the forest."
+      ],
+      "note": "Māluvā is a climbing vine. The Pāli and Sanskrit Udānavarga 3.4 follow the heedless person through the monkey image. The feminine sā in Patna 137 makes craving itself the likelier subject of the leaping line."
+    },
+    "335": {
+      "lines": [
+        "When this wretched craving",
+        "that clings to the world overcomes someone,",
+        "their sorrows grow",
+        "like grass after heavy rain."
+      ]
+    },
+    "336": {
+      "lines": [
+        "When someone overcomes this wretched craving,",
+        "so hard to overcome in the world,",
+        "sorrows fall away from them",
+        "like drops from a lotus leaf."
+      ]
+    },
+    "337": {
+      "lines": [
+        "To all of you gathered here",
+        "I say this, and wish you well.",
+        "Dig out craving by the root,",
+        "as one digs for the roots of vetiver.",
+        "Let Māra never break you again and again",
+        "as a torrent breaks a reed."
+      ],
+      "note": "Vetiver is a fragrant grass whose roots are dug up for use. Patna 140 and Sanskrit Udānavarga 3.11 end by asking what sorrow or fear can remain when craving is uprooted. The reed and Māra belong to the Pāli ending. Gāndhārī 126 shares the address to those gathered, then urges heedfulness."
+    },
+    "338": {
+      "lines": [
+        "A felled tree will grow again",
+        "when its root is sound and strong.",
+        "So too, when the underlying tendency to crave remains,",
+        "this suffering springs up again and again."
+      ]
+    },
+    "339": {
+      "lines": [
+        "In one whose thirty-six streams",
+        "flow powerfully toward what is pleasing,",
+        "thoughts steeped in passion",
+        "sweep away the one who sees wrongly."
+      ],
+      "note": "The stanza leaves the thirty-six streams unexplained. Pāli commentarial traditions count three kinds of craving across the six inner and six outer sense fields, with different accounts of which three kinds are intended. See Ṭhānissaro Bhikkhu’s endnote on verse 339."
+    },
+    "340": {
+      "lines": [
+        "The streams run in every direction.",
+        "A vine springs up and takes hold.",
+        "When you see the vine has sprung up,",
+        "cut its root with wisdom."
+      ]
+    },
+    "341": {
+      "lines": [
+        "Glad feelings flow and cling",
+        "within a living being.",
+        "People bent on pleasure, searching for happiness,",
+        "keep coming to birth and old age."
+      ]
+    },
+    "342": {
+      "lines": [
+        "Driven by thirst,",
+        "people scurry like a snared hare.",
+        "Held by fetters and attachments,",
+        "they come back to suffering, time after time."
+      ]
+    },
+    "343": {
+      "lines": [
+        "Driven by thirst,",
+        "people scurry like a snared hare.",
+        "So let those who seek dispassion",
+        "drive out their thirst."
+      ]
+    },
+    "344": {
+      "lines": [
+        "Free of the tangle, drawn to the forest,",
+        "freed from the forest, they run right back to it.",
+        "Come and look at that person.",
+        "Free, they run straight back to bondage."
+      ],
+      "note": "The Pāli plays on vana, forest and the tangle of desire. The wording can evoke a renunciant who goes to the forest and then rushes back into attachment. The last line makes that return explicit."
+    },
+    "345": {
+      "lines": [
+        "The wise say these bonds are weak,",
+        "the ones of iron, wood, and rope.",
+        "But the passion for jewels and earrings,",
+        "the longing for children and partners—"
+      ]
+    },
+    "346": {
+      "lines": [
+        "that, the wise say, is a strong bond,",
+        "dragging you down, slack yet hard to slip.",
+        "Cutting through it, they go forth",
+        "free of longing, leaving sensual pleasure behind."
+      ],
+      "note": "Pāli sithila means slack or loose, which gives the bond its paradox. Patna 144 calls it subtle and ends with all suffering abandoned. Sanskrit Udānavarga 2.6 describes the bond as firm on all sides."
+    },
+    "347": {
+      "lines": [
+        "Those caught up in passion follow its current,",
+        "like a spider in a web of its own making.",
+        "The wise cut through it and go on,",
+        "free of longing, leaving all suffering behind."
+      ],
+      "note": "The Gāndhārī counterpart 171 shares the spider image and closes with sensual pleasure abandoned. The Pāli closes with all suffering abandoned."
+    },
+    "348": {
+      "lines": [
+        "Let go of what came before and what comes after.",
+        "Let go of what lies between and cross beyond becoming.",
+        "With the mind free on every side,",
+        "you will come again to neither birth nor old age."
+      ],
+      "note": "The Pāli says in front, behind, and in the middle. The Dhammapada commentary reads these as the aggregates of the past, future, and present. The English follows that temporal reading while preserving becoming and rebirth in the final lines."
+    },
+    "349": {
+      "lines": [
+        "For one tormented by thoughts,",
+        "burning with passion, dwelling on the attractive,",
+        "craving grows all the more.",
+        "They make the bond strong."
+      ]
+    },
+    "350": {
+      "lines": [
+        "But one who takes joy in quieting thought,",
+        "mindful always, cultivating attention to the unattractive,",
+        "will bring craving to an end",
+        "and cut through Māra’s bond."
+      ],
+      "note": "Attention to the unattractive renders asubha, a contemplation of the body's less alluring aspects used to loosen sensual attachment. See Ṭhānissaro Bhikkhu’s notes to verses 7–8 and 350."
+    },
+    "351": {
+      "lines": [
+        "Having reached the end, fearless,",
+        "free of craving and stain,",
+        "they have cut away the arrows of becoming.",
+        "This is their last body."
+      ]
+    },
+    "352": {
+      "lines": [
+        "Free of craving, taking nothing up,",
+        "skilled in words and their expression,",
+        "they understand how sounds join",
+        "and what comes before and after.",
+        "One who bears their final body,",
+        "a great person of great wisdom, they are called."
+      ]
+    },
+    "353": {
+      "lines": [
+        "I have overcome all and know all.",
+        "Amid all things I remain unstained.",
+        "Having given up all, I am free through the ending of craving.",
+        "Having known directly for myself, whom could I name as my teacher?"
+      ],
+      "note": "In MN 26 the Buddha speaks these lines in response to Upaka asking whose teaching he follows. Sanskrit Udānavarga 21.1 says he is freed from all fear where Pāli speaks of freedom through craving’s ending."
+    },
+    "354": {
+      "lines": [
+        "The gift of the Dhamma surpasses every gift.",
+        "The taste of the Dhamma surpasses every taste.",
+        "Joy in the Dhamma surpasses every joy.",
+        "The ending of craving overcomes all suffering."
+      ]
+    },
+    "355": {
+      "lines": [
+        "Wealth destroys the foolish.",
+        "Those seeking the farther shore are spared.",
+        "Craving wealth, the foolish",
+        "destroy themselves as well as others."
+      ],
+      "note": "The Pāli contrasts the foolish with those who seek the farther shore. Sanskrit Udānavarga 2.16 uses ātmagaveṣin, one who searches for oneself, in that line."
+    },
+    "356": {
+      "lines": [
+        "Weeds spoil a field.",
+        "Passion spoils these people.",
+        "So a gift to those free of passion",
+        "bears great fruit."
+      ]
+    },
+    "357": {
+      "lines": [
+        "Weeds spoil a field.",
+        "Hatred spoils these people.",
+        "So a gift to those free of hatred",
+        "bears great fruit."
+      ]
+    },
+    "358": {
+      "lines": [
+        "Weeds spoil a field.",
+        "Delusion spoils these people.",
+        "So a gift to those free of delusion",
+        "bears great fruit."
+      ]
+    },
+    "359": {
+      "lines": [
+        "Weeds spoil a field.",
+        "Desire spoils these people.",
+        "So a gift to those free of desire",
+        "bears great fruit."
+      ]
+    },
+    "360": {
+      "lines": [
+        "It is good to guard the eye,",
+        "good to guard the ear,",
+        "good to guard the nose,",
+        "good to guard the tongue."
+      ]
+    },
+    "361": {
+      "lines": [
+        "It is good to restrain the body,",
+        "good to restrain speech,",
+        "good to restrain the mind,",
+        "good to be restrained in every way.",
+        "A monastic restrained in every way",
+        "is released from all suffering."
+      ]
+    },
+    "362": {
+      "lines": [
+        "Restrained in hand, in foot,",
+        "in speech, fully restrained,",
+        "delighting within, collected,",
+        "alone and content—such a one they call a monastic."
+      ]
+    },
+    "363": {
+      "lines": [
+        "A monastic who guards their speech,",
+        "who speaks thoughtfully and without agitation,",
+        "who makes the teaching and its meaning clear,",
+        "speaks words that are sweet to hear."
+      ]
+    },
+    "364": {
+      "lines": [
+        "At home in the Dhamma, taking joy in it,",
+        "thinking it through and calling it to mind,",
+        "a monastic keeps close",
+        "to the true Dhamma."
+      ]
+    },
+    "365": {
+      "lines": [
+        "Do not disparage what comes to you,",
+        "or go about envying what others receive.",
+        "A monastic who envies others’ gains",
+        "does not attain concentration."
+      ],
+      "note": "Salābha means one’s own gains here. Sanskrit Udānavarga 13.8 makes this explicit with svalābha. Patna 55 and Gāndhārī 61 support the same reading. The surrounding verses put the gains in the context of monastic support."
+    },
+    "366": {
+      "lines": [
+        "Though little comes to a monastic,",
+        "they do not disparage what they receive.",
+        "Even the gods praise such a one,",
+        "tireless and pure in livelihood."
+      ],
+      "note": "Patna 56 and Gāndhārī 62 preserve the contrast between receiving little and valuing one’s own gains. Chinese T210 34.6 stresses receiving little without accumulating it."
+    },
+    "367": {
+      "lines": [
+        "One who takes nothing in name and form",
+        "as their own, anywhere,",
+        "and does not grieve for what is gone,",
+        "is rightly called a monastic."
+      ],
+      "note": "Name and form translates nāmarūpa, a term for the mental and physical aspects of experience. The opening of Sanskrit Udānavarga 32.17 instead emphasizes an absence of accumulation."
+    },
+    "368": {
+      "lines": [
+        "A monastic who dwells in goodwill,",
+        "with confidence in the Buddha’s teaching,",
+        "can reach the state of peace,",
+        "the happiness of formations coming to rest."
+      ]
+    },
+    "369": {
+      "lines": [
+        "Bail out this boat, monastic.",
+        "Bailed out, it will sail lightly.",
+        "Cut away passion and hatred,",
+        "and you will reach nibbāna."
+      ],
+      "note": "The verse leaves the boat image open. The Dhammapada commentary identifies the boat with one’s own person and the water with unskillful thoughts. See Ṭhānissaro Bhikkhu’s endnote on verse 369."
+    },
+    "370": {
+      "lines": [
+        "Cut five, abandon five,",
+        "and cultivate another five.",
+        "A monastic who has passed beyond five attachments",
+        "is said to have crossed the flood."
+      ],
+      "note": "The verse itself leaves the groups of five unnamed. The Dhammapada commentary identifies five lower fetters to cut, five higher fetters to abandon, five spiritual faculties to develop, and five attachments to transcend. See Ṭhānissaro Bhikkhu’s endnote on verse 370."
+    },
+    "371": {
+      "lines": [
+        "Meditate, monastic. Be heedful.",
+        "Do not let your mind delight in sensual pleasures.",
+        "Do not carelessly swallow an iron ball",
+        "and cry out, burning, ‘This hurts!’"
+      ]
+    },
+    "372": {
+      "lines": [
+        "Without wisdom there is no absorption.",
+        "Without absorption there is no wisdom.",
+        "One who has both absorption and wisdom",
+        "is close to nibbāna."
+      ],
+      "note": "Absorption renders jhāna, meditative collectedness. Concentration in verse 365 renders samādhi. Here the verse sets jhāna and wisdom alongside one another."
+    },
+    "373": {
+      "lines": [
+        "Entering an empty dwelling",
+        "with a quiet mind,",
+        "a monastic knows a joy beyond the human",
+        "in seeing the Dhamma clearly."
+      ]
+    },
+    "374": {
+      "lines": [
+        "Whenever they examine",
+        "the arising and passing of the aggregates,",
+        "rapture and gladness come.",
+        "For those who know, this is the deathless."
+      ],
+      "note": "Aggregates refers to form, feeling, perception, formations, and consciousness. Sanskrit Udānavarga 32.10 likewise speaks of seeing their arising and passing, but ends with a glad and mindful monastic going forth. The Pāli ends with the deathless."
+    },
+    "375": {
+      "lines": [
+        "This is where it begins",
+        "for a wise monastic here.",
+        "Guarding the senses, being content,",
+        "and restraint under the monastic code."
+      ]
+    },
+    "376": {
+      "lines": [
+        "Keep company with good friends",
+        "who are tireless and pure in livelihood.",
+        "Welcome others warmly",
+        "and be skillful in conduct.",
+        "Then, filled with gladness,",
+        "you will put an end to suffering."
+      ]
+    },
+    "377": {
+      "lines": [
+        "As jasmine lets fall",
+        "its withered flowers,",
+        "so let go, monastics,",
+        "of passion and hatred."
+      ]
+    },
+    "378": {
+      "lines": [
+        "Quiet in body, quiet in speech,",
+        "at peace and deeply collected,",
+        "having spat out the bait of the world,",
+        "a monastic is said to be at peace."
+      ]
+    },
+    "379": {
+      "lines": [
+        "Urge yourself onward.",
+        "Examine yourself.",
+        "Guarded and mindful,",
+        "monastic, you will live at ease."
+      ]
+    },
+    "380": {
+      "lines": [
+        "You are your own protector.",
+        "Who else could be your protector?",
+        "You are your own refuge.",
+        "Train yourself, then,",
+        "as a merchant trains a fine horse."
+      ],
+      "note": "The repetition of attā is reflexive here, urging a person to train and protect themselves. Patna 322 also has a merchant and fine horse. Sanskrit Udānavarga 19.14 gives the horse to a charioteer."
+    },
+    "381": {
+      "lines": [
+        "A monastic brimming with gladness,",
+        "with confidence in the Buddha’s teaching,",
+        "can reach the state of peace,",
+        "the happiness of formations coming to rest."
+      ]
+    },
+    "382": {
+      "lines": [
+        "A young monastic",
+        "devoted to the Buddha’s teaching",
+        "lights up this world",
+        "like the moon released from clouds."
+      ]
+    },
+    "383": {
+      "lines": [
+        "Make the effort, brahmin. Cut the stream.",
+        "Drive sensual desire away.",
+        "Knowing the ending of formations,",
+        "you are one who knows the unmade, brahmin."
+      ],
+      "note": "The chapter repeatedly uses brahmin, an inherited social designation, to name the awakened or exemplary person. Here it can be an address to a brahmin in the ordinary sense. Verses 393 and 396 make the chapter’s distinction between birth and conduct explicit."
+    },
+    "384": {
+      "lines": [
+        "When a brahmin has mastered",
+        "the pair of qualities,",
+        "then, for one who knows,",
+        "all bonds come to an end."
+      ],
+      "note": "The Pāli phrase literally names two qualities without specifying them. The Dhammapada commentary takes them as calm and insight. Sanskrit Udānavarga 33.72 refers instead to one’s own qualities or practices."
+    },
+    "385": {
+      "lines": [
+        "For whom neither the far shore,",
+        "nor this shore, nor both remain,",
+        "free of distress, untethered—",
+        "that one I call a brahmin."
+      ]
+    },
+    "386": {
+      "lines": [
+        "Sitting in meditation, free of dust,",
+        "the task done, the taints gone,",
+        "having reached the highest goal—",
+        "that one I call a brahmin."
+      ]
+    },
+    "387": {
+      "lines": [
+        "By day the sun burns bright.",
+        "At night the moon shines.",
+        "The warrior shines in armor,",
+        "the brahmin in meditation.",
+        "But through the whole day and night",
+        "the Buddha shines in splendor."
+      ]
+    },
+    "388": {
+      "lines": [
+        "With evil banished, one is called a brahmin.",
+        "Living evenly, one is called an ascetic.",
+        "Having sent one’s own stains away,",
+        "one is called a renunciant."
+      ],
+      "note": "The stanza uses sound to connect brahmin with banishing evil, ascetic with even conduct, and going forth with sending away one’s stains. These are wordplays within the verse."
+    },
+    "389": {
+      "lines": [
+        "Do not strike a brahmin.",
+        "Let the brahmin never strike back.",
+        "Shame on the one who strikes a brahmin.",
+        "Shame also on the one who strikes back."
+      ]
+    },
+    "390": {
+      "lines": [
+        "For a brahmin nothing is better",
+        "than turning the mind from what it holds dear.",
+        "Wherever the wish to harm withdraws,",
+        "there suffering subsides."
+      ]
+    },
+    "391": {
+      "lines": [
+        "One who does no wrong",
+        "in body, speech, or mind,",
+        "restrained in all three—",
+        "that one I call a brahmin."
+      ]
+    },
+    "392": {
+      "lines": [
+        "Honor with care the one",
+        "from whom you learn the Dhamma",
+        "taught by the fully awakened Buddha,",
+        "as a brahmin honors the sacrificial fire."
+      ]
+    },
+    "393": {
+      "lines": [
+        "Matted hair, family, and birth",
+        "do not make a brahmin.",
+        "Where truth and right conduct are found,",
+        "there is one who is pure, a brahmin."
+      ],
+      "note": "The Pāli and Sanskrit Udānavarga 33.7 end with truth and Dhamma. Patna 37 and Gāndhārī 1 end with banishing wrongdoing, small and great."
+    },
+    "394": {
+      "lines": [
+        "What good is matted hair, foolish one?",
+        "What good is a garment of deerskin?",
+        "The tangle is within you.",
+        "Yet you polish the outside."
+      ]
+    },
+    "395": {
+      "lines": [
+        "Wearing robes made from cast-off cloth,",
+        "lean, their veins showing,",
+        "meditating alone in the forest—",
+        "that one I call a brahmin."
+      ]
+    },
+    "396": {
+      "lines": [
+        "I call no one a brahmin",
+        "simply for the womb they came from.",
+        "If they still lay claim to things,",
+        "they are merely one who says ‘bho.’",
+        "Claiming nothing, grasping nothing—",
+        "that one I call a brahmin."
+      ],
+      "note": "Bho is a conventional form of address associated here with brahmin status. Calling someone a bho-speaker leaves them with a social marker while the refrain reserves its sense of brahmin for one without clinging."
+    },
+    "397": {
+      "lines": [
+        "One who has cut through every fetter",
+        "and does not tremble,",
+        "past all attachments and set free—",
+        "that one I call a brahmin."
+      ]
+    },
+    "398": {
+      "lines": [
+        "Having cut the strap and the thong,",
+        "the tether and its fastening,",
+        "having lifted the crossbar, awakened—",
+        "that one I call a brahmin."
+      ],
+      "note": "The verse gives a series of bonds and a crossbar. The Dhammapada commentary reads the equipment as figures for resentment, craving, views, and obsessions. See Ṭhānissaro Bhikkhu’s endnote on verse 398."
+    },
+    "399": {
+      "lines": [
+        "One who endures abuse, beatings, and captivity",
+        "without resentment,",
+        "whose strength and army are patience—",
+        "that one I call a brahmin."
+      ]
+    },
+    "400": {
+      "lines": [
+        "Free from anger and arrogance,",
+        "steadfast in virtue and observance,",
+        "trained, bearing their last body—",
+        "that one I call a brahmin."
+      ]
+    },
+    "401": {
+      "lines": [
+        "Like water on a lotus leaf,",
+        "like a mustard seed on a needle’s point,",
+        "sensual pleasures do not cling to them—",
+        "that one I call a brahmin."
+      ]
+    },
+    "402": {
+      "lines": [
+        "One who knows here and now",
+        "the ending of their own suffering,",
+        "the burden laid down, untethered—",
+        "that one I call a brahmin."
+      ]
+    },
+    "403": {
+      "lines": [
+        "Deep in wisdom, discerning,",
+        "skilled in recognizing the path and the false path,",
+        "having reached the highest goal—",
+        "that one I call a brahmin."
+      ]
+    },
+    "404": {
+      "lines": [
+        "Entangled with neither householders",
+        "nor those who have left home,",
+        "wandering homeless, with few wishes—",
+        "that one I call a brahmin."
+      ]
+    },
+    "405": {
+      "lines": [
+        "One who has laid down the rod",
+        "toward beings that tremble and those that stand firm,",
+        "who neither kills nor has others kill—",
+        "that one I call a brahmin."
+      ],
+      "note": "The rod is a figure for violence. The ancient pair tasesu and thāvaresu can evoke the trembling and steadfast or the moving and stationary. The line reaches across those categories."
+    },
+    "406": {
+      "lines": [
+        "Unhostile among the hostile,",
+        "at peace among those who take up arms,",
+        "not grasping among those who grasp—",
+        "that one I call a brahmin."
+      ]
+    },
+    "407": {
+      "lines": [
+        "Passion and hatred have fallen away,",
+        "and so have conceit and contempt,",
+        "like a mustard seed from a needle’s point—",
+        "that one I call a brahmin."
+      ]
+    },
+    "408": {
+      "lines": [
+        "One who speaks clearly, gently,",
+        "and truthfully,",
+        "whose words do not wound—",
+        "that one I call a brahmin."
+      ]
+    },
+    "409": {
+      "lines": [
+        "Long or short, fine or coarse,",
+        "lovely or unlovely,",
+        "one who takes nothing in the world that was not given—",
+        "that one I call a brahmin."
+      ]
+    },
+    "410": {
+      "lines": [
+        "One who has no expectations",
+        "of this world or the next,",
+        "without longing and untethered—",
+        "that one I call a brahmin."
+      ],
+      "note": "Expectations renders āsā, anticipatory longing. The stanza describes release from dependence on what this world or a next one might bring."
+    },
+    "411": {
+      "lines": [
+        "With no lingering attachment,",
+        "doubt ended through knowing,",
+        "plunged into the deathless—",
+        "that one I call a brahmin."
+      ]
+    },
+    "412": {
+      "lines": [
+        "Beyond the two bonds",
+        "of merit and wrongdoing,",
+        "sorrowless, stainless, pure—",
+        "that one I call a brahmin."
+      ],
+      "note": "Merit and wrongdoing are paired as bonds that the liberated person has gone beyond. Sanskrit Udānavarga 33.29 shares that pairing and closes by emphasizing freedom from attachment."
+    },
+    "413": {
+      "lines": [
+        "Pure as the spotless moon,",
+        "clear and undisturbed,",
+        "with delight in becoming spent—",
+        "that one I call a brahmin."
+      ]
+    },
+    "414": {
+      "lines": [
+        "One who has passed this hard road, this mire,",
+        "the round of wandering and delusion,",
+        "crossed to the farther shore and absorbed in meditation,",
+        "unshaken and free of doubt,",
+        "quenched through letting go of all grasping—",
+        "that one I call a brahmin."
+      ]
+    },
+    "415": {
+      "lines": [
+        "One who has left sensual pleasures behind",
+        "and gone forth into homelessness,",
+        "with sensual becoming brought to an end—",
+        "that one I call a brahmin."
+      ]
+    },
+    "416": {
+      "lines": [
+        "One who has left craving behind",
+        "and gone forth into homelessness,",
+        "with craving and becoming brought to an end—",
+        "that one I call a brahmin."
+      ]
+    },
+    "417": {
+      "lines": [
+        "They have cast off the human yoke",
+        "and passed beyond the heavenly yoke,",
+        "unyoked from every yoke—",
+        "that one I call a brahmin."
+      ]
+    },
+    "418": {
+      "lines": [
+        "Having let go of delight and discontent,",
+        "cooled and free of attachments,",
+        "a brave one who has mastered the whole world—",
+        "that one I call a brahmin."
+      ]
+    },
+    "419": {
+      "lines": [
+        "One who knows in every way",
+        "how beings die and reappear,",
+        "unattached, well-gone, awakened—",
+        "that one I call a brahmin."
+      ]
+    },
+    "420": {
+      "lines": [
+        "Gods, gandhabbas, and humans",
+        "cannot trace where they go.",
+        "An arahant whose taints are spent—",
+        "that one I call a brahmin."
+      ],
+      "note": "Gandhabbas are celestial beings. The Pāli’s arahant is one whose taints are exhausted. Sanskrit Udānavarga 33.46 describes the person as endowed with boundless knowledge."
+    },
+    "421": {
+      "lines": [
+        "One who claims nothing in what came before,",
+        "what comes after, or what lies between,",
+        "holding nothing and grasping nothing—",
+        "that one I call a brahmin."
+      ]
+    },
+    "422": {
+      "lines": [
+        "A mighty bull, a hero foremost,",
+        "a great seer who has won the victory,",
+        "unshaken, cleansed, awakened—",
+        "that one I call a brahmin."
+      ],
+      "note": "The bull is an ancient image of preeminence. The Sanskrit Udānavarga 33.50 keeps the bull image and uses nāga where the Pāli has a hero."
+    },
+    "423": {
+      "lines": [
+        "Knowing their former lives,",
+        "seeing heaven and the states of loss,",
+        "having reached the ending of birth,",
+        "a sage fulfilled through direct knowledge,",
+        "all that was to be done completed—",
+        "that one I call a brahmin."
+      ],
+      "note": "The verse gathers knowledge of former lives, the destinations of beings, and the ending of birth. Sanskrit Udānavarga 33.47 names knowing suffering’s end in its penultimate line."
+    }
+  }
+}

@@ -1,6 +1,6 @@
 # Working on Rosettapada
 
-The current task is the six-tradition pilot for Pāli chapters 1, 2, 8, 12, 17, and 21, while preserving the earlier Mind page (chapter 3). These seven available pages cover 99 verse positions; the six pilot chapters cover 88. Further reader expansion remains deferred. A full 26-chapter Tibetan contents audit is separately authorized for research.
+The current reader covers all 26 Pāli chapters and 423 verse positions. Use the tiered Contents catalogue and preserve the earlier witness selections and URLs.
 
 - Preserve `data/sample.json` and the three inherited source URLs. Do not silently normalize spellings, punctuation, source numbers, or translations.
 - A missing or unverified reading is not evidence of absence from a tradition.

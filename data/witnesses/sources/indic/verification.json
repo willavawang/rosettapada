@@ -1,47 +1,54 @@
 {
-  "checked": "2026-10-26",
-  "scope": "Six pilot chapters plus preserved Mind page; 99 position records per tradition.",
+  "checked": "2026-11-04",
+  "scope": "Twenty-six comparative edition chapters, indexed by all 423 Pāli positions.",
+  "source_html_sha256_verified_against_research_ledger": 26,
   "traditions": {
     "pd": {
-      "positions": 99,
-      "readings_checked": 83,
+      "positions": 423,
+      "readings_checked": 306,
+      "padas_checked": 1326,
       "status_counts": {
-        "present": 79,
-        "partial": 4,
-        "not-located": 16
+        "present": 260,
+        "partial": 44,
+        "not-located": 119
       },
-      "first_43_records_identical_to_previous_published_dataset": true
+      "prior_99_records_identical": true
     },
     "ga": {
-      "positions": 99,
-      "readings_checked": 73,
+      "positions": 423,
+      "readings_checked": 222,
+      "padas_checked": 944,
       "status_counts": {
-        "present": 54,
-        "not-located": 28,
-        "partial": 17
+        "present": 136,
+        "not-located": 207,
+        "partial": 80
       },
-      "first_43_records_identical_to_previous_published_dataset": true
+      "prior_99_records_identical": true
     },
     "sa": {
-      "positions": 99,
-      "readings_checked": 92,
+      "positions": 423,
+      "readings_checked": 372,
+      "padas_checked": 1602,
       "status_counts": {
-        "present": 77,
-        "not-located": 7,
-        "partial": 15
+        "present": 292,
+        "not-located": 54,
+        "partial": 77
       },
-      "first_43_records_identical_to_previous_published_dataset": true
+      "prior_99_records_identical": true
     }
   },
-  "readings_checked": 248,
-  "padas_checked": 1072,
+  "readings_checked": 900,
+  "padas_checked": 3872,
+  "independent_source_check": "The HTMLParser extraction of verse headings and line text matched a separate lxml DOM extraction of all selected nonempty comparative edition cells, before the previously documented Pāli 158 Patna correction.",
+  "deterministic_reproduction": true,
+  "new_unmapped_private_use_characters": [],
   "display_data_matches_selected_source_passages": true,
   "one_documented_primary_text_correction": {
     "pali": 158,
     "reference": "Patna317",
     "primary_text_and_hash_checked_by_importer": true
   },
-  "new_patna_native_comparison": {
+  "pilot_native_patna_comparison": {
     "readings_checked": 46,
     "letter_identical_ignoring_punctuation_and_line_breaks": 42,
     "retained_edition_differences_at_pali": [
@@ -64,6 +71,7 @@
   },
   "limits": [
     "The checks establish selected-source transcription fidelity, not identical semantics or complete manuscript collation.",
-    "Gaps mean unlocated in the consulted selection, not absence from the whole tradition."
+    "Gaps mean unlocated in the consulted selection, not absence from the whole tradition.",
+    "Counts are Pāli positions; one native passage may correspond to multiple positions. The expanded audit verifies selected comparative source transcriptions, not a new native-edition collation."
   ]
 }

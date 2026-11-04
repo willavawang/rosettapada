@@ -29,6 +29,23 @@ def load(number):
   return re.sub(r'\s+','',result)
  return root,render
 
+@lru_cache(maxsize=None)
+def chapter_section(number,chapter):
+ root,_=load(number)
+ for div in root.findall('.//cb:div',NS):
+  for m in div.findall('cb:mulu',NS):
+   # T213's added printed chapter 30 shares a TEI div with chapter 29.
+   # The subsequent printed chapter numbers are offset from the TEI index.
+   heading=re.match(r'(\d+)\s',m.text or '') if number==213 else None
+   key=heading[1] if heading else m.get('n')
+   if key!=str(chapter):continue
+   section=[m]
+   for sibling in m.itersiblings():
+    if sibling.tag==f'{{{NS["cb"]}}}mulu':break
+    section.append(sibling)
+   return section
+ raise ValueError((number,chapter))
+
 if __name__=='__main__':
  for number in [210,212,213]:
   root,render=load(number)
@@ -44,8 +61,9 @@ if __name__=='__main__':
     for i,g in enumerate(groups,1):print(i,g.get('{http://www.w3.org/XML/1998/namespace}id'),render(g))
 
 # Verse extraction is limited to the explicitly mapped passages; source punctuation is retained.
+@lru_cache(maxsize=None)
 def plain_readings(number,chapter):
- root,render=load(number)
+ _,render=load(number)
  def marked(el):
   tag=E.QName(el).localname
   if tag in ['note','rdg']:return ''
@@ -55,11 +73,10 @@ def plain_readings(number,chapter):
   for child in el:out+=marked(child)+(child.tail or '')
   if tag=='l':out+='\u241f'
   return re.sub(r'\s+','',out)
- for div in root.findall('.//cb:div',NS):
-  m=div.find('cb:mulu',NS)
-  if m is not None and m.get('n')==str(chapter):
-   return '\u241f'.join(marked(lg) for lg in div.findall('.//t:lg',NS))
- raise ValueError((number,chapter))
+ groups=[]
+ for part in chapter_section(number,chapter):
+  groups.extend([part] if part.tag==f'{{{NS["t"]}}}lg' else part.findall('.//t:lg',NS))
+ return '\u241f'.join(marked(lg) for lg in groups)
 
 def han(ch):
  return 0x3400<=ord(ch)<=0x9fff or 0x20000<=ord(ch)<=0x323af or 0xf900<=ord(ch)<=0xfaff
@@ -71,12 +88,21 @@ def extract(number,chapter,quote):
  text=''.join(raw[i] for i in positions)
  target=''.join(c for c in quote if han(c))
  exact=text.find(target)
- if exact>=0:start=exact;ratio=1
+ if exact>=0:start=exact;stop=exact+len(target);ratio=1
  else:
-  matches=[(SequenceMatcher(None,target,text[i:i+len(target)],autojunk=False).ratio(),i) for i in range(len(text)-len(target)+1)]
-  ratio,start=max(matches,key=lambda v:(v[0],-v[1]))
-  assert ratio>=.8,(number,chapter,target,ratio,text[start:start+len(target)])
- begin,end=positions[start],positions[start+len(target)-1]+1
+  # Differences can add or omit characters. Match whole native clauses
+  # rather than using a fixed-length window that can clip a native line.
+  boundaries=[0]+[i for i in range(1,len(positions)) if
+      any(c in '，。；、！？：\u241f' for c in raw[positions[i-1]+1:positions[i]])]+[len(text)]
+  limit=max(2,len(target)//5)
+  matches=[
+      (SequenceMatcher(None,target,text[i:j],autojunk=False).ratio(),i,j)
+      for i in boundaries[:-1] for j in boundaries
+      if len(target)-limit<=j-i<=len(target)+limit
+  ]
+  ratio,start,stop=max(matches,key=lambda v:(v[0],-v[1]),default=(0,0,0))
+  if ratio<.8:raise ValueError((number,chapter,target,ratio,text[start:stop]))
+ begin,end=positions[start],positions[stop-1]+1
  while end<len(raw) and not han(raw[end]) and raw[end]!='\u241f':end+=1
  excerpt=raw[begin:end]
- return [x for x in excerpt.split('\u241f') if x],ratio,target,text[start:start+len(target)]
+ return [x for x in excerpt.split('\u241f') if x],ratio,target,text[start:stop]

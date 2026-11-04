@@ -26,6 +26,14 @@
       "display_note": "The comparative page accidentally repeats the preceding verse under Patna 317. This reading follows the separately checked Cone/Ānandajoti native Patna chapter 17, verse 317; the original duplicate and correction are retained in the source record."
     }
   ],
+  "retained_source_anomalies": [
+    {"pali": 45, "tradition": "sa", "reference": "Udānavarga 18.2 Puṣpa", "source_form": "uśalaḥ", "display_note": "The consulted comparative page prints uśalaḥ at the start of the final line. The spelling is retained as printed."},
+    {"pali": 130, "tradition": "sa", "reference": "Udānavarga 5.19 Priya", "source_form": "aiva hanyān", "display_note": "The consulted page prints aiva hanyān here and naiva hanyān under Pāli 129 for the same native verse. Both source transcriptions are retained."},
+    {"pali": 135, "tradition": "sa", "reference": "Udānavarga 1.17 Anitya", "source_form": "vaṁ", "display_note": "The consulted comparative page prints vaṁ at the start of the third line. The spelling is retained as printed."},
+    {"pali": 184, "tradition": "sa", "reference": "Udānavarga 26.2 Nirvāṇa", "source_form": "ramaṇo", "display_note": "The consulted comparative page prints ramaṇo at the start of the final line. The spelling is retained as printed."},
+    {"pali": 194, "tradition": "sa", "reference": "Udānavarga 30.22 Sukha", "source_form": "amagrāṇāṁ", "display_note": "The consulted comparative page prints amagrāṇāṁ at the start of the final line. The spelling is retained as printed."},
+    {"pali": 412, "tradition": "ga", "reference": "Gāndhārī 46 [1.46] Brammaṇa", "source_form": "uvaca3ē", "display_note": "The source prints a numeral inside uvaca3ē. Its editorial notation is retained as printed."}
+  ],
   "edition_differences": [
     {
       "pali": 106,

@@ -1,0 +1,2787 @@
+{
+  "purpose": "Explicit native source selections compared by stanza content. Rockhill index entries are discovery references; native chapter and pāda spans are independently selected. The opening and ending anchors pin the checked passage.",
+  "selections": [
+    {
+      "pali": 44,
+      "chapter": 18,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "ལྷར་བཅས་གཤིན་རྗེའི་འཇིག་རྟེན་འདི",
+      "checked_ending": "ཆོས་བཞི་ལེགས་པར་སྟོན་མཁས་གང་",
+      "catalogue_candidates": [
+        "18.1"
+      ]
+    },
+    {
+      "pali": 45,
+      "chapter": 18,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "ལྷར་བཅས་གཤིན་རྗེའི་འཇིག་རྟེན་འདི",
+      "checked_ending": "ཆོས་བཞི་ལེགས་པར་སྟོན་མཁས་དེ",
+      "catalogue_candidates": [
+        "18.2"
+      ]
+    },
+    {
+      "pali": 46,
+      "chapter": 18,
+      "pada_start": 73,
+      "pada_end": 76,
+      "status": "present",
+      "checked_opening": "ལུས་འདི་དབུ་བ་འདྲ་བར་རྟོགས་བྱས་ཤིང་",
+      "checked_ending": "འཆི་བདག་རྒྱལ་པོས་བལྟར་ཡང་མེད་པར་འགྲོ",
+      "catalogue_candidates": [
+        "18.18"
+      ],
+      "note": "The published index points to the neighboring world-as-foam variant. Derge also has a closer body-as-foam stanza, selected here."
+    },
+    {
+      "pali": 47,
+      "chapter": 18,
+      "pada_start": 49,
+      "pada_end": 52,
+      "status": "present",
+      "checked_opening": "མི་ཡིད་ལ་རྣམ་ཆགས་དང་",
+      "checked_ending": "ཉལ་འགྲོ་ཆུ་བོས་བདས་པ་བཞིན",
+      "catalogue_candidates": [
+        "18.13"
+      ]
+    },
+    {
+      "pali": 48,
+      "chapter": 18,
+      "pada_start": 53,
+      "pada_end": 56,
+      "status": "present",
+      "checked_opening": "མི་ཡིད་ལ་རྣམ་ཆགས་དག",
+      "checked_ending": "འཆི་བདག་གིས་ནི་དབང་དུ་བྱེད",
+      "catalogue_candidates": [
+        "18.14"
+      ]
+    },
+    {
+      "pali": 49,
+      "chapter": 18,
+      "pada_start": 25,
+      "pada_end": 28,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་བུང་བ་མེ་ཏོག་གི",
+      "checked_ending": "དེ་བཞིན་ཐུབ་པ་གྲོང་དུ་རྒྱུ",
+      "catalogue_candidates": [
+        "18.7"
+      ]
+    },
+    {
+      "pali": 50,
+      "chapter": 18,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "གཞན་གྱི་སྐྱོན་ལ་མི་བརྟག་ཅིང་",
+      "checked_ending": "མི་རིགས་པ་ལ་བརྟག་པར་བྱ",
+      "catalogue_candidates": [
+        "18.8"
+      ]
+    },
+    {
+      "pali": 51,
+      "chapter": 18,
+      "pada_start": 21,
+      "pada_end": 24,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་མེ་ཏོག་ཡིད་འོང་བ",
+      "checked_ending": "འབྲས་བུ་མེད་པར་མ་བྱེད་ཅིག",
+      "catalogue_candidates": [
+        "18.6"
+      ]
+    },
+    {
+      "pali": 53,
+      "chapter": 18,
+      "pada_start": 41,
+      "pada_end": 44,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་མེ་ཏོག་ཕུང་པོ་ལས",
+      "checked_ending": "དགེ་བ་ཕལ་ཆེན་རྣམས་ཀྱང་བྱ",
+      "catalogue_candidates": [
+        "18.11"
+      ]
+    },
+    {
+      "pali": 54,
+      "chapter": 6,
+      "pada_start": 61,
+      "pada_end": 64,
+      "status": "present",
+      "checked_opening": "མེ་ཏོག་དྲི་ནི་རྫི་ཕྱོགས་མིན་མི་འགྲོ",
+      "checked_ending": "ཕྱོགས་རྣམས་ཀུན་དུ་མི་མཆོག་དྲི་ཡིས་ཁྱབ",
+      "catalogue_candidates": [
+        "6.16"
+      ],
+      "note": "The Tibetan wording includes a negative in the line on the good person's fragrance going upwind, followed by diffusion in all directions."
+    },
+    {
+      "pali": 55,
+      "chapter": 6,
+      "pada_start": 65,
+      "pada_end": 68,
+      "status": "present",
+      "checked_opening": "རྒྱ་སྤོས་དང་ནི་ཙན་དན་དང་",
+      "checked_ending": "ཚུལ་ཁྲིམས་དྲི་བསུང་ཕུལ་དུ་ཕྱིན",
+      "catalogue_candidates": [
+        "6.17"
+      ]
+    },
+    {
+      "pali": 56,
+      "chapter": 6,
+      "pada_start": 69,
+      "pada_end": 72,
+      "status": "present",
+      "checked_opening": "རྒྱ་སྤོས་ཙན་དན་གང་ཡིན་པའི",
+      "checked_ending": "དེས་ནི་འདི་དང་མཐོ་རིས་ཁྱབ",
+      "catalogue_candidates": [
+        "6.18"
+      ]
+    },
+    {
+      "pali": 57,
+      "chapter": 6,
+      "pada_start": 73,
+      "pada_end": 76,
+      "status": "present",
+      "checked_opening": "དེ་ལྟར་བག་ཡོད་གནས་བྱ་ཞིང་",
+      "checked_ending": "བདུད་ཀྱི་ལམ་ནི་རྙེད་མི་འགྱུར",
+      "catalogue_candidates": [
+        "6.19"
+      ]
+    },
+    {
+      "pali": 58,
+      "chapter": 18,
+      "pada_start": 33,
+      "pada_end": 36,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་ཕྱག་དར་ཕུང་པོ་དག",
+      "checked_ending": "དྲི་ཞིམ་ཡིད་འོང་རབ་སྐྱེས་ལྟར",
+      "catalogue_candidates": [
+        "18.9"
+      ]
+    },
+    {
+      "pali": 59,
+      "chapter": 18,
+      "pada_start": 37,
+      "pada_end": 40,
+      "status": "present",
+      "checked_opening": "དེ་བཞིན་སོ་སོ་སྐྱེ་བོ་དག",
+      "checked_ending": "ཤེས་རབ་ཀྱིས་ནི་གསལ་བ་འབྱུང་",
+      "catalogue_candidates": [
+        "18.10"
+      ]
+    },
+    {
+      "pali": 60,
+      "chapter": 1,
+      "pada_start": 65,
+      "pada_end": 68,
+      "status": "present",
+      "checked_opening": "མེལ་ཙེ་བྱེད་ལ་མཚན་མོ་རིང་",
+      "checked_ending": "བྱིས་པ་རྣམས་ལ་འཁོར་བ་རིང་",
+      "catalogue_candidates": [
+        "1.19"
+      ]
+    },
+    {
+      "pali": 61,
+      "chapter": 14,
+      "pada_start": 59,
+      "pada_end": 62,
+      "status": "present",
+      "checked_opening": "བདག་དང་འཐུན་པར་སྤྱོད་པ་ཡི",
+      "checked_ending": "གཅིག་པུས་སྤྱོད་པ་བརྟན་པར་བྱ",
+      "catalogue_candidates": [
+        "14.15"
+      ]
+    },
+    {
+      "pali": 62,
+      "chapter": 1,
+      "pada_start": 69,
+      "pada_end": 72,
+      "status": "present",
+      "checked_opening": "བདག་ལ་བུ་ཡོད་དེ་བཞིན་དུ",
+      "checked_ending": "སུ་ཡི་བུ་ཡིན་ཅི་ཞིག་ནོར",
+      "catalogue_candidates": [
+        "1.17"
+      ]
+    },
+    {
+      "pali": 63,
+      "chapter": 25,
+      "pada_start": 91,
+      "pada_end": 94,
+      "status": "present",
+      "checked_opening": "བྱིས་པ་གང་ཞིག་བྱིས་པའོ་ཞེས",
+      "checked_ending": "དེ་ནི་བྱིས་པ་ཞེས་བརྗོད་དོ",
+      "catalogue_candidates": [
+        "25.22"
+      ]
+    },
+    {
+      "pali": 64,
+      "chapter": 25,
+      "pada_start": 55,
+      "pada_end": 58,
+      "status": "present",
+      "checked_opening": "བྱིས་པས་ཇི་སྲིད་གསོན་བར་དུ",
+      "checked_ending": "གཟར་བུས་ཚོད་མའི་རོ་བཞིན་ནོ",
+      "catalogue_candidates": [
+        "25.13"
+      ]
+    },
+    {
+      "pali": 65,
+      "chapter": 25,
+      "pada_start": 59,
+      "pada_end": 62,
+      "status": "present",
+      "checked_opening": "ཤེས་རབ་ལྡན་པས་ཡུད་ཙམ་ཞིག",
+      "checked_ending": "ལྕེ་ཡིས་ཚོད་མའི་རོ་བཞིན་ནོ",
+      "catalogue_candidates": [
+        "25.14"
+      ]
+    },
+    {
+      "pali": 66,
+      "chapter": 9,
+      "pada_start": 49,
+      "pada_end": 52,
+      "status": "present",
+      "checked_opening": "བྱིས་པ་ཤེས་རབ་ཆུང་ངུ་དག",
+      "checked_ending": "སྡིག་ཅན་ལས་ནི་སྤྱོད་པར་བྱེད",
+      "catalogue_candidates": [
+        "9.12"
+      ]
+    },
+    {
+      "pali": 67,
+      "chapter": 9,
+      "pada_start": 53,
+      "pada_end": 56,
+      "status": "present",
+      "checked_opening": "གང་དག་བྱས་པས་གདུང་འགྱུར་ཞིང་",
+      "checked_ending": "ལས་དེ་དག་ནི་མ་བྱས་ལེགས",
+      "catalogue_candidates": [
+        "9.13"
+      ]
+    },
+    {
+      "pali": 68,
+      "chapter": 9,
+      "pada_start": 57,
+      "pada_end": 60,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་བྱས་ན་མི་གདུང་ཞིང་",
+      "checked_ending": "ལས་དེ་དག་ནི་བྱས་ན་ལེགས",
+      "catalogue_candidates": [
+        "9.14"
+      ]
+    },
+    {
+      "pali": 69,
+      "chapter": 28,
+      "pada_start": 73,
+      "pada_end": 76,
+      "status": "present",
+      "checked_opening": "ཇི་སྲིད་སྡིག་པ་མ་སྨིན་པ",
+      "checked_ending": "དེ་ཚེ་དེ་ནི་ཚ་བར་སེམས",
+      "catalogue_candidates": [
+        "28.18"
+      ]
+    },
+    {
+      "pali": 70,
+      "chapter": 24,
+      "pada_start": 75,
+      "pada_end": 78,
+      "status": "partial",
+      "checked_opening": "ཟླ་བ་རེ་རེར་ཀུ་ཤའི་རྩེས",
+      "checked_ending": "བཅུ་དྲུག་ཆར་ཡང་མི་ཕོད་དོ",
+      "catalogue_candidates": [
+        "24.19"
+      ],
+      "note": "Monthly grass-tip eating and the one-sixteenth comparison are shared. The Tibetan comparison is with faith in the true Dharma."
+    },
+    {
+      "pali": 71,
+      "chapter": 9,
+      "pada_start": 65,
+      "pada_end": 68,
+      "status": "present",
+      "checked_opening": "ངེས་པར་སྡིག་ལས་འཕྲལ་དུ་ནི",
+      "checked_ending": "དེས་ནི་བྱིས་པ་སྲེག་པར་བྱེད",
+      "catalogue_candidates": [
+        "9.16"
+      ]
+    },
+    {
+      "pali": 72,
+      "chapter": 13,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "ཇི་སྲིད་བླུན་པོ་མཆོད་བྱས་པ",
+      "checked_ending": "དེ་ཡི་སྤྱི་བོའང་ངེས་པར་ཉམས",
+      "catalogue_candidates": [
+        "13.2"
+      ]
+    },
+    {
+      "pali": 73,
+      "chapter": 13,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "ངན་པ་རྙེད་པ་འདོད་པ་དང་",
+      "checked_ending": "རིགས་གཞན་དག་གིས་མཆོད་པ་དང་",
+      "catalogue_candidates": [
+        "13.3"
+      ]
+    },
+    {
+      "pali": 74,
+      "chapter": 13,
+      "pada_start": 13,
+      "pada_end": 18,
+      "status": "present",
+      "checked_opening": "རབ་ཏུ་བྱུང་དང་ཁྱིམ་པ་དག",
+      "checked_ending": "སེམས་ལ་འདོད་ཆེན་འཕེལ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "13.4"
+      ]
+    },
+    {
+      "pali": 75,
+      "chapter": 13,
+      "pada_start": 19,
+      "pada_end": 24,
+      "status": "present",
+      "checked_opening": "རྙེད་པའི་ཐབས་ནི་གཞན་ཡིན་ལ",
+      "checked_ending": "དགེ་སློང་སངས་རྒྱས་ཉན་ཐོས་ཡིན",
+      "catalogue_candidates": [
+        "13.5"
+      ]
+    },
+    {
+      "pali": 78,
+      "chapter": 25,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "སྡིག་པའི་གྲོགས་པོ་མི་བསྟེན་ཅིང་",
+      "checked_ending": "སྐྱེས་བུ་དམ་པ་བསྟེན་པར་བྱ",
+      "catalogue_candidates": [
+        "25.3"
+      ]
+    },
+    {
+      "pali": 80,
+      "chapter": 17,
+      "pada_start": 45,
+      "pada_end": 48,
+      "status": "present",
+      "checked_opening": "བཙོ་བླག་མཁན་དག་ཆུས་འཁྲུ་ཞིང་",
+      "checked_ending": "མཁས་པས་བདག་ཉིད་གདུལ་བར་བྱ",
+      "catalogue_candidates": [
+        "17.11"
+      ],
+      "note": "The Tibetan image is of washers using water and fletchers using fire."
+    },
+    {
+      "pali": 81,
+      "chapter": 29,
+      "pada_start": 239,
+      "pada_end": 242,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་རི་དང་བྲག་དག་ནི",
+      "checked_ending": "མཁས་པ་རབ་ཏུ་གཡོ་བ་མེད",
+      "catalogue_candidates": [
+        "29.52"
+      ]
+    },
+    {
+      "pali": 82,
+      "chapter": 17,
+      "pada_start": 37,
+      "pada_end": 40,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་མཚོ་ཆེན་ཟབ་མོ་དག",
+      "checked_ending": "འདི་ནི་ཆོས་ནི་ཉན་པར་བྱེད",
+      "catalogue_candidates": [
+        "17.9"
+      ]
+    },
+    {
+      "pali": 85,
+      "chapter": 29,
+      "pada_start": 169,
+      "pada_end": 172,
+      "status": "present",
+      "checked_opening": "སྐྱེ་དགུ་ཕལ་པ་འདི་དག་ནི",
+      "checked_ending": "མི་ཡི་སྐྱེ་བོ་དེ་དག་ཉུང་",
+      "catalogue_candidates": [
+        "29.36"
+      ]
+    },
+    {
+      "pali": 86,
+      "chapter": 29,
+      "pada_start": 173,
+      "pada_end": 176,
+      "status": "present",
+      "checked_opening": "གང་དག་ལེགས་པར་གསུངས་པ་ཡི",
+      "checked_ending": "མཚོ་ཆེན་རྒལ་དཀའི་ཕ་རོལ་འགྲོ",
+      "catalogue_candidates": [
+        "29.37"
+      ]
+    },
+    {
+      "pali": 89,
+      "chapter": 31,
+      "pada_start": 163,
+      "pada_end": 168,
+      "status": "present",
+      "checked_opening": "གང་གིས་བྱང་ཆུབ་ཡན་ལག་བདུན",
+      "checked_ending": "འཇིག་རྟེན་དག་ན་མྱ་ངན་འདས",
+      "catalogue_candidates": [
+        "31.39"
+      ]
+    },
+    {
+      "pali": 91,
+      "chapter": 17,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "དེ་དག་ཁྱིམ་ལ་མི་དགའ་བར",
+      "checked_ending": "དེ་དག་ཁྱིམ་སྤངས་ཆུ་བོ་རྒལ",
+      "catalogue_candidates": [
+        "17.1"
+      ]
+    },
+    {
+      "pali": 92,
+      "chapter": 29,
+      "pada_start": 97,
+      "pada_end": 102,
+      "status": "present",
+      "checked_opening": "གང་དག་ཀུན་དུ་སོགས་མེད་ཅིང་",
+      "checked_ending": "ནམ་མཁའ་ལ་ནི་བྱ་རྗེས་བཞིན",
+      "catalogue_candidates": [
+        "29.24"
+      ]
+    },
+    {
+      "pali": 93,
+      "chapter": 29,
+      "pada_start": 139,
+      "pada_end": 144,
+      "status": "partial",
+      "checked_opening": "གང་དག་ཕ་མཐར་རྟེན་མེད་ཅིང་",
+      "checked_ending": "ནམ་མཁའ་ལ་ནི་བྱ་རྗེས་བཞིན",
+      "catalogue_candidates": [
+        "29.25"
+      ],
+      "note": "The Tibetan bird-trace stanza has a different opening and names exhaustion of the taints but does not mention nonattachment to food."
+    },
+    {
+      "pali": 98,
+      "chapter": 29,
+      "pada_start": 73,
+      "pada_end": 76,
+      "status": "present",
+      "checked_opening": "དགོན་པའམ་ཡང་ན་གྲོང་དག་གམ",
+      "checked_ending": "ས་དེ་ཡིད་དུ་འོང་བ་ཡིན",
+      "catalogue_candidates": [
+        "29.18"
+      ]
+    },
+    {
+      "pali": 99,
+      "chapter": 29,
+      "pada_start": 69,
+      "pada_end": 72,
+      "status": "present",
+      "checked_opening": "དགོན་པ་དགའ་བར་བྱ་འོས་པ",
+      "checked_ending": "འདོད་པ་ཚོལ་བར་བྱེད་རྣམས་མིན",
+      "catalogue_candidates": [
+        "29.17"
+      ]
+    },
+    {
+      "pali": 116,
+      "chapter": 28,
+      "pada_start": 93,
+      "pada_end": 96,
+      "status": "present",
+      "checked_opening": "སྡིག་ལ་ཡིད་ནི་མངོན་དགའ་བ",
+      "checked_ending": "བསོད་ནམས་མངོན་པར་སྨྱུར་ཏེ་བྱ",
+      "catalogue_candidates": [
+        "28.23"
+      ]
+    },
+    {
+      "pali": 117,
+      "chapter": 28,
+      "pada_start": 85,
+      "pada_end": 88,
+      "status": "present",
+      "checked_opening": "སྡིག་པ་སྡུག་བསྔལ་སོགས་པས་ན",
+      "checked_ending": "ཡང་དང་ཡང་དུ་དེ་མི་བྱ",
+      "catalogue_candidates": [
+        "28.21"
+      ]
+    },
+    {
+      "pali": 118,
+      "chapter": 28,
+      "pada_start": 89,
+      "pada_end": 92,
+      "status": "present",
+      "checked_opening": "བསོད་ནམས་བདེ་བ་སོགས་པས་ན",
+      "checked_ending": "དེ་ནི་ཡང་དང་ཡང་དུ་བྱ",
+      "catalogue_candidates": [
+        "28.22"
+      ]
+    },
+    {
+      "pali": 119,
+      "chapter": 28,
+      "pada_start": 77,
+      "pada_end": 80,
+      "status": "present",
+      "checked_opening": "ཇི་སྲིད་སྡིག་པ་མ་སྨིན་པ",
+      "checked_ending": "དེ་ཚེ་སྡིག་པ་མཐོང་བར་འགྱུར",
+      "catalogue_candidates": [
+        "28.19"
+      ]
+    },
+    {
+      "pali": 120,
+      "chapter": 28,
+      "pada_start": 81,
+      "pada_end": 84,
+      "status": "present",
+      "checked_opening": "ཇི་སྲིད་བཟང་པོ་མ་སྨིན་པ",
+      "checked_ending": "དེ་ཚེ་བཟང་པོར་མཐོང་བར་འགྱུར",
+      "catalogue_candidates": [
+        "28.20"
+      ]
+    },
+    {
+      "pali": 121,
+      "chapter": 17,
+      "pada_start": 17,
+      "pada_end": 22,
+      "status": "present",
+      "checked_opening": "སྡིག་པ་ཆུང་བྱས་བདག་ཉིད་ཀྱི",
+      "checked_ending": "སྡིག་པས་བྱིས་པ་གང་བར་འགྱུར",
+      "catalogue_candidates": [
+        "17.5"
+      ]
+    },
+    {
+      "pali": 122,
+      "chapter": 17,
+      "pada_start": 23,
+      "pada_end": 28,
+      "status": "present",
+      "checked_opening": "དགེ་བ་ཆུང་བྱས་བདག་ཉིད་ཀྱི",
+      "checked_ending": "དགེ་བས་བརྟན་པ་གང་བར་འགྱུར",
+      "catalogue_candidates": [
+        "17.6"
+      ]
+    },
+    {
+      "pali": 123,
+      "chapter": 28,
+      "pada_start": 57,
+      "pada_end": 60,
+      "status": "present",
+      "checked_opening": "ནོར་ཆེན་གྱིས་ནི་གྲོགས་ཉུང་དང་",
+      "checked_ending": "མཁས་པས་སྡིག་ཅན་ཡོངས་སུ་སྤང་",
+      "catalogue_candidates": [
+        "28.14"
+      ]
+    },
+    {
+      "pali": 124,
+      "chapter": 28,
+      "pada_start": 61,
+      "pada_end": 64,
+      "status": "present",
+      "checked_opening": "གལ་ཏེ་ལག་མཐིལ་རྨ་མེད་ན",
+      "checked_ending": "མ་བྱས་པ་ལ་སྡིག་པ་མེད",
+      "catalogue_candidates": [
+        "28.15"
+      ]
+    },
+    {
+      "pali": 125,
+      "chapter": 28,
+      "pada_start": 35,
+      "pada_end": 38,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་སྐྱེས་བུ་དག་ཅིང་ཉོན་མོངས་མེད",
+      "checked_ending": "རྫི་ཕྱོགས་སུ་ནི་རྡུལ་རྣམས་གཏོར་བ་བཞིན",
+      "catalogue_candidates": [
+        "28.9"
+      ]
+    },
+    {
+      "pali": 127,
+      "chapter": 9,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "གང་དུ་གནས་ན་ལས་ཀྱིས་མི་ཚུགས་པའི",
+      "checked_ending": "རི་བོ་རྣམས་ཀྱི་གསེབ་ཏུ་ཞུགས་ཀྱང་མིན",
+      "catalogue_candidates": [
+        "9.5"
+      ]
+    },
+    {
+      "pali": 128,
+      "chapter": 1,
+      "pada_start": 93,
+      "pada_end": 96,
+      "status": "present",
+      "checked_opening": "གང་དུ་གནས་ཀྱང་འཆི་བས་མི་ཚུགས་པའི",
+      "checked_ending": "རི་བོ་རྣམས་ཀྱི་གསེབ་ཏུ་ཞུགས་ནའང་མིན",
+      "catalogue_candidates": [
+        "1.26"
+      ]
+    },
+    {
+      "pali": 130,
+      "chapter": 5,
+      "pada_start": 75,
+      "pada_end": 78,
+      "status": "present",
+      "checked_opening": "ཐམས་ཅད་ལ་ཡང་སྲོག་འདི་སྡུག",
+      "checked_ending": "བརྡེག་པར་མི་བྱ་གསད་མི་བྱ",
+      "catalogue_candidates": [
+        "5.20"
+      ]
+    },
+    {
+      "pali": 131,
+      "chapter": 30,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "བདེ་བ་འདོད་ཕྱིར་འབྱུང་པོ་ལ",
+      "checked_ending": "ཕ་རོལ་དུ་ནི་བདེ་མི་འགྱུར",
+      "catalogue_candidates": [
+        "30.3"
+      ]
+    },
+    {
+      "pali": 132,
+      "chapter": 30,
+      "pada_start": 13,
+      "pada_end": 16,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་བདེ་བ་འདོད་པ་དག",
+      "checked_ending": "དེ་དག་ཕ་རོལ་བདེ་བ་འཐོབ",
+      "catalogue_candidates": [
+        "30.4"
+      ]
+    },
+    {
+      "pali": 135,
+      "chapter": 1,
+      "pada_start": 57,
+      "pada_end": 60,
+      "status": "present",
+      "checked_opening": "དཔེར་ན་ཕྱུགས་རྗི་དབྱུག་ཐོགས་ཀྱིས",
+      "checked_ending": "མི་རྣམས་འཆི་བདག་དྲུང་དུ་སྐྱེལ",
+      "catalogue_candidates": [
+        "1.17"
+      ],
+      "note": "Derge names sickness and old age driving people into the presence of the lord of death."
+    },
+    {
+      "pali": 136,
+      "chapter": 9,
+      "pada_start": 43,
+      "pada_end": 48,
+      "status": "present",
+      "checked_opening": "གལ་ཏེ་བྱིས་པས་མི་ཤེས་པར",
+      "checked_ending": "མེ་ཡིས་བསྲེགས་པ་བཞིན་དུ་གདུངས",
+      "catalogue_candidates": [
+        "9.11"
+      ]
+    },
+    {
+      "pali": 137,
+      "chapter": 28,
+      "pada_start": 105,
+      "pada_end": 108,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་ཉེས་མེད་ཆད་པས་གཅོད",
+      "checked_ending": "མྱུར་དུ་ཐོབ་པ་ཁོ་ནར་འགྱུར",
+      "catalogue_candidates": [
+        "28.26"
+      ]
+    },
+    {
+      "pali": 138,
+      "chapter": 28,
+      "pada_start": 109,
+      "pada_end": 112,
+      "status": "partial",
+      "checked_opening": "ཚོར་བ་མི་བཟད་པ་དག་གམ",
+      "checked_ending": "ཡང་ན་སེམས་འཁྲུགས་ཐོབ་པར་འགྱུར",
+      "catalogue_candidates": [
+        "28.27"
+      ],
+      "note": "The Tibetan list has a different arrangement of the bodily and mental afflictions."
+    },
+    {
+      "pali": 139,
+      "chapter": 28,
+      "pada_start": 113,
+      "pada_end": 116,
+      "status": "present",
+      "checked_opening": "གཉེན་འདུན་རྣམས་དང་བྲལ་བའམ",
+      "checked_ending": "མི་སྙན་ཤིན་ཏུ་མི་བཟད་དམ",
+      "catalogue_candidates": [
+        "28.28"
+      ]
+    },
+    {
+      "pali": 140,
+      "chapter": 28,
+      "pada_start": 117,
+      "pada_end": 120,
+      "status": "present",
+      "checked_opening": "ཡང་ན་ཁྱིམ་ནི་མེ་ཆེན་པོས",
+      "checked_ending": "བཅུ་པ་ངན་འགྲོར་འགྲོ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "28.29"
+      ]
+    },
+    {
+      "pali": 141,
+      "chapter": 33,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "གཅེར་བུར་སྤྱོད་པས་མ་ཡིན་རལ་པས་མ་ཡིན་རྫབ་ཀྱིས་མིན",
+      "checked_ending": "མི་རྣམས་དག་པར་མི་འགྱུར་སོམ་ཉི་རྣམས་ལས་རྒལ་མི་འགྱུར",
+      "catalogue_candidates": [
+        "33.2"
+      ]
+    },
+    {
+      "pali": 142,
+      "chapter": 33,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་བརྒྱན་ཀྱང་ཆོས་སྤྱོད་དུལ་བ་དང་",
+      "checked_ending": "བྲམ་ཟེ་དགེ་སྦྱོང་དེ་ཡིན་དགེ་སློང་དེ",
+      "catalogue_candidates": [
+        "33.1"
+      ]
+    },
+    {
+      "pali": 144,
+      "chapter": 19,
+      "pada_start": 7,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་རྟ་བཟངས་ལྕག་གིས་གཞུས་པ་ན",
+      "checked_ending": "སྐྱོབ་རྣམས་སྡུག་བསྔལ་མ་ལུས་སྤོང་བར་མཛད",
+      "catalogue_candidates": [
+        "19.1"
+      ]
+    },
+    {
+      "pali": 146,
+      "chapter": 1,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "དེ་ལྟར་རབ་ཏུ་འབར་བ་ལ",
+      "checked_ending": "ཅི་ཕྱིར་སྒྲོན་མ་ཚོལ་མི་བྱེད",
+      "catalogue_candidates": [
+        "1.4"
+      ]
+    },
+    {
+      "pali": 148,
+      "chapter": 1,
+      "pada_start": 137,
+      "pada_end": 140,
+      "status": "partial",
+      "checked_opening": "རྒྱུན་དུ་ནད་ཀྱིས་མངོན་གདུང་ཞིང་",
+      "checked_ending": "ལུས་འདི་དོར་བ་ཅིར་མི་རུང་",
+      "catalogue_candidates": [
+        "1.35"
+      ],
+      "note": "Derge ends with a question about discarding this old, diseased body."
+    },
+    {
+      "pali": 149,
+      "chapter": 1,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "partial",
+      "checked_opening": "རུས་པ་ཐི་བའི་མདོག་འདྲ་བ",
+      "checked_ending": "དེ་མཐོང་འདི་ལ་ཅི་ཞིག་དགའ",
+      "catalogue_candidates": [
+        "1.5"
+      ],
+      "note": "Derge retains scattered bones and the question of delight but omits the autumn-gourd image."
+    },
+    {
+      "pali": 151,
+      "chapter": 1,
+      "pada_start": 105,
+      "pada_end": 108,
+      "status": "present",
+      "checked_opening": "རྒྱལ་པོའི་ཤིང་རྟ་ཤིན་ཏུ་བཀྲ་བའང་འཇིག",
+      "checked_ending": "མི་མཆོག་གཞན་རྟོགས་བྱེད་ཅིང་རྒ་མི་འགྱུར",
+      "catalogue_candidates": [
+        "1.29"
+      ]
+    },
+    {
+      "pali": 153,
+      "chapter": 31,
+      "pada_start": 21,
+      "pada_end": 24,
+      "status": "partial",
+      "checked_opening": "ཁང་ཁྱིམ་བྱེད་པ་འདི་ཡིས་ནི",
+      "checked_ending": "ད་ལྟར་ཕན་ཅད་ཁྱོད་ཀྱིས་ཕྱུང་",
+      "catalogue_candidates": [
+        "31.6"
+      ],
+      "note": "Derge speaks to the house-builder and retains recurring births and suffering, with no explicit search clause."
+    },
+    {
+      "pali": 154,
+      "chapter": 31,
+      "pada_start": 25,
+      "pada_end": 28,
+      "status": "partial",
+      "checked_opening": "ཁང་ཁྱིམ་བྱེད་པ་ཁྱོད་མཐོང་བས",
+      "checked_ending": "ཕྱིན་ཅད་ཁྱིམ་བྱེད་མི་གཞུག་གོ",
+      "catalogue_candidates": [
+        "31.7"
+      ],
+      "note": "Derge retains the house-builder and the broken beams but omits the closing clause about exhaustion of craving."
+    },
+    {
+      "pali": 155,
+      "chapter": 17,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "ཚངས་པར་སྤྱོད་པ་མ་སྤྱད་ཅིང་",
+      "checked_ending": "ཆུ་སྐྱར་རྒན་སེམས་བཞིན་དུ་འགྱུར",
+      "catalogue_candidates": [
+        "17.3"
+      ]
+    },
+    {
+      "pali": 156,
+      "chapter": 17,
+      "pada_start": 13,
+      "pada_end": 16,
+      "status": "partial",
+      "checked_opening": "ཚངས་པར་སྤྱོད་པ་མ་སྤྱད་ཅིང་",
+      "checked_ending": "ལུས་བསྐུམས་ནས་ནི་ཉལ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "17.4"
+      ],
+      "note": "Derge ends with people lying curled up and recalling what they did before, without the spent-arrow simile."
+    },
+    {
+      "pali": 169,
+      "chapter": 30,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "ཆོས་སྤྱོད་ལེགས་པར་སྤྱད་བྱ་ཞིང་",
+      "checked_ending": "ཆོས་སྤྱད་པས་ནི་བདེ་བ་འཐོབ",
+      "catalogue_candidates": [
+        "30.5"
+      ]
+    },
+    {
+      "pali": 170,
+      "chapter": 27,
+      "pada_start": 64,
+      "pada_end": 67,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་ཆུ་བུར་མཐོང་བ་དང་",
+      "checked_ending": "འཆི་བདག་རྒྱལ་པོས་མཐོང་མི་འགྱུར",
+      "catalogue_candidates": [
+        "27.14"
+      ]
+    },
+    {
+      "pali": 171,
+      "chapter": 27,
+      "pada_start": 72,
+      "pada_end": 75,
+      "status": "partial",
+      "checked_opening": "གང་ལ་བྱིས་པ་མངོན་ཆགས་པ",
+      "checked_ending": "ལུས་འདི་རྟག་ཏུ་བལྟ་བར་གྱིས",
+      "catalogue_candidates": [
+        "27.16"
+      ],
+      "note": "Derge has the decorated royal chariot image but asks one to look at the body rather than the world."
+    },
+    {
+      "pali": 172,
+      "chapter": 16,
+      "pada_start": 21,
+      "pada_end": 24,
+      "status": "present",
+      "checked_opening": "འདི་ན་གང་སྔོན་བག་མེད་ལས",
+      "checked_ending": "འཇིག་རྟེན་འདི་ན་ཀུན་ནས་གསལ",
+      "catalogue_candidates": [
+        "16.5"
+      ],
+      "note": "Tibetan has the sun and moon free of clouds."
+    },
+    {
+      "pali": 173,
+      "chapter": 16,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "partial",
+      "checked_opening": "གང་ཞིག་གཞོན་ནུར་རབ་བྱུང་ནས",
+      "checked_ending": "འཇིག་རྟེན་འདི་ན་ཀུན་ནས་གསལ",
+      "catalogue_candidates": [
+        "16.9"
+      ],
+      "note": "Tibetan retains the shining sun and moon image but applies it to youthful going forth into the Buddha's teaching."
+    },
+    {
+      "pali": 174,
+      "chapter": 27,
+      "pada_start": 19,
+      "pada_end": 22,
+      "status": "present",
+      "checked_opening": "འཇིག་རྟེན་མུན་པར་གྱུར་འདི་སྟེ",
+      "checked_ending": "མཐོ་རིས་ལ་དགའ་ཤས་ཙམ་ཞིག",
+      "catalogue_candidates": [
+        "27.4"
+      ]
+    },
+    {
+      "pali": 175,
+      "chapter": 17,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "བརྟན་པ་འཇིག་རྟེན་ངེས་བྱུང་ནས",
+      "checked_ending": "རྫུ་འཕྲུལ་གྱིས་ནི་མཁའ་ལ་འགྲོ",
+      "catalogue_candidates": [
+        "17.2"
+      ]
+    },
+    {
+      "pali": 176,
+      "chapter": 9,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "ཆོས་གཅིག་ལས་ནི་རབ་འདས་ཤིང་",
+      "checked_ending": "སྡིག་པ་མི་བྱ་ཅི་ཡང་མེད",
+      "catalogue_candidates": [
+        "9.1"
+      ]
+    },
+    {
+      "pali": 177,
+      "chapter": 10,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "འཇུངས་རྣམས་ལྷ་ཡི་འཇིག་རྟེན་མི་འགྲོ་ཞིང་",
+      "checked_ending": "དེས་ནི་དེ་དག་གཞན་དུ་བདེ་བ་མྱོང་",
+      "catalogue_candidates": [
+        "10.2"
+      ]
+    },
+    {
+      "pali": 179,
+      "chapter": 29,
+      "pada_start": 247,
+      "pada_end": 250,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་རྒྱལ་ལས་མི་ཉམས་ཤིང་",
+      "checked_ending": "འགྲོ་མེད་གོམ་པ་གང་གིས་བཀྲི",
+      "catalogue_candidates": [
+        "29.54"
+      ]
+    },
+    {
+      "pali": 180,
+      "chapter": 29,
+      "pada_start": 255,
+      "pada_end": 258,
+      "status": "present",
+      "checked_opening": "གང་ལ་འཁྲིད་བྱེད་སྲིད་པ་ནི",
+      "checked_ending": "འགྲོ་མེད་གོམ་པ་གང་གིས་བཀྲི",
+      "catalogue_candidates": [
+        "29.56"
+      ]
+    },
+    {
+      "pali": 183,
+      "chapter": 28,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "སྡིག་པ་ཐམས་ཅད་མི་བྱ་སྟེ",
+      "checked_ending": "འདི་ནི་སངས་རྒྱས་བསྟན་པ་ཡིན",
+      "catalogue_candidates": [
+        "28.1"
+      ]
+    },
+    {
+      "pali": 184,
+      "chapter": 26,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "བཟོད་པ་དཀའ་ཐུབ་མཆོག་སྟེ་བཟོད་པ་ནི",
+      "checked_ending": "གཞན་ལ་གནོད་པས་དགེ་སྦྱོང་མ་ཡིན་ནོ",
+      "catalogue_candidates": [
+        "26.2"
+      ]
+    },
+    {
+      "pali": 185,
+      "chapter": 31,
+      "pada_start": 223,
+      "pada_end": 228,
+      "status": "present",
+      "checked_opening": "སྐུར་པ་མི་གདབ་གནོད་མི་བྱ",
+      "checked_ending": "འདི་ནི་སངས་རྒྱས་བསྟན་པ་ཡིན",
+      "catalogue_candidates": [
+        "31.54"
+      ]
+    },
+    {
+      "pali": 186,
+      "chapter": 2,
+      "pada_start": 65,
+      "pada_end": 68,
+      "status": "present",
+      "checked_opening": "ཀར་ཥ་པ་ཎའི་ཆར་བབ་ཀྱང་",
+      "checked_ending": "མཁས་པ་རྣམས་ཀྱིས་ཁོང་དུ་ཆུད",
+      "catalogue_candidates": [
+        "2.17"
+      ]
+    },
+    {
+      "pali": 187,
+      "chapter": 2,
+      "pada_start": 69,
+      "pada_end": 72,
+      "status": "present",
+      "checked_opening": "ལྷ་ཡི་འདོད་པ་རྣམས་ལ་ཡང་",
+      "checked_ending": "སྲེད་པ་ཟད་པས་དགྱེས་པར་འགྱུར",
+      "catalogue_candidates": [
+        "2.18"
+      ]
+    },
+    {
+      "pali": 188,
+      "chapter": 27,
+      "pada_start": 120,
+      "pada_end": 123,
+      "status": "present",
+      "checked_opening": "འཇིགས་པས་སྐྲག་པའི་མི་དག་ནི",
+      "checked_ending": "ལྗོན་ཤིང་རྣམས་ལ་སྐྱབས་སུ་འགྲོ",
+      "catalogue_candidates": [
+        "27.28"
+      ]
+    },
+    {
+      "pali": 189,
+      "chapter": 27,
+      "pada_start": 124,
+      "pada_end": 127,
+      "status": "present",
+      "checked_opening": "སྐྱབས་དེ་གཙོ་བོ་མ་ཡིན་ཞིང་",
+      "checked_ending": "སྡུག་བསྔལ་ཀུན་ལས་གྲོལ་མི་འགྱུར",
+      "catalogue_candidates": [
+        "27.29"
+      ]
+    },
+    {
+      "pali": 190,
+      "chapter": 27,
+      "pada_start": 128,
+      "pada_end": 135,
+      "status": "partial",
+      "checked_opening": "གང་ཞིག་སངས་རྒྱས་ཆོས་དང་ནི",
+      "checked_ending": "གང་ཚེ་ཤེས་རབ་ཀྱིས་མཐོང་བ",
+      "catalogue_candidates": [
+        "27.30"
+      ],
+      "note": "The Tibetan stanza combines the refuge and four-truths verses, with the eightfold path in the same stanza. The shared stanza is displayed once, at 190."
+    },
+    {
+      "pali": 192,
+      "chapter": 27,
+      "pada_start": 136,
+      "pada_end": 139,
+      "status": "present",
+      "checked_opening": "དེ་ནི་སྐྱབས་ཀྱི་མཆོག་ཡིན་ཞིང་",
+      "checked_ending": "སྡུག་བསྔལ་ཀུན་ལས་གྲོལ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "27.32"
+      ]
+    },
+    {
+      "pali": 193,
+      "chapter": 30,
+      "pada_start": 115,
+      "pada_end": 120,
+      "status": "present",
+      "checked_opening": "སྐྱེས་བུ་ཅང་ཤེས་དཀོན་པ་སྟེ",
+      "checked_ending": "དེ་ཡི་རིགས་ཀྱིས་བདེ་བ་འཐོབ",
+      "catalogue_candidates": [
+        "30.29"
+      ],
+      "note": "Derge adds the happiness of meeting the steadfast as of meeting kin."
+    },
+    {
+      "pali": 194,
+      "chapter": 30,
+      "pada_start": 95,
+      "pada_end": 98,
+      "status": "present",
+      "checked_opening": "སངས་རྒྱས་རྣམས་ནི་འབྱུང་བ་བདེ",
+      "checked_ending": "འཐུན་པ་རྣམས་ཀྱི་དཀའ་ཐུབ་བདེ",
+      "catalogue_candidates": [
+        "30.24"
+      ]
+    },
+    {
+      "pali": 197,
+      "chapter": 30,
+      "pada_start": 189,
+      "pada_end": 192,
+      "status": "present",
+      "checked_opening": "འཚེ་བ་ཅན་གྱི་མི་ནང་ན",
+      "checked_ending": "ཀྱེ་མའོ་ཤིན་ཏུ་བདེ་བར་འཚོ",
+      "catalogue_candidates": [
+        "30.48"
+      ],
+      "note": "Tibetan describes living without harm among those who harm."
+    },
+    {
+      "pali": 198,
+      "chapter": 30,
+      "pada_start": 185,
+      "pada_end": 188,
+      "status": "present",
+      "checked_opening": "ནད་ཀྱིས་ཐེབས་པའི་མི་ནང་ན",
+      "checked_ending": "ཀྱེ་མའོ་ཤིན་ཏུ་བདེ་བར་འཚོ",
+      "catalogue_candidates": [
+        "30.45"
+      ]
+    },
+    {
+      "pali": 200,
+      "chapter": 30,
+      "pada_start": 205,
+      "pada_end": 208,
+      "status": "present",
+      "checked_opening": "ང་ལ་ཅི་ཡང་མེད་མོད་ཀྱི",
+      "checked_ending": "ཀྱེ་མའོ་ཤིན་ཏུ་བདེ་བར་འཚོ",
+      "catalogue_candidates": [
+        "30.50"
+      ]
+    },
+    {
+      "pali": 201,
+      "chapter": 30,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "རྒྱལ་བ་ལས་ནི་འཁོན་འབྱུང་ཞིང་",
+      "checked_ending": "ཉེ་བར་ཞི་བའི་བདེ་བ་འཐོབ",
+      "catalogue_candidates": [
+        "30.1"
+      ]
+    },
+    {
+      "pali": 203,
+      "chapter": 26,
+      "pada_start": 25,
+      "pada_end": 28,
+      "status": "present",
+      "checked_opening": "འདུ་བྱེད་སྡུག་བསྔལ་མ་རུངས་པ",
+      "checked_ending": "མྱ་ངན་འདས་པ་མཆོག་ཏུ་འགྱུར",
+      "catalogue_candidates": [
+        "26.7"
+      ]
+    },
+    {
+      "pali": 204,
+      "chapter": 26,
+      "pada_start": 21,
+      "pada_end": 24,
+      "status": "present",
+      "checked_opening": "ནད་མེད་རྙེད་པའི་དམ་པ་སྟེ",
+      "checked_ending": "མྱ་ངན་འདས་པ་བདེ་བའི་ཕུལ",
+      "catalogue_candidates": [
+        "26.6"
+      ]
+    },
+    {
+      "pali": 206,
+      "chapter": 30,
+      "pada_start": 107,
+      "pada_end": 110,
+      "status": "present",
+      "checked_opening": "འཕགས་པ་རྣམས་ནི་མཐོང་བ་བདེ",
+      "checked_ending": "རྟག་ཏུ་བདེ་བ་ཉིད་དུ་འགྱུར",
+      "catalogue_candidates": [
+        "30.27"
+      ]
+    },
+    {
+      "pali": 207,
+      "chapter": 25,
+      "pada_start": 99,
+      "pada_end": 104,
+      "status": "present",
+      "checked_opening": "བྱིས་པ་བསྟེན་པ་སྡུག་བསྔལ་ཞིང་",
+      "checked_ending": "བརྟན་པ་བསྟེན་ན་བདེ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "25.24"
+      ]
+    },
+    {
+      "pali": 208,
+      "chapter": 25,
+      "pada_start": 105,
+      "pada_end": 108,
+      "status": "present",
+      "checked_opening": "དེ་བས་རྒྱུ་སྐར་ལམ་དུ་ཟླ་བ་ལྟར",
+      "checked_ending": "མི་མཆོག་བརྩེ་ལྡན་བློ་བཟངས་བསྟེན་པར་གྱིས",
+      "catalogue_candidates": [
+        "25.25"
+      ]
+    },
+    {
+      "pali": 210,
+      "chapter": 5,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "སྡུག་པ་མ་མཐོང་སྡུག་བསྔལ་ལ",
+      "checked_ending": "མི་སྡུག་དང་ཡང་ཕྲད་མི་བྱ",
+      "catalogue_candidates": [
+        "5.5"
+      ]
+    },
+    {
+      "pali": 212,
+      "chapter": 5,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "སྡུག་པ་རྣམས་ལས་མྱ་ངན་སྐྱེ",
+      "checked_ending": "མྱ་ངན་མེད་ཅིང་འཇིགས་པ་མེད",
+      "catalogue_candidates": [
+        "5.1"
+      ]
+    },
+    {
+      "pali": 214,
+      "chapter": 2,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "དགའ་བ་རྣམས་ལས་མྱ་ངན་སྐྱེས",
+      "checked_ending": "མྱ་ངན་མེད་ཅིང་འཇིགས་པ་མེད",
+      "catalogue_candidates": [
+        "2.3"
+      ]
+    },
+    {
+      "pali": 215,
+      "chapter": 2,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "འདོད་པ་རྣམས་ལས་མྱ་ངན་སྐྱེས",
+      "checked_ending": "མྱ་ངན་མེད་ཅིང་འཇིགས་པ་མེད",
+      "catalogue_candidates": [
+        "2.2"
+      ]
+    },
+    {
+      "pali": 217,
+      "chapter": 5,
+      "pada_start": 95,
+      "pada_end": 98,
+      "status": "present",
+      "checked_opening": "ཆོས་གནས་ཚུལ་ཁྲིམས་ཕུན་སུམ་ཚོགས",
+      "checked_ending": "སྐྱེ་བོ་གཞན་རྣམས་དགའ་བར་བྱེད",
+      "catalogue_candidates": [
+        "5.25"
+      ],
+      "note": "The Tibetan characterization names ethical conduct, conscience, and truthful speech."
+    },
+    {
+      "pali": 219,
+      "chapter": 5,
+      "pada_start": 79,
+      "pada_end": 82,
+      "status": "present",
+      "checked_opening": "རྒྱང་ཐག་བཅད་པར་སྤྱུགས་པའི་མི",
+      "checked_ending": "ཨ་ལ་ལ་ཞེས་མངོན་པར་དགའ",
+      "catalogue_candidates": [
+        "5.21"
+      ]
+    },
+    {
+      "pali": 220,
+      "chapter": 5,
+      "pada_start": 83,
+      "pada_end": 86,
+      "status": "present",
+      "checked_opening": "དེ་བཞིན་བསོད་ནམས་བྱས་པའི་མི",
+      "checked_ending": "འོངས་ནས་མངོན་པར་དགའ་བར་བྱེད",
+      "catalogue_candidates": [
+        "5.22"
+      ]
+    },
+    {
+      "pali": 238,
+      "chapter": 16,
+      "pada_start": 9,
+      "pada_end": 14,
+      "status": "present",
+      "checked_opening": "བསྒྲིམ་ཞིང་བརྩོན་པར་བྱ་བ་ཡིས",
+      "checked_ending": "ཕྱི་ནས་སྐྱེ་དང་རྒ་མི་འཐོབ",
+      "catalogue_candidates": [
+        "16.3"
+      ],
+      "note": "The Tibetan stanza combines making an island with a smith and silver image also associated with the next Pāli position."
+    },
+    {
+      "pali": 239,
+      "chapter": 2,
+      "pada_start": 37,
+      "pada_end": 40,
+      "status": "present",
+      "checked_opening": "མགར་བ་ཡིས་ནི་དངུལ་བཞིན་དུ",
+      "checked_ending": "རང་གི་དྲི་མ་བསལ་བར་བྱ",
+      "catalogue_candidates": [
+        "2.10"
+      ]
+    },
+    {
+      "pali": 240,
+      "chapter": 9,
+      "pada_start": 77,
+      "pada_end": 80,
+      "status": "present",
+      "checked_opening": "ལྕགས་ལས་གཡའ་ནི་ལངས་གྱུར་པ",
+      "checked_ending": "རང་གི་ལས་ཀྱིས་ངན་འགྲོར་འགྲོ",
+      "catalogue_candidates": [
+        "9.19"
+      ]
+    },
+    {
+      "pali": 244,
+      "chapter": 27,
+      "pada_start": 11,
+      "pada_end": 14,
+      "status": "present",
+      "checked_opening": "སྤྱི་རྡོལ་བྱེད་ཅིང་འཕྲོག་རློམ་ཅན",
+      "checked_ending": "ངོ་ཚ་མེད་པའི་འཚོ་བ་སླ",
+      "catalogue_candidates": [
+        "27.2"
+      ]
+    },
+    {
+      "pali": 245,
+      "chapter": 27,
+      "pada_start": 15,
+      "pada_end": 18,
+      "status": "present",
+      "checked_opening": "རྟག་ཏུ་གཙང་མ་ཚོལ་བ་དང་",
+      "checked_ending": "ངོ་ཚ་ཤེས་པའི་འཚོ་བ་དཀའ",
+      "catalogue_candidates": [
+        "27.3"
+      ]
+    },
+    {
+      "pali": 249,
+      "chapter": 10,
+      "pada_start": 45,
+      "pada_end": 52,
+      "status": "partial",
+      "checked_opening": "མཁས་པ་དགེ་སྦྱོང་འོངས་པ་ལ",
+      "checked_ending": "ཏིང་འཛིན་ཐོབ་པར་མི་འགྱུར་རོ",
+      "catalogue_candidates": [
+        "10.12"
+      ],
+      "note": "Derge distributes the giving and envy clauses across two neighboring stanzas. The first opens with welcoming a wise renunciant."
+    },
+    {
+      "pali": 250,
+      "chapter": 10,
+      "pada_start": 53,
+      "pada_end": 56,
+      "status": "present",
+      "checked_opening": "གང་གིས་ཏ་ལའི་མགོ་བཅད་ལྟར",
+      "checked_ending": "ཏིང་ངེ་འཛིན་དག་ཐོབ་པར་འགྱུར",
+      "catalogue_candidates": [
+        "10.13"
+      ],
+      "note": "Tibetan illustrates severance with cutting the top of a palm tree."
+    },
+    {
+      "pali": 251,
+      "chapter": 29,
+      "pada_start": 185,
+      "pada_end": 188,
+      "status": "present",
+      "checked_opening": "འདོད་པ་ལྟ་བུའི་འདམ་རྫབ་མེད",
+      "checked_ending": "སྲེད་པ་ལྟ་བུའི་ཆུ་ཀླུང་མེད",
+      "catalogue_candidates": [
+        "29.40"
+      ],
+      "note": "Tibetan uses mire for desire and harm for hatred, retaining the net and river images for delusion and craving."
+    },
+    {
+      "pali": 252,
+      "chapter": 27,
+      "pada_start": 1,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "བདག་ལས་གཞན་པའི་སྐྱོན་དག་ནི",
+      "checked_ending": "རྟག་ཏུ་འཕྱས་ལང་འདུ་ཤེས་ཅན",
+      "catalogue_candidates": [
+        "27.1"
+      ],
+      "note": "The Tibetan comparison includes the dice cheat concealing a throw."
+    },
+    {
+      "pali": 260,
+      "chapter": 11,
+      "pada_start": 41,
+      "pada_end": 44,
+      "status": "present",
+      "checked_opening": "མགོ་བོ་སྐྱ་བོར་གྱུར་བར་དུ",
+      "checked_ending": "དེ་ནི་རྒན་བླུན་ཞེས་བྱའོ",
+      "catalogue_candidates": [
+        "11.11"
+      ]
+    },
+    {
+      "pali": 261,
+      "chapter": 11,
+      "pada_start": 45,
+      "pada_end": 48,
+      "status": "partial",
+      "checked_opening": "གང་ཞིག་དགེ་དང་སྡིག་པ་དག",
+      "checked_ending": "དེ་ནི་རྒན་རབས་ཞེས་བྱའོ",
+      "catalogue_candidates": [
+        "11.12"
+      ],
+      "note": "Tibetan describes one who has left good and evil and practices the holy life, with a different list of qualities."
+    },
+    {
+      "pali": 264,
+      "chapter": 11,
+      "pada_start": 49,
+      "pada_end": 52,
+      "status": "present",
+      "checked_opening": "བརྟུལ་ཞུགས་མེད་ཅིང་བརྫུན་སྨྲ་ན",
+      "checked_ending": "ཇི་ག་དགེ་སྦྱོང་ཡིན་ནམ་ཀྱེ",
+      "catalogue_candidates": [
+        "11.13"
+      ]
+    },
+    {
+      "pali": 265,
+      "chapter": 11,
+      "pada_start": 57,
+      "pada_end": 62,
+      "status": "present",
+      "checked_opening": "བརྟུལ་ཞུགས་མེད་ཅིང་བརྫུན་སྨྲ་ན",
+      "checked_ending": "དགེ་སྦྱོང་ཉིད་ཅེས་བརྗོད་པར་བྱ",
+      "catalogue_candidates": [
+        "11.14"
+      ],
+      "note": "The longer Tibetan stanza adds a repeated opening about shaving one's head."
+    },
+    {
+      "pali": 266,
+      "chapter": 32,
+      "pada_start": 75,
+      "pada_end": 78,
+      "status": "present",
+      "checked_opening": "རེ་ཞིག་གཞན་ལ་སློང་བ་ཙམ",
+      "checked_ending": "ཇི་ག་དགེ་སློང་མིན་པ་སྙམ",
+      "catalogue_candidates": [
+        "32.18"
+      ]
+    },
+    {
+      "pali": 273,
+      "chapter": 12,
+      "pada_start": 13,
+      "pada_end": 16,
+      "status": "present",
+      "checked_opening": "བདེན་པའི་ནང་ན་བདེན་བཞི་དང་",
+      "checked_ending": "ཆོས་ཀྱི་ནང་ན་ཆགས་བྲལ་མཆོག",
+      "catalogue_candidates": [
+        "12.4"
+      ]
+    },
+    {
+      "pali": 274,
+      "chapter": 12,
+      "pada_start": 41,
+      "pada_end": 44,
+      "status": "present",
+      "checked_opening": "ལྟ་བ་རྣམ་པར་དག་བྱེད་པ",
+      "checked_ending": "བདུད་ཀྱི་འཆིང་བ་སྤང་བར་གྱིས",
+      "catalogue_candidates": [
+        "12.11"
+      ]
+    },
+    {
+      "pali": 276,
+      "chapter": 12,
+      "pada_start": 33,
+      "pada_end": 36,
+      "status": "partial",
+      "checked_opening": "སྲེད་པའི་ཟུག་རྔུ་གཅོད་བྱེད་ལམ",
+      "checked_ending": "ཁྱེད་ཅག་རྣམས་ཀྱིས་བྱ་དགོས་སོ",
+      "catalogue_candidates": [
+        "12.9"
+      ],
+      "note": "Tibetan shares the instruction to do the work oneself and the Tathāgata's role as teacher. Its first two lines resemble the preceding Pāli verse and it omits the meditators' release clause."
+    },
+    {
+      "pali": 277,
+      "chapter": 12,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "འདུ་བྱེད་ཐམས་ཅད་མི་རྟག་པར",
+      "checked_ending": "ལམ་འདི་རྣམ་པར་དག་པར་འགྱུར",
+      "catalogue_candidates": [
+        "12.5"
+      ]
+    },
+    {
+      "pali": 278,
+      "chapter": 12,
+      "pada_start": 21,
+      "pada_end": 24,
+      "status": "present",
+      "checked_opening": "འདུ་བྱེད་ཐམས་ཅད་སྡུག་བསྔལ་བར",
+      "checked_ending": "ལམ་འདི་རྣམ་པར་དག་པར་འགྱུར",
+      "catalogue_candidates": [
+        "12.6"
+      ]
+    },
+    {
+      "pali": 279,
+      "chapter": 12,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "འདུ་བྱེད་ཐམས་ཅད་བདག་མེད་པར",
+      "checked_ending": "ལམ་འདི་རྣམ་པར་དག་པར་འགྱུར",
+      "catalogue_candidates": [
+        "12.7"
+      ],
+      "note": "Derge has neighboring stanzas on emptiness and not-self. The not-self stanza refers specifically to formations."
+    },
+    {
+      "pali": 280,
+      "chapter": 31,
+      "pada_start": 135,
+      "pada_end": 138,
+      "status": "present",
+      "checked_opening": "ལྡང་བའི་དུས་ཚེ་འདུག་པར་བྱེད་པ་དང་",
+      "checked_ending": "མི་ཡི་ཤེས་རབ་ལམ་རྟོགས་མི་འགྱུར་རོ",
+      "catalogue_candidates": [
+        "31.32"
+      ]
+    },
+    {
+      "pali": 283,
+      "chapter": 18,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "ནགས་ཚལ་ལས་ནི་འཇིགས་སྐྱེས་ཕྱིར",
+      "checked_ending": "དགེ་སྦྱོང་མྱ་ངན་འདའ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "18.3"
+      ]
+    },
+    {
+      "pali": 284,
+      "chapter": 18,
+      "pada_start": 13,
+      "pada_end": 16,
+      "status": "present",
+      "checked_opening": "གལ་ཏེ་ནགས་སྦྱོར་མ་བཅད་ན",
+      "checked_ending": "དེ་ཡིས་ཡིད་ནི་རབ་ཏུ་འཆིང་",
+      "catalogue_candidates": [
+        "18.4"
+      ]
+    },
+    {
+      "pali": 285,
+      "chapter": 18,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "ལག་པས་སྟོན་ཀའི་པད་མ་ལྟར",
+      "checked_ending": "ཞི་བའི་ལམ་ཉིད་བསྐྱེད་པར་གྱིས",
+      "catalogue_candidates": [
+        "18.5"
+      ]
+    },
+    {
+      "pali": 286,
+      "chapter": 1,
+      "pada_start": 145,
+      "pada_end": 148,
+      "status": "present",
+      "checked_opening": "དགུན་ཀ་དང་ནི་དཔྱིད་ཀ་དང་",
+      "checked_ending": "བར་ཆད་མཐོང་བར་མ་གྱུར་ཏོ",
+      "catalogue_candidates": [
+        "1.38"
+      ]
+    },
+    {
+      "pali": 287,
+      "chapter": 1,
+      "pada_start": 149,
+      "pada_end": 152,
+      "status": "present",
+      "checked_opening": "བུ་དང་ནོར་ཕྱུགས་འབྱོར་པ་ལ",
+      "checked_ending": "ཉལ་གྲོང་ཆུ་བོས་བདས་པ་བཞིན"
+    },
+    {
+      "pali": 288,
+      "chapter": 1,
+      "pada_start": 153,
+      "pada_end": 156,
+      "status": "present",
+      "checked_opening": "འཆི་བའི་དུས་ལ་བབ་པ་ན",
+      "checked_ending": "ཁྱོད་ལ་སྐྱབས་སུ་འགྱུར་བ་མེད",
+      "catalogue_candidates": [
+        "1.39"
+      ]
+    },
+    {
+      "pali": 306,
+      "chapter": 8,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "present",
+      "checked_opening": "གང་དག་བྱས་བཞིན་མ་བྱས་ཟེར་བ་དང་",
+      "checked_ending": "སོང་ནས་དམན་པའི་ཆོས་དང་ལྡན་པར་འགྱུར",
+      "catalogue_candidates": [
+        "8.1"
+      ]
+    },
+    {
+      "pali": 308,
+      "chapter": 9,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "ལྕགས་སྒོང་མེ་ལྕེ་འབར་འདྲ་བ",
+      "checked_ending": "ཡུལ་འཁོར་བསོད་སྙོམས་ཟ་མི་རུང་",
+      "catalogue_candidates": [
+        "9.2"
+      ]
+    },
+    {
+      "pali": 309,
+      "chapter": 4,
+      "pada_start": 51,
+      "pada_end": 54,
+      "status": "present",
+      "checked_opening": "བག་མེད་ཕ་རོལ་བུད་མེད་སྟེན་བྱེད་པའི",
+      "checked_ending": "གསུམ་པ་སྨད་འགྱུར་བཞི་པ་དམྱལ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "4.13"
+      ]
+    },
+    {
+      "pali": 310,
+      "chapter": 4,
+      "pada_start": 55,
+      "pada_end": 58,
+      "status": "present",
+      "checked_opening": "བསོད་ནམས་མ་ཐོབ་སྡིག་པའི་འགྲོ་བ་དང་",
+      "checked_ending": "ལུས་ཞིག་སེམས་ཅན་དམྱལ་བ་རྣམས་སུ་འཚེད",
+      "catalogue_candidates": [
+        "4.14"
+      ]
+    },
+    {
+      "pali": 311,
+      "chapter": 11,
+      "pada_start": 13,
+      "pada_end": 16,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་མདའ་ནི་གཟུང་ཉེས་པས",
+      "checked_ending": "དམྱལ་བར་ཉེ་བར་ཁྲིད་པར་བྱེད",
+      "catalogue_candidates": [
+        "11.4"
+      ],
+      "note": "Derge uses a badly grasped arrow in place of kusa grass."
+    },
+    {
+      "pali": 312,
+      "chapter": 11,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "ཞན་པའི་ལས་ནི་ཇི་སྙེད་དང་",
+      "checked_ending": "དོན་ཆེན་འགྱུར་སྙམ་མི་བྱེད་དོ",
+      "catalogue_candidates": [
+        "11.3"
+      ]
+    },
+    {
+      "pali": 313,
+      "chapter": 11,
+      "pada_start": 5,
+      "pada_end": 8,
+      "status": "present",
+      "checked_opening": "ཀུན་དུ་རྒྱུ་བ་ཞན་པ་དག",
+      "checked_ending": "བྱ་བ་དེ་ཉིད་བྱེད་ལ་རག",
+      "catalogue_candidates": [
+        "11.2"
+      ]
+    },
+    {
+      "pali": 315,
+      "chapter": 5,
+      "pada_start": 65,
+      "pada_end": 68,
+      "status": "partial",
+      "checked_opening": "དཔེར་ན་དགོན་པའི་གྲོང་ཁྱེར་དག",
+      "checked_ending": "དེ་ལྟར་བདག་ནི་བསྲུང་བར་བྱ",
+      "catalogue_candidates": [
+        "5.17"
+      ],
+      "note": "The Tibetan verse retains the guarded frontier city and the instruction not to waste the opportunity, without the hell conclusion."
+    },
+    {
+      "pali": 316,
+      "chapter": 16,
+      "pada_start": 15,
+      "pada_end": 16,
+      "status": "partial",
+      "checked_opening": "ངོ་ཚ་མིན་ལ་ངོ་ཚ་ཞིང་",
+      "checked_ending": "ངོ་ཚ་བ་ལ་ངོ་མི་ཚ",
+      "catalogue_candidates": [
+        "16.4"
+      ],
+      "note": "The shame contrast is the first two lines of a six-line native stanza. The next Pāli position uses the final four lines of that same stanza."
+    },
+    {
+      "pali": 317,
+      "chapter": 16,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "partial",
+      "checked_opening": "མི་འཇིགས་པ་ལ་འཇིགས་ལྟ་དང་",
+      "checked_ending": "སེམས་ཅན་ངན་འགྲོར་འགྲོ་བར་འགྱུར",
+      "catalogue_candidates": [
+        "16.4"
+      ],
+      "note": "The danger and wrong-view contrast forms the concluding four lines of the six-line stanza that begins with the shame contrast."
+    },
+    {
+      "pali": 320,
+      "chapter": 29,
+      "pada_start": 85,
+      "pada_end": 88,
+      "status": "present",
+      "checked_opening": "གཞུ་ཡིས་མདའ་འཕངས་བསྣུན་པ་ཡི",
+      "checked_ending": "མི་སྙན་སྨྲས་པ་བཟོད་པར་བྱ",
+      "catalogue_candidates": [
+        "29.21"
+      ]
+    },
+    {
+      "pali": 321,
+      "chapter": 19,
+      "pada_start": 25,
+      "pada_end": 28,
+      "status": "present",
+      "checked_opening": "དུལ་བ་འདུན་སར་འགྲོ་བྱེད་ཅིང་",
+      "checked_ending": "དུལ་བ་མི་ཡི་ནང་ན་མཆོག",
+      "catalogue_candidates": [
+        "19.6"
+      ]
+    },
+    {
+      "pali": 322,
+      "chapter": 19,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "གླང་པོའི་ནང་ན་གླང་ཆེན་དང་",
+      "checked_ending": "དེ་བས་བདག་ཉིད་འདུལ་བ་མཆོག",
+      "catalogue_candidates": [
+        "19.7"
+      ]
+    },
+    {
+      "pali": 323,
+      "chapter": 19,
+      "pada_start": 33,
+      "pada_end": 36,
+      "status": "present",
+      "checked_opening": "བདག་ཉིད་ལེགས་འདུལ་གང་ཡིན་པའི",
+      "checked_ending": "ས་དེ་མངོན་པར་འཐོབ་མི་སྲི་སྲིད",
+      "catalogue_candidates": [
+        "19.8"
+      ]
+    },
+    {
+      "pali": 325,
+      "chapter": 29,
+      "pada_start": 49,
+      "pada_end": 52,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་རྡེ་འགེངས་གཉིད་ནི་ལོག་པ་དང་",
+      "checked_ending": "ཡང་དང་ཡང་དུ་སྨད་པའི་མངལ་དུ་འཇུག",
+      "catalogue_candidates": [
+        "29.13"
+      ]
+    },
+    {
+      "pali": 326,
+      "chapter": 31,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "སེམས་འདི་སྔོན་ཆད་ཇི་ལྟར་འདོད་པ་དང་",
+      "checked_ending": "དེ་ནི་ཚུལ་བཞིན་བྱ་བས་དེ་བཟུང་ངོ་",
+      "catalogue_candidates": [
+        "31.5"
+      ]
+    },
+    {
+      "pali": 327,
+      "chapter": 4,
+      "pada_start": 111,
+      "pada_end": 114,
+      "status": "present",
+      "checked_opening": "དགེ་སློང་བག་ཡོད་ལ་དགའ་ཞིང་",
+      "checked_ending": "འདམ་རྫབ་ལས་ནི་གླང་ཆེན་བཞིན",
+      "catalogue_candidates": [
+        "4.26"
+      ],
+      "note": "Tibetan describes the monk who delights in heedfulness and sees danger in heedlessness, then retains the image of an elephant escaping a bog."
+    },
+    {
+      "pali": 328,
+      "chapter": 14,
+      "pada_start": 51,
+      "pada_end": 54,
+      "status": "present",
+      "checked_opening": "བརྟན་པ་ལེགས་གནས་ལྷན་ཅིག་སྤྱད་པ་ཡི",
+      "checked_ending": "དྲན་ལྡན་དགའ་བའི་ཡིད་ཀྱིས་དེ་དང་སྤྱད",
+      "catalogue_candidates": [
+        "14.13"
+      ]
+    },
+    {
+      "pali": 329,
+      "chapter": 14,
+      "pada_start": 55,
+      "pada_end": 58,
+      "status": "present",
+      "checked_opening": "བརྟན་པ་ལེགས་གནས་ལྷན་ཅིག་སྤྱད་པ་ཡི",
+      "checked_ending": "གཅིག་པུས་སྤྱད་བྱ་སྡིག་པ་མི་བྱའོ",
+      "catalogue_candidates": [
+        "14.14"
+      ],
+      "note": "Tibetan uses the king and the forsaken kingdom, and adds the instruction to do no evil when walking alone."
+    },
+    {
+      "pali": 330,
+      "chapter": 14,
+      "pada_start": 63,
+      "pada_end": 66,
+      "status": "present",
+      "checked_opening": "བྱིས་པ་གྲོགས་སུ་མི་འགྱུར་བས",
+      "checked_ending": "སེམས་ཁྲལ་བསྐྱུངས་ཏེ་གཅིག་པུ་སྤྱད",
+      "catalogue_candidates": [
+        "14.16"
+      ]
+    },
+    {
+      "pali": 332,
+      "chapter": 30,
+      "pada_start": 91,
+      "pada_end": 94,
+      "status": "present",
+      "checked_opening": "འཇིག་རྟེན་ན་ནི་ཕར་འཛིན་བདེ",
+      "checked_ending": "དེ་བཞིན་བྲམ་ཟེར་འཛིན་པ་བདེ",
+      "catalogue_candidates": [
+        "30.23"
+      ]
+    },
+    {
+      "pali": 333,
+      "chapter": 30,
+      "pada_start": 87,
+      "pada_end": 90,
+      "status": "present",
+      "checked_opening": "རྒས་ཁར་ཚུལ་ཁྲིམས་ལྡན་པ་བདེ",
+      "checked_ending": "སྡིག་པ་མི་བྱེད་པ་དག་བདེ",
+      "catalogue_candidates": [
+        "30.22"
+      ],
+      "note": "Tibetan celebrates delight in meaningful speech in the line corresponding to the acquisition of wisdom."
+    },
+    {
+      "pali": 334,
+      "chapter": 3,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "partial",
+      "checked_opening": "མི་དག་དྲན་པར་བྱེད་དང་ཆགས་བྱེད་དང་",
+      "checked_ending": "ཚལ་ནང་འབྲས་བུ་འདོད་པའི་སྤྲེའུ་དང་མཚུངས",
+      "catalogue_candidates": [
+        "3.5"
+      ],
+      "note": "The Tibetan wording shares the monkey seeking fruit and repeated wandering, without the opening creeper simile."
+    },
+    {
+      "pali": 335,
+      "chapter": 3,
+      "pada_start": 37,
+      "pada_end": 40,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་འཇིག་རྟེན་སྤང་དཀའ་བའི",
+      "checked_ending": "རྩྭ་ལ་ཆར་པ་བབ་པ་བཞིན",
+      "catalogue_candidates": [
+        "3.10"
+      ]
+    },
+    {
+      "pali": 336,
+      "chapter": 3,
+      "pada_start": 41,
+      "pada_end": 44,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་འཇིག་རྟེན་སྤང་དཀའ་བའི",
+      "checked_ending": "པད་མ་ལས་ནི་ཆུ་ཐིགས་བཞིན",
+      "catalogue_candidates": [
+        "3.11"
+      ]
+    },
+    {
+      "pali": 337,
+      "chapter": 3,
+      "pada_start": 45,
+      "pada_end": 48,
+      "status": "partial",
+      "checked_opening": "དེ་ཕྱིར་ཇི་སྙེད་འདིར་ལྷགས་པ",
+      "checked_ending": "སྲེད་པ་རྩྭར་བཅས་དྲུངས་ནས་ཕྱུང་",
+      "catalogue_candidates": [
+        "3.12"
+      ],
+      "note": "Derge preserves uprooting craving like grass dug up for its roots but does not add the final river and reed image."
+    },
+    {
+      "pali": 338,
+      "chapter": 3,
+      "pada_start": 73,
+      "pada_end": 76,
+      "status": "present",
+      "checked_opening": "དཔེར་ན་ལྗོན་ཤིང་རྩ་ནས་མ་བཏོན་ན",
+      "checked_ending": "ཡང་དང་ཡང་དུ་སྡུག་བསྔལ་འདི་མི་ལྡོག",
+      "catalogue_candidates": [
+        "3.18"
+      ]
+    },
+    {
+      "pali": 339,
+      "chapter": 31,
+      "pada_start": 123,
+      "pada_end": 126,
+      "status": "partial",
+      "checked_opening": "ཀུན་རྟོག་ལ་ཆུམས་རྟེན་པ་ཡི",
+      "checked_ending": "ཡིད་ཀྱི་རྒྱུན་ལས་རབ་ཏུ་འབབ",
+      "catalogue_candidates": [
+        "31.29"
+      ],
+      "note": "Tibetan preserves the thirty-six streams image and connects their flow with the stream of mind."
+    },
+    {
+      "pali": 342,
+      "chapter": 3,
+      "pada_start": 23,
+      "pada_end": 28,
+      "status": "present",
+      "checked_opening": "སྐྱེ་དགུ་སྲེད་པ་རྣམས་ཀྱིས་མདུན་དུ་བདར",
+      "checked_ending": "ཡང་དང་ཡང་དུ་སྡུག་བསྔལ་ཐོབ་པར་འགྱུར",
+      "catalogue_candidates": [
+        "3.6"
+      ]
+    },
+    {
+      "pali": 344,
+      "chapter": 27,
+      "pada_start": 112,
+      "pada_end": 115,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་ཚལ་སྤངས་ཚལ་མེད་པ",
+      "checked_ending": "གང་ཟག་འདི་ལ་ལྟོས་ཤིག་ཚུར",
+      "catalogue_candidates": [
+        "27.26"
+      ],
+      "note": "The Tibetan wording retains the forest, renewed bondage, and invitation to look."
+    },
+    {
+      "pali": 345,
+      "chapter": 2,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "ནོར་བུའི་རྣ་ཆ་བུ་དང་བུ་མོ་ལ",
+      "checked_ending": "དེ་དག་དམ་པོ་མིན་ཞེས་འཕགས་པ་གསུང་",
+      "catalogue_candidates": [
+        "2.5"
+      ]
+    },
+    {
+      "pali": 346,
+      "chapter": 2,
+      "pada_start": 21,
+      "pada_end": 24,
+      "status": "present",
+      "checked_opening": "འདོད་པའི་ཆིང་མ་གང་ཡིན་དེ་ལྷོད་ཀྱང་",
+      "checked_ending": "དེ་དག་གཏུབས་ནས་མྱུར་དུ་འགྲོ་བར་བྱེད",
+      "catalogue_candidates": [
+        "2.6"
+      ]
+    },
+    {
+      "pali": 348,
+      "chapter": 29,
+      "pada_start": 267,
+      "pada_end": 270,
+      "status": "present",
+      "checked_opening": "སྔོན་བྲལ་ཕྱི་མ་དང་བྲལ་ཞིང་",
+      "checked_ending": "སྐྱེ་རྒ་ཕྱི་མ་འདྲེན་མི་འགྱུར",
+      "catalogue_candidates": [
+        "29.59"
+      ]
+    },
+    {
+      "pali": 354,
+      "chapter": 26,
+      "pada_start": 186,
+      "pada_end": 189,
+      "status": "present",
+      "checked_opening": "སྦྱིན་ཀུན་ཆོས་ཀྱི་སྦྱིན་པས་ཐུབ",
+      "checked_ending": "བདེ་ཀུན་སྲེད་པ་ཟད་པས་ཐུབ",
+      "catalogue_candidates": [
+        "26.33"
+      ]
+    },
+    {
+      "pali": 356,
+      "chapter": 16,
+      "pada_start": 63,
+      "pada_end": 66,
+      "status": "present",
+      "checked_opening": "ཞིང་གི་སྐྱོན་ནི་རྩྭ་ཡིན་ལྟར",
+      "checked_ending": "བྱིན་ན་འབྲས་བུ་ཆེན་པོར་འགྱུར",
+      "catalogue_candidates": [
+        "16.15"
+      ]
+    },
+    {
+      "pali": 357,
+      "chapter": 16,
+      "pada_start": 67,
+      "pada_end": 70,
+      "status": "present",
+      "checked_opening": "ཞིང་གི་སྐྱོན་ནི་རྩྭ་ཡིན་ལྟར",
+      "checked_ending": "བྱིན་ན་འབྲས་བུ་ཆེན་པོར་འགྱུར",
+      "catalogue_candidates": [
+        "16.16"
+      ]
+    },
+    {
+      "pali": 358,
+      "chapter": 16,
+      "pada_start": 71,
+      "pada_end": 74,
+      "status": "present",
+      "checked_opening": "ཞིང་གི་སྐྱོན་ནི་རྩྭ་ཡིན་ལྟར",
+      "checked_ending": "བྱིན་ན་འབྲས་བུ་ཆེན་པོར་འགྱུར",
+      "catalogue_candidates": [
+        "16.17"
+      ]
+    },
+    {
+      "pali": 359,
+      "chapter": 16,
+      "pada_start": 79,
+      "pada_end": 82,
+      "status": "present",
+      "checked_opening": "ཞིང་གི་སྐྱོན་ནི་རྩྭ་ཡིན་ལྟར",
+      "checked_ending": "བྱིན་ན་འབྲས་བུ་ཆེན་པོར་འགྱུར",
+      "catalogue_candidates": [
+        "16.19"
+      ]
+    },
+    {
+      "pali": 362,
+      "chapter": 32,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "ལག་པ་ལེགས་བསྡམས་རྐང་པ་ལེགས་བསྡམས་དང་",
+      "checked_ending": "ཆོག་ཤེས་དེ་ནི་དགེ་སློང་ཡིན་ཞེས་གསུང་",
+      "catalogue_candidates": [
+        "32.8"
+      ]
+    },
+    {
+      "pali": 364,
+      "chapter": 32,
+      "pada_start": 33,
+      "pada_end": 36,
+      "status": "present",
+      "checked_opening": "དགེ་སློང་ཆོས་ལ་ཀུན་དགའ་ཞིང་",
+      "checked_ending": "ཆོས་ལས་ཡོངས་སུ་ཉམས་མི་འགྱུར",
+      "catalogue_candidates": [
+        "32.9"
+      ]
+    },
+    {
+      "pali": 366,
+      "chapter": 32,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "partial",
+      "checked_opening": "དགེ་སློང་བསོད་སྙོམས་བྱེད་པ་བདག་རང་ཙམ",
+      "checked_ending": "སྐྱོབ་པ་དེ་ལ་ལྷ་རྣམས་དགའ་བར་བྱེད",
+      "catalogue_candidates": [
+        "32.2"
+      ],
+      "note": "Tibetan describes a monk who receives only enough for himself and delights the gods. It omits the comparison to monks with more offerings."
+    },
+    {
+      "pali": 367,
+      "chapter": 32,
+      "pada_start": 71,
+      "pada_end": 74,
+      "status": "present",
+      "checked_opening": "གང་ལ་ཀུན་དུ་སོགས་མེད་ཅིང་",
+      "checked_ending": "དེ་ནི་དགེ་སློང་ཞེས་བརྗོད་དོ",
+      "catalogue_candidates": [
+        "32.33"
+      ],
+      "note": "The Tibetan no-ownership stanza refers to having no stores and not grieving over what is absent."
+    },
+    {
+      "pali": 368,
+      "chapter": 32,
+      "pada_start": 87,
+      "pada_end": 90,
+      "status": "present",
+      "checked_opening": "དགེ་སློང་གང་ཞིག་བྱམས་གནས་ཤིང་",
+      "checked_ending": "ཞི་བའི་གོ་འཕང་ཐོབ་པར་འགྱུར"
+    },
+    {
+      "pali": 369,
+      "chapter": 26,
+      "pada_start": 45,
+      "pada_end": 48,
+      "status": "present",
+      "checked_opening": "ཁྱོད་ཀྱིས་གྲུ་འདིའི་ཆུ་ཕྱགས་དང་",
+      "checked_ending": "དེ་ནས་མྱ་ངན་འདས་པ་འཐོབ",
+      "catalogue_candidates": [
+        "26.12"
+      ]
+    },
+    {
+      "pali": 371,
+      "chapter": 31,
+      "pada_start": 131,
+      "pada_end": 134,
+      "status": "present",
+      "checked_opening": "སེམས་ཁྱོད་ཕུང་ཁྲོལ་འདོད་ལ་དགའ་མ་བྱེད",
+      "checked_ending": "ལྕགས་གོང་མིད་པས་ཁྱོད་ནི་མ་ངུ་ཤིག",
+      "catalogue_candidates": [
+        "31.31"
+      ]
+    },
+    {
+      "pali": 372,
+      "chapter": 32,
+      "pada_start": 115,
+      "pada_end": 118,
+      "status": "partial",
+      "checked_opening": "ཏིང་འཛིན་མེད་ལ་ཤེས་རབ་མེད",
+      "checked_ending": "དགེ་སློང་ཡིན་ཞེས་བརྗོད་པར་བྱ",
+      "catalogue_candidates": [
+        "32.28"
+      ],
+      "note": "The concentration and wisdom pair is retained. Derge concludes by calling a person who has both a monk."
+    },
+    {
+      "pali": 373,
+      "chapter": 32,
+      "pada_start": 37,
+      "pada_end": 40,
+      "status": "present",
+      "checked_opening": "དགེ་སློང་ཁང་སྟོང་ཞུགས་ནས་སུ",
+      "checked_ending": "ལྷ་ཡི་དགའ་དང་ལྡན་པར་འགྱུར",
+      "catalogue_candidates": [
+        "32.10"
+      ]
+    },
+    {
+      "pali": 374,
+      "chapter": 32,
+      "pada_start": 41,
+      "pada_end": 44,
+      "status": "partial",
+      "checked_opening": "ཇི་ལྟ་ཇི་ལྟར་ཕུང་པོ་ལ",
+      "checked_ending": "དགའ་དང་མགུ་བ་ཉིད་ཀྱང་འཐོབ",
+      "catalogue_candidates": [
+        "32.11"
+      ],
+      "note": "The insight into the aggregates' arising and passing and the joy it brings are shared. Derge omits the deathless conclusion."
+    },
+    {
+      "pali": 375,
+      "chapter": 32,
+      "pada_start": 119,
+      "pada_end": 124,
+      "status": "partial",
+      "checked_opening": "དེ་བས་ཏིང་འཛིན་ཤེས་རབ་ལ",
+      "checked_ending": "སོ་སོར་ཐར་པས་བསྡམ་པར་བྱ",
+      "catalogue_candidates": [
+        "32.7"
+      ],
+      "note": "Derge adds an opening on cultivation of concentration and wisdom before the restraint and contentment instructions."
+    },
+    {
+      "pali": 376,
+      "chapter": 32,
+      "pada_start": 25,
+      "pada_end": 28,
+      "status": "partial",
+      "checked_opening": "འཚོ་གཙང་སྙོམ་ལས་མེད་པ་ཡི",
+      "checked_ending": "སྤྱོད་ཡུལ་ཆོ་ག་མཁས་པར་བྱ",
+      "note": "The Tibetan verse covers choosing companions, sharing, and conduct. It has no closing joy and end-of-suffering couplet here."
+    },
+    {
+      "pali": 377,
+      "chapter": 18,
+      "pada_start": 45,
+      "pada_end": 48,
+      "status": "present",
+      "checked_opening": "ཇི་ལྟར་དབྱར་ཀ་བ་ཀུ་ལའི",
+      "checked_ending": "ཞེ་སྡང་གཏི་མུག་སྤང་བར་གྱིས",
+      "catalogue_candidates": [
+        "18.12"
+      ],
+      "note": "The Tibetan flower is the vakula and the objects to abandon include delusion."
+    },
+    {
+      "pali": 378,
+      "chapter": 32,
+      "pada_start": 111,
+      "pada_end": 114,
+      "status": "present",
+      "checked_opening": "ལུས་ཞི་ངག་ནི་ཞི་བ་དང་",
+      "checked_ending": "དགེ་སློང་ཉེར་ཞི་ཡིན་ཞེས་བརྗོད",
+      "catalogue_candidates": [
+        "32.31"
+      ]
+    },
+    {
+      "pali": 380,
+      "chapter": 19,
+      "pada_start": 65,
+      "pada_end": 68,
+      "status": "present",
+      "checked_opening": "བདག་ཉིད་ཁོ་ན་བདག་གི་མགོན",
+      "checked_ending": "དེ་བས་བདག་ཉིད་གདུལ་བར་བྱ",
+      "catalogue_candidates": [
+        "19.16"
+      ]
+    },
+    {
+      "pali": 381,
+      "chapter": 32,
+      "pada_start": 107,
+      "pada_end": 110,
+      "status": "partial",
+      "checked_opening": "སེམས་དགའ་ཡིད་ནི་བཟང་བ་དང་",
+      "checked_ending": "སྡུག་བསྔལ་ཟད་པ་ཐོབ་པར་འགྱུར",
+      "note": "The Tibetan verse shares the joyful monk and the ending of suffering, without the distinct reference to faith in the Buddha's teaching."
+    },
+    {
+      "pali": 382,
+      "chapter": 16,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་གཞོན་ནུར་རབ་བྱུང་ནས",
+      "checked_ending": "འཇིག་རྟེན་འདི་ན་ཀུན་ནས་གསལ",
+      "catalogue_candidates": [
+        "16.7"
+      ],
+      "note": "The same Tibetan stanza is also a qualified comparison with Pāli 173. Its opening matches this position more closely, and its image names both sun and moon."
+    },
+    {
+      "pali": 383,
+      "chapter": 11,
+      "pada_start": 1,
+      "pada_end": 4,
+      "status": "partial",
+      "checked_opening": "བྲམ་ཟེས་འདོད་པ་རབ་སྤང་ཞིང་",
+      "checked_ending": "ཐུབ་པ་གཅིག་གིས་མ་ཐོབ་བོ",
+      "catalogue_candidates": [
+        "11.1"
+      ],
+      "note": "Derge shares the effort to cut the stream and abandon sensuality, with a different second half."
+    },
+    {
+      "pali": 385,
+      "chapter": 33,
+      "pada_start": 117,
+      "pada_end": 120,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་ཕ་རོལ་ཚུ་རོལ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.26"
+      ]
+    },
+    {
+      "pali": 386,
+      "chapter": 33,
+      "pada_start": 177,
+      "pada_end": 180,
+      "status": "partial",
+      "checked_opening": "གང་ཞིག་འདུག་ནས་རྡུལ་བྲལ་བ",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "note": "The Tibetan parallel shares meditation, taintlessness, and completing the task, ending instead on the final body."
+    },
+    {
+      "pali": 387,
+      "chapter": 33,
+      "pada_start": 347,
+      "pada_end": 354,
+      "status": "present",
+      "checked_opening": "ཉིན་མོ་ཉི་མ་གསལ་བར་བྱེད",
+      "checked_ending": "ཉིན་དང་མཚན་དུ་གསལ་བར་བྱེད",
+      "catalogue_candidates": [
+        "33.82",
+        "33.83"
+      ],
+      "note": "Two contiguous Tibetan stanzas preserve the day and night images and the radiance of the Buddha."
+    },
+    {
+      "pali": 388,
+      "chapter": 11,
+      "pada_start": 63,
+      "pada_end": 66,
+      "status": "present",
+      "checked_opening": "སྡིག་པ་སྤངས་པ་བྲམ་ཟེ་སྟེ",
+      "checked_ending": "དེས་ན་རབ་ཏུ་བྱུང་ཞེས་བརྗོད"
+    },
+    {
+      "pali": 389,
+      "chapter": 33,
+      "pada_start": 307,
+      "pada_end": 310,
+      "status": "partial",
+      "checked_opening": "གང་ཞིག་བྲམ་ཟེ་རྡེག་པ་བླུན",
+      "checked_ending": "བྲམ་ཟེ་བསྐྲད་པར་མི་བྱའོ",
+      "catalogue_candidates": [
+        "33.72"
+      ],
+      "note": "Tibetan condemns striking or driving away a brahmin. It does not have the Pāli lines on retaliation."
+    },
+    {
+      "pali": 391,
+      "chapter": 33,
+      "pada_start": 81,
+      "pada_end": 84,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་ལུས་དང་ངག་དང་ནི",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.18"
+      ]
+    },
+    {
+      "pali": 392,
+      "chapter": 33,
+      "pada_start": 311,
+      "pada_end": 314,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་ཆོས་རྣམས་རྣམ་ཤེས་ན",
+      "checked_ending": "བྲམ་ཟེ་གཙང་མས་མེ་བཞིན་ནོ",
+      "catalogue_candidates": [
+        "33.75"
+      ],
+      "note": "The Tibetan counterpart honors someone who understands Dharma, whether old or young, using the brahmin and fire image."
+    },
+    {
+      "pali": 393,
+      "chapter": 33,
+      "pada_start": 37,
+      "pada_end": 40,
+      "status": "present",
+      "checked_opening": "རིགས་ཀྱིས་བྲམ་ཟེར་འགྱུར་མ་ཡིན",
+      "checked_ending": "གཙང་མ་དེ་ཡིན་བྲམ་ཟེ་ཡིན",
+      "catalogue_candidates": [
+        "33.9"
+      ]
+    },
+    {
+      "pali": 394,
+      "chapter": 33,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "བློ་ངན་ཁྱོད་ཀྱི་རལ་པ་ཅི",
+      "checked_ending": "ཕྱི་རོལ་ལེགས་པར་བྱི་དོར་བྱེད",
+      "catalogue_candidates": [
+        "33.8"
+      ]
+    },
+    {
+      "pali": 396,
+      "chapter": 33,
+      "pada_start": 75,
+      "pada_end": 80,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་མ་ཡི་མངལ་སྐྱེས་ནས",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.17"
+      ]
+    },
+    {
+      "pali": 398,
+      "chapter": 33,
+      "pada_start": 287,
+      "pada_end": 290,
+      "status": "partial",
+      "checked_opening": "གང་གིས་སོག་མིག་འཆིང་གཏུབས་ཏེ",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "note": "Derge shares severed tether imagery, with a different list of bonds."
+    },
+    {
+      "pali": 399,
+      "chapter": 33,
+      "pada_start": 89,
+      "pada_end": 92,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་གསོད་འཆིང་གཤེ་བ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.20"
+      ]
+    },
+    {
+      "pali": 400,
+      "chapter": 33,
+      "pada_start": 93,
+      "pada_end": 96,
+      "status": "present",
+      "checked_opening": "ཁྲོ་བ་མེད་ཅིང་ཚུལ་ཁྲིམས་ཅན",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.21"
+      ]
+    },
+    {
+      "pali": 401,
+      "chapter": 33,
+      "pada_start": 145,
+      "pada_end": 148,
+      "status": "present",
+      "checked_opening": "པད་མའི་འདབ་ལ་ཆུ་ལྟར་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.34"
+      ]
+    },
+    {
+      "pali": 403,
+      "chapter": 33,
+      "pada_start": 181,
+      "pada_end": 184,
+      "status": "present",
+      "checked_opening": "ཤེས་རབ་ཟབ་ཅིང་ཡིད་གཞུངས་ལ",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.42"
+      ]
+    },
+    {
+      "pali": 404,
+      "chapter": 33,
+      "pada_start": 97,
+      "pada_end": 100,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་རབ་བྱུང་ཁྱིམ་པ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.22"
+      ]
+    },
+    {
+      "pali": 405,
+      "chapter": 33,
+      "pada_start": 195,
+      "pada_end": 198,
+      "status": "present",
+      "checked_opening": "འགྲོ་བ་དང་ནི་གནས་པ་ཡི",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ"
+    },
+    {
+      "pali": 406,
+      "chapter": 33,
+      "pada_start": 199,
+      "pada_end": 202,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་མི་འཐུན་འཐུན་བྱེད་ཅིང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ"
+    },
+    {
+      "pali": 407,
+      "chapter": 33,
+      "pada_start": 203,
+      "pada_end": 206,
+      "status": "present",
+      "checked_opening": "སྨྱུང་བུའི་རྩེ་ལ་ཡུངས་ཀར་ལྟར",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.47"
+      ]
+    },
+    {
+      "pali": 408,
+      "chapter": 33,
+      "pada_start": 85,
+      "pada_end": 88,
+      "status": "present",
+      "checked_opening": "གང་གི་ཚིག་ངག་མི་རྩུབ་ཅིང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ"
+    },
+    {
+      "pali": 409,
+      "chapter": 33,
+      "pada_start": 121,
+      "pada_end": 124,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་ཐུང་དང་རིང་བ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.28"
+      ]
+    },
+    {
+      "pali": 410,
+      "chapter": 33,
+      "pada_start": 217,
+      "pada_end": 220,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་འཇིག་རྟེན་འདི་དང་ནི",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.49"
+      ]
+    },
+    {
+      "pali": 411,
+      "chapter": 33,
+      "pada_start": 275,
+      "pada_end": 278,
+      "status": "partial",
+      "checked_opening": "གང་ལ་ཆུང་ཟད་གནས་མེད་ཅིང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "note": "The Tibetan stanza retains attaining the deathless and absence of clinging, while the middle description differs."
+    },
+    {
+      "pali": 412,
+      "chapter": 33,
+      "pada_start": 133,
+      "pada_end": 136,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་དགེ་དང་སྡིག་པའི་ལས",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ"
+    },
+    {
+      "pali": 413,
+      "chapter": 33,
+      "pada_start": 161,
+      "pada_end": 164,
+      "status": "present",
+      "checked_opening": "ཟླ་བ་དག་ཅིང་དྲི་མེད་ལ",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.37"
+      ]
+    },
+    {
+      "pali": 414,
+      "chapter": 33,
+      "pada_start": 207,
+      "pada_end": 212,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་སྲེད་པའི་རྫོང་འདི་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "note": "The Tibetan stanza retains crossing the flood and letting go of grasping, with differences in the description of the crossing."
+    },
+    {
+      "pali": 415,
+      "chapter": 33,
+      "pada_start": 191,
+      "pada_end": 194,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་འདོད་པ་ལེགས་སྤངས་ཤིང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.44"
+      ]
+    },
+    {
+      "pali": 416,
+      "chapter": 33,
+      "pada_start": 213,
+      "pada_end": 216,
+      "status": "partial",
+      "checked_opening": "གང་ཞིག་འཇིག་རྟེན་འདི་དང་ནི",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "note": "Derge retains the exhaustion of craving for becoming and the contrast of this world and the next, without the going-forth clause."
+    },
+    {
+      "pali": 417,
+      "chapter": 33,
+      "pada_start": 225,
+      "pada_end": 228,
+      "status": "present",
+      "checked_opening": "མི་ཡི་སྦྱོར་བ་སྤངས་ནས་སུ",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.52"
+      ]
+    },
+    {
+      "pali": 418,
+      "chapter": 33,
+      "pada_start": 221,
+      "pada_end": 224,
+      "status": "present",
+      "checked_opening": "དགའ་དང་མི་དགའ་སྤངས་པ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ"
+    },
+    {
+      "pali": 419,
+      "chapter": 33,
+      "pada_start": 247,
+      "pada_end": 250,
+      "status": "present",
+      "checked_opening": "གང་གིས་སེམས་ཅན་འཆི་འཕོ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.57"
+      ]
+    },
+    {
+      "pali": 420,
+      "chapter": 33,
+      "pada_start": 229,
+      "pada_end": 232,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་ལྷ་དང་དྲི་ཟ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.53"
+      ]
+    },
+    {
+      "pali": 421,
+      "chapter": 33,
+      "pada_start": 137,
+      "pada_end": 140,
+      "status": "present",
+      "checked_opening": "གང་ཞིག་སྔོན་དང་ཕྱི་མ་དང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ"
+    },
+    {
+      "pali": 422,
+      "chapter": 33,
+      "pada_start": 255,
+      "pada_end": 258,
+      "status": "present",
+      "checked_opening": "ཐུབ་པ་རྣམ་རྒྱལ་དྲང་སྲོང་ཆེ",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.59"
+      ]
+    },
+    {
+      "pali": 423,
+      "chapter": 33,
+      "pada_start": 237,
+      "pada_end": 242,
+      "status": "present",
+      "checked_opening": "གང་གིས་སྔོན་གྱི་གནས་རྟོགས་ཤིང་",
+      "checked_ending": "བྲམ་ཟེ་ཡིན་པར་ངས་གསུངས་སོ",
+      "catalogue_candidates": [
+        "33.55"
+      ]
+    }
+  ]
+}

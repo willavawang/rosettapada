@@ -1,3 +1,11 @@
+# Textual status — full reader, 4 November 2026
+
+The reader now covers 26 chapters and 423 Pāli positions. For the live chapter tier definitions and counts, see [Contents](https://willavawang.github.io/rosettapada/contents.html). The English column is a Pāli-based Rosettapada editorial draft with separate reading notes. The pinned Sujato English remains a reference. The Pāli text at verse 416 displays one copy of the repeated stanza. Verse 423 displays its six lines and omits the following summary verses. Both decisions leave the upstream snapshot intact.
+
+Full source methods and results are documented in the [Indic](../data/witnesses/sources/indic/README.md), [Chinese](../data/witnesses/sources/chinese/README.md), and [Tibetan](TIBETAN_ANALYSIS.md) notes. The 99 pilot-era witness records are preserved.
+
+The following pilot record describes the earlier release.
+
 # Textual status — reading study 08
 
 The six-chapter pilot follows Pairs (1–20), Heedfulness (21–32), Thousands (100–115), Self (157–166), Anger (221–234), and Miscellaneous (290–305), totaling 88 Pāli positions. The earlier Mind page (33–43) remains available separately, bringing the total to 99. All seven pages present English plus Pāli, Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan. These are historical textual counterparts placed in Pāli order, not six new translations of the Pāli. Each verse begins at the same horizontal level; its internal line divisions and length follow its own source.
