@@ -8,13 +8,12 @@
   <link rel="stylesheet" href="styles.css?v={{STYLE_VERSION}}">
 </head>
 <body class="document-page">
-  <header class="masthead"><a class="wordmark" href="index.html">Rosettapada</a><nav class="top-nav" aria-label="Main navigation"><a href="index.html">Read</a><a href="notes.html">Notes</a></nav></header>
+  <header class="masthead"><a class="wordmark" href="index.html">Rosettapada</a><nav class="top-nav" aria-label="Main navigation"><a href="index.html">Read</a></nav></header>
   <main class="document-wrap contents-wrap">
     <h1>Contents</h1>
-    <p class="document-intro">{{CHAPTER_COUNT}} chapters · {{POSITION_COUNT}} Pāli verse positions</p>
-    <p class="availability-note">The first count shows how many traditions have a reading somewhere in the chapter. The second counts verse positions with readings in all six and no partial flag. Wording and line divisions can still differ.</p>
-    {{CHAPTER_GROUPS}}
-    <nav class="document-actions" aria-label="Related pages"><a href="index.html">← Back to the sheet</a><a href="notes.html">Textual notes ↗</a></nav>
+    <nav class="toc-pages" aria-label="Chapters">
+      {{CHAPTER_LINKS}}
+    </nav>
   </main>
 </body>
 </html>

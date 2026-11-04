@@ -20,6 +20,8 @@ PILOT_CHAPTERS = [chapter for chapter in CHAPTERS if chapter["no"] in PILOT_NUMB
 READING_NUMBERS = [number for chapter in CHAPTERS for number in range(chapter["start"], chapter["end"] + 1)]
 ENGLISH_EDITION = json.loads((ROOT / "data/english/pi.json").read_text(encoding="utf-8"))
 ENGLISH = ENGLISH_EDITION["verses"]
+ALTERNATE_ENGLISH = json.loads((ROOT / "data/english/alternates.json").read_text(encoding="utf-8"))
+ENGLISH_LANGUAGES = {"pi": "Pāli", "pd": "Patna", "ga": "Gāndhārī", "sa": "Sanskrit", "zh": "Classical Chinese", "bo": "Tibetan"}
 WITNESS_FILES = {"pd": "patna.json", "ga": "gandhari.json", "sa": "sanskrit.json", "zh": "chinese.json", "bo": "tibetan.json"}
 WITNESSES = {key: json.loads((ROOT / "data/witnesses" / filename).read_text(encoding="utf-8")) for key, filename in WITNESS_FILES.items()}
 WITNESS_INDEX = {key: {verse["pali"]: verse for verse in data["verses"]} for key, data in WITNESSES.items()}
@@ -130,7 +132,38 @@ def render(name, template=None, **values):
     (ROOT / name).write_text(text.rstrip("\n") + "\n", encoding="utf-8")
 
 
-def render_reader(name, sources, verses, title, chapter_id, profile="sample", previous="", next_page="", chapter_title="", help_note=""):
+def english_settings(verses):
+    numbers = {str(verse["no"]) for verse in verses}
+    drafts = {
+        key: {number: lines for number, lines in edition.items() if number in numbers}
+        for key, edition in ALTERNATE_ENGLISH.items()
+    }
+    options = []
+    for key, label in ENGLISH_LANGUAGES.items():
+        count = len(drafts.get(key, {}))
+        if key == "pi":
+            availability, disabled = "", ""
+        elif count:
+            availability, disabled = f" · {count}/{len(verses)}", ""
+        else:
+            availability, disabled = " · unavailable here", " disabled"
+        options.append(f'<option value="{key}" data-label="{label}"{disabled}>{label}{availability}</option>')
+    payload = json.dumps({key: rows for key, rows in drafts.items() if rows}, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+    return ('<div class="english-settings"><label for="english-source">English source</label>'
+            '<select id="english-source" aria-describedby="english-source-status">' + "".join(options) + '</select>'
+            '<p id="english-source-status" aria-live="polite"></p></div>'
+            f'<script type="application/json" id="english-editions">{payload}</script>')
+
+
+def chapter_navigation(previous, next_page):
+    if not (previous or next_page):
+        return ""
+    before = f'<a href="{e(previous)}" rel="prev" aria-label="Previous section"><span aria-hidden="true">‹</span></a>' if previous else ""
+    after = f'<a href="{e(next_page)}" rel="next">Next section <span aria-hidden="true">›</span></a>' if next_page else ""
+    return f'<nav class="chapter-navigation" aria-label="Chapter navigation">{before}{after}</nav>'
+
+
+def render_reader(name, sources, verses, title, chapter_id, profile="sample", previous="", next_page="", chapter_title=""):
     headings, settings, verse_html = [], [], []
     for source in sources:
         key = source["key"]
@@ -176,9 +209,6 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
                     text = annotated_line(reading_text(line), annotations) if line is not None else '<span class="unverified">Not yet verified</span>'
                     rendered_lines.append(f'<span class="poem-line"{segment}>{text}</span>')
                 content = '<p class="poem">' + "".join(rendered_lines) + '</p>'
-                if key == "en" and verse.get("english_note"):
-                    number = verse["no"]
-                    content += f'<a class="translation-note" href="notes.html#english-{number}" aria-label="English reading note for verse {number}">Note ↗</a>'
             poems.append(f'<section class="witness lang-{key}" data-language="{key}" data-reading-status="{status}" lang="{LANGS[key]}" aria-labelledby="{poem_id}" title="{e(reference)}"{hidden}><h3 class="sr-only" id="{poem_id}">{e(label)}</h3>{content}</section>')
         verse_html.append(
             f'<section class="verse" id="dhp{verse["no"]}" data-verse="{verse["no"]}" aria-labelledby="verse-title-{verse["no"]}">'
@@ -189,7 +219,9 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
            PROFILE=profile, PREVIOUS_PAGE=e(previous), NEXT_PAGE=e(next_page), CHAPTER_TITLE=e(chapter_title),
            INITIAL_LOCATION=e(f'Verse {verses[0]["no"]}, {chapter_title}' if chapter_title else f'Verse 1 of {len(verses)}'),
            DESCRIPTION=e(f'Rosettapada — {title}. English and six historical textual traditions on one continuous reading sheet.' if profile == "historical" else 'Rosettapada — a two-verse comparative Dhammapada reading study.'),
-           HELP_NOTE=e(help_note), COLUMN_HEADINGS="\n".join(headings), VERSES="\n".join(verse_html), LANGUAGE_SETTINGS="\n".join(settings))
+           COLUMN_HEADINGS="\n".join(headings), VERSES="\n".join(verse_html), LANGUAGE_SETTINGS="\n".join(settings),
+           CHAPTER_NAVIGATION=chapter_navigation(previous, next_page),
+           ENGLISH_SETTINGS=english_settings(verses) if profile == "historical" else "")
 
 
 sample_verses = [{"no": verse["no"], "lines": {
@@ -197,8 +229,7 @@ sample_verses = [{"no": verse["no"], "lines": {
     for source in SOURCES
 }} for verse in VERSES]
 sample_sources = [{**source, "reference": "Pāli working translation" if source["key"] == "en" else "Not yet verified" if source["key"] == "bo" else source["reference"]} for source in SOURCES]
-render_reader("sample.html", sample_sources, sample_verses, "The pairs", "chapter1",
-              help_note="Two verses are included in this earlier comparative sample. The English follows Pāli; alignment across traditions is provisional. The multilingual chapter pages are available in Contents.")
+render_reader("sample.html", sample_sources, sample_verses, "The pairs", "chapter1")
 
 for index, chapter in enumerate(CHAPTERS):
     uid = chapter["uid"]
@@ -221,7 +252,7 @@ for index, chapter in enumerate(CHAPTERS):
             if key == "zh":
                 lines["zh-pinyin"] = reading["pinyin"] if reading else [None]
                 witnesses["zh-pinyin"] = record
-        verses.append({"no": number, "segments": keys, "lines": lines, "witnesses": witnesses, "english_note": english.get("note")})
+        verses.append({"no": number, "segments": keys, "lines": lines, "witnesses": witnesses})
     references = {"en": ENGLISH_EDITION["label"], "pi": "Mahāsaṅgīti edition", "pd": "Dharmapada", "ga": "Dharmapada", "sa": "Udānavarga", "zh": "Historical Chinese recensions", "zh-pinyin": "Modern Mandarin reading aid", "bo": "Udānavarga · Toh 326"}
     sources = [{**source, "reference": references[source["key"]]} for source in SOURCES]
     previous_chapter = CHAPTERS[index - 1] if index else None
@@ -229,8 +260,7 @@ for index, chapter in enumerate(CHAPTERS):
     previous = f'{previous_chapter["page"]}#dhp{previous_chapter["end"]}' if previous_chapter else ""
     next_page = f'{next_chapter["page"]}#dhp{next_chapter["start"]}' if next_chapter else ""
     render_reader(chapter["page"], sources, verses, chapter["title"], f'chapter{chapter["no"]}', profile="historical",
-                  previous=previous, next_page=next_page, chapter_title=chapter["title"],
-                  help_note="Pāli supplies the chapter order. Rosettapada’s English is a comparative draft based on Pāli. A dash marks a counterpart not located in the consulted sources. Verse arrows follow Pāli chapter order.")
+                  previous=previous, next_page=next_page, chapter_title=chapter["title"])
 
 # Preserve links shared before Pairs became the homepage.
 (ROOT / "pairs.html").write_bytes((ROOT / CHAPTERS[0]["page"]).read_bytes())
@@ -249,32 +279,14 @@ def chapter_coverage(chapter):
 
 
 def chapter_link(chapter):
-    title = e(chapter["title"])
-    meta = f'{chapter["represented"]}/6 traditions · {chapter["six_present"]}/{chapter["positions"]} present in all six'
     return (f'<a class="toc-page-link" href="{chapter["page"]}#chapter{chapter["no"]}">'
-            f'<span class="toc-number">{chapter["no"]:02}</span><span>{title}<small>{meta}</small></span>'
+            f'<span>{e(chapter["title"])}</span>'
             '<span class="toc-arrow" aria-hidden="true"><svg width="15" height="15" viewBox="0 0 16 16" fill="none" stroke="currentColor"><path d="M3 13 13 3M6 3h7v7"/></svg></span></a>')
 
 
 coverage = [chapter_coverage(chapter) for chapter in CHAPTERS]
-tiers = [
-    (1, "Broad overlap", "At least half the verse positions have present status across all six traditions."),
-    (2, "Uneven overlap", "Five or six traditions are represented. Gaps, fragments, and differences are part of the comparison."),
-    (3, "Sparse overlap", "Fewer than five traditions have a displayed reading."),
-]
-groups = []
-for tier, title, explanation in tiers:
-    entries = [chapter for chapter in coverage if chapter["tier"] == tier]
-    if entries:
-        links = "\n".join(chapter_link(chapter) for chapter in entries)
-        count = len(entries)
-        groups.append(
-            f'<section class="catalogue-tier" aria-labelledby="tier-{tier}">'
-            f'<h2 id="tier-{tier}">Tier {tier} · {title} <span>{count} {"chapter" if count == 1 else "chapters"}</span></h2>'
-            f'<p class="availability-note">{explanation}</p><nav class="toc-pages" aria-label="{title}">{links}</nav></section>'
-        )
 (ROOT / "data/chapter-coverage.json").write_text(json.dumps(coverage, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-render("contents.html", CHAPTER_GROUPS="\n".join(groups), CHAPTER_COUNT=len(CHAPTERS), POSITION_COUNT=len(READING_NUMBERS))
+render("contents.html", CHAPTER_LINKS="\n".join(chapter_link(chapter) for chapter in CHAPTERS))
 parallel_table, historical_sources = historical_notes()
 chapter_sources = "\n".join(f'<li><a href="https://suttacentral.net/{chapter["uid"]}/en/sujato">{e(chapter["title"])} · English and Pāli on SuttaCentral ↗</a></li>' for chapter in CHAPTERS)
 english_notes = []

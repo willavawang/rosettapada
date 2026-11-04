@@ -15,8 +15,7 @@
     <a class="wordmark" href="index.html" aria-label="Rosettapada, reading sheet">Rosettapada</a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="contents.html">Contents</a>
-      <a href="notes.html">Notes</a>
-      <button class="help-button" type="button" id="open-help" aria-label="Reading help" aria-haspopup="dialog">?</button>
+      <button id="open-settings" class="settings-button" type="button" aria-label="Reading settings" title="Reading settings" aria-controls="reading-settings" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><ellipse cx="12" cy="12" rx="3.8" ry="8.5"/><path d="M3.5 12h17"/></svg></button>
     </nav>
   </header>
 
@@ -29,15 +28,11 @@
         {{COLUMN_HEADINGS}}
       </div>
       <div class="verses">{{VERSES}}</div>
+{{CHAPTER_NAVIGATION}}
     </div>
   </main>
 
   <footer class="reading-controls">
-    <nav class="verse-navigation" aria-label="Verse navigation">
-      <button id="previous-verse" type="button" aria-label="Previous verse" title="Previous verse ([)" disabled>‹</button>
-      <button id="next-verse" type="button" aria-label="Next verse" title="Next verse (])">›</button>
-    </nav>
-    <button id="open-settings" class="settings-button" type="button" aria-label="Languages" title="Languages" aria-controls="reading-settings" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><ellipse cx="12" cy="12" rx="3.8" ry="8.5"/><path d="M3.5 12h17"/></svg></button>
     <span id="location" class="sr-only" aria-live="polite" aria-atomic="true">{{INITIAL_LOCATION}}</span>
     <div class="zoom-controls" role="group" aria-label="Sheet magnification">
       <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out (−)">−</button>
@@ -48,27 +43,15 @@
   </footer>
   <div class="sr-only" id="zoom-announcement" role="status"></div>
 
-  <dialog id="reading-settings" class="settings-window" aria-labelledby="settings-title">
-    <header class="settings-titlebar"><h2 id="settings-title">Languages</h2><button id="close-settings" type="button" aria-label="Close reading settings">×</button></header>
-    <div class="settings-body">
-      <ol id="language-options" class="language-options" aria-label="Language visibility and order">{{LANGUAGE_SETTINGS}}</ol>
-      <span class="sr-only" id="reorder-help">Drag anywhere on the language row except its checkbox to reorder. With the handle focused, use the up and down arrow keys.</span>
-      <span class="sr-only" id="settings-announcement" role="status" aria-live="polite"></span>
-    </div>
-    <footer class="settings-footer"><button id="restore-languages" type="button">Restore defaults</button></footer>
-  </dialog>
-
-  <dialog id="reading-help" aria-labelledby="help-title">
-    <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-help" type="button" aria-label="Close reading help">×</button></div>
-    <h2 id="help-title">Reading help</h2>
-    <dl class="help-list">
-      <div><dt>Pan</dt><dd>Two-finger scroll in either direction, or hold <kbd>Space</kbd> and drag.</dd></div>
-      <div><dt>Zoom</dt><dd>Pinch on a trackpad, or use <kbd>+</kbd> / <kbd>−</kbd>. <kbd>0</kbd> returns to reading size.</dd></div>
-      <div><dt>Turn</dt><dd>The arrows in the bottom bar, or <kbd>[</kbd> / <kbd>]</kbd>, move between verses and keep your place across the sheet.</dd></div>
-      <div><dt>Arrange</dt><dd>Open Languages to show or hide columns. Drag a language row to reorder it; click its checkbox to show or hide it.</dd></div>
-    </dl>
-    <p class="help-footnote">Fit gives an overview; 100% is a comfortable place to read. {{HELP_NOTE}}</p>
-    <a href="notes.html">Textual notes and sources ↗</a>
+  <dialog id="reading-settings" aria-labelledby="settings-title">
+    <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-settings" type="button" aria-label="Close reading settings">×</button></div>
+    <h2 id="settings-title">Reading settings</h2>
+{{ENGLISH_SETTINGS}}
+    <h3>Columns</h3>
+    <ol id="language-options" class="language-options" aria-label="Language visibility and order">{{LANGUAGE_SETTINGS}}</ol>
+    <span class="sr-only" id="reorder-help">Drag anywhere on the language row except its checkbox to reorder. With the handle focused, use the up and down arrow keys.</span>
+    <span class="sr-only" id="settings-announcement" role="status" aria-live="polite"></span>
+    <footer class="settings-footer"><button id="restore-languages" type="button">Restore defaults</button><a href="notes.html">Notes and sources</a></footer>
   </dialog>
 </body>
 </html>

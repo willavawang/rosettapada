@@ -18,7 +18,7 @@ class Page(HTMLParser):
         self.poems, self.reading_status = {}, {}
         self.current_verse, self.line_depth = None, 0
         self.language, self.current_line = None, None
-        self.adjacent_pages = []
+        self.adjacent_pages, self.chapter_links = [], []
         self.feed(path.read_text(encoding="utf-8"))
 
     def handle_starttag(self, tag, attrs):
@@ -41,6 +41,8 @@ class Page(HTMLParser):
         if attrs.get("id"):
             assert attrs["id"] not in self.ids, f'Duplicate id: {attrs["id"]}'
             self.ids.add(attrs["id"])
+        if tag == "a" and attrs.get("rel") in {"prev", "next"}:
+            self.chapter_links.append(attrs["href"])
         key = "href" if tag == "a" else "src" if tag == "script" else None
         if key and attrs.get(key):
             self.links.append(attrs[key])
@@ -125,19 +127,25 @@ for chapter in collection["chapters"]:
         assert entry["lines"] and all(line.strip() for line in entry["lines"]), "Missing English rendering."
         assert page.poems[number, "en"] == entry["lines"], "English rendering differs from the editorial draft."
         if entry.get("note"):
-            assert f"notes.html#english-{number}" in page.links, "English reading note is unlinked."
+            assert f"english-{number}" in pages["notes.html"].ids, "English reading note is missing."
+            assert f"notes.html#english-{number}" not in page.links, "English reading notes belong off the sheet."
     assert page.lines == expected_lines, f'Imported text or line divisions changed in {chapter["page"]}'
     assert f'{chapter["page"]}#chapter{chapter["no"]}' in pages["contents.html"].links, "Missing chapter navigation"
 expected_numbers = list(range(1, 424))
 assert chapter_numbers == expected_numbers, "Reader pages must cover all 423 positions in sequence."
 assert [chapter["no"] for chapter in collection["chapters"]] == list(range(1, 27)), "Pāli chapter order changed."
 assert collection["pilot_chapters"] == [1, 2, 8, 12, 17, 21], "The archival pilot selection changed."
-assert len([link for link in pages["contents.html"].links if "#chapter" in link]) == 26, "Contents must list all 26 chapters."
+assert [link for link in pages["contents.html"].links if "#chapter" in link] == [
+    f'{c["page"]}#chapter{c["no"]}' for c in collection["chapters"]
+], "Contents must list all 26 chapters in Pāli order."
 chapters = collection["chapters"]
 for index, chapter in enumerate(chapters):
     previous = f'{chapters[index - 1]["page"]}#dhp{chapters[index - 1]["end"]}' if index else ""
     following = f'{chapters[index + 1]["page"]}#dhp{chapters[index + 1]["start"]}' if index + 1 < len(chapters) else ""
-    assert pages[chapter["page"]].adjacent_pages == [previous, following], "Chapter arrows must follow Pāli order."
+    page = pages[chapter["page"]]
+    assert page.adjacent_pages == [previous, following], "Chapter arrows must follow Pāli order."
+    assert page.chapter_links == [link for link in (previous, following) if link], "Chapter links are missing."
+    assert {"open-settings", "english-source"} <= page.ids and not {"previous-verse", "next-verse", "open-help"} & page.ids
 assert pages["index.html"].verses == list(range(1, 21)), "The homepage must open the complete first chapter."
 assert (ROOT / "pairs.html").read_bytes() == (ROOT / "index.html").read_bytes(), "The existing Pairs URL must remain available."
 
@@ -174,6 +182,21 @@ for filename in ["patna.json", "gandhari.json", "sanskrit.json", "chinese.json",
         assert page.reading_status[number, language] == record["status"], "Lost uncertainty/coverage status"
         if language == "zh":
             assert page.poems.get((number, "zh-pinyin"), []) == (chosen["pinyin"] if chosen else []), f'Pinyin changed: {number}'
+
+alternates = json.loads((ROOT / "data/english/alternates.json").read_text())
+assert set(alternates) == set(witness_records)
+for language, readings in alternates.items():
+    for number, lines in readings.items():
+        assert witness_records[language][int(number)]["readings"], "Alternate English requires a source witness."
+        assert lines and all(isinstance(line, str) and line.strip() for line in lines), "Incomplete alternate English."
+for chapter in chapters:
+    rendered = (ROOT / chapter["page"]).read_text()
+    payload = json.loads(re.search(r'<script type="application/json" id="english-editions">(.*?)</script>', rendered).group(1))
+    expected = {
+        language: {number: lines for number, lines in readings.items() if chapter["start"] <= int(number) <= chapter["end"]}
+        for language, readings in alternates.items()
+    }
+    assert payload == {language: lines for language, lines in expected.items() if lines}, "Wrong alternate English for chapter."
 
 coverage = json.loads((ROOT / "data/chapter-coverage.json").read_text())
 assert len(coverage) == 26

@@ -6,22 +6,30 @@
   const sheet = document.getElementById('sheet');
   const headings = document.getElementById('column-headings');
   const verses = Array.from(sheet.querySelectorAll('.verse'));
-  const previousVerse = document.getElementById('previous-verse');
-  const nextVerse = document.getElementById('next-verse');
+  const chapterNavigation = sheet.querySelector('.chapter-navigation');
   const label = document.getElementById('location');
   const zoomLabel = document.getElementById('zoom-label');
   const announcement = document.getElementById('zoom-announcement');
-  const help = document.getElementById('reading-help');
   const settings = document.getElementById('reading-settings');
   const settingsButton = document.getElementById('open-settings');
   const options = document.getElementById('language-options');
   const settingsAnnouncement = document.getElementById('settings-announcement');
+  const englishSelect = document.getElementById('english-source');
+  const englishStatus = document.getElementById('english-source-status');
+  const englishEditions = englishSelect ? JSON.parse(document.getElementById('english-editions').textContent) : {};
   const columnHeads = Array.from(headings.children);
   const defaultOrder = columnHeads.map(column => column.dataset.language);
   const columnByKey = new Map(columnHeads.map(column => [column.dataset.language, column]));
   const rowsByKey = new Map(Array.from(options.children).map(row => [row.dataset.language, row]));
   const groups = [headings, ...document.querySelectorAll('.verse-grid')];
   const groupColumns = groups.map(group => new Map(Array.from(group.children).map(column => [column.dataset.language, column])));
+  const englishReference = columnByKey.get('en').querySelector('.column-reference');
+  const paliReference = englishReference.textContent;
+  const englishPoems = englishSelect ? verses.map(verse => {
+    const column = verse.querySelector('.lang-en');
+    const poem = column.querySelector('.poem');
+    return {column, poem, pali: Array.from(poem.childNodes), label: column.querySelector('h3'), number: verse.dataset.verse};
+  }) : [];
   const minZoom = .1;
   const maxZoom = 3;
   const isChapter = sheet.dataset.profile !== 'sample';
@@ -43,22 +51,55 @@
   let languageOrder = defaultOrder.slice();
   let hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
   let languageDrag = null;
+  let englishPreference = 'pi';
+  let displayedEnglish = 'pi';
 
   try {
     const saved = JSON.parse(localStorage.getItem(languageStorageKey));
     if (saved && Array.isArray(saved.order)) languageOrder = Array.from(new Set([...saved.order.filter(key => defaultOrder.includes(key)), ...defaultOrder]));
     if (saved && Array.isArray(saved.hidden)) hiddenLanguages = new Set(saved.hidden.filter(key => defaultOrder.includes(key)));
+    if (englishSelect && Array.from(englishSelect.options).some(option => option.value === saved?.english)) englishPreference = saved.english;
     if (hiddenLanguages.size === defaultOrder.length) hiddenLanguages.delete('en');
   } catch { /* Defaults work when storage is unavailable or its contents are invalid. */ }
 
   function saveLanguages() {
-    try { localStorage.setItem(languageStorageKey, JSON.stringify({order: languageOrder, hidden: Array.from(hiddenLanguages)})); }
+    try { localStorage.setItem(languageStorageKey, JSON.stringify({order: languageOrder, hidden: Array.from(hiddenLanguages), english: englishPreference})); }
     catch { /* Settings still apply for this visit. */ }
   }
   function orderChildren(parent, elements) {
     languageOrder.forEach((key, index) => {
       const element = elements.get(key);
       if (parent.children[index] !== element) parent.insertBefore(element, parent.children[index] || null);
+    });
+  }
+  function applyEnglish() {
+    if (!englishSelect) return;
+    const preferred = Array.from(englishSelect.options).find(option => option.value === englishPreference);
+    const available = preferred && !preferred.disabled;
+    const source = available ? englishPreference : 'pi';
+    const name = preferred?.dataset.label || 'Pāli';
+    englishSelect.value = englishPreference;
+    englishStatus.textContent = !available
+      ? `Using Pāli here. ${name} will return where available.`
+      : Object.keys(englishEditions).length
+        ? 'A dash marks a gap in the selected draft.'
+        : 'Alternate drafts begin in Pairs, Heedfulness, and The Mind.';
+    if (source === displayedEnglish) return;
+    displayedEnglish = source;
+    englishReference.textContent = source === 'pi' ? paliReference : `Rosettapada · ${name} draft`;
+    englishPoems.forEach(({column, poem, pali, label, number}) => {
+      const lines = englishEditions[source]?.[number];
+      const missing = source !== 'pi' && !lines;
+      column.dataset.readingStatus = missing ? 'unverified' : 'present';
+      label.textContent = source === 'pi' ? `English, verse ${number}` : `English from ${name}, verse ${number}${missing ? ', draft unavailable' : ''}`;
+      if (source === 'pi') poem.replaceChildren(...pali);
+      else if (missing) poem.textContent = '—';
+      else poem.replaceChildren(...lines.map(text => {
+        const line = document.createElement('span');
+        line.className = 'poem-line';
+        line.textContent = text;
+        return line;
+      }));
     });
   }
   function applyLanguages(preservePosition = true) {
@@ -77,6 +118,7 @@
       checkbox.disabled = visible.length === 1 && checkbox.checked;
       checkbox.title = checkbox.disabled ? 'Keep at least one column visible' : '';
     });
+    applyEnglish();
     updateTail();
     if (preservePosition) {
       viewport.scrollTop += verses[active].getBoundingClientRect().top - oldTop;
@@ -160,19 +202,32 @@
   });
   options.addEventListener('pointercancel', clearLanguageDrag);
   options.addEventListener('lostpointercapture', clearLanguageDrag);
+  englishSelect?.addEventListener('change', () => {
+    englishPreference = englishSelect.value;
+    hiddenLanguages.delete('en');
+    applyLanguages();
+  });
   document.getElementById('restore-languages').addEventListener('click', () => {
     languageOrder = defaultOrder.slice();
     hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
+    englishPreference = 'pi';
     applyLanguages();
-    settingsAnnouncement.textContent = 'Default languages and order restored';
+    settingsAnnouncement.textContent = 'Default reading settings restored';
   });
-  function closeSettings() { settings.close(); settingsButton.focus({preventScroll: true}); }
   settingsButton.addEventListener('click', () => {
-    if (settings.open) closeSettings();
-    else { releasePan(); settings.show(); settingsButton.setAttribute('aria-expanded', 'true'); }
+    releasePan();
+    settings.showModal();
+    settingsButton.setAttribute('aria-expanded', 'true');
   });
-  document.getElementById('close-settings').addEventListener('click', closeSettings);
-  settings.addEventListener('close', () => settingsButton.setAttribute('aria-expanded', 'false'));
+  document.getElementById('close-settings').addEventListener('click', () => settings.close());
+  settings.addEventListener('close', () => {
+    settingsButton.setAttribute('aria-expanded', 'false');
+    settingsButton.focus({preventScroll: true});
+  });
+  settings.addEventListener('click', event => {
+    const rect = settings.getBoundingClientRect();
+    if (event.target === settings && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) settings.close();
+  });
 
   function readPosition() {
     try { return JSON.parse(sessionStorage.getItem(storageKey)) || {}; }
@@ -185,8 +240,16 @@
   }
   function scheduleSave() { clearTimeout(saveTimer); saveTimer = setTimeout(savePosition, 160); }
   function updateTail() {
-    // Leave enough paper after the sample to bring its final verse up to the reading line.
-    sheet.style.paddingBottom = `${Math.max(160, viewport.clientHeight / zoom - 220)}px`;
+    if (!chapterNavigation) {
+      sheet.style.paddingBottom = `${Math.max(160, viewport.clientHeight / zoom - 220)}px`;
+      return;
+    }
+    // Make room to bring the last verse to the reading line, with the links at the end.
+    const beforeLinks = chapterNavigation.getBoundingClientRect().top - verses.at(-1).getBoundingClientRect().top;
+    const linksHeight = chapterNavigation.firstElementChild.getBoundingClientRect().height;
+    const bottom = parseFloat(getComputedStyle(sheet).paddingBottom) * zoom;
+    const spare = viewport.clientHeight - headings.getBoundingClientRect().height - 16 * zoom - beforeLinks - linksHeight - bottom;
+    chapterNavigation.style.paddingTop = `${Math.max(0, spare / zoom)}px`;
   }
   function announceZoom() {
     clearTimeout(announcementTimer);
@@ -194,8 +257,6 @@
   }
   function updateNavigation(index) {
     active = clamp(index, 0, verses.length - 1);
-    previousVerse.disabled = active === 0 && !previousPage;
-    nextVerse.disabled = active === verses.length - 1 && !nextPage;
     const text = sheet.dataset.chapterTitle ? `Verse ${verses[active].dataset.verse}, ${sheet.dataset.chapterTitle}` : `Verse ${verses[active].dataset.verse} of ${verses.length}`;
     if (label.textContent !== text) label.textContent = text;
   }
@@ -239,17 +300,17 @@
     announceZoom();
     scheduleSave();
   }
+  function turnChapter(adjacentPage) {
+    savePosition();
+    const pageKey = adjacentPage.split('#')[0].replace(/\.html$/, '');
+    try {
+      sessionStorage.setItem(`rosettapada-reading-v5-${pageKey}`, JSON.stringify({zoom, left: viewport.scrollLeft, top: 0}));
+    } catch { /* The chapter link still works when browser storage is unavailable. */ }
+    location.assign(adjacentPage);
+  }
   function goTo(index, historyMode = 'push') {
     const adjacentPage = index < 0 ? previousPage : index >= verses.length ? nextPage : '';
-    if (adjacentPage) {
-      savePosition();
-      const pageKey = adjacentPage.split('#')[0].replace(/\.html$/, '');
-      try {
-        sessionStorage.setItem(`rosettapada-reading-v5-${pageKey}`, JSON.stringify({zoom, left: viewport.scrollLeft, top: 0}));
-      } catch { /* The chapter link still works when browser storage is unavailable. */ }
-      location.assign(adjacentPage);
-      return;
-    }
+    if (adjacentPage) return turnChapter(adjacentPage);
     const target = clamp(index, 0, verses.length - 1);
     const left = viewport.scrollLeft;
     const offset = verses[target].getBoundingClientRect().top - readingTop();
@@ -263,8 +324,12 @@
     savePosition();
   }
   function hashIndex() { return verses.findIndex(verse => `#${verse.id}` === location.hash); }
-  previousVerse.addEventListener('click', () => goTo(active - 1));
-  nextVerse.addEventListener('click', () => goTo(active + 1));
+  chapterNavigation?.addEventListener('click', event => {
+    const link = event.target.closest('a');
+    if (!link || event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+    event.preventDefault();
+    turnChapter(link.getAttribute('href'));
+  });
   document.getElementById('zoom-out').addEventListener('click', () => setZoom(zoom / 1.18));
   document.getElementById('zoom-in').addEventListener('click', () => setZoom(zoom * 1.18));
   document.getElementById('reset-zoom').addEventListener('click', () => setZoom(1));
@@ -321,8 +386,7 @@
   function releasePan() { spaceHeld = false; viewport.classList.remove('pannable'); stopDrag(); }
   const interactiveTarget = target => target instanceof Element && target.closest('button, a, input, textarea, select, [contenteditable="true"], dialog');
   document.addEventListener('keydown', event => {
-    if (event.key === 'Escape' && settings.open && !help.open) { event.preventDefault(); closeSettings(); return; }
-    if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing || help.open || settings.open || interactiveTarget(event.target)) return;
+    if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing || settings.open || interactiveTarget(event.target)) return;
     if (event.code === 'Space') {
       event.preventDefault();
       spaceHeld = true;
@@ -351,12 +415,6 @@
   viewport.addEventListener('pointercancel', releasePan);
   viewport.addEventListener('lostpointercapture', stopDrag);
 
-  document.getElementById('open-help').addEventListener('click', () => { releasePan(); help.showModal(); });
-  document.getElementById('close-help').addEventListener('click', () => help.close());
-  help.addEventListener('click', event => {
-    const rect = help.getBoundingClientRect();
-    if (event.target === help && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) help.close();
-  });
   window.addEventListener('popstate', () => {
     const index = hashIndex();
     if (index >= 0) goTo(index, 'none');
@@ -369,10 +427,10 @@
   const saved = readPosition();
   const initialHash = hashIndex();
   applyLanguages(false);
-  updateTail();
   // Wait through the browser's initial anchor positioning before restoring the sheet.
   const restoreReadingPosition = () => requestAnimationFrame(() => requestAnimationFrame(() => {
     if (Number.isFinite(saved.zoom)) setZoom(saved.zoom, 0, viewport.getBoundingClientRect().top);
+    updateTail();
     viewport.scrollLeft = Number.isFinite(saved.left) ? saved.left : 0;
     if (location.hash === `#${sheet.dataset.chapterAnchor}`) { viewport.scrollTop = 0; viewport.scrollLeft = 0; }
     else if (initialHash >= 0) goTo(initialHash, 'none');

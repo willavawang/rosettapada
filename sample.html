@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#f8f7f2">
   <meta name="description" content="Rosettapada — a two-verse comparative Dhammapada reading study.">
   <title>Rosettapada · The pairs</title>
-  <link rel="stylesheet" href="styles.css?v=7bbee57205">
-  <script src="reader.js?v=5945db2fef" defer></script>
+  <link rel="stylesheet" href="styles.css?v=f8c58938c0">
+  <script src="reader.js?v=6609577210" defer></script>
 </head>
 <body class="reading-page">
   <a class="skip-link" href="#viewport">Skip to the reading sheet</a>
@@ -15,8 +15,7 @@
     <a class="wordmark" href="index.html" aria-label="Rosettapada, reading sheet">Rosettapada</a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="contents.html">Contents</a>
-      <a href="notes.html">Notes</a>
-      <button class="help-button" type="button" id="open-help" aria-label="Reading help" aria-haspopup="dialog">?</button>
+      <button id="open-settings" class="settings-button" type="button" aria-label="Reading settings" title="Reading settings" aria-controls="reading-settings" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><ellipse cx="12" cy="12" rx="3.8" ry="8.5"/><path d="M3.5 12h17"/></svg></button>
     </nav>
   </header>
 
@@ -51,15 +50,11 @@
 <section class="witness lang-zh" data-language="zh" data-reading-status="present" lang="zh-Hant" aria-labelledby="v2-zh" title=""><h3 class="sr-only" id="v2-zh">Chinese, verse 2</h3><p class="poem"><span class="poem-line">心為法本，</span><span class="poem-line">心尊心使，</span><span class="poem-line">中心念善，</span><span class="poem-line">即言即行，</span><span class="poem-line">福樂自追，</span><span class="poem-line">如影隨形。</span></p></section>
 <section class="witness lang-zh-pinyin" data-language="zh-pinyin" data-reading-status="present" lang="zh-Latn-pinyin" aria-labelledby="v2-zh-pinyin" title="" hidden><h3 class="sr-only" id="v2-zh-pinyin">Chinese pinyin, verse 2</h3><p class="poem"><span class="poem-line">xīn wéi fǎ běn,</span><span class="poem-line">xīn zūn xīn shǐ,</span><span class="poem-line">zhōng xīn niàn shàn,</span><span class="poem-line">jí yán jí xíng,</span><span class="poem-line">fú lè zì zhuī,</span><span class="poem-line">rú yǐng suí xíng.</span></p></section>
 <section class="witness lang-bo" data-language="bo" data-reading-status="unverified" lang="bo" aria-labelledby="v2-bo" title=""><h3 class="sr-only" id="v2-bo">Tibetan, verse 2</h3><p class="unverified" lang="en">Not yet verified.<span>Source and reading pending.</span></p></section></div></section></div>
+
     </div>
   </main>
 
   <footer class="reading-controls">
-    <nav class="verse-navigation" aria-label="Verse navigation">
-      <button id="previous-verse" type="button" aria-label="Previous verse" title="Previous verse ([)" disabled>‹</button>
-      <button id="next-verse" type="button" aria-label="Next verse" title="Next verse (])">›</button>
-    </nav>
-    <button id="open-settings" class="settings-button" type="button" aria-label="Languages" title="Languages" aria-controls="reading-settings" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><ellipse cx="12" cy="12" rx="3.8" ry="8.5"/><path d="M3.5 12h17"/></svg></button>
     <span id="location" class="sr-only" aria-live="polite" aria-atomic="true">Verse 1 of 2</span>
     <div class="zoom-controls" role="group" aria-label="Sheet magnification">
       <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out (−)">−</button>
@@ -70,10 +65,12 @@
   </footer>
   <div class="sr-only" id="zoom-announcement" role="status"></div>
 
-  <dialog id="reading-settings" class="settings-window" aria-labelledby="settings-title">
-    <header class="settings-titlebar"><h2 id="settings-title">Languages</h2><button id="close-settings" type="button" aria-label="Close reading settings">×</button></header>
-    <div class="settings-body">
-      <ol id="language-options" class="language-options" aria-label="Language visibility and order"><li class="language-option" data-language="en"><label for="show-en"><input id="show-en" type="checkbox" data-language="en" checked><span>English</span></label><button class="drag-handle" type="button" data-language="en" aria-label="Reorder English" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
+  <dialog id="reading-settings" aria-labelledby="settings-title">
+    <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-settings" type="button" aria-label="Close reading settings">×</button></div>
+    <h2 id="settings-title">Reading settings</h2>
+
+    <h3>Columns</h3>
+    <ol id="language-options" class="language-options" aria-label="Language visibility and order"><li class="language-option" data-language="en"><label for="show-en"><input id="show-en" type="checkbox" data-language="en" checked><span>English</span></label><button class="drag-handle" type="button" data-language="en" aria-label="Reorder English" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
 <li class="language-option" data-language="pi"><label for="show-pi"><input id="show-pi" type="checkbox" data-language="pi" checked><span>Pāli</span></label><button class="drag-handle" type="button" data-language="pi" aria-label="Reorder Pāli" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
 <li class="language-option" data-language="pd"><label for="show-pd"><input id="show-pd" type="checkbox" data-language="pd" checked><span>Patna</span></label><button class="drag-handle" type="button" data-language="pd" aria-label="Reorder Patna" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
 <li class="language-option" data-language="ga"><label for="show-ga"><input id="show-ga" type="checkbox" data-language="ga" checked><span>Gāndhārī</span></label><button class="drag-handle" type="button" data-language="ga" aria-label="Reorder Gāndhārī" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
@@ -81,23 +78,9 @@
 <li class="language-option" data-language="zh"><label for="show-zh"><input id="show-zh" type="checkbox" data-language="zh" checked><span>Chinese</span></label><button class="drag-handle" type="button" data-language="zh" aria-label="Reorder Chinese" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
 <li class="language-option" data-language="zh-pinyin"><label for="show-zh-pinyin"><input id="show-zh-pinyin" type="checkbox" data-language="zh-pinyin"><span>Chinese pinyin</span></label><button class="drag-handle" type="button" data-language="zh-pinyin" aria-label="Reorder Chinese pinyin" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
 <li class="language-option" data-language="bo"><label for="show-bo"><input id="show-bo" type="checkbox" data-language="bo" checked><span>Tibetan</span></label><button class="drag-handle" type="button" data-language="bo" aria-label="Reorder Tibetan" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li></ol>
-      <span class="sr-only" id="reorder-help">Drag anywhere on the language row except its checkbox to reorder. With the handle focused, use the up and down arrow keys.</span>
-      <span class="sr-only" id="settings-announcement" role="status" aria-live="polite"></span>
-    </div>
-    <footer class="settings-footer"><button id="restore-languages" type="button">Restore defaults</button></footer>
-  </dialog>
-
-  <dialog id="reading-help" aria-labelledby="help-title">
-    <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-help" type="button" aria-label="Close reading help">×</button></div>
-    <h2 id="help-title">Reading help</h2>
-    <dl class="help-list">
-      <div><dt>Pan</dt><dd>Two-finger scroll in either direction, or hold <kbd>Space</kbd> and drag.</dd></div>
-      <div><dt>Zoom</dt><dd>Pinch on a trackpad, or use <kbd>+</kbd> / <kbd>−</kbd>. <kbd>0</kbd> returns to reading size.</dd></div>
-      <div><dt>Turn</dt><dd>The arrows in the bottom bar, or <kbd>[</kbd> / <kbd>]</kbd>, move between verses and keep your place across the sheet.</dd></div>
-      <div><dt>Arrange</dt><dd>Open Languages to show or hide columns. Drag a language row to reorder it; click its checkbox to show or hide it.</dd></div>
-    </dl>
-    <p class="help-footnote">Fit gives an overview; 100% is a comfortable place to read. Two verses are included in this earlier comparative sample. The English follows Pāli; alignment across traditions is provisional. The multilingual chapter pages are available in Contents.</p>
-    <a href="notes.html">Textual notes and sources ↗</a>
+    <span class="sr-only" id="reorder-help">Drag anywhere on the language row except its checkbox to reorder. With the handle focused, use the up and down arrow keys.</span>
+    <span class="sr-only" id="settings-announcement" role="status" aria-live="polite"></span>
+    <footer class="settings-footer"><button id="restore-languages" type="button">Restore defaults</button><a href="notes.html">Notes and sources</a></footer>
   </dialog>
 </body>
 </html>

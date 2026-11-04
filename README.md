@@ -1,10 +1,10 @@
 # Rosettapada
 
-A quiet Dhammapada reader with all 26 chapters and 423 Pāli positions. Rosettapada’s English draft follows Pāli and draws on the historical parallels. Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan are displayed where sourced, with gaps and qualifications recorded in Notes. Contents groups chapters by coverage tier.
+A quiet Dhammapada reader with all 26 chapters and 423 Pāli positions. Rosettapada’s English draft follows Pāli and draws on the historical parallels. Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan are displayed where sourced, with gaps and qualifications recorded in Notes. Contents follows the Pāli chapter order.
 
 ## Read
 
-Open `index.html` for Pairs, `contents.html` for the tiered chapter catalogue, or `sample.html` for the earlier comparative sample. The previous `pairs.html` URL continues to work. Files work directly in a modern browser, or serve the project over HTTP:
+Open `index.html` for Pairs, `contents.html` for the chapter list, or `sample.html` for the earlier comparative sample. The previous `pairs.html` URL continues to work. Files work directly in a modern browser, or serve the project over HTTP:
 
 ```sh
 python3 build.py
@@ -16,10 +16,10 @@ Open `http://localhost:8000/`. No installation, API key, account, external font 
 - Two-finger scroll pans horizontally and vertically. Pinch zooms the sheet where supported.
 - `+` / `−` magnifies; `0` or the percentage button returns to 100%. **Fit** shows the visible columns.
 - Hold Space and drag to pan with a pointer. Without Space, text remains selectable.
-- Arrows in the bottom bar or `[` / `]` move between verses while retaining horizontal position. On the full chapter pages, they continue across chapter boundaries with the same zoom.
-- The globe button opens the Languages window. Show or hide columns with checkboxes; drag anywhere else on a language row to reorder it. With a handle focused, the up and down arrow keys also reorder columns. Choices persist in the browser.
+- Links at the end of each chapter move between sections while retaining the sheet magnification and horizontal position. The `[` and `]` shortcuts move by verse.
+- The globe in the header opens Reading settings. English source defaults to Pāli. Alternate drafts appear where available, and the selected source persists across chapters. Show or hide columns with checkboxes; drag anywhere else on a language row to reorder it. With a handle focused, the up and down arrow keys also reorder columns. Choices persist in the browser.
 - Chinese pinyin starts hidden and can be shown independently of Chinese characters. Fit follows the currently visible columns; its button uses a diagonal expand icon.
-- Contents links to all 26 chapters and shows each chapter’s comparative coverage. Direct verse anchors work. Zoom and position are remembered per page; language settings are shared across all multilingual chapter pages and kept separate from the comparative sample. The new language preference key opens all six traditions for readers coming from the old two-column pages.
+- Contents links to all 26 chapters in order. Direct verse anchors work. Zoom and position are remembered per page; language settings are shared across all multilingual chapter pages and kept separate from the comparative sample. The new language preference key opens all six traditions for readers coming from the old two-column pages.
 - Scrollbars are hidden throughout the site; native scrolling and panning remain available.
 - Browser zoom shortcuts remain available. The question-mark button explains the controls.
 
@@ -42,6 +42,7 @@ Edit `templates/*.html`, `styles.css`, and `reader.js`, then rebuild. Generated 
 | `data/chapters.json` | Chapter order, ranges, source revision, and checksums |
 | `data/pali/` | Frozen Pāli, Sujato’s reference translation, source markup, and publication metadata for 423 positions |
 | `data/english/pi.json` | Rosettapada’s Pāli-based English draft and editorial notes |
+| `data/english/alternates.json` | Editorial drafts from selected parallel witnesses |
 | `data/chapter-coverage.json` | Generated chapter totals and tier assignments |
 | `data/witnesses/` | Five additional historical traditions, per-verse source references, optional Chinese pinyin, bounded source extracts, coverage, and checksums |
 | `assets/fonts/` | Local Tibetan reading font and SIL Open Font License |
