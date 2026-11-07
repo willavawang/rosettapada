@@ -83,7 +83,7 @@
       ? `Using Pāli here. ${name} will return where available.`
       : Object.keys(englishEditions).length
         ? 'A dash marks a gap in the selected draft.'
-        : 'Alternate drafts begin in Pairs, Heedfulness, and The Mind.';
+        : 'No alternate drafts in this chapter yet.';
     if (source === displayedEnglish) return;
     displayedEnglish = source;
     englishReference.textContent = source === 'pi' ? paliReference : `Rosettapada · ${name} draft`;
