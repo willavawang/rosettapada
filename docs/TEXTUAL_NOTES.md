@@ -1,6 +1,8 @@
-# Textual status — full reader, 4 November 2026
+# Textual status — full reader, 7 November 2026
 
 The reader now covers 26 chapters and 423 Pāli positions. For the live chapter tier definitions and counts, see [Contents](https://willavawang.github.io/rosettapada/contents.html). The English column is a Pāli-based Rosettapada editorial draft with separate reading notes. The pinned Sujato English remains a reference. The Pāli text at verse 416 displays one copy of the repeated stanza. Verse 423 displays its six lines and omits the following summary verses. Both decisions leave the upstream snapshot intact.
+
+On 7 November 2026, 40 Sanskrit and 2 Patna line openings dropped by the comparative edition were restored against two independent editions each (`data/witnesses/sources/indic/corrections.json`, `line_corrections`), and 12 further Derge Tibetan selections were identified for positions the 1883 index already attested. 339 Tibetan selections are now displayed; Pāli 340 and 347 show their index entry instead of a dash.
 
 Full source methods and results are documented in the [Indic](../data/witnesses/sources/indic/README.md), [Chinese](../data/witnesses/sources/chinese/README.md), and [Tibetan](TIBETAN_ANALYSIS.md) notes. The 99 pilot-era witness records are preserved.
 
@@ -55,7 +57,7 @@ Physical folio markers and newlines are removed for reading. Shad-delimited read
 
 ## Tibetan contents audit
 
-The independent Rockhill 1883 Tibetan–Pāli index was visually checked across all six printed concordance pages (217–222). The 423-position ledger records 305 secure published attestations and 18 additional independently checked native counterparts, establishing a **323/423 (76.4%) lower bound**. One printed tentative reference remains excluded. An unlisted position is not proof of textual absence; semantic closeness outside the native selection remains unassessed.
+The independent Rockhill 1883 Tibetan–Pāli index was visually checked across all six printed concordance pages (217–222). The 423-position ledger records 305 secure published attestations and 28 additional independently checked native counterparts, establishing a **333/423 (78.7%) lower bound**. One printed tentative reference remains excluded. An unlisted position is not proof of textual absence; semantic closeness outside the native selection remains unassessed.
 
 All 99 available reader positions were reviewed. The 96 located Tibetan selections, totaling 408 pādas, match their cited pinned Derge source spans. The six pilot chapters contain 82 present counterparts, four partial or provisional related selections, and two not-located positions. The first 43 verse records and 42 retained native excerpts are unchanged. Present identifies an authentic counterpart, not identical wording. Numerical, imagery, and clause-order differences remain visible.
 

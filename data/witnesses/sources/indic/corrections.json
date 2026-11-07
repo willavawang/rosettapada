@@ -27,12 +27,13 @@
     }
   ],
   "retained_source_anomalies": [
-    {"pali": 45, "tradition": "sa", "reference": "Udānavarga 18.2 Puṣpa", "source_form": "uśalaḥ", "display_note": "The consulted comparative page prints uśalaḥ at the start of the final line. The spelling is retained as printed."},
-    {"pali": 130, "tradition": "sa", "reference": "Udānavarga 5.19 Priya", "source_form": "aiva hanyān", "display_note": "The consulted page prints aiva hanyān here and naiva hanyān under Pāli 129 for the same native verse. Both source transcriptions are retained."},
-    {"pali": 135, "tradition": "sa", "reference": "Udānavarga 1.17 Anitya", "source_form": "vaṁ", "display_note": "The consulted comparative page prints vaṁ at the start of the third line. The spelling is retained as printed."},
-    {"pali": 184, "tradition": "sa", "reference": "Udānavarga 26.2 Nirvāṇa", "source_form": "ramaṇo", "display_note": "The consulted comparative page prints ramaṇo at the start of the final line. The spelling is retained as printed."},
-    {"pali": 194, "tradition": "sa", "reference": "Udānavarga 30.22 Sukha", "source_form": "amagrāṇāṁ", "display_note": "The consulted comparative page prints amagrāṇāṁ at the start of the final line. The spelling is retained as printed."},
-    {"pali": 412, "tradition": "ga", "reference": "Gāndhārī 46 [1.46] Brammaṇa", "source_form": "uvaca3ē", "display_note": "The source prints a numeral inside uvaca3ē. Its editorial notation is retained as printed."}
+    {
+      "pali": 412,
+      "tradition": "ga",
+      "reference": "Gāndhārī 46 [1.46] Brammaṇa",
+      "source_form": "uvaca3ē",
+      "display_note": "The source prints a numeral inside uvaca3ē. Its editorial notation is retained as printed."
+    }
   ],
   "edition_differences": [
     {
@@ -62,6 +63,894 @@
       "action": "Retain the comparative edition's wording.",
       "native_source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/05-Attha.htm#PDhp_77",
       "display_note": "The comparative edition prints vipulaṁ in both occurrences; the older native digital Patna edition prints vipulāṁ. The comparative wording is retained."
+    }
+  ],
+  "line_corrections_policy": "A displayed line is corrected only where the comparative page drops or substitutes characters and both a separately checked native digital edition and an independent electronic edition of the same critical text print the corrected form. Only the cited characters change; the comparative-page form is retained in selected-source-passages.json. Uv 14.14 (Pāli 329) is the single case where the native digital edition shares the comparative page's error; it follows Bernhard.",
+  "line_corrections_checked": "2026-11-07",
+  "line_corrections": [
+    {
+      "pali": 27,
+      "tradition": "sa",
+      "reference": "Udānavarga 4.12 Apramāda",
+      "line": 3,
+      "source_form": "rāpnute",
+      "corrected_form": "prāpnute",
+      "issue": "The comparative page omits the opening of prāpnute, printing rāpnute. Both checked editions print prāpnute.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/04-Apramada.htm#Uv_95",
+        "html_sha256": "1335e0136400e7d3bf93b77bdf4a636383322936bf6cbe1d87dce917bea0e141"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 4.12",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints rāpnute; both the digital Udānavarga and Bernhard’s edition read prāpnute. The display restores prāpnute; the printed form is retained in the source record."
+    },
+    {
+      "pali": 45,
+      "tradition": "sa",
+      "reference": "Udānavarga 18.2 Puṣpa",
+      "line": 3,
+      "source_form": "uśalaḥ",
+      "corrected_form": "kuśalaḥ",
+      "issue": "The comparative page omits the opening of kuśalaḥ, printing uśalaḥ. Both checked editions print kuśalaḥ.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/18-Puspa.htm#Uv_368",
+        "html_sha256": "5ed9a80ad337ec5fb2287ccfcd76a238d0d61f69b9c9927432589ed6faed750c"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 18.2",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints uśalaḥ; both the digital Udānavarga and Bernhard’s edition read kuśalaḥ. The display restores kuśalaḥ; the printed form is retained in the source record."
+    },
+    {
+      "pali": 52,
+      "tradition": "sa",
+      "reference": "Udānavarga 18.7 Puṣpa",
+      "line": 3,
+      "source_form": "aphalā",
+      "corrected_form": "saphalā",
+      "issue": "The comparative page omits the opening of saphalā, printing aphalā. Both checked editions print saphalā.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/18-Puspa.htm#Uv_373",
+        "html_sha256": "5ed9a80ad337ec5fb2287ccfcd76a238d0d61f69b9c9927432589ed6faed750c"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 18.7",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints aphalā; both the digital Udānavarga and Bernhard’s edition read saphalā. The display restores saphalā; the printed form is retained in the source record."
+    },
+    {
+      "pali": 91,
+      "tradition": "sa",
+      "reference": "Udānavarga 17.1 Udaka",
+      "line": 3,
+      "source_form": "y okam",
+      "corrected_form": "hy okam",
+      "issue": "The comparative page omits the opening of hy, printing y. Both checked editions print hy okam.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/17-Udaka.htm#Uv_355",
+        "html_sha256": "85514c428ecf60bfbd7f691618d0dfa33d398fde46f3374a9c9b8c43fd0e1974"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 17.1",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints y okam; both the digital Udānavarga and Bernhard’s edition read hy okam. The display restores hy okam; the printed form is retained in the source record."
+    },
+    {
+      "pali": 120,
+      "tradition": "sa",
+      "reference": "Udānavarga 28.20 Pāpa",
+      "line": 3,
+      "source_form": "tha bhadrāṇi",
+      "corrected_form": "atha bhadrāṇi",
+      "issue": "The comparative page omits the opening of atha, printing tha. Both checked editions print atha bhadrāṇi.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/28-Papa.htm#Uv_670",
+        "html_sha256": "2501d658a6d3644d30d2f33b17d786bfefa5088a7e3d166e37177415c189acd3"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 28.20",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints tha bhadrāṇi; both the digital Udānavarga and Bernhard’s edition read atha bhadrāṇi. The display restores atha bhadrāṇi; the printed form is retained in the source record."
+    },
+    {
+      "pali": 130,
+      "tradition": "sa",
+      "reference": "Udānavarga 5.19 Priya",
+      "line": 3,
+      "source_form": "aiva hanyān",
+      "corrected_form": "naiva hanyān",
+      "issue": "The comparative page omits the opening of naiva, printing aiva. Both checked editions print naiva hanyān.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/05-Priya.htm#Uv_140",
+        "html_sha256": "161fc8c7a6d72b05e186f64372fe8d4c20f29621dde79e93fd54d647eebffd43"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 5.19",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints aiva hanyān; both the digital Udānavarga and Bernhard’s edition read naiva hanyān. The display restores naiva hanyān; the printed form is retained in the source record."
+    },
+    {
+      "pali": 135,
+      "tradition": "sa",
+      "reference": "Udānavarga 1.17 Anitya",
+      "line": 2,
+      "source_form": "vaṁ rogair",
+      "corrected_form": "evaṁ rogair",
+      "issue": "The comparative page omits the opening of evaṁ, printing vaṁ. Both checked editions print evaṁ rogair.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/01-Anitya.htm#Uv_17",
+        "html_sha256": "140ea49cb865b579d6758ced77d9567a1085ca8d5cdf6764afe6aa42ceea69ab"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 1.17",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints vaṁ rogair; both the digital Udānavarga and Bernhard’s edition read evaṁ rogair. The display restores evaṁ rogair; the printed form is retained in the source record."
+    },
+    {
+      "pali": 139,
+      "tradition": "sa",
+      "reference": "Udānavarga 28.27 Pāpa",
+      "line": 0,
+      "source_form": "ñātīnāṁ",
+      "corrected_form": "jñātīnāṁ",
+      "issue": "The comparative page omits the opening of jñātīnāṁ, printing ñātīnāṁ. Both checked editions print jñātīnāṁ.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/28-Papa.htm#Uv_677",
+        "html_sha256": "2501d658a6d3644d30d2f33b17d786bfefa5088a7e3d166e37177415c189acd3"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 28.27",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints ñātīnāṁ; both the digital Udānavarga and Bernhard’s edition read jñātīnāṁ. The display restores jñātīnāṁ; the printed form is retained in the source record."
+    },
+    {
+      "pali": 143,
+      "tradition": "sa",
+      "reference": "Udānavarga 19.5 Aśva",
+      "line": 3,
+      "source_form": "hadrāśvo",
+      "corrected_form": "bhadrāśvo",
+      "issue": "The comparative page omits the opening of bhadrāśvo, printing hadrāśvo. Both checked editions print bhadrāśvo.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/19-Asva.htm#Uv_399",
+        "html_sha256": "97018d941921a5b225ac2c7011e56f8a92b6c0a12f48969c3c40a4914994333e"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 19.5",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints hadrāśvo; both the digital Udānavarga and Bernhard’s edition read bhadrāśvo. The display restores bhadrāśvo; the printed form is retained in the source record."
+    },
+    {
+      "pali": 149,
+      "tradition": "sa",
+      "reference": "Udānavarga 1.5 Anitya",
+      "line": 2,
+      "source_form": "āpotavarṇāny",
+      "corrected_form": "kāpotavarṇāny",
+      "issue": "The comparative page omits the opening of kāpotavarṇāny, printing āpotavarṇāny. Both checked editions print kāpotavarṇāny.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/01-Anitya.htm#Uv_5",
+        "html_sha256": "140ea49cb865b579d6758ced77d9567a1085ca8d5cdf6764afe6aa42ceea69ab"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 1.5",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints āpotavarṇāny; both the digital Udānavarga and Bernhard’s edition read kāpotavarṇāny. The display restores kāpotavarṇāny; the printed form is retained in the source record."
+    },
+    {
+      "pali": 151,
+      "tradition": "sa",
+      "reference": "Udānavarga 1.28 Anitya",
+      "line": 3,
+      "source_form": "anto hi",
+      "corrected_form": "santo hi",
+      "issue": "The comparative page omits the opening of santo, printing anto. Both checked editions print santo hi.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/01-Anitya.htm#Uv_30",
+        "html_sha256": "140ea49cb865b579d6758ced77d9567a1085ca8d5cdf6764afe6aa42ceea69ab"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 1.28",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints anto hi; both the digital Udānavarga and Bernhard’s edition read santo hi. The display restores santo hi; the printed form is retained in the source record."
+    },
+    {
+      "pali": 154,
+      "tradition": "sa",
+      "reference": "Udānavarga 31.7 Citta",
+      "line": 5,
+      "source_form": "haiva",
+      "corrected_form": "ihaiva",
+      "issue": "The comparative page omits the opening of ihaiva, printing haiva. Both checked editions print ihaiva.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/31-Citta.htm#Uv_816",
+        "html_sha256": "2ed8b69bec5f5c1fd389c4c5d0ec9f42fe7c1e0176b5701068071e9bae1c9382"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 31.7",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints haiva; both the digital Udānavarga and Bernhard’s edition read ihaiva. The display restores ihaiva; the printed form is retained in the source record."
+    },
+    {
+      "pali": 158,
+      "tradition": "sa",
+      "reference": "Udānavarga 23.7 Ātma",
+      "line": 3,
+      "source_form": "a kliśyeta",
+      "corrected_form": "na kliśyeta",
+      "issue": "The comparative page omits the opening of na, printing a kliśyeta. Both checked editions print na kliśyeta.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/23-Atma.htm#Uv_483",
+        "html_sha256": "32d744317086d6178bef7f0c4e6be76a7bc545ee4c882506ba2dc23d9f4961e0"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 23.7",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints a kliśyeta; both the digital Udānavarga and Bernhard’s edition read na kliśyeta. The display restores na kliśyeta; the printed form is retained in the source record."
+    },
+    {
+      "pali": 168,
+      "tradition": "sa",
+      "reference": "Udānavarga 4.35 Apramāda",
+      "line": 3,
+      "source_form": "yasmiṁ loke",
+      "corrected_form": "hy asmiṁ loke",
+      "issue": "The comparative page omits the opening of hy, printing yasmiṁ. Both checked editions print hy asmiṁ loke.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/04-Apramada.htm#Uv_118",
+        "html_sha256": "1335e0136400e7d3bf93b77bdf4a636383322936bf6cbe1d87dce917bea0e141"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 4.35",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints yasmiṁ loke; both the digital Udānavarga and Bernhard’s edition read hy asmiṁ loke. The display restores hy asmiṁ loke; the printed form is retained in the source record."
+    },
+    {
+      "pali": 177,
+      "tradition": "sa",
+      "reference": "Udānavarga 10.2 Śraddhā",
+      "line": 3,
+      "source_form": "hy sau",
+      "corrected_form": "hy asau",
+      "issue": "The comparative page omits the opening of hy, printing hy. Both checked editions print hy asau.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/10-Sraddha.htm",
+        "html_sha256": "c69f75c4851bba6035d35c34bdc30bb0ec840d4fb0849b7a219358fe82c3774e"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 10.2",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints hy sau; both the digital Udānavarga and Bernhard’s edition read hy asau. The display restores hy asau; the printed form is retained in the source record."
+    },
+    {
+      "pali": 184,
+      "tradition": "sa",
+      "reference": "Udānavarga 26.2 Nirvāṇa",
+      "line": 3,
+      "source_form": "ramaṇo",
+      "corrected_form": "śramaṇo",
+      "issue": "The comparative page omits the opening of śramaṇo, printing ramaṇo. Both checked editions print śramaṇo.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/26-Nirvana.htm#Uv_564",
+        "html_sha256": "18f16250e06530093c7bf1907db0cc24f7bb2ebdda40acebd98ec71469e9d504"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 26.2",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints ramaṇo; both the digital Udānavarga and Bernhard’s edition read śramaṇo. The display restores śramaṇo; the printed form is retained in the source record."
+    },
+    {
+      "pali": 194,
+      "tradition": "sa",
+      "reference": "Udānavarga 30.22 Sukha",
+      "line": 3,
+      "source_form": "amagrāṇāṁ",
+      "corrected_form": "samagrāṇāṁ",
+      "issue": "The comparative page omits the opening of samagrāṇāṁ, printing amagrāṇāṁ. Both checked editions print samagrāṇāṁ.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/30-Sukha.htm#Uv_779",
+        "html_sha256": "cb50bd73f62ab1b3b98d3e5fa643646716ed250ef49fc31d2b61ab25bb30a021"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 30.22",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints amagrāṇāṁ; both the digital Udānavarga and Bernhard’s edition read samagrāṇāṁ. The display restores samagrāṇāṁ; the printed form is retained in the source record."
+    },
+    {
+      "pali": 210,
+      "tradition": "sa",
+      "reference": "Udānavarga 5.5 Priya",
+      "line": 3,
+      "source_form": "priyāṇāṁ ca",
+      "corrected_form": "apriyāṇāṁ ca",
+      "issue": "The comparative page omits the opening of apriyāṇāṁ, printing priyāṇāṁ. Both checked editions print apriyāṇāṁ ca.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/05-Priya.htm#Uv_126",
+        "html_sha256": "161fc8c7a6d72b05e186f64372fe8d4c20f29621dde79e93fd54d647eebffd43"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 5.5",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints priyāṇāṁ ca; both the digital Udānavarga and Bernhard’s edition read apriyāṇāṁ ca. The display restores apriyāṇāṁ ca; the printed form is retained in the source record."
+    },
+    {
+      "pali": 211,
+      "tradition": "sa",
+      "reference": "Udānavarga 5.8 Priya",
+      "line": 3,
+      "source_form": "eṣāṁ nāsti",
+      "corrected_form": "yeṣāṁ nāsti",
+      "issue": "The comparative page omits the opening of yeṣāṁ, printing eṣāṁ. Both checked editions print yeṣāṁ nāsti.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/05-Priya.htm#Uv_129",
+        "html_sha256": "161fc8c7a6d72b05e186f64372fe8d4c20f29621dde79e93fd54d647eebffd43"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 5.8",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints eṣāṁ nāsti; both the digital Udānavarga and Bernhard’s edition read yeṣāṁ nāsti. The display restores yeṣāṁ nāsti; the printed form is retained in the source record."
+    },
+    {
+      "pali": 222,
+      "tradition": "sa",
+      "reference": "Udānavarga 20.22 Krodha",
+      "line": 3,
+      "source_form": "aśmigrāho",
+      "corrected_form": "raśmigrāho",
+      "issue": "The comparative page omits the opening of raśmigrāho, printing aśmigrāho. Both checked editions print raśmigrāho.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/20-Krodha.htm#Uv_438",
+        "html_sha256": "7f26754b116e3197219c8693cf18a568e6e079c6559f06e2f33ef4c12ce6de5e"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 20.22",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints aśmigrāho; both the digital Udānavarga and Bernhard’s edition read raśmigrāho. The display restores raśmigrāho; the printed form is retained in the source record."
+    },
+    {
+      "pali": 225,
+      "tradition": "sa",
+      "reference": "Udānavarga 7.7 Sucarita",
+      "line": 3,
+      "source_form": "atra gatvā",
+      "corrected_form": "yatra gatvā",
+      "issue": "The comparative page omits the opening of yatra, printing atra. Both checked editions print yatra gatvā.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/07-Sucarita.htm#Uv_175",
+        "html_sha256": "880a53536235dccb718dd7ad09e2f34e9ac6a29f52732232d066c1980bf7cae9"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 7.7",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints atra gatvā; both the digital Udānavarga and Bernhard’s edition read yatra gatvā. The display restores yatra gatvā; the printed form is retained in the source record."
+    },
+    {
+      "pali": 228,
+      "tradition": "sa",
+      "reference": "Udānavarga 29.46 Yuga",
+      "line": 3,
+      "source_form": "a cāpy",
+      "corrected_form": "na cāpy",
+      "issue": "The comparative page omits the opening of na, printing a cāpy. Both checked editions print na cāpy.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/29-Yuga.htm#Uv_746",
+        "html_sha256": "b3d484e7c1c0ba5a2e81332394774b5b0aeefd6de5f475540c6618c4f4e8863c"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 29.46",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints a cāpy; both the digital Udānavarga and Bernhard’s edition read na cāpy. The display restores na cāpy; the printed form is retained in the source record."
+    },
+    {
+      "pali": 245,
+      "tradition": "sa",
+      "reference": "Udānavarga 27.4 Paśya",
+      "line": 3,
+      "source_form": "uddhājīvena",
+      "corrected_form": "śuddhājīvena",
+      "issue": "The comparative page omits the opening of śuddhājīvena, printing uddhājīvena. Both checked editions print śuddhājīvena.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/27-Pasya.htm#Uv_600",
+        "html_sha256": "1eb39f00bc7f3e9bce775985d851b47f9eaa0852281e3a6b18f636832f69fe83"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 27.4",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints uddhājīvena; both the digital Udānavarga and Bernhard’s edition read śuddhājīvena. The display restores śuddhājīvena; the printed form is retained in the source record."
+    },
+    {
+      "pali": 262,
+      "tradition": "sa",
+      "reference": "Udānavarga 29.10 Yuga",
+      "line": 3,
+      "source_form": "āyāvī",
+      "corrected_form": "māyāvī",
+      "issue": "The comparative page omits the opening of māyāvī, printing āyāvī. Both checked editions print māyāvī.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/29-Yuga.htm#Uv_700",
+        "html_sha256": "b3d484e7c1c0ba5a2e81332394774b5b0aeefd6de5f475540c6618c4f4e8863c"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 29.10",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints āyāvī; both the digital Udānavarga and Bernhard’s edition read māyāvī. The display restores māyāvī; the printed form is retained in the source record."
+    },
+    {
+      "pali": 265,
+      "tradition": "sa",
+      "reference": "Udānavarga 33.8 Brāhmaṇa",
+      "line": 5,
+      "source_form": "rāhmaṇo",
+      "corrected_form": "brāhmaṇo",
+      "issue": "The comparative page omits the opening of brāhmaṇo, printing rāhmaṇo. Both checked editions print brāhmaṇo.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/33-Brahmana.htm#Uv_963",
+        "html_sha256": "4ae867726ed683f9ed5570abbf85689d2dd40eefe472f9c8818e5050ac5c9ad8"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 33.8",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints rāhmaṇo; both the digital Udānavarga and Bernhard’s edition read brāhmaṇo. The display restores brāhmaṇo; the printed form is retained in the source record."
+    },
+    {
+      "pali": 276,
+      "tradition": "sa",
+      "reference": "Udānavarga 6.20 Śīla",
+      "line": 3,
+      "source_form": "hyāyino",
+      "corrected_form": "dhyāyino",
+      "issue": "The comparative page omits the opening of dhyāyino, printing hyāyino. Both checked editions print dhyāyino.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/06-Sila.htm#Uv_168",
+        "html_sha256": "f453133e6fe6ff395a3ffeaab945123a425b6d7d72f3fb9001857a52abbb96af"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 6.20",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints hyāyino; both the digital Udānavarga and Bernhard’s edition read dhyāyino. The display restores dhyāyino; the printed form is retained in the source record."
+    },
+    {
+      "pali": 279,
+      "tradition": "sa",
+      "reference": "Udānavarga 12.8 Mārga",
+      "line": 3,
+      "source_form": "ṣa mārgo",
+      "corrected_form": "eṣa mārgo",
+      "issue": "The comparative page omits the opening of eṣa, printing ṣa. Both checked editions print eṣa mārgo.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/12-Marga.htm#Uv_255",
+        "html_sha256": "1f7320f87933f8859d3914e2c42bf26903f47d2705ce39e0b56a13fcfae1253f"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 12.8",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints ṣa mārgo; both the digital Udānavarga and Bernhard’s edition read eṣa mārgo. The display restores eṣa mārgo; the printed form is retained in the source record."
+    },
+    {
+      "pali": 280,
+      "tradition": "sa",
+      "reference": "Udānavarga 31.32 Citta",
+      "line": 3,
+      "source_form": "ñānasya",
+      "corrected_form": "jñānasya",
+      "issue": "The comparative page omits the opening of jñānasya, printing ñānasya. Both checked editions print jñānasya.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/31-Citta.htm#Uv_842",
+        "html_sha256": "2ed8b69bec5f5c1fd389c4c5d0ec9f42fe7c1e0176b5701068071e9bae1c9382"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 31.32",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints ñānasya; both the digital Udānavarga and Bernhard’s edition read jñānasya. The display restores jñānasya; the printed form is retained in the source record."
+    },
+    {
+      "pali": 292,
+      "tradition": "sa",
+      "reference": "Udānavarga 4.19 Apramāda",
+      "line": 5,
+      "source_form": "rāt te",
+      "corrected_form": "ārāt te",
+      "issue": "The comparative page omits the opening of ārāt, printing rāt. Both checked editions print ārāt te.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/04-Apramada.htm#Uv_102",
+        "html_sha256": "1335e0136400e7d3bf93b77bdf4a636383322936bf6cbe1d87dce917bea0e141"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 4.19",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints rāt te; both the digital Udānavarga and Bernhard’s edition read ārāt te. The display restores ārāt te; the printed form is retained in the source record."
+    },
+    {
+      "pali": 298,
+      "tradition": "sa",
+      "reference": "Udānavarga 15.14 Smti",
+      "line": 3,
+      "source_form": "ityaṁ",
+      "corrected_form": "nityaṁ",
+      "issue": "The comparative page omits the opening of nityaṁ, printing ityaṁ. Both checked editions print nityaṁ.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/15-Smrti.htm#Uv_315",
+        "html_sha256": "532120d6b2d8f18d45b32de86c50568d007acd75d757f1b3d6912f96dc7239ac"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 15.14",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints ityaṁ; both the digital Udānavarga and Bernhard’s edition read nityaṁ. The display restores nityaṁ; the printed form is retained in the source record."
+    },
+    {
+      "pali": 299,
+      "tradition": "sa",
+      "reference": "Udānavarga 15.15 Smti",
+      "line": 3,
+      "source_form": "ityaṁ",
+      "corrected_form": "nityaṁ",
+      "issue": "The comparative page omits the opening of nityaṁ, printing ityaṁ. Both checked editions print nityaṁ.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/15-Smrti.htm#Uv_316",
+        "html_sha256": "532120d6b2d8f18d45b32de86c50568d007acd75d757f1b3d6912f96dc7239ac"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 15.15",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints ityaṁ; both the digital Udānavarga and Bernhard’s edition read nityaṁ. The display restores nityaṁ; the printed form is retained in the source record."
+    },
+    {
+      "pali": 308,
+      "tradition": "sa",
+      "reference": "Udānavarga 9.2 Karma",
+      "line": 3,
+      "source_form": "āṣṭrapiṇḍam",
+      "corrected_form": "rāṣṭrapiṇḍam",
+      "issue": "The comparative page omits the opening of rāṣṭrapiṇḍam, printing āṣṭrapiṇḍam. Both checked editions print rāṣṭrapiṇḍam.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/09-Karma.htm#Uv_197",
+        "html_sha256": "c6c5883ffef03a873c4bbbbbc9d73ac3896059c990790aa56671b1135e06617d"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 9.2",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints āṣṭrapiṇḍam; both the digital Udānavarga and Bernhard’s edition read rāṣṭrapiṇḍam. The display restores rāṣṭrapiṇḍam; the printed form is retained in the source record."
+    },
+    {
+      "pali": 311,
+      "tradition": "sa",
+      "reference": "Udānavarga 11.4 Śramaṇa",
+      "line": 3,
+      "source_form": "arakān",
+      "corrected_form": "narakān",
+      "issue": "The comparative page omits the opening of narakān, printing arakān. Both checked editions print narakān.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/11-Sramana.htm#Uv_236",
+        "html_sha256": "7afa6a350681342f0b95fe5fd273674f7b910a223b5f08f19ddaf792e4787428"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 11.4",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints arakān; both the digital Udānavarga and Bernhard’s edition read narakān. The display restores narakān; the printed form is retained in the source record."
+    },
+    {
+      "pali": 321,
+      "tradition": "sa",
+      "reference": "Udānavarga 19.6 Aśva",
+      "line": 3,
+      "source_form": "o 'tivākyaṁ",
+      "corrected_form": "yo 'tivākyaṁ",
+      "issue": "The comparative page omits the opening of yo, printing o 'tivākyaṁ. Both checked editions print yo 'tivākyaṁ.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/19-Asva.htm#Uv_400",
+        "html_sha256": "97018d941921a5b225ac2c7011e56f8a92b6c0a12f48969c3c40a4914994333e"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 19.6",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints o 'tivākyaṁ; both the digital Udānavarga and Bernhard’s edition read yo 'tivākyaṁ. The display restores yo 'tivākyaṁ; the printed form is retained in the source record."
+    },
+    {
+      "pali": 325,
+      "tradition": "sa",
+      "reference": "Udānavarga 29.13 Yuga",
+      "line": 3,
+      "source_form": "unaḥ punar",
+      "corrected_form": "punaḥ punar",
+      "issue": "The comparative page omits the opening of punaḥ, printing unaḥ. Both checked editions print punaḥ punar.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/29-Yuga.htm#Uv_703",
+        "html_sha256": "b3d484e7c1c0ba5a2e81332394774b5b0aeefd6de5f475540c6618c4f4e8863c"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 29.13",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints unaḥ punar; both the digital Udānavarga and Bernhard’s edition read punaḥ punar. The display restores punaḥ punar; the printed form is retained in the source record."
+    },
+    {
+      "pali": 329,
+      "tradition": "sa",
+      "reference": "Udānavarga 14.14 Droha",
+      "line": 0,
+      "source_form": "sa cel",
+      "corrected_form": "no cel",
+      "issue": "The comparative page and the digital Udānavarga both begin Uv 14.14 with sa cel, repeating the opening of Uv 14.13. Bernhard's edition reads no cel, matching the sense of the stanza and Pāli 329 No ce labhetha.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/14-Droha.htm#Uv_299",
+        "html_sha256": "a411df9b134b0f6721326da7ffff0121ab5307d5e54d3e31dc480c127a81e72d",
+        "reads": "sa cel",
+        "supports_correction": false
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 14.14",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints sa cel (“if one finds”), repeating the preceding stanza’s opening. Bernhard’s edition reads no cel (“if one does not find”); the display follows Bernhard. The printed form is retained in the source record."
+    },
+    {
+      "pali": 335,
+      "tradition": "sa",
+      "reference": "Udānavarga 3.9 Tṣṇā",
+      "line": 3,
+      "source_form": "y avav",
+      "corrected_form": "hy avav",
+      "issue": "The comparative page omits the opening of hy, printing y. Both checked editions print hy avav.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/03-Trsna.htm#Uv_74",
+        "html_sha256": "910885251c8830a3e9d9f09684b50e3ad0ffb2af084ecb8940eaef1e8fc93dd7"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 3.9",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints y avav; both the digital Udānavarga and Bernhard’s edition read hy avav. The display restores hy avav; the printed form is retained in the source record."
+    },
+    {
+      "pali": 384,
+      "tradition": "sa",
+      "reference": "Udānavarga 33.72 Brāhmaṇa",
+      "line": 3,
+      "source_form": "staṁ gacchanti",
+      "corrected_form": "astaṁ gacchanti",
+      "issue": "The comparative page omits the opening of astaṁ, printing staṁ. Both checked editions print astaṁ gacchanti.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/33-Brahmana.htm#Uv_1036",
+        "html_sha256": "4ae867726ed683f9ed5570abbf85689d2dd40eefe472f9c8818e5050ac5c9ad8"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 33.72",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints staṁ gacchanti; both the digital Udānavarga and Bernhard’s edition read astaṁ gacchanti. The display restores astaṁ gacchanti; the printed form is retained in the source record."
+    },
+    {
+      "pali": 394,
+      "tradition": "sa",
+      "reference": "Udānavarga 33.6 Brāhmaṇa",
+      "line": 3,
+      "source_form": "āhyakaṁ",
+      "corrected_form": "bāhyakaṁ",
+      "issue": "The comparative page omits the opening of bāhyakaṁ, printing āhyakaṁ. Both checked editions print bāhyakaṁ.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/33-Brahmana.htm#Uv_960",
+        "html_sha256": "4ae867726ed683f9ed5570abbf85689d2dd40eefe472f9c8818e5050ac5c9ad8"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 33.6",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints āhyakaṁ; both the digital Udānavarga and Bernhard’s edition read bāhyakaṁ. The display restores bāhyakaṁ; the printed form is retained in the source record."
+    },
+    {
+      "pali": 420,
+      "tradition": "sa",
+      "reference": "Udānavarga 33.46 Brāhmaṇa",
+      "line": 3,
+      "source_form": "ravīmi",
+      "corrected_form": "bravīmi",
+      "issue": "The comparative page omits the opening of bravīmi, printing ravīmi. Both checked editions print bravīmi.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/33-Brahmana.htm#Uv_1007",
+        "html_sha256": "4ae867726ed683f9ed5570abbf85689d2dd40eefe472f9c8818e5050ac5c9ad8"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "reference": "Uv 33.46",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
+      },
+      "display_note": "The consulted comparative page prints ravīmi; both the digital Udānavarga and Bernhard’s edition read bravīmi. The display restores bravīmi; the printed form is retained in the source record."
+    },
+    {
+      "pali": 242,
+      "tradition": "pd",
+      "reference": "Patna 158 [10.2] Mala",
+      "line": 3,
+      "source_form": "ssiṁ loke",
+      "corrected_form": "assiṁ loke",
+      "issue": "The comparative page omits the opening of assiṁ, printing ssiṁ. Both checked editions print assiṁ loke.",
+      "native_evidence": {
+        "edition": "Margaret Cone, Patna Dharmapada (1989); digital edition by Ānandajoti Bhikkhu (2007)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/10-Mala.htm#PDhp_158",
+        "html_sha256": "a3946f30a7e4970eae9f2d67c1b71b7479400eb2f9caa51bbf9d8350c1dd88fe"
+      },
+      "independent_evidence": {
+        "edition": "Margaret Cone, Patna Dharmapada (JPTS 13, 1989), GRETIL input by Tatsushi Tamai",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_patna-dharmapada.txt",
+        "reference": "PDhp 158",
+        "file_sha256": "0c84271f87771330c28e5d3d28c90f3f51c5cc65466b0a1ccdc25e37b7195ce1"
+      },
+      "display_note": "The consulted comparative page prints ssiṁ loke; Cone’s Patna Dharmapada reads assiṁ loke. The display restores assiṁ loke; the printed form is retained in the source record."
+    },
+    {
+      "pali": 261,
+      "tradition": "pd",
+      "reference": "Patna 289 [16.12] Vācā",
+      "line": 3,
+      "source_form": "ādhurūpī",
+      "corrected_form": "sādhurūpī",
+      "issue": "The comparative page omits the opening of sādhurūpī, printing ādhurūpī. Both checked editions print sādhurūpī.",
+      "native_evidence": {
+        "edition": "Margaret Cone, Patna Dharmapada (1989); digital edition by Ānandajoti Bhikkhu (2007)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C5-Patna/16-Vaca.htm#PDhp_289",
+        "html_sha256": "e0cb32e15f38ca6bef0f98834cdb4289946d5e1dcc15b74607c840189f504b47"
+      },
+      "independent_evidence": {
+        "edition": "Margaret Cone, Patna Dharmapada (JPTS 13, 1989), GRETIL input by Tatsushi Tamai",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_patna-dharmapada.txt",
+        "reference": "PDhp 289",
+        "file_sha256": "0c84271f87771330c28e5d3d28c90f3f51c5cc65466b0a1ccdc25e37b7195ce1"
+      },
+      "display_note": "The consulted comparative page prints ādhurūpī; Cone’s Patna Dharmapada reads sādhurūpī. The display restores sādhurūpī; the printed form is retained in the source record."
     }
   ]
 }

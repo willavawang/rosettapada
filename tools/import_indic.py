@@ -125,6 +125,18 @@ class PatnaVerse(HTMLParser):
             self.parts.append(data)
 
 
+def apply_line_correction(reading, fix):
+    """Restore characters the comparative page drops, as recorded with evidence in corrections.json."""
+    line = reading["lines"][fix["line"]]
+    assert line.count(fix["source_form"]) == 1, f'Review the line correction at Pāli {fix["pali"]}.'
+    reading["lines"][fix["line"]] = line.replace(fix["source_form"], fix["corrected_form"])
+    for annotation in reading["annotations"]:
+        if annotation["line"] == fix["line"] and fix["source_form"] in annotation["text"]:
+            annotation["text"] = annotation["text"].replace(fix["source_form"], fix["corrected_form"])
+    reading["corrections"] = [{"line": fix["line"], "source_form": fix["source_form"], "corrected_form": fix["corrected_form"]}]
+    reading["note"] = " ".join(filter(None, [reading.get("note"), fix["display_note"]]))
+
+
 def main():
     source_dir, output_dir = map(Path, sys.argv[1:3])
     output_dir.mkdir(parents=True, exist_ok=True)
@@ -152,6 +164,7 @@ def main():
     corrections = json.loads((ROOT / "data/witnesses/sources/indic/corrections.json").read_text())
     patna_correction = next(c for c in corrections["corrections"] if c["pali"] == 158)
     anomalies = {(a["tradition"], a["pali"], a["reference"]): a for a in corrections["retained_source_anomalies"]}
+    line_fixes = {(c["tradition"], c["pali"], c["reference"]): c for c in corrections.get("line_corrections", [])}
     primary_source = None
     if 158 in numbers:
         primary_raw = (source_dir / "17-Atta.htm").read_bytes()
@@ -177,6 +190,9 @@ def main():
                 if anomaly:
                     assert any(anomaly["source_form"] in line for line in reading["lines"]), "Review the retained source anomaly."
                     reading["note"] = anomaly["display_note"]
+                fix = line_fixes.get((key, number, reading["reference"]))
+                if fix:
+                    apply_line_correction(reading, fix)
             if key == "pd" and number == 158:
                 assert readings[0]["lines"] == patna_correction["comparative_lines"], "Comparative source changed; review the Patna correction."
                 readings[0].update({"source_id": "PDhp-17-Atta", "source_url": patna_correction["primary_source_url"], "lines": patna_correction["replacement_lines"], "annotations": [], "note": patna_correction["display_note"]})

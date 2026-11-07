@@ -17,7 +17,7 @@ The source README declares the electronic text public domain; `esukhia-README.md
 
 `selected-derge-excerpts.json` retains exact physical source-line spans for every located passage, including folio markers and correction braces. The whole multi-text volume is not distributed here. Display preparation removes physical markers/newlines, joins split words, retains the first/printed form in correction annotations, and breaks reading lines at native shad boundaries. Native words and punctuation remain unchanged. Folios identify the primary source; Sanskrit stanza numbers do not determine Tibetan numbering.
 
-`verification.json` records a direct check of 327 native selections and 1,384 displayed pādas. Every displayed line occurs verbatim and in order in its cited source span after those structural/annotation operations. Raw excerpts match their full-volume line ranges and the pinned volume hash is verified. This checks transcription fidelity, not identity of meaning with Pāli.
+`verification.json` records a direct check of 339 native selections and 1,434 displayed pādas. Every displayed line occurs verbatim and in order in its cited source span after those structural/annotation operations. Raw excerpts match their full-volume line ranges and the pinned volume hash is verified. This checks transcription fidelity, not identity of meaning with Pāli.
 
 `pilot-selection-map.json` records the pilot selection spans. `tier2-selection-map.json` records the 231 new selections, pinned to their actual Derge opening and ending lines. Pāda indices refer to the importer’s shad-delimited chapter stream. Rockhill's numbers are discovery references, and the Derge source-line and folio locators cite the passages actually displayed.
 

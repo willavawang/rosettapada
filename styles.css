@@ -72,6 +72,8 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 .sheet[data-profile="historical"] .poem { display: block; }
 .sheet[data-profile="historical"] .lang-bo .poem { font-family: 'Rosettapada Tibetan', 'Kailasa', serif; font-size: 23px; line-height: 1.9; letter-spacing: 0; }
 .unlocated { margin: 3px 0 0; color: var(--muted); font: 18px/1.8 Georgia, serif; }
+.unlocated.catalogued { max-width: 300px; font: italic 15px/1.6 Georgia, serif; }
+.unlocated.catalogued span { display: block; margin-top: 4px; font: 12px/1.6 system-ui, sans-serif; font-style: normal; }
 .uncertain-reading { text-decoration: underline dotted #929a87; text-underline-offset: .17em; text-decoration-thickness: 1px; }
 .parallel-context { color: var(--muted); }
 .parallel-table-wrap { max-width: 100%; overflow-x: auto; margin: 24px 0; }

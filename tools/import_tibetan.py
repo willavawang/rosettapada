@@ -187,9 +187,7 @@ def expand_reader(source):
   note='No native Tibetan passage selected after the consulted comparison.'
   if refs:
    labels=[f'{r["chapter"]}.{r["verse"]}'+('?' if r['tentative'] else '') for r in refs]
-   note+=f' Rockhill indexes {", ".join(labels)}. This remains a catalogue reference without a displayed Derge selection.'
-  if pali==191:
-   note='The four truths and eightfold path occur within the grouped Tibetan stanza displayed at Pāli 190. There is no separate Tibetan stanza selected for 191.'
+   note=f'Rockhill’s 1883 Tibetan–Pāli index lists Udānavarga {", ".join(labels)} here. The corresponding Derge stanza has not yet been identified in the native text.'
   records[pali]={'pali':pali,'status':'not-located','readings':[],'note':note}
   if refs:records[pali]['catalogue_references']=refs
  dataset['scope']='Selected historical Tibetan counterparts from Derge Toh 326 across all 423 Pāli positions. Catalogue references without a confirmed native selection remain separate. The 99 earlier reader records are preserved.'

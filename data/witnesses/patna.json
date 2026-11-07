@@ -4765,11 +4765,19 @@
             "malo istiye duccaritaṁ",
             "maccheraṁ dadatāṁ malo |",
             "malo pāpāni kaṁmāṇi",
-            "ssiṁ loke paramhi ca ||"
+            "assiṁ loke paramhi ca ||"
           ],
           "annotations": [],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ssiṁ loke",
+              "corrected_form": "assiṁ loke"
+            }
+          ],
+          "note": "The consulted comparative page prints ssiṁ loke; Cone’s Patna Dharmapada reads assiṁ loke. The display restores assiṁ loke; the printed form is retained in the source record."
         }
       ]
     },
@@ -5011,17 +5019,25 @@
             "yamhi saccaṁ ca dhammo ca",
             "viratī saṁyyamo damo |",
             "sa vāntadoṣo medhāvī",
-            "ādhurūpī ti vuccati ||"
+            "sādhurūpī ti vuccati ||"
           ],
           "annotations": [
             {
               "line": 3,
               "kind": "s",
-              "text": "ādhurūpī ti vuccati ||"
+              "text": "sādhurūpī ti vuccati ||"
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ādhurūpī",
+              "corrected_form": "sādhurūpī"
+            }
+          ],
+          "note": "The consulted comparative page prints ādhurūpī; Cone’s Patna Dharmapada reads sādhurūpī. The display restores sādhurūpī; the printed form is retained in the source record."
         }
       ]
     },

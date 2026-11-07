@@ -987,7 +987,7 @@
             "pramādaṁ nānuyujyeta",
             "na kāmaratisaṁstavam /",
             "apramattaḥ sadā dhyāyī",
-            "rāpnute hy acalaṁ sukham //"
+            "prāpnute hy acalaṁ sukham //"
           ],
           "annotations": [
             {
@@ -1002,7 +1002,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "rāpnute",
+              "corrected_form": "prāpnute"
+            }
+          ],
+          "note": "The consulted comparative page prints rāpnute; both the digital Udānavarga and Bernhard’s edition read prāpnute. The display restores prāpnute; the printed form is retained in the source record."
         }
       ]
     },
@@ -1532,7 +1540,7 @@
             "śaikṣaḥ pthivīṁ vijeṣyate",
             "yamalokaṁ ca tathā sadevakam /",
             "sa hi dharmapadaṁ sudeśitaṁ",
-            "uśalaḥ puṣpam iva praceṣyate //"
+            "kuśalaḥ puṣpam iva praceṣyate //"
           ],
           "annotations": [
             {
@@ -1548,7 +1556,14 @@
           ],
           "fragmentary": false,
           "partial_correspondence": false,
-          "note": "The consulted comparative page prints uśalaḥ at the start of the final line. The spelling is retained as printed."
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "uśalaḥ",
+              "corrected_form": "kuśalaḥ"
+            }
+          ],
+          "note": "The consulted comparative page prints uśalaḥ; both the digital Udānavarga and Bernhard’s edition read kuśalaḥ. The display restores kuśalaḥ; the printed form is retained in the source record."
         }
       ]
     },
@@ -1755,7 +1770,7 @@
             "yathāpi ruciraṁ puṣpaṁ",
             "varṇavat syād sugandhavat /",
             "evaṁ subhāṣitā vācā",
-            "aphalā bhavati kurvataḥ //"
+            "saphalā bhavati kurvataḥ //"
           ],
           "annotations": [
             {
@@ -1770,7 +1785,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "aphalā",
+              "corrected_form": "saphalā"
+            }
+          ],
+          "note": "The consulted comparative page prints aphalā; both the digital Udānavarga and Bernhard’s edition read saphalā. The display restores saphalā; the printed form is retained in the source record."
         }
       ]
     },
@@ -3158,7 +3181,7 @@
             "smtimantaḥ prayujyante",
             "na nikete ramanti te /",
             "haṁsavat palvalaṁ hitvā",
-            "y okam oghaṁ jahante te //"
+            "hy okam oghaṁ jahante te //"
           ],
           "annotations": [
             {
@@ -3178,7 +3201,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "y okam",
+              "corrected_form": "hy okam"
+            }
+          ],
+          "note": "The consulted comparative page prints y okam; both the digital Udānavarga and Bernhard’s edition read hy okam. The display restores hy okam; the printed form is retained in the source record."
         }
       ]
     },
@@ -4108,7 +4139,7 @@
             "bhadro 'pi paśyate pāpaṁ",
             "yāvad bhadraṁ na pacyate /",
             "yadā tu pacyate bhadram",
-            "tha bhadrāṇi paśyati //"
+            "atha bhadrāṇi paśyati //"
           ],
           "annotations": [
             {
@@ -4123,7 +4154,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "tha bhadrāṇi",
+              "corrected_form": "atha bhadrāṇi"
+            }
+          ],
+          "note": "The consulted comparative page prints tha bhadrāṇi; both the digital Udānavarga and Bernhard’s edition read atha bhadrāṇi. The display restores atha bhadrāṇi; the printed form is retained in the source record."
         }
       ]
     },
@@ -4462,7 +4501,7 @@
             "sarve daṇḍasya bibhyanti",
             "sarveṣāṁ jīvitaṁ priyam /",
             "ātmānam upamāṁ ktvā",
-            "aiva hanyān na ghātayet //"
+            "naiva hanyān na ghātayet //"
           ],
           "annotations": [
             {
@@ -4478,7 +4517,14 @@
           ],
           "fragmentary": false,
           "partial_correspondence": false,
-          "note": "The consulted page prints aiva hanyān here and naiva hanyān under Pāli 129 for the same native verse. Both source transcriptions are retained."
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "aiva hanyān",
+              "corrected_form": "naiva hanyān"
+            }
+          ],
+          "note": "The consulted comparative page prints aiva hanyān; both the digital Udānavarga and Bernhard’s edition read naiva hanyān. The display restores naiva hanyān; the printed form is retained in the source record."
         }
       ]
     },
@@ -4607,7 +4653,7 @@
           "lines": [
             "yathā daṇḍena gopālo",
             "gāḥ prāpayati gocaram /",
-            "vaṁ rogair jarāmtyuḥ",
+            "evaṁ rogair jarāmtyuḥ",
             "āyuḥ prāpayate nṇām //"
           ],
           "annotations": [
@@ -4629,7 +4675,14 @@
           ],
           "fragmentary": false,
           "partial_correspondence": false,
-          "note": "The consulted comparative page prints vaṁ at the start of the third line. The spelling is retained as printed."
+          "corrections": [
+            {
+              "line": 2,
+              "source_form": "vaṁ rogair",
+              "corrected_form": "evaṁ rogair"
+            }
+          ],
+          "note": "The consulted comparative page prints vaṁ rogair; both the digital Udānavarga and Bernhard’s edition read evaṁ rogair. The display restores evaṁ rogair; the printed form is retained in the source record."
         }
       ]
     },
@@ -4724,7 +4777,7 @@
           "source_id": "CD-10-Danda",
           "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-10-Danda.htm#CD_139",
           "lines": [
-            "ñātīnāṁ vā vinābhāvaṁ",
+            "jñātīnāṁ vā vinābhāvaṁ",
             "bhogānāṁ vā parikṣayam /",
             "rājato hy upasargaṁ vāpy",
             "abhyākhyānaṁ ca dāruṇam //"
@@ -4747,7 +4800,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 0,
+              "source_form": "ñātīnāṁ",
+              "corrected_form": "jñātīnāṁ"
+            }
+          ],
+          "note": "The consulted comparative page prints ñātīnāṁ; both the digital Udānavarga and Bernhard’s edition read jñātīnāṁ. The display restores jñātīnāṁ; the printed form is retained in the source record."
         }
       ]
     },
@@ -4876,7 +4937,7 @@
             "hrīniṣevī hi puruṣaḥ",
             "prājño yaḥ susamāhitaḥ /",
             "sarvapāpaṁ jahāty eṣa",
-            "hadrāśvo hi kaśām iva //"
+            "bhadrāśvo hi kaśām iva //"
           ],
           "annotations": [
             {
@@ -4911,7 +4972,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "hadrāśvo",
+              "corrected_form": "bhadrāśvo"
+            }
+          ],
+          "note": "The consulted comparative page prints hadrāśvo; both the digital Udānavarga and Bernhard’s edition read bhadrāśvo. The display restores bhadrāśvo; the printed form is retained in the source record."
         }
       ]
     },
@@ -5118,7 +5187,7 @@
           "lines": [
             "yānīmāny apaviddhāni",
             "vikṣiptāni diśo diśam /",
-            "āpotavarṇāny asthīni",
+            "kāpotavarṇāny asthīni",
             "tāni dṣṭveha kā ratiḥ//"
           ],
           "annotations": [
@@ -5149,7 +5218,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 2,
+              "source_form": "āpotavarṇāny",
+              "corrected_form": "kāpotavarṇāny"
+            }
+          ],
+          "note": "The consulted comparative page prints āpotavarṇāny; both the digital Udānavarga and Bernhard’s edition read kāpotavarṇāny. The display restores kāpotavarṇāny; the printed form is retained in the source record."
         }
       ]
     },
@@ -5201,7 +5278,7 @@
             "jīryanti vai rājarathāḥ sucitrā",
             "hy atho śarīram api jarām upaiti /",
             "satāṁ tu dharmo na jarām upaiti",
-            "anto hi taṁ satsu nivedayanti ||"
+            "santo hi taṁ satsu nivedayanti ||"
           ],
           "annotations": [
             {
@@ -5211,7 +5288,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "anto hi",
+              "corrected_form": "santo hi"
+            }
+          ],
+          "note": "The consulted comparative page prints anto hi; both the digital Udānavarga and Bernhard’s edition read santo hi. The display restores santo hi; the printed form is retained in the source record."
         }
       ]
     },
@@ -5271,7 +5356,7 @@
             "sarve te pārśukā bhagnā",
             "ghakūṭaṁ visaṁsktam /",
             "visaṁskāragate citte",
-            "haiva kṣayam adhyagāḥ //"
+            "ihaiva kṣayam adhyagāḥ //"
           ],
           "annotations": [
             {
@@ -5286,7 +5371,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 5,
+              "source_form": "haiva",
+              "corrected_form": "ihaiva"
+            }
+          ],
+          "note": "The consulted comparative page prints haiva; both the digital Udānavarga and Bernhard’s edition read ihaiva. The display restores ihaiva; the printed form is retained in the source record."
         }
       ]
     },
@@ -5442,7 +5535,7 @@
             "ātmānam eva prathamaṁ",
             "pratirūpe niveśayet /",
             "tato 'nyam anuśāsīta",
-            "a kliśyeta hi paṇḍitaḥ //"
+            "na kliśyeta hi paṇḍitaḥ //"
           ],
           "annotations": [
             {
@@ -5462,7 +5555,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "a kliśyeta",
+              "corrected_form": "na kliśyeta"
+            }
+          ],
+          "note": "The consulted comparative page prints a kliśyeta; both the digital Udānavarga and Bernhard’s edition read na kliśyeta. The display restores na kliśyeta; the printed form is retained in the source record."
         }
       ]
     },
@@ -5873,7 +5974,7 @@
             "uttiṣṭhen na pramādyeta",
             "dharmaṁ sucaritaṁ caret /",
             "dharmacārī sukhaṁ śete",
-            "yasmiṁ loke paratra ca //"
+            "hy asmiṁ loke paratra ca //"
           ],
           "annotations": [
             {
@@ -5888,7 +5989,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "yasmiṁ loke",
+              "corrected_form": "hy asmiṁ loke"
+            }
+          ],
+          "note": "The consulted comparative page prints yasmiṁ loke; both the digital Udānavarga and Bernhard’s edition read hy asmiṁ loke. The display restores hy asmiṁ loke; the printed form is retained in the source record."
         }
       ]
     },
@@ -6177,7 +6286,7 @@
             "na vai kadaryā devalokaṁ vrajanti",
             "bālā hi te na praśaṁsanti dānam /",
             "śrāddhas tu dānaṁ hy anumodamāno",
-            "'py evaṁ hy sau bhavati sukhī paratra ||"
+            "'py evaṁ hy asau bhavati sukhī paratra ||"
           ],
           "annotations": [
             {
@@ -6187,7 +6296,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "hy sau",
+              "corrected_form": "hy asau"
+            }
+          ],
+          "note": "The consulted comparative page prints hy sau; both the digital Udānavarga and Bernhard’s edition read hy asau. The display restores hy asau; the printed form is retained in the source record."
         }
       ]
     },
@@ -6334,7 +6451,7 @@
             "kṣāntiḥ paramaṁ tapas titīkṣā",
             "nirvāṇaṁ paramaṁ vadanti buddhāḥ /",
             "na hi pravrajitaḥ paropatāpī",
-            "ramaṇo bhavati paraṁ viheṭhayaṁ vai |/"
+            "śramaṇo bhavati paraṁ viheṭhayaṁ vai |/"
           ],
           "annotations": [
             {
@@ -6350,7 +6467,14 @@
           ],
           "fragmentary": false,
           "partial_correspondence": false,
-          "note": "The consulted comparative page prints ramaṇo at the start of the final line. The spelling is retained as printed."
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ramaṇo",
+              "corrected_form": "śramaṇo"
+            }
+          ],
+          "note": "The consulted comparative page prints ramaṇo; both the digital Udānavarga and Bernhard’s edition read śramaṇo. The display restores śramaṇo; the printed form is retained in the source record."
         }
       ]
     },
@@ -6652,7 +6776,7 @@
             "sukhaṁ buddhasya cotpādaḥ",
             "sukhaṁ dharmasya deśanā |",
             "sukhaṁ saṁghasya sāmagrī",
-            "amagrāṇāṁ tapaḥ sukham //"
+            "samagrāṇāṁ tapaḥ sukham //"
           ],
           "annotations": [
             {
@@ -6668,7 +6792,14 @@
           ],
           "fragmentary": false,
           "partial_correspondence": false,
-          "note": "The consulted comparative page prints amagrāṇāṁ at the start of the final line. The spelling is retained as printed."
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "amagrāṇāṁ",
+              "corrected_form": "samagrāṇāṁ"
+            }
+          ],
+          "note": "The consulted comparative page prints amagrāṇāṁ; both the digital Udānavarga and Bernhard’s edition read samagrāṇāṁ. The display restores samagrāṇāṁ; the printed form is retained in the source record."
         }
       ]
     },
@@ -7031,7 +7162,7 @@
             "mā priyaiḥ saṁgamo jātu",
             "mā ca syād apriyaiḥ sadā /",
             "priyāṇām adarśanaṁ duḥkham",
-            "priyāṇāṁ ca darśanam //"
+            "apriyāṇāṁ ca darśanam //"
           ],
           "annotations": [
             {
@@ -7051,7 +7182,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "priyāṇāṁ ca",
+              "corrected_form": "apriyāṇāṁ ca"
+            }
+          ],
+          "note": "The consulted comparative page prints priyāṇāṁ ca; both the digital Udānavarga and Bernhard’s edition read apriyāṇāṁ ca. The display restores apriyāṇāṁ ca; the printed form is retained in the source record."
         }
       ]
     },
@@ -7067,7 +7206,7 @@
             "tasmāt priyaṁ na kurvīta",
             "priyabhāvo hi pāpakaḥ /",
             "granthās teṣāṁ na vidyante",
-            "eṣāṁ nāsti priyāpriyam //"
+            "yeṣāṁ nāsti priyāpriyam //"
           ],
           "annotations": [
             {
@@ -7087,7 +7226,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "eṣāṁ nāsti",
+              "corrected_form": "yeṣāṁ nāsti"
+            }
+          ],
+          "note": "The consulted comparative page prints eṣāṁ nāsti; both the digital Udānavarga and Bernhard’s edition read yeṣāṁ nāsti. The display restores yeṣāṁ nāsti; the printed form is retained in the source record."
         }
       ]
     },
@@ -7358,7 +7505,7 @@
             "yas tv ihotpatitaṁ krodhaṁ",
             "rathaṁ bhrāntam iva dhārayet /",
             "vadāmi sārathiṁ taṁ tu",
-            "aśmigrāho 'yam anyathā ||"
+            "raśmigrāho 'yam anyathā ||"
           ],
           "annotations": [
             {
@@ -7368,7 +7515,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "aśmigrāho",
+              "corrected_form": "raśmigrāho"
+            }
+          ],
+          "note": "The consulted comparative page prints aśmigrāho; both the digital Udānavarga and Bernhard’s edition read raśmigrāho. The display restores raśmigrāho; the printed form is retained in the source record."
         }
       ]
     },
@@ -7446,11 +7601,19 @@
             "ahiṁsakā vai munayo",
             "nityaṁ kāyena saṁvtāḥ |",
             "te yānti hy acyutaṁ sthānaṁ",
-            "atra gatvā na śocati ||"
+            "yatra gatvā na śocati ||"
           ],
           "annotations": [],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "atra gatvā",
+              "corrected_form": "yatra gatvā"
+            }
+          ],
+          "note": "The consulted comparative page prints atra gatvā; both the digital Udānavarga and Bernhard’s edition read yatra gatvā. The display restores yatra gatvā; the printed form is retained in the source record."
         }
       ]
     },
@@ -7523,7 +7686,7 @@
             "ekāntaninditaḥ puruṣaḥ",
             "ekāntaṁ vā praśaṁsitaḥ /",
             "nābhūd bhaviṣyati ca no",
-            "a cāpy etarhi vidyate //"
+            "na cāpy etarhi vidyate //"
           ],
           "annotations": [
             {
@@ -7538,7 +7701,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "a cāpy",
+              "corrected_form": "na cāpy"
+            }
+          ],
+          "note": "The consulted comparative page prints a cāpy; both the digital Udānavarga and Bernhard’s edition read na cāpy. The display restores na cāpy; the printed form is retained in the source record."
         }
       ]
     },
@@ -7952,11 +8123,19 @@
             "hrīmatā tv iha durjīvaṁ",
             "nityaṁ śucigaveṣiṇā |",
             "sulīnenāpragalbhena",
-            "uddhājīvena paśyatā ||"
+            "śuddhājīvena paśyatā ||"
           ],
           "annotations": [],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "uddhājīvena",
+              "corrected_form": "śuddhājīvena"
+            }
+          ],
+          "note": "The consulted comparative page prints uddhājīvena; both the digital Udānavarga and Bernhard’s edition read śuddhājīvena. The display restores śuddhājīvena; the printed form is retained in the source record."
         }
       ]
     },
@@ -8354,7 +8533,7 @@
             "na nāmarūpamātreṇa",
             "varṇapuṣkalayā na ca |",
             "sādhurūpo naro bhavati",
-            "āyāvī matsarī śaṭhaḥ //"
+            "māyāvī matsarī śaṭhaḥ //"
           ],
           "annotations": [
             {
@@ -8364,7 +8543,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "āyāvī",
+              "corrected_form": "māyāvī"
+            }
+          ],
+          "note": "The consulted comparative page prints āyāvī; both the digital Udānavarga and Bernhard’s edition read māyāvī. The display restores māyāvī; the printed form is retained in the source record."
         }
       ]
     },
@@ -8459,7 +8646,7 @@
             "yas tu vāhayate pāpāny",
             "aṇusthūlāni sarvaśaḥ /",
             "vāhitatvāt tu pāpānāṁ",
-            "rāhmaṇo vai nirucyate //"
+            "brāhmaṇo vai nirucyate //"
           ],
           "annotations": [
             {
@@ -8490,7 +8677,7 @@
             {
               "line": 5,
               "kind": "s",
-              "text": "rāhmaṇo vai nirucyate"
+              "text": "brāhmaṇo vai nirucyate"
             },
             {
               "line": 5,
@@ -8499,7 +8686,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 5,
+              "source_form": "rāhmaṇo",
+              "corrected_form": "brāhmaṇo"
+            }
+          ],
+          "note": "The consulted comparative page prints rāhmaṇo; both the digital Udānavarga and Bernhard’s edition read brāhmaṇo. The display restores brāhmaṇo; the printed form is retained in the source record."
         }
       ]
     },
@@ -8755,7 +8950,7 @@
             "eṣa kṣemagamo mārga",
             "eṣa mārgo viśuddhaye |",
             "pratipannakāḥ prahāsyanti",
-            "hyāyino mārabandhanam ||"
+            "dhyāyino mārabandhanam ||"
           ],
           "annotations": [
             {
@@ -8770,7 +8965,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "hyāyino",
+              "corrected_form": "dhyāyino"
+            }
+          ],
+          "note": "The consulted comparative page prints hyāyino; both the digital Udānavarga and Bernhard’s edition read dhyāyino. The display restores dhyāyino; the printed form is retained in the source record."
         }
       ]
     },
@@ -8843,7 +9046,7 @@
             "sarvadharmā anātmānaḥ",
             "prajñayā paśyate yadā |",
             "atha nirvidyate duḥkhād",
-            "ṣa mārgo viśuddhaye //"
+            "eṣa mārgo viśuddhaye //"
           ],
           "annotations": [
             {
@@ -8853,7 +9056,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ṣa mārgo",
+              "corrected_form": "eṣa mārgo"
+            }
+          ],
+          "note": "The consulted comparative page prints ṣa mārgo; both the digital Udānavarga and Bernhard’s edition read eṣa mārgo. The display restores eṣa mārgo; the printed form is retained in the source record."
         }
       ]
     },
@@ -8869,11 +9080,19 @@
             "utthānakāleṣu nihīnavīryo",
             "vācā balī tv ālasiko nirāśaḥ |",
             "sadaiva saṁkalpahataḥ kusīdo",
-            "ñānasya mārgaṁ satataṁ na vetti ||"
+            "jñānasya mārgaṁ satataṁ na vetti ||"
           ],
           "annotations": [],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ñānasya",
+              "corrected_form": "jñānasya"
+            }
+          ],
+          "note": "The consulted comparative page prints ñānasya; both the digital Udānavarga and Bernhard’s edition read jñānasya. The display restores jñānasya; the printed form is retained in the source record."
         }
       ]
     },
@@ -9249,7 +9468,7 @@
             "uddhatānāṁ pramattānāṁ",
             "teṣāṁ vardhanti āsravāḥ /",
             "āsravās teṣu vardhante",
-            "rāt te hy āsravakṣayāt //"
+            "ārāt te hy āsravakṣayāt //"
           ],
           "annotations": [
             {
@@ -9270,7 +9489,7 @@
             {
               "line": 5,
               "kind": "s",
-              "text": "rāt te hy āsravakṣayāt"
+              "text": "ārāt te hy āsravakṣayāt"
             },
             {
               "line": 5,
@@ -9279,7 +9498,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 5,
+              "source_form": "rāt te",
+              "corrected_form": "ārāt te"
+            }
+          ],
+          "note": "The consulted comparative page prints rāt te; both the digital Udānavarga and Bernhard’s edition read ārāt te. The display restores ārāt te; the printed form is retained in the source record."
         }
       ]
     },
@@ -9491,7 +9718,7 @@
             "suprabuddhaṁ prabudhyante",
             "ime gautamaśrāvakāḥ /",
             "yeṣāṁ divā ca rātrau ca",
-            "ityaṁ saṁghagatā smtiḥ //"
+            "nityaṁ saṁghagatā smtiḥ //"
           ],
           "annotations": [
             {
@@ -9506,7 +9733,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ityaṁ",
+              "corrected_form": "nityaṁ"
+            }
+          ],
+          "note": "The consulted comparative page prints ityaṁ; both the digital Udānavarga and Bernhard’s edition read nityaṁ. The display restores nityaṁ; the printed form is retained in the source record."
         }
       ]
     },
@@ -9522,7 +9757,7 @@
             "suprabuddhaṁ prabudhyante",
             "ime gautamaśrāvakāḥ /",
             "yeṣāṁ divā ca rātrau ca",
-            "ityaṁ kāyagatā smtiḥ //"
+            "nityaṁ kāyagatā smtiḥ //"
           ],
           "annotations": [
             {
@@ -9537,7 +9772,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ityaṁ",
+              "corrected_form": "nityaṁ"
+            }
+          ],
+          "note": "The consulted comparative page prints ityaṁ; both the digital Udānavarga and Bernhard’s edition read nityaṁ. The display restores nityaṁ; the printed form is retained in the source record."
         }
       ]
     },
@@ -9826,7 +10069,7 @@
             "śreyo hy ayoguḍā bhuktās",
             "taptā hy agniśikhopamāḥ /",
             "na tu bhuñjīta duḥśīlo",
-            "āṣṭrapiṇḍam asaṁyataḥ //"
+            "rāṣṭrapiṇḍam asaṁyataḥ //"
           ],
           "annotations": [
             {
@@ -9846,7 +10089,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "āṣṭrapiṇḍam",
+              "corrected_form": "rāṣṭrapiṇḍam"
+            }
+          ],
+          "note": "The consulted comparative page prints āṣṭrapiṇḍam; both the digital Udānavarga and Bernhard’s edition read rāṣṭrapiṇḍam. The display restores rāṣṭrapiṇḍam; the printed form is retained in the source record."
         }
       ]
     },
@@ -9954,11 +10205,19 @@
             "śaro yathā durghīto",
             "hastam evāpakntati |",
             "śrāmaṇyaṁ duṣparāmṣṭaṁ",
-            "arakān upakarṣati ||"
+            "narakān upakarṣati ||"
           ],
           "annotations": [],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "arakān",
+              "corrected_form": "narakān"
+            }
+          ],
+          "note": "The consulted comparative page prints arakān; both the digital Udānavarga and Bernhard’s edition read narakān. The display restores narakān; the printed form is retained in the source record."
         }
       ]
     },
@@ -10279,7 +10538,7 @@
             "dānto vai samitiṁ yāti",
             "dāntaṁ rājādhirohati |",
             "dāntaḥ śreṣṭho manuṣyāṇāṁ",
-            "o 'tivākyaṁ titīkṣati |/"
+            "yo 'tivākyaṁ titīkṣati |/"
           ],
           "annotations": [
             {
@@ -10289,7 +10548,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "o 'tivākyaṁ",
+              "corrected_form": "yo 'tivākyaṁ"
+            }
+          ],
+          "note": "The consulted comparative page prints o 'tivākyaṁ; both the digital Udānavarga and Bernhard’s edition read yo 'tivākyaṁ. The display restores yo 'tivākyaṁ; the printed form is retained in the source record."
         }
       ]
     },
@@ -10358,7 +10625,7 @@
             "middhī ca yo bhavati mahāgrasaś ca",
             "rātriṁ divaṁ saṁparivartaśāyī |",
             "mahāvarāhaiva nivāpapuṣṭaḥ",
-            "unaḥ punar mandam upaiti garbham |/"
+            "punaḥ punar mandam upaiti garbham |/"
           ],
           "annotations": [
             {
@@ -10368,7 +10635,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "unaḥ punar",
+              "corrected_form": "punaḥ punar"
+            }
+          ],
+          "note": "The consulted comparative page prints unaḥ punar; both the digital Udānavarga and Bernhard’s edition read punaḥ punar. The display restores punaḥ punar; the printed form is retained in the source record."
         }
       ]
     },
@@ -10503,7 +10778,7 @@
           "source_id": "CD-23-Naga",
           "source_url": "https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-23-Naga.htm#CD_329",
           "lines": [
-            "sa cel labhed vai nipakaṁ sahāyaṁ",
+            "no cel labhed vai nipakaṁ sahāyaṁ",
             "loke caraṁ sādhu hi nityam eva |",
             "rājeva rāṣṭraṁ vipulaṁ prahāya",
             "ekaś caren na ca pāpāni kuryāt //"
@@ -10541,7 +10816,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 0,
+              "source_form": "sa cel",
+              "corrected_form": "no cel"
+            }
+          ],
+          "note": "The consulted comparative page prints sa cel (“if one finds”), repeating the preceding stanza’s opening. Bernhard’s edition reads no cel (“if one does not find”); the display follows Bernhard. The printed form is retained in the source record."
         }
       ]
     },
@@ -10746,7 +11029,7 @@
             "ya etāṁ sahate grāmyāṁ",
             "tṣṇāṁ loke sudustyajām /",
             "śokās tasya nivardhante",
-            "y avavṣṭā bīraṇā yathā |/"
+            "hy avavṣṭā bīraṇā yathā |/"
           ],
           "annotations": [
             {
@@ -10761,7 +11044,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "y avav",
+              "corrected_form": "hy avav"
+            }
+          ],
+          "note": "The consulted comparative page prints y avav; both the digital Udānavarga and Bernhard’s edition read hy avav. The display restores hy avav; the printed form is retained in the source record."
         }
       ]
     },
@@ -12214,7 +12505,7 @@
             "yadā hi sveṣu dharmeṣu",
             "brāhmaṇaḥ pārago bhavet /",
             "athāsya sarvasaṁyogā",
-            "staṁ gacchanti paśyataḥ //"
+            "astaṁ gacchanti paśyataḥ //"
           ],
           "annotations": [
             {
@@ -12229,7 +12520,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "staṁ gacchanti",
+              "corrected_form": "astaṁ gacchanti"
+            }
+          ],
+          "note": "The consulted comparative page prints staṁ gacchanti; both the digital Udānavarga and Bernhard’s edition read astaṁ gacchanti. The display restores astaṁ gacchanti; the printed form is retained in the source record."
         }
       ]
     },
@@ -12541,7 +12840,7 @@
             "kiṁ te jaṭābhir durbuddhe",
             "kiṁ cāpy ajinaśāṭibhiḥ /",
             "abhyantaraṁ te gahanaṁ",
-            "āhyakaṁ parimārjasi //"
+            "bāhyakaṁ parimārjasi //"
           ],
           "annotations": [
             {
@@ -12571,7 +12870,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": false
+          "partial_correspondence": false,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "āhyakaṁ",
+              "corrected_form": "bāhyakaṁ"
+            }
+          ],
+          "note": "The consulted comparative page prints āhyakaṁ; both the digital Udānavarga and Bernhard’s edition read bāhyakaṁ. The display restores bāhyakaṁ; the printed form is retained in the source record."
         }
       ]
     },
@@ -13471,7 +13778,7 @@
             "gatiṁ yasya na jānanti",
             "devagandharvamānuṣāḥ /",
             "anantajñānasaṁyuktaṁ",
-            "ravīmi brāhmaṇaṁ hi tam //"
+            "bravīmi brāhmaṇaṁ hi tam //"
           ],
           "annotations": [
             {
@@ -13491,7 +13798,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 3,
+              "source_form": "ravīmi",
+              "corrected_form": "bravīmi"
+            }
+          ],
+          "note": "The consulted comparative page prints ravīmi; both the digital Udānavarga and Bernhard’s edition read bravīmi. The display restores bravīmi; the printed form is retained in the source record."
         }
       ]
     },

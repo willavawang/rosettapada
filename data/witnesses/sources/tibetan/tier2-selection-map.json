@@ -643,6 +643,19 @@
       ]
     },
     {
+      "pali": 126,
+      "chapter": 1,
+      "pada_start": 85,
+      "pada_end": 88,
+      "status": "partial",
+      "checked_opening": "སྡིག་པའི་ལས་ཀྱིས་དམྱལ་བ་དང་",
+      "checked_ending": "ཟག་མེད་མྱ་ངན་འདས་པར་འགྱུར",
+      "catalogue_candidates": [
+        "1.24"
+      ],
+      "note": "The Tibetan names hell for evil deeds, good destinies for merit, and nirvāṇa for the taintless who cultivate the path. It lacks the Pāli opening clause about rebirth in a womb."
+    },
+    {
       "pali": 127,
       "chapter": 9,
       "pada_start": 17,
@@ -701,6 +714,32 @@
       "catalogue_candidates": [
         "30.4"
       ]
+    },
+    {
+      "pali": 133,
+      "chapter": 26,
+      "pada_start": 9,
+      "pada_end": 12,
+      "status": "present",
+      "checked_opening": "ཚིག་རྩུབ་ཅི་ཡང་སྨྲ་མི་བྱ",
+      "checked_ending": "དེ་ལ་ཕྱིར་ཡང་ཆད་པས་གཅོད",
+      "catalogue_candidates": [
+        "16.3"
+      ],
+      "note": "Rockhill’s index prints 16.3; the matching stanza is the third of the Tibetan chapter on nirvāṇa, as in Sanskrit Udānavarga 26.3."
+    },
+    {
+      "pali": 134,
+      "chapter": 26,
+      "pada_start": 17,
+      "pada_end": 20,
+      "status": "present",
+      "checked_opening": "བདག་གིས་ཕར་ནི་མ་བྱས་དང་",
+      "checked_ending": "མྱ་ངན་འདས་པ་ཐོབ་པར་འགྱུར",
+      "catalogue_candidates": [
+        "16.5"
+      ],
+      "note": "The Tibetan image is a bronze vessel left unstruck; the Pāli has a broken gong. Both describe someone who does not answer back. Rockhill’s index prints 16.5; the stanza is in the Tibetan chapter on nirvāṇa, as in Sanskrit Udānavarga 26.5."
     },
     {
       "pali": 135,
@@ -801,6 +840,19 @@
       ]
     },
     {
+      "pali": 143,
+      "chapter": 19,
+      "pada_start": 21,
+      "pada_end": 24,
+      "status": "partial",
+      "checked_opening": "རྟ་བཟངས་ལ་ནི་ལྕག་བཞིན་དུ",
+      "checked_ending": "དེས་ནི་སྡིག་པ་སེལ་བར་བྱེད",
+      "catalogue_candidates": [
+        "19.3"
+      ],
+      "note": "The Tibetan keeps the good horse, the whip, and the person who relies on a sense of shame, but its second half says such a person removes evil. The Pāli asks whether anyone in the world wards off blame."
+    },
+    {
       "pali": 144,
       "chapter": 19,
       "pada_start": 7,
@@ -849,6 +901,19 @@
         "1.5"
       ],
       "note": "Derge retains scattered bones and the question of delight but omits the autumn-gourd image."
+    },
+    {
+      "pali": 150,
+      "chapter": 16,
+      "pada_start": 91,
+      "pada_end": 94,
+      "status": "partial",
+      "checked_opening": "འདོད་ཆགས་ཞེ་སྡང་ང་རྒྱལ་དང་",
+      "checked_ending": "ཤ་དང་ཁྲག་གིས་ཞལ་ཞལ་བྱས",
+      "catalogue_candidates": [
+        "16.22"
+      ],
+      "note": "The Tibetan city of bones, plastered with flesh and blood, holds passion, hatred, pride, and concealment. The Pāli city holds old age, death, pride, and contempt."
     },
     {
       "pali": 151,
@@ -1143,7 +1208,20 @@
       "catalogue_candidates": [
         "27.30"
       ],
-      "note": "The Tibetan stanza combines the refuge and four-truths verses, with the eightfold path in the same stanza. The shared stanza is displayed once, at 190."
+      "note": "The Tibetan stanza combines the refuge and four-truths verses, with the eightfold path in the same stanza. Its middle four lines are also displayed at Pāli 191."
+    },
+    {
+      "pali": 191,
+      "chapter": 27,
+      "pada_start": 130,
+      "pada_end": 133,
+      "status": "partial",
+      "checked_opening": "སྡུག་བསྔལ་སྡུག་བསྔལ་ཀུན་འབྱུང་དང་",
+      "checked_ending": "འཕགས་ལམ་ཡན་ལག་བརྒྱད་པ་སྟེ",
+      "catalogue_candidates": [
+        "27.31"
+      ],
+      "note": "These four lines are the middle of the grouped Tibetan stanza displayed in full at Pāli 190: suffering, its origin, its transcendence, and the noble eightfold path."
     },
     {
       "pali": 192,
@@ -1206,6 +1284,19 @@
       "catalogue_candidates": [
         "30.45"
       ]
+    },
+    {
+      "pali": 199,
+      "chapter": 30,
+      "pada_start": 181,
+      "pada_end": 184,
+      "status": "present",
+      "checked_opening": "ཞེན་པར་གྱུར་པའི་མི་ནང་ན",
+      "checked_ending": "ཀྱེ་མའོ་ཤིན་ཏུ་བདེ་བར་འཚོ",
+      "catalogue_candidates": [
+        "30.44"
+      ],
+      "note": "The Tibetan speaks of living unattached among the attached; the Pāli contrasts the untroubled with the troubled."
     },
     {
       "pali": 200,
@@ -1302,6 +1393,19 @@
       "catalogue_candidates": [
         "5.5"
       ]
+    },
+    {
+      "pali": 211,
+      "chapter": 5,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "གང་ལ་སྡུག་དང་སྡུག་མིན་མེད",
+      "checked_ending": "སྡུག་པར་བྱེད་པ་མི་བྱའོ",
+      "catalogue_candidates": [
+        "5.7"
+      ],
+      "note": "The Tibetan states the absence of ties first and the advice not to hold things dear second."
     },
     {
       "pali": 212,
@@ -1515,6 +1619,19 @@
       "note": "Tibetan describes one who has left good and evil and practices the holy life, with a different list of qualities."
     },
     {
+      "pali": 262,
+      "chapter": 29,
+      "pada_start": 33,
+      "pada_end": 36,
+      "status": "present",
+      "checked_opening": "གཡོ་སྒྱུ་འཇུངས་དང་ལྡན་པའི་མི",
+      "checked_ending": "ཕོ་མཆོག་ཡིན་པར་མི་ཆུད་དོ",
+      "catalogue_candidates": [
+        "11.10"
+      ],
+      "note": "The Tibetan names the deceitful, guileful, and stingy person first, then says that colour, form, or mere speech does not make someone excellent. Rockhill’s index prints 11.10; the stanza is in the Tibetan chapter on pairs, as in Sanskrit Udānavarga 29.10."
+    },
+    {
       "pali": 264,
       "chapter": 11,
       "pada_start": 49,
@@ -1705,6 +1822,19 @@
       "catalogue_candidates": [
         "1.39"
       ]
+    },
+    {
+      "pali": 289,
+      "chapter": 6,
+      "pada_start": 57,
+      "pada_end": 60,
+      "status": "present",
+      "checked_opening": "དེ་ལྟར་རྟག་ཏུ་མཐོང་བ་དང་",
+      "checked_ending": "མྱུར་བ་ཁོ་ནར་རྣམ་པར་འདག",
+      "catalogue_candidates": [
+        "1.40"
+      ],
+      "note": "This stanza is in the Tibetan chapter on conduct, as in Sanskrit Udānavarga 6.15. Rockhill’s index prints 1.40, a stanza that corresponds to Pāli 288."
     },
     {
       "pali": 306,
@@ -2053,6 +2183,19 @@
       "note": "Tibetan preserves the thirty-six streams image and connects their flow with the stream of mind."
     },
     {
+      "pali": 341,
+      "chapter": 3,
+      "pada_start": 17,
+      "pada_end": 22,
+      "status": "partial",
+      "checked_opening": "མི་དག་དྲན་པར་བྱེད་དང་ཆགས་བྱེད་དང་",
+      "checked_ending": "སྐྱེ་དང་རྒ་བར་ཉེ་བར་འགྲོ་འགྱུར་ཞིང་",
+      "catalogue_candidates": [
+        "3.14"
+      ],
+      "note": "The first two and last two lines correspond to Pāli 341: recollections, attachments, and pleasures, and those who seek happiness approaching birth and old age. The middle lines carry the monkey simile also displayed at Pāli 334."
+    },
+    {
       "pali": 342,
       "chapter": 3,
       "pada_start": 23,
@@ -2196,6 +2339,19 @@
       "catalogue_candidates": [
         "32.9"
       ]
+    },
+    {
+      "pali": 365,
+      "chapter": 13,
+      "pada_start": 29,
+      "pada_end": 32,
+      "status": "present",
+      "checked_opening": "རང་གི་རྙེད་པ་བླང་བྱ་ཞིང་",
+      "checked_ending": "ཏིང་འཛིན་ཐོབ་པར་མི་འགྱུར་རོ",
+      "catalogue_candidates": [
+        "32.1"
+      ],
+      "note": "This stanza is in the Tibetan chapter on honour, as in Sanskrit Udānavarga 13.8. Rockhill’s index prints 32.1."
     },
     {
       "pali": 366,

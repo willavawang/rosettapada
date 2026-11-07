@@ -199,7 +199,13 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
             if status == "partial":
                 reference += " · partial correspondence; see Notes"
                 label += ", partial correspondence"
-            if all(line is None for line in lines):
+            catalogued = [r for r in (record or {}).get("catalogue_references", []) if not r["tentative"]]
+            if all(line is None for line in lines) and catalogued:
+                # A published index attests a parallel whose native text is not yet identified; a dash would deny it.
+                listed = ", ".join(f'{r["chapter"]}.{r["verse"]}' for r in catalogued)
+                content = (f'<p class="unlocated catalogued" lang="en">Listed in the 1883 index, Udānavarga {e(listed)}'
+                           '<span>Derge text not yet identified</span></p>')
+            elif all(line is None for line in lines):
                 content = '<p class="unlocated" lang="en"><span aria-hidden="true">—</span><span class="sr-only">' + e(reference or "Not yet verified") + '</span></p>' if profile == "historical" else '<p class="unverified" lang="en">Not yet verified.<span>Source and reading pending.</span></p>'
             else:
                 rendered_lines = []

@@ -2,17 +2,17 @@
   "checked": "2026-11-04",
   "pali_records": 423,
   "native_reviewed": 423,
-  "readings_checked": 327,
-  "padas_checked": 1384,
+  "readings_checked": 339,
+  "padas_checked": 1434,
   "native_lines_in_cited_span": true,
   "all_lines_in_source_order": true,
   "verbatim_raw_excerpts_match_source_line_spans": true,
   "full_source_sha256_verified": "437362220fde32d7c4e4311b4aa0885a5ab76612fe5efc0d9afd62605b763041",
   "full_source_git_blob_verified": "d9abab24ddfc32ccd5dc65973cfbbef1dd6bd959",
   "reader_status_counts": {
-    "present": 291,
-    "partial": 36,
-    "not-located": 96
+    "present": 298,
+    "partial": 41,
+    "not-located": 84
   },
   "display_preparation": [
     "Removed physical folio/line markers and physical newlines, joining source words split across folio lines.",

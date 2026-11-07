@@ -190,7 +190,7 @@
       "ga": 4,
       "sa": 12,
       "zh": 13,
-      "bo": 12
+      "bo": 13
     },
     "represented": 6,
     "six_populated": 4,
@@ -212,7 +212,7 @@
       "ga": 2,
       "sa": 17,
       "zh": 16,
-      "bo": 12
+      "bo": 15
     },
     "represented": 6,
     "six_populated": 1,
@@ -234,7 +234,7 @@
       "ga": 6,
       "sa": 10,
       "zh": 11,
-      "bo": 8
+      "bo": 9
     },
     "represented": 6,
     "six_populated": 3,
@@ -300,7 +300,7 @@
       "ga": 2,
       "sa": 15,
       "zh": 16,
-      "bo": 13
+      "bo": 14
     },
     "represented": 6,
     "six_populated": 1,
@@ -322,10 +322,10 @@
       "ga": 9,
       "sa": 10,
       "zh": 12,
-      "bo": 9
+      "bo": 10
     },
     "represented": 6,
-    "six_populated": 7,
+    "six_populated": 8,
     "six_present": 4,
     "tier": 2
   },
@@ -344,7 +344,7 @@
       "ga": 2,
       "sa": 10,
       "zh": 11,
-      "bo": 7
+      "bo": 8
     },
     "represented": 6,
     "six_populated": 1,
@@ -410,10 +410,10 @@
       "ga": 10,
       "sa": 10,
       "zh": 17,
-      "bo": 5
+      "bo": 6
     },
     "represented": 6,
-    "six_populated": 2,
+    "six_populated": 3,
     "six_present": 0,
     "tier": 2
   },
@@ -432,7 +432,7 @@
       "ga": 11,
       "sa": 16,
       "zh": 16,
-      "bo": 13
+      "bo": 14
     },
     "represented": 6,
     "six_populated": 10,
@@ -520,7 +520,7 @@
       "ga": 7,
       "sa": 21,
       "zh": 25,
-      "bo": 16
+      "bo": 17
     },
     "represented": 6,
     "six_populated": 6,
@@ -542,11 +542,11 @@
       "ga": 17,
       "sa": 17,
       "zh": 23,
-      "bo": 17
+      "bo": 18
     },
     "represented": 6,
-    "six_populated": 10,
-    "six_present": 5,
+    "six_populated": 11,
+    "six_present": 6,
     "tier": 2
   },
   {

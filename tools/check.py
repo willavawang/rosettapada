@@ -214,6 +214,9 @@ for chapter in coverage:
 indic_source = json.loads((ROOT / "data/witnesses/sources/indic/selected-source-passages.json").read_text())
 indic_passages = {(entry["tradition"], entry["pali"]): entry["readings"] for entry in indic_source["verses"]}
 patna_corrections = {entry["pali"]: entry for entry in indic_source["primary_corrections"]}
+indic_corrections = json.loads((ROOT / "data/witnesses/sources/indic/corrections.json").read_text())
+line_corrections = {(c["tradition"], c["pali"], c["reference"]): c for c in indic_corrections.get("line_corrections", [])}
+corrected_count = 0
 for filename in ["patna.json", "gandhari.json", "sanskrit.json"]:
     witness = json.loads((ROOT / "data/witnesses" / filename).read_text())
     for record in witness["verses"]:
@@ -226,7 +229,22 @@ for filename in ["patna.json", "gandhari.json", "sanskrit.json"]:
                 assert source["lines"] == correction["comparative_lines"], "Patna correction lost its original source text."
                 assert reading["lines"] == correction["replacement_lines"] and reading["source_url"] == correction["primary_source_url"], "Patna correction differs from its separately checked primary edition."
             else:
-                assert reading["lines"] == source["lines"] and reading["annotations"] == source["annotations"], "Indic reading differs from its retained source passage."
+                expected_lines = list(source["lines"])
+                expected_annotations = json.loads(json.dumps(source["annotations"]))
+                fix = line_corrections.get((witness["tradition"], record["pali"], reading["reference"]))
+                if fix:
+                    # Only the recorded characters may differ from the comparative page.
+                    assert expected_lines[fix["line"]].count(fix["source_form"]) == 1, "Line correction no longer matches its source."
+                    expected_lines[fix["line"]] = expected_lines[fix["line"]].replace(fix["source_form"], fix["corrected_form"])
+                    for annotation in expected_annotations:
+                        if annotation["line"] == fix["line"]:
+                            annotation["text"] = annotation["text"].replace(fix["source_form"], fix["corrected_form"])
+                    assert fix["native_evidence"]["url"] and fix["independent_evidence"]["url"], "A line correction needs two cited editions."
+                    assert fix["display_note"] in reading.get("note", ""), "A corrected reading must say so in Notes."
+                    corrected_count += 1
+                assert reading["lines"] == expected_lines and reading["annotations"] == expected_annotations, "Indic reading differs from its retained source passage."
+
+assert corrected_count == len(line_corrections), "Every recorded line correction must apply to exactly one reading."
 
 ns = {"t": "http://www.tei-c.org/ns/1.0"}
 chinese_sources = {}

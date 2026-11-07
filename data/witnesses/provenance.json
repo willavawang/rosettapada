@@ -17,11 +17,11 @@
     },
     {
       "path": "data/witnesses/patna.json",
-      "sha256": "f696ed8aab0fb79dd781930ad938b17882a98ab5617efda46620faef64532d18"
+      "sha256": "39d36d5854a662eb43aa1f1ba620a20f75cc4c9740af00271487f4ebf141c41d"
     },
     {
       "path": "data/witnesses/sanskrit.json",
-      "sha256": "8d91cd5b0a335a5df42b967c7fbf943b89d483cafdd60a7dbc363464a0560442"
+      "sha256": "a16760acba90451fc54288fb9a50d0d1dc53730dff654b6e6981b22a1a6aad56"
     },
     {
       "path": "data/witnesses/sources/chinese/CBETA-NOTICE.txt",
@@ -57,11 +57,11 @@
     },
     {
       "path": "data/witnesses/sources/indic/README.md",
-      "sha256": "ea39c9969ae0411be9dfeb01cbc83543e1534ff9b320d21cbca3cf6e56bd9433"
+      "sha256": "d3466001f09e2dff665fbe63cd9de60e39c4ffe0b06f0406be2ee17f333add5a"
     },
     {
       "path": "data/witnesses/sources/indic/corrections.json",
-      "sha256": "8956802d17b69fa7cdf6874074cb0540c3b4b2cfa18b795f229038e2e151d9ef"
+      "sha256": "938606229e099a421472841c32401064748f2a6e8ddf0b53b348e95792855bda"
     },
     {
       "path": "data/witnesses/sources/indic/native-patna-check.json",
@@ -77,11 +77,11 @@
     },
     {
       "path": "data/witnesses/sources/tibetan/README.md",
-      "sha256": "3fde69ced4a49266f41b0bf0391a93f8bdaded358b39e677aaee4f55200fa9d0"
+      "sha256": "47ce6d9a5b7e1741f3f602ed49264f2c710777750273c7bccc99dd0a8980b1c0"
     },
     {
       "path": "data/witnesses/sources/tibetan/correspondence-audit.json",
-      "sha256": "18a87877d7c8b8fcba76a229e8536f44b85f9faa48965e7be29ad824eb1df248"
+      "sha256": "d89dfde51e9d6d0711ec2cec2078c2e64ca81c90f5682bbe08ee90efdaca9ef2"
     },
     {
       "path": "data/witnesses/sources/tibetan/esukhia-README.md",
@@ -101,19 +101,20 @@
     },
     {
       "path": "data/witnesses/sources/tibetan/selected-derge-excerpts.json",
-      "sha256": "3a27ba06d137db2f2c3b48aad602bf3b5fdc8e95d5c54d778c3e7a911e98fe3e"
+      "sha256": "2489ba58b70efb75b9e915105421b5dcf3a26b6f995895aea5e3b857b0f0c620"
     },
     {
       "path": "data/witnesses/sources/tibetan/tier2-selection-map.json",
-      "sha256": "d934395b0a3dfb701e373219500cfaf7f045aa22c4aafd6e8cf80e78d57c00cd"
+      "sha256": "b2681343d0dc6f11905ee194dd3c4de33a70c11e472d5b2a049dfd5a40f1276c"
     },
     {
       "path": "data/witnesses/sources/tibetan/verification.json",
-      "sha256": "935c6901b2735a1db440704234eaffc995ae073d2e81729a8708d22b8e583ddb"
+      "sha256": "c286e305ce0cdfeab825edd5fcfff3a440a9db5e6b79dd906ba1909048bd38d8"
     },
     {
       "path": "data/witnesses/tibetan.json",
-      "sha256": "2a5f40984973b9a56f0b2c1a90c7e69b6736c4ddac18b3b261ea20db2ff32f1d"
+      "sha256": "783683f31b6b87232cd852915d179ebed3c3fddd28125e9e39e09616c5d13ab3"
     }
-  ]
+  ],
+  "revised": "2026-11-07: restored 42 Indic line openings dropped by the comparative edition (see sources/indic/corrections.json) and added 12 identified Derge Tibetan selections."
 }

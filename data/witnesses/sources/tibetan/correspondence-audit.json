@@ -42,7 +42,7 @@
     "positions": 423,
     "published_attested": 305,
     "attested_lower_bound": 333,
-    "native_checked": 327,
+    "native_checked": 339,
     "native_reviewed": 423,
     "tentative_references": 1
   },
@@ -215,11 +215,11 @@
       "attested_lower_bound": 13,
       "same_title_chapter": 28,
       "same_title_chapter_lower_bound": 8,
-      "native_checked": 12,
+      "native_checked": 13,
       "native_reviewed": 13,
       "native_present": 12,
-      "native_partial": 0,
-      "native_not_located": 1,
+      "native_partial": 1,
+      "native_not_located": 0,
       "tentative_reference": 0,
       "unresolved_positions": [],
       "coverage_lower_bound": 1.0
@@ -232,11 +232,11 @@
       "attested_lower_bound": 15,
       "same_title_chapter": null,
       "same_title_chapter_lower_bound": 0,
-      "native_checked": 12,
+      "native_checked": 15,
       "native_reviewed": 17,
-      "native_present": 11,
-      "native_partial": 1,
-      "native_not_located": 5,
+      "native_present": 13,
+      "native_partial": 2,
+      "native_not_located": 2,
       "tentative_reference": 0,
       "unresolved_positions": [
         129,
@@ -252,11 +252,11 @@
       "attested_lower_bound": 9,
       "same_title_chapter": null,
       "same_title_chapter_lower_bound": 0,
-      "native_checked": 8,
+      "native_checked": 9,
       "native_reviewed": 11,
       "native_present": 3,
-      "native_partial": 5,
-      "native_not_located": 3,
+      "native_partial": 6,
+      "native_not_located": 2,
       "tentative_reference": 0,
       "unresolved_positions": [
         147,
@@ -310,11 +310,11 @@
       "attested_lower_bound": 14,
       "same_title_chapter": null,
       "same_title_chapter_lower_bound": 0,
-      "native_checked": 13,
+      "native_checked": 14,
       "native_reviewed": 18,
       "native_present": 12,
-      "native_partial": 1,
-      "native_not_located": 5,
+      "native_partial": 2,
+      "native_not_located": 4,
       "tentative_reference": 0,
       "unresolved_positions": [
         181,
@@ -332,11 +332,11 @@
       "attested_lower_bound": 10,
       "same_title_chapter": 30,
       "same_title_chapter_lower_bound": 6,
-      "native_checked": 9,
+      "native_checked": 10,
       "native_reviewed": 12,
-      "native_present": 9,
+      "native_present": 10,
       "native_partial": 0,
-      "native_not_located": 3,
+      "native_not_located": 2,
       "tentative_reference": 0,
       "unresolved_positions": [
         202,
@@ -352,11 +352,11 @@
       "attested_lower_bound": 8,
       "same_title_chapter": 5,
       "same_title_chapter_lower_bound": 6,
-      "native_checked": 7,
+      "native_checked": 8,
       "native_reviewed": 12,
-      "native_present": 7,
+      "native_present": 8,
       "native_partial": 0,
-      "native_not_located": 5,
+      "native_not_located": 4,
       "tentative_reference": 0,
       "unresolved_positions": [
         209,
@@ -421,11 +421,11 @@
       "attested_lower_bound": 6,
       "same_title_chapter": null,
       "same_title_chapter_lower_bound": 0,
-      "native_checked": 5,
+      "native_checked": 6,
       "native_reviewed": 17,
-      "native_present": 4,
+      "native_present": 5,
       "native_partial": 1,
-      "native_not_located": 12,
+      "native_not_located": 11,
       "tentative_reference": 0,
       "unresolved_positions": [
         256,
@@ -450,11 +450,11 @@
       "attested_lower_bound": 14,
       "same_title_chapter": 12,
       "same_title_chapter_lower_bound": 6,
-      "native_checked": 13,
+      "native_checked": 14,
       "native_reviewed": 17,
-      "native_present": 12,
+      "native_present": 13,
       "native_partial": 1,
-      "native_not_located": 4,
+      "native_not_located": 3,
       "tentative_reference": 0,
       "unresolved_positions": [
         275,
@@ -530,11 +530,11 @@
       "attested_lower_bound": 19,
       "same_title_chapter": 3,
       "same_title_chapter_lower_bound": 8,
-      "native_checked": 16,
+      "native_checked": 17,
       "native_reviewed": 26,
       "native_present": 13,
-      "native_partial": 3,
-      "native_not_located": 10,
+      "native_partial": 4,
+      "native_not_located": 9,
       "tentative_reference": 0,
       "unresolved_positions": [
         343,
@@ -554,12 +554,12 @@
       "published_attested": 15,
       "attested_lower_bound": 16,
       "same_title_chapter": 32,
-      "same_title_chapter_lower_bound": 11,
-      "native_checked": 17,
+      "same_title_chapter_lower_bound": 10,
+      "native_checked": 18,
       "native_reviewed": 23,
-      "native_present": 11,
+      "native_present": 12,
       "native_partial": 6,
-      "native_not_located": 6,
+      "native_not_located": 5,
       "tentative_reference": 0,
       "unresolved_positions": [
         360,
@@ -5084,18 +5084,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "partial",
+      "native_references": [
+        {
+          "chapter": 1,
+          "reference": "Toh 326 · Derge 72, 209b.7",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3335-L3335",
+          "source_line_start": 3335,
+          "source_line_end": 3335,
+          "folio_start": "209b.7",
+          "folio_end": "209b.7",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": 28,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 1.24. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "partial-published-parallel",
+      "note": "The Tibetan names hell for evil deeds, good destinies for merit, and nirvāṇa for the taintless who cultivate the path. It lacks the Pāli opening clause about rebirth in a womb."
     },
     {
       "pali": 127,
@@ -5326,18 +5337,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "present",
+      "native_references": [
+        {
+          "chapter": 26,
+          "reference": "Toh 326 · Derge 72, 232b.4–232b.5",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3700-L3701",
+          "source_line_start": 3700,
+          "source_line_end": 3701,
+          "folio_start": "232b.4",
+          "folio_end": "232b.5",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": null,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 16.3. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "historical-counterpart",
+      "note": "Rockhill’s index prints 16.3; the matching stanza is the third of the Tibetan chapter on nirvāṇa, as in Sanskrit Udānavarga 26.3."
     },
     {
       "pali": 134,
@@ -5354,18 +5376,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "present",
+      "native_references": [
+        {
+          "chapter": 26,
+          "reference": "Toh 326 · Derge 72, 232b.5–232b.6",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3701-L3702",
+          "source_line_start": 3701,
+          "source_line_end": 3702,
+          "folio_start": "232b.5",
+          "folio_end": "232b.6",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": null,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 16.5. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "historical-counterpart",
+      "note": "The Tibetan image is a bronze vessel left unstruck; the Pāli has a broken gong. Both describe someone who does not answer back. Rockhill’s index prints 16.5; the stanza is in the Tibetan chapter on nirvāṇa, as in Sanskrit Udānavarga 26.5."
     },
     {
       "pali": 135,
@@ -5694,18 +5727,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "partial",
+      "native_references": [
+        {
+          "chapter": 19,
+          "reference": "Toh 326 · Derge 72, 226a.2–226a.3",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3594-L3595",
+          "source_line_start": 3594,
+          "source_line_end": 3595,
+          "folio_start": "226a.2",
+          "folio_end": "226a.3",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": null,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 19.3. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "partial-published-parallel",
+      "note": "The Tibetan keeps the good horse, the whip, and the person who relies on a sense of shame, but its second half says such a person removes evil. The Pāli asks whether anyone in the world wards off blame."
     },
     {
       "pali": 144,
@@ -5916,18 +5960,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "partial",
+      "native_references": [
+        {
+          "chapter": 16,
+          "reference": "Toh 326 · Derge 72, 224a.1–224a.2",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3561-L3562",
+          "source_line_start": 3561,
+          "source_line_end": 3562,
+          "folio_start": "224a.1",
+          "folio_end": "224a.2",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": null,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 16.22. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "partial-published-parallel",
+      "note": "The Tibetan city of bones, plastered with flesh and blood, holds passion, hatred, pride, and concealment. The Pāli city holds old age, death, pride, and contempt."
     },
     {
       "pali": 151,
@@ -7367,7 +7422,7 @@
       "same_title_parallel": false,
       "evidence_level": "native-checked",
       "semantic_grade": "partial-published-parallel",
-      "note": "The Tibetan stanza combines the refuge and four-truths verses, with the eightfold path in the same stanza. The shared stanza is displayed once, at 190."
+      "note": "The Tibetan stanza combines the refuge and four-truths verses, with the eightfold path in the same stanza. Its middle four lines are also displayed at Pāli 191."
     },
     {
       "pali": 191,
@@ -7384,18 +7439,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "partial",
+      "native_references": [
+        {
+          "chapter": 27,
+          "reference": "Toh 326 · Derge 72, 235b.6–235b.7",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3750-L3751",
+          "source_line_start": 3750,
+          "source_line_end": 3751,
+          "folio_start": "235b.6",
+          "folio_end": "235b.7",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": null,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "The four truths and eightfold path occur within the grouped Tibetan stanza displayed at Pāli 190. There is no separate Tibetan stanza selected for 191."
+      "evidence_level": "native-checked",
+      "semantic_grade": "partial-published-parallel",
+      "note": "These four lines are the middle of the grouped Tibetan stanza displayed in full at Pāli 190: suffering, its origin, its transcendence, and the noble eightfold path."
     },
     {
       "pali": 192,
@@ -7645,18 +7711,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "present",
+      "native_references": [
+        {
+          "chapter": 30,
+          "reference": "Toh 326 · Derge 72, 242b.2",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3858-L3858",
+          "source_line_start": 3858,
+          "source_line_end": 3858,
+          "folio_start": "242b.2",
+          "folio_end": "242b.2",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": 30,
       "same_title_parallel": true,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 30.44. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "historical-counterpart",
+      "note": "The Tibetan speaks of living unattached among the attached; the Pāli contrasts the untroubled with the troubled."
     },
     {
       "pali": 200,
@@ -8042,18 +8119,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "present",
+      "native_references": [
+        {
+          "chapter": 5,
+          "reference": "Toh 326 · Derge 72, 214b.1–214b.2",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3409-L3410",
+          "source_line_start": 3409,
+          "source_line_end": 3410,
+          "folio_start": "214b.1",
+          "folio_end": "214b.2",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": 5,
       "same_title_parallel": true,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 5.7. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "historical-counterpart",
+      "note": "The Tibetan states the absence of ties first and the advice not to hold things dear second."
     },
     {
       "pali": 212,
@@ -9595,18 +9683,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "present",
+      "native_references": [
+        {
+          "chapter": 29,
+          "reference": "Toh 326 · Derge 72, 238a.5–238a.6",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3789-L3790",
+          "source_line_start": 3789,
+          "source_line_end": 3790,
+          "folio_start": "238a.5",
+          "folio_end": "238a.6",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": null,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 11.10. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "historical-counterpart",
+      "note": "The Tibetan names the deceitful, guileful, and stingy person first, then says that colour, form, or mere speech does not make someone excellent. Rockhill’s index prints 11.10; the stanza is in the Tibetan chapter on pairs, as in Sanskrit Udānavarga 29.10."
     },
     {
       "pali": 263,
@@ -10428,18 +10527,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "present",
+      "native_references": [
+        {
+          "chapter": 6,
+          "reference": "Toh 326 · Derge 72, 215b.7–216a.1",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3431-L3433",
+          "source_line_start": 3431,
+          "source_line_end": 3433,
+          "folio_start": "215b.7",
+          "folio_end": "216a.1",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": 12,
       "same_title_parallel": false,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 1.40. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "historical-counterpart",
+      "note": "This stanza is in the Tibetan chapter on conduct, as in Sanskrit Udānavarga 6.15. Rockhill’s index prints 1.40, a stanza that corresponds to Pāli 288."
     },
     {
       "pali": 290,
@@ -12252,7 +12362,7 @@
       "same_title_parallel": true,
       "evidence_level": "published-reference",
       "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 3.17. This remains a catalogue reference without a displayed Derge selection."
+      "note": "Rockhill’s 1883 Tibetan–Pāli index lists Udānavarga 3.17 here. The corresponding Derge stanza has not yet been identified in the native text."
     },
     {
       "pali": 341,
@@ -12269,18 +12379,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "partial",
+      "native_references": [
+        {
+          "chapter": 3,
+          "reference": "Toh 326 · Derge 72, 211b.7–212a.1",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3367-L3369",
+          "source_line_start": 3367,
+          "source_line_end": 3369,
+          "folio_start": "211b.7",
+          "folio_end": "212a.1",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": 3,
       "same_title_parallel": true,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 3.14. This remains a catalogue reference without a displayed Derge selection."
+      "evidence_level": "native-checked",
+      "semantic_grade": "partial-published-parallel",
+      "note": "The first two and last two lines correspond to Pāli 341: recollections, attachments, and pleasures, and those who seek happiness approaching birth and old age. The middle lines carry the monkey simile also displayed at Pāli 334."
     },
     {
       "pali": 342,
@@ -12483,7 +12604,7 @@
       "same_title_parallel": false,
       "evidence_level": "published-reference",
       "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 1.13. This remains a catalogue reference without a displayed Derge selection."
+      "note": "Rockhill’s 1883 Tibetan–Pāli index lists Udānavarga 1.13 here. The corresponding Derge stanza has not yet been identified in the native text."
     },
     {
       "pali": 348,
@@ -12983,18 +13104,29 @@
         }
       ],
       "published_parallel": true,
-      "native_checked": false,
+      "native_checked": true,
       "native_reviewed": true,
-      "direct_native_status": "not-located",
-      "native_references": [],
+      "direct_native_status": "present",
+      "native_references": [
+        {
+          "chapter": 13,
+          "reference": "Toh 326 · Derge 72, 220b.5–220b.6",
+          "source_url": "https://github.com/Esukhia/derge-kangyur/blob/a582cf471b7c85a101035071078032f106a8e536/text/072_%E0%BD%98%E0%BD%91%E0%BD%BC%E0%BC%8B%E0%BD%A6%E0%BE%A1%E0%BD%BA%E0%BC%8D_%E0%BD%A6.txt#L3509-L3510",
+          "source_line_start": 3509,
+          "source_line_end": 3510,
+          "folio_start": "220b.5",
+          "folio_end": "220b.6",
+          "rockhill_reference": null
+        }
+      ],
       "attested_parallel": true,
       "related_only": false,
       "tentative_reference": false,
       "same_title_chapter": 32,
-      "same_title_parallel": true,
-      "evidence_level": "published-reference",
-      "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 32.1. This remains a catalogue reference without a displayed Derge selection."
+      "same_title_parallel": false,
+      "evidence_level": "native-checked",
+      "semantic_grade": "historical-counterpart",
+      "note": "This stanza is in the Tibetan chapter on honour, as in Sanskrit Udānavarga 13.8. Rockhill’s index prints 32.1."
     },
     {
       "pali": 366,
@@ -14036,7 +14168,7 @@
       "same_title_parallel": false,
       "evidence_level": "tentative-reference",
       "semantic_grade": "not-assessed",
-      "note": "No native Tibetan passage selected after the consulted comparison. Rockhill indexes 33.62?. This remains a catalogue reference without a displayed Derge selection.",
+      "note": "Rockhill’s 1883 Tibetan–Pāli index lists Udānavarga 33.62? here. The corresponding Derge stanza has not yet been identified in the native text.",
       "concordance_warning": "Rockhill prints a question mark at33.62; excluded from the secure lower bound."
     },
     {
