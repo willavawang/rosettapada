@@ -146,7 +146,7 @@ for index, chapter in enumerate(chapters):
     assert page.adjacent_pages == [previous, following], "Chapter arrows must follow Pāli order."
     assert page.chapter_links == [link for link in (previous, following) if link], "Chapter links are missing."
     # Columns are arranged on the sheet itself; the header's "?" opens the short guide.
-    assert {"open-help", "reading-help", "english-source"} <= page.ids and not {"previous-verse", "next-verse", "open-settings", "zoom-in"} & page.ids
+    assert {"open-help", "reading-help", "face-switch"} <= page.ids and not {"previous-verse", "next-verse", "open-settings", "zoom-in"} & page.ids
 assert pages["index.html"].verses == list(range(1, 21)), "The homepage must open the complete first chapter."
 assert (ROOT / "pairs.html").read_bytes() == (ROOT / "index.html").read_bytes(), "The existing Pairs URL must remain available."
 
@@ -195,7 +195,7 @@ for chapter in chapters:
     payload = json.loads(re.search(r'<script type="application/json" id="english-editions">(.*?)</script>', rendered).group(1))
     expected = {
         language: {number: lines for number, lines in readings.items() if chapter["start"] <= int(number) <= chapter["end"]}
-        for language, readings in alternates.items()
+        for language, readings in {"pi": {number: entry["lines"] for number, entry in english.items()}, **alternates}.items()
     }
     assert payload == {language: lines for language, lines in expected.items() if lines}, "Wrong alternate English for chapter."
 

@@ -13,19 +13,13 @@
   const help = document.getElementById('reading-help');
   const helpButton = document.getElementById('open-help');
   const settingsAnnouncement = document.getElementById('settings-announcement');
-  const englishSelect = document.getElementById('english-source');
-  const englishStatus = document.getElementById('english-source-status');
-  const englishEditions = englishSelect ? JSON.parse(document.getElementById('english-editions').textContent) : {};
+  const faceSwitch = document.getElementById('face-switch');
+  const englishEditions = faceSwitch ? JSON.parse(document.getElementById('english-editions').textContent) : {};
   const columnHeads = Array.from(headings.children);
   const defaultOrder = columnHeads.map(column => column.dataset.language);
   const columnByKey = new Map(columnHeads.map(column => [column.dataset.language, column]));
   const groups = [headings, ...document.querySelectorAll('.verse-grid')];
   const groupColumns = groups.map(group => new Map(Array.from(group.children).map(column => [column.dataset.language, column])));
-  const englishPoems = englishSelect ? verses.map(verse => {
-    const column = verse.querySelector('.lang-en');
-    const poem = column.querySelector('.poem');
-    return {column, poem, pali: Array.from(poem.childNodes), label: column.querySelector('h3'), number: verse.dataset.verse};
-  }) : [];
   const minZoom = .1;
   const maxZoom = 3;
   const isChapter = sheet.dataset.profile !== 'sample';
@@ -49,8 +43,24 @@
   let languageOrder = defaultOrder.slice();
   let hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
   let columnDrag = null;
-  let englishPreference = 'pi';
-  let displayedEnglish = 'pi';
+  // Each historical column has two faces: its own text and its English. The English column itself never flips.
+  const historicalKeys = ['pi', 'pd', 'ga', 'sa', 'zh', 'bo'];
+  const faceStorageKey = 'rosettapada-face-v1';
+  let face = 'orig';
+  try { if (faceSwitch && localStorage.getItem(faceStorageKey) === 'en') face = 'en'; } catch { /* Original is the default. */ }
+  const faceCells = faceSwitch ? verses.flatMap(verse => Array.from(verse.querySelectorAll('.witness'))
+    .filter(column => historicalKeys.includes(column.dataset.language) && column.querySelector('.poem'))
+    .map(column => {
+      const poem = column.querySelector('.poem');
+      const lines = englishEditions[column.dataset.language]?.[verse.dataset.verse];
+      const label = column.querySelector('h3');
+      return {column, poem, label, original: Array.from(poem.childNodes), originalLabel: label?.textContent, english: lines ? lines.map(text => {
+        const line = document.createElement('span');
+        line.className = 'poem-line';
+        line.textContent = text;
+        return line;
+      }) : null};
+    })) : [];
 
   // Elements that live in the heading row but outside its grid: the drop marker and the shelf of hidden columns.
   const dropMarker = document.createElement('div');
@@ -66,12 +76,11 @@
     const saved = JSON.parse(localStorage.getItem(languageStorageKey));
     if (saved && Array.isArray(saved.order)) languageOrder = Array.from(new Set([...saved.order.filter(key => defaultOrder.includes(key)), ...defaultOrder]));
     if (saved && Array.isArray(saved.hidden)) hiddenLanguages = new Set(saved.hidden.filter(key => defaultOrder.includes(key)));
-    if (englishSelect && Array.from(englishSelect.options).some(option => option.value === saved?.english)) englishPreference = saved.english;
     if (hiddenLanguages.size === defaultOrder.length) hiddenLanguages.delete('en');
   } catch { /* Defaults work when storage is unavailable or its contents are invalid. */ }
 
   function saveLanguages() {
-    try { localStorage.setItem(languageStorageKey, JSON.stringify({order: languageOrder, hidden: Array.from(hiddenLanguages), english: englishPreference})); }
+    try { localStorage.setItem(languageStorageKey, JSON.stringify({order: languageOrder, hidden: Array.from(hiddenLanguages)})); }
     catch { /* Settings still apply for this visit. */ }
   }
   function orderChildren(parent, elements) {
@@ -80,52 +89,35 @@
       if (parent.children[index] !== element) parent.insertBefore(element, parent.children[index] || null);
     });
   }
-  // Browsers size a select to its longest option; fit it to the chosen label so the chevron follows the text.
-  // A hidden span in the same label measures with exactly the font the page renders.
-  function fitEnglishSelect() {
-    const style = getComputedStyle(englishSelect);
-    let probe = englishSelect.parentElement.querySelector('.english-source-measure');
-    if (!probe) {
-      probe = document.createElement('span');
-      probe.className = 'english-source-measure';
-      probe.setAttribute('aria-hidden', 'true');
-      Object.assign(probe.style, {position: 'absolute', visibility: 'hidden', whiteSpace: 'pre', left: '0', top: '0'});
-      englishSelect.parentElement.append(probe);
-    }
-    probe.style.font = style.font;
-    probe.style.letterSpacing = style.letterSpacing;
-    probe.textContent = englishSelect.selectedOptions[0]?.textContent || '';
-    englishSelect.style.width = `${Math.ceil(probe.offsetWidth + parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + 2)}px`;
-  }
-  function applyEnglish() {
-    if (!englishSelect) return;
-    const preferred = Array.from(englishSelect.options).find(option => option.value === englishPreference);
-    const available = preferred && !preferred.disabled;
-    const source = available ? englishPreference : 'pi';
-    const name = preferred?.dataset.label || 'Pāli';
-    // Show the source actually on the sheet; a saved preference returns where a translation exists.
-    englishSelect.value = source;
-    englishStatus.textContent = !available
-      ? `Using Pāli here. ${name} will return where available.`
-      : source !== 'pi' ? 'A dash marks a verse this tradition does not have.' : '';
-    englishSelect.title = available ? 'Choose the English translation source' : `${name} has no translation in this chapter; showing the Pāli-based English`;
-    fitEnglishSelect();
-    if (source === displayedEnglish) return;
-    displayedEnglish = source;
-    englishPoems.forEach(({column, poem, pali, label, number}) => {
-      const lines = englishEditions[source]?.[number];
-      const missing = source !== 'pi' && !lines;
-      column.dataset.readingStatus = missing ? 'unverified' : 'present';
-      label.textContent = source === 'pi' ? `English, verse ${number}` : `English from ${name}, verse ${number}${missing ? ', no parallel' : ''}`;
-      if (source === 'pi') poem.replaceChildren(...pali);
-      else if (missing) poem.textContent = '—';
-      else poem.replaceChildren(...lines.map(text => {
-        const line = document.createElement('span');
-        line.className = 'poem-line';
-        line.textContent = text;
-        return line;
-      }));
+  // Paint each historical column in its current face; columns showing English widen for English line lengths.
+  function paintFace() {
+    if (!faceSwitch) return;
+    faceCells.forEach(cell => {
+      const english = face === 'en' && cell.english;
+      cell.poem.replaceChildren(...(english ? cell.english : cell.original));
+      cell.column.classList.toggle('face-en', Boolean(english));
+      if (cell.label) cell.label.textContent = english ? `${cell.originalLabel}, in English` : cell.originalLabel;
     });
+    historicalKeys.forEach(key => {
+      const head = columnByKey.get(key);
+      if (!head) return;
+      head.dataset.baseWidth ??= head.dataset.width;
+      head.dataset.width = face === 'en' ? `max(${head.dataset.baseWidth}, 420px)` : head.dataset.baseWidth;
+      head.classList.toggle('face-en', face === 'en');
+    });
+    faceSwitch.querySelectorAll('[data-face]').forEach(button => button.setAttribute('aria-checked', String(button.dataset.face === face)));
+  }
+  function setFace(next) {
+    if (!faceSwitch || next === face) return;
+    const oldTop = verses[active].getBoundingClientRect().top;
+    face = next;
+    try { localStorage.setItem(faceStorageKey, face); } catch { /* The choice still applies for this visit. */ }
+    paintFace();
+    applyLanguages(false);
+    viewport.scrollTop += verses[active].getBoundingClientRect().top - oldTop;
+    if (fitMode) fitSheet();
+    scheduleNavigation();
+    settingsAnnouncement.textContent = face === 'en' ? 'Historical texts shown in English' : 'Historical texts shown in their own languages';
   }
   function renderShelf() {
     const hidden = languageOrder.filter(key => hiddenLanguages.has(key));
@@ -157,7 +149,6 @@
       button.title = button.disabled ? 'Keep at least one column visible' : 'Hide this column';
     });
     renderShelf();
-    applyEnglish();
     updateTail();
     if (preservePosition) {
       viewport.scrollTop += verses[active].getBoundingClientRect().top - oldTop;
@@ -184,7 +175,7 @@
 
   // Column headings are the drag handles. A mouse drags immediately; a touch must press and hold first,
   // so ordinary swiping on the heading row still scrolls the sheet.
-  const isControl = target => target.closest('select, button, label.english-source');
+  const isControl = target => target.closest('select, button');
   function visibleHeads() { return languageOrder.filter(key => !hiddenLanguages.has(key)).map(key => columnByKey.get(key)); }
   function dropTarget(clientX) {
     const heads = visibleHeads().filter(head => head.dataset.language !== columnDrag.key);
@@ -307,16 +298,15 @@
       columnByKey.get(show.dataset.language).focus({preventScroll: true});
     }
   });
-  englishSelect?.addEventListener('change', () => {
-    englishPreference = englishSelect.value;
-    hiddenLanguages.delete('en');
-    applyLanguages();
+  faceSwitch?.addEventListener('click', event => {
+    const button = event.target.closest('[data-face]');
+    if (button) setFace(button.dataset.face);
   });
   document.getElementById('restore-languages').addEventListener('click', () => {
     languageOrder = defaultOrder.slice();
     hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
-    englishPreference = 'pi';
     applyLanguages();
+    setFace('orig');
     settingsAnnouncement.textContent = 'Default layout restored';
     help.close();
   });
@@ -504,6 +494,7 @@
     else if (event.key === '-') { event.preventDefault(); setZoom(zoom / 1.18); }
     else if (event.key === '0') { event.preventDefault(); setZoom(1); }
     else if (event.key === 'f' || event.key === 'F') { event.preventDefault(); fitSheet(); }
+    else if ((event.key === 'e' || event.key === 'E') && faceSwitch) { event.preventDefault(); setFace(face === 'en' ? 'orig' : 'en'); }
     else if (event.key === ']') { event.preventDefault(); goTo(active + 1); }
     else if (event.key === '[') { event.preventDefault(); goTo(active - 1); }
   });
@@ -536,6 +527,7 @@
   document.querySelectorAll('a[href="contents.html"], a[href="notes.html"]').forEach(link => link.addEventListener('click', savePosition));
   const saved = readPosition();
   const initialHash = hashIndex();
+  paintFace();
   applyLanguages(false);
   // Wait through the browser's initial anchor positioning before restoring the sheet.
   const restoreReadingPosition = () => requestAnimationFrame(() => requestAnimationFrame(() => {

@@ -21,7 +21,6 @@ READING_NUMBERS = [number for chapter in CHAPTERS for number in range(chapter["s
 ENGLISH_EDITION = json.loads((ROOT / "data/english/pi.json").read_text(encoding="utf-8"))
 ENGLISH = ENGLISH_EDITION["verses"]
 ALTERNATE_ENGLISH = json.loads((ROOT / "data/english/alternates.json").read_text(encoding="utf-8"))
-ENGLISH_LANGUAGES = {"pi": "Pāli", "pd": "Patna", "ga": "Gāndhārī", "sa": "Sanskrit", "zh": "Classical Chinese", "bo": "Tibetan"}
 WITNESS_FILES = {"pd": "patna.json", "ga": "gandhari.json", "sa": "sanskrit.json", "zh": "chinese.json", "bo": "tibetan.json"}
 WITNESSES = {key: json.loads((ROOT / "data/witnesses" / filename).read_text(encoding="utf-8")) for key, filename in WITNESS_FILES.items()}
 WITNESS_INDEX = {key: {verse["pali"]: verse for verse in data["verses"]} for key, data in WITNESSES.items()}
@@ -140,27 +139,16 @@ def english_editions(verses):
     }
 
 
-def english_source_select(verses):
-    """The English column's reference doubles as its source menu."""
-    drafts = english_editions(verses)
-    options = []
-    for key, label in ENGLISH_LANGUAGES.items():
-        count = len(drafts.get(key, {}))
-        text = ENGLISH_EDITION["label"] if key == "pi" else f"Rosettapada · {label} translation"
-        disabled = ""
-        if key != "pi" and not count:
-            text, disabled = text + " · not in this chapter", " disabled"
-        elif key != "pi" and count < len(verses):
-            text += f" · {count}/{len(verses)}"
-        options.append(f'<option value="{key}" data-label="{label}"{disabled}>{e(text)}</option>')
-    return ('<label class="english-source"><span class="sr-only">English translation source</span>'
-            '<select id="english-source" aria-describedby="english-source-status">' + "".join(options) + '</select>'
-            '<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></label>'
-            '<span id="english-source-status" class="sr-only" aria-live="polite"></span>')
+BLEND_REFERENCE = "Rosettapada Blend · from the Pāli for now"
+FACE_SWITCH = ('<div id="face-switch" class="face-switch" role="radiogroup" aria-label="Show the historical texts in">'
+               '<button type="button" role="radio" data-face="orig" aria-checked="true">Original</button>'
+               '<button type="button" role="radio" data-face="en" aria-checked="false">English</button></div>')
 
 
 def english_payload(verses):
-    payload = json.dumps({key: rows for key, rows in english_editions(verses).items() if rows}, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+    """English for each historical column's English face; the Pāli column uses the Pāli-based translation."""
+    editions = {"pi": {str(verse["no"]): ENGLISH[str(verse["no"])]["lines"] for verse in verses}, **english_editions(verses)}
+    payload = json.dumps({key: rows for key, rows in editions.items() if rows}, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
     return f'<script type="application/json" id="english-editions">{payload}</script>'
 
 
@@ -177,8 +165,8 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
     for source in sources:
         key = source["key"]
         hidden = " hidden" if key == "zh-pinyin" else ""
-        reference = (english_source_select(verses) if key == "en" and profile == "historical"
-                     else f'<span class="column-reference" aria-hidden="true">{e(source["reference"])}</span>')
+        reference_text = BLEND_REFERENCE if key == "en" and profile == "historical" else source["reference"]
+        reference = f'<span class="column-reference" aria-hidden="true">{e(reference_text)}</span>'
         # The heading block is the drag handle for reordering its column (arrow keys when focused).
         headings.append(
             f'<div class="column-heading" data-language="{key}" data-label="{e(source["language"])}" data-width="{WIDTHS[key]}" tabindex="0" '
@@ -232,7 +220,8 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
            DESCRIPTION=e(f'Rosettapada — {title}. English and six historical textual traditions on one continuous reading sheet.' if profile == "historical" else 'Rosettapada — a two-verse comparative Dhammapada reading study.'),
            COLUMN_HEADINGS="\n".join(headings), VERSES="\n".join(verse_html),
            CHAPTER_NAVIGATION=chapter_navigation(previous, next_page),
-           ENGLISH_EDITIONS=english_payload(verses) if profile == "historical" else "")
+           ENGLISH_EDITIONS=english_payload(verses) if profile == "historical" else "",
+           FACE_SWITCH=FACE_SWITCH if profile == "historical" else "")
 
 
 sample_verses = [{"no": verse["no"], "lines": {

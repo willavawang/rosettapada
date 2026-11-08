@@ -4,7 +4,7 @@
 
 The reader covers 26 chapters and 423 Pāli positions. The initial six-chapter pilot and the earlier Mind page supplied the first 99 positions. The same Pāli edition and all 99 prior historical witness records are retained. Contents links directly to each chapter in Pāli order, opens at the reader’s current magnification, and offers “Back to” the chapter last read. Chapter links sit after the last verse.
 
-The English column uses Rosettapada’s Pāli-based editorial translation, informed by Sujato’s pinned reference and historical parallels. The reference line beneath the English column heading is a quiet drop-down menu for choosing the English source. Alternate translations follow the selected witness where available. The original sample retains its English.
+The English column is reserved for the Rosettapada Blend, a single English drawn from all six traditions; until that work begins it shows the Pāli-based editorial translation, informed by Sujato’s pinned reference and historical parallels. An Original | English switch in the header (default Original, remembered across chapters, E toggles) flips every historical column to the English of its own reading; the English column itself never flips. The earlier English-source menu is retired. The original sample retains its English.
 
 Chapter coverage is based on the displayed readings. A tier describes the usefulness of the available comparison. A row with present status in all six can still differ in wording or sense. Tibetan catalogue attestations and directly checked Derge text remain distinct.
 
