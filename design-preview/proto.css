@@ -1,0 +1,19 @@
+/* Prototype styling: English faces, interlinear glosses, controls */
+.face-en .poem, .face-en.lang-zh .poem, .sheet[data-profile="historical"] .face-en.lang-bo .poem {
+  font-family: Georgia, 'Noto Serif', serif; font-size: 22px; line-height: 42px; letter-spacing: 0; color: #35432f; }
+.gloss { display: block; margin: -8px 0 8px; font: italic 16px/26px Georgia, serif; letter-spacing: 0; color: #5b6157; }
+.gloss-block { display: block; margin-top: 10px; }
+.face-tag { margin-left: 8px; font: italic 14px/1 Georgia, serif; color: var(--accent); }
+.face-tag:empty { display: none; }
+.face-switch { display: inline-flex; padding: 3px; border: 1px solid #c5c9bd; border-radius: 999px; gap: 2px; margin-right: 6px; }
+.face-switch button { border: 0; background: none; border-radius: 999px; padding: 5px 13px; font: 14px/1.2 system-ui, sans-serif; color: var(--muted); }
+.face-switch button[aria-checked="true"] { background: var(--ink); color: var(--paper); }
+.face-switch button:not([aria-checked="true"]):hover { background: var(--hover); color: var(--ink); }
+.face-toggle { display: inline-flex; align-items: center; gap: 0; margin-top: 8px; padding: 2px; border: 1px solid #cfd3c4; border-radius: 999px; background: transparent; font: 11px/1 system-ui, sans-serif; letter-spacing: .04em; }
+.face-toggle span { padding: 4px 8px; border-radius: 999px; color: var(--muted); }
+.face-toggle[aria-pressed="false"] .face-orig, .face-toggle[aria-pressed="true"] .face-en-label { background: var(--ink); color: var(--paper); }
+.face-toggle:hover { border-color: var(--accent); }
+.verse-lens { position: absolute; left: calc(-1 * var(--padding) + 22px); top: 8px; width: 30px; height: 30px; padding: 0; border: 1px solid #c5c9bd; border-radius: 50%; background: var(--paper); font: 10px/1 system-ui, sans-serif; letter-spacing: .04em; color: var(--muted); opacity: .45; transition: opacity .12s ease; }
+.verse:hover .verse-lens, .verse-lens:focus-visible, .verse-lens[aria-pressed="true"] { opacity: 1; }
+.verse-lens[aria-pressed="true"] { background: var(--ink); color: var(--paper); border-color: var(--ink); }
+body.peeking::after { content: 'English · release E to return'; position: fixed; left: 50%; bottom: 24px; transform: translateX(-50%); z-index: 9; padding: 7px 14px; border-radius: 999px; background: #2b302ae6; color: var(--paper); font: 13px/1.4 system-ui, sans-serif; }
