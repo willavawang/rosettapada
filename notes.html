@@ -5,10 +5,10 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#f8f7f2">
   <title>Reading notes · Rosettapada</title>
-  <link rel="stylesheet" href="styles.css?v=0411143eaa">
+  <link rel="stylesheet" href="styles.css?v=a6a1ed2ad9">
 </head>
 <body class="document-page">
-  <header class="masthead"><a class="wordmark" href="index.html">Rosettapada</a><nav class="top-nav" aria-label="Main navigation"><a href="index.html">Read</a><a href="contents.html">Contents</a></nav></header>
+  <header class="masthead"><a class="wordmark" href="index.html">Rosettapada</a><nav class="top-nav" aria-label="Main navigation"><a class="back-link" id="back-link" href="index.html"><span aria-hidden="true">‹</span>Back</a><a href="contents.html">Contents</a></nav></header>
   <main class="document-wrap notes-wrap">
     <h1>Reading notes</h1>
     <section><h2>What you are reading</h2><p>The reader follows all 26 chapters of the Pāli Dhammapada, covering 423 verse positions. Alongside the Pāli are selected Patna, Gāndhārī, Sanskrit, Chinese, and Tibetan parallels. The collections have their own order and wording.</p><p>The default Rosettapada English is an editorial draft based on the Mahāsaṅgīti Pāli. The rendering draws on the historical parallels and Bhikkhu Sujato’s <a href="https://suttacentral.net/dhp1-20/en/sujato">Sayings of the Dhamma</a> as a reference. Where the witnesses diverge, the English generally follows Pāli and the notes record significant alternatives. The Pāli and Sujato reference edition are retained from the pinned <a href="https://github.com/suttacentral/bilara-data/tree/6a395ceb6f28549111d7d96859f7f6f6610afc01">CC0 SuttaCentral snapshot</a>. The earlier <a href="sample.html">two-verse sample</a> remains available as an archival draft.</p></section>
@@ -157,5 +157,19 @@
     <section><h2>Inherited source references</h2><p>These links are preserved from the earlier prototype. The chapter pages now use the source selections documented above; the earlier sample's transcriptions remain unchanged.</p><ul class="source-list"><li><a href="https://ancient-buddhist-texts.net/Buddhist-Texts/C3-Comparative-Dhammapada/CD-01-Yamaka.htm">Comparative Dhammapada, chapter 1 ↗</a></li><li><a href="https://cbetaonline.dila.edu.tw/T0210">CBETA Chinese T210 ↗</a></li><li><a href="https://nanda.online-dhamma.net/tipitaka/sutta/khuddaka/dhammapada/dhp-correspondence-tables/dhp-correspondence-tables-pali-chap01/">Pāli–Chinese correspondence table ↗</a></li></ul></section>
     <nav class="document-actions" aria-label="Related pages"><a href="index.html">← Back to the sheet</a><a href="contents.html">Contents ↗</a></nav>
   </main>
+  <script>
+    // Return to the chapter last read, at the magnification it was read at.
+    (() => {
+      try {
+        const last = JSON.parse(localStorage.getItem('rosettapada-last-reading'));
+        const link = document.getElementById('back-link');
+        if (last && /^[a-z0-9-]+\.html$/.test(last.page)) {
+          link.href = last.page;
+          link.lastChild.textContent = last.title ? `Back to ${last.title}` : 'Back';
+        }
+        if (last && Number.isFinite(last.zoom)) document.querySelector('.document-wrap').style.zoom = String(Math.min(1.3, Math.max(.6, last.zoom)));
+      } catch { /* The link still returns to the first chapter. */ }
+    })();
+  </script>
 </body>
 </html>

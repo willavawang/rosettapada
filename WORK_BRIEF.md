@@ -2,9 +2,9 @@
 
 ## Current phase: complete Pāli sequence and tiered parallels
 
-The reader covers 26 chapters and 423 Pāli positions. The initial six-chapter pilot and the earlier Mind page supplied the first 99 positions. The same Pāli edition and all 99 prior historical witness records are retained. Contents links directly to each chapter in Pāli order. Chapter links sit after the last verse.
+The reader covers 26 chapters and 423 Pāli positions. The initial six-chapter pilot and the earlier Mind page supplied the first 99 positions. The same Pāli edition and all 99 prior historical witness records are retained. Contents links directly to each chapter in Pāli order, opens at the reader’s current magnification, and offers “Back to” the chapter last read. Chapter links sit after the last verse.
 
-The English column uses Rosettapada’s Pāli-based editorial draft, informed by Sujato’s pinned reference and historical parallels. The reference line beneath the English column heading is a quiet drop-down menu for choosing the English source. The header globe opens Reading settings for columns and the separate notes. Alternate drafts follow the selected witness where available. The original sample retains its English.
+The English column uses Rosettapada’s Pāli-based editorial draft, informed by Sujato’s pinned reference and historical parallels. The reference line beneath the English column heading is a quiet drop-down menu for choosing the English source. Alternate drafts follow the selected witness where available. The original sample retains its English.
 
 Chapter coverage is based on the displayed readings. A tier describes the usefulness of the available comparison. A row with present status in all six can still differ in wording or sense. Tibetan catalogue attestations and directly checked Derge text remain distinct.
 
@@ -20,8 +20,8 @@ The user will review Rosettapada exclusively on GitHub Pages at https://willavaw
 4. Previous and next section links sit after the last verse. They retain horizontal reading position and use addressable verse anchors. Remove visible verse labels and editorial titles; leave a compact stanza gap.
 5. Contents links directly to all chapter pages in Pāli order with an up-right arrow. Coverage tiers are recorded in the companion workbook.
 6. Keep the reading view quiet. Remove contextual taglines and introductory eyebrows. The wordmark is Rosettapada with no period. Put source explanations and uncertainty in Notes. A dash means no counterpart located in the consulted sources; it is not proof of absence. Only the preserved earlier sample keeps its unverified Tibetan placeholder.
-7. The globe in the header opens a centered reading settings dialog. The bottom bar carries magnification controls, including a diagonal expand symbol to fit visible columns. Keep useful magnification feedback. Hide scrollbars everywhere without disabling native scrolling.
-8. Language checkboxes show/hide columns without empty gaps. The entire language row except its checkbox supports dragging to reorder both headings and poems; quiet handles also support keyboard reordering. Persist choices across all available chapter pages. Modern Mandarin pinyin covers every displayed Chinese counterpart and is hidden by default; it is an editorial reading aid, not another historical tradition.
+7. The header “?” opens a short, visual “How to read” card: one sentence on the site, then moving, zoom, the English menu, columns, and verse/chapter navigation, with Restore default layout and Notes. There is no bottom bar: pinch or + − 0 zoom, F fits the visible columns, and a brief percentage indicator gives magnification feedback. Hide scrollbars everywhere without disabling native scrolling.
+8. Column headings are the drag handles: hovering highlights the heading block with side grips; dragging left or right reorders headings and poems together (touch: press and hold first; keyboard: focus a heading and use ← →). A × on the heading hides a column without leaving a gap; hidden columns return from “+” pills at the end of the heading row. Choices persist across chapter pages. Modern Mandarin pinyin covers every displayed Chinese counterpart and is hidden by default; it is an editorial reading aid, not another historical tradition.
 
 ## Review before broader milestones
 

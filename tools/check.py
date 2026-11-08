@@ -145,7 +145,8 @@ for index, chapter in enumerate(chapters):
     page = pages[chapter["page"]]
     assert page.adjacent_pages == [previous, following], "Chapter arrows must follow Pāli order."
     assert page.chapter_links == [link for link in (previous, following) if link], "Chapter links are missing."
-    assert {"open-settings", "english-source"} <= page.ids and not {"previous-verse", "next-verse", "open-help"} & page.ids
+    # Columns are arranged on the sheet itself; the header's "?" opens the short guide.
+    assert {"open-help", "reading-help", "english-source"} <= page.ids and not {"previous-verse", "next-verse", "open-settings", "zoom-in"} & page.ids
 assert pages["index.html"].verses == list(range(1, 21)), "The homepage must open the complete first chapter."
 assert (ROOT / "pairs.html").read_bytes() == (ROOT / "index.html").read_bytes(), "The existing Pairs URL must remain available."
 

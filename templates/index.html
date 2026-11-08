@@ -15,7 +15,7 @@
     <a class="wordmark" href="index.html" aria-label="Rosettapada, reading sheet">Rosettapada</a>
     <nav class="top-nav" aria-label="Main navigation">
       <a href="contents.html">Contents</a>
-      <button id="open-settings" class="settings-button" type="button" aria-label="Reading settings" title="Reading settings" aria-controls="reading-settings" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="8.5"/><ellipse cx="12" cy="12" rx="3.8" ry="8.5"/><path d="M3.5 12h17"/></svg></button>
+      <button id="open-help" class="help-button" type="button" aria-label="How to read" title="How to read" aria-controls="reading-help" aria-haspopup="dialog" aria-expanded="false"><span aria-hidden="true">?</span></button>
     </nav>
   </header>
 
@@ -32,27 +32,26 @@
     </div>
   </main>
 
-  <footer class="reading-controls">
-    <span id="location" class="sr-only" aria-live="polite" aria-atomic="true">{{INITIAL_LOCATION}}</span>
-    <div class="zoom-controls" role="group" aria-label="Sheet magnification">
-      <button id="zoom-out" type="button" aria-label="Zoom out" title="Zoom out (−)">−</button>
-      <button id="reset-zoom" type="button" aria-label="Reset magnification to 100 percent" title="Return to reading size (0)"><output id="zoom-label">100%</output></button>
-      <button id="zoom-in" type="button" aria-label="Zoom in" title="Zoom in (+)">+</button>
-      <button id="fit-sheet" class="fit-button" type="button" aria-label="Fit visible columns to the window" aria-pressed="false" title="Fit visible columns"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9 4H4v5M4 4l6 6M15 20h5v-5M20 20l-6-6"/></svg></button>
-    </div>
-  </footer>
+  <span id="location" class="sr-only" aria-live="polite" aria-atomic="true">{{INITIAL_LOCATION}}</span>
+  <div id="zoom-toast" class="zoom-toast" aria-hidden="true"></div>
   <div class="sr-only" id="zoom-announcement" role="status"></div>
 {{ENGLISH_EDITIONS}}
 
-  <dialog id="reading-settings" aria-labelledby="settings-title">
-    <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-settings" type="button" aria-label="Close reading settings">×</button></div>
-    <h2 id="settings-title">Reading settings</h2>
-    <h3>Columns</h3>
-    <ol id="language-options" class="language-options" aria-label="Language visibility and order">{{LANGUAGE_SETTINGS}}</ol>
-    <span class="sr-only" id="reorder-help">Drag anywhere on the language row except its checkbox to reorder. With the handle focused, use the up and down arrow keys.</span>
-    <span class="sr-only" id="settings-announcement" role="status" aria-live="polite"></span>
-    <footer class="settings-footer"><button id="restore-languages" type="button">Restore defaults</button><a href="notes.html">Notes and sources</a></footer>
+  <dialog id="reading-help" aria-labelledby="help-title">
+    <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-help" type="button" aria-label="Close">×</button></div>
+    <h2 id="help-title">How to read</h2>
+    <p class="help-lede">The Dhammapada in Pāli, set verse by verse beside its surviving parallels in Patna Prakrit, Gāndhārī, Sanskrit, Chinese and Tibetan, with English alongside.</p>
+    <ul class="help-list">
+      <li><span class="help-visual" aria-hidden="true"><svg class="help-arrows" viewBox="0 0 32 32"><path d="M16 4v24M4 16h24M12 8l4-4 4 4M12 24l4 4 4-4M8 12l-4 4 4 4M24 12l4 4-4 4"/></svg></span><p><strong>Move</strong>Scroll down for the next verse, across for the other traditions.</p></li>
+      <li><span class="help-visual" aria-hidden="true"><kbd>+</kbd><kbd>−</kbd><kbd>F</kbd></span><p><strong>Zoom</strong>Pinch, or press + and −. 0 returns to reading size; F fits every column.</p></li>
+      <li><span class="help-visual" aria-hidden="true"><span class="help-menu">Patna draft <svg viewBox="0 0 10 6"><path d="M1 1l4 4 4-4"/></svg></span></span><p><strong>English</strong>The menu under “English” chooses which tradition it translates.</p></li>
+      <li><span class="help-visual" aria-hidden="true"><span class="help-heading"><i></i>Chinese<i></i></span></span><p><strong>Columns</strong>Drag a heading left or right. × hides a column; + at the end of the row brings it back.</p></li>
+      <li><span class="help-visual" aria-hidden="true"><kbd>[</kbd><kbd>]</kbd></span><p><strong>Verses</strong>Step verse by verse. Links to the next chapter follow the last verse.</p></li>
+    </ul>
+    <footer class="help-footer"><button id="restore-languages" type="button">Restore default layout</button><a href="notes.html">Notes and sources</a></footer>
   </dialog>
+  <span class="sr-only" id="column-help">Each column heading can be dragged left or right, or moved with the arrow keys when focused.</span>
+  <span class="sr-only" id="settings-announcement" role="status" aria-live="polite"></span>
 </body>
 </html>
 

@@ -8,11 +8,10 @@
   const verses = Array.from(sheet.querySelectorAll('.verse'));
   const chapterNavigation = sheet.querySelector('.chapter-navigation');
   const label = document.getElementById('location');
-  const zoomLabel = document.getElementById('zoom-label');
   const announcement = document.getElementById('zoom-announcement');
-  const settings = document.getElementById('reading-settings');
-  const settingsButton = document.getElementById('open-settings');
-  const options = document.getElementById('language-options');
+  const zoomToast = document.getElementById('zoom-toast');
+  const help = document.getElementById('reading-help');
+  const helpButton = document.getElementById('open-help');
   const settingsAnnouncement = document.getElementById('settings-announcement');
   const englishSelect = document.getElementById('english-source');
   const englishStatus = document.getElementById('english-source-status');
@@ -20,7 +19,6 @@
   const columnHeads = Array.from(headings.children);
   const defaultOrder = columnHeads.map(column => column.dataset.language);
   const columnByKey = new Map(columnHeads.map(column => [column.dataset.language, column]));
-  const rowsByKey = new Map(Array.from(options.children).map(row => [row.dataset.language, row]));
   const groups = [headings, ...document.querySelectorAll('.verse-grid')];
   const groupColumns = groups.map(group => new Map(Array.from(group.children).map(column => [column.dataset.language, column])));
   const englishPoems = englishSelect ? verses.map(verse => {
@@ -36,6 +34,7 @@
   const previousPage = sheet.dataset.previousPage;
   const nextPage = sheet.dataset.nextPage;
   const clamp = (n, min, max) => Math.min(max, Math.max(min, n));
+  const nameOf = key => columnByKey.get(key).dataset.label;
   let zoom = 1;
   let active = 0;
   let spaceHeld = false;
@@ -45,12 +44,23 @@
   let frame = 0;
   let saveTimer;
   let announcementTimer;
+  let toastTimer;
   let fitMode = false;
   let languageOrder = defaultOrder.slice();
   let hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
-  let languageDrag = null;
+  let columnDrag = null;
   let englishPreference = 'pi';
   let displayedEnglish = 'pi';
+
+  // Elements that live in the heading row but outside its grid: the drop marker and the shelf of hidden columns.
+  const dropMarker = document.createElement('div');
+  dropMarker.className = 'column-drop-marker';
+  dropMarker.hidden = true;
+  const shelf = document.createElement('div');
+  shelf.className = 'column-shelf';
+  shelf.setAttribute('role', 'group');
+  shelf.setAttribute('aria-label', 'Hidden columns');
+  headings.append(dropMarker, shelf);
 
   try {
     const saved = JSON.parse(localStorage.getItem(languageStorageKey));
@@ -70,7 +80,7 @@
       if (parent.children[index] !== element) parent.insertBefore(element, parent.children[index] || null);
     });
   }
-  // Browsers size a select to its longest option; fit it to the chosen label so the menu hugs its text.
+  // Browsers size a select to its longest option; fit it to the chosen label so the chevron follows the text.
   // A hidden span in the same label measures with exactly the font the page renders.
   function fitEnglishSelect() {
     const style = getComputedStyle(englishSelect);
@@ -85,7 +95,7 @@
     probe.style.font = style.font;
     probe.style.letterSpacing = style.letterSpacing;
     probe.textContent = englishSelect.selectedOptions[0]?.textContent || '';
-    englishSelect.style.width = `${Math.ceil(probe.offsetWidth +parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + 2)}px`;
+    englishSelect.style.width = `${Math.ceil(probe.offsetWidth + parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + 2)}px`;
   }
   function applyEnglish() {
     if (!englishSelect) return;
@@ -117,6 +127,21 @@
       }));
     });
   }
+  function renderShelf() {
+    const hidden = languageOrder.filter(key => hiddenLanguages.has(key));
+    shelf.replaceChildren(...hidden.map(key => {
+      const button = document.createElement('button');
+      button.type = 'button';
+      button.className = 'column-show';
+      button.dataset.language = key;
+      button.title = `Show ${nameOf(key)}`;
+      button.setAttribute('aria-label', `Show ${nameOf(key)}`);
+      button.innerHTML = '<span aria-hidden="true">+</span>';
+      button.append(nameOf(key));
+      return button;
+    }));
+    shelf.hidden = !hidden.length;
+  }
   function applyLanguages(preservePosition = true) {
     const oldTop = verses[active].getBoundingClientRect().top;
     const oldLeft = viewport.scrollLeft;
@@ -126,13 +151,12 @@
       groupColumns[index].forEach((element, key) => { element.hidden = hiddenLanguages.has(key); });
       orderChildren(group, groupColumns[index]);
     });
-    orderChildren(options, rowsByKey);
-    rowsByKey.forEach((row, key) => {
-      const checkbox = row.querySelector('input');
-      checkbox.checked = !hiddenLanguages.has(key);
-      checkbox.disabled = visible.length === 1 && checkbox.checked;
-      checkbox.title = checkbox.disabled ? 'Keep at least one column visible' : '';
+    columnByKey.forEach((head, key) => {
+      const button = head.querySelector('.column-hide');
+      button.disabled = visible.length === 1 && !hiddenLanguages.has(key);
+      button.title = button.disabled ? 'Keep at least one column visible' : 'Hide this column';
     });
+    renderShelf();
     applyEnglish();
     updateTail();
     if (preservePosition) {
@@ -144,79 +168,145 @@
     }
   }
   function moveLanguage(key, delta) {
+    // Step past hidden columns so each key press visibly moves the column; hidden ones keep their places.
     const from = languageOrder.indexOf(key);
-    const to = clamp(from + delta, 0, languageOrder.length - 1);
-    if (from < 0 || from === to) return;
+    let j = from + delta;
+    while (j >= 0 && j < languageOrder.length && hiddenLanguages.has(languageOrder[j])) j += delta;
+    if (from < 0 || j < 0 || j >= languageOrder.length) return;
+    const neighbour = languageOrder[j];
     languageOrder.splice(from, 1);
-    languageOrder.splice(to, 0, key);
+    languageOrder.splice(languageOrder.indexOf(neighbour) + (delta > 0 ? 1 : 0), 0, key);
     applyLanguages();
-    rowsByKey.get(key).querySelector('.drag-handle').focus({preventScroll: true});
-    settingsAnnouncement.textContent = `${columnByKey.get(key).querySelector('.column-name').textContent} moved to position ${to + 1}`;
+    columnByKey.get(key).focus({preventScroll: true});
+    const position = languageOrder.filter(k => !hiddenLanguages.has(k)).indexOf(key) + 1;
+    settingsAnnouncement.textContent = `${nameOf(key)} moved to position ${position}`;
   }
-  options.addEventListener('change', event => {
-    const checkbox = event.target.closest('input[data-language]');
-    if (!checkbox) return;
-    if (checkbox.checked) hiddenLanguages.delete(checkbox.dataset.language);
-    else hiddenLanguages.add(checkbox.dataset.language);
-    applyLanguages();
-  });
-  // Labels keep the checkbox's accessible name, but the rest of a row is a drag surface.
-  options.addEventListener('click', event => {
-    if (event.target.closest('.language-option') && !event.target.closest('input[type="checkbox"]')) event.preventDefault();
-  });
-  options.addEventListener('keydown', event => {
-    const handle = event.target.closest('.drag-handle');
-    if (!handle || !['ArrowUp', 'ArrowDown'].includes(event.key)) return;
-    event.preventDefault();
-    moveLanguage(handle.dataset.language, event.key === 'ArrowUp' ? -1 : 1);
-  });
-  function clearLanguageDrag() {
-    const pointerId = languageDrag?.pointerId;
-    languageDrag = null;
-    options.classList.remove('is-reordering');
-    rowsByKey.forEach(row => row.classList.remove('is-dragging', 'drop-before', 'drop-after'));
-    if (pointerId !== undefined && options.hasPointerCapture(pointerId)) options.releasePointerCapture(pointerId);
+
+  // Column headings are the drag handles. A mouse drags immediately; a touch must press and hold first,
+  // so ordinary swiping on the heading row still scrolls the sheet.
+  const isControl = target => target.closest('select, button, label.english-source');
+  function visibleHeads() { return languageOrder.filter(key => !hiddenLanguages.has(key)).map(key => columnByKey.get(key)); }
+  function dropTarget(clientX) {
+    const heads = visibleHeads().filter(head => head.dataset.language !== columnDrag.key);
+    const before = heads.find(head => { const rect = head.getBoundingClientRect(); return clientX < rect.left + rect.width / 2; });
+    return before || null;
   }
-  options.addEventListener('pointerdown', event => {
-    const row = event.target.closest('.language-option');
-    if (!row || event.target.closest('input[type="checkbox"]') || event.button !== 0) return;
-    event.preventDefault();
-    row.querySelector('.drag-handle').focus({preventScroll: true});
-    languageDrag = {key: row.dataset.language, pointerId: event.pointerId, x: event.clientX, y: event.clientY, started: false, before: null};
-    options.setPointerCapture(event.pointerId);
-  });
-  options.addEventListener('pointermove', event => {
-    if (!languageDrag || languageDrag.pointerId !== event.pointerId) return;
-    if (!languageDrag.started && Math.hypot(event.clientX - languageDrag.x, event.clientY - languageDrag.y) < 4) return;
-    languageDrag.started = true;
-    options.classList.add('is-reordering');
-    rowsByKey.get(languageDrag.key).classList.add('is-dragging');
-    rowsByKey.forEach(row => row.classList.remove('drop-before', 'drop-after'));
-    const before = Array.from(options.children).find(row => {
-      if (row.dataset.language === languageDrag.key) return false;
-      const rect = row.getBoundingClientRect();
-      return event.clientY < rect.top + rect.height / 2;
-    });
-    languageDrag.before = before?.dataset.language || null;
-    if (before) before.classList.add('drop-before');
-    else options.lastElementChild.classList.add('drop-after');
-  });
-  options.addEventListener('pointerup', event => {
-    if (!languageDrag || languageDrag.pointerId !== event.pointerId) return;
-    const drag = languageDrag;
-    const rect = options.getBoundingClientRect();
-    const inside = event.clientX >= rect.left - 24 && event.clientX <= rect.right + 24 && event.clientY >= rect.top - 24 && event.clientY <= rect.bottom + 24;
-    clearLanguageDrag();
-    if (!drag.started || !inside) return;
+  function showDropMarker(before) {
+    const heads = visibleHeads();
+    const box = headings.getBoundingClientRect();
+    const gutter = parseFloat(getComputedStyle(headings).columnGap) * zoom;
+    let x;
+    if (before) x = before.getBoundingClientRect().left - gutter / 2;
+    else x = heads.filter(head => head.dataset.language !== columnDrag.key).at(-1).getBoundingClientRect().right + gutter / 2;
+    dropMarker.style.left = `${(x - box.left) / zoom}px`;
+    dropMarker.hidden = false;
+  }
+  function startColumnDrag() {
+    columnDrag.started = true;
+    const head = columnByKey.get(columnDrag.key);
+    head.classList.add('is-lifted');
+    headings.classList.add('is-reordering');
+    window.getSelection()?.removeAllRanges();
+  }
+  function edgeScroll() {
+    if (!columnDrag?.started) return;
+    const rect = viewport.getBoundingClientRect();
+    const edge = 70;
+    const x = columnDrag.lastX;
+    const speed = x < rect.left + edge ? -(rect.left + edge - x) / 3 : x > rect.right - edge ? (x - (rect.right - edge)) / 3 : 0;
+    if (speed) {
+      viewport.scrollLeft += speed;
+      trackColumnDrag(columnDrag.lastX);
+    }
+    columnDrag.edgeFrame = requestAnimationFrame(edgeScroll);
+  }
+  function trackColumnDrag(clientX) {
+    const head = columnByKey.get(columnDrag.key);
+    const shift = (clientX - columnDrag.x + (viewport.scrollLeft - columnDrag.scrollLeft)) / zoom;
+    head.style.transform = `translateX(${shift}px)`;
+    const before = dropTarget(clientX);
+    columnDrag.before = before?.dataset.language || null;
+    showDropMarker(before);
+  }
+  function endColumnDrag(commit) {
+    if (!columnDrag) return;
+    const drag = columnDrag;
+    columnDrag = null;
+    clearTimeout(drag.holdTimer);
+    cancelAnimationFrame(drag.edgeFrame);
+    const head = columnByKey.get(drag.key);
+    head.classList.remove('is-lifted', 'is-pressed');
+    head.style.transform = '';
+    headings.classList.remove('is-reordering');
+    dropMarker.hidden = true;
+    if (headings.hasPointerCapture?.(drag.pointerId)) headings.releasePointerCapture(drag.pointerId);
+    if (!commit || !drag.started) return;
     languageOrder = languageOrder.filter(key => key !== drag.key);
     const index = drag.before === null ? languageOrder.length : languageOrder.indexOf(drag.before);
     languageOrder.splice(index, 0, drag.key);
     applyLanguages();
-    rowsByKey.get(drag.key).querySelector('.drag-handle').focus({preventScroll: true});
-    settingsAnnouncement.textContent = 'Column order updated';
+    settingsAnnouncement.textContent = `${nameOf(drag.key)} moved`;
+  }
+  headings.addEventListener('pointerdown', event => {
+    const head = event.target.closest('.column-heading');
+    if (!head || isControl(event.target) || event.button !== 0 || spaceHeld) return;
+    const touch = event.pointerType === 'touch';
+    columnDrag = {key: head.dataset.language, pointerId: event.pointerId, x: event.clientX, y: event.clientY, lastX: event.clientX,
+      scrollLeft: viewport.scrollLeft, started: false, touch, armed: !touch, before: null, holdTimer: 0, edgeFrame: 0};
+    if (touch) {
+      columnDrag.holdTimer = setTimeout(() => {
+        if (!columnDrag) return;
+        columnDrag.armed = true;
+        head.classList.add('is-pressed');
+        navigator.vibrate?.(8);
+      }, 320);
+      return;
+    }
+    event.preventDefault();
+    head.focus({preventScroll: true});
+    headings.setPointerCapture(event.pointerId);
   });
-  options.addEventListener('pointercancel', clearLanguageDrag);
-  options.addEventListener('lostpointercapture', clearLanguageDrag);
+  headings.addEventListener('pointermove', event => {
+    if (!columnDrag || columnDrag.pointerId !== event.pointerId) return;
+    const distance = Math.hypot(event.clientX - columnDrag.x, event.clientY - columnDrag.y);
+    if (!columnDrag.armed) {
+      if (distance > 8) endColumnDrag(false);
+      return;
+    }
+    columnDrag.lastX = event.clientX;
+    if (!columnDrag.started) {
+      if (distance < 4) return;
+      startColumnDrag();
+      columnDrag.edgeFrame = requestAnimationFrame(edgeScroll);
+    }
+    trackColumnDrag(event.clientX);
+  });
+  headings.addEventListener('pointerup', event => { if (columnDrag?.pointerId === event.pointerId) endColumnDrag(true); });
+  headings.addEventListener('pointercancel', () => endColumnDrag(false));
+  // Once a touch press is armed, stop the browser from turning the movement into a scroll.
+  headings.addEventListener('touchmove', event => { if (columnDrag?.armed) event.preventDefault(); }, {passive: false});
+  headings.addEventListener('contextmenu', event => { if (columnDrag?.touch) event.preventDefault(); });
+  headings.addEventListener('keydown', event => {
+    const head = event.target.closest('.column-heading');
+    if (!head || event.target !== head || !['ArrowLeft', 'ArrowRight'].includes(event.key)) return;
+    event.preventDefault();
+    moveLanguage(head.dataset.language, event.key === 'ArrowLeft' ? -1 : 1);
+  });
+  headings.addEventListener('click', event => {
+    const hide = event.target.closest('.column-hide');
+    const show = event.target.closest('.column-show');
+    if (hide && !hide.disabled) {
+      hiddenLanguages.add(hide.dataset.language);
+      applyLanguages();
+      settingsAnnouncement.textContent = `${nameOf(hide.dataset.language)} hidden`;
+      (shelf.querySelector(`[data-language="${hide.dataset.language}"]`) || viewport).focus({preventScroll: true});
+    } else if (show) {
+      hiddenLanguages.delete(show.dataset.language);
+      applyLanguages();
+      settingsAnnouncement.textContent = `${nameOf(show.dataset.language)} shown`;
+      columnByKey.get(show.dataset.language).focus({preventScroll: true});
+    }
+  });
   englishSelect?.addEventListener('change', () => {
     englishPreference = englishSelect.value;
     hiddenLanguages.delete('en');
@@ -227,21 +317,22 @@
     hiddenLanguages = new Set(defaultOrder.filter(key => key === 'zh-pinyin'));
     englishPreference = 'pi';
     applyLanguages();
-    settingsAnnouncement.textContent = 'Default reading settings restored';
+    settingsAnnouncement.textContent = 'Default layout restored';
+    help.close();
   });
-  settingsButton.addEventListener('click', () => {
+  helpButton.addEventListener('click', () => {
     releasePan();
-    settings.showModal();
-    settingsButton.setAttribute('aria-expanded', 'true');
+    help.showModal();
+    helpButton.setAttribute('aria-expanded', 'true');
   });
-  document.getElementById('close-settings').addEventListener('click', () => settings.close());
-  settings.addEventListener('close', () => {
-    settingsButton.setAttribute('aria-expanded', 'false');
-    settingsButton.focus({preventScroll: true});
+  document.getElementById('close-help').addEventListener('click', () => help.close());
+  help.addEventListener('close', () => {
+    helpButton.setAttribute('aria-expanded', 'false');
+    helpButton.focus({preventScroll: true});
   });
-  settings.addEventListener('click', event => {
-    const rect = settings.getBoundingClientRect();
-    if (event.target === settings && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) settings.close();
+  help.addEventListener('click', event => {
+    const rect = help.getBoundingClientRect();
+    if (event.target === help && (event.clientX < rect.left || event.clientX > rect.right || event.clientY < rect.top || event.clientY > rect.bottom)) help.close();
   });
 
   function readPosition() {
@@ -251,6 +342,8 @@
   function savePosition() {
     try {
       sessionStorage.setItem(storageKey, JSON.stringify({zoom, left: viewport.scrollLeft, top: viewport.scrollTop, verse: active}));
+      // Contents and Notes offer a way back to this chapter, shown at the same magnification.
+      localStorage.setItem('rosettapada-last-reading', JSON.stringify({page: `${sheet.dataset.pageKey}.html`, title: sheet.dataset.chapterTitle || 'the sample', zoom}));
     } catch { /* Reading still works when browser storage is unavailable. */ }
   }
   function scheduleSave() { clearTimeout(saveTimer); saveTimer = setTimeout(savePosition, 160); }
@@ -269,6 +362,12 @@
   function announceZoom() {
     clearTimeout(announcementTimer);
     announcementTimer = setTimeout(() => { announcement.textContent = `Sheet magnification ${Math.round(zoom * 100)} percent`; }, 180);
+  }
+  function showZoom() {
+    zoomToast.textContent = fitMode ? `Fit · ${Math.round(zoom * 100)}%` : `${Math.round(zoom * 100)}%`;
+    zoomToast.classList.add('is-visible');
+    clearTimeout(toastTimer);
+    toastTimer = setTimeout(() => zoomToast.classList.remove('is-visible'), 900);
   }
   function updateNavigation(index) {
     active = clamp(index, 0, verses.length - 1);
@@ -295,9 +394,8 @@
   function setZoom(factor, clientX, clientY, mode = 'manual') {
     if (!Number.isFinite(factor)) return;
     fitMode = mode === 'fit';
-    document.getElementById('fit-sheet').setAttribute('aria-pressed', String(fitMode));
     const target = clamp(factor, minZoom, maxZoom);
-    if (Math.abs(target - zoom) < .0001) return;
+    if (Math.abs(target - zoom) < .0001) { if (mode !== 'restore') showZoom(); return; }
     const rect = viewport.getBoundingClientRect();
     const x = clamp((clientX ?? rect.left + rect.width / 2) - rect.left, 0, viewport.clientWidth);
     const y = clamp((clientY ?? rect.top + rect.height / 2) - rect.top, 0, viewport.clientHeight);
@@ -308,9 +406,7 @@
     updateTail();
     viewport.scrollLeft = sheetX * zoom - x;
     viewport.scrollTop = sheetY * zoom - y;
-    zoomLabel.value = `${Math.round(zoom * 100)}%`;
-    document.getElementById('zoom-out').disabled = zoom <= minZoom + .0001;
-    document.getElementById('zoom-in').disabled = zoom >= maxZoom - .0001;
+    if (mode !== 'restore') showZoom();
     scheduleNavigation();
     announceZoom();
     scheduleSave();
@@ -345,11 +441,7 @@
     event.preventDefault();
     turnChapter(link.getAttribute('href'));
   });
-  document.getElementById('zoom-out').addEventListener('click', () => setZoom(zoom / 1.18));
-  document.getElementById('zoom-in').addEventListener('click', () => setZoom(zoom * 1.18));
-  document.getElementById('reset-zoom').addEventListener('click', () => setZoom(1));
   function fitSheet() { setZoom(Math.min(1, viewport.clientWidth / sheet.offsetWidth), undefined, undefined, 'fit'); }
-  document.getElementById('fit-sheet').addEventListener('click', fitSheet);
   viewport.addEventListener('scroll', scheduleNavigation, {passive: true});
 
   // Chromium reports a trackpad pinch as ctrl+wheel; ordinary wheel events stay native.
@@ -380,6 +472,7 @@
   viewport.addEventListener('touchstart', event => {
     if (event.touches.length !== 2) return;
     event.preventDefault();
+    endColumnDrag(false);
     const point = touchPoint(event.touches);
     touchGesture = {zoom, ...point};
   }, {passive: false});
@@ -401,7 +494,8 @@
   function releasePan() { spaceHeld = false; viewport.classList.remove('pannable'); stopDrag(); }
   const interactiveTarget = target => target instanceof Element && target.closest('button, a, input, textarea, select, [contenteditable="true"], dialog');
   document.addEventListener('keydown', event => {
-    if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing || settings.open || interactiveTarget(event.target)) return;
+    if (event.ctrlKey || event.metaKey || event.altKey || event.isComposing || help.open || interactiveTarget(event.target)) return;
+    if (event.key === 'Escape' && columnDrag) { endColumnDrag(false); return; }
     if (event.code === 'Space') {
       event.preventDefault();
       spaceHeld = true;
@@ -409,11 +503,12 @@
     } else if (event.key === '+' || event.key === '=') { event.preventDefault(); setZoom(zoom * 1.18); }
     else if (event.key === '-') { event.preventDefault(); setZoom(zoom / 1.18); }
     else if (event.key === '0') { event.preventDefault(); setZoom(1); }
+    else if (event.key === 'f' || event.key === 'F') { event.preventDefault(); fitSheet(); }
     else if (event.key === ']') { event.preventDefault(); goTo(active + 1); }
     else if (event.key === '[') { event.preventDefault(); goTo(active - 1); }
   });
   document.addEventListener('keyup', event => { if (event.code === 'Space') releasePan(); });
-  window.addEventListener('blur', releasePan);
+  window.addEventListener('blur', () => { releasePan(); endColumnDrag(false); });
   viewport.addEventListener('pointerdown', event => {
     if (!spaceHeld || event.button !== 0 || interactiveTarget(event.target)) return;
     event.preventDefault();
@@ -444,15 +539,15 @@
   applyLanguages(false);
   // Wait through the browser's initial anchor positioning before restoring the sheet.
   const restoreReadingPosition = () => requestAnimationFrame(() => requestAnimationFrame(() => {
-    if (Number.isFinite(saved.zoom)) setZoom(saved.zoom, 0, viewport.getBoundingClientRect().top);
+    if (Number.isFinite(saved.zoom)) setZoom(saved.zoom, 0, viewport.getBoundingClientRect().top, 'restore');
     updateTail();
     viewport.scrollLeft = Number.isFinite(saved.left) ? saved.left : 0;
     if (location.hash === `#${sheet.dataset.chapterAnchor}`) { viewport.scrollTop = 0; viewport.scrollLeft = 0; }
     else if (initialHash >= 0) goTo(initialHash, 'none');
     else if (Number.isFinite(saved.top)) viewport.scrollTop = saved.top;
     syncNavigation();
+    savePosition();
   }));
   if (document.fonts) document.fonts.ready.then(restoreReadingPosition);
   else restoreReadingPosition();
 })();
-

@@ -173,24 +173,18 @@ def chapter_navigation(previous, next_page):
 
 
 def render_reader(name, sources, verses, title, chapter_id, profile="sample", previous="", next_page="", chapter_title=""):
-    headings, settings, verse_html = [], [], []
+    headings, verse_html = [], []
     for source in sources:
         key = source["key"]
         hidden = " hidden" if key == "zh-pinyin" else ""
-        checked = "" if hidden else " checked"
         reference = (english_source_select(verses) if key == "en" and profile == "historical"
                      else f'<span class="column-reference" aria-hidden="true">{e(source["reference"])}</span>')
+        # The heading block is the drag handle for reordering its column (arrow keys when focused).
         headings.append(
-            f'<div class="column-heading" data-language="{key}" data-width="{WIDTHS[key]}"{hidden}>'
-            f'<span class="column-name" aria-hidden="true">{e(source["language"])}</span>{reference}</div>'
-        )
-        settings.append(
-            f'<li class="language-option" data-language="{key}"><label for="show-{key}">'
-            f'<input id="show-{key}" type="checkbox" data-language="{key}"{checked}>'
-            f'<span>{e(source["language"])}</span></label>'
-            f'<button class="drag-handle" type="button" data-language="{key}" '
-            f'aria-label="Reorder {e(source["language"])}" aria-describedby="reorder-help" '
-            f'title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>'
+            f'<div class="column-heading" data-language="{key}" data-label="{e(source["language"])}" data-width="{WIDTHS[key]}" tabindex="0" '
+            f'aria-label="{e(source["language"])} column. Drag, or use the left and right arrow keys, to move it." aria-describedby="column-help"{hidden}>'
+            f'<span class="column-name" aria-hidden="true">{e(source["language"])}</span>{reference}'
+            f'<button class="column-hide" type="button" data-language="{key}" aria-label="Hide {e(source["language"])}" title="Hide this column">×</button></div>'
         )
     for verse in verses:
         poems = []
@@ -236,7 +230,7 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
            PROFILE=profile, PREVIOUS_PAGE=e(previous), NEXT_PAGE=e(next_page), CHAPTER_TITLE=e(chapter_title),
            INITIAL_LOCATION=e(f'Verse {verses[0]["no"]}, {chapter_title}' if chapter_title else f'Verse 1 of {len(verses)}'),
            DESCRIPTION=e(f'Rosettapada — {title}. English and six historical textual traditions on one continuous reading sheet.' if profile == "historical" else 'Rosettapada — a two-verse comparative Dhammapada reading study.'),
-           COLUMN_HEADINGS="\n".join(headings), VERSES="\n".join(verse_html), LANGUAGE_SETTINGS="\n".join(settings),
+           COLUMN_HEADINGS="\n".join(headings), VERSES="\n".join(verse_html),
            CHAPTER_NAVIGATION=chapter_navigation(previous, next_page),
            ENGLISH_EDITIONS=english_payload(verses) if profile == "historical" else "")
 
