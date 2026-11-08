@@ -24,7 +24,7 @@
       <div class="chapter-heading" id="{{CHAPTER_ID}}">
         <h1>{{TITLE}}</h1>
       </div>
-      <div id="column-headings" class="column-headings" aria-hidden="true">
+      <div id="column-headings" class="column-headings">
         {{COLUMN_HEADINGS}}
       </div>
       <div class="verses">{{VERSES}}</div>
@@ -42,11 +42,11 @@
     </div>
   </footer>
   <div class="sr-only" id="zoom-announcement" role="status"></div>
+{{ENGLISH_EDITIONS}}
 
   <dialog id="reading-settings" aria-labelledby="settings-title">
     <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-settings" type="button" aria-label="Close reading settings">×</button></div>
     <h2 id="settings-title">Reading settings</h2>
-{{ENGLISH_SETTINGS}}
     <h3>Columns</h3>
     <ol id="language-options" class="language-options" aria-label="Language visibility and order">{{LANGUAGE_SETTINGS}}</ol>
     <span class="sr-only" id="reorder-help">Drag anywhere on the language row except its checkbox to reorder. With the handle focused, use the up and down arrow keys.</span>

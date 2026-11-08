@@ -132,27 +132,36 @@ def render(name, template=None, **values):
     (ROOT / name).write_text(text.rstrip("\n") + "\n", encoding="utf-8")
 
 
-def english_settings(verses):
+def english_editions(verses):
     numbers = {str(verse["no"]) for verse in verses}
-    drafts = {
+    return {
         key: {number: lines for number, lines in edition.items() if number in numbers}
         for key, edition in ALTERNATE_ENGLISH.items()
     }
+
+
+def english_source_select(verses):
+    """The English column's reference doubles as its source menu."""
+    drafts = english_editions(verses)
     options = []
     for key, label in ENGLISH_LANGUAGES.items():
         count = len(drafts.get(key, {}))
-        if key == "pi":
-            availability, disabled = "", ""
-        elif count:
-            availability, disabled = f" · {count}/{len(verses)}", ""
-        else:
-            availability, disabled = " · unavailable here", " disabled"
-        options.append(f'<option value="{key}" data-label="{label}"{disabled}>{label}{availability}</option>')
-    payload = json.dumps({key: rows for key, rows in drafts.items() if rows}, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
-    return ('<div class="english-settings"><label for="english-source">English source</label>'
+        text = ENGLISH_EDITION["label"] if key == "pi" else f"Rosettapada · {label} draft"
+        disabled = ""
+        if key != "pi" and not count:
+            text, disabled = text + " · not in this chapter", " disabled"
+        elif key != "pi" and count < len(verses):
+            text += f" · {count}/{len(verses)}"
+        options.append(f'<option value="{key}" data-label="{label}"{disabled}>{e(text)}</option>')
+    return ('<label class="english-source"><span class="sr-only">English translation source</span>'
             '<select id="english-source" aria-describedby="english-source-status">' + "".join(options) + '</select>'
-            '<p id="english-source-status" aria-live="polite"></p></div>'
-            f'<script type="application/json" id="english-editions">{payload}</script>')
+            '<svg viewBox="0 0 10 6" aria-hidden="true"><path d="M1 1l4 4 4-4"/></svg></label>'
+            '<span id="english-source-status" class="sr-only" aria-live="polite"></span>')
+
+
+def english_payload(verses):
+    payload = json.dumps({key: rows for key, rows in english_editions(verses).items() if rows}, ensure_ascii=False, separators=(",", ":")).replace("<", "\\u003c")
+    return f'<script type="application/json" id="english-editions">{payload}</script>'
 
 
 def chapter_navigation(previous, next_page):
@@ -169,9 +178,11 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
         key = source["key"]
         hidden = " hidden" if key == "zh-pinyin" else ""
         checked = "" if hidden else " checked"
+        reference = (english_source_select(verses) if key == "en" and profile == "historical"
+                     else f'<span class="column-reference" aria-hidden="true">{e(source["reference"])}</span>')
         headings.append(
             f'<div class="column-heading" data-language="{key}" data-width="{WIDTHS[key]}"{hidden}>'
-            f'<span class="column-name">{e(source["language"])}</span><span class="column-reference">{e(source["reference"])}</span></div>'
+            f'<span class="column-name" aria-hidden="true">{e(source["language"])}</span>{reference}</div>'
         )
         settings.append(
             f'<li class="language-option" data-language="{key}"><label for="show-{key}">'
@@ -227,7 +238,7 @@ def render_reader(name, sources, verses, title, chapter_id, profile="sample", pr
            DESCRIPTION=e(f'Rosettapada — {title}. English and six historical textual traditions on one continuous reading sheet.' if profile == "historical" else 'Rosettapada — a two-verse comparative Dhammapada reading study.'),
            COLUMN_HEADINGS="\n".join(headings), VERSES="\n".join(verse_html), LANGUAGE_SETTINGS="\n".join(settings),
            CHAPTER_NAVIGATION=chapter_navigation(previous, next_page),
-           ENGLISH_SETTINGS=english_settings(verses) if profile == "historical" else "")
+           ENGLISH_EDITIONS=english_payload(verses) if profile == "historical" else "")
 
 
 sample_verses = [{"no": verse["no"], "lines": {

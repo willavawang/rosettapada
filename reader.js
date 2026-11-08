@@ -23,8 +23,6 @@
   const rowsByKey = new Map(Array.from(options.children).map(row => [row.dataset.language, row]));
   const groups = [headings, ...document.querySelectorAll('.verse-grid')];
   const groupColumns = groups.map(group => new Map(Array.from(group.children).map(column => [column.dataset.language, column])));
-  const englishReference = columnByKey.get('en').querySelector('.column-reference');
-  const paliReference = englishReference.textContent;
   const englishPoems = englishSelect ? verses.map(verse => {
     const column = verse.querySelector('.lang-en');
     const poem = column.querySelector('.poem');
@@ -72,21 +70,29 @@
       if (parent.children[index] !== element) parent.insertBefore(element, parent.children[index] || null);
     });
   }
+  // Browsers size a select to its longest option; fit it to the chosen label so the chevron follows the text.
+  function fitEnglishSelect() {
+    const style = getComputedStyle(englishSelect);
+    const context = (fitEnglishSelect.canvas ||= document.createElement('canvas')).getContext('2d');
+    context.font = `${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;
+    const text = englishSelect.selectedOptions[0]?.textContent || '';
+    englishSelect.style.width = `${Math.ceil(context.measureText(text).width + parseFloat(style.paddingRight) + 2)}px`;
+  }
   function applyEnglish() {
     if (!englishSelect) return;
     const preferred = Array.from(englishSelect.options).find(option => option.value === englishPreference);
     const available = preferred && !preferred.disabled;
     const source = available ? englishPreference : 'pi';
     const name = preferred?.dataset.label || 'Pāli';
-    englishSelect.value = englishPreference;
+    // Show the source actually on the sheet; a saved preference returns where a draft exists.
+    englishSelect.value = source;
     englishStatus.textContent = !available
       ? `Using Pāli here. ${name} will return where available.`
-      : Object.keys(englishEditions).length
-        ? 'A dash marks a gap in the selected draft.'
-        : 'No alternate drafts in this chapter yet.';
+      : source !== 'pi' ? 'A dash marks a gap in the selected draft.' : '';
+    englishSelect.title = available ? 'Choose the English translation source' : `${name} has no draft in this chapter; showing the Pāli-based English`;
+    fitEnglishSelect();
     if (source === displayedEnglish) return;
     displayedEnglish = source;
-    englishReference.textContent = source === 'pi' ? paliReference : `Rosettapada · ${name} draft`;
     englishPoems.forEach(({column, poem, pali, label, number}) => {
       const lines = englishEditions[source]?.[number];
       const missing = source !== 'pi' && !lines;

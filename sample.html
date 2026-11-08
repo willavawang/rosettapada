@@ -6,8 +6,8 @@
   <meta name="theme-color" content="#f8f7f2">
   <meta name="description" content="Rosettapada — a two-verse comparative Dhammapada reading study.">
   <title>Rosettapada · The pairs</title>
-  <link rel="stylesheet" href="styles.css?v=3ae38c72a3">
-  <script src="reader.js?v=5ea7b5816a" defer></script>
+  <link rel="stylesheet" href="styles.css?v=cf848b2e7e">
+  <script src="reader.js?v=fa2cfd9648" defer></script>
 </head>
 <body class="reading-page">
   <a class="skip-link" href="#viewport">Skip to the reading sheet</a>
@@ -24,15 +24,15 @@
       <div class="chapter-heading" id="chapter1">
         <h1>The pairs</h1>
       </div>
-      <div id="column-headings" class="column-headings" aria-hidden="true">
-        <div class="column-heading" data-language="en" data-width="min(540px, calc(100vw - 56px))"><span class="column-name">English</span><span class="column-reference">Pāli working translation</span></div>
-<div class="column-heading" data-language="pi" data-width="320px"><span class="column-name">Pāli</span><span class="column-reference">Dhp 1–2</span></div>
-<div class="column-heading" data-language="pd" data-width="340px"><span class="column-name">Patna</span><span class="column-reference">PDhp 1–2</span></div>
-<div class="column-heading" data-language="ga" data-width="320px"><span class="column-name">Gāndhārī</span><span class="column-reference">GDhp 201–202</span></div>
-<div class="column-heading" data-language="sa" data-width="345px"><span class="column-name">Sanskrit</span><span class="column-reference">Uv 31.23–24</span></div>
-<div class="column-heading" data-language="zh" data-width="230px"><span class="column-name">Chinese</span><span class="column-reference">T210 9.1–2</span></div>
-<div class="column-heading" data-language="zh-pinyin" data-width="300px" hidden><span class="column-name">Chinese pinyin</span><span class="column-reference">Mandarin reading aid</span></div>
-<div class="column-heading" data-language="bo" data-width="400px"><span class="column-name">Tibetan</span><span class="column-reference">Not yet verified</span></div>
+      <div id="column-headings" class="column-headings">
+        <div class="column-heading" data-language="en" data-width="min(540px, calc(100vw - 56px))"><span class="column-name" aria-hidden="true">English</span><span class="column-reference" aria-hidden="true">Pāli working translation</span></div>
+<div class="column-heading" data-language="pi" data-width="320px"><span class="column-name" aria-hidden="true">Pāli</span><span class="column-reference" aria-hidden="true">Dhp 1–2</span></div>
+<div class="column-heading" data-language="pd" data-width="340px"><span class="column-name" aria-hidden="true">Patna</span><span class="column-reference" aria-hidden="true">PDhp 1–2</span></div>
+<div class="column-heading" data-language="ga" data-width="320px"><span class="column-name" aria-hidden="true">Gāndhārī</span><span class="column-reference" aria-hidden="true">GDhp 201–202</span></div>
+<div class="column-heading" data-language="sa" data-width="345px"><span class="column-name" aria-hidden="true">Sanskrit</span><span class="column-reference" aria-hidden="true">Uv 31.23–24</span></div>
+<div class="column-heading" data-language="zh" data-width="230px"><span class="column-name" aria-hidden="true">Chinese</span><span class="column-reference" aria-hidden="true">T210 9.1–2</span></div>
+<div class="column-heading" data-language="zh-pinyin" data-width="300px" hidden><span class="column-name" aria-hidden="true">Chinese pinyin</span><span class="column-reference" aria-hidden="true">Mandarin reading aid</span></div>
+<div class="column-heading" data-language="bo" data-width="400px"><span class="column-name" aria-hidden="true">Tibetan</span><span class="column-reference" aria-hidden="true">Not yet verified</span></div>
       </div>
       <div class="verses"><section class="verse" id="dhp1" data-verse="1" aria-labelledby="verse-title-1"><h2 class="sr-only" id="verse-title-1">Verse 1</h2><div class="verse-grid" style="--line-count:6"><section class="witness lang-en" data-language="en" data-reading-status="present" lang="en" aria-labelledby="v1-en" title=""><h3 class="sr-only" id="v1-en">English, verse 1</h3><p class="poem"><span class="poem-line">Phenomena are preceded by mind.</span><span class="poem-line">Mind is foremost; they are fashioned by mind.</span><span class="poem-line">If someone, with a corrupted mind,</span><span class="poem-line">speaks or acts,</span><span class="poem-line">then suffering follows them,</span><span class="poem-line">as the wheel follows the draft-ox’s foot.</span></p></section>
 <section class="witness lang-pi" data-language="pi" data-reading-status="present" lang="pi" aria-labelledby="v1-pi" title=""><h3 class="sr-only" id="v1-pi">Pāli, verse 1</h3><p class="poem"><span class="poem-line">manopubbaṅgamā dhammā,</span><span class="poem-line">manoseṭṭhā manomayā,</span><span class="poem-line">manasā ce paduṭṭhena</span><span class="poem-line">bhāsati vā karoti vā,</span><span class="poem-line">tato naṁ dukkham anveti</span><span class="poem-line">cakkaṁ va vahato padaṁ.</span></p></section>
@@ -65,10 +65,10 @@
   </footer>
   <div class="sr-only" id="zoom-announcement" role="status"></div>
 
+
   <dialog id="reading-settings" aria-labelledby="settings-title">
     <div class="dialog-heading"><p class="eyebrow">Rosettapada</p><button id="close-settings" type="button" aria-label="Close reading settings">×</button></div>
     <h2 id="settings-title">Reading settings</h2>
-
     <h3>Columns</h3>
     <ol id="language-options" class="language-options" aria-label="Language visibility and order"><li class="language-option" data-language="en"><label for="show-en"><input id="show-en" type="checkbox" data-language="en" checked><span>English</span></label><button class="drag-handle" type="button" data-language="en" aria-label="Reorder English" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
 <li class="language-option" data-language="pi"><label for="show-pi"><input id="show-pi" type="checkbox" data-language="pi" checked><span>Pāli</span></label><button class="drag-handle" type="button" data-language="pi" aria-label="Reorder Pāli" aria-describedby="reorder-help" title="Drag to reorder; use the up and down arrow keys with the keyboard"><span aria-hidden="true">⠿</span></button></li>
