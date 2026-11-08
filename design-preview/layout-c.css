@@ -1,0 +1,15 @@
+/* Shared fixes: one left edge, one line rhythm */
+.masthead { padding-left: var(--padding); padding-right: var(--padding); }
+.poem, .lang-en .poem, .lang-zh .poem,
+.sheet[data-profile="historical"] .lang-bo .poem { line-height: 42px; }
+.verse-grid { grid-template-rows: repeat(var(--line-count), minmax(42px, auto)); }
+
+:root { --gutter: 88px; --padding: 80px; }
+@media (max-width: 760px) { :root { --gutter: 56px; --padding: 28px; } }
+.masthead { height: 96px; }
+.chapter-heading h1 { font-size: 58px; }
+.chapter-heading { margin: 8px 0 56px; }
+.column-headings { padding: 18px 0 30px; }
+.column-reference { color: #5b6157; }
+.verses { padding-top: 30px; }
+.verse { margin-bottom: 68px; }
