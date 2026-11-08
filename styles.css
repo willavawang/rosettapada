@@ -59,8 +59,8 @@ button:focus-visible, a:focus-visible { outline: 2px solid var(--accent); outlin
 .column-name { display: block; font: 500 15px/1.6 system-ui, sans-serif; letter-spacing: .005em; }
 .column-reference { display: block; margin-top: 3px; font: 12px/1.6 system-ui, sans-serif; color: var(--muted); }
 .english-source { position: relative; display: inline-flex; align-items: center; max-width: 100%; margin-top: 3px; color: var(--muted); }
-.english-source select { appearance: none; -webkit-appearance: none; max-width: 100%; margin: 0; padding: 0 15px 1px 0; border: 0; border-bottom: 1px dotted transparent; border-radius: 0; background: transparent; color: inherit; font: 12px/1.6 system-ui, sans-serif; text-overflow: ellipsis; cursor: pointer; }
-.english-source svg { position: absolute; right: 2px; top: 50%; width: 8px; height: 5px; margin-top: -2px; fill: none; stroke: currentColor; stroke-width: 1.4; pointer-events: none; }
+.english-source select { appearance: none; -webkit-appearance: none; margin: 0 0 0 -16px; padding: 0 0 1px 16px; border: 0; border-bottom: 1px dotted transparent; background-clip: content-box; border-radius: 0; background: transparent; color: inherit; font: 12px/1.6 system-ui, sans-serif; text-overflow: ellipsis; cursor: pointer; }
+.english-source svg { position: absolute; left: -16px; top: 50%; width: 10px; height: 6px; margin-top: -3px; fill: none; stroke: var(--accent); stroke-width: 1.6; stroke-linecap: round; stroke-linejoin: round; pointer-events: none; }
 .english-source:hover, .english-source:focus-within { color: var(--ink); }
 .english-source select:hover, .english-source select:focus-visible { border-bottom-color: currentColor; outline: none; }
 .english-source select:focus-visible { box-shadow: 0 2px 0 -1px var(--accent); }

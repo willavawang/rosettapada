@@ -70,13 +70,22 @@
       if (parent.children[index] !== element) parent.insertBefore(element, parent.children[index] || null);
     });
   }
-  // Browsers size a select to its longest option; fit it to the chosen label so the chevron follows the text.
+  // Browsers size a select to its longest option; fit it to the chosen label so the menu hugs its text.
+  // A hidden span in the same label measures with exactly the font the page renders.
   function fitEnglishSelect() {
     const style = getComputedStyle(englishSelect);
-    const context = (fitEnglishSelect.canvas ||= document.createElement('canvas')).getContext('2d');
-    context.font = `${style.fontWeight} ${style.fontSize} ${style.fontFamily}`;
-    const text = englishSelect.selectedOptions[0]?.textContent || '';
-    englishSelect.style.width = `${Math.ceil(context.measureText(text).width + parseFloat(style.paddingRight) + 2)}px`;
+    let probe = englishSelect.parentElement.querySelector('.english-source-measure');
+    if (!probe) {
+      probe = document.createElement('span');
+      probe.className = 'english-source-measure';
+      probe.setAttribute('aria-hidden', 'true');
+      Object.assign(probe.style, {position: 'absolute', visibility: 'hidden', whiteSpace: 'pre', left: '0', top: '0'});
+      englishSelect.parentElement.append(probe);
+    }
+    probe.style.font = style.font;
+    probe.style.letterSpacing = style.letterSpacing;
+    probe.textContent = englishSelect.selectedOptions[0]?.textContent || '';
+    englishSelect.style.width = `${Math.ceil(probe.offsetWidth +parseFloat(style.paddingLeft) + parseFloat(style.paddingRight) + 2)}px`;
   }
   function applyEnglish() {
     if (!englishSelect) return;
