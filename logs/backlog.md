@@ -19,3 +19,7 @@ About 35 moderate-confidence wording improvements, such as "Māra's flower-tippe
 - [ ] Uncertain construals in the Chinese and Tibetan (zh 204, 205, 271, 34; bo 44–45, 151, 153, 371, 383), the Gāndhārī (280, 294), and the Patna (73, 83, 236).
 - [ ] pi 143 *niddaṁ*/*nindaṁ*; pi 355 "as well as others"; pi 39 "seepage"; sa 54 *vāhnija*; zh 69/119 shared-stanza note.
 - [ ] A second reader for the Chinese and Tibetan translations, where most of the meaning errors were found.
+
+## Rosettapada Blend (new product, not started)
+
+- [ ] Write the Blend: one English rendering per verse that draws on all six traditions, picking the best reading from each or building it up from what they show together. Until then the English column ("Rosettapada Blend · from the Pāli for now") shows the Pāli-based draft from `data/english/pi.json`. Decide the final name, where the Blend data lives (e.g. `data/english/blend.json`), and how a Blend line credits the tradition it came from. When the Blend replaces the placeholder, update `BLEND_REFERENCE` in build.py, the English section of notes.html and WORK_BRIEF.md.
