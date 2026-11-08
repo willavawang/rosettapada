@@ -10314,7 +10314,7 @@
             "ktaṁ tu suktaṁ śreyo",
             "yat ktvā nānutapyate |",
             "nandate suktaṁ ktvā",
-            "andate sugatiṁ gataḥ"
+            "nandate sugatiṁ gataḥ"
           ],
           "annotations": [
             {
@@ -10345,11 +10345,19 @@
             {
               "line": 7,
               "kind": "s",
-              "text": "andate sugatiṁ gataḥ"
+              "text": "nandate sugatiṁ gataḥ"
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 7,
+              "source_form": "andate sugatiṁ",
+              "corrected_form": "nandate sugatiṁ"
+            }
+          ],
+          "note": "The consulted comparative page prints andate; both the digital Udānavarga and Bernhard’s edition read nandate. The display restores nandate; the printed form is retained in the source record."
         }
       ]
     },
@@ -11762,7 +11770,7 @@
           "lines": [
             "kṣetrāṇi tṇadoṣāṇi",
             "tṣṇādoṣā tv iyaṁ prajā /",
-            "tasmād vigatamohebhyo",
+            "tasmād vigatatṣṇebhyo",
             "dattaṁ bhavati mahāphalam //"
           ],
           "annotations": [
@@ -11808,7 +11816,15 @@
             }
           ],
           "fragmentary": false,
-          "partial_correspondence": true
+          "partial_correspondence": true,
+          "corrections": [
+            {
+              "line": 2,
+              "source_form": "vigatamohebhyo",
+              "corrected_form": "vigatatṣṇebhyo"
+            }
+          ],
+          "note": "The consulted comparative page repeats vigatamohebhyo from the preceding stanza; both the digital Udānavarga and Bernhard’s edition read vigatatṛṣṇebhyo. The display restores vigatatṛṣṇebhyo; the printed form is retained in the source record."
         }
       ]
     },

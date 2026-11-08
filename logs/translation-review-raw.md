@@ -178,3 +178,21 @@ G23 · bo 401 vs 407 · consistency · སྨྱུང་བུ "reed" vs "needl
 H1 · Every alternate was drafted by one translator in one pass; nothing has had a second reader. Taking them out of draft status should be paired with a short Notes paragraph saying what the English is (editorial translation of the displayed reading, line by line where possible), what it is not (not a critical edition), and the review date.
 H2 · Many alternates were built by adapting the Pāli-based English and kept its wording where the witness agrees. That is efficient but it is also how B3/D4 ("neglect") and the "mendicant" strays spread. Fix the shared rendering once, then propagate.
 H3 · After changes: rebuild, run tools/check.py and node --check reader.js, spot-check the changed verses in a browser, publish, verify live (per AGENTS.md).
+
+## I. Second pass (2026-11-08, after applying Tiers 1–3)
+
+Method: negation audit in both directions for every line-aligned alternate (source negative with no English negative within ±1 line, and English negative with no source negative); English reading notes cross-checked against the alternates they describe (71 notes); refrain/identical-line audit and spelling/punctuation audit re-run; quote/bracket balance, doubled words, and verse-final punctuation that dangles into a verse that does not continue it; source checks against the cached GRETIL texts (Bernhard and the digital Udānavarga; Cone's Patna) and Ānandajoti's native Udānavarga pages for the Tier 6 Sanskrit questions.
+
+Results of the negation audits: no new errors. All remaining hits are a negative moved to the neighbouring English line, Sanskrit/Pāli privative a-/an- compounds rendered as English negatives, or the Tibetan མི "person" / མ "mother".
+
+I1 · sa 359 · Tier 1 (source + English) · The comparative page repeats vigatamohebhyo from the delusion stanza in the craving stanza; Bernhard (Uv 16.21) and the digital Udānavarga both read vigatatṛṣṇebhyo. Added a line correction (two-edition standard) and changed the English to "free of craving". Resolves E12.
+I2 · sa 314 · Tier 3 (display) · "andate" → "nandate" (Uv 29.42); both editions agree. Line correction added. Resolves E16.
+I3 · zh 92, 143, 164, 165, 174, 206, 221, 227, 228, 229, 231, 232, 233 · Tier 3 · Each ended its last English line with a comma, as if continuing into the next position, but the next position starts a new stanza or sentence → period.
+I4 · pi 140 · Tier 3 · "Or a fire consumes their home." continues the list after 139's semicolon → "or a fire…".
+I5 · ga 300–301, sa 300–301 · Tier 3 · After the D7/E10 fix, 296–299 read "whose mindfulness, by day and by night, / is always on…" while 300–301 kept "who by day and by night / have minds delighting in…" → "whose minds, by day and by night, / delight in…".
+I6 · sa 105 · note on E2 · Both Sanskrit digital texts print brāhmaṇā (not brahmaṇā). The change to "with Brahmā" stands: the Pāli brahmunā and the Tibetan ཚངས་པར་བཅས་པས ("together with Brahmā") both read it as the god, and brāhmaṇā is evidently a spelling of the instrumental here.
+I7 · sa 376 · resolves E13 · Both editions read mātraṁ bhajeta pratirūpaṁ (Uv 32.6). No change; the English "Keep fitting company in moderation" translates the attested text.
+I8 · sa 218 · update to E8 · Both editions read avasrāvī, so the current English "not flowing out" negates a word the text does not negate. Meaning of avasrāvin here is uncertain; stays in Tier 6 with the recommendation to drop "not" once a reading is chosen.
+I9 · pd 189 · resolves C7 · Cone's GRETIL text also lacks the negative (etaṃ śaraṇam āgaṃma). Applied: "[not]" supplied in brackets plus a note on English 189.
+I10 · pd 190 · Tier 5 · Ends "as they really are —" with no Patna 191 displayed, so the dash leads nowhere on the sheet. Consider ":" or a period. Low.
+I11 · notes cross-check · No contradictions remain between the English reading notes and the alternates (the earlier pd 334 and pd 243 contradictions were fixed in Tier 1). Remaining mismatch: zh 107 "Three Jewels" vs note "Three Honored Ones" (already #75, Tier 5).

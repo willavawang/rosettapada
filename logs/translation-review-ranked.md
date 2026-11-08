@@ -6,6 +6,8 @@ Companion to `translation-review-raw.md` (136 numbered findings, in reading orde
 
 **How the ranking works.** "Sensible" means three things together: how sure I am the change is right, how much it matters to a reader, and how little risk it carries. Tier 1 is "do this"; Tier 6 is "check a printed edition before touching it."
 
+**Status (2026-11-08).** Tiers 1–3 (#1–52) are applied and published, together with the second-pass additions to Tiers 1–3 listed at the end (#117–121). Tiers 4–6 are open. Where a Tier 1 item said "check", the check was made: pd 189 is confirmed in Cone's text (negative supplied in brackets with a note); sa 105 is confirmed by the Tibetan; bo 404 now reads "not frequenting houses" (= Pāli anokasārin); zh 326 reads "Formerly the mind went its own way"; bo 184 reads "Patience, forbearance, is the supreme austerity" (the second བཟོད་པ renders titīkṣā). Pick #53 (drop "draft") whenever you are ready.
+
 **Overall verdict.** The Pāli-based English is in good shape: a handful of real slips, the rest polish. The alternates are mostly sound and literal, but there are about twenty places where the English says something the source does not (a dropped negative, a misparse, a question that isn't one). Those, plus the policy calls in Tier 4, are what stands between the alternates and "not a draft".
 
 ---
@@ -159,3 +161,37 @@ Companion to `translation-review-raw.md` (136 numbered findings, in reading orde
 ---
 
 **Suggested order of work:** Tier 1 → Tier 2 → Tier 3 in one batch (then rebuild, check, publish, verify live). Tier 4 needs your answers first; the "draft" label (#53) should only come off once Tiers 1–2 are in. Tiers 5–6 can follow at leisure.
+
+---
+
+## Second pass — additions (2026-11-08)
+
+Checks run after Tiers 1–3 were applied: negation audits in both directions (no new errors), the English reading notes against the alternates they describe (no contradictions left), refrain/spelling/punctuation audits re-run, structural checks (quotes, brackets, doubled words, dangling verse ends), and the Tier 6 Sanskrit questions checked against Bernhard, the digital Udānavarga and Cone's Patna. Details: raw log section I.
+
+### New Tier 1 (applied)
+
+| # | Where | Change | Raw |
+|---|---|---|---|
+| 117 | sa 359 (display + English) | The comparative page repeats *vigatamohebhyo* from the preceding stanza; both editions read *vigatatṛṣṇebhyo*. Display corrected; English now "free of craving" | I1 |
+
+### New Tier 3 (applied)
+
+| # | Change | Raw |
+|---|---|---|
+| 118 | sa 314 display *andate* → *nandate* (both editions) | I2 |
+| 119 | 13 Chinese verses ended in a comma before a new stanza → period | I3 |
+| 120 | pi 140 "Or a fire…" → "or a fire…" (continues 139) | I4 |
+| 121 | ga/sa 300–301 aligned with the fixed 296–299 refrain ("whose minds, by day and by night, / delight in…") | I5 |
+
+### Tier 6 updates
+
+- #96 (sa 359) and #99 (sa 314): resolved — see #117, #118.
+- #97 (sa 376 *mātraṁ*): resolved, no change — both editions read *mātraṁ*.
+- #98 (sa 218 *avasrāvī*): both editions read *avasrāvī*, so the English "not flowing out" negates an un-negated word. Still open; drop "not" once a reading of *avasrāvin* is chosen.
+- #102 (pd 189): resolved — negative supplied in brackets with a note.
+
+### New Tier 5
+
+| # | Where | Change | Raw |
+|---|---|---|---|
+| 122 | pd 190 | Ends "as they really are —" with no Patna 191 on the sheet → ":" or a period | I10 |

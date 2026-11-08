@@ -66,7 +66,7 @@
     }
   ],
   "line_corrections_policy": "A displayed line is corrected only where the comparative page drops or substitutes characters and both a separately checked native digital edition and an independent electronic edition of the same critical text print the corrected form. Only the cited characters change; the comparative-page form is retained in selected-source-passages.json. Uv 14.14 (Pāli 329) is the single case where the native digital edition shares the comparative page's error; it follows Bernhard.",
-  "line_corrections_checked": "2026-11-07",
+  "line_corrections_checked": "2026-11-08",
   "line_corrections": [
     {
       "pali": 27,
@@ -762,6 +762,27 @@
       "display_note": "The consulted comparative page prints arakān; both the digital Udānavarga and Bernhard’s edition read narakān. The display restores narakān; the printed form is retained in the source record."
     },
     {
+      "pali": 314,
+      "tradition": "sa",
+      "reference": "Udānavarga 29.41-42 Yuga",
+      "line": 7,
+      "source_form": "andate sugatiṁ",
+      "corrected_form": "nandate sugatiṁ",
+      "issue": "The comparative page omits the opening of nandate, printing andate. Both checked editions print nandate.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/29-Yuga.htm#Uv_742",
+        "html_sha256": "b3d484e7c1c0ba5a2e81332394774b5b0aeefd6de5f475540c6618c4f4e8863c"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec",
+        "reference": "Uv 29.42"
+      },
+      "display_note": "The consulted comparative page prints andate; both the digital Udānavarga and Bernhard’s edition read nandate. The display restores nandate; the printed form is retained in the source record."
+    },
+    {
       "pali": 321,
       "tradition": "sa",
       "reference": "Udānavarga 19.6 Aśva",
@@ -846,6 +867,27 @@
         "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec"
       },
       "display_note": "The consulted comparative page prints y avav; both the digital Udānavarga and Bernhard’s edition read hy avav. The display restores hy avav; the printed form is retained in the source record."
+    },
+    {
+      "pali": 359,
+      "tradition": "sa",
+      "reference": "Udānavarga 16.21 Prakirṇaka",
+      "line": 2,
+      "source_form": "vigatamohebhyo",
+      "corrected_form": "vigatatṣṇebhyo",
+      "issue": "The comparative page repeats vigatamohebhyo from the preceding delusion stanza in the craving stanza. Both checked editions print vigatatṛṣṇebhyo, matching the stanza's tṛṣṇādoṣā.",
+      "native_evidence": {
+        "edition": "Ānandajoti Bhikkhu, Udānavarga (digital edition based on Bernhard 1965)",
+        "url": "https://ancient-buddhist-texts.net/Buddhist-Texts/S1-Udanavarga/16-Prakirnaka.htm#Uv_351",
+        "html_sha256": "a50d6ac12fbd63e06bc0eea711584754606ad37228c5f293b7948f1e080e4130"
+      },
+      "independent_evidence": {
+        "edition": "Franz Bernhard, Udānavarga (Göttingen 1965), GRETIL input by Muneo Tokunaga",
+        "url": "https://gretil.sub.uni-goettingen.de/gretil/1_sanskr/4_rellit/buddh/udanav_u.htm",
+        "file_sha256": "36e921bfddd0b5eb2749623a871ce0057259b0a0a7dcb1bf214beffe58c70fec",
+        "reference": "Uv 16.21"
+      },
+      "display_note": "The consulted comparative page repeats vigatamohebhyo from the preceding stanza; both the digital Udānavarga and Bernhard’s edition read vigatatṛṣṇebhyo. The display restores vigatatṛṣṇebhyo; the printed form is retained in the source record."
     },
     {
       "pali": 384,

@@ -21,7 +21,7 @@
     },
     {
       "path": "data/witnesses/sanskrit.json",
-      "sha256": "a16760acba90451fc54288fb9a50d0d1dc53730dff654b6e6981b22a1a6aad56"
+      "sha256": "e8b648bac019c0c76c30b3af1159a468c9ca1119ba5635ff3e5d97220c5f52ba"
     },
     {
       "path": "data/witnesses/sources/chinese/CBETA-NOTICE.txt",
@@ -57,11 +57,11 @@
     },
     {
       "path": "data/witnesses/sources/indic/README.md",
-      "sha256": "d3466001f09e2dff665fbe63cd9de60e39c4ffe0b06f0406be2ee17f333add5a"
+      "sha256": "fc6b99b4b56b7b72b98532d8a91e1eeec93bf5c7580dee7c32a8c6e735f0fbd6"
     },
     {
       "path": "data/witnesses/sources/indic/corrections.json",
-      "sha256": "938606229e099a421472841c32401064748f2a6e8ddf0b53b348e95792855bda"
+      "sha256": "374ee2c6aa682ab41b66de62fd701bea186c6c51218f0fd00f876502622bc5dd"
     },
     {
       "path": "data/witnesses/sources/indic/native-patna-check.json",
