@@ -209,3 +209,7 @@ Checks run after Tiers 1–3 were applied: negation audits in both directions (n
 | 57 | Early alternates made line-for-line with their witness | 28 verses: ga 1–2, 13–14, 28, 33–34, 37–40; sa 1–2, 5, 7–8, 13–14, 28; pd 5, 13–14, 22, 26, 28, 100, 102, 164. Every alternate now has one English line per source line. |
 | 58 | Missing-text convention (after Andrew George's Penguin *Gilgamesh*, distinct from the "no parallel" dash) | […] = lost and not restored; [words] = restored where surviving letters or a close parallel make them all but certain (whole English words, not part-words); ⟨words⟩ = supplied where the text appears to have dropped them (pd 189 ⟨not⟩, bo 321 ⟨bears⟩). Stated in Notes. |
 | 59–61 | 甘露 rendering, witness name forms, dharmā in 1–2 | Not yet decided. |
+
+### #54 decided (2026-11-08): traditional voicing
+
+The main Pāli-based English now follows the original's voicing. Where the Pāli is singular, "they/them/their" became "he/him/his" (about 150 lines). Every brahmin refrain now reads "him I call a brahmin". *putta* is rendered "sons" (62, 84, 287, 288, 345). Plurals keep "they", and the nouns "person/people" stay where the Pāli has nara/jana. The singular "they" carried into the Patna, Gāndhārī and Sanskrit alternates (15–16, 19–20, 22, 24, 106–107, 291, 355) was changed the same way. Chinese and Tibetan do not mark gender and were left as they are. Notes now say so. The remaining open items are in `backlog.md`.
