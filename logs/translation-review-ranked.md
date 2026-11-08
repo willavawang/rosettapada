@@ -195,3 +195,17 @@ Checks run after Tiers 1–3 were applied: negation audits in both directions (n
 | # | Where | Change | Raw |
 |---|---|---|---|
 | 122 | pd 190 | Ends "as they really are —" with no Patna 191 on the sheet → ":" or a period | I10 |
+
+---
+
+## Tier 4 decisions (2026-11-08)
+
+| # | Decision | Applied |
+|---|---|---|
+| 53 | Labels: "Rosettapada · Patna translation" etc.; main English "Rosettapada · Pāli-based translation" | Menu, help card, Notes copy, reader status text, pi.json label, WORK_BRIEF. The internal id `rosettapada-pali-draft` is unchanged. |
+| 54 | Gender: preserve the traditional he/him | Alternates already use he/him (no change). Open question: whether the main Pāli-based English, which is currently gender-neutral, should also move to he/him. Examples were put to the user. |
+| 55 | bhikkhu/bhikṣu/比丘/苾芻/dge slong → **mendicant** (literal: all five words mean "one who lives on alms"; avoids the Christian/Tibetan-lama overtones of "monk"; one term across every English source) | 141 lines; "monastic code" (pātimokkha) kept. The chapter title "Monastics" and its URL are unchanged. |
+| 56 | paradāra/dāra → "wife/wives" (literal; the texts assume a male reader) | Already applied in Tier 3 (#51). |
+| 57 | Early alternates made line-for-line with their witness | 28 verses: ga 1–2, 13–14, 28, 33–34, 37–40; sa 1–2, 5, 7–8, 13–14, 28; pd 5, 13–14, 22, 26, 28, 100, 102, 164. Every alternate now has one English line per source line. |
+| 58 | Missing-text convention (after Andrew George's Penguin *Gilgamesh*, distinct from the "no parallel" dash) | […] = lost and not restored; [words] = restored where surviving letters or a close parallel make them all but certain (whole English words, not part-words); ⟨words⟩ = supplied where the text appears to have dropped them (pd 189 ⟨not⟩, bo 321 ⟨bears⟩). Stated in Notes. |
+| 59–61 | 甘露 rendering, witness name forms, dharmā in 1–2 | Not yet decided. |

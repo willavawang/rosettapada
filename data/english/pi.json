@@ -1,6 +1,6 @@
 {
   "id": "rosettapada-pali-draft",
-  "label": "Rosettapada · Pāli-based draft",
+  "label": "Rosettapada · Pāli-based translation",
   "source_language": "pi",
   "base_edition": "Mahāsaṅgīti Tipiṭaka Buddhavasse 2500",
   "reference_translation": "Bhikkhu Sujato, Sayings of the Dhamma, CC0 SuttaCentral/Bilara",
@@ -257,7 +257,7 @@
     },
     "31": {
       "lines": [
-        "A monastic who delights in heedfulness",
+        "A mendicant who delights in heedfulness",
         "and sees danger in heedlessness",
         "goes on like a fire,",
         "burning through fetters fine and coarse."
@@ -265,7 +265,7 @@
     },
     "32": {
       "lines": [
-        "A monastic who delights in heedfulness",
+        "A mendicant who delights in heedfulness",
         "and sees danger in heedlessness",
         "cannot fall away.",
         "Such a one is close to nibbāna."
@@ -601,7 +601,7 @@
     "73": {
       "lines": [
         "A fool may want esteem they have not earned,",
-        "precedence among monastics,",
+        "precedence among mendicants,",
         "authority over dwellings,",
         "and honor from other households."
       ]
@@ -620,7 +620,7 @@
       "lines": [
         "The way to gain is one thing.",
         "The way to nibbāna is another.",
-        "Knowing this directly, a monastic disciple of the Buddha",
+        "Knowing this directly, a mendicant disciple of the Buddha",
         "should take no delight in honors",
         "and cultivate seclusion."
       ]
@@ -1581,7 +1581,7 @@
         "By going to that refuge",
         "one is not released from all suffering."
       ],
-      "note": "Patna 217 lacks the negative in its third line, in Cone’s edition as in the comparative edition. The negation of its first two lines evidently carries over, and the Patna English supplies it in brackets."
+      "note": "Patna 217 lacks the negative in its third line, in Cone’s edition as in the comparative edition. The negation of its first two lines evidently carries over, and the Patna English supplies it in angle brackets."
     },
     "190": {
       "lines": [
@@ -2027,7 +2027,7 @@
       "lines": [
         "A stain worse than these is ignorance,",
         "the deepest stain of all.",
-        "Put away this stain, monastics.",
+        "Put away this stain, mendicants.",
         "Live unstained."
       ],
       "note": "The Pāli singles out ignorance as the supreme stain. Patna 159 explicitly names ignorance and death."
@@ -2222,9 +2222,9 @@
     "266": {
       "lines": [
         "Begging from others",
-        "does not make someone a monastic.",
+        "does not make someone a mendicant.",
         "Taking up the ways of household life,",
-        "one does not thereby become a monastic."
+        "one does not thereby become a mendicant."
       ],
       "note": "The reading “ways of household life” is supported by Gāndhārī 67 and Sanskrit Udānavarga 32.18. The Mahāvastu parallel has a different expression, viṣamāṁ dharmāṁ, for an uneven or improper way of conduct."
     },
@@ -2233,7 +2233,7 @@
         "But one who puts away merit and evil,",
         "lives the holy life",
         "and goes through the world with discernment,",
-        "is rightly called a monastic."
+        "is rightly called a mendicant."
       ]
     },
     "268": {
@@ -2262,7 +2262,7 @@
     },
     "271": {
       "lines": [
-        "Monastic, take no comfort merely in precepts and vows,",
+        "Mendicant, take no comfort merely in precepts and vows,",
         "in having heard much,",
         "in attaining collectedness of mind,",
         "or in sleeping in solitude."
@@ -2367,7 +2367,7 @@
         "Cut down the forest, spare the tree.",
         "Fear springs from the forest.",
         "Cut through the forest and its undergrowth.",
-        "Be forest-free, monastics."
+        "Be forest-free, mendicants."
       ],
       "note": "The forest evokes entanglement in desire, as the calf simile in the next verse illustrates. Pāli nibbanā, “without a forest,” also echoes nibbāna."
     },
@@ -3027,7 +3027,7 @@
         "good to restrain speech,",
         "good to restrain the mind,",
         "good to be restrained in every way.",
-        "A monastic restrained in every way",
+        "A mendicant restrained in every way",
         "is released from all suffering."
       ]
     },
@@ -3036,12 +3036,12 @@
         "Restrained in hand, in foot,",
         "in speech, fully restrained,",
         "delighting within, collected,",
-        "alone and content — such a one they call a monastic."
+        "alone and content — such a one they call a mendicant."
       ]
     },
     "363": {
       "lines": [
-        "A monastic who guards their speech,",
+        "A mendicant who guards their speech,",
         "who speaks thoughtfully and without agitation,",
         "who makes the teaching and its meaning clear,",
         "speaks words that are sweet to hear."
@@ -3051,7 +3051,7 @@
       "lines": [
         "At home in the Dhamma, taking joy in it,",
         "thinking it through and calling it to mind,",
-        "a monastic keeps close",
+        "a mendicant keeps close",
         "to the true Dhamma."
       ]
     },
@@ -3059,14 +3059,14 @@
       "lines": [
         "Do not disparage what comes to you,",
         "or go about envying what others receive.",
-        "A monastic who envies others’ gains",
+        "A mendicant who envies others’ gains",
         "does not attain concentration."
       ],
       "note": "Salābha means one’s own gains here. Sanskrit Udānavarga 13.8 makes this explicit with svalābha. Patna 55 and Gāndhārī 61 support the same reading. The surrounding verses put the gains in the context of monastic support."
     },
     "366": {
       "lines": [
-        "Though little comes to a monastic,",
+        "Though little comes to a mendicant,",
         "they do not disparage what they receive.",
         "Even the gods praise such a one,",
         "tireless and pure in livelihood."
@@ -3078,13 +3078,13 @@
         "One who takes nothing in name and form",
         "as their own, anywhere,",
         "and does not grieve for what is gone,",
-        "is rightly called a monastic."
+        "is rightly called a mendicant."
       ],
       "note": "Name and form translates nāmarūpa, a term for the mental and physical aspects of experience. The opening of Sanskrit Udānavarga 32.17 instead emphasizes an absence of accumulation."
     },
     "368": {
       "lines": [
-        "A monastic who dwells in goodwill,",
+        "A mendicant who dwells in goodwill,",
         "with confidence in the Buddha’s teaching,",
         "can reach the state of peace,",
         "the happiness of formations coming to rest."
@@ -3092,7 +3092,7 @@
     },
     "369": {
       "lines": [
-        "Bail out this boat, monastic.",
+        "Bail out this boat, mendicant.",
         "Bailed out, it will sail lightly.",
         "Cut away passion and hatred,",
         "and you will reach nibbāna."
@@ -3103,14 +3103,14 @@
       "lines": [
         "Cut five, abandon five,",
         "and cultivate another five.",
-        "A monastic who has passed beyond five attachments",
+        "A mendicant who has passed beyond five attachments",
         "is said to have crossed the flood."
       ],
       "note": "The verse itself leaves the groups of five unnamed. The Dhammapada commentary identifies five lower fetters to cut, five higher fetters to abandon, five spiritual faculties to develop, and five attachments to transcend. See Ṭhānissaro Bhikkhu’s endnote on verse 370."
     },
     "371": {
       "lines": [
-        "Meditate, monastic. Be heedful.",
+        "Meditate, mendicant. Be heedful.",
         "Do not let your mind delight in sensual pleasures.",
         "Do not carelessly swallow an iron ball",
         "and cry out, burning, “This hurts!”"
@@ -3129,7 +3129,7 @@
       "lines": [
         "Entering an empty dwelling",
         "with a quiet mind,",
-        "a monastic knows a joy beyond the human",
+        "a mendicant knows a joy beyond the human",
         "in seeing the Dhamma clearly."
       ]
     },
@@ -3140,12 +3140,12 @@
         "rapture and gladness come.",
         "For those who know, this is the deathless."
       ],
-      "note": "Aggregates refers to form, feeling, perception, formations, and consciousness. Sanskrit Udānavarga 32.10 likewise speaks of seeing their arising and passing, but ends with a glad and mindful monastic going forth. The Pāli ends with the deathless."
+      "note": "Aggregates refers to form, feeling, perception, formations, and consciousness. Sanskrit Udānavarga 32.10 likewise speaks of seeing their arising and passing, but ends with a glad and mindful mendicant going forth. The Pāli ends with the deathless."
     },
     "375": {
       "lines": [
         "This is where it begins",
-        "for a wise monastic here.",
+        "for a wise mendicant here.",
         "Guarding the senses, being content,",
         "and restraint under the monastic code."
       ]
@@ -3164,7 +3164,7 @@
       "lines": [
         "As jasmine lets fall",
         "its withered flowers,",
-        "so let go, monastics,",
+        "so let go, mendicants,",
         "of passion and hatred."
       ]
     },
@@ -3173,7 +3173,7 @@
         "Quiet in body, quiet in speech,",
         "at peace and deeply collected,",
         "having spat out the bait of the world,",
-        "a monastic is said to be at peace."
+        "a mendicant is said to be at peace."
       ]
     },
     "379": {
@@ -3181,7 +3181,7 @@
         "Urge yourself onward.",
         "Examine yourself.",
         "Guarded and mindful,",
-        "monastic, you will live at ease."
+        "mendicant, you will live at ease."
       ]
     },
     "380": {
@@ -3196,7 +3196,7 @@
     },
     "381": {
       "lines": [
-        "A monastic brimming with gladness,",
+        "A mendicant brimming with gladness,",
         "with confidence in the Buddha’s teaching,",
         "can reach the state of peace,",
         "the happiness of formations coming to rest."
@@ -3204,7 +3204,7 @@
     },
     "382": {
       "lines": [
-        "A young monastic",
+        "A young mendicant",
         "devoted to the Buddha’s teaching",
         "lights up this world",
         "like the moon freed from a cloud."

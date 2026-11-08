@@ -146,7 +146,7 @@ def english_source_select(verses):
     options = []
     for key, label in ENGLISH_LANGUAGES.items():
         count = len(drafts.get(key, {}))
-        text = ENGLISH_EDITION["label"] if key == "pi" else f"Rosettapada · {label} draft"
+        text = ENGLISH_EDITION["label"] if key == "pi" else f"Rosettapada · {label} translation"
         disabled = ""
         if key != "pi" and not count:
             text, disabled = text + " · not in this chapter", " disabled"

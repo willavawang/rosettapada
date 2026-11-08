@@ -103,12 +103,12 @@
     const available = preferred && !preferred.disabled;
     const source = available ? englishPreference : 'pi';
     const name = preferred?.dataset.label || 'Pāli';
-    // Show the source actually on the sheet; a saved preference returns where a draft exists.
+    // Show the source actually on the sheet; a saved preference returns where a translation exists.
     englishSelect.value = source;
     englishStatus.textContent = !available
       ? `Using Pāli here. ${name} will return where available.`
-      : source !== 'pi' ? 'A dash marks a gap in the selected draft.' : '';
-    englishSelect.title = available ? 'Choose the English translation source' : `${name} has no draft in this chapter; showing the Pāli-based English`;
+      : source !== 'pi' ? 'A dash marks a verse this tradition does not have.' : '';
+    englishSelect.title = available ? 'Choose the English translation source' : `${name} has no translation in this chapter; showing the Pāli-based English`;
     fitEnglishSelect();
     if (source === displayedEnglish) return;
     displayedEnglish = source;
@@ -116,7 +116,7 @@
       const lines = englishEditions[source]?.[number];
       const missing = source !== 'pi' && !lines;
       column.dataset.readingStatus = missing ? 'unverified' : 'present';
-      label.textContent = source === 'pi' ? `English, verse ${number}` : `English from ${name}, verse ${number}${missing ? ', draft unavailable' : ''}`;
+      label.textContent = source === 'pi' ? `English, verse ${number}` : `English from ${name}, verse ${number}${missing ? ', no parallel' : ''}`;
       if (source === 'pi') poem.replaceChildren(...pali);
       else if (missing) poem.textContent = '—';
       else poem.replaceChildren(...lines.map(text => {
