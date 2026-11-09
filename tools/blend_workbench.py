@@ -70,14 +70,14 @@ def decision_card(d):
             f'<p class="lean">Claude: {e(d["lean"])}</p>{chosen}<p class="touches">Lines: {lines}</p></article>')
 
 
-def draft_line(segments):
+def draft_line(segments, ref=""):
     out = []
     for seg in segments:
         if isinstance(seg, str):
             out.append(e(seg))
         else:
-            out.append(f'<span role="button" tabindex="0" class="slot" data-slot="{e(seg["slot"])}" data-options="{e(json.dumps(seg["options"], ensure_ascii=False))}" '
-                       f'title="{e(seg["slot"])}: tap for the other options">{e(next(iter(seg["options"].values())))}</span>')
+            out.append(f'<span role="button" tabindex="0" class="slot" data-slot="{e(seg["slot"])}" data-ref="{e(ref)}" data-options="{e(json.dumps(seg["options"], ensure_ascii=False))}" '
+                       f'aria-haspopup="dialog">{e(next(iter(seg["options"].values())))}</span>')
     return "".join(out)
 
 
@@ -93,7 +93,7 @@ def draft_verse(v, link=True, compare=False):
     if not v.get("draft"):
         return ""
     head = f'<a class="dv-no" href="#v{v["no"]}">{v["no"]}</a>' if link else ""
-    draft = '<div class="dv-draft">' + "".join(f'<p>{draft_line(l["segments"])}</p>' for l in v["draft"]) + "</div>"
+    draft = '<div class="dv-draft">' + "".join("<p>" + draft_line(l["segments"], f'{v["no"]}.{l["line"]}') + "</p>" for l in v["draft"]) + "</div>"
     current = ""
     if compare:
         lines = CURRENT.get(str(v["no"]), {}).get("lines", [])
@@ -111,7 +111,7 @@ def draft_section(chapters):
     if not blocks:
         return ""
     return ('<h2>Read the draft</h2><p class="note">A first Literal+ draft, made from the two source readings, so you can judge each decision in the verses. '
-            'Underlined words change with a decision: tap one to try its alternatives, or pick an option on the cards below. Your picks are listed at the bottom of the screen, ready to paste into chat. '
+            'Underlined words change with a decision: point at one (or tap it on a phone) to see the question, the original texts behind it, and the options to switch between. Your picks are listed at the bottom of the screen, ready to paste into chat. '
             'The draft has not yet been reviewed against the sources.</p>' + "".join(blocks))
 
 
@@ -204,17 +204,71 @@ SCRIPT = """
     const parts = D.order.map(id => `${id} ${id in picks ? picks[id] : D.open.includes(id) ? '?' : D.keys[id]}`).concat(D.fixed);
     document.getElementById('answer-text').textContent = parts.join(' · ');
   }
+  const P = JSON.parse(document.getElementById('pop-data').textContent);
+  const pop = document.getElementById('pop');
+  const esc = t => String(t ?? '').replace(/[&<>"]/g, c => ({'&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;'}[c]));
+  const LANG = {pi: 'pi', pd: 'pra', ga: 'pgd', sa: 'sa', zh: 'zh-Hant', bo: 'bo'};
+  let current = null, pinned = false, hideTimer = null;
+  function fill(slot) {
+    const id = slot.dataset.slot, issue = P.issues[id] || {}, t = P.texts[slot.dataset.ref];
+    const opts = (issue.options || []).map(o => `<li><button type="button" class="pick" data-for="${esc(id)}" data-key="${esc(o.key)}" aria-pressed="${state[id] === o.key}"><b>${esc(o.key)}</b> <span>${esc(o.text)}</span>${o.recommended ? ' <small>' + (issue.tier === 4 ? 'leaning' : 'recommended') + '</small>' : ''}</button></li>`).join('');
+    const rows = t ? t.rows.map(r => `<tr class="${r.involved ? 'involved' : ''}"><th>${esc(r.name)}</th><td>${r.text ? `<span class="src" lang="${LANG[r.key] || ''}">${esc(r.text)}</span>` : '<span class="src none">—</span>'}${r.gloss ? `<span class="wg">${esc(r.gloss)}</span>` : ''}</td></tr>`).join('') : '';
+    const notes = t && t.notes.length ? '<ul class="diffs">' + t.notes.map(n => `<li><span class="who">${esc(n.who)}</span> <span class="kind">${esc(n.kind)}</span> ${esc(n.note)}</li>`).join('') + '</ul>' : '';
+    pop.innerHTML = `<div class="pop-issue"><p class="pop-id"><span class="rid">${esc(id)}</span> <span class="tier t${issue.tier}">T${issue.tier}</span> <button type="button" class="pop-close" aria-label="Close">×</button></p>
+      <h3>${esc(issue.title)}</h3><p>${esc(issue.text)}</p><ol class="options">${opts}</ol>${issue.lean ? `<p class="lean">Claude: ${esc(issue.lean)}</p>` : ''}</div>
+      ${t ? `<div class="pop-texts"><p class="pop-label">The texts · ${esc(t.label)}</p><table class="aligned">${rows}</table>${notes}<a class="pop-more" href="#v${t.verse}">Full line-by-line reading of verse ${t.verse} ↓</a></div>` : ''}`;
+  }
+  function place(slot) {
+    const narrow = matchMedia('(max-width: 760px)').matches;
+    pop.classList.toggle('sheet', narrow);
+    if (narrow) { pop.style.left = pop.style.top = ''; return; }
+    const r = slot.getBoundingClientRect();
+    const w = Math.min(760, innerWidth - 32);
+    pop.style.width = w + 'px';
+    pop.style.left = Math.max(16, Math.min(r.left + scrollX, scrollX + innerWidth - w - 16)) + 'px';
+    pop.style.maxHeight = '';
+    const h = pop.offsetHeight, below = innerHeight - r.bottom - 84, above = r.top - 20;
+    if (h > below && above > below) {
+      const room = Math.min(h, above);
+      pop.style.maxHeight = room + 'px';
+      pop.style.top = (r.top + scrollY - room - 10) + 'px';
+    } else {
+      pop.style.maxHeight = Math.max(240, below) + 'px';
+      pop.style.top = (r.bottom + scrollY + 10) + 'px';
+    }
+  }
+  function show(slot, pin) {
+    clearTimeout(hideTimer);
+    document.querySelectorAll('.slot.active').forEach(s => s.classList.remove('active'));
+    document.querySelectorAll(`.slot[data-slot="${slot.dataset.slot}"]`).forEach(s => s.classList.add('active'));
+    current = slot; pinned = pin || pinned;
+    fill(slot); pop.hidden = false; place(slot);
+  }
+  function hide() {
+    pop.hidden = true; current = null; pinned = false;
+    document.querySelectorAll('.slot.active').forEach(s => s.classList.remove('active'));
+  }
+  const hover = matchMedia('(hover: hover)').matches;
+  if (hover) {
+    document.addEventListener('mouseover', ev => {
+      const slot = ev.target.closest('.slot');
+      if (slot && !pinned) show(slot, false);
+      else if (ev.target.closest('#pop')) clearTimeout(hideTimer);
+    });
+    document.addEventListener('mouseout', ev => {
+      if (pinned) return;
+      if (ev.target.closest('.slot') || ev.target.closest('#pop')) { clearTimeout(hideTimer); hideTimer = setTimeout(hide, 250); }
+    });
+  }
   document.addEventListener('click', ev => {
     const slot = ev.target.closest('.slot');
-    if (slot) {
-      const keys = Object.keys(JSON.parse(slot.dataset.options));
-      const id = slot.dataset.slot;
-      picks[id] = keys[(keys.indexOf(state[id]) + 1) % keys.length];
-      save(); render(); return;
-    }
+    if (slot) { if (pinned && current === slot) hide(); else show(slot, true); return; }
+    if (ev.target.closest('.pop-close')) { hide(); return; }
     const pick = ev.target.closest('.pick');
-    if (pick) { picks[pick.dataset.for] = pick.dataset.key; save(); render(); }
+    if (pick) { picks[pick.dataset.for] = pick.dataset.key; save(); render(); if (current) fill(current); return; }
+    if (!ev.target.closest('#pop') && !pop.hidden) hide();
   });
+  document.addEventListener('keydown', ev => { if (ev.key === 'Escape' && !pop.hidden) hide(); });
   document.addEventListener('keydown', ev => { if ((ev.key === 'Enter' || ev.key === ' ') && ev.target.classList && ev.target.classList.contains('slot')) { ev.preventDefault(); ev.target.click(); } });
   document.getElementById('copy-answers').addEventListener('click', ev => {
     const text = document.getElementById('answer-text').textContent;
@@ -308,6 +362,23 @@ summary { font: 13px system-ui, sans-serif; color: var(--muted); cursor: pointer
 .options .pick[aria-pressed="true"] { border-color: var(--ink); background: #fff; }
 .options li { padding: 0 !important; }
 .options li.term { padding: 6px 12px !important; }
+.slot.active { background: #e8ecdf; color: var(--ink); text-decoration-style: solid; }
+.pop { position: absolute; z-index: 8; max-height: min(70vh, 640px); overflow: auto; background: #fff; border: 1px solid #d6d8cf; border-radius: 12px; box-shadow: 0 18px 50px rgba(40, 45, 35, .18); display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: 0 28px; padding: 20px 24px; }
+.pop[hidden] { display: none; }
+.pop h3 { font-size: 21px; font-weight: 400; margin: 0 0 8px; line-height: 1.3; }
+.pop p { font-size: 15px; line-height: 1.6; margin: 0 0 10px; }
+.pop .options .pick { font-size: 15px; padding: 6px 10px; }
+.pop .lean { font-size: 14px !important; }
+.pop-id { display: flex; align-items: center; gap: 8px; }
+.pop-close { margin-left: auto; width: 32px; height: 32px; border: 0; border-radius: 50%; background: var(--hover); font: 20px/1 system-ui, sans-serif; }
+.pop-label { font: 600 12px/1.4 system-ui, sans-serif !important; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin: 4px 0 6px !important; }
+.pop .aligned td { font-size: 16px; }
+.pop .aligned tr:not(.involved) { opacity: .62; }
+.pop .aligned tr.involved th { color: var(--ink); font-weight: 600; }
+.pop .src.none { color: #b9bdb2; }
+.pop .diffs { font-size: 14px; }
+.pop-more { display: inline-block; margin-top: 6px; font: 13px system-ui, sans-serif; color: var(--muted); }
+.pop.sheet { position: fixed; left: 0 !important; right: 0; bottom: 0; top: auto !important; width: auto !important; max-height: 78vh; border-radius: 16px 16px 0 0; grid-template-columns: 1fr; padding: 18px 20px 28px; z-index: 9; }
 .answers { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; display: flex; align-items: center; gap: 14px; padding: 10px max(20px, calc((100vw - 900px) / 2)); background: var(--ink); color: var(--paper); font: 13px/1.45 system-ui, sans-serif; }
 .answers p { margin: 0; flex: 1; max-height: 3.2em; overflow: auto; }
 .answers button { flex: none; min-height: 36px; padding: 0 16px; border: 1px solid var(--paper); border-radius: 999px; background: none; color: var(--paper); font: 600 13px system-ui, sans-serif; }
@@ -340,6 +411,44 @@ def findings_section():
             f'<h3 class="sub">Differences that matter</h3><ul class="notable">{notable}</ul>')
 
 
+def popover_data(rulings, chapters):
+    issues = {}
+    for r in rulings:
+        if is_choice(r):
+            issues[r["id"]] = {"tier": r["tier"], "title": r["title"], "text": r["statement"], "options": r["options"], "lean": None, "decided": r.get("decided")}
+    for c in chapters:
+        for d in c.get("decisions", []):
+            issues[d["id"]] = {"tier": 4, "title": d["title"], "text": d["question"], "options": d["options"], "lean": d.get("lean"), "decided": d.get("decided")}
+    texts = {}
+    for c in chapters:
+        for v in c["verses"]:
+            for dl in v.get("draft") or []:
+                if all(isinstance(seg, str) for seg in dl["segments"]):
+                    continue
+                line = v["lines"][dl["line"] - 1]
+                involved, notes, seen = set(), [], set()
+                for reader in ("A", "B"):
+                    for d in line["differences"].get(reader, []):
+                        if d.get("kind") not in {"variant", "wording", "structure", "partial", "translation"}:
+                            continue
+                        involved |= set(d.get("witnesses", []))
+                        key = (tuple(d.get("witnesses", [])), d.get("kind"))
+                        if key not in seen:
+                            seen.add(key)
+                            notes.append({"who": ", ".join(NAMES.get(w, w) for w in d.get("witnesses", [])), "kind": d.get("kind"), "note": d.get("note", "")})
+                rows = [{"key": "pi", "name": "Pāli", "text": line["pi"], "gloss": line["gloss"]["A"] or line["gloss"]["B"] or "", "involved": True}]
+                for k in KEYS[1:]:
+                    status = v["witnesses"].get(k)
+                    if status == "not-located":
+                        rows.append({"key": k, "name": NAMES[k], "text": None, "gloss": "not found for this verse", "involved": False})
+                        continue
+                    text = line["aligned"]["A"].get(k) or line["aligned"]["B"].get(k)
+                    gloss = line["witness_glosses"]["A"].get(k) or line["witness_glosses"]["B"].get(k) or ""
+                    rows.append({"key": k, "name": NAMES[k] + (" (partial)" if status == "partial" else ""), "text": text, "gloss": gloss, "involved": k in involved})
+                texts[f'{v["no"]}.{dl["line"]}'] = {"label": f'Verse {v["no"]}, line {dl["line"]}', "verse": v["no"], "rows": rows, "notes": notes[:4]}
+    return {"issues": issues, "texts": texts}
+
+
 def build():
     rulings, chapters = load()
     waiting = [r for r in rulings if r["status"] == "proposed"]
@@ -368,6 +477,8 @@ def build():
 {findings_section()}
 </main>
 <div class="answers" id="answers"><p id="answer-text"></p><button type="button" id="copy-answers">Copy</button></div>
+<div class="pop" id="pop" role="dialog" aria-modal="false" hidden></div>
+<script type="application/json" id="pop-data">{json.dumps(popover_data(rulings, chapters), ensure_ascii=False).replace("<", "\\u003c")}</script>
 <script type="application/json" id="defaults">{json.dumps(defaults, ensure_ascii=False)}</script>
 <script>{SCRIPT}</script>
 </body></html>
