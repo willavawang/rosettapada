@@ -324,6 +324,23 @@ for path in sorted((ROOT / "data/blend/chapters").glob("*.json")):
         for b in v.get("blend") or []:
             assert b.get("witnesses") and b.get("tier") in (1, 2, 3, 4), f"{path.name} verse {v['no']} Blend line lacks provenance"
             assert all(ref in ruling_ids for ref in b.get("rules", [])), f"{path.name} verse {v['no']} Blend cites an unknown ruling"
+findings_path = ROOT / "data/blend/findings.json"
+if findings_path.exists():
+    findings = json.loads(findings_path.read_text())
+    blend_lines = set()
+    decision_ids = set()
+    for path in (ROOT / "data/blend/chapters").glob("*.json"):
+        blend_chapter = json.loads(path.read_text())
+        blend_lines |= {f"{v['no']}.{l['line']}" for v in blend_chapter["verses"] for l in v["lines"]}
+        decision_ids |= {d["id"] for d in blend_chapter.get("decisions", [])}
+    notable_ids = {n["id"] for n in findings["notable"]}
+    for n in findings["notable"]:
+        assert n["weight"] in {"doctrine", "practice", "imagery", "translation"}, f'{n["id"]} has an unknown weight'
+        assert set(n["lines"]) <= blend_lines, f'{n["id"]} cites a line that has not been read'
+        assert set(n["refs"]) <= set(ruling_ids) | decision_ids, f'{n["id"]} cites an unknown ruling or decision'
+    for p in findings["patterns"]:
+        assert p["status"] in {"hypothesis", "supported", "weakened", "dropped"}, f'{p["id"]} has an unknown status'
+        assert set(p["evidence"]) | set(p["against"]) <= notable_ids, f'{p["id"]} cites unknown evidence'
 frozen = json.loads((ROOT / "data/witnesses/provenance.json").read_text())
 for source in frozen["files"]:
     assert hashlib.sha256((ROOT / source["path"]).read_bytes()).hexdigest() == source["sha256"], f'Historical snapshot changed: {source["path"]}'

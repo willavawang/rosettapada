@@ -1,0 +1,258 @@
+{
+ "notable": [
+  {
+   "id": "N-001",
+   "lines": [
+    "1.2",
+    "2.2"
+   ],
+   "witnesses": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "bo"
+   ],
+   "what": "The Pāli alone says the mind's states are “made of mind” (manomayā). Patna, Gāndhārī, Sanskrit and Tibetan all say “swift as mind” (manojavā).",
+   "why": "The most quoted line of the Dhammapada is, on this evidence, the outlier. “Made of mind” invites the reading that mind constructs experience; “swift as mind” stresses the speed with which mind leads. The teaching that mind comes first stands in every tradition either way.",
+   "weight": "doctrine",
+   "refs": [
+    "T4-01"
+   ]
+  },
+  {
+   "id": "N-002",
+   "lines": [
+    "5.3"
+   ],
+   "witnesses": [
+    "sa",
+    "bo",
+    "pi",
+    "pd",
+    "zh"
+   ],
+   "what": "Enmity is ended “by non-enmity” in the Pāli and Patna, “by not resenting” in the Chinese, but “by patience” (kṣānti) in the Sanskrit and Tibetan.",
+   "why": "A negation (simply not returning enmity) against a named virtue to cultivate (patience). For practice, one says what to stop; the other what to develop.",
+   "weight": "practice",
+   "refs": [
+    "R-T3-01"
+   ]
+  },
+  {
+   "id": "N-003",
+   "lines": [
+    "7.5",
+    "8.5"
+   ],
+   "witnesses": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "bo"
+   ],
+   "what": "What overthrows the undisciplined person is Māra in the Pāli and Patna, but passion (rāga) in the Gāndhārī, Sanskrit and Tibetan.",
+   "why": "A personified tempter against a plain mental state. The same verse can read as mythic or psychological depending on the tradition.",
+   "weight": "doctrine",
+   "refs": [
+    "T4-04"
+   ]
+  },
+  {
+   "id": "N-004",
+   "lines": [
+    "7.4",
+    "8.4"
+   ],
+   "witnesses": [
+    "sa",
+    "bo",
+    "zh",
+    "pi",
+    "pd",
+    "ga"
+   ],
+   "what": "Where the Pāli praises faith and energy, the Sanskrit speaks of wakefulness and the Tibetan of mindfulness; the Chinese and Tibetan drop faith.",
+   "why": "The list of qualities that protect a practitioner shifts from faith toward attentiveness in the northern texts.",
+   "weight": "practice",
+   "refs": [
+    "R-T3-01",
+    "R-T3-02"
+   ]
+  },
+  {
+   "id": "N-005",
+   "lines": [
+    "9.3",
+    "10.3"
+   ],
+   "witnesses": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "bo"
+   ],
+   "what": "The worthy wearer of the robe has self-control and truth (Pāli, Patna) or self-control and gentleness (Gāndhārī, Sanskrit, Tibetan).",
+   "why": "Two different virtues define the true renunciant: truthfulness, or gentleness of manner.",
+   "weight": "practice",
+   "refs": [
+    "T4-05"
+   ]
+  },
+  {
+   "id": "N-006",
+   "lines": [
+    "3.1",
+    "4.1"
+   ],
+   "witnesses": [
+    "pi",
+    "pd",
+    "sa",
+    "bo",
+    "zh"
+   ],
+   "what": "The remembered injury includes a blow (“he struck me”) in the Pāli and Patna; in the Sanskrit, Tibetan and the related Chinese it is all words (“they spoke against me”).",
+   "why": "The teaching on letting go of grudges applies either way; the Pāli makes the injury physical, the northern texts verbal.",
+   "weight": "imagery",
+   "refs": [
+    "T4-02"
+   ]
+  },
+  {
+   "id": "N-007",
+   "lines": [
+    "13.3",
+    "14.3"
+   ],
+   "witnesses": [
+    "ga"
+   ],
+   "what": "Only the Gāndhārī says the mind is “unguarded / well guarded”; every other tradition says “undeveloped / well developed”.",
+   "why": "Guarding (a protective practice) against developing (a cultivating one). A lone reading, so it does not change the Blend, but it shows a different emphasis.",
+   "weight": "practice",
+   "refs": [
+    "R-T3-02"
+   ]
+  },
+  {
+   "id": "N-008",
+   "lines": [
+    "1.6"
+   ],
+   "witnesses": [
+    "bo"
+   ],
+   "what": "The Tibetan ends verse 1 with “like a head cut off by a wheel”; its own Sanskrit source and every other tradition have the wheel following the ox's foot.",
+   "why": "A translation event inside the Tibetan, not an older reading. A reminder that a translation can carry its own errors or reinterpretations.",
+   "weight": "translation",
+   "refs": [
+    "R-T3-01"
+   ]
+  },
+  {
+   "id": "N-009",
+   "lines": [
+    "19.1",
+    "20.1",
+    "17.3",
+    "18.3",
+    "19.3"
+   ],
+   "witnesses": [
+    "zh"
+   ],
+   "what": "The Chinese recasts several lines in moral terms: “clever words, many wants”, “that is self-made calamity / self-made blessing”, a herd of cattle instead of a cowherd counting others' cows.",
+   "why": "The 3rd-century Chinese translator reads the verses as plain ethical advice in his own idiom. It shows how one early reader understood them.",
+   "weight": "translation",
+   "refs": [
+    "R-T3-03"
+   ]
+  },
+  {
+   "id": "N-010",
+   "lines": [
+    "20.3",
+    "20.4",
+    "20.5"
+   ],
+   "witnesses": [
+    "ga",
+    "sa",
+    "bo"
+   ],
+   "what": "The Pāli's portrait of the practitioner who lives the teaching (letting go of passion, hatred and delusion; fully aware; mind released; clinging to nothing) has no counterpart in the Gāndhārī or Udānavarga, whose versions are shorter.",
+   "why": "The fuller description of liberation may be an expansion in the Pāli (Patna shares only part of it), or a loss elsewhere. The Blend keeps it (R-T3-04).",
+   "weight": "doctrine",
+   "refs": [
+    "R-T3-04"
+   ]
+  }
+ ],
+ "patterns": [
+  {
+   "id": "P-01",
+   "statement": "Where the Pāli has a negation or a general quality, the Udānavarga (Sanskrit and Tibetan) tends to name a specific virtue or practice to cultivate: patience, wakefulness, mindfulness.",
+   "status": "hypothesis",
+   "evidence": [
+    "N-002",
+    "N-004"
+   ],
+   "against": [],
+   "chapters": [
+    1
+   ]
+  },
+  {
+   "id": "P-02",
+   "statement": "Pāli and Patna keep mythic or concrete images (Māra; a blow) where the Gāndhārī and Udānavarga have psychological or verbal ones (passion; words).",
+   "status": "hypothesis",
+   "evidence": [
+    "N-003",
+    "N-006"
+   ],
+   "against": [],
+   "chapters": [
+    1
+   ]
+  },
+  {
+   "id": "P-03",
+   "statement": "The Pāli can be the outlier, even in its best-known lines; agreement among the others is a real check on it.",
+   "status": "hypothesis",
+   "evidence": [
+    "N-001"
+   ],
+   "against": [],
+   "chapters": [
+    1
+   ]
+  },
+  {
+   "id": "P-04",
+   "statement": "The Chinese is better read as an early interpretation than as a separate wording of the verse: it moralizes and uses its own images.",
+   "status": "hypothesis",
+   "evidence": [
+    "N-009"
+   ],
+   "against": [],
+   "chapters": [
+    1
+   ]
+  },
+  {
+   "id": "P-05",
+   "statement": "Many Tibetan departures are translation events (reordering, formulaic lines, misreadings), not older readings.",
+   "status": "hypothesis",
+   "evidence": [
+    "N-008"
+   ],
+   "against": [],
+   "chapters": [
+    1
+   ]
+  }
+ ]
+}

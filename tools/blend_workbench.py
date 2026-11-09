@@ -191,8 +191,35 @@ summary { font: 13px system-ui, sans-serif; color: var(--muted); cursor: pointer
 .blend { background: #fff; border-left: 3px solid var(--accent); padding: 12px 18px; margin: 0 0 12px; }
 .blend p { font-size: 20px; line-height: 1.6; margin: 0; }
 .blend .label { font: 600 12px system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+.patterns, .notable { list-style: none; padding: 0; margin: 0; }
+.patterns li { font-size: 17px; line-height: 1.6; margin-bottom: 14px; }
+.notable li { padding: 14px 0; border-top: 1px solid #e6e6df; }
+.notable p { font-size: 17px; line-height: 1.6; margin: 0 0 4px; }
 @media (max-width: 760px) { .wb h1 { font-size: 40px; } .wb { padding: 0 20px 80px; } .dots { margin-left: 0; flex-basis: 100%; } .aligned th { white-space: normal; } }
 """
+
+
+WEIGHTS = {"doctrine": "doctrine", "practice": "practice", "imagery": "imagery", "translation": "how it was translated"}
+
+
+def findings_section():
+    path = ROOT / "data/blend/findings.json"
+    if not path.exists():
+        return ""
+    f = json.loads(path.read_text(encoding="utf-8"))
+    patterns = "".join(
+        f'<li id="{e(p["id"])}"><span class="rid">{e(p["id"])}</span> <span class="kind">{e(p["status"])}</span> {e(p["statement"])}'
+        f' <span class="touches">Evidence: {", ".join(f"<a href=#{e(x)}>{e(x)}</a>" for x in p["evidence"]) or "—"}'
+        f'{"; against: " + ", ".join(e(x) for x in p["against"]) if p["against"] else ""} · chapters {", ".join(str(c) for c in p["chapters"])}</span></li>'
+        for p in f["patterns"])
+    notable = "".join(
+        f'<li id="{e(n["id"])}"><p><span class="rid">{e(n["id"])}</span> <span class="kind">{e(WEIGHTS.get(n["weight"], n["weight"]))}</span> '
+        f'{", ".join(f"<a href=#v{l.split(chr(46))[0]}>{e(l)}</a>" for l in n["lines"])}</p><p>{e(n["what"])}</p><p class="gloss">{e(n["why"])}</p>'
+        f'<p class="touches">{" ".join(f"<a class=rule-ref href=#{e(r)}>{e(r)}</a>" for r in n["refs"])}</p></li>'
+        for n in f["notable"])
+    return (f'<h2>What we are learning</h2><p class="note">The record behind the home page’s account of how the traditions differ. '
+            f'Patterns stay hypotheses until later chapters support or weaken them.</p><h3 class="sub">Patterns</h3><ul class="patterns">{patterns}</ul>'
+            f'<h3 class="sub">Differences that matter</h3><ul class="notable">{notable}</ul>')
 
 
 def build():
@@ -213,6 +240,7 @@ def build():
 {waiting_html}
 {settled_html}
 {"".join(chapter_section(c) for c in chapters)}
+{findings_section()}
 </main></body></html>
 """
     target = ROOT / "blend/index.html"

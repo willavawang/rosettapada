@@ -24,6 +24,10 @@ About 35 moderate-confidence wording improvements, such as "Māra's flower-tippe
 
 - [ ] Write the Blend: one English rendering per verse that draws on all six traditions, picking the best reading from each or building it up from what they show together. Until then the English column ("Rosettapada Blend · from the Pāli for now") shows the Pāli-based draft from `data/english/pi.json`. Decide the final name, where the Blend data lives (e.g. `data/english/blend.json`), and how a Blend line credits the tradition it came from. When the Blend replaces the placeholder, update `BLEND_REFERENCE` in build.py, the English section of notes.html and WORK_BRIEF.md.
 
+## Home page (introduction to the site)
+
+- [ ] A short written introduction: what the site is, the six traditions, and our summary of the main differences between them for those on the path, and how those differences shaped the Rosettapada Blend. Draft from `data/blend/findings.json` at each Blend milestone (after 1, 3, 7 and 26 chapters); claim only what the record supports. Owner reviews on the live site.
+
 ## Verses found only in other traditions (owner asked 2026-11-09; after the 423 Pāli positions)
 
 - [ ] **Inventory first, for the owner to look at.** For each tradition: total verses, chapters, and how many have no Pāli counterpart; then group the non-Pāli verses by which other traditions share them (one tradition only, two, three or more) and by chapter. Show it on the live site as a table. Rough sizes from the scholarship, to be verified against the full texts: Sanskrit Udānavarga ≈1,000 verses in 33 chapters; Tibetan Toh 326 follows the Udānavarga; Chinese T210 ≈750 verses in 39 chapters (13 chapters beyond the Pāli's 26); Patna ≈414 verses in 22 chapters; Gāndhārī ≈350 surviving verses.
