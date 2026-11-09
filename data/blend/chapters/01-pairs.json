@@ -1050,7 +1050,62 @@
     "B": "Line 2 is the major crux (manomayā vs manojavā). The final simile needs a supplied ⟨ox⟩ in English (vahato 'of the one drawing'). Edition 'ins' marks in Sanskrit lines 2 and 6 (e.g. on 'ḥ', '//') look like revision markup and carry no textual weight."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "Mind goes before ",
+      {
+       "slot": "R-T2-01",
+       "options": {
+        "A": "things",
+        "B": "mental states",
+        "C": "experiences"
+       }
+      },
+      "."
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "Mind is their chief; ",
+      {
+       "slot": "T4-01",
+       "options": {
+        "A": "they are made of mind",
+        "B": "they are swift as mind"
+       }
+      },
+      "."
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "If, with a corrupted mind,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "one speaks or acts,"
+     ]
+    },
+    {
+     "line": 5,
+     "segments": [
+      "then suffering follows him"
+     ]
+    },
+    {
+     "line": 6,
+     "segments": [
+      "as the wheel follows the foot of the ox that draws it."
+     ]
+    }
+   ]
   },
   {
    "no": 2,
@@ -1599,7 +1654,68 @@
     "B": "Shares verse 1's crux. Final simile: anapāyinī vs anugāminī is a wording split in which Pāli+Patna stand against Gāndhārī, Udānavarga and Chinese; flag for the wording-default ruling."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "Mind goes before ",
+      {
+       "slot": "R-T2-01",
+       "options": {
+        "A": "things",
+        "B": "mental states",
+        "C": "experiences"
+       }
+      },
+      "."
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "Mind is their chief; ",
+      {
+       "slot": "T4-01",
+       "options": {
+        "A": "they are made of mind",
+        "B": "they are swift as mind"
+       }
+      },
+      "."
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "If, with a clear mind,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "one speaks or acts,"
+     ]
+    },
+    {
+     "line": 5,
+     "segments": [
+      "then happiness follows him"
+     ]
+    },
+    {
+     "line": 6,
+     "segments": [
+      {
+       "slot": "R-T2-06",
+       "options": {
+        "A": "like a shadow that follows him.",
+        "B": "like a shadow that never leaves him."
+       }
+      }
+     ]
+    }
+   ]
   },
   {
    "no": 3,
@@ -2056,7 +2172,53 @@
     "B": "Gāndhārī not located. The Chinese is T212 (T210 lacks this verse). The Sanskrit lines 1-2 carry 'ins' marks in the edition on 'm avocan mām' and 'ajayan mām a'/'e'; I take these as revision markup, but if they mark editorial restoration the Sanskrit 'avocan' would be weaker. Patna is 3rd singular like Pāli."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      {
+       "slot": "T4-02",
+       "options": {
+        "A": "“He abused me, he struck me,",
+        "B": "“They abused me, they spoke against me,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      {
+       "slot": "T4-02",
+       "options": {
+        "A": "he defeated me, he robbed me”:",
+        "B": "they defeated me, they robbed me”:"
+       }
+      }
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "in those who harbour such thoughts"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      {
+       "slot": "R-T2-03",
+       "options": {
+        "A": "enmity",
+        "B": "hostility",
+        "C": "hatred"
+       }
+      },
+      " is not stilled."
+     ]
+    }
+   ]
   },
   {
    "no": 4,
@@ -2443,7 +2605,53 @@
     "B": "Gāndhārī not located. The Chinese T213 stanza is a single 'positive' stanza used for both 3 and 4; it is a partial parallel."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      {
+       "slot": "T4-02",
+       "options": {
+        "A": "“He abused me, he struck me,",
+        "B": "“They abused me, they spoke against me,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      {
+       "slot": "T4-02",
+       "options": {
+        "A": "he defeated me, he robbed me”:",
+        "B": "they defeated me, they robbed me”:"
+       }
+      }
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "in those who do not harbour such thoughts"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      {
+       "slot": "R-T2-03",
+       "options": {
+        "A": "enmity",
+        "B": "hostility",
+        "C": "hatred"
+       }
+      },
+      " is stilled."
+     ]
+    }
+   ]
   },
   {
    "no": 5,
@@ -2797,7 +3005,6 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-01",
       "R-T2-02"
      ],
      "decision": null
@@ -2812,7 +3019,66 @@
     "B": "Gāndhārī not located. Patna places this in its Khānti (patience) chapter yet reads avereṇa, not patience."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "Not by ",
+      {
+       "slot": "R-T2-03",
+       "options": {
+        "A": "enmity",
+        "B": "hostility",
+        "C": "hatred"
+       }
+      },
+      " are ",
+      {
+       "slot": "R-T2-03",
+       "options": {
+        "A": "enmities",
+        "B": "hostilities",
+        "C": "hatreds"
+       }
+      }
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "ever stilled here;"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "by ",
+      {
+       "slot": "R-T2-03",
+       "options": {
+        "A": "non-enmity",
+        "B": "non-hostility",
+        "C": "non-hatred"
+       }
+      },
+      " they are stilled."
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      {
+       "slot": "R-T2-02",
+       "options": {
+        "A": "This is an age-old principle.",
+        "B": "This is an age-old law.",
+        "C": "This is an eternal law."
+       }
+      }
+     ]
+    }
+   ]
   },
   {
    "no": 6,
@@ -3212,7 +3478,40 @@
     "B": "Sanskrit and Gāndhārī not located. Chinese and Tibetan are partial/provisional parallels (the Tibetan note says Rockhill does not identify it with Dhp 6). Only Pāli and Patna are full witnesses."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "Others do not understand"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      {
+       "slot": "T4-03",
+       "options": {
+        "A": "that we here are perishing;",
+        "B": "that here we must restrain ourselves;",
+        "C": "that here we must strive;"
+       }
+      }
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "but those who do understand this"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "thereby still their quarrels."
+     ]
+    }
+   ]
   },
   {
    "no": 7,
@@ -3791,7 +4090,51 @@
     "B": "Tibetan reorders: faculties, food, mindfulness/laziness, viewing-as-pure, passion, tree. Crux: Māra (Pāli, Patna) vs passion (Gāndhārī, Sanskrit, Tibetan). Sanskrit 'ins' mark on 'h' in 'hīnaṁ' taken as revision markup."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "One who lives contemplating the attractive,"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "unrestrained in his senses,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "immoderate in food,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "lazy, low in energy:"
+     ]
+    },
+    {
+     "line": 5,
+     "segments": [
+      {
+       "slot": "T4-04",
+       "options": {
+        "A": "Māra overpowers him",
+        "B": "passion overpowers him"
+       }
+      }
+     ]
+    },
+    {
+     "line": 6,
+     "segments": [
+      "as the wind a weak tree."
+     ]
+    }
+   ]
   },
   {
    "no": 8,
@@ -4391,7 +4734,51 @@
     "B": "Patna fragmentary (lines 3-4). Same Māra/passion crux as verse 7."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "One who lives contemplating the unattractive,"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "well restrained in his senses,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "moderate in food,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "faithful, his energy aroused:"
+     ]
+    },
+    {
+     "line": 5,
+     "segments": [
+      {
+       "slot": "T4-04",
+       "options": {
+        "A": "Māra does not overpower him",
+        "B": "passion does not overpower him"
+       }
+      }
+     ]
+    },
+    {
+     "line": 6,
+     "segments": [
+      "as the wind does not a mountain of rock."
+     ]
+    }
+   ]
   },
   {
    "no": 9,
@@ -4778,7 +5165,53 @@
     "B": "Wordplay verse. Crux: sacca vs sorata (shared with verse 10)."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      {
+       "slot": "R-T2-04",
+       "options": {
+        "A": "Whoever, not rid of stains,",
+        "B": "Whoever, not free of impurities,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      {
+       "slot": "R-T2-04",
+       "options": {
+        "A": "would wear the stained ⟨ochre⟩ robe,",
+        "B": "would wear the ochre robe,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "lacking self-control and ",
+      {
+       "slot": "T4-05",
+       "options": {
+        "A": "truth",
+        "B": "gentleness"
+       }
+      },
+      ","
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "is not worthy of the ochre robe."
+     ]
+    }
+   ]
   },
   {
    "no": 10,
@@ -5138,7 +5571,47 @@
     "B": "Pair of verse 9."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      {
+       "slot": "R-T2-04",
+       "options": {
+        "A": "But one who has purged his stains,",
+        "B": "But one who has purged his impurities,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "well settled in virtue,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "endowed with self-control and ",
+      {
+       "slot": "T4-05",
+       "options": {
+        "A": "truth",
+        "B": "gentleness"
+       }
+      },
+      ","
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "is worthy of the ochre robe."
+     ]
+    }
+   ]
   },
   {
    "no": 11,
@@ -5551,7 +6024,33 @@
     "B": "Clean agreement apart from renderings of sāra and saṅkappa."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "Taking the inessential for the essential"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "and seeing the essential as inessential,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "they do not reach the essential,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "living in the range of wrong intention."
+     ]
+    }
+   ]
   },
   {
    "no": 12,
@@ -5894,7 +6393,33 @@
     "B": "Pair of verse 11."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "Knowing the essential as essential"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "and the inessential as inessential,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "they reach the essential,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "living in the range of right intention."
+     ]
+    }
+   ]
   },
   {
    "no": 13,
@@ -6258,7 +6783,33 @@
     "B": "Gāndhārī 'unguarded' (also verse 14) is a lone variant."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "As a badly thatched house"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "is pierced by the rain,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "so an undeveloped mind"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "is pierced by passion."
+     ]
+    }
+   ]
   },
   {
    "no": 14,
@@ -6613,7 +7164,33 @@
     "B": "Pair of verse 13. The Sanskrit is Uv 31.17 (not adjacent to 31.11); Tibetan pairs the similes."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "As a well-thatched house"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "is not pierced by the rain,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "so a well-developed mind"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "is not pierced by passion."
+     ]
+    }
+   ]
   },
   {
    "no": 15,
@@ -7037,7 +7614,33 @@
     "B": "Tibetan order: seeing, here/elsewhere, both, grieves greatly."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "He grieves here, he grieves after death;"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "the evildoer grieves in both worlds."
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "He grieves, he is afflicted,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "seeing the defilement of his own deeds."
+     ]
+    }
+   ]
   },
   {
    "no": 16,
@@ -7414,7 +8017,33 @@
     "B": "Patna fragmentary at line 3."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "He rejoices here, he rejoices after death;"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "one who has made merit rejoices in both worlds."
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "He rejoices, he rejoices greatly,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "seeing the purity of his own deeds."
+     ]
+    }
+   ]
   },
   {
    "no": 17,
@@ -7762,7 +8391,33 @@
     "B": "Patna, Gāndhārī and Sanskrit not located. Pāli is the only Indic witness; Tibetan 28.37 (Rockhill) is a structural copy of verse 15 with 'tormented'. duggati (bad destination) belongs in the glossary."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "He is tormented here, tormented after death;"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "the evildoer is tormented in both worlds."
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "“I have done evil”: so he is tormented,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "tormented all the more, gone to a bad destination."
+     ]
+    }
+   ]
   },
   {
    "no": 18,
@@ -8089,7 +8744,33 @@
     "B": "Pāli is the only Indic witness. Pāli 18 uses nandati (verse 16 modati); keep the distinction in English."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      "He delights here, he delights after death;"
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "one who has made merit delights in both worlds."
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "“I have made merit”: so he delights,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "delights all the more, gone to a good destination."
+     ]
+    }
+   ]
   },
   {
    "no": 19,
@@ -8555,7 +9236,46 @@
     "B": "Chinese is six lines and freely recast. Crux: meaning of saṁhita (shared with verse 20)."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      {
+       "slot": "T4-06",
+       "options": {
+        "A": "Though he recites much of the scriptures,",
+        "B": "Though he speaks many meaningful words,",
+        "C": "Though he speaks much that is beneficial,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "the heedless man, not acting on it,"
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "like a cowherd counting others’ cows,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      {
+       "slot": "T4-07",
+       "options": {
+        "A": "has no share in the recluse’s life.",
+        "B": "has no share in the goal of the recluse’s life."
+       }
+      }
+     ]
+    }
+   ]
   },
   {
    "no": 20,
@@ -8756,7 +9476,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-01"
+      "R-T2-07"
      ],
      "decision": null
     },
@@ -9198,7 +9918,65 @@
     "B": "Pāli and Patna have six lines; Gāndhārī four (lacks lines 3-4); Sanskrit and Tibetan four (lack lines 4-5, Sanskrit merges 'having abandoned' into its last line). Gāndhārī 'ins' marks on 'i', 'ma' taken as revision markup."
    },
    "blend": null,
-   "status": "read"
+   "status": "read",
+   "draft": [
+    {
+     "line": 1,
+     "segments": [
+      {
+       "slot": "T4-06",
+       "options": {
+        "A": "Though he recites little of the scriptures,",
+        "B": "Though he speaks few meaningful words,",
+        "C": "Though he speaks little that is beneficial,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 2,
+     "segments": [
+      "if he lives in accordance with ",
+      {
+       "slot": "R-T2-07",
+       "options": {
+        "A": "the teaching,",
+        "B": "the Dhamma,"
+       }
+      }
+     ]
+    },
+    {
+     "line": 3,
+     "segments": [
+      "abandoning passion, hatred and delusion,"
+     ]
+    },
+    {
+     "line": 4,
+     "segments": [
+      "fully aware, his mind well released,"
+     ]
+    },
+    {
+     "line": 5,
+     "segments": [
+      "clinging to nothing here or beyond,"
+     ]
+    },
+    {
+     "line": 6,
+     "segments": [
+      {
+       "slot": "T4-07",
+       "options": {
+        "A": "he has a share in the recluse’s life.",
+        "B": "he has a share in the goal of the recluse’s life."
+       }
+      }
+     ]
+    }
+   ]
   }
  ],
  "decisions": [
@@ -9352,5 +10130,6 @@
    ],
    "lean": "A, slightly: the shorter line, and B's 'goal' may be an explanatory expansion."
   }
- ]
+ ],
+ "draft_note": "Provisional Literal+ draft made from the two source-only readings, to let the owner judge the rulings in context. Not reviewed against the sources yet."
 }

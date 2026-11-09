@@ -37,11 +37,22 @@ def load():
     return rulings, chapters
 
 
+def pickable(item_id, options, note="recommended"):
+    return "".join(
+        f'<li><button type="button" class="pick" data-for="{e(item_id)}" data-key="{e(o["key"])}" aria-pressed="false">'
+        f'<b>{e(o["key"])}</b> <span>{e(o["text"])}</span>{f" <small>{note}</small>" if o.get("recommended") else ""}</button></li>'
+        for o in options)
+
+
+def is_choice(r):
+    return all(len(o["key"]) == 1 for o in r.get("options", []))
+
+
 def ruling_card(r):
-    options = "".join(
-        f'<li{" class=\"recommended\"" if o.get("recommended") else ""}><b>{e(o["key"])}</b> {e(o["text"])}'
-        f'{" <small>recommended</small>" if o.get("recommended") else ""}</li>'
-        for o in r.get("options", []))
+    if is_choice(r):
+        options = pickable(r["id"], r.get("options", []))
+    else:
+        options = "".join(f'<li class="term"><b>{e(o["key"])}</b> {e(o["text"])}</li>' for o in r.get("options", []))
     verses = ", ".join(f'<a href="#v{n}">{n}</a>' for n in r.get("verses", []))
     decided = f'<p class="decided">Decided: {e(r["decided"])}</p>' if r.get("decided") else ""
     return (f'<article class="ruling" id="{e(r["id"])}"><header><span class="rid">{e(r["id"])}</span>'
@@ -51,15 +62,42 @@ def ruling_card(r):
 
 
 def decision_card(d):
-    options = "".join(
-        f'<li{" class=\"recommended\"" if o.get("recommended") else ""}><b>{e(o["key"])}</b> {e(o["text"])}'
-        f'{" <small>leaning</small>" if o.get("recommended") else ""}</li>'
-        for o in d["options"])
+    options = pickable(d["id"], d["options"], "leaning")
     lines = ", ".join(f'<a href="#v{l.split(".")[0]}">{e(l)}</a>' for l in d["lines"])
     chosen = f'<p class="decided">Decided: {e(d["decided"])}</p>' if d.get("decided") else ""
     return (f'<article class="ruling" id="{e(d["id"])}"><header><span class="rid">{e(d["id"])}</span><span class="tier t4">T4</span>'
             f'<h3>{e(d["title"])}</h3></header><p>{e(d["question"])}</p><ol class="options">{options}</ol>'
             f'<p class="lean">Claude: {e(d["lean"])}</p>{chosen}<p class="touches">Lines: {lines}</p></article>')
+
+
+def draft_line(segments):
+    out = []
+    for seg in segments:
+        if isinstance(seg, str):
+            out.append(e(seg))
+        else:
+            out.append(f'<span role="button" tabindex="0" class="slot" data-slot="{e(seg["slot"])}" data-options="{e(json.dumps(seg["options"], ensure_ascii=False))}" '
+                       f'title="{e(seg["slot"])}: tap for the other options">{e(next(iter(seg["options"].values())))}</span>')
+    return "".join(out)
+
+
+def draft_verse(v, link=True):
+    if not v.get("draft"):
+        return ""
+    head = f'<a class="dv-no" href="#v{v["no"]}">{v["no"]}</a>' if link else ""
+    return f'<div class="dv">{head}<div>' + "".join(f'<p>{draft_line(l["segments"])}</p>' for l in v["draft"]) + "</div></div>"
+
+
+def draft_section(chapters):
+    blocks = []
+    for c in chapters:
+        if any(v.get("draft") for v in c["verses"]):
+            blocks.append(f'<h3 class="sub">{e(c["chapter"]["title"])}</h3>' + "".join(draft_verse(v) for v in c["verses"]))
+    if not blocks:
+        return ""
+    return ('<h2>Read the draft</h2><p class="note">A first Literal+ draft, made from the two source readings, so you can judge each decision in the verses. '
+            'Underlined words change with a decision: tap one to try its alternatives, or pick an option on the cards below. Your picks are listed at the bottom of the screen, ready to paste into chat. '
+            'The draft has not yet been reviewed against the sources.</p>' + "".join(blocks))
 
 
 def differences(line):
@@ -104,7 +142,7 @@ def verse_block(v):
         rows.append(f'<li class="line"><span class="tier t{line["tier"]}" title="{TIER_WORDS[line["tier"]]}">T{line["tier"]}</span>'
                     f'<div><p class="pi" lang="pi">{e(line["pi"])}</p><p class="gloss">{e(gloss)}</p>{rules}{split}{flag}'
                     f'{differences(line)}{aligned_texts(line, v["witnesses"])}</div></li>')
-    blend = ""
+    blend = f'<div class="blend"><p class="label">Draft</p>{draft_verse(v, link=False)}</div>' if v.get("draft") else ""
     if v.get("blend"):
         blend = '<div class="blend"><p class="label">Rosettapada Blend · draft</p>' + "".join(f'<p>{e(l["text"])}</p>' for l in v["blend"]) + "</div>"
     return (f'<section class="verse-card" id="v{v["no"]}"><header><h3>Verse {v["no"]}</h3><span class="tier t{v["tier"]}">T{v["tier"]}</span>'
@@ -123,7 +161,7 @@ def chapter_section(c):
     decisions = ""
     if c.get("decisions"):
         decisions = (f'<h3 class="sub">Questions only you can answer (T4) · {len(open_decisions)} open</h3>'
-                     '<p class="note">These come back to you with the drafted verses at the second checkpoint. Answer now if you already know.</p>'
+                     '<p class="note">Try each option in the draft above. Answer now, or wait until the draft has been reviewed.</p>'
                      + "".join(decision_card(d) for d in c["decisions"]))
     return (f'<section class="chapter" id="chapter{ch["no"]}"><h2>{e(ch["title"])} <small>verses {ch["start"]}–{ch["end"]}</small></h2>'
             f'<p class="stage">{e(STAGES.get(c["stage"], c["stage"]))}</p>'
@@ -131,6 +169,47 @@ def chapter_section(c):
             f'<p class="note">{len(lines)} lines read twice, blind. The readers gave different tiers on {split}; those take the higher tier. A verse takes the tier of its hardest line.</p>'
             f'{decisions}<h3 class="sub">Verse by verse</h3>{"".join(verse_block(v) for v in c["verses"])}</section>')
 
+
+SCRIPT = """
+(() => {
+  const D = JSON.parse(document.getElementById('defaults').textContent);
+  const KEY = 'rosettapada-blend-choices-v1';
+  let picks = {};
+  try { picks = JSON.parse(localStorage.getItem(KEY) || '{}') || {}; } catch (e) {}
+  const state = new Proxy(picks, { get: (t, id) => (id in t ? t[id] : D.keys[id]) });
+  const save = () => { try { localStorage.setItem(KEY, JSON.stringify(picks)); } catch (e) {} };
+  function render() {
+    document.querySelectorAll('.slot').forEach(s => {
+      const opts = JSON.parse(s.dataset.options);
+      const k = state[s.dataset.slot] in opts ? state[s.dataset.slot] : Object.keys(opts)[0];
+      s.textContent = opts[k];
+      s.classList.toggle('changed', k !== D.keys[s.dataset.slot]);
+    });
+    document.querySelectorAll('.pick').forEach(b => b.setAttribute('aria-pressed', String(state[b.dataset.for] === b.dataset.key)));
+    const parts = D.order.map(id => `${id} ${id in picks ? picks[id] : D.open.includes(id) ? '?' : D.keys[id]}`).concat(D.fixed);
+    document.getElementById('answer-text').textContent = parts.join(' · ');
+  }
+  document.addEventListener('click', ev => {
+    const slot = ev.target.closest('.slot');
+    if (slot) {
+      const keys = Object.keys(JSON.parse(slot.dataset.options));
+      const id = slot.dataset.slot;
+      picks[id] = keys[(keys.indexOf(state[id]) + 1) % keys.length];
+      save(); render(); return;
+    }
+    const pick = ev.target.closest('.pick');
+    if (pick) { picks[pick.dataset.for] = pick.dataset.key; save(); render(); }
+  });
+  document.addEventListener('keydown', ev => { if ((ev.key === 'Enter' || ev.key === ' ') && ev.target.classList && ev.target.classList.contains('slot')) { ev.preventDefault(); ev.target.click(); } });
+  document.getElementById('copy-answers').addEventListener('click', ev => {
+    const text = document.getElementById('answer-text').textContent;
+    const done = () => { ev.target.textContent = 'Copied'; setTimeout(() => { ev.target.textContent = 'Copy'; }, 1500); };
+    if (navigator.clipboard) navigator.clipboard.writeText(text).then(done, () => {});
+    else { const r = document.createRange(); r.selectNodeContents(document.getElementById('answer-text')); getSelection().removeAllRanges(); getSelection().addRange(r); }
+  });
+  render();
+})();
+"""
 
 CSS = """
 body { overflow: auto; }
@@ -195,7 +274,23 @@ summary { font: 13px system-ui, sans-serif; color: var(--muted); cursor: pointer
 .patterns li { font-size: 17px; line-height: 1.6; margin-bottom: 14px; }
 .notable li { padding: 14px 0; border-top: 1px solid #e6e6df; }
 .notable p { font-size: 17px; line-height: 1.6; margin: 0 0 4px; }
-@media (max-width: 760px) { .wb h1 { font-size: 40px; } .wb { padding: 0 20px 80px; } .dots { margin-left: 0; flex-basis: 100%; } .aligned th { white-space: normal; } }
+.dv { display: flex; gap: 18px; margin: 0 0 26px; }
+.dv p { font-size: 20px; line-height: 1.6; margin: 0; }
+.dv-no { font: 13px/34px system-ui, sans-serif; color: var(--muted); min-width: 22px; text-decoration: none; }
+.blend .dv p { font-size: 20px; }
+.slot { display: inline; cursor: pointer; padding: 0 2px; background: #eef0e6; -webkit-box-decoration-break: clone; box-decoration-break: clone; border-bottom: 2px dotted var(--accent); border-radius: 2px; font: inherit; color: inherit; text-align: left; }
+.slot:hover { background: #e2e7d8; }
+.slot.changed { background: #f3e7c9; border-bottom-color: #a07a22; }
+.options .pick { display: block; width: 100%; text-align: left; padding: 8px 12px; border: 1px solid transparent; border-radius: 6px; background: none; font: inherit; font-size: 17px; line-height: 1.6; }
+.options .pick:hover { background: var(--hover); }
+.options .pick[aria-pressed="true"] { border-color: var(--ink); background: #fff; }
+.options li { padding: 0 !important; }
+.options li.term { padding: 6px 12px !important; }
+.answers { position: fixed; left: 0; right: 0; bottom: 0; z-index: 5; display: flex; align-items: center; gap: 14px; padding: 10px max(20px, calc((100vw - 900px) / 2)); background: var(--ink); color: var(--paper); font: 13px/1.45 system-ui, sans-serif; }
+.answers p { margin: 0; flex: 1; max-height: 3.2em; overflow: auto; }
+.answers button { flex: none; min-height: 36px; padding: 0 16px; border: 1px solid var(--paper); border-radius: 999px; background: none; color: var(--paper); font: 600 13px system-ui, sans-serif; }
+.wb { padding-bottom: 160px; }
+@media (max-width: 760px) { .wb h1 { font-size: 40px; } .wb { padding: 0 20px 220px; } .dots { margin-left: 0; flex-basis: 100%; } .aligned th { white-space: normal; } }
 """
 
 
@@ -228,6 +323,12 @@ def build():
     settled = [r for r in rulings if r["status"] != "proposed"]
     waiting_html = "".join(ruling_card(r) for r in waiting) or '<p class="note">Nothing is waiting for you.</p>'
     settled_html = f'<details><summary>{len(settled)} settled rulings and rules</summary>{"".join(ruling_card(r) for r in settled)}</details>' if settled else ""
+    order, defaults = [], {}
+    for item in [r for r in rulings if r["status"] == "proposed" and is_choice(r)] + [d for c in chapters for d in c.get("decisions", []) if not d.get("decided")]:
+        order.append(item["id"])
+        defaults[item["id"]] = next((o["key"] for o in item["options"] if o.get("recommended")), item["options"][0]["key"])
+    open_items = [item["id"] for item in [d for c in chapters for d in c.get("decisions", []) if not d.get("decided")] if not any(o.get("recommended") for o in item["options"])]
+    defaults = {"order": order, "keys": defaults, "open": open_items, "fixed": [r["id"] + " approve" for r in waiting if not is_choice(r)]}
     page = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Blend workbench · Rosettapada</title><meta name="robots" content="noindex">
@@ -235,13 +336,18 @@ def build():
 <body><main class="wb">
 <header class="wb-head"><a class="wordmark" href="../index.html"><img class="brand-mark" src="../assets/logo-carved.png" alt="" width="27" height="40">Rosettapada</a><nav class="top-nav"><a href="../index.html">Reader</a></nav></header>
 <h1>Blend workbench</h1>
-<p class="lede">Where the Rosettapada Blend is made. Each Pāli line is read twice, blind, against the other five traditions and given a tier. Rulings and rules waiting for you are listed first: answer in chat by ID, for example “R-T2-01 B”.</p>
-<h2>Waiting for you</h2>
+<p class="lede">Where the Rosettapada Blend is made. Each Pāli line is read twice, blind, against the other five traditions and given a tier. Read the draft, try the options, and paste your picks into chat.</p>
+{draft_section(chapters)}
+<h2>Rulings and rules waiting for you</h2>
 {waiting_html}
 {settled_html}
 {"".join(chapter_section(c) for c in chapters)}
 {findings_section()}
-</main></body></html>
+</main>
+<div class="answers" id="answers"><p id="answer-text"></p><button type="button" id="copy-answers">Copy</button></div>
+<script type="application/json" id="defaults">{json.dumps(defaults, ensure_ascii=False)}</script>
+<script>{SCRIPT}</script>
+</body></html>
 """
     target = ROOT / "blend/index.html"
     target.parent.mkdir(exist_ok=True)

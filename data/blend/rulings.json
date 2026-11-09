@@ -4,32 +4,26 @@
    "id": "R-T2-01",
    "tier": 2,
    "status": "proposed",
-   "title": "How to say dhamma",
-   "statement": "One Indic word, dhamma, does three jobs in Pairs. In verses 1–2 the plural dhammā means what the mind goes before: our states of mind and what we experience. In verse 20 it is the Buddha's teaching. (Verse 5 is ruled separately in R-T2-02.) The Chinese 法/道 and Tibetan ཆོས translate the same word, so they agree; the Chinese 道 'the Way' is not a separate reading. Both readers advise against 'experience', the current placeholder's word, as adding an interpretation.",
+   "title": "How to say dhammā in verses 1–2",
+   "statement": "In verses 1–2 the plural dhammā means what the mind goes before: our states of mind and what we experience. The Chinese 法 'all things' and the Tibetan 'phenomena' translate the same word, so they agree; the Chinese 道 'the Way' elsewhere is not a separate reading. Both readers advise against “experience”, the current placeholder's word, as adding an interpretation.",
    "options": [
     {
      "key": "A",
-     "text": "Verses 1–2: “things”. Literal, close to the Chinese 法 'all things' and the Tibetan 'phenomena', and leaves the meaning open.",
+     "text": "“things”: literal, close to the Chinese and Tibetan, and leaves the meaning open.",
      "recommended": true
     },
     {
      "key": "B",
-     "text": "Verses 1–2: “states” or “mental states”. Narrower and clearer about what is meant, but “mental” is ours."
+     "text": "“mental states”: clearer about what is meant, but “mental” is ours."
     },
     {
      "key": "C",
-     "text": "Verses 1–2: keep “experience”."
-    },
-    {
-     "key": "D",
-     "text": "Verse 20, the teaching: “the teaching” in plain words, not “the Dhamma” untranslated.",
-     "recommended": true
+     "text": "“experiences”: close to the current placeholder."
     }
    ],
    "verses": [
     1,
-    2,
-    20
+    2
    ],
    "decided": null
   },
@@ -227,6 +221,28 @@
     13,
     14,
     16
+   ],
+   "decided": null
+  },
+  {
+   "id": "R-T2-07",
+   "tier": 2,
+   "status": "proposed",
+   "title": "dhamma as the Buddha's teaching (verse 20)",
+   "statement": "Where dhamma means the teaching itself, say so in plain English, or keep the word Dhamma untranslated.",
+   "options": [
+    {
+     "key": "A",
+     "text": "“the teaching”",
+     "recommended": true
+    },
+    {
+     "key": "B",
+     "text": "“the Dhamma”"
+    }
+   ],
+   "verses": [
+    20
    ],
    "decided": null
   },
