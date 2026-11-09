@@ -81,18 +81,33 @@ def draft_line(segments):
     return "".join(out)
 
 
-def draft_verse(v, link=True):
+def current_english():
+    path = ROOT / "data/english/pi.json"
+    return json.loads(path.read_text(encoding="utf-8"))["verses"] if path.exists() else {}
+
+
+CURRENT = current_english()
+
+
+def draft_verse(v, link=True, compare=False):
     if not v.get("draft"):
         return ""
     head = f'<a class="dv-no" href="#v{v["no"]}">{v["no"]}</a>' if link else ""
-    return f'<div class="dv">{head}<div>' + "".join(f'<p>{draft_line(l["segments"])}</p>' for l in v["draft"]) + "</div></div>"
+    draft = '<div class="dv-draft">' + "".join(f'<p>{draft_line(l["segments"])}</p>' for l in v["draft"]) + "</div>"
+    current = ""
+    if compare:
+        lines = CURRENT.get(str(v["no"]), {}).get("lines", [])
+        current = '<div class="dv-current"><span class="dv-label">Current site</span>' + "".join(f"<p>{e(l)}</p>" for l in lines) + "</div>"
+    return f'<div class="dv{" compare" if compare else ""}">{head}{draft}{current}</div>'
 
 
 def draft_section(chapters):
     blocks = []
     for c in chapters:
         if any(v.get("draft") for v in c["verses"]):
-            blocks.append(f'<h3 class="sub">{e(c["chapter"]["title"])}</h3>' + "".join(draft_verse(v) for v in c["verses"]))
+            blocks.append(f'<h3 class="sub">{e(c["chapter"]["title"])}</h3>'
+                          '<div class="dv-heads"><span>Rosettapada Blend · draft</span><span>Current site · from the Pāli</span></div>'
+                          + "".join(draft_verse(v, compare=True) for v in c["verses"]))
     if not blocks:
         return ""
     return ('<h2>Read the draft</h2><p class="note">A first Literal+ draft, made from the two source readings, so you can judge each decision in the verses. '
@@ -274,13 +289,20 @@ summary { font: 13px system-ui, sans-serif; color: var(--muted); cursor: pointer
 .patterns li { font-size: 17px; line-height: 1.6; margin-bottom: 14px; }
 .notable li { padding: 14px 0; border-top: 1px solid #e6e6df; }
 .notable p { font-size: 17px; line-height: 1.6; margin: 0 0 4px; }
+.wb:has(.dv.compare) { max-width: 1180px; }
 .dv { display: flex; gap: 18px; margin: 0 0 26px; }
+.dv.compare { display: grid; grid-template-columns: 22px minmax(0, 1fr) minmax(0, 1fr); gap: 0 28px; padding-bottom: 22px; border-bottom: 1px solid #e6e6df; }
+.dv-heads { display: grid; grid-template-columns: 22px minmax(0, 1fr) minmax(0, 1fr); gap: 0 28px; margin: 0 0 14px; font: 600 12px/1.4 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); }
+.dv-heads::before { content: ''; }
+.dv-heads span:last-child { color: var(--muted); }
+.dv-current p { color: var(--muted); }
+.dv-label { display: none; font: 600 11px/1.4 system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--muted); margin: 10px 0 2px; }
 .dv p { font-size: 20px; line-height: 1.6; margin: 0; }
 .dv-no { font: 13px/34px system-ui, sans-serif; color: var(--muted); min-width: 22px; text-decoration: none; }
 .blend .dv p { font-size: 20px; }
-.slot { display: inline; cursor: pointer; padding: 0 2px; background: #eef0e6; -webkit-box-decoration-break: clone; box-decoration-break: clone; border-bottom: 2px dotted var(--accent); border-radius: 2px; font: inherit; color: inherit; text-align: left; }
-.slot:hover { background: #e2e7d8; }
-.slot.changed { background: #f3e7c9; border-bottom-color: #a07a22; }
+.slot { cursor: pointer; color: #34452b; text-decoration: underline dotted #52614b; text-decoration-thickness: 2px; text-underline-offset: .28em; }
+.slot:hover { color: var(--ink); text-decoration-style: solid; }
+.slot.changed { color: #7a5612; text-decoration-color: #a07a22; }
 .options .pick { display: block; width: 100%; text-align: left; padding: 8px 12px; border: 1px solid transparent; border-radius: 6px; background: none; font: inherit; font-size: 17px; line-height: 1.6; }
 .options .pick:hover { background: var(--hover); }
 .options .pick[aria-pressed="true"] { border-color: var(--ink); background: #fff; }
@@ -290,6 +312,7 @@ summary { font: 13px system-ui, sans-serif; color: var(--muted); cursor: pointer
 .answers p { margin: 0; flex: 1; max-height: 3.2em; overflow: auto; }
 .answers button { flex: none; min-height: 36px; padding: 0 16px; border: 1px solid var(--paper); border-radius: 999px; background: none; color: var(--paper); font: 600 13px system-ui, sans-serif; }
 .wb { padding-bottom: 160px; }
+@media (max-width: 760px) { .dv.compare { grid-template-columns: 22px minmax(0, 1fr); } .dv.compare .dv-current { grid-column: 2; } .dv-heads { display: none; } .dv-label { display: block; } .dv-current p { font-size: 17px !important; } }
 @media (max-width: 760px) { .wb h1 { font-size: 40px; } .wb { padding: 0 20px 220px; } .dots { margin-left: 0; flex-basis: 100%; } .aligned th { white-space: normal; } }
 """
 
