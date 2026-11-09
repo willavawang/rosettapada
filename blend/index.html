@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Blend workbench · Rosettapada</title><meta name="robots" content="noindex">
+<link rel="stylesheet" href="../styles.css"><style>
+body { overflow: auto; }
+.wb { max-width: 900px; margin: 0 auto; padding: 0 var(--padding) 120px; }
+.wb-head { display: flex; align-items: center; justify-content: space-between; height: 96px; }
+.wb h1 { font-size: 52px; font-weight: 400; letter-spacing: -.045em; margin: 24px 0 12px; }
+.lede { font: italic 19px/1.6 Georgia, serif; color: var(--muted); margin: 0 0 40px; }
+.wb h2 { font-size: 32px; font-weight: 400; letter-spacing: -.03em; margin: 72px 0 8px; padding-top: 24px; border-top: 1px solid #dedfd7; }
+.wb h2 small { font: 15px system-ui, sans-serif; color: var(--muted); letter-spacing: 0; margin-left: 8px; }
+.stage { font: 600 15px/1.5 system-ui, sans-serif; color: var(--accent); margin: 0 0 20px; }
+.note { font-size: 16px; line-height: 1.6; color: #3d4339; margin: 0 0 32px; }
+.tier { display: inline-grid; place-items: center; min-width: 30px; height: 22px; padding: 0 6px; border-radius: 999px; font: 600 12px/1 system-ui, sans-serif; flex: none; }
+.t1 { background: #e3e6dc; color: #4a5544; } .t2 { background: #d9e3d0; color: #34452b; } .t3 { background: #ecdcb8; color: #6a4c12; } .t4 { background: #e9c7bd; color: #7a2e1c; }
+.bar { display: flex; height: 10px; border-radius: 999px; overflow: hidden; margin: 0 0 12px; gap: 2px; }
+.bar .seg { display: block; }
+.legend { list-style: none; padding: 0; margin: 0 0 16px; display: flex; flex-wrap: wrap; gap: 8px 22px; font: 14px system-ui, sans-serif; color: var(--muted); }
+.ruling { background: #fff; border: 1px solid #dedfd7; border-radius: 10px; padding: 22px 24px; margin: 0 0 18px; }
+.ruling header { display: flex; align-items: center; gap: 10px; flex-wrap: wrap; margin-bottom: 8px; }
+.ruling h3 { font-size: 22px; font-weight: 400; margin: 0; flex-basis: 100%; }
+.rid { font: 600 13px system-ui, sans-serif; letter-spacing: .04em; color: var(--accent); }
+.ruling p { font-size: 17px; line-height: 1.65; margin: 0 0 12px; }
+.options { margin: 0 0 12px; padding-left: 0; list-style: none; }
+.options li { font-size: 17px; line-height: 1.6; padding: 8px 12px; border-radius: 6px; margin-bottom: 4px; }
+.options li b { font-family: system-ui, sans-serif; margin-right: 6px; }
+.options li.recommended { background: var(--hover); }
+.options small { font: 12px system-ui, sans-serif; color: var(--accent); margin-left: 6px; }
+.touches, .decided { font: 14px/1.5 system-ui, sans-serif !important; color: var(--muted); }
+.verse-card { margin: 0 0 44px; }
+.verse-card > header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }
+.verse-card h3 { font-size: 24px; font-weight: 400; margin: 0; }
+.dots { display: inline-flex; gap: 4px; margin-left: auto; }
+.dot { font: 11px/20px system-ui, sans-serif; width: 26px; text-align: center; border-radius: 4px; background: #e3e6dc; color: #4a5544; }
+.dot.partial { background: none; border: 1px dashed #9aa293; line-height: 18px; }
+.dot.not-located { background: none; color: #b9bdb2; text-decoration: line-through; }
+.lines { list-style: none; padding: 0; margin: 0; }
+.line { display: flex; gap: 14px; padding: 12px 0; border-top: 1px solid #e6e6df; }
+.line > div { min-width: 0; flex: 1; }
+.line .tier { margin-top: 4px; }
+.pi { font-size: 20px; line-height: 1.5; margin: 0; }
+.gloss { font: italic 16px/1.55 Georgia, serif; color: var(--muted); margin: 2px 0 0; }
+.split { font: 13px/1.5 system-ui, sans-serif; color: #7a2e1c; margin: 6px 0 0; }
+.diffs { margin: 8px 0 0; padding: 0; list-style: none; font-size: 15px; line-height: 1.55; color: #3d4339; }
+.diffs li { margin-bottom: 4px; }
+.who { font: 600 13px system-ui, sans-serif; }
+.kind { font: 12px system-ui, sans-serif; color: var(--muted); border: 1px solid #d2d4cb; border-radius: 4px; padding: 0 4px; }
+.rule-ref { font: 600 12px system-ui, sans-serif; color: var(--accent); margin-right: 8px; }
+details { margin-top: 8px; }
+summary { font: 13px system-ui, sans-serif; color: var(--muted); cursor: pointer; }
+.aligned { border-collapse: collapse; margin-top: 6px; width: 100%; }
+.aligned th { font: 13px system-ui, sans-serif; color: var(--muted); text-align: left; vertical-align: top; padding: 6px 12px 6px 0; white-space: nowrap; font-weight: 500; }
+.aligned td { padding: 6px 0; font-size: 17px; line-height: 1.5; }
+.aligned .src { display: block; }
+.aligned .src[lang="bo"] { font-family: 'Rosettapada Tibetan', 'Kailasa', serif; }
+.wg { display: block; font: italic 14px/1.5 Georgia, serif; color: var(--muted); }
+.blend { background: #fff; border-left: 3px solid var(--accent); padding: 12px 18px; margin: 0 0 12px; }
+.blend p { font-size: 20px; line-height: 1.6; margin: 0; }
+.blend .label { font: 600 12px system-ui, sans-serif; letter-spacing: .08em; text-transform: uppercase; color: var(--accent); margin-bottom: 6px; }
+@media (max-width: 760px) { .wb h1 { font-size: 40px; } .wb { padding: 0 20px 80px; } .dots { margin-left: 0; flex-basis: 100%; } .aligned th { white-space: normal; } }
+</style></head>
+<body><main class="wb">
+<header class="wb-head"><a class="wordmark" href="../index.html"><img class="brand-mark" src="../assets/logo-carved.png" alt="" width="27" height="40">Rosettapada</a><nav class="top-nav"><a href="../index.html">Reader</a></nav></header>
+<h1>Blend workbench</h1>
+<p class="lede">Where the Rosettapada Blend is made. Each Pāli line is read twice, blind, against the other five traditions and given a tier. Rulings and rules waiting for you are listed first: answer in chat by ID, for example “R-T2-01 B”.</p>
+<h2>Waiting for you</h2>
+<p class="note">Nothing is waiting for you.</p>
+
+
+</main></body></html>

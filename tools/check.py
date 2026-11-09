@@ -301,6 +301,29 @@ for chapter in audit["chapters"]:
 assert audit["summary"]["attested_lower_bound"] == sum(record["attested_parallel"] for record in audit["verses"]), "Tibetan overall lower bound changed."
 assert audit["summary"]["native_checked"] == sum(record["native_checked"] for record in audit["verses"]), "Tibetan overall native count changed."
 
+# Rosettapada Blend workspace: rulings and chapter files keep their provenance shape.
+blend_rulings_path = ROOT / "data/blend/rulings.json"
+blend_rulings = json.loads(blend_rulings_path.read_text())["rulings"] if blend_rulings_path.exists() else []
+ruling_ids = [r["id"] for r in blend_rulings]
+assert len(ruling_ids) == len(set(ruling_ids)), "Duplicate Blend ruling id."
+for r in blend_rulings:
+    assert re.fullmatch(r"R-T[23]-\d{2}", r["id"]) and r["id"][3] == str(r["tier"]), f'Bad Blend ruling id {r["id"]}'
+    assert r["status"] in {"proposed", "approved", "rejected", "revised"}, f'Bad status on {r["id"]}'
+    assert r["status"] == "proposed" or r.get("decided"), f'{r["id"]} is settled without a decision note'
+for path in sorted((ROOT / "data/blend/chapters").glob("*.json")):
+    blend_chapter = json.loads(path.read_text())
+    span = range(blend_chapter["chapter"]["start"], blend_chapter["chapter"]["end"] + 1)
+    assert [v["no"] for v in blend_chapter["verses"]] == list(span), f"{path.name} does not cover its verses in order"
+    for v in blend_chapter["verses"]:
+        assert v["lines"] and all(l["tier"] in (1, 2, 3, 4) for l in v["lines"]), f"{path.name} verse {v['no']} has an untiered line"
+        assert v["tier"] == max(l["tier"] for l in v["lines"]), f"{path.name} verse {v['no']} tier is not its hardest line"
+        for l in v["lines"]:
+            known = [t for t in l["tiers"].values() if t]
+            assert l["tier"] >= max(known, default=1), f"{path.name} verse {v['no']} line {l['line']} was tiered below a reader"
+            assert all(ref in ruling_ids for ref in l.get("rules", [])), f"{path.name} verse {v['no']} cites an unknown ruling"
+        for b in v.get("blend") or []:
+            assert b.get("witnesses") and b.get("tier") in (1, 2, 3, 4), f"{path.name} verse {v['no']} Blend line lacks provenance"
+            assert all(ref in ruling_ids for ref in b.get("rules", [])), f"{path.name} verse {v['no']} Blend cites an unknown ruling"
 frozen = json.loads((ROOT / "data/witnesses/provenance.json").read_text())
 for source in frozen["files"]:
     assert hashlib.sha256((ROOT / source["path"]).read_bytes()).hexdigest() == source["sha256"], f'Historical snapshot changed: {source["path"]}'

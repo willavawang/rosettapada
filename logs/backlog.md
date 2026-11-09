@@ -20,6 +20,12 @@ About 35 moderate-confidence wording improvements, such as "Māra's flower-tippe
 - [ ] pi 143 *niddaṁ*/*nindaṁ*; pi 355 "as well as others"; pi 39 "seepage"; sa 54 *vāhnija*; zh 69/119 shared-stanza note.
 - [ ] A second reader for the Chinese and Tibetan translations, where most of the meaning errors were found.
 
-## Rosettapada Blend (new product, not started)
+## Rosettapada Blend (pilot under way: see logs/blend/method.md and blend/index.html)
 
 - [ ] Write the Blend: one English rendering per verse that draws on all six traditions, picking the best reading from each or building it up from what they show together. Until then the English column ("Rosettapada Blend · from the Pāli for now") shows the Pāli-based draft from `data/english/pi.json`. Decide the final name, where the Blend data lives (e.g. `data/english/blend.json`), and how a Blend line credits the tradition it came from. When the Blend replaces the placeholder, update `BLEND_REFERENCE` in build.py, the English section of notes.html and WORK_BRIEF.md.
+
+## Verses found only in other traditions (owner asked 2026-11-09; after the 423 Pāli positions)
+
+- [ ] **Inventory first, for the owner to look at.** For each tradition: total verses, chapters, and how many have no Pāli counterpart; then group the non-Pāli verses by which other traditions share them (one tradition only, two, three or more) and by chapter. Show it on the live site as a table. Rough sizes from the scholarship, to be verified against the full texts: Sanskrit Udānavarga ≈1,000 verses in 33 chapters; Tibetan Toh 326 follows the Udānavarga; Chinese T210 ≈750 verses in 39 chapters (13 chapters beyond the Pāli's 26); Patna ≈414 verses in 22 chapters; Gāndhārī ≈350 surviving verses.
+- [ ] Groundwork already here: full-text sources we cite (CBETA T210/T212/T213, Esukhia Derge Kangyur, Ānandajoti's comparative Dhammapada with its concordance tables). Our witness files hold only the lines matched to Pāli positions, so the inventory needs the full texts extracted, with the same source pinning as the existing witnesses.
+- [ ] Then decide with the owner: which non-Pāli verses join the Blend, where they sit (end of the matching chapter? new chapters?), and how the reader numbers them without breaking the existing verse URLs.

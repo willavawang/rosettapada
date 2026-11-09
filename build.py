@@ -2,6 +2,7 @@
 from html import escape
 from pathlib import Path
 import json
+import sys
 import shutil
 import hashlib
 import re
@@ -306,5 +307,8 @@ dist.mkdir(exist_ok=True)
 for filename in ["sample.html", "pairs.html", "contents.html", "notes.html", "styles.css", "reader.js", ".nojekyll", *[chapter["page"] for chapter in CHAPTERS]]:
     shutil.copyfile(ROOT / filename, dist / filename)
 shutil.copytree(ROOT / "assets", dist / "assets", dirs_exist_ok=True)
+sys.path.insert(0, str(ROOT / "tools"))
+from blend_workbench import build as build_blend_workbench  # noqa: E402
+build_blend_workbench()
 print(f"Built Rosettapada: {len(CHAPTERS)} chapters, {len(READING_NUMBERS)} Pāli verse positions.")
 
