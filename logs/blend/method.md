@@ -38,14 +38,13 @@ Tier is set **per line** (Pāli pāda line); a verse takes its highest line tier
 3. **Provenance is mandatory** (internal). Every Blend line records the witnesses it rests on, its tier, and any ruling or rule IDs it relies on. Changing a ruling or correcting a witness flags every dependent line. `tools/check.py` enforces the data shape.
 4. **Release gate.** A chapter ships only when every T4 is decided by the owner and an independent review of the draft against the sources is clean.
 
-## The knowledge record
+## The knowledge record (light touch)
 
-The site's purpose is a scholarly account of the Dhammapada tradition, not only a translation. The Blend work must leave a record we can speak from, and the home page's introduction will be written from it.
+Owner's instruction (2026-11-09): keep this minimal; the translation comes first, analysis happens after the translation is finished, and the home page will say only a couple of sentences on it.
 
-- **Differences that matter** (`data/blend/findings.json` → `notable`): every real variant at T3/T4, and any T2 choice with consequences, gets an entry: lines, witnesses, what differs, and *why it matters* to a reader or practitioner (weight: doctrine, practice, imagery, or translation). Spelling and same-sense wording do not.
-- **Patterns** (`patterns`): cross-verse observations stated as hypotheses, with the notable entries for and against, and the chapters checked. Each new chapter must update them: add evidence, add counter-evidence, or mark them supported, weakened or dropped. Do not promote a pattern on one chapter.
-- **Decisions keep their reasons.** When the owner settles a ruling, rule or T4, record the choice and the reason (in their words where given) and the date in `decided`.
-- **The home page statement** is drafted from this record at each release milestone (after 1, 3, 7 and all 26 chapters) and claims only what the record supports.
+- While reading a chapter, add a one-line entry to `data/blend/findings.json` → `notable` only for a striking difference between traditions (a few per chapter at most). Do not spend extra time on it.
+- Leave `patterns` as they are until the translation is complete; do not update or promote them per chapter.
+- When the owner settles a ruling, rule or T4, record the choice, the reason if given, and the date in `decided`.
 
 ## Files
 

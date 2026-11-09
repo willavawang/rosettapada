@@ -26,7 +26,7 @@ About 35 moderate-confidence wording improvements, such as "Māra's flower-tippe
 
 ## Home page (introduction to the site)
 
-- [ ] A short written introduction: what the site is, the six traditions, and our summary of the main differences between them for those on the path, and how those differences shaped the Rosettapada Blend. Draft from `data/blend/findings.json` at each Blend milestone (after 1, 3, 7 and 26 chapters); claim only what the record supports. Owner reviews on the live site.
+- [ ] A short written introduction: what the site is, the six traditions, and a couple of sentences on the main differences between them for those on the path and how they shaped the Rosettapada Blend. Write it after the translation is finished, from `data/blend/findings.json`; claim only what the record supports. Owner reviews on the live site.
 
 ## Verses found only in other traditions (owner asked 2026-11-09; after the 423 Pāli positions)
 
