@@ -50,6 +50,18 @@ def ruling_card(r):
             f'{decided}<p class="touches">Verses: {verses or "—"}</p></article>')
 
 
+def decision_card(d):
+    options = "".join(
+        f'<li{" class=\"recommended\"" if o.get("recommended") else ""}><b>{e(o["key"])}</b> {e(o["text"])}'
+        f'{" <small>leaning</small>" if o.get("recommended") else ""}</li>'
+        for o in d["options"])
+    lines = ", ".join(f'<a href="#v{l.split(".")[0]}">{e(l)}</a>' for l in d["lines"])
+    chosen = f'<p class="decided">Decided: {e(d["decided"])}</p>' if d.get("decided") else ""
+    return (f'<article class="ruling" id="{e(d["id"])}"><header><span class="rid">{e(d["id"])}</span><span class="tier t4">T4</span>'
+            f'<h3>{e(d["title"])}</h3></header><p>{e(d["question"])}</p><ol class="options">{options}</ol>'
+            f'<p class="lean">Claude: {e(d["lean"])}</p>{chosen}<p class="touches">Lines: {lines}</p></article>')
+
+
 def differences(line):
     seen, out = set(), []
     for reader in ("A", "B"):
@@ -87,7 +99,8 @@ def verse_block(v):
         if "readers disagree" in line["flags"]:
             split = f'<p class="split">Readers split: A said T{line["tiers"]["A"]}, B said T{line["tiers"]["B"]}. Taken as T{line["tier"]}.</p>'
         flag = '<p class="split">One reader was unsure.</p>' if "low confidence" in line["flags"] and not split else ""
-        rules = "".join(f'<a class="rule-ref" href="#{e(r)}">{e(r)}</a>' for r in line.get("rules", []))
+        refs = line.get("rules", []) + ([line["decision"]] if line.get("decision") else [])
+        rules = "".join(f'<a class="rule-ref" href="#{e(r)}">{e(r)}</a>' for r in refs)
         rows.append(f'<li class="line"><span class="tier t{line["tier"]}" title="{TIER_WORDS[line["tier"]]}">T{line["tier"]}</span>'
                     f'<div><p class="pi" lang="pi">{e(line["pi"])}</p><p class="gloss">{e(gloss)}</p>{rules}{split}{flag}'
                     f'{differences(line)}{aligned_texts(line, v["witnesses"])}</div></li>')
@@ -106,15 +119,22 @@ def chapter_section(c):
     bar = "".join(f'<span class="seg t{t}" style="flex:{counts[t]}" title="T{t}: {counts[t]} lines"></span>' for t in (1, 2, 3, 4) if counts[t])
     legend = "".join(f'<li><span class="tier t{t}">T{t}</span> {TIER_WORDS[t]} · {counts[t]} lines, {vcounts[t]} verses</li>' for t in (1, 2, 3, 4))
     ch = c["chapter"]
+    open_decisions = [d for d in c.get("decisions", []) if not d.get("decided")]
+    decisions = ""
+    if c.get("decisions"):
+        decisions = (f'<h3 class="sub">Questions only you can answer (T4) · {len(open_decisions)} open</h3>'
+                     '<p class="note">These come back to you with the drafted verses at the second checkpoint. Answer now if you already know.</p>'
+                     + "".join(decision_card(d) for d in c["decisions"]))
     return (f'<section class="chapter" id="chapter{ch["no"]}"><h2>{e(ch["title"])} <small>verses {ch["start"]}–{ch["end"]}</small></h2>'
             f'<p class="stage">{e(STAGES.get(c["stage"], c["stage"]))}</p>'
             f'<div class="bar">{bar}</div><ul class="legend">{legend}</ul>'
             f'<p class="note">{len(lines)} lines read twice, blind. The readers gave different tiers on {split}; those take the higher tier. A verse takes the tier of its hardest line.</p>'
-            f'{"".join(verse_block(v) for v in c["verses"])}</section>')
+            f'{decisions}<h3 class="sub">Verse by verse</h3>{"".join(verse_block(v) for v in c["verses"])}</section>')
 
 
 CSS = """
 body { overflow: auto; }
+.wb, .wb .gloss, .wb .wg, .wb .lean { font-family: Georgia, 'Noto Serif', 'Rosettapada Tibetan', serif; }
 .wb { max-width: 900px; margin: 0 auto; padding: 0 var(--padding) 120px; }
 .wb-head { display: flex; align-items: center; justify-content: space-between; height: 96px; }
 .wb h1 { font-size: 52px; font-weight: 400; letter-spacing: -.045em; margin: 24px 0 12px; }
@@ -138,6 +158,8 @@ body { overflow: auto; }
 .options li b { font-family: system-ui, sans-serif; margin-right: 6px; }
 .options li.recommended { background: var(--hover); }
 .options small { font: 12px system-ui, sans-serif; color: var(--accent); margin-left: 6px; }
+.lean { font-style: italic !important; font-size: 16px !important; line-height: 1.6 !important; color: var(--accent); }
+.wb h3.sub { font-size: 24px; font-weight: 400; margin: 48px 0 14px; }
 .touches, .decided { font: 14px/1.5 system-ui, sans-serif !important; color: var(--muted); }
 .verse-card { margin: 0 0 44px; }
 .verse-card > header { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-bottom: 10px; }

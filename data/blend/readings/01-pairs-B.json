@@ -1,0 +1,3966 @@
+{
+ "reader": "B",
+ "consulted": [
+  "logs/blend/method.md (method, tiers, guards)",
+  "scratchpad/blend/packet-pairs.json (source packet, chapter 1)",
+  "data/witnesses/{tibetan,chinese,gandhari,patna,sanskrit}.json: per-position status and source notes only (read the notes for Pāli 1-20: e.g. Tibetan notes on 1, 2, 6, 7, 8, 13-18, 20; Chinese notes on 3, 4, 6, 11)",
+  "data/witnesses/sources/indic/README.md and tools/import_indic.py (to understand the 'ins'/'i'/'s' annotation kinds: they are copies of the edition's HTML <ins>/<i>/<s> tags; the 'ins' marks include things like '//' and look like revision markup, so I treated them as non-textual)",
+  "data/witnesses/sources/chinese/T04n0210-selected.xml, T04n0212-selected.xml, T04n0213-selected.xml (checked the Chinese lines against the CBETA XML)",
+  "CBETA API (cbdata.dila.edu.tw kwic search) for context: T212 juan 16 (人若罵我… and its prose commentary, plus the following stanza 不可怨以怨，終已得休息，行忍得息怨，此名如來法) and T213 (若人致毀罵… in its chapter 14 context, plus 不可怨以怨，終已得快樂，行忍怨自息，此名如來法)",
+  "Tried ancient-buddhist-texts.net (Ānandajoti comparative edition) for the editorial notes; this session's network blocks it (ENOTFOUND), so it was not consulted. It would have to be allowed in the session's network settings.",
+  "My own knowledge of Pāli, Sanskrit, Gāndhārī, Classical Chinese and Classical Tibetan grammar and lexicon (PED/CPD/BHSD/Brough-type conventions); no English translation of the Dhammapada was opened"
+ ],
+ "verses": [
+  {
+   "no": 1,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Manopubbaṅgamā dhammā,",
+     "gloss": "Mind-preceded [are] dhammas (things/states);",
+     "aligned": {
+      "pd": "manopūrvvaṁgamā dhammā",
+      "ga": "maṇopuvagama dhama",
+      "sa": "manaḥpūrvaṅgamā dharmā",
+      "zh": "心為法本，",
+      "bo": "ཆོས་ཀྱི་སྔོན་དུ་ཡིད་འགྲོ་སྟེ། །"
+     },
+     "witness_glosses": {
+      "zh": "Mind is the root/basis of dharmas (things).",
+      "bo": "Mind goes before dharmas."
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "心為法本 'mind is the root of dharmas': 本 'root/basis' renders pubbaṅgama 'going before' loosely; same idea of mind's primacy."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "All witnesses agree in sense; the English for dhammā (states / things / experiences / phenomena) must be fixed once for the book.",
+     "confidence": "high",
+     "candidates": [
+      "dhamma-rendering"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "manoseṭṭhā manomayā;",
+     "gloss": "mind [is their] chief, [they are] made of mind;",
+     "aligned": {
+      "pd": "manośreṣṭhā manojavā |",
+      "ga": "maṇośeṭha maṇojava",
+      "sa": "manaḥśreṣṭhā manojavāḥ |",
+      "zh": "心尊心使，",
+      "bo": "ཡིད་མགྱོགས་ཡིད་ནི་གཙོ་བོ་ཡིན། །"
+     },
+     "witness_glosses": {
+      "pd": "mind [is their] chief, [they are] swift as mind (manojavā);",
+      "ga": "same as pd: mind-chief, mind-swift;",
+      "sa": "same as pd: mind-chief, mind-swift;",
+      "zh": "mind is honoured, mind is the one that commands/sends (心使);",
+      "bo": "mind is swift; mind is the chief."
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd",
+        "ga",
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Pāli manomayā 'made of mind' stands alone against manojavā 'swift as mind' in Patna, Gāndhārī, Sanskrit and Tibetan (ཡིད་མགྱོགས 'mind is swift')."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "心尊心使 'mind honoured, mind commanding' does not clearly render either manomaya or manojava; it cannot be counted for either side."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan puts 'swift' before 'chief' within the line; order only."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "A real difference of sense where Pāli alone (not even Patna) has manomayā against every other Indic witness; choosing 'made of mind' or 'swift as mind' for the opening of the book needs its own judgment (T4 decision 'manomaya-manojava').",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Manasā ce paduṭṭhena,",
+     "gloss": "If with a corrupted mind",
+     "aligned": {
+      "pd": "manasā ca praduṣṭena",
+      "ga": "maṇasa hi praduṭheṇa",
+      "sa": "manasā hi praduṣṭena",
+      "zh": "中心念惡，",
+      "bo": "གལ་ཏེ་ཡིད་རབ་གདུག་པ་ཡིས། །"
+     },
+     "witness_glosses": {
+      "ga": "For with a corrupted mind",
+      "sa": "For with a corrupted mind",
+      "zh": "[if] within the heart one thinks evil",
+      "bo": "If with a very malicious mind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "grammar",
+       "note": "Gāndhārī and Sanskrit have hi 'for/indeed' where Pāli has ce 'if' (Patna ca is the usual Patna spelling of 'if'); Tibetan གལ་ཏེ supports 'if'. Conditional vs general statement; same sense."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "中心念惡 'in the heart thinks evil' renders 'corrupted mind' as thinking evil."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "རབ་གདུག་པ 'very malicious/poisonous' for praduṣṭa 'corrupted'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense in all; ce/hi is grammar-neutral, but paduṭṭha/pasanna (corrupted/clear mind) is a recurring pair whose English should be fixed once.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "bhāsati vā karoti vā;",
+     "gloss": "one speaks or acts,",
+     "aligned": {
+      "pd": "bhāṣate vā karoti vā |",
+      "ga": "bhaṣadi va karodi va",
+      "sa": "bhāṣate vā karoti vā |",
+      "zh": "即言即行，",
+      "bo": "སྨྲས་སམ་ཡང་ན་བྱས་ཀྱང་རུང་། །"
+     },
+     "witness_glosses": {
+      "zh": "then speaks, then acts",
+      "bo": "whether one has spoken or else has acted"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "spelling",
+       "note": "Gāndhārī bhaṣadi va karodi va: one 'va' is italic in the edition (marked uncertain); no change of sense."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "All witnesses agree.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 5,
+     "pi": "Tato naṁ dukkhamanveti,",
+     "gloss": "from that suffering follows him,",
+     "aligned": {
+      "pd": "tato naṁ dukham anneti",
+      "ga": "tado ṇa duhu amedi",
+      "sa": "tatas taṁ duḥkham anveti",
+      "zh": "罪苦自追，",
+      "bo": "དེ་ཡིས་དེ་ནི་སྡུག་བསྔལ་འཐོབ། །"
+     },
+     "witness_glosses": {
+      "zh": "offence and suffering pursue [him] of themselves",
+      "bo": "by that, he obtains suffering"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "罪苦 'offence and suffering' adds 罪 'guilt/offence'; 自追 'pursue of themselves' = anveti."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "འཐོབ 'obtains' for anveti 'follows'; the image of following is weakened but the sense (suffering results) is the same."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement in sense; dukkha (suffering/pain) is a book-wide rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 6,
+     "pi": "cakkaṁva vahato padaṁ.",
+     "gloss": "like the wheel [follows] the foot of the one who draws (the draught ox).",
+     "aligned": {
+      "pd": "cakram vā vahato padaṁ ||",
+      "ga": "cako va vahaṇe pathi.",
+      "sa": "cakraṁ vā vahataḥ padam //",
+      "zh": "車轢于轍；",
+      "bo": "འཁོར་ལོས་མགོ་བོ་བཅད་པ་བཞིན། །"
+     },
+     "witness_glosses": {
+      "ga": "like the wheel ... of the drawer, on the road (pathi?) — reading uncertain",
+      "zh": "the cart rolls/crushes in the rut",
+      "bo": "like a wheel cutting off a head"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Tibetan འཁོར་ལོས་མགོ་བོ་བཅད་པ་བཞིན 'like a wheel cutting off a head' is a different simile from its own Sanskrit source (cakraṁ vā vahataḥ padam); the witness note calls it recensional."
+      },
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "variant",
+       "note": "Gāndhārī vahaṇe pathi: pathi may be a locative 'on the road/track' rather than padaṁ 'foot'; I cannot parse it securely. Image of wheel following the draught animal is kept."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "車轢于轍 'the cart crushes [along] in the rut' keeps the cart-wheel image without the ox's foot."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Sanskrit, Patna, Pāli agree; the Tibetan simile is a lone departure from its own Sanskrit original and the Gāndhārī wording is unclear, both settled by general rules.",
+     "confidence": "medium",
+     "candidates": [
+      "uv-one-voice",
+      "single-or-fragmentary-witness"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 4,
+   "notes": "Line 2 is the major crux (manomayā vs manojavā). The final simile needs a supplied ⟨ox⟩ in English (vahato 'of the one drawing'). Edition 'ins' marks in Sanskrit lines 2 and 6 (e.g. on 'ḥ', '//') look like revision markup and carry no textual weight."
+  },
+  {
+   "no": 2,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Manopubbaṅgamā dhammā,",
+     "gloss": "Mind-preceded [are] dhammas;",
+     "aligned": {
+      "pd": "manopūrvvaṁgamā dhammā",
+      "ga": "maṇopuvagama dhama",
+      "sa": "manaḥpūrvaṅgamā dharmā",
+      "zh": "心為法本，",
+      "bo": "ཆོས་ཀྱི་སྔོན་དུ་ཡིད་འགྲོ་སྟེ། །"
+     },
+     "witness_glosses": {
+      "zh": "Mind is the root of dharmas.",
+      "bo": "Mind goes before dharmas."
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "As verse 1."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Identical to verse 1 line 1; dhammā rendering.",
+     "confidence": "high",
+     "candidates": [
+      "dhamma-rendering"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "manoseṭṭhā manomayā;",
+     "gloss": "mind [is their] chief, [they are] made of mind;",
+     "aligned": {
+      "pd": "manośreṣṭhā manojavā |",
+      "ga": "maṇośeṭha maṇojava",
+      "sa": "manaḥśreṣṭhā manojavāḥ /",
+      "zh": "心尊心使，",
+      "bo": "ཡིད་མགྱོགས་ཡིད་ནི་གཙོ་བོ་ཡིན། །"
+     },
+     "witness_glosses": {
+      "pd": "mind chief, mind-swift",
+      "ga": "mind chief, mind-swift",
+      "sa": "mind chief, mind-swift",
+      "bo": "mind is swift; mind is the chief"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd",
+        "ga",
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "As verse 1: manomayā (Pāli alone) vs manojavā (all other Indic witnesses and Tibetan)."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Same crux as verse 1 line 2; one decision covers both.",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Manasā ce pasannena,",
+     "gloss": "If with a clear (bright, trusting) mind",
+     "aligned": {
+      "pd": "manasā ca prasannena",
+      "ga": "maṇasa hi prasaneṇa",
+      "sa": "manasā hi prasannena",
+      "zh": "中心念善，",
+      "bo": "གལ་ཏེ་ཡིད་རབ་དང་བ་ཡིས། །"
+     },
+     "witness_glosses": {
+      "ga": "For with a clear mind",
+      "sa": "For with a clear mind",
+      "zh": "[if] within the heart one thinks good",
+      "bo": "If with a very clear (faithful) mind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "grammar",
+       "note": "hi 'for' vs ce 'if', as in verse 1."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "念善 'thinks good' renders pasanna as goodness of thought rather than clarity/confidence."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; pasanna needs a fixed rendering (clear / serene / confident).",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "bhāsati vā karoti vā;",
+     "gloss": "one speaks or acts,",
+     "aligned": {
+      "pd": "bhāṣate vā karoti vā |",
+      "ga": "bhaṣadi va karodi va",
+      "sa": "bhāṣate vā karoti vā |",
+      "zh": "即言即行，",
+      "bo": "སྨྲས་སམ་ཡང་ན་བྱས་ཀྱང་རུང་། །"
+     },
+     "witness_glosses": {
+      "zh": "then speaks, then acts"
+     },
+     "differences": [],
+     "tier": 1,
+     "tier_reason": "All agree.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 5,
+     "pi": "Tato naṁ sukhamanveti,",
+     "gloss": "from that happiness follows him,",
+     "aligned": {
+      "pd": "tato naṁ sukham anneti",
+      "ga": "tado ṇa suhu amedi",
+      "sa": "tatas taṁ sukham anveti",
+      "zh": "福樂自追，",
+      "bo": "དེ་ཡིས་དེ་ནི་བདེ་བ་འཐོབ། །"
+     },
+     "witness_glosses": {
+      "zh": "merit/blessing and joy pursue [him] of themselves",
+      "bo": "by that, he obtains happiness"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "福樂 'blessing and joy' adds 福 'merit/blessing'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "'obtains' for 'follows', as verse 1."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; sukha paired with dukkha needs a fixed rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 6,
+     "pi": "chāyāva anapāyinī.",
+     "gloss": "like a shadow that does not depart.",
+     "aligned": {
+      "pd": "cchāyā vā anapāyinī ||",
+      "ga": "chaya va aṇukamiṇi.",
+      "sa": "cchāyā vā hy anugāminī //",
+      "zh": "如影隨形。",
+      "bo": "གྲིབ་མ་རྗེས་སུ་འབྲང་བ་བཞིན། །"
+     },
+     "witness_glosses": {
+      "ga": "like a shadow that follows",
+      "sa": "like a shadow that indeed follows",
+      "zh": "like a shadow following the body/form",
+      "bo": "like a shadow that follows after"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa",
+        "zh",
+        "bo"
+       ],
+       "kind": "wording",
+       "note": "Pāli and Patna anapāyinī 'not departing' vs anugāminī 'following' in Gāndhārī and Sanskrit, with Chinese 隨 and Tibetan རྗེས་སུ་འབྲང་བ 'following'; same image, different word."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "如影隨形 adds 形 'the form/body' that the shadow follows."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same idea, different word: Pāli+Patna 'never leaving' against all others' 'following'; settled once by the wording default (a majority of lineages here actually favours 'following').",
+     "confidence": "medium",
+     "candidates": [
+      "same-sense-wording-default"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 4,
+   "notes": "Shares verse 1's crux. Final simile: anapāyinī vs anugāminī is a wording split in which Pāli+Patna stand against Gāndhārī, Udānavarga and Chinese; flag for the wording-default ruling."
+  },
+  {
+   "no": 3,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Akkocchi maṁ avadhi maṁ,",
+     "gloss": "'He abused me, he struck me,",
+     "aligned": {
+      "pd": "ākrośi maṁ avadhi maṁ",
+      "sa": "ākrośan mām avocan mām",
+      "zh": "人若罵我，",
+      "bo": "བདག་ལ་ཁ་ཟེར་བ་དག་ལ་གཤེ། །"
+     },
+     "witness_glosses": {
+      "sa": "'They abused me, they spoke [against] me,",
+      "zh": "If someone reviles me,",
+      "bo": "'[They] spoke harshly to me, [they] reviled [me]' (parse uncertain)"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Sanskrit avocan 'they spoke' replaces avadhi 'he struck'; Tibetan has two verbs of speech (ཁ་ཟེར་བ, གཤེ), so the Udānavarga line has verbal abuse only, no striking."
+      },
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "grammar",
+       "note": "Sanskrit verbs are 3rd plural (ākrośan, avocan, ajayan) against Pāli/Patna 3rd singular; Tibetan marks plural with དག."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "T212 人若罵我 'if someone reviles me' renders only the first verb, as a condition."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "A two-voice split, Pāli+Patna (struck, singular) against the Udānavarga line (spoke, plural); Gāndhārī is absent and the Chinese is too compressed to decide, so a lineage rule settles it.",
+     "confidence": "medium",
+     "candidates": [
+      "uv-one-voice"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "ajini maṁ ahāsi me;",
+     "gloss": "he defeated me, he robbed me' —",
+     "aligned": {
+      "pd": "ajini maṁ ahāsi me |",
+      "sa": "ajayan mām ajāpayet /",
+      "zh": "勝我不勝，",
+      "bo": "བདག་ཕམ་བདག་ཕམ་བྱེད་པའོ་ཞེས། །"
+     },
+     "witness_glosses": {
+      "sa": "they defeated me, he/they made [me] lose (ajāpayet)",
+      "zh": "[he] defeated me, [I] did not win",
+      "bo": "'I was defeated, [they] caused my defeat/loss' — thus"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "wording",
+       "note": "ahāsi 'robbed' vs ajāpayet 'caused [me] to lose' (causative of ji/jyā); Tibetan ཕམ་བྱེད 'caused defeat/loss'. Close in sense (loss of goods vs being worsted)."
+      },
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "grammar",
+       "note": "Plural subject in the Udānavarga line, as in line 1."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "勝我不勝 'defeated me, I did not win' (T212 commentary glosses it as winning or not by the Dharma); robbery is absent."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan ends the quoted complaint with ཞེས 'thus', marking lines 1-2 as a quotation."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Part of the same Pāli+Patna vs Udānavarga split (number, robbery vs causing loss); Chinese paraphrase; settled with line 1.",
+     "confidence": "medium",
+     "candidates": [
+      "uv-one-voice",
+      "chinese-free-rendering"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Ye ca taṁ upanayhanti,",
+     "gloss": "and those who bind themselves to that,",
+     "aligned": {
+      "pd": "ye tāni upanahyanti",
+      "sa": "atra ye hy upanahyanti",
+      "zh": "快意從者，",
+      "bo": "འདི་གང་སེམས་ལ་འཛིན་བྱེད་པ། །"
+     },
+     "witness_glosses": {
+      "pd": "those who bind themselves to those [things]",
+      "sa": "those who here bind themselves [to it]",
+      "zh": "those who follow [it] gratifying their feelings",
+      "bo": "whoever holds this in mind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "grammar",
+       "note": "Patna tāni 'those (things)' plural object for Pāli taṁ 'that'."
+      },
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "Sanskrit atra 'here/in this' for ca taṁ."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "快意從者 'those who follow with gratified feeling'; T212's commentary explains it as those who keep thinking this way and so increase enmity: same sense, freely put."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "All carry 'those who harbour it'; differences are grammar and Chinese idiom.",
+     "confidence": "medium",
+     "candidates": []
+    },
+    {
+     "line": 4,
+     "pi": "veraṁ tesaṁ na sammati.",
+     "gloss": "their hostility does not cease.",
+     "aligned": {
+      "pd": "veraṁ tesaṁ na śāmyati ||",
+      "sa": "vairaṁ teṣāṁ na śāmyati //",
+      "zh": "怨終不息。",
+      "bo": "དེ་ཡི་འཁོན་ནི་ཞི་མི་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "resentment never ceases",
+      "bo": "his/their grudge does not become pacified"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "怨終不息 'resentment in the end does not cease'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "grammar",
+       "note": "Tibetan དེ་ཡི 'his' singular possessor."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; vera (hostility/enmity/hatred) needs a book-wide rendering.",
+     "confidence": "high",
+     "candidates": [
+      "vera-avera"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Gāndhārī not located. The Chinese is T212 (T210 lacks this verse). The Sanskrit lines 1-2 carry 'ins' marks in the edition on 'm avocan mām' and 'ajayan mām a'/'e'; I take these as revision markup, but if they mark editorial restoration the Sanskrit 'avocan' would be weaker. Patna is 3rd singular like Pāli."
+  },
+  {
+   "no": 4,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Akkocchi maṁ avadhi maṁ,",
+     "gloss": "'He abused me, he struck me,",
+     "aligned": {
+      "pd": "ākrośi maṁ avadhi maṁ",
+      "sa": "ākrośan mām avocan mām",
+      "zh": "若人致毀罵，",
+      "bo": "བདག་ལ་ཁ་ཟེར་བ་དག་ལ་གཤེ། །"
+     },
+     "witness_glosses": {
+      "sa": "'They abused me, they spoke [against] me,",
+      "zh": "If someone heaps abuse [on me],",
+      "bo": "'[They] spoke harshly to me, [they] reviled [me]'"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "As verse 3 line 1: spoke vs struck; plural."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "T213 若人致毀罵 'if someone heaps abuse' (partial parallel, listed for both 3 and 4)."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Same split as verse 3 line 1, settled by the same rule.",
+     "confidence": "medium",
+     "candidates": [
+      "uv-one-voice",
+      "partial-or-absent-parallels"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "ajini maṁ ahāsi me;",
+     "gloss": "he defeated me, he robbed me' —",
+     "aligned": {
+      "pd": "ajini maṁ ahāsi me |",
+      "sa": "ajayan mām ajāpayet /",
+      "zh": "彼勝我不勝，",
+      "bo": "བདག་ཕམ་བདག་ཕམ་བྱེད་པའོ་ཞེས། །"
+     },
+     "witness_glosses": {
+      "sa": "they defeated me, made [me] lose",
+      "zh": "he won, I did not win",
+      "bo": "'I was defeated, [they] caused my defeat' — thus"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "wording",
+       "note": "As verse 3 line 2."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "T213 彼勝我不勝 'he won, I did not win'; robbery absent."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "As verse 3 line 2.",
+     "confidence": "medium",
+     "candidates": [
+      "uv-one-voice",
+      "partial-or-absent-parallels"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Ye ca taṁ nupanayhanti,",
+     "gloss": "but those who do not bind themselves to that,",
+     "aligned": {
+      "pd": "ye tāni nopanahyanti",
+      "sa": "atra ye nopanahyanti",
+      "zh": "快樂從意者，",
+      "bo": "འདི་གང་སེམས་ལ་མི་འཛིན་པ། །"
+     },
+     "witness_glosses": {
+      "zh": "one who follows [his] thought with happiness (no negation)",
+      "bo": "whoever does not hold this in mind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "T213 快樂從意者 has no negative; it is not the Pāli's 'do not harbour' and is unclear (it may mean one who follows a contented mind). Partial parallel only."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "All full witnesses agree on the negative; only the partial Chinese lacks it, which the partial-parallel rule settles.",
+     "confidence": "high",
+     "candidates": [
+      "partial-or-absent-parallels"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "veraṁ tesūpasammati.",
+     "gloss": "in them hostility ceases.",
+     "aligned": {
+      "pd": "veraṁ tesaṁ upaśāmyati ||",
+      "sa": "vairaṁ teṣāṁ praśāmyati //",
+      "zh": "怨終得休息。",
+      "bo": "དེ་ཡི་འཁོན་ནི་ཞི་བར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "resentment finally comes to rest",
+      "bo": "his grudge becomes pacified"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "T213 怨終得休息 'resentment finally comes to rest'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; vera rendering.",
+     "confidence": "high",
+     "candidates": [
+      "vera-avera"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Gāndhārī not located. The Chinese T213 stanza is a single 'positive' stanza used for both 3 and 4; it is a partial parallel."
+  },
+  {
+   "no": 5,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Na hi verena verāni,",
+     "gloss": "For not by hostility [do] hostilities",
+     "aligned": {
+      "pd": "na hi vereṇa verāṇi",
+      "sa": "na hi vaireṇa vairāṇi",
+      "zh": "慍於怨者，",
+      "bo": "འདི་ན་འཁོན་གྱིས་འཁོན་ཅན་དག །"
+     },
+     "witness_glosses": {
+      "zh": "one who is angry at the resentful/resentment",
+      "bo": "here, by enmity, those with enmity"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "慍於怨者 'one who is angry at resentment' recasts the abstract statement as a person; same sense."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "འཁོན་ཅན་དག 'those having enmity' (persons) for vairāṇi 'hostilities'; Tibetan moves 'here' (iha) to this line."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; vera rendering.",
+     "confidence": "high",
+     "candidates": [
+      "vera-avera"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "sammantīdha kudācanaṁ;",
+     "gloss": "ever cease here;",
+     "aligned": {
+      "pd": "śāmantīha kadācanaṁ |",
+      "sa": "śāmyantīha kadā cana |",
+      "zh": "未甞無怨；",
+      "bo": "ནམ་ཡང་ཞི་བར་འགྱུར་བ་མེད། །"
+     },
+     "witness_glosses": {
+      "zh": "has never been without resentment",
+      "bo": "never become pacified"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "未甞無怨 'has never been free of resentment': negative statement kept."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "All agree.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 3,
+     "pi": "Averena ca sammanti,",
+     "gloss": "and by non-hostility they cease:",
+     "aligned": {
+      "pd": "avereṇa tu śāmaṁti",
+      "sa": "kṣāntyā vairāṇi śāmyanti",
+      "zh": "不慍自除，",
+      "bo": "བཟོད་པས་འཁོན་ནི་ཞི་འགྱུར་བ། །"
+     },
+     "witness_glosses": {
+      "sa": "by patience hostilities cease",
+      "zh": "not being angry, [it] clears itself",
+      "bo": "by patience enmity becomes pacified"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Sanskrit kṣāntyā and Tibetan བཟོད་པས 'by patience' against avera 'non-hostility' in Pāli and Patna; Chinese 不慍 'not being angry' sides with avera (T212/T213 have 行忍 'practising patience', following their Udānavarga source)."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Udānavarga line (Sanskrit+Tibetan as one voice, with T212/T213) against Pāli, Patna and T210; a lineage rule settles it.",
+     "confidence": "high",
+     "candidates": [
+      "uv-one-voice",
+      "vera-avera"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "esa dhammo sanantano.",
+     "gloss": "this is the age-old/eternal law (dhamma).",
+     "aligned": {
+      "pd": "esa dhaṁmo sanātano ||",
+      "sa": "eṣa dharmaḥ sanātanaḥ //",
+      "zh": "是道可宗。",
+      "bo": "འདི་ནི་ཆོས་ཀྱི་རང་བཞིན་ཡིན། །"
+     },
+     "witness_glosses": {
+      "zh": "this Way can be taken as the principle",
+      "bo": "this is the nature of dharma(s)"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "是道可宗 'this Way is to be taken as authoritative': 道 for dhamma, and no word for sanantano."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "ཆོས་ཀྱི་རང་བཞིན 'the nature of dharma' renders sanātana as 'nature' rather than 'eternal'."
+      },
+      {
+       "witnesses": [
+        "pd",
+        "sa"
+       ],
+       "kind": "spelling",
+       "note": "sanātano/sanātanaḥ: normal form; Pāli sanantano metri causa."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same idea across witnesses, but both dhammo and sanantano need book-wide renderings (the method names sanantano explicitly).",
+     "confidence": "high",
+     "candidates": [
+      "sanantano",
+      "dhamma-rendering"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Gāndhārī not located. Patna places this in its Khānti (patience) chapter yet reads avereṇa, not patience."
+  },
+  {
+   "no": 6,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Pare ca na vijānanti,",
+     "gloss": "Others do not understand",
+     "aligned": {
+      "pd": "pare ca na vijānaṁti",
+      "zh": "不好責彼，",
+      "bo": "ཕ་རོལ་པོ་དག་མི་ཤེས་པས། །"
+     },
+     "witness_glosses": {
+      "zh": "do not be fond of blaming others",
+      "bo": "because the others do not understand"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "T210 不好責彼 'do not like to blame others': only 彼 'others' overlaps; the admonition differs."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "partial",
+       "note": "Tibetan ཕ་རོལ་པོ་དག་མི་ཤེས་པས 'since the others do not understand' (third line of a related six-line stanza)."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Pāli and Patna (the only full witnesses) agree and the partial Tibetan agrees; the partial Chinese has a different admonition, which the partial-parallel rule sets aside.",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "mayamettha yamāmase;",
+     "gloss": "that we here must restrain ourselves / come to an end (yamāmase).",
+     "aligned": {
+      "pd": "vayam ettha jayāmatha |",
+      "zh": "務自省身，",
+      "bo": "བདག་ནི་འདི་ལ་བརྩོན་པར་བྱེད། །"
+     },
+     "witness_glosses": {
+      "pd": "we here are winning/must strive to win (jayāmatha)",
+      "zh": "strive to examine yourself",
+      "bo": "I strive at this"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "variant",
+       "note": "Patna jayāmatha 'we conquer / strive to win' for yamāmase."
+      },
+      {
+       "witnesses": [
+        "zh",
+        "bo"
+       ],
+       "kind": "partial",
+       "note": "Chinese 務自省身 'strive to examine oneself' and Tibetan བདག་ནི་འདི་ལ་བརྩོན་པར་བྱེད 'I strive at this' both read a sense of exertion/self-restraint, not of perishing."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "yamāmase is ambiguous (restrain ourselves / exert ourselves / perish); Patna reads differently and the partial parallels lean to exertion; the reading needs its own judgment (T4 decision 'yamamase').",
+     "confidence": "low",
+     "candidates": []
+    },
+    {
+     "line": 3,
+     "pi": "Ye ca tattha vijānanti,",
+     "gloss": "but those there who understand,",
+     "aligned": {
+      "pd": "ye ca tattha vijānaṁti",
+      "zh": "如有知此，",
+      "bo": "འདི་ན་མཁས་པ་གང་ཡིན་པ། །"
+     },
+     "witness_glosses": {
+      "zh": "if anyone knows this",
+      "bo": "whoever here are wise"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "partial",
+       "note": "Tibetan མཁས་པ 'the wise' for 'those who understand'."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Pāli and Patna agree; partials agree in sense.",
+     "confidence": "medium",
+     "candidates": []
+    },
+    {
+     "line": 4,
+     "pi": "tato sammanti medhagā.",
+     "gloss": "from that their quarrels cease.",
+     "aligned": {
+      "pd": "tato śāṁmaṁti medhakā ||",
+      "zh": "永滅無患。",
+      "bo": "དེ་དག་བཞམས་པའི་ཚིག་གིས་ཞི། །"
+     },
+     "witness_glosses": {
+      "zh": "forever extinguished, without trouble",
+      "bo": "they are pacified by gentle words"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "永滅無患 'forever extinguished, free of trouble'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "partial",
+       "note": "དེ་དག་བཞམས་པའི་ཚིག་གིས་ཞི 'they are calmed by gentle words': a different subject and means."
+      },
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "spelling",
+       "note": "medhakā for medhagā."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Pāli and Patna agree, but medhaga 'quarrels' is a rare word and the partial parallels diverge; partial-parallel rule applies and the word needs a fixed sense.",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels",
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [
+    {
+     "witness": "bo",
+     "text": "ཁྱོད་ནི་མི་མཁས་ལུགས་ཅན་ཏེ། །",
+     "gloss": "You are of unwise ways,",
+     "note": "Tibetan partial (Uv 14.8 Tib.): opening address with no Pāli counterpart."
+    },
+    {
+     "witness": "bo",
+     "text": "ཁ་བྱ་ཡིས་ནི་རྩོལ་བྱེད་པ། །",
+     "gloss": "one who strives/contends with talk (ཁ་བྱ; parse uncertain).",
+     "note": "No Pāli counterpart; meaning of ཁ་བྱ uncertain to me."
+    }
+   ],
+   "tier": 4,
+   "notes": "Sanskrit and Gāndhārī not located. Chinese and Tibetan are partial/provisional parallels (the Tibetan note says Rockhill does not identify it with Dhp 6). Only Pāli and Patna are full witnesses."
+  },
+  {
+   "no": 7,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Subhānupassiṁ viharantaṁ,",
+     "gloss": "One who dwells contemplating the attractive,",
+     "aligned": {
+      "pd": "śubhā 'nupaśśiṁ viharantaṁ",
+      "ga": "śuhaṇupaśi viharadu",
+      "sa": "śubhānudarśinaṁ nityam",
+      "zh": "行見身淨，",
+      "bo": "གཙང་བར་ལྟ་ཞིང་གནས་བྱེད་པ། །"
+     },
+     "witness_glosses": {
+      "sa": "seeing the attractive, constantly",
+      "zh": "in practice seeing the body as pure",
+      "bo": "who dwells viewing [things] as pure"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "Sanskrit nityam 'constantly' for viharantaṁ 'dwelling'; Tibetan གནས་བྱེད་པ 'dwells' sides with Pāli."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "行見身淨 adds 身 'the body' as the object of the 'beautiful' view."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan places this line fourth."
+      },
+      {
+       "witnesses": [
+        "bo",
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "གཙང་བ / 淨 'pure, clean' for śubha 'attractive, beautiful'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; subha/asubha needs a book-wide rendering (attractive/beautiful/pure).",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary",
+      "same-sense-wording-default"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "indriyesu asaṁvutaṁ;",
+     "gloss": "unrestrained in the faculties,",
+     "aligned": {
+      "pd": "indriyesu asaṁvtaṁ |",
+      "ga": "idrieṣu asavudu",
+      "sa": "indriyaiś cāpy asaṁvtam /",
+      "zh": "不攝諸根，",
+      "bo": "གང་ཞིག་དབང་པོ་མ་བསྡམས་ཤིང་། །"
+     },
+     "witness_glosses": {
+      "bo": "whoever is unrestrained in the faculties"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan first line."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "All agree; indriya (faculties/senses) needs a fixed rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Bhojanamhi cāmattaññuṁ,",
+     "gloss": "and immoderate in eating,",
+     "aligned": {
+      "pd": "bhojanamhi amāttaṁñū",
+      "ga": "bhoyaṇasa amatraño",
+      "sa": "bhojane cāpy amātrajñaṁ",
+      "zh": "飲食不節，",
+      "bo": "ཟས་ཀྱི་ཚོད་ནི་མི་ཤེས་ལ། །"
+     },
+     "witness_glosses": {
+      "zh": "not moderate in food and drink",
+      "bo": "and not knowing the measure of food"
+     },
+     "differences": [],
+     "tier": 1,
+     "tier_reason": "All agree.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 4,
+     "pi": "kusītaṁ hīnavīriyaṁ;",
+     "gloss": "lazy, of low energy —",
+     "aligned": {
+      "pd": "kuśīdaṁ hīnavīriyaṁ ||",
+      "ga": "kusidu hiṇaviryava",
+      "sa": "hīnaṁ jāgarikāsu ca |",
+      "zh": "慢墮怯弱，",
+      "bo": "དྲན་པ་ཉམས་དང་ལེ་ལོ་ཅན། །"
+     },
+     "witness_glosses": {
+      "sa": "deficient in wakefulness",
+      "zh": "slack, lazy, timid and weak",
+      "bo": "of lapsed mindfulness and lazy"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "variant",
+       "note": "Sanskrit hīnaṁ jāgarikāsu ca 'deficient in wakefulness' replaces 'lazy, low in energy'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Tibetan དྲན་པ་ཉམས་དང་ལེ་ལོ་ཅན 'mindfulness lapsed and lazy': mixes a wakefulness/mindfulness item with laziness."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Pāli, Patna, Gāndhārī and Chinese agree; the Udānavarga line differs, settled by the one-voice rule.",
+     "confidence": "high",
+     "candidates": [
+      "uv-one-voice"
+     ]
+    },
+    {
+     "line": 5,
+     "pi": "Taṁ ve pasahati māro,",
+     "gloss": "him indeed Māra overpowers,",
+     "aligned": {
+      "pd": "taṁ ve prasahate māro",
+      "ga": "ta gu prasahadi raku",
+      "sa": "taṁ vai prasahate rāgo",
+      "zh": "為邪所制，",
+      "bo": "དེ་ནི་འདོད་ཆགས་རྣམས་ཀྱིས་བཅོམ། །"
+     },
+     "witness_glosses": {
+      "ga": "him indeed passion (raku = rāga) overpowers",
+      "sa": "him indeed passion overpowers",
+      "zh": "he is controlled by the deviant/evil (邪)",
+      "bo": "he is overcome by passions"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Gāndhārī raku, Sanskrit rāgo and Tibetan འདོད་ཆགས 'passion' against Māra in Pāli and Patna."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "為邪所制 'controlled by the deviant': 邪 can stand for Māra ('the evil one') or for wrong desire; cannot be counted securely."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Two lineages (Pāli+Patna) against two (Gāndhārī, Udānavarga) on the agent, Māra or passion; a best-reading judgment (T4 decision 'mara-raga').",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default"
+     ]
+    },
+    {
+     "line": 6,
+     "pi": "vāto rukkhaṁva dubbalaṁ.",
+     "gloss": "as the wind a weak tree.",
+     "aligned": {
+      "pd": "vāto rukkham va dubbalaṁ |",
+      "ga": "vadu rakhkṣa ba drubala.",
+      "sa": "vāto vkṣam ivābalam //",
+      "zh": "如風靡草；",
+      "bo": "རླུང་གིས་མི་བརྟན་ལྗོན་ཤིང་བཞིན། །"
+     },
+     "witness_glosses": {
+      "zh": "as the wind flattens grass",
+      "bo": "like an unstable tree by the wind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "如風靡草 'as wind bends the grass': native idiom with grass for tree."
+      },
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "abalam 'strengthless' = dubbalaṁ."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "All Indic and Tibetan agree; the Chinese changes the simile's object (grass), which the Chinese-free-rendering rule settles.",
+     "confidence": "high",
+     "candidates": [
+      "chinese-free-rendering"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 4,
+   "notes": "Tibetan reorders: faculties, food, mindfulness/laziness, viewing-as-pure, passion, tree. Crux: Māra (Pāli, Patna) vs passion (Gāndhārī, Sanskrit, Tibetan). Sanskrit 'ins' mark on 'h' in 'hīnaṁ' taken as revision markup."
+  },
+  {
+   "no": 8,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Asubhānupassiṁ viharantaṁ,",
+     "gloss": "One who dwells contemplating the unattractive,",
+     "aligned": {
+      "pd": "aśubhānupaśśiṁ viharantaṁ",
+      "ga": "aśuhaṇupaśi viharadu",
+      "sa": "aśubhānudarśinaṁ nityam",
+      "zh": "觀身不淨，",
+      "bo": "མི་གཙང་ལྟ་བས་གནས་བྱེད་པ། །"
+     },
+     "witness_glosses": {
+      "sa": "seeing the unattractive, constantly",
+      "zh": "contemplating the body as impure",
+      "bo": "who dwells by viewing the impure"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "nityam for viharantaṁ, as verse 7."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "觀身不淨 'contemplates the body as impure' (body explicit)."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan fourth line."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; subha/asubha rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary",
+      "same-sense-wording-default"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "Indriyesu susaṁvutaṁ;",
+     "gloss": "well restrained in the faculties,",
+     "aligned": {
+      "pd": "indriyeṣu susaṁvtaṁ ||",
+      "ga": "idrieṣu sisavudu",
+      "sa": "indriyaiś ca susaṁvtam /",
+      "zh": "能攝諸根，",
+      "bo": "གང་ཞིག་དབང་པོ་ལེགས་བསྡམས་ཤིང་། །"
+     },
+     "witness_glosses": {
+      "zh": "able to restrain the faculties",
+      "bo": "whoever is well restrained in the faculties"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "spelling",
+       "note": "sisavudu for susaṁvuta."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "All agree; indriya rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Bhojanamhi ca mattaññuṁ,",
+     "gloss": "and moderate in eating,",
+     "aligned": {
+      "pd": "bhojanamhi ca mā. . .",
+      "ga": "bhoyaṇasa ya matraño",
+      "sa": "bhojane cāpi mātrajñaṁ",
+      "zh": "食知節度，",
+      "bo": "ཟས་ཀྱི་ཚོད་ནི་ཤེས་པ་དང་། །"
+     },
+     "witness_glosses": {
+      "zh": "knowing measure in food",
+      "bo": "and knowing the measure of food"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "partial",
+       "note": "Patna is broken after mā... (fragmentary), consistent with Pāli."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "All agree (Patna fragmentary but consistent).",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 4,
+     "pi": "Saddhaṁ āraddhavīriyaṁ;",
+     "gloss": "faithful, of aroused energy —",
+     "aligned": {
+      "pd": ". . .ddhaṁ āraddhavīriyaṁ |",
+      "ga": "ṣadhu aradhaviryava",
+      "sa": "yuktaṁ jāgarikāsu ca |",
+      "zh": "常樂精進，",
+      "bo": "སོ་སོར་དྲན་ཞིང་བརྩོན་འགྲུས་ལྡན། །"
+     },
+     "witness_glosses": {
+      "sa": "devoted to wakefulness",
+      "zh": "always delighting in energetic effort",
+      "bo": "mindful and endowed with energy"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "variant",
+       "note": "Sanskrit yuktaṁ jāgarikāsu ca 'devoted to wakefulness' replaces faith and energy."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Tibetan སོ་སོར་དྲན 'mindful' + བརྩོན་འགྲུས་ལྡན 'energetic': no faith."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "常樂精進 'always delighting in effort': energy kept, faith (saddhā) absent."
+      },
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "partial",
+       "note": "Patna ...ddhaṁ āraddhavīriyaṁ is damaged at the start but consistent with saddhaṁ."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Pāli, Gāndhārī (and damaged Patna) have faith+energy; Udānavarga differs (one voice) and the Chinese drops faith; rules settle it.",
+     "confidence": "high",
+     "candidates": [
+      "uv-one-voice",
+      "chinese-free-rendering",
+      "single-or-fragmentary-witness"
+     ]
+    },
+    {
+     "line": 5,
+     "pi": "Taṁ ve nappasahati māro,",
+     "gloss": "him indeed Māra does not overpower,",
+     "aligned": {
+      "pd": "taṁ ve na prasahate māro",
+      "ga": "ta gu na prasahadi raku",
+      "sa": "taṁ na prasahate rāgo",
+      "zh": "不為邪動，",
+      "bo": "དེ་ནི་འདོད་ཆགས་ཀྱིས་མི་ཆོམས། །"
+     },
+     "witness_glosses": {
+      "ga": "him passion does not overpower",
+      "sa": "him passion does not overpower",
+      "zh": "he is not moved by the deviant",
+      "bo": "he is not overcome by passion"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Passion vs Māra, as verse 7 line 5."
+      },
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "Sanskrit lacks vai/ve 'indeed' here."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Same crux as verse 7 line 5; one decision covers both.",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default"
+     ]
+    },
+    {
+     "line": 6,
+     "pi": "Vāto selaṁva pabbataṁ.",
+     "gloss": "as the wind [does not overpower] a rocky mountain.",
+     "aligned": {
+      "pd": "vāto śelaṁ va parvvataṁ ||",
+      "ga": "vadu śela va parvada.",
+      "sa": "vātaḥ śailam iva sthiram //",
+      "zh": "如風大山。",
+      "bo": "རླུང་གིས་རི་བོ་མི་གཡོས་བཞིན། །"
+     },
+     "witness_glosses": {
+      "sa": "as the wind a firm rock",
+      "zh": "like wind [against] a great mountain",
+      "bo": "like a mountain not moved by wind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "śailam iva sthiram 'a firm rock' for selaṁ pabbataṁ 'a rock mountain'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "མི་གཡོས 'unmoved' makes the negation explicit."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "All witnesses carry the same image of wind failing against a mountain/rock.",
+     "confidence": "high",
+     "candidates": []
+    }
+   ],
+   "extra": [],
+   "tier": 4,
+   "notes": "Patna fragmentary (lines 3-4). Same Māra/passion crux as verse 7."
+  },
+  {
+   "no": 9,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Anikkasāvo kāsāvaṁ,",
+     "gloss": "One not free of stain (kasāva), the stained (ochre) robe (kāsāva)",
+     "aligned": {
+      "pd": "anikkaṣāyo kāṣāyaṁ",
+      "ga": "anikaṣayu kaṣaya",
+      "sa": "aniṣkaṣāyaḥ kāṣāyaṁ",
+      "zh": "不吐毒態，",
+      "bo": "གང་ཞིག་སྙིགས་མ་ཡོད་བཞིན་དུ། །"
+     },
+     "witness_glosses": {
+      "zh": "not spitting out poisonous states",
+      "bo": "whoever, while still having dregs (impurities)"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "不吐毒態 'not vomiting out poisonous attitudes': kaṣāya taken as 'poison/astringent', with 'vomit' from the paired verse's vanta; the pun is lost."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "སྙིགས་མ 'dregs, impurity' for kaṣāya; the robe word is in line 2, so the pun is lost."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense in all Indic witnesses; the kasāva/kāsāva wordplay needs a once-only decision on how to render it in English.",
+     "confidence": "high",
+     "candidates": [
+      "kasava-pun"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "yo vatthaṁ paridahissati;",
+     "gloss": "who will put on [that] cloth,",
+     "aligned": {
+      "pd": "yo vastaṁ paridhehiti |",
+      "ga": "yo vastra parihasidi",
+      "sa": "yo vastraṁ paridhāsyati |",
+      "zh": null,
+      "bo": "ངུར་སྨྲིག་གོས་ནི་གྱོན་བྱེད་པ། །"
+     },
+     "witness_glosses": {
+      "bo": "wears the saffron robe"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "structure",
+       "note": "Chinese has no line about putting on the robe; its second line 欲心馳騁 is extra (see extra)."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "All Indic and Tibetan agree; the Chinese omits the line and replaces it, settled by the Chinese-free-rendering rule.",
+     "confidence": "high",
+     "candidates": [
+      "chinese-free-rendering"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Apeto damasaccena,",
+     "gloss": "devoid of self-control and truth,",
+     "aligned": {
+      "pd": "apeto damasaccena",
+      "ga": "avedu damasoraca",
+      "sa": "apetadamasauratyo",
+      "zh": "未能自調，",
+      "bo": "དུལ་དང་དེས་པ་མེད་པ་དེ། །"
+     },
+     "witness_glosses": {
+      "ga": "devoid of self-control and gentleness (soraca)",
+      "sa": "devoid of self-control and gentleness (sauratya)",
+      "zh": "not yet able to tame oneself",
+      "bo": "he who lacks taming and gentleness"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "damasacca 'restraint and truth' (Pāli, Patna) against dama-sorata/sauratya 'restraint and gentleness' (Gāndhārī, Sanskrit, Tibetan དེས་པ)."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "未能自調 'not able to tame oneself' renders only dama."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Pāli+Patna against Gāndhārī and the Udānavarga line on 'truth' vs 'gentleness'; a best-reading judgment (T4 decision 'sacca-sorata').",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "na so kāsāvamarahati.",
+     "gloss": "he does not deserve the ochre robe.",
+     "aligned": {
+      "pd": "na so kāṣāyam arihati ||",
+      "ga": "na so kaṣaya arahadi.",
+      "sa": "nāsau kāṣāyam arhati ||",
+      "zh": "不應法衣；",
+      "bo": "ངུར་སྨྲིག་གྱོན་པའི་འོས་མ་ཡིན། །"
+     },
+     "witness_glosses": {
+      "zh": "is not fit for the Dharma robe",
+      "bo": "is not worthy of wearing the saffron"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "法衣 'Dharma robe' for kāsāva."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "All agree; the robe word belongs to the kasāva pun ruling.",
+     "confidence": "high",
+     "candidates": [
+      "kasava-pun"
+     ]
+    }
+   ],
+   "extra": [
+    {
+     "witness": "zh",
+     "text": "欲心馳騁，",
+     "gloss": "the desirous mind gallops about",
+     "note": "Chinese line with no Pāli counterpart, in place of 'who will put on the robe'."
+    }
+   ],
+   "tier": 4,
+   "notes": "Wordplay verse. Crux: sacca vs sorata (shared with verse 10)."
+  },
+  {
+   "no": 10,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Yo ca vantakasāvassa,",
+     "gloss": "But one who would have vomited out the stains,",
+     "aligned": {
+      "pd": "yo tu vāntakaṣāyassa",
+      "ga": "yo du vadakaṣayu",
+      "sa": "yas tu vāntakaṣāyaḥ syāc",
+      "zh": "能吐毒態，",
+      "bo": "གང་ཞིག་སྙིགས་མ་རྣམས་སྤངས་ནས། །"
+     },
+     "witness_glosses": {
+      "sa": "but one who would be one who has vomited the stains",
+      "zh": "able to spit out poisonous states",
+      "bo": "whoever, having abandoned the impurities"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "grammar",
+       "note": "Sanskrit vāntakaṣāyaḥ syāt shows Pāli -assa is the optative 'would be' (not a genitive)."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "སྤངས 'abandoned' for vānta 'vomited'."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "能吐毒態 'able to spit out poisonous states'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; the kasāva pun ruling applies.",
+     "confidence": "high",
+     "candidates": [
+      "kasava-pun"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "sīlesu susamāhito;",
+     "gloss": "well composed in virtues (sīla),",
+     "aligned": {
+      "pd": "śīlehi susamāhito |",
+      "ga": "śileṣu susamahidu",
+      "sa": "chīleṣu susamāhitaḥ /",
+      "zh": "戒意安靜，",
+      "bo": "ཚུལ་ཁྲིམས་ལེགས་པར་མཉམ་བཞག་པ། །"
+     },
+     "witness_glosses": {
+      "zh": "in the precepts, the mind calm",
+      "bo": "well composed in ethical discipline"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "grammar",
+       "note": "śīlehi instrumental 'by/through virtues' for locative sīlesu."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "All agree; sīla needs a book-wide rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Upeto damasaccena,",
+     "gloss": "endowed with self-control and truth,",
+     "aligned": {
+      "pd": "upeto damasaccena",
+      "ga": "uvedu damasoraca",
+      "sa": "upetadamasauratyaḥ",
+      "zh": "降心已調，",
+      "bo": "དུལ་དང་དེས་པར་ལྡན་པ་དེ། །"
+     },
+     "witness_glosses": {
+      "ga": "endowed with self-control and gentleness",
+      "sa": "endowed with self-control and gentleness",
+      "zh": "having subdued the mind, already tamed",
+      "bo": "he who possesses taming and gentleness"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "sacca vs sorata/sauratya, as verse 9 line 3."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Same crux as verse 9 line 3; one decision covers both.",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "sa ve kāsāvamarahati.",
+     "gloss": "he indeed deserves the ochre robe.",
+     "aligned": {
+      "pd": "sa ve kāṣāyam arihati ||",
+      "ga": "so du kaṣaya arahadi.",
+      "sa": "sa vai kāṣāyam arhati //",
+      "zh": "此應法衣。",
+      "bo": "ངུར་སྨྲིག་གྱོན་པའི་འོས་ཡིན་ནོ། །"
+     },
+     "witness_glosses": {
+      "zh": "this one befits the Dharma robe",
+      "bo": "is worthy of wearing the saffron"
+     },
+     "differences": [],
+     "tier": 2,
+     "tier_reason": "All agree; robe word under the kasāva ruling.",
+     "confidence": "high",
+     "candidates": [
+      "kasava-pun"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 4,
+   "notes": "Pair of verse 9."
+  },
+  {
+   "no": 11,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Asāre sāramatino,",
+     "gloss": "Taking the inessential for the essential (sāra: heartwood/core),",
+     "aligned": {
+      "pd": "asāre sāramatino",
+      "ga": "asari saravadiṇo",
+      "sa": "asāre sāramatayaḥ",
+      "zh": "以偽為真，",
+      "bo": "གཅེས་མིན་གཅེས་པར་བློས་འཛིན་ཅིང་། །"
+     },
+     "witness_glosses": {
+      "ga": "calling(?) the inessential essential (saravadiṇo)",
+      "zh": "taking the false as true",
+      "bo": "holding in mind the not-precious as precious"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "wording",
+       "note": "Gāndhārī saravadiṇo may be -vādino 'who declare' rather than -matino 'who think'; same idea, reading not secure."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "以偽為真 'taking the false as true': 真/偽 'true/false' for sāra/asāra; Chinese gives the two clauses in reverse order."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "གཅེས་པ 'precious, dear' for sāra."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense in all; sāra needs a book-wide rendering (essential/core/heartwood).",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "sāre cāsāradassino;",
+     "gloss": "and seeing the essential as inessential,",
+     "aligned": {
+      "pd": "sāre cā 'sārasaṁñino |",
+      "ga": "sari asaradaśiṇo",
+      "sa": "sāre cāsārasaṁjñinaḥ /",
+      "zh": "以真為偽、",
+      "bo": "གཅེས་ལ་གཅེས་པ་མིན་རྟོག་པ། །"
+     },
+     "witness_glosses": {
+      "pd": "and perceiving the essential as inessential",
+      "sa": "and perceiving the essential as inessential",
+      "zh": "taking the true as false",
+      "bo": "conceiving the precious as not precious"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd",
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "saññino/saṁjñinaḥ 'perceiving' for dassino 'seeing'; Gāndhārī daśiṇo agrees with Pāli."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "structure",
+       "note": "Chinese first clause."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same idea; sāra rendering; perceiving/seeing is a minor wording difference.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary",
+      "same-sense-wording-default"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Te sāraṁ nādhigacchanti,",
+     "gloss": "they do not reach the essential,",
+     "aligned": {
+      "pd": "te sāran nādhigacchanti",
+      "ga": "te sara nadhikachadi",
+      "sa": "te sāraṁ nādhigacchanti",
+      "zh": "不得真利；",
+      "bo": "དེས་ནི་གཅེས་པ་ཐོབ་མི་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "do not gain the true benefit",
+      "bo": "they will not obtain the precious"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "不得真利 'do not obtain the true benefit'."
+      },
+      {
+       "witnesses": [
+        "zh",
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Chinese and Tibetan put this line last."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; sāra rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "micchāsaṅkappagocarā.",
+     "gloss": "whose range is wrong intention.",
+     "aligned": {
+      "pd": "micchasaṁkappagocarā ||",
+      "ga": "michasaggapagoyara.",
+      "sa": "mithyāsaṁkalpagocarāḥ //",
+      "zh": "是為邪計，",
+      "bo": "ལོག་པར་ཀུན་རྟོག་སྤྱོད་ཡུལ་ཅན། །"
+     },
+     "witness_glosses": {
+      "zh": "this is wrong reckoning",
+      "bo": "whose sphere of activity is wrong conception"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "是為邪計 'this is wrong calculation/view' for micchāsaṅkappagocarā."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; saṅkappa (intention/thought/resolve) needs a book-wide rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 2,
+   "notes": "Clean agreement apart from renderings of sāra and saṅkappa."
+  },
+  {
+   "no": 12,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Sārañca sārato ñatvā,",
+     "gloss": "Having known the essential as essential",
+     "aligned": {
+      "pd": "sārañ ca sārato ññāttā",
+      "ga": "sara du saradu ñatva",
+      "sa": "sāraṁ tu sārato jñātvā",
+      "zh": "知真為真、",
+      "bo": "གཅེས་ལ་གཅེས་པར་འདུ་ཤེས་པ། །"
+     },
+     "witness_glosses": {
+      "zh": "knowing the true as true",
+      "bo": "perceiving the precious as precious"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan puts this second."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "wording",
+       "note": "འདུ་ཤེས་པ 'perceiving' for ñatvā 'having known'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; sāra rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "asārañca asārato;",
+     "gloss": "and the inessential as inessential,",
+     "aligned": {
+      "pd": "asārañ ca asārato |",
+      "ga": "asara ji asarado",
+      "sa": "hy asāraṁ cāpy asārataḥ /",
+      "zh": "見偽知偽，",
+      "bo": "གཅེས་པ་མིན་ལ་གཅེས་མིན་དང་། །"
+     },
+     "witness_glosses": {
+      "zh": "seeing the false, knowing [it] as false",
+      "bo": "the not-precious as not precious, and"
+     },
+     "differences": [],
+     "tier": 2,
+     "tier_reason": "Agreement; sāra rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Te sāraṁ adhigacchanti,",
+     "gloss": "they reach the essential,",
+     "aligned": {
+      "pd": "te sāram adhigacchanti",
+      "ga": "te sara adhikachadi",
+      "sa": "te sāram adhigacchanti",
+      "zh": "必得真利。",
+      "bo": "དེས་ནི་གཅེས་པ་འཐོབ་པར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "surely gain the true benefit",
+      "bo": "they will obtain the precious"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "必得真利 adds 必 'surely'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; sāra rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "sammāsaṅkappagocarā.",
+     "gloss": "whose range is right intention.",
+     "aligned": {
+      "pd": "saṁmasaṁkappagocarā ||",
+      "ga": "samesagapagoyara.",
+      "sa": "samyaksaṁkalpagocarāḥ //",
+      "zh": "是為正計，",
+      "bo": "ལེགས་པར་ཀུན་རྟོག་སྤྱོད་ཡུལ་ཅན། །"
+     },
+     "witness_glosses": {
+      "zh": "this is right reckoning",
+      "bo": "whose sphere is good conception"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "ལེགས་པར 'well' for samyak 'right'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Agreement; saṅkappa rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 2,
+   "notes": "Pair of verse 11."
+  },
+  {
+   "no": 13,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Yathā agāraṁ ducchannaṁ,",
+     "gloss": "As a badly thatched house",
+     "aligned": {
+      "pd": "yathā agāraṁ ducchannaṁ",
+      "ga": "yadha akara druchana",
+      "sa": "yathā hy agāraṁ ducchannaṁ",
+      "zh": "蓋屋不密，",
+      "bo": "ཇི་ལྟར་ཁོང་སྟེང་གཡོགས་ཉེས་ན། །"
+     },
+     "witness_glosses": {
+      "zh": "[if] the roofing of a house is not tight",
+      "bo": "as when a roof is badly covered"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "spelling",
+       "note": "Derge ཁོང་སྟེང is evidently ཁང་སྟེང 'roof (house-top)'; the source note says the spelling is retained."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "All agree.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 2,
+     "pi": "vuṭṭhī samativijjhati;",
+     "gloss": "rain penetrates,",
+     "aligned": {
+      "pd": "vaṭṭhī samitivijjhati |",
+      "ga": "vuṭhi samadibhinadi",
+      "sa": "vṣṭiḥ samatibhindati |",
+      "zh": "天雨則漏，",
+      "bo": "ཆར་པ་ཡོངས་སུ་འཛག་པ་ལྟར། །"
+     },
+     "witness_glosses": {
+      "ga": "rain breaks through",
+      "sa": "rain breaks through",
+      "zh": "rain from the sky then leaks [in]",
+      "bo": "rain leaks right through"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "samatibhindati 'breaks through' for samativijjhati 'pierces'; same sense."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Same sense in all.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 3,
+     "pi": "Evaṁ abhāvitaṁ cittaṁ,",
+     "gloss": "so the undeveloped mind",
+     "aligned": {
+      "pd": "evaṁ abhāvitaṁ cittaṁ",
+      "ga": "emu arakṣida cata",
+      "sa": "evaṁ hy abhāvitaṁ cittaṁ",
+      "zh": "意不惟行，",
+      "bo": "དེ་བཞིན་སེམས་ནི་མ་བསྒོམས་པ། །"
+     },
+     "witness_glosses": {
+      "ga": "so the unguarded mind",
+      "zh": "[if] the mind does not reflect on [its] conduct (parse uncertain)",
+      "bo": "so the undeveloped mind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "variant",
+       "note": "Gāndhārī arakṣida 'unguarded' alone against abhāvita 'undeveloped' in all others."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "意不惟行 'the mind does not reflect and practise' (惟 'think/reflect'); my reading is uncertain."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "A single witness (Gāndhārī) differs against all others; settled by the single-witness rule.",
+     "confidence": "high",
+     "candidates": [
+      "single-or-fragmentary-witness"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "rāgo samativijjhati.",
+     "gloss": "passion penetrates.",
+     "aligned": {
+      "pd": "rāgo samitivijjhati ||",
+      "ga": "raku samadibhinadi.",
+      "sa": "rāgaḥ samatibhindati //",
+      "zh": "淫泆為穿；",
+      "bo": "འདོད་ཆགས་རྣམས་ཀྱིས་ཡོངས་སུ་བཅོམ། །"
+     },
+     "witness_glosses": {
+      "zh": "licentiousness bores through",
+      "bo": "is completely overcome by passions"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "淫泆 'lust, licentiousness' narrows rāga toward sexual lust; 為穿 'bores through' keeps the image."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "Tibetan བཅོམ 'overcome/destroyed' and plural འདོད་ཆགས་རྣམས for 'passion penetrates'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; rāga needs a book-wide rendering (passion/lust/greed).",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Gāndhārī 'unguarded' (also verse 14) is a lone variant."
+  },
+  {
+   "no": 14,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Yathā agāraṁ suchannaṁ,",
+     "gloss": "As a well thatched house",
+     "aligned": {
+      "pd": "yathā agāraṁ succhannaṁ",
+      "ga": "yadha akara suchana",
+      "sa": "yathā hy agāraṁ succhannaṁ",
+      "zh": "蓋屋善密，",
+      "bo": "ཇི་ལྟར་ཁང་སྟེང་གཡོགས་ལེགས་ན། །"
+     },
+     "witness_glosses": {
+      "zh": "[if] the roofing of a house is good and tight",
+      "bo": "as when a roof is well covered"
+     },
+     "differences": [],
+     "tier": 1,
+     "tier_reason": "All agree.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 2,
+     "pi": "vuṭṭhī na samativijjhati;",
+     "gloss": "rain does not penetrate,",
+     "aligned": {
+      "pd": "vaṭṭhī na samitivijjhati |",
+      "ga": "vuṭhi na samadibhinadi",
+      "sa": "vṣṭir na vyatibhindati |",
+      "zh": "雨則不漏，",
+      "bo": "ཆར་པ་རྣམ་པར་མི་འཛག་པ། །"
+     },
+     "witness_glosses": {
+      "sa": "rain does not break through",
+      "zh": "rain then does not leak",
+      "bo": "rain does not leak through"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "vyatibhindati 'breaks through' for samativijjhati."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Same sense in all; negation in all.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 3,
+     "pi": "Evaṁ subhāvitaṁ cittaṁ,",
+     "gloss": "so the well-developed mind",
+     "aligned": {
+      "pd": "evaṁ subhāvitaṁ cittaṁ",
+      "ga": "emu surakṣida cita",
+      "sa": "evaṁ subhāvitaṁ cittaṁ",
+      "zh": "攝意惟行，",
+      "bo": "དེ་བཞིན་ལེགས་པར་བསྒོམས་པའི་སེམས། །"
+     },
+     "witness_glosses": {
+      "ga": "so the well-guarded mind",
+      "zh": "restraining the mind, reflecting on [its] conduct",
+      "bo": "so the well-developed mind"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "variant",
+       "note": "Gāndhārī surakṣida 'well guarded' alone, as verse 13."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "攝意惟行 'restraining the mind and reflecting on practice'."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Single-witness variant (Gāndhārī), as verse 13.",
+     "confidence": "high",
+     "candidates": [
+      "single-or-fragmentary-witness"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "rāgo na samativijjhati.",
+     "gloss": "passion does not penetrate.",
+     "aligned": {
+      "pd": "rāgo na samitivijjhati ||",
+      "ga": "raku na samadibhinadi.",
+      "sa": "rāgo na vyatibhindati //",
+      "zh": "淫泆不生。",
+      "bo": "འདོད་ཆགས་རྣམས་ཀྱིས་ཡོང་མི་ཆོམས། །"
+     },
+     "witness_glosses": {
+      "zh": "licentiousness does not arise",
+      "bo": "is not overcome by passions"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "淫泆不生 'lust does not arise' for 'does not penetrate'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "spelling",
+       "note": "ཡོང་ is presumably ཡོངས་ 'completely'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; rāga rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Pair of verse 13. The Sanskrit is Uv 31.17 (not adjacent to 31.11); Tibetan pairs the similes."
+  },
+  {
+   "no": 15,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Idha socati pecca socati,",
+     "gloss": "Here he grieves, after death he grieves;",
+     "aligned": {
+      "pd": "iha śocati precca śocati",
+      "ga": "idha śoyadi preca śoyadi",
+      "sa": "iha śocati pretya śocati",
+      "zh": "造憂後憂，",
+      "bo": "འདིར་ཡང་མྱ་ངན་གཞན་དུའང་མྱ་ངན་བྱེད། །"
+     },
+     "witness_glosses": {
+      "zh": "grieves when doing, grieves afterwards",
+      "bo": "here he grieves, elsewhere too he grieves"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "造憂後憂 'grieves at the doing, grieves later': time (now/later) instead of place (here/hereafter)."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "གཞན་དུ 'elsewhere' for pecca 'after death'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan second line."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Same sense in all.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 2,
+     "pi": "Pāpakārī ubhayattha socati;",
+     "gloss": "the evil-doer grieves in both [places].",
+     "aligned": {
+      "pd": "pāpakammo ubhayattha śocati |",
+      "ga": "pavakamu duhayatra śoyadi",
+      "sa": "pāpakarmā hy ubhayatra śocati |",
+      "zh": "行惡兩憂，",
+      "bo": "སྡིག་པ་བྱས་པས་གཉི་གར་མྱ་ངན་བྱེད། །"
+     },
+     "witness_glosses": {
+      "pd": "one of evil deeds grieves in both",
+      "zh": "doing evil, grieves in both",
+      "bo": "having done evil, grieves in both"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd",
+        "ga",
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "pāpakammo/pavakamu/pāpakarmā 'one of evil deeds' for pāpakārī 'evil-doer'; same sense."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; pāpa/puñña need book-wide renderings.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "So socati so vihaññati,",
+     "gloss": "He grieves, he is afflicted,",
+     "aligned": {
+      "pd": "so śocati so vihaṁnyati",
+      "ga": "so śoyadi so vihañadi",
+      "sa": "sa hi śocati sa praśocati",
+      "zh": "彼憂惟懼，",
+      "bo": "དེ་ནི་མྱ་ངན་དེ་རབ་མྱ་ངན་བྱེད། །"
+     },
+     "witness_glosses": {
+      "sa": "for he grieves, he grieves deeply",
+      "zh": "he grieves, he fears",
+      "bo": "he grieves, he grieves greatly"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "variant",
+       "note": "Sanskrit praśocati and Tibetan རབ་མྱ་ངན 'grieves greatly' against vihaññati 'is afflicted' in Pāli, Patna, Gāndhārī."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "彼憂惟懼 'he grieves and fears': 懼 'fear' may render vihaññati loosely."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Udānavarga line alone against Pāli, Patna, Gāndhārī; settled by the one-voice rule.",
+     "confidence": "high",
+     "candidates": [
+      "uv-one-voice"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "Disvā kammakiliṭṭhamattano.",
+     "gloss": "having seen the defilement of his own deeds.",
+     "aligned": {
+      "pd": "dṣṭā kammakileśam āttano ||",
+      "ga": "diṣpa kamu kiliṭha atvaṇo.",
+      "sa": "dṣṭvā karma hi kliṣṭam ātmanaḥ //",
+      "zh": "見罪心懅；",
+      "bo": "བདག་ཉིད་ནག་པོའི་ལས་དང་ལྡན་མཐོང་ནས། །"
+     },
+     "witness_glosses": {
+      "sa": "having seen his own deed as defiled",
+      "zh": "seeing his offence, his heart is afraid",
+      "bo": "having seen himself possessed of black deeds"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "grammar",
+       "note": "kamu kiliṭha / karma kliṣṭam 'the deed defiled' (adjective) for the compound kammakiliṭṭha 'deed-defilement'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "ནག་པོའི་ལས 'black deeds' for defiled deeds."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan opens the verse with this line."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "見罪心懅 'seeing [his] offence, heart afraid'."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Same sense in all.",
+     "confidence": "high",
+     "candidates": []
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Tibetan order: seeing, here/elsewhere, both, grieves greatly."
+  },
+  {
+   "no": 16,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Idha modati pecca modati,",
+     "gloss": "Here he rejoices, after death he rejoices;",
+     "aligned": {
+      "pd": "iha nandati precca nandati",
+      "ga": "idha nanadi preca nanadi",
+      "sa": "iha nandati pretya nandati",
+      "zh": "造喜後喜，",
+      "bo": "འདི་ན་དགའ་འགྱུར་གཞན་དུའང་དགའ་བར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "pd": "here he delights, after death he delights",
+      "zh": "glad at the doing, glad afterwards",
+      "bo": "here he becomes glad, elsewhere too he becomes glad"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd",
+        "ga",
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "nandati 'delights' for modati 'rejoices'; same sense (Pāli keeps nandati for verse 18)."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan second line."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Same sense in all; modati/nandati is synonymous.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 2,
+     "pi": "Katapuñño ubhayattha modati;",
+     "gloss": "one who has made merit rejoices in both.",
+     "aligned": {
+      "pd": "katapuṁño ubhayattha nandati |",
+      "ga": "puñakamo duhayatra nanadi",
+      "sa": "ktapuṇyo hy ubhayatra nandati |",
+      "zh": "行善兩喜，",
+      "bo": "བསོད་ནམས་བྱས་པས་གཉི་གར་དགའ་འགྱུར་ཞིང་། །"
+     },
+     "witness_glosses": {
+      "ga": "one of meritorious deeds delights in both",
+      "zh": "doing good, glad in both",
+      "bo": "having made merit, becomes glad in both"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "行善 'doing good' for katapuñña."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; puñña rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "So modati so pamodati,",
+     "gloss": "He rejoices, he greatly rejoices,",
+     "aligned": {
+      "pd": "so nandati . . . . . .dati",
+      "ga": "so nanadi so pramodadi",
+      "sa": "sa hi nandati sa pramodate",
+      "zh": "彼喜惟歡，",
+      "bo": "དེ་ནི་དགའ་འགྱུར་དེ་རབ་དགའ་བར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "he is glad, he rejoices",
+      "bo": "he becomes glad, he becomes greatly glad"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "partial",
+       "note": "Patna is broken after so nandati (fragmentary)."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "All agree.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 4,
+     "pi": "Disvā kammavisuddhimattano.",
+     "gloss": "having seen the purity of his own deeds.",
+     "aligned": {
+      "pd": "dṣṭā kammaviśuddhim āttano ||",
+      "ga": "diṣpa kamu viśudhu atvaṇo.",
+      "sa": "dṣṭvā karma hi viśuddham ātmanaḥ //",
+      "zh": "見福心安；",
+      "bo": "བདག་ཉིད་རྣམ་དག་ལས་དང་ལྡན་མཐོང་ནས། །"
+     },
+     "witness_glosses": {
+      "sa": "having seen his own deed as pure",
+      "zh": "seeing [his] merit, his heart is at ease",
+      "bo": "having seen himself possessed of pure deeds"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "grammar",
+       "note": "Adjective 'pure deed' for the compound 'purity of deed'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan first line."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Same sense in all.",
+     "confidence": "high",
+     "candidates": []
+    }
+   ],
+   "extra": [],
+   "tier": 2,
+   "notes": "Patna fragmentary at line 3."
+  },
+  {
+   "no": 17,
+   "witnesses_present": [
+    "pi",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Idha tappati pecca tappati,",
+     "gloss": "Here he is tormented (burns with remorse), after death he is tormented;",
+     "aligned": {
+      "zh": "今悔後悔，",
+      "bo": "འདི་ན་གདུང་འགྱུར་ཕ་རོལ་གདུང་བར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "regrets now, regrets later",
+      "bo": "here he is tormented, in the beyond he is tormented"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "悔 'regret' for tappati: the remorse sense of 'burn'; time rather than place."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan second line."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Same sense; tappati (tormented / remorseful / burns) needs a once-only rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 2,
+     "pi": "Pāpakārī ubhayattha tappati;",
+     "gloss": "the evil-doer is tormented in both.",
+     "aligned": {
+      "zh": "為惡兩悔，",
+      "bo": "སྡིག་པ་བྱས་པས་གཉི་གར་གདུང་འགྱུར་ཞིང་། །"
+     },
+     "witness_glosses": {
+      "zh": "doing evil, regrets in both",
+      "bo": "having done evil, he is tormented in both"
+     },
+     "differences": [],
+     "tier": 2,
+     "tier_reason": "Same sense; tappati and pāpa renderings.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "“Pāpaṁ me katan”ti tappati,",
+     "gloss": "'Evil has been done by me,' [thinking], he is tormented;",
+     "aligned": {
+      "zh": "厥為自殃，",
+      "bo": "བདག་ཉིད་ནག་པོའི་ལས་དང་ལྡན་མཐོང་ནས། །"
+     },
+     "witness_glosses": {
+      "zh": "that is a calamity of his own making",
+      "bo": "having seen himself possessed of black deeds"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "variant",
+       "note": "厥為自殃 'that is self-made calamity': no quoted thought."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan has no quoted thought; its first line (seeing himself with black deeds) carries the self-recognition and is aligned here by sense."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Pāli is the only Indic witness; Chinese and Tibetan diverge in wording and structure and only inform the line.",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels",
+      "chinese-free-rendering"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "Bhiyyo tappati duggatiṁ gato.",
+     "gloss": "he is tormented all the more, having gone to a bad destination.",
+     "aligned": {
+      "zh": "受罪熱惱；",
+      "bo": "དེ་ནི་གདུང་འགྱུར་དེ་རབ་གདུང་བར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "receiving punishment, burning distress",
+      "bo": "he is tormented, he is greatly tormented"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "受罪熱惱 'receives punishment and burning anguish': suffering after, no 'bad destination' explicit."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan has 'greatly tormented' (རབ ~ bhiyyo) but no 'having gone to a bad destination'."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Only Pāli has 'gone to a bad destination'; zh/bo partly support 'more torment'; partial-parallel rule.",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels",
+      "chinese-free-rendering",
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Patna, Gāndhārī and Sanskrit not located. Pāli is the only Indic witness; Tibetan 28.37 (Rockhill) is a structural copy of verse 15 with 'tormented'. duggati (bad destination) belongs in the glossary."
+  },
+  {
+   "no": 18,
+   "witnesses_present": [
+    "pi",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Idha nandati pecca nandati,",
+     "gloss": "Here he delights, after death he delights;",
+     "aligned": {
+      "zh": "今歡後歡，",
+      "bo": "འདི་ན་དགའ་འགྱུར་ཕ་རོལ་དགའ་བར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "glad now, glad later",
+      "bo": "here he becomes glad, in the beyond he becomes glad"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan second line."
+      }
+     ],
+     "tier": 1,
+     "tier_reason": "Same sense in all.",
+     "confidence": "high",
+     "candidates": []
+    },
+    {
+     "line": 2,
+     "pi": "Katapuñño ubhayattha nandati;",
+     "gloss": "one who has made merit delights in both.",
+     "aligned": {
+      "zh": "為善兩歡，",
+      "bo": "བསོད་ནམས་བྱས་པས་གཉི་གར་དགའ་འགྱུར་ཞིང་། །"
+     },
+     "witness_glosses": {
+      "zh": "doing good, glad in both",
+      "bo": "having made merit, becomes glad in both"
+     },
+     "differences": [],
+     "tier": 2,
+     "tier_reason": "Same sense; puñña rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "“Puññaṁ me katan”ti nandati,",
+     "gloss": "'Merit has been made by me,' [thinking], he delights;",
+     "aligned": {
+      "zh": "厥為自祐，",
+      "bo": "བདག་ཉིད་དཀར་པོའི་ལས་དང་ལྡན་མཐོང་ནས། །"
+     },
+     "witness_glosses": {
+      "zh": "that is a blessing/protection of his own making",
+      "bo": "having seen himself possessed of white deeds"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "variant",
+       "note": "厥為自祐 'that is self-made protection/blessing': no quoted thought."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Tibetan's first line (white deeds) carries the self-recognition."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "As verse 17 line 3.",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels",
+      "chinese-free-rendering"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "Bhiyyo nandati suggatiṁ gato.",
+     "gloss": "he delights all the more, having gone to a good destination.",
+     "aligned": {
+      "zh": "受福悅豫。",
+      "bo": "དེ་ནི་དགའ་འགྱུར་དེ་རབ་དགའ་བར་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "receiving blessing, joyful",
+      "bo": "he becomes glad, he becomes greatly glad"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "partial",
+       "note": "受福悅豫 'receives blessing, delighted': no 'good destination'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "'greatly glad' but no 'good destination'."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "As verse 17 line 4.",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels",
+      "chinese-free-rendering",
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 3,
+   "notes": "Pāli is the only Indic witness. Pāli 18 uses nandati (verse 16 modati); keep the distinction in English."
+  },
+  {
+   "no": 19,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Bahumpi ce saṁhita bhāsamāno,",
+     "gloss": "Though reciting much of the saṁhita (scripture / what is connected / beneficial),",
+     "aligned": {
+      "pd": "bahuṁ pi ce sahitaṁ bhāṣamāno",
+      "ga": "baho bi ida sahida bhaṣamaṇa",
+      "sa": "subahv apīha sahitaṁ bhāṣamāṇo",
+      "zh": "巧言多求，",
+      "bo": "གལ་ཏེ་རིགས་བཅས་མང་དུ་སྨྲས་ཀྱང་ནི། །"
+     },
+     "witness_glosses": {
+      "ga": "though reciting much here of the sahida",
+      "sa": "though reciting very much here of the sahita",
+      "zh": "clever in words, seeking much",
+      "bo": "even if one speaks much that is reasoned (རིགས་བཅས)"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "wording",
+       "note": "Gāndhārī ida and Sanskrit iha add 'here'; Sanskrit subahu 'very much'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "རིགས་བཅས 'with reasoning/appropriate' takes sahita as 'meaningful, connected', not 'scripture'."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "variant",
+       "note": "巧言多求 'clever words, many wants' reinterprets the line: 多 'much' goes with 'seeking', and sahita becomes 'clever speech'."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "What saṁhita/sahita means (the scriptures, connected/meaningful words, what is beneficial) is not settled by the witnesses and needs its own judgment (T4 decision 'samhita').",
+     "confidence": "medium",
+     "candidates": []
+    },
+    {
+     "line": 2,
+     "pi": "Na takkaro hoti naro pamatto;",
+     "gloss": "the heedless man does not act accordingly;",
+     "aligned": {
+      "pd": "na takkaro hoti naro pramatto |",
+      "ga": "na takaru bhodi naru pramatu",
+      "sa": "na tatkaro bhavati naraḥ pramattaḥ /",
+      "zh": "放蕩無戒，",
+      "bo": "བག་མེད་མི་དག་དེ་ལྟར་བྱེད་མི་འགྱུར། །"
+     },
+     "witness_glosses": {
+      "zh": "dissolute, without precepts",
+      "bo": "heedless people do not act thus"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "放蕩無戒 'dissolute, without precepts': heedlessness kept, 'does not act on it' lost."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "grammar",
+       "note": "Tibetan plural མི་དག 'people'."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "Indic and Tibetan agree; pamatta (heedless/negligent) needs a book-wide rendering.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Gopova gāvo gaṇayaṁ paresaṁ,",
+     "gloss": "like a cowherd counting others' cows,",
+     "aligned": {
+      "pd": "gopo va gāvo gaṇayaṁ paresaṁ",
+      "ga": "govo va gaü gaṇaü pareṣa",
+      "sa": "gopaiva gāḥ saṁgaṇayaṁ pareṣāṁ",
+      "zh": "聚如群牛，",
+      "bo": "དཔེར་ན་ཕྱུགས་རྫིས་གཞན་གྱི་ཕྱུགས་བགྲངས་ལྟར། །"
+     },
+     "witness_glosses": {
+      "sa": "like a cowherd counting up others' cows",
+      "zh": "gathered like a herd of cattle",
+      "bo": "as for example a herdsman counting others' cattle"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "variant",
+       "note": "聚如群牛 'gathered like a herd of cattle': the cowherd counting others' cows is lost."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "All Indic and Tibetan agree; the Chinese simile differs, settled by the Chinese-free-rendering rule.",
+     "confidence": "high",
+     "candidates": [
+      "chinese-free-rendering"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "Na bhāgavā sāmaññassa hoti.",
+     "gloss": "he is not a sharer in the recluse's state (sāmañña).",
+     "aligned": {
+      "pd": "na bhāgavā śāmaṇṇassa hoti ||",
+      "ga": "na bhakava ṣamañathasa bhodi.",
+      "sa": "na bhāgavāṁ cchrāmaṇyārthasya bhavati //",
+      "zh": "非佛弟子；",
+      "bo": "དེ་དག་དགེ་སྦྱོང་སྐལ་བ་ཐོབ་མ་ཡིན། །"
+     },
+     "witness_glosses": {
+      "ga": "he is not a sharer in the goal of recluseship",
+      "sa": "he is not a sharer in the goal of recluseship",
+      "zh": "[he] is not a disciple of the Buddha",
+      "bo": "they do not obtain the share of a recluse"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "variant",
+       "note": "Gāndhārī ṣamañathasa and Sanskrit śrāmaṇyārthasya 'of the goal/fruit (artha) of recluseship' against sāmaññassa in Pāli and Patna; Tibetan དགེ་སྦྱོང་སྐལ་བ 'recluse's share' has no word for 'goal'."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "非佛弟子 'not a disciple of the Buddha'."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "grammar",
+       "note": "Tibetan plural དེ་དག 'they'."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Pāli+Patna against Gāndhārī+Sanskrit on 'recluseship' vs 'the goal of recluseship' (Tibetan ambiguous); a best-reading judgment, shared with verse 20 line 6 (T4 decision 'samanna-attha'). Also samaṇa/sāmañña glossary.",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default",
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [
+    {
+     "witness": "zh",
+     "text": "懷婬怒癡，",
+     "gloss": "harbouring lust, anger and delusion",
+     "note": "Chinese line with no Pāli counterpart (anticipates verse 20 line 3)."
+    },
+    {
+     "witness": "zh",
+     "text": "不惟止觀，",
+     "gloss": "not reflecting on calm and insight (止觀)",
+     "note": "Chinese line with no Pāli counterpart."
+    }
+   ],
+   "tier": 4,
+   "notes": "Chinese is six lines and freely recast. Crux: meaning of saṁhita (shared with verse 20)."
+  },
+  {
+   "no": 20,
+   "witnesses_present": [
+    "pi",
+    "pd",
+    "ga",
+    "sa",
+    "zh",
+    "bo"
+   ],
+   "lines": [
+    {
+     "line": 1,
+     "pi": "Appampi ce saṁhita bhāsamāno,",
+     "gloss": "Though reciting little of the saṁhita,",
+     "aligned": {
+      "pd": "appaṁ pi ce sahitaṁ bhāṣamāno",
+      "ga": "apa bi ida sahida bhaṣamaṇa",
+      "sa": "alpam api cet sahitaṁ bhāṣamāṇo",
+      "zh": "時言少求，",
+      "bo": "གལ་ཏེ་རིགས་བཅས་ཉུང་ངུ་སྨྲ་བྱེད་ཀྱང་། །"
+     },
+     "witness_glosses": {
+      "ga": "though reciting little here of the sahida",
+      "zh": "speaking [only] at the right time, seeking little",
+      "bo": "even if one speaks little that is reasoned"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "wording",
+       "note": "ida 'here' added."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "variant",
+       "note": "時言少求 'timely speech, few wants': as verse 19, 少 goes with wanting; my reading of 時 is not certain."
+      },
+      {
+       "witnesses": [
+        "bo"
+       ],
+       "kind": "translation",
+       "note": "རིགས་བཅས as verse 19."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Same saṁhita question as verse 19 line 1; one decision covers both.",
+     "confidence": "medium",
+     "candidates": []
+    },
+    {
+     "line": 2,
+     "pi": "Dhammassa hoti anudhammacārī;",
+     "gloss": "[if] he lives in accordance with the Dhamma, following the Dhamma,",
+     "aligned": {
+      "pd": "dhammassa hoti anudhammacārī |",
+      "ga": "dhamasa bhodi aṇudhamacari",
+      "sa": "dharmasya bhavati hy anudharmacārī |",
+      "zh": "行道如法，",
+      "bo": "ཆོས་ཀྱི་རྗེས་སུ་ཆོས་ལ་སྤྱོད་པ་དང་། །"
+     },
+     "witness_glosses": {
+      "zh": "practises the Way according to the Dharma",
+      "bo": "and practises dharma in accordance with dharma"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "行道如法: 道 'the Way' and 法 'Dharma' both used."
+      }
+     ],
+     "tier": 2,
+     "tier_reason": "All agree; dhamma (here 'the Teaching') rendering.",
+     "confidence": "high",
+     "candidates": [
+      "dhamma-rendering"
+     ]
+    },
+    {
+     "line": 3,
+     "pi": "Rāgañca dosañca pahāya mohaṁ,",
+     "gloss": "having given up passion, hatred and delusion,",
+     "aligned": {
+      "pd": "rāgaṁ ca doṣaṁ ca prahāya mohaṁ",
+      "ga": null,
+      "sa": "rāgaṁ ca doṣaṁ ca tathaiva mohaṁ prahāya",
+      "zh": "除婬怒癡，",
+      "bo": "འདོད་ཆགས་ཞེ་སྡང་གཏི་མུག་སྤོང་བྱེད་པ། །"
+     },
+     "witness_glosses": {
+      "sa": "passion and hatred and likewise delusion, having given up",
+      "zh": "removing lust, anger and delusion",
+      "bo": "who abandons desire, hatred and delusion"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga"
+       ],
+       "kind": "structure",
+       "note": "Gāndhārī lacks this line (its stanza has four lines)."
+      },
+      {
+       "witnesses": [
+        "sa"
+       ],
+       "kind": "structure",
+       "note": "Sanskrit has tathaiva 'likewise' in this line and puts prahāya at the start of its last line."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "All witnesses that have the line agree, but the Gāndhārī lacks it (absent-parallel rule); rāga/dosa/moha also need fixed renderings.",
+     "confidence": "high",
+     "candidates": [
+      "core-glossary",
+      "partial-or-absent-parallels"
+     ]
+    },
+    {
+     "line": 4,
+     "pi": "Sammappajāno suvimuttacitto;",
+     "gloss": "rightly comprehending, with mind well freed,",
+     "aligned": {
+      "pd": "vimuttacitto akhilo akaṁcho |",
+      "ga": null,
+      "sa": null,
+      "zh": "覺正意解，",
+      "bo": null
+     },
+     "witness_glosses": {
+      "pd": "with mind freed, without barrenness (akhilo), without longing (?) (akaṁcho)",
+      "zh": "awake and upright, the mind released"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "pd"
+       ],
+       "kind": "variant",
+       "note": "Patna vimuttacitto akhilo akaṁcho 'mind freed, not barren/unobstructed, without longing(?)': has 'freed mind' but no 'rightly comprehending' and adds two epithets; akaṁcho uncertain to me."
+      },
+      {
+       "witnesses": [
+        "ga",
+        "sa",
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Gāndhārī, Sanskrit and Tibetan lack the line."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "覺正意解 'awakened, right, mind released' supports sammappajāno suvimuttacitto."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Line attested by Pāli and the Chinese, partly by Patna, absent from the shorter Gāndhārī and Udānavarga stanzas; settled by the absent-parallel rule (keep the Pāli line).",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels",
+      "single-or-fragmentary-witness"
+     ]
+    },
+    {
+     "line": 5,
+     "pi": "Anupādiyāno idha vā huraṁ vā,",
+     "gloss": "not clinging here or beyond,",
+     "aligned": {
+      "pd": "anupādiyāno iha vā hure vā",
+      "ga": "aṇuvadiaṇu idha va horo va",
+      "sa": null,
+      "zh": "見對不起，",
+      "bo": null
+     },
+     "witness_glosses": {
+      "zh": "facing [sense-]objects, [craving] does not arise (parse uncertain)"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "sa",
+        "bo"
+       ],
+       "kind": "structure",
+       "note": "Udānavarga line lacks it."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "見對不起 'faced with objects, does not arise': a free rendering of non-clinging; my parse is uncertain."
+      }
+     ],
+     "tier": 3,
+     "tier_reason": "Pāli, Patna and Gāndhārī agree; the Udānavarga lacks the line and the Chinese paraphrases; rules settle it.",
+     "confidence": "medium",
+     "candidates": [
+      "partial-or-absent-parallels",
+      "chinese-free-rendering"
+     ]
+    },
+    {
+     "line": 6,
+     "pi": "Sa bhāgavā sāmaññassa hoti.",
+     "gloss": "he is a sharer in the recluse's state.",
+     "aligned": {
+      "pd": "sa bhāgavā śāmannassa hoti ||",
+      "ga": "so bhakava ṣamañathasa bhodi.",
+      "sa": "bhāgī śrāmaṇyārthasya bhavati //",
+      "zh": "是佛弟子。",
+      "bo": "དེ་དག་དགེ་སྦྱོང་སྐལ་བ་ཐོབ་པ་ཡིན། །"
+     },
+     "witness_glosses": {
+      "ga": "he is a sharer in the goal of recluseship",
+      "sa": "[he] is a sharer in the goal of recluseship",
+      "zh": "is a disciple of the Buddha",
+      "bo": "they obtain the share of a recluse"
+     },
+     "differences": [
+      {
+       "witnesses": [
+        "ga",
+        "sa"
+       ],
+       "kind": "variant",
+       "note": "śrāmaṇyārtha 'goal of recluseship' vs sāmañña, as verse 19 line 4."
+      },
+      {
+       "witnesses": [
+        "zh"
+       ],
+       "kind": "translation",
+       "note": "是佛弟子 'is a disciple of the Buddha'."
+      }
+     ],
+     "tier": 4,
+     "tier_reason": "Same decision as verse 19 line 4.",
+     "confidence": "medium",
+     "candidates": [
+      "lineage-majority-default",
+      "core-glossary"
+     ]
+    }
+   ],
+   "extra": [],
+   "tier": 4,
+   "notes": "Pāli and Patna have six lines; Gāndhārī four (lacks lines 3-4); Sanskrit and Tibetan four (lack lines 4-5, Sanskrit merges 'having abandoned' into its last line). Gāndhārī 'ins' marks on 'i', 'ma' taken as revision markup."
+  }
+ ],
+ "candidates": [
+  {
+   "label": "dhamma-rendering",
+   "tier": 2,
+   "statement": "Fix the English for dhamma by sense class, once for the book: (a) plural dhammā as the objects of mind (1.1, 2.1); (b) dhamma as 'law/principle/the way things are' in 5.4; (c) dhamma as 'the Teaching' in 20.2. The Chinese 法/道 and Tibetan ཆོས render the same Indic word and count as agreement.",
+   "options": [
+    "(a) 'things' / 'states' / 'experiences' / 'phenomena' / 'mental states'",
+    "(b) 'law' / 'principle' / 'truth'",
+    "(c) 'the Teaching' / 'the Dhamma' (untranslated)"
+   ],
+   "recommendation": "(a) 'things' or 'states' (not 'experiences', which adds an interpretation); (b) 'law' with sanantano per its own ruling; (c) 'the Teaching' (or 'Dhamma' capitalised if the book keeps the word).",
+   "verses": [
+    1,
+    2,
+    5,
+    20
+   ]
+  },
+  {
+   "label": "sanantano",
+   "tier": 2,
+   "statement": "How to render sanantano/sanātana 'from of old, perpetual' in 5.4. The Tibetan renders it as 'the nature (རང་བཞིན) of dharma' and the Chinese gives no 'eternal' word (是道可宗), so neither witness asserts eternity.",
+   "options": [
+    "'eternal'",
+    "'age-old' / 'ancient'",
+    "'timeless'"
+   ],
+   "recommendation": "'age-old' (or 'ancient'): literal to 'from of old' and imports no metaphysics.",
+   "verses": [
+    5
+   ]
+  },
+  {
+   "label": "vera-avera",
+   "tier": 2,
+   "statement": "Fix the English for vera/vaira (and avera) throughout: Chinese 怨 'resentment' and Tibetan འཁོན 'grudge, enmity' support a relational sense.",
+   "options": [
+    "'hostility' / 'non-hostility'",
+    "'enmity' / 'non-enmity'",
+    "'hatred' / 'non-hatred' (hatred also used for dosa)"
+   ],
+   "recommendation": "'enmity' / 'non-enmity' (keeps 'hatred' free for dosa).",
+   "verses": [
+    3,
+    4,
+    5
+   ]
+  },
+  {
+   "label": "kasava-pun",
+   "tier": 2,
+   "statement": "Verses 9-10 pun on kasāva 'stain, impurity' and kāsāva 'the ochre (stained/dyed) robe'. Literal+ allows a departure to keep the poetic quality; decide once how to render it.",
+   "options": [
+    "Keep the pun: 'stain' / 'the stained robe' (with ⟨ochre⟩ or ⟨saffron⟩ as needed)",
+    "Literal without pun: 'impurities' / 'the ochre robe'",
+    "'dye' pun: 'not free of the dye of defilement ... the dyed robe'"
+   ],
+   "recommendation": "Keep the pun with stain/stained and ⟨ochre⟩ supplied once; render 'vomited out' literally in 10.1.",
+   "verses": [
+    9,
+    10
+   ]
+  },
+  {
+   "label": "core-glossary",
+   "tier": 2,
+   "statement": "A book-wide glossary for recurring terms that appear in this chapter and that every witness agrees on in sense but which have more than one plausible English: paduṭṭha/pasanna (1.3, 2.3), dukkha/sukha (1.5, 2.5), subha/asubha (7.1, 8.1), indriya (7.2, 8.2), sīla (10.2), sāra/asāra (11-12), saṅkappa (11.4, 12.4), medhaga (6.4), rāga/dosa/moha (13.4, 14.4, 20.3), puñña/pāpa (15-18), tappati (17.1-2), duggati/suggati (17.4, 18.4), pamatta (19.2), samaṇa/sāmañña (19.4, 20.6).",
+   "options": [
+    "Proposed: corrupted/clear mind; suffering/happiness; attractive/unattractive; faculties; virtue (or ethical conduct); essential/inessential (or 'the core'); intention; quarrels; passion/hatred/delusion; merit/evil; tormented; bad/good destination; heedless; recluse/recluse's life",
+    "Alternatives: corrupt/serene; pain/pleasure; beautiful/foul; senses; precepts; heartwood/what is not heartwood; thought/resolve; lust/aversion/confusion; good deeds/bad deeds; burns (with remorse); hell/heaven (interpretive, not literal); negligent; ascetic/contemplative"
+   ],
+   "recommendation": "Approve the first row as defaults, each reviewable term by term; do not use the interpretive alternatives (e.g. 'hell/heaven').",
+   "verses": [
+    1,
+    2,
+    6,
+    7,
+    8,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "label": "same-sense-wording-default",
+   "tier": 2,
+   "statement": "Default for 'same idea, different word' splits: when witnesses carry the same image or idea in different words (e.g. anapāyinī 'never leaving' vs anugāminī 'following' 2.6; viharantaṁ vs nityam 7.1/8.1; dassino vs saññino 11.2; vijjhati vs bhindati 13-14; modati vs nandati 16), the Blend renders the Pāli word, unless a clear majority of independent lineages has another word and that word reads better.",
+   "options": [
+    "Always render the Pāli wording",
+    "Render the majority-of-lineages wording",
+    "Render the Pāli wording unless the majority differs and reads better (case flagged)"
+   ],
+   "recommendation": "Third option; in this chapter it would flag only 2.6 ('like a shadow that follows' has Gāndhārī, Sanskrit, Tibetan and Chinese against Pāli+Patna).",
+   "verses": [
+    2,
+    7,
+    8,
+    11,
+    13,
+    14,
+    16
+   ]
+  },
+  {
+   "label": "uv-one-voice",
+   "tier": 3,
+   "statement": "The Sanskrit Udānavarga and its Tibetan translation count as one voice. Where that voice alone differs in sense from the other lineages (Pāli, Patna, Gāndhārī, Chinese), the Blend follows the others and records the Udānavarga variant. Where the Tibetan alone departs from its Sanskrit source (e.g. 1.6 'a wheel cutting off a head'), it is treated as a matter of Tibetan translation or recension and not followed. Where the split is Pāli+Patna against the Udānavarga only, with Gāndhārī absent and the Chinese undecided (3.1-2, 4.1-2), the Pāli+Patna reading stands.",
+   "options": [
+    "Adopt as stated",
+    "Adopt but treat Pāli+Patna vs Udānavarga-only splits as T4"
+   ],
+   "recommendation": "Adopt as stated.",
+   "verses": [
+    1,
+    3,
+    4,
+    5,
+    7,
+    8,
+    15
+   ]
+  },
+  {
+   "label": "single-or-fragmentary-witness",
+   "tier": 3,
+   "statement": "A single witness differing alone against the agreement of the others (e.g. Gāndhārī 'unguarded/well guarded' for 'undeveloped/well developed' 13.3, 14.3; an unparsable Gāndhārī word 1.6; Patna's added epithets 20.4) is recorded but not followed. A fragmentary witness never carries a reading alone, though it may confirm one (Patna 8.3-4, 16.3).",
+   "options": [
+    "Adopt",
+    "Adopt but exempt the Gāndhārī (as the oldest manuscript) so its lone readings go to T4"
+   ],
+   "recommendation": "Adopt without exemption.",
+   "verses": [
+    1,
+    8,
+    13,
+    14,
+    16,
+    20
+   ]
+  },
+  {
+   "label": "chinese-free-rendering",
+   "tier": 3,
+   "statement": "The Chinese (T210, fallbacks T212/T213) counts as agreement when it renders the same Indic sense in native words (心 for mind, 道/法 for dhamma, 罪/福 additions). Where it recasts an image or line (grass for tree 7.6; no robe-donning line 9.2; herd of cattle 19.3; 'not a disciple of the Buddha'), drops an item (faith 8.4), or adds lines (9, 19), it informs but does not replace the Indic agreement; such lines are T3 under this rule.",
+   "options": [
+    "Adopt",
+    "Adopt and also allow the Chinese to decide two-against-two Indic splits"
+   ],
+   "recommendation": "Adopt; let the Chinese count in splits only where it clearly renders one side.",
+   "verses": [
+    3,
+    7,
+    8,
+    9,
+    17,
+    18,
+    19,
+    20
+   ]
+  },
+  {
+   "label": "partial-or-absent-parallels",
+   "tier": 3,
+   "statement": "Partial or provisional parallels (Chinese T213 at 3-4; Chinese and Tibetan at 6) and witnesses that lack a line (Udānavarga and Gāndhārī lines missing at 20.3-5; Chinese/Tibetan restructuring at 17-18) inform but do not supply or remove a line. A Pāli line that other witnesses simply lack is kept, resting on Pāli (and any agreeing witness); where Pāli is the only Indic witness (17-18), Pāli supplies the line and the Chinese/Tibetan only inform.",
+   "options": [
+    "Adopt",
+    "Adopt, but drop or bracket Pāli-only lines that every other witness lacks"
+   ],
+   "recommendation": "Adopt (keep all 423 Pāli positions line for line, as the scope requires).",
+   "verses": [
+    4,
+    6,
+    17,
+    18,
+    20
+   ]
+  },
+  {
+   "label": "lineage-majority-default",
+   "tier": 3,
+   "statement": "Optional general default for the chapter's Indic cruxes, offered so the owner can decide whether these should be ruled once or decided one by one: when Pāli (alone or with Patna) stands against Gāndhārī and/or the Udānavarga line on a sense-bearing word (manomayā/manojavā 1.2, 2.2; Māra/rāga 7.5, 8.5; sacca/sorata 9.3, 10.3; sāmañña/śrāmaṇyārtha 19.4, 20.6), the Blend either keeps Pāli, or follows the majority of independent lineages (counting Pāli+Patna as close kin and Sanskrit+Tibetan as one).",
+   "options": [
+    "No blanket rule: decide each as a T4 (current tiering)",
+    "Keep the Pāli reading in all such cases (base-text rule)",
+    "Follow the majority of independent lineages (would give 'swift as mind', and leaves 2-2 splits as T4)"
+   ],
+   "recommendation": "No blanket rule for chapter 1: these are few, prominent and individually arguable, so keep them as T4; revisit after chapter 1 if the pattern recurs often.",
+   "verses": [
+    1,
+    2,
+    7,
+    8,
+    9,
+    10,
+    19,
+    20
+   ]
+  }
+ ],
+ "t4_decisions": [
+  {
+   "label": "manomaya-manojava",
+   "verses": [
+    1,
+    2
+   ],
+   "lines": "1.2, 2.2",
+   "question": "Pāli manomayā 'made of mind' (Pāli alone) or manojavā 'swift as mind' (Patna, Gāndhārī, Sanskrit, Tibetan)?",
+   "options": [
+    "Keep Pāli: 'mind is their chief, they are made of mind'",
+    "Follow the other witnesses: 'mind is their chief, swift as mind' (or 'mind is chief, mind is swift')"
+   ],
+   "lean": "Open. The 'all other witnesses' reading is strong evidence; keeping Pāli matches the book's base text."
+  },
+  {
+   "label": "yamamase",
+   "verses": [
+    6
+   ],
+   "lines": "6.2",
+   "question": "Sense of yamāmase (Patna jayāmatha).",
+   "options": [
+    "'that we here must restrain ourselves' (backed loosely by the partial Chinese/Tibetan 'strive')",
+    "'that here we are coming to our end' (perish)",
+    "'that we must exert ourselves here'"
+   ],
+   "lean": "'restrain ourselves' fits the partial parallels' 'strive/examine oneself' best."
+  },
+  {
+   "label": "mara-raga",
+   "verses": [
+    7,
+    8
+   ],
+   "lines": "7.5, 8.5",
+   "question": "Agent: Māra (Pāli, Patna) or passion (Gāndhārī, Sanskrit, Tibetan)?",
+   "options": [
+    "'Māra overpowers him'",
+    "'passion overpowers him'"
+   ],
+   "lean": "Open; two lineages each; Gāndhārī is oldest."
+  },
+  {
+   "label": "sacca-sorata",
+   "verses": [
+    9,
+    10
+   ],
+   "lines": "9.3, 10.3",
+   "question": "damasacca 'restraint and truth' (Pāli, Patna) or dama-sorata 'restraint and gentleness' (Gāndhārī, Sanskrit, Tibetan)?",
+   "options": [
+    "'self-control and truth'",
+    "'self-control and gentleness'"
+   ],
+   "lean": "Open."
+  },
+  {
+   "label": "samhita",
+   "verses": [
+    19,
+    20
+   ],
+   "lines": "19.1, 20.1",
+   "question": "Meaning of saṁhita/sahita.",
+   "options": [
+    "'the scriptures / the sacred texts'",
+    "'what is meaningful (connected words)' (cf. Tibetan རིགས་བཅས)",
+    "'what is beneficial'"
+   ],
+   "lean": "Open."
+  },
+  {
+   "label": "samanna-attha",
+   "verses": [
+    19,
+    20
+   ],
+   "lines": "19.4, 20.6",
+   "question": "'sharer in the recluse's state' (Pāli, Patna) or 'sharer in the goal of recluseship' (Gāndhārī, Sanskrit)?",
+   "options": [
+    "'has no share in the recluse's life'",
+    "'has no share in the goal of the recluse's life'"
+   ],
+   "lean": "Open."
+  }
+ ]
+}
