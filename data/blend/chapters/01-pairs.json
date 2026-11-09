@@ -532,9 +532,9 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-01"
+      "dhamma"
      ],
-     "decision": null
+     "decision": "1.1"
     },
     {
      "line": 2,
@@ -654,10 +654,10 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-02",
-      "R-T3-05"
+      "rule-2",
+      "rule-5"
      ],
-     "decision": "T4-01"
+     "decision": "1.2"
     },
     {
      "line": 3,
@@ -762,7 +762,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -922,7 +922,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -1034,9 +1034,9 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-01",
-      "R-T3-02",
-      "R-T3-03"
+      "rule-1",
+      "rule-2",
+      "rule-3"
      ],
      "decision": null
     }
@@ -1055,30 +1055,30 @@
     {
      "line": 1,
      "segments": [
-      "Mind goes before ",
       {
-       "slot": "R-T2-01",
+       "slot": "1.1",
        "options": {
-        "A": "things",
-        "B": "mental states",
-        "C": "experiences"
+        "A": "Mind precedes all things:",
+        "B": "Mind precedes experience:",
+        "C": "Mind precedes all phenomena:",
+        "D": "Mind precedes the objects of mind:"
        }
-      },
-      "."
+      }
      ]
     },
     {
      "line": 2,
      "segments": [
-      "Mind is their chief; ",
       {
-       "slot": "T4-01",
+       "slot": "1.2",
        "options": {
-        "A": "they are made of mind",
-        "B": "they are swift as mind"
+        "A": "mind-ruled, mind-made.",
+        "B": "ruled by mind, made of mind.",
+        "C": "mind-made, mind-supreme.",
+        "D": "mind-ruled, mind-swift.",
+        "E": "mind-ruled, mind-driven."
        }
-      },
-      "."
+      }
      ]
     },
     {
@@ -1105,6 +1105,10 @@
       "as the wheel follows the foot of the ox that draws it."
      ]
     }
+   ],
+   "questions": [
+    "1.1",
+    "1.2"
    ]
   },
   {
@@ -1195,9 +1199,9 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-01"
+      "dhamma"
      ],
-     "decision": null
+     "decision": "1.1"
     },
     {
      "line": 2,
@@ -1288,10 +1292,10 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-02",
-      "R-T3-05"
+      "rule-2",
+      "rule-5"
      ],
-     "decision": "T4-01"
+     "decision": "1.2"
     },
     {
      "line": 3,
@@ -1389,7 +1393,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -1539,7 +1543,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -1639,10 +1643,10 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-06",
-      "R-T3-02"
+      "rule-2",
+      "rule-6"
      ],
-     "decision": null
+     "decision": "2.6"
     }
    ],
    "extra": {
@@ -1659,30 +1663,30 @@
     {
      "line": 1,
      "segments": [
-      "Mind goes before ",
       {
-       "slot": "R-T2-01",
+       "slot": "1.1",
        "options": {
-        "A": "things",
-        "B": "mental states",
-        "C": "experiences"
+        "A": "Mind precedes all things:",
+        "B": "Mind precedes experience:",
+        "C": "Mind precedes all phenomena:",
+        "D": "Mind precedes the objects of mind:"
        }
-      },
-      "."
+      }
      ]
     },
     {
      "line": 2,
      "segments": [
-      "Mind is their chief; ",
       {
-       "slot": "T4-01",
+       "slot": "1.2",
        "options": {
-        "A": "they are made of mind",
-        "B": "they are swift as mind"
+        "A": "mind-ruled, mind-made.",
+        "B": "ruled by mind, made of mind.",
+        "C": "mind-made, mind-supreme.",
+        "D": "mind-ruled, mind-swift.",
+        "E": "mind-ruled, mind-driven."
        }
-      },
-      "."
+      }
      ]
     },
     {
@@ -1707,14 +1711,20 @@
      "line": 6,
      "segments": [
       {
-       "slot": "R-T2-06",
+       "slot": "2.6",
        "options": {
-        "A": "like a shadow that follows him.",
-        "B": "like a shadow that never leaves him."
+        "A": "like a shadow that never leaves.",
+        "B": "as a shadow follows the body.",
+        "C": "like a shadow."
        }
       }
      ]
     }
+   ],
+   "questions": [
+    "1.1",
+    "1.2",
+    "2.6"
    ]
   },
   {
@@ -1839,10 +1849,10 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-01",
-      "R-T3-02"
+      "rule-1",
+      "rule-2"
      ],
-     "decision": "T4-02"
+     "decision": "3.1"
     },
     {
      "line": 2,
@@ -1953,11 +1963,11 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-01",
-      "R-T3-02",
-      "R-T3-03"
+      "rule-1",
+      "rule-2",
+      "rule-3"
      ],
-     "decision": null
+     "decision": "3.1"
     },
     {
      "line": 3,
@@ -2073,7 +2083,7 @@
       "low confidence"
      ],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
      "decision": null
     },
@@ -2158,7 +2168,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-03"
+      "vera"
      ],
      "decision": null
     }
@@ -2178,10 +2188,11 @@
      "line": 1,
      "segments": [
       {
-       "slot": "T4-02",
+       "slot": "3.1",
        "options": {
-        "A": "“He abused me, he struck me,",
-        "B": "“They abused me, they spoke against me,"
+        "A": "“He reviled me, he beat me,",
+        "B": "“He abused me, he beat me,",
+        "C": "“He insulted me, he beat me,"
        }
       }
      ]
@@ -2190,10 +2201,11 @@
      "line": 2,
      "segments": [
       {
-       "slot": "T4-02",
+       "slot": "3.1",
        "options": {
         "A": "he defeated me, he robbed me”:",
-        "B": "they defeated me, they robbed me”:"
+        "B": "he defeated me, took from me what’s mine”:",
+        "C": "he defeated me, he robbed me”:"
        }
       }
      ]
@@ -2207,17 +2219,12 @@
     {
      "line": 4,
      "segments": [
-      {
-       "slot": "R-T2-03",
-       "options": {
-        "A": "enmity",
-        "B": "hostility",
-        "C": "hatred"
-       }
-      },
-      " is not stilled."
+      "hostility is not stilled."
      ]
     }
+   ],
+   "questions": [
+    "3.1"
    ]
   },
   {
@@ -2328,11 +2335,11 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-01",
-      "R-T3-02",
-      "R-T3-04"
+      "rule-1",
+      "rule-2",
+      "rule-4"
      ],
-     "decision": "T4-02"
+     "decision": "3.1"
     },
     {
      "line": 2,
@@ -2421,11 +2428,11 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-01",
-      "R-T3-02",
-      "R-T3-04"
+      "rule-1",
+      "rule-2",
+      "rule-4"
      ],
-     "decision": null
+     "decision": "3.1"
     },
     {
      "line": 3,
@@ -2510,7 +2517,7 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-04"
+      "rule-4"
      ],
      "decision": null
     },
@@ -2591,7 +2598,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-03"
+      "vera"
      ],
      "decision": null
     }
@@ -2611,10 +2618,11 @@
      "line": 1,
      "segments": [
       {
-       "slot": "T4-02",
+       "slot": "3.1",
        "options": {
-        "A": "“He abused me, he struck me,",
-        "B": "“They abused me, they spoke against me,"
+        "A": "“He reviled me, he beat me,",
+        "B": "“He abused me, he beat me,",
+        "C": "“He insulted me, he beat me,"
        }
       }
      ]
@@ -2623,10 +2631,11 @@
      "line": 2,
      "segments": [
       {
-       "slot": "T4-02",
+       "slot": "3.1",
        "options": {
         "A": "he defeated me, he robbed me”:",
-        "B": "they defeated me, they robbed me”:"
+        "B": "he defeated me, took from me what’s mine”:",
+        "C": "he defeated me, he robbed me”:"
        }
       }
      ]
@@ -2640,17 +2649,12 @@
     {
      "line": 4,
      "segments": [
-      {
-       "slot": "R-T2-03",
-       "options": {
-        "A": "enmity",
-        "B": "hostility",
-        "C": "hatred"
-       }
-      },
-      " is stilled."
+      "hostility is stilled."
      ]
     }
+   ],
+   "questions": [
+    "3.1"
    ]
   },
   {
@@ -2753,9 +2757,9 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-03"
+      "vera"
      ],
-     "decision": null
+     "decision": "5"
     },
     {
      "line": 2,
@@ -2819,7 +2823,7 @@
      "tier": 1,
      "flags": [],
      "rules": [],
-     "decision": null
+     "decision": "5"
     },
     {
      "line": 3,
@@ -2901,11 +2905,11 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T2-03",
-      "R-T3-01",
-      "R-T3-02"
+      "rule-1",
+      "rule-2",
+      "vera"
      ],
-     "decision": null
+     "decision": "5"
     },
     {
      "line": 4,
@@ -3005,7 +3009,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-02"
+      "sanantano"
      ],
      "decision": null
     }
@@ -3024,22 +3028,12 @@
     {
      "line": 1,
      "segments": [
-      "Not by ",
       {
-       "slot": "R-T2-03",
+       "slot": "5",
        "options": {
-        "A": "enmity",
-        "B": "hostility",
-        "C": "hatred"
-       }
-      },
-      " are ",
-      {
-       "slot": "R-T2-03",
-       "options": {
-        "A": "enmities",
-        "B": "hostilities",
-        "C": "hatreds"
+        "A": "Hostility is never stilled",
+        "B": "Hostility is never stilled",
+        "C": "Hostility is never stilled"
        }
       }
      ]
@@ -3047,37 +3041,45 @@
     {
      "line": 2,
      "segments": [
-      "ever stilled here;"
+      {
+       "slot": "5",
+       "options": {
+        "A": "by hostility here;",
+        "B": "by hostility here;",
+        "C": "by hostility here;"
+       }
+      }
      ]
     },
     {
      "line": 3,
      "segments": [
-      "by ",
       {
-       "slot": "R-T2-03",
+       "slot": "5",
        "options": {
-        "A": "non-enmity",
-        "B": "non-hostility",
-        "C": "non-hatred"
+        "A": "by non-hostility it is stilled:",
+        "B": "by patience it is stilled:",
+        "C": "by the absence of hostility it is stilled:"
        }
-      },
-      " they are stilled."
+      }
      ]
     },
     {
      "line": 4,
      "segments": [
       {
-       "slot": "R-T2-02",
+       "slot": "sanantano",
        "options": {
-        "A": "This is an age-old principle.",
-        "B": "This is an age-old law.",
-        "C": "This is an eternal law."
+        "A": "this is an age-old principle.",
+        "B": "this is an age-old law.",
+        "C": "this is an eternal law."
        }
       }
      ]
     }
+   ],
+   "questions": [
+    "5"
    ]
   },
   {
@@ -3178,7 +3180,7 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-04"
+      "rule-4"
      ],
      "decision": null
     },
@@ -3270,7 +3272,7 @@
       "low confidence"
      ],
      "rules": [],
-     "decision": "T4-03"
+     "decision": "6.2"
     },
     {
      "line": 3,
@@ -3437,8 +3439,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T3-04"
+      "glossary",
+      "rule-4"
      ],
      "decision": null
     }
@@ -3490,11 +3492,9 @@
      "line": 2,
      "segments": [
       {
-       "slot": "T4-03",
+       "slot": "6.2",
        "options": {
-        "A": "that we here are perishing;",
-        "B": "that here we must restrain ourselves;",
-        "C": "that here we must strive;"
+        "A": "that we here must die;"
        }
       }
      ]
@@ -3502,15 +3502,18 @@
     {
      "line": 3,
      "segments": [
-      "but those who do understand this"
+      "but for those who understand this,"
      ]
     },
     {
      "line": 4,
      "segments": [
-      "thereby still their quarrels."
+      "quarrels are stilled."
      ]
     }
+   ],
+   "questions": [
+    "6.2"
    ]
   },
   {
@@ -3641,10 +3644,10 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T2-06"
+      "glossary",
+      "rule-6"
      ],
-     "decision": null
+     "decision": "7.1"
     },
     {
      "line": 2,
@@ -3722,7 +3725,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -3876,8 +3879,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-01",
-      "R-T3-02"
+      "rule-1",
+      "rule-2"
      ],
      "decision": null
     },
@@ -3979,10 +3982,10 @@
      "tier": 4,
      "flags": [],
      "rules": [
-      "R-T3-02",
-      "R-T3-05"
+      "rule-2",
+      "rule-5"
      ],
-     "decision": "T4-04"
+     "decision": "7.5"
     },
     {
      "line": 6,
@@ -4076,7 +4079,7 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
      "decision": null
     }
@@ -4095,7 +4098,14 @@
     {
      "line": 1,
      "segments": [
-      "One who lives contemplating the attractive,"
+      {
+       "slot": "7.1",
+       "options": {
+        "A": "One who lives intent on the alluring,",
+        "B": "One who lives seeing the body as beautiful,",
+        "C": "One who lives contemplating the attractive,"
+       }
+      }
      ]
     },
     {
@@ -4120,10 +4130,12 @@
      "line": 5,
      "segments": [
       {
-       "slot": "T4-04",
+       "slot": "7.5",
        "options": {
-        "A": "Māra overpowers him",
-        "B": "passion overpowers him"
+        "A": "Māra overpowers him,",
+        "B": "the Tempter overpowers him,",
+        "C": "temptation overpowers him,",
+        "D": "desire overpowers him,"
        }
       }
      ]
@@ -4134,6 +4146,10 @@
       "as the wind a weak tree."
      ]
     }
+   ],
+   "questions": [
+    "7.1",
+    "7.5"
    ]
   },
   {
@@ -4256,10 +4272,10 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T2-06"
+      "glossary",
+      "rule-6"
      ],
-     "decision": null
+     "decision": "7.1"
     },
     {
      "line": 2,
@@ -4329,7 +4345,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -4525,10 +4541,10 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-01",
-      "R-T3-02",
-      "R-T3-03",
-      "R-T3-04"
+      "rule-1",
+      "rule-2",
+      "rule-3",
+      "rule-4"
      ],
      "decision": null
     },
@@ -4623,10 +4639,10 @@
      "tier": 4,
      "flags": [],
      "rules": [
-      "R-T3-02",
-      "R-T3-05"
+      "rule-2",
+      "rule-5"
      ],
-     "decision": "T4-04"
+     "decision": "7.5"
     },
     {
      "line": 6,
@@ -4720,7 +4736,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-06"
+      "rule-6"
      ],
      "decision": null
     }
@@ -4739,7 +4755,14 @@
     {
      "line": 1,
      "segments": [
-      "One who lives contemplating the unattractive,"
+      {
+       "slot": "7.1",
+       "options": {
+        "A": "One who lives intent on the unlovely,",
+        "B": "One who lives seeing the body as unlovely,",
+        "C": "One who lives contemplating the unattractive,"
+       }
+      }
      ]
     },
     {
@@ -4764,10 +4787,12 @@
      "line": 5,
      "segments": [
       {
-       "slot": "T4-04",
+       "slot": "7.5",
        "options": {
-        "A": "Māra does not overpower him",
-        "B": "passion does not overpower him"
+        "A": "Māra does not overpower him,",
+        "B": "the Tempter does not overpower him,",
+        "C": "temptation does not overpower him,",
+        "D": "desire does not overpower him,"
        }
       }
      ]
@@ -4778,6 +4803,10 @@
       "as the wind does not a mountain of rock."
      ]
     }
+   ],
+   "questions": [
+    "7.1",
+    "7.5"
    ]
   },
   {
@@ -4876,7 +4905,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-04"
+      "stain"
      ],
      "decision": null
     },
@@ -4954,7 +4983,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
      "decision": null
     },
@@ -5056,10 +5085,10 @@
      "tier": 4,
      "flags": [],
      "rules": [
-      "R-T3-02",
-      "R-T3-05"
+      "rule-2",
+      "rule-5"
      ],
-     "decision": "T4-05"
+     "decision": "9.3"
     },
     {
      "line": 4,
@@ -5137,7 +5166,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-04"
+      "stain"
      ],
      "decision": null
     }
@@ -5170,36 +5199,25 @@
     {
      "line": 1,
      "segments": [
-      {
-       "slot": "R-T2-04",
-       "options": {
-        "A": "Whoever, not rid of stains,",
-        "B": "Whoever, not free of impurities,"
-       }
-      }
+      "Whoever, not rid of stains,"
      ]
     },
     {
      "line": 2,
      "segments": [
-      {
-       "slot": "R-T2-04",
-       "options": {
-        "A": "would wear the stained ⟨ochre⟩ robe,",
-        "B": "would wear the ochre robe,"
-       }
-      }
+      "would wear the stained ⟨ochre⟩ robe,"
      ]
     },
     {
      "line": 3,
      "segments": [
-      "lacking self-control and ",
+      "lacking ",
       {
-       "slot": "T4-05",
+       "slot": "9.3",
        "options": {
-        "A": "truth",
-        "B": "gentleness"
+        "A": "self-control and truthfulness",
+        "B": "restraint and truthfulness",
+        "C": "self-control and honesty"
        }
       },
       ","
@@ -5211,6 +5229,9 @@
       "is not worthy of the ochre robe."
      ]
     }
+   ],
+   "questions": [
+    "9.3"
    ]
   },
   {
@@ -5324,7 +5345,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-04"
+      "stain"
      ],
      "decision": null
     },
@@ -5404,7 +5425,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -5492,10 +5513,10 @@
      "tier": 4,
      "flags": [],
      "rules": [
-      "R-T3-02",
-      "R-T3-05"
+      "rule-2",
+      "rule-5"
      ],
-     "decision": "T4-05"
+     "decision": "9.3"
     },
     {
      "line": 4,
@@ -5557,7 +5578,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-04"
+      "stain"
      ],
      "decision": null
     }
@@ -5576,13 +5597,7 @@
     {
      "line": 1,
      "segments": [
-      {
-       "slot": "R-T2-04",
-       "options": {
-        "A": "But one who has purged his stains,",
-        "B": "But one who has purged his impurities,"
-       }
-      }
+      "But one who has purged his stains,"
      ]
     },
     {
@@ -5594,12 +5609,13 @@
     {
      "line": 3,
      "segments": [
-      "endowed with self-control and ",
+      "endowed with ",
       {
-       "slot": "T4-05",
+       "slot": "9.3",
        "options": {
-        "A": "truth",
-        "B": "gentleness"
+        "A": "self-control and truthfulness",
+        "B": "restraint and truthfulness",
+        "C": "self-control and honesty"
        }
       },
       ","
@@ -5611,6 +5627,9 @@
       "is worthy of the ochre robe."
      ]
     }
+   ],
+   "questions": [
+    "9.3"
    ]
   },
   {
@@ -5731,8 +5750,8 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T2-06"
+      "glossary",
+      "rule-6"
      ],
      "decision": null
     },
@@ -5826,8 +5845,8 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T2-06"
+      "glossary",
+      "rule-6"
      ],
      "decision": null
     },
@@ -5930,7 +5949,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -6010,7 +6029,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     }
@@ -6050,7 +6069,8 @@
       "living in the range of wrong intention."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 12,
@@ -6154,7 +6174,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -6218,7 +6238,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -6299,7 +6319,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -6379,7 +6399,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     }
@@ -6419,7 +6439,8 @@
       "living in the range of right intention."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 13,
@@ -6672,8 +6693,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T3-02"
+      "glossary",
+      "rule-2"
      ],
      "decision": null
     },
@@ -6769,7 +6790,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     }
@@ -6809,7 +6830,8 @@
       "is pierced by passion."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 14,
@@ -7050,8 +7072,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T3-02"
+      "glossary",
+      "rule-2"
      ],
      "decision": null
     },
@@ -7149,8 +7171,8 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05",
-      "R-T3-03"
+      "glossary",
+      "rule-3"
      ],
      "decision": null
     }
@@ -7190,7 +7212,8 @@
       "is not pierced by passion."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 15,
@@ -7301,7 +7324,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
      "decision": null
     },
@@ -7387,7 +7410,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -7487,8 +7510,8 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-06",
-      "R-T3-01"
+      "rule-1",
+      "rule-6"
      ],
      "decision": null
     },
@@ -7640,7 +7663,8 @@
       "seeing the defilement of his own deeds."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 16,
@@ -7750,7 +7774,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
      "decision": null
     },
@@ -7838,7 +7862,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -8043,7 +8067,8 @@
       "seeing the purity of his own deeds."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 17,
@@ -8134,7 +8159,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -8192,7 +8217,7 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -8282,8 +8307,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-03",
-      "R-T3-04"
+      "rule-3",
+      "rule-4"
      ],
      "decision": null
     },
@@ -8375,9 +8400,9 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T3-03",
-      "R-T3-04"
+      "glossary",
+      "rule-3",
+      "rule-4"
      ],
      "decision": null
     }
@@ -8417,7 +8442,8 @@
       "tormented all the more, gone to a bad destination."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 18,
@@ -8545,7 +8571,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-05"
+      "glossary"
      ],
      "decision": null
     },
@@ -8635,8 +8661,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-03",
-      "R-T3-04"
+      "rule-3",
+      "rule-4"
      ],
      "decision": null
     },
@@ -8728,9 +8754,9 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T2-05",
-      "R-T3-03",
-      "R-T3-04"
+      "glossary",
+      "rule-3",
+      "rule-4"
      ],
      "decision": null
     }
@@ -8770,7 +8796,8 @@
       "delights all the more, gone to a good destination."
      ]
     }
-   ]
+   ],
+   "questions": []
   },
   {
    "no": 19,
@@ -8895,9 +8922,9 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
-     "decision": "T4-06"
+     "decision": "19.1"
     },
     {
      "line": 2,
@@ -8992,8 +9019,8 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05",
-      "R-T3-03"
+      "glossary",
+      "rule-3"
      ],
      "decision": null
     },
@@ -9081,7 +9108,7 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
      "decision": null
     },
@@ -9193,12 +9220,12 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05",
-      "R-T2-06",
-      "R-T3-03",
-      "R-T3-05"
+      "glossary",
+      "rule-3",
+      "rule-5",
+      "rule-6"
      ],
-     "decision": "T4-07"
+     "decision": "19.4"
     }
    ],
    "extra": {
@@ -9242,11 +9269,11 @@
      "line": 1,
      "segments": [
       {
-       "slot": "T4-06",
+       "slot": "19.1",
        "options": {
         "A": "Though he recites much of the scriptures,",
-        "B": "Though he speaks many meaningful words,",
-        "C": "Though he speaks much that is beneficial,"
+        "B": "Though he speaks many sacred words,",
+        "C": "Though he speaks many clever words,"
        }
       }
      ]
@@ -9267,14 +9294,18 @@
      "line": 4,
      "segments": [
       {
-       "slot": "T4-07",
+       "slot": "19.4",
        "options": {
-        "A": "has no share in the recluse’s life.",
-        "B": "has no share in the goal of the recluse’s life."
+        "A": "has no share in the renunciant’s life.",
+        "B": "has no share in the goal of the renunciant’s life."
        }
       }
      ]
     }
+   ],
+   "questions": [
+    "19.1",
+    "19.4"
    ]
   },
   {
@@ -9396,9 +9427,9 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T3-03"
+      "rule-3"
      ],
-     "decision": "T4-06"
+     "decision": "19.1"
     },
     {
      "line": 2,
@@ -9476,7 +9507,7 @@
      "tier": 2,
      "flags": [],
      "rules": [
-      "R-T2-07"
+      "teaching"
      ],
      "decision": null
     },
@@ -9576,8 +9607,8 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05",
-      "R-T3-04"
+      "glossary",
+      "rule-4"
      ],
      "decision": null
     },
@@ -9691,8 +9722,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-02",
-      "R-T3-04"
+      "rule-2",
+      "rule-4"
      ],
      "decision": null
     },
@@ -9788,8 +9819,8 @@
      "tier": 3,
      "flags": [],
      "rules": [
-      "R-T3-03",
-      "R-T3-04"
+      "rule-3",
+      "rule-4"
      ],
      "decision": null
     },
@@ -9901,12 +9932,12 @@
       "readers disagree"
      ],
      "rules": [
-      "R-T2-05",
-      "R-T2-06",
-      "R-T3-03",
-      "R-T3-05"
+      "glossary",
+      "rule-3",
+      "rule-5",
+      "rule-6"
      ],
-     "decision": "T4-07"
+     "decision": "19.4"
     }
    ],
    "extra": {
@@ -9924,11 +9955,11 @@
      "line": 1,
      "segments": [
       {
-       "slot": "T4-06",
+       "slot": "19.1",
        "options": {
         "A": "Though he recites little of the scriptures,",
-        "B": "Though he speaks few meaningful words,",
-        "C": "Though he speaks little that is beneficial,"
+        "B": "Though he speaks few sacred words,",
+        "C": "Though he speaks but little,"
        }
       }
      ]
@@ -9938,7 +9969,7 @@
      "segments": [
       "if he lives in accordance with ",
       {
-       "slot": "R-T2-07",
+       "slot": "teaching",
        "options": {
         "A": "the teaching,",
         "B": "the Dhamma,"
@@ -9968,168 +9999,354 @@
      "line": 6,
      "segments": [
       {
-       "slot": "T4-07",
+       "slot": "19.4",
        "options": {
-        "A": "he has a share in the recluse’s life.",
-        "B": "he has a share in the goal of the recluse’s life."
+        "A": "he has a share in the renunciant’s life.",
+        "B": "he has a share in the goal of the renunciant’s life."
        }
       }
      ]
     }
+   ],
+   "questions": [
+    "19.1",
+    "19.4"
    ]
   }
  ],
- "decisions": [
+ "draft_note": "Second Literal+ draft (2026-11-09), revised after the owner's first answers. Made from the two source-only readings; not yet reviewed against the sources.",
+ "questions": [
   {
-   "id": "T4-01",
-   "title": "“Made of mind” or “swift as mind”? (verses 1–2, line 2)",
+   "id": "1.1",
+   "verses": [
+    1,
+    2
+   ],
+   "lines": [
+    "1.1",
+    "2.1"
+   ],
+   "title": "What does mind go before?",
+   "text": "The Pāli dhammā (plural) is the word your ruling says to translate by context. Here the context is what we live through: the states of mind out of which we speak and act, which the wheel and the ox then make tangible. “All things” and “all phenomena” read more widely and can sound as if mind makes the outer world, which the verse does not need to claim.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Mind precedes all things:"
+    },
+    {
+     "key": "B",
+     "text": "Mind precedes experience:",
+     "recommended": true
+    },
+    {
+     "key": "C",
+     "text": "Mind precedes all phenomena:"
+    },
+    {
+     "key": "D",
+     "text": "Mind precedes the objects of mind:"
+    }
+   ],
+   "owner": "Leaning to “experience”: contextual, and it makes sense of what the verse is saying. Also offered all phenomena, the objects of mind, all things.",
+   "decided": null
+  },
+  {
+   "id": "1.2",
+   "verses": [
+    1,
+    2
+   ],
    "lines": [
     "1.2",
     "2.2"
    ],
-   "question": "Pāli manomayā 'made of mind' stands alone. Patna, Gāndhārī, Sanskrit and Tibetan all read manojavā 'swift as mind'; the Chinese 心使 is unclear. By rule R-T3-02 the lone Pāli would give way, but this is one of the most quoted lines in the book, so it comes to you.",
+   "title": "Mind-ruled, mind-made, or mind-swift?",
+   "text": "Pāli manoseṭṭhā manomayā: mind-foremost, mind-made. Patna, Gāndhārī, Sanskrit and Tibetan have manojavā where the Pāli has manomayā. Manojava is a common compound for ‘having the speed of mind’, swift as thought: these states arise as fast as the mind that leads them. Our earlier Patna, Gāndhārī and Sanskrit columns rendered it ‘mind drives them’, which is why you did not find ‘swift’ there. Seṭṭha means foremost or best, so ‘ruled’ and ‘supreme’ are both fair. The Pāli's three hits of mind (mano-, mano-, mano-) are the original's poetry, and Literal+ allows keeping it now rather than in the later style pass.",
    "options": [
     {
      "key": "A",
-     "text": "“Mind is their chief; they are made of mind.” The Pāli, and the famous line."
-    },
-    {
-     "key": "B",
-     "text": "“Mind is their chief; they are swift as mind.” What four of the five other traditions say."
-    }
-   ],
-   "lean": "The evidence favours B. A is the reading most readers will know."
-  },
-  {
-   "id": "T4-02",
-   "title": "“Struck me” or “spoke against me”? (verses 3–4, line 1)",
-   "lines": [
-    "3.1",
-    "4.1"
-   ],
-   "question": "Pāli and Patna: 'he abused me, he struck me'. The Sanskrit, Tibetan and the Chinese of the same family: 'they abused me, they spoke against me', all verbal. The Gāndhārī lacks the verse.",
-   "options": [
-    {
-     "key": "A",
-     "text": "“He abused me, he struck me, he defeated me, he robbed me.” Pāli and Patna.",
+     "text": "mind-ruled, mind-made.",
      "recommended": true
     },
     {
      "key": "B",
-     "text": "“They abused me, spoke against me, defeated me, robbed me.” The Udānavarga family."
-    }
-   ],
-   "lean": "A: two traditions against one family voice, and the physical blow sharpens the list."
-  },
-  {
-   "id": "T4-03",
-   "title": "What does yamāmase mean? (verse 6, line 2)",
-   "lines": [
-    "6.2"
-   ],
-   "question": "A famous crux: 'Others do not understand that here we ___.' The Pāli commentary reads 'we are perishing'; the word can also mean 'we must restrain ourselves'. Patna's jayāmatha is unclear, and the partial Chinese and Tibetan parallels speak of striving.",
-   "options": [
-    {
-     "key": "A",
-     "text": "“that we here are perishing” (the commentary's reading)"
-    },
-    {
-     "key": "B",
-     "text": "“that we here must restrain ourselves”"
+     "text": "ruled by mind, made of mind."
     },
     {
      "key": "C",
-     "text": "“that here we must strive”"
+     "text": "mind-made, mind-supreme."
+    },
+    {
+     "key": "D",
+     "text": "mind-ruled, mind-swift."
+    },
+    {
+     "key": "E",
+     "text": "mind-ruled, mind-driven."
     }
    ],
-   "lean": "Open. A fits the verse's logic (seeing our mortality ends quarrels); B and C fit the parallels."
+   "owner": "Prefers the Pāli for now because “swift as mind” is unclear. Likes “ruled”; finds “chief” strange in English; wants the Pāli's terse three-fold mind, carrying the weight of age-old authority.",
+   "decided": null
   },
   {
-   "id": "T4-04",
-   "title": "Māra or passion? (verses 7–8, line 5)",
+   "id": "2.6",
+   "verses": [
+    2
+   ],
+   "lines": [
+    "2.6"
+   ],
+   "title": "The shadow",
+   "text": "Pāli and Patna: a shadow that never leaves. Gāndhārī, Sanskrit and Tibetan: a shadow that follows. Chinese 如影隨形: like a shadow following the body. Option B mirrors verse 1's last line, “as the wheel follows the foot of the ox”, so the pair answer each other.",
+   "options": [
+    {
+     "key": "A",
+     "text": "like a shadow that never leaves."
+    },
+    {
+     "key": "B",
+     "text": "as a shadow follows the body.",
+     "recommended": true
+    },
+    {
+     "key": "C",
+     "text": "like a shadow."
+    }
+   ],
+   "owner": "Likes the Chinese “body”: its logic makes the image work. “A shadow that follows him” is weak, since every shadow follows.",
+   "decided": null
+  },
+  {
+   "id": "3.1",
+   "verses": [
+    3,
+    4
+   ],
+   "lines": [
+    "3.1",
+    "3.2",
+    "4.1",
+    "4.2"
+   ],
+   "title": "The four wrongs",
+   "text": "Decided: the Pāli's single attacker who strikes. Open: the English verbs. The first Pāli verb, akkocchi, is itself verbal abuse, ‘reviled’, the same as the Chinese 罵, so the spoken insult you found potent is already in the Pāli.",
+   "options": [
+    {
+     "key": "A",
+     "text": "“He reviled me, he beat me, / he defeated me, he robbed me”:",
+     "recommended": true
+    },
+    {
+     "key": "B",
+     "text": "“He abused me, he beat me, / he defeated me, took from me what’s mine”:"
+    },
+    {
+     "key": "C",
+     "text": "“He insulted me, he beat me, / he defeated me, he robbed me”:"
+    }
+   ],
+   "owner": "Pāli over the Udānavarga's verbal-only version (decided, 2026-11-09). Likes the roll of the verbs and the turn in the last one; finds the Chinese “revile” potent.",
+   "decided": null
+  },
+  {
+   "id": "5",
+   "verses": [
+    5
+   ],
+   "lines": [
+    "5.1",
+    "5.2",
+    "5.3"
+   ],
+   "title": "How hostility is stilled",
+   "text": "Your ruling keeps “hostility”. Keeping it singular avoids “hostilities”. What is open is the cure: Pāli and Patna say non-hostility; the Chinese, by not resenting; the Sanskrit and Tibetan, by patience (kṣānti). B is the Udānavarga's reading, a real Blend choice: it names the virtue that the negation points to.",
+   "options": [
+    {
+     "key": "A",
+     "text": "Hostility is never stilled / by hostility here; / by non-hostility it is stilled:",
+     "recommended": true
+    },
+    {
+     "key": "B",
+     "text": "Hostility is never stilled / by hostility here; / by patience it is stilled:"
+    },
+    {
+     "key": "C",
+     "text": "Hostility is never stilled / by hostility here; / by the absence of hostility it is stilled:"
+    }
+   ],
+   "owner": "Hostility's plural and negation are unclear in English; the base, plural and negation need to form an intelligible set.",
+   "decided": null
+  },
+  {
+   "id": "6.2",
+   "verses": [
+    6
+   ],
+   "lines": [
+    "6.2"
+   ],
+   "title": "yamāmase",
+   "text": "The Pāli commentary's reading.",
+   "options": [
+    {
+     "key": "A",
+     "text": "that we here must die;",
+     "recommended": true
+    }
+   ],
+   "owner": "The Pāli is wiser here: we must be kind because we must die, a truth not easily seen.",
+   "decided": "“that we here must die” (2026-11-09)"
+  },
+  {
+   "id": "7.1",
+   "verses": [
+    7,
+    8
+   ],
+   "lines": [
+    "7.1",
+    "8.1"
+   ],
+   "title": "What the undisciplined man dwells on",
+   "text": "Subhānupassī is one who keeps seeing things, above all the body, as lovely and desirable: the habit that feeds lust. The Chinese says so outright (行見身淨, ‘seeing the body as pure’). Its opposite in verse 8, asubha, is the classic meditation on the body's unlovely parts. So the verse is about fixing on sensual allure, not about loving the beautiful in Plato's sense.",
+   "options": [
+    {
+     "key": "A",
+     "text": "One who lives intent on the alluring, / One who lives intent on the unlovely,",
+     "recommended": true
+    },
+    {
+     "key": "B",
+     "text": "One who lives seeing the body as beautiful, / One who lives seeing the body as unlovely,"
+    },
+    {
+     "key": "C",
+     "text": "One who lives contemplating the attractive, / One who lives contemplating the unattractive,"
+    }
+   ],
+   "owner": "Has always found this line strange: why would focusing on beauty be a problem? Maybe it means attractive as in pleasant.",
+   "decided": null
+  },
+  {
+   "id": "7.5",
+   "verses": [
+    7,
+    8
+   ],
    "lines": [
     "7.5",
     "8.5"
    ],
-   "question": "Pāli and Patna: Māra overpowers him, as wind a weak tree. Gāndhārī, Sanskrit and Tibetan: passion overpowers him. The Chinese 邪 'the wicked' could support either.",
+   "title": "Who or what overpowers him",
+   "text": "Pāli and Patna: Māra. Gāndhārī and Sanskrit: passion (rāga); the Tibetan: desires, in the plural. Chinese: ‘the evil’. Like the wind, it is a force that topples; Māra adds the tempter who makes vain things look worth having. “Temptation” carries both readings. The book-wide default for Māra is a separate question (Words: Māra).",
    "options": [
     {
      "key": "A",
-     "text": "“Māra overpowers him.” Personified, mythic."
+     "text": "Māra overpowers him, / Māra does not overpower him,"
     },
     {
      "key": "B",
-     "text": "“passion overpowers him.” Plain, and the oldest manuscript's reading."
+     "text": "the Tempter overpowers him, / the Tempter does not overpower him,"
+    },
+    {
+     "key": "C",
+     "text": "temptation overpowers him, / temptation does not overpower him,",
+     "recommended": true
+    },
+    {
+     "key": "D",
+     "text": "desire overpowers him, / desire does not overpower him,"
     }
    ],
-   "lean": "Open: two families, one each."
+   "owner": "The meaning is succumbing to vain temptations. “Passion” fails because we honour some passions (for one's dreams, one's lover, the Passion of Christ); “Māra” alone carries the tempter but not the force.",
+   "decided": null
   },
   {
-   "id": "T4-05",
-   "title": "“Self-control and truth” or “self-control and gentleness”? (verses 9–10, line 3)",
+   "id": "9.3",
+   "verses": [
+    9,
+    10
+   ],
    "lines": [
     "9.3",
     "10.3"
    ],
-   "question": "Pāli and Patna: damasacca, self-control and truth. Gāndhārī, Sanskrit and Tibetan: self-control and gentleness.",
+   "title": "Self-control and truth",
+   "text": "Decided: truth, with Pāli and Patna (2026-11-09). Open: the English word. Sacca is truth as a virtue in a person: speaking truly and being true.",
    "options": [
     {
      "key": "A",
-     "text": "“self-control and truth”"
+     "text": "self-control and truthfulness",
+     "recommended": true
     },
     {
      "key": "B",
-     "text": "“self-control and gentleness”"
+     "text": "restraint and truthfulness"
+    },
+    {
+     "key": "C",
+     "text": "self-control and honesty"
     }
    ],
-   "lean": "Open."
+   "owner": "Truth; maybe “truthfulness”, since “-ness” matches “gentleness”, or “honesty”.",
+   "decided": null
   },
   {
-   "id": "T4-06",
-   "title": "What is recited? (verses 19–20, line 1)",
+   "id": "19.1",
+   "verses": [
+    19,
+    20
+   ],
    "lines": [
     "19.1",
     "20.1"
    ],
-   "question": "'Though he recites much saṁhita…' The word can mean the collected scriptures, or meaningful, well-connected words (the Tibetan reads 'reasoned speech'), or what is beneficial. The verse contrasts reciting with practising.",
+   "title": "What is recited",
+   "text": "Saṁhita is what has been gathered: the collected texts, or well-joined, meaningful speech (the Tibetan's ‘reasoned words’). The Chinese makes it ‘clever words’. The verse's contrast, reciting without acting on it, points to scripture.",
    "options": [
     {
      "key": "A",
-     "text": "“the scriptures”",
-     "recommended": true
+     "text": "Though he recites much of the scriptures, / Though he recites little of the scriptures,"
     },
     {
      "key": "B",
-     "text": "“meaningful words”"
+     "text": "Though he speaks many sacred words, / Though he speaks few sacred words,",
+     "recommended": true
     },
     {
      "key": "C",
-     "text": "“what is beneficial”"
+     "text": "Though he speaks many clever words, / Though he speaks but little,"
     }
    ],
-   "lean": "A: the contrast between reciting texts and living them is the point of the pair."
+   "owner": "Likes the broader sense (clever words, speaking well, speaking much, speaking the dharma); thinks the verse wants scripture because of “not acting on it” and the samaṇa.",
+   "decided": null
   },
   {
-   "id": "T4-07",
-   "title": "A share in “the recluse's life” or in “its goal”? (verses 19–20, last line)",
+   "id": "19.4",
+   "verses": [
+    19,
+    20
+   ],
    "lines": [
     "19.4",
     "20.6"
    ],
-   "question": "Pāli and Patna: he has no share in the recluse's life (sāmañña). Gāndhārī and Sanskrit: no share in the goal of the recluse's life.",
+   "title": "A share in the renunciant's life, or in its goal",
+   "text": "Pāli and Patna: he has no share in sāmañña, the life (or state) of a samaṇa. Gāndhārī and Sanskrit: no share in its goal (artha). The word itself is a separate question (Words: samaṇa).",
    "options": [
     {
      "key": "A",
-     "text": "“has no share in the recluse's life”",
+     "text": "has no share in the renunciant’s life. / he has a share in the renunciant’s life.",
      "recommended": true
     },
     {
      "key": "B",
-     "text": "“has no share in the goal of the recluse's life”"
+     "text": "has no share in the goal of the renunciant’s life. / he has a share in the goal of the renunciant’s life."
     }
    ],
-   "lean": "A, slightly: the shorter line, and B's 'goal' may be an explanatory expansion."
+   "owner": "Unsure what “recluse” means; its positive sense does not come across.",
+   "decided": null
   }
- ],
- "draft_note": "Provisional Literal+ draft made from the two source-only readings, to let the owner judge the rulings in context. Not reviewed against the sources yet."
+ ]
 }

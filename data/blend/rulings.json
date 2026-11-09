@@ -1,38 +1,34 @@
 {
- "rulings": [
+ "words": [
   {
-   "id": "R-T2-01",
-   "tier": 2,
-   "status": "proposed",
-   "title": "How to say dhammā in verses 1–2",
-   "statement": "In verses 1–2 the plural dhammā means what the mind goes before: our states of mind and what we experience. The Chinese 法 'all things' and the Tibetan 'phenomena' translate the same word, so they agree; the Chinese 道 'the Way' elsewhere is not a separate reading. Both readers advise against “experience”, the current placeholder's word, as adding an interpretation.",
-   "options": [
-    {
-     "key": "A",
-     "text": "“things”: literal, close to the Chinese and Tibetan, and leaves the meaning open.",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "“mental states”: clearer about what is meant, but “mental” is ours."
-    },
-    {
-     "key": "C",
-     "text": "“experiences”: close to the current placeholder."
-    }
-   ],
-   "verses": [
-    1,
-    2
-   ],
-   "decided": null
+   "id": "dhamma",
+   "title": "dhamma (verses 1–2, 20)",
+   "status": "decided",
+   "statement": "One Indic word with many senses: what bears or upholds, the nature of things, states of mind, the teaching.",
+   "decided": "Translate by context, not with one fixed word. In verses 1–2 the context is lived experience: the verse sets up the wheel following the ox. (Owner, 2026-11-09)",
+   "options": []
   },
   {
-   "id": "R-T2-02",
-   "tier": 2,
+   "id": "vera",
+   "title": "vera: “hostility”",
+   "status": "decided",
+   "statement": "Enmity held against someone (verses 3–5). Options were enmity, hostility, hatred.",
+   "decided": "“Hostility” (B). “Hatred” is kept for dosa; “enmity” is less well understood; the Chinese “resentment” is interesting but sits with the one receiving hostility. Condition: base, plural and negation must read as an intelligible set in English (see verse 5). (Owner, 2026-11-09)",
+   "options": []
+  },
+  {
+   "id": "stain",
+   "title": "The stained robe (verses 9–10)",
+   "status": "decided",
+   "statement": "The Pāli puns on kasāva, stain, and kāsāva, the dyed ochre robe.",
+   "decided": "Keep the pun (A). “Impurities” sat oddly after verse 7–8's warning about attractiveness; stain/robe avoids that. (Owner, 2026-11-09)",
+   "options": []
+  },
+  {
+   "id": "sanantano",
+   "title": "sanantano: “age-old”, not “eternal” (verse 5)",
    "status": "proposed",
-   "title": "“This is an age-old principle”, not “eternal law” (verse 5)",
-   "statement": "Verse 5 ends esa dhammo sanantano. Sanantano means 'from of old, perpetual'. “Eternal” asserts eternity, a metaphysical claim; “age-old” says only that it is ancient. Neither the Tibetan ('the nature of things') nor the Chinese ('this way is worth honouring') says eternal. Both readers recommend “age-old”.",
+   "statement": "Sanantano means from of old, perpetual. Neither the Chinese nor the Tibetan says eternal.",
    "options": [
     {
      "key": "A",
@@ -48,84 +44,91 @@
      "text": "“This is an eternal law.”"
     }
    ],
-   "verses": [
-    5
-   ],
    "decided": null
   },
   {
-   "id": "R-T2-03",
-   "tier": 2,
+   "id": "teaching",
+   "title": "dhamma as the teaching (verse 20)",
    "status": "proposed",
-   "title": "vera: “enmity”, not “hatred” (verses 3–5)",
-   "statement": "Vera is enmity between people, a grudge held against someone; the Chinese 怨 'resentment' and the Tibetan 'grudge' agree. “Hatred” is better kept for dosa, the inner poison, which appears elsewhere. The placeholder says “hostility”.",
+   "statement": "Where dhamma clearly means the Buddha's teaching: plain English, or the word itself.",
    "options": [
     {
      "key": "A",
-     "text": "“enmity / non-enmity”",
+     "text": "“the teaching”",
      "recommended": true
     },
     {
      "key": "B",
-     "text": "“hostility / non-hostility” (the placeholder)"
+     "text": "“the Dhamma”"
+    }
+   ],
+   "decided": null
+  },
+  {
+   "id": "mara",
+   "title": "Māra, across the book",
+   "status": "proposed",
+   "statement": "Māra recurs through the Dhammapada, sometimes as a figure (his realm, his army, his flower-tipped arrows), sometimes as a force, as in verses 7–8. This sets the default; a verse can still depart (see 7.5).",
+   "options": [
+    {
+     "key": "A",
+     "text": "Keep the name “Māra”, explained once on the home page."
+    },
+    {
+     "key": "B",
+     "text": "“the Tempter”: personified and self-explaining, and works wherever Māra is a figure.",
+     "recommended": true
     },
     {
      "key": "C",
-     "text": "“hatred / non-hatred”"
+     "text": "Render by context each time (temptation, death, the Tempter)."
     }
-   ],
-   "verses": [
-    3,
-    4,
-    5
    ],
    "decided": null
   },
   {
-   "id": "R-T2-04",
-   "tier": 2,
+   "id": "samana",
+   "title": "samaṇa: “renunciant”, not “recluse” (verses 19–20)",
    "status": "proposed",
-   "title": "Keep the pun on the stained robe (verses 9–10)",
-   "statement": "The Pāli plays on kasāva 'stain, impurity' and kāsāva 'the ochre robe' (literally the dyed one): someone still stained wears the stained robe. The Chinese and Tibetan lose the pun. Literal+ allows a departure where the original has a beauty a plain rendering loses.",
+   "statement": "A samaṇa is someone who has left household life to seek liberation by spiritual striving; the Buddha's monks were samaṇas, as were other wanderers. “Recluse” suggests a hermit; “mendicant” is already our word for bhikkhu, the begging monk; “renunciant” names what the samaṇa has done.",
    "options": [
     {
      "key": "A",
-     "text": "Keep it: “still stained… the stained ⟨ochre⟩ robe”.",
+     "text": "“renunciant”",
      "recommended": true
     },
     {
      "key": "B",
-     "text": "Plain: “not free of impurities… the ochre robe”."
+     "text": "“contemplative”"
+    },
+    {
+     "key": "C",
+     "text": "“recluse”"
+    },
+    {
+     "key": "D",
+     "text": "“ascetic”"
     }
-   ],
-   "verses": [
-    9,
-    10
    ],
    "decided": null
   },
   {
-   "id": "R-T2-05",
-   "tier": 2,
+   "id": "glossary",
+   "title": "Other recurring words",
    "status": "proposed",
-   "title": "A glossary for recurring words",
-   "statement": "Words that every tradition agrees on but that have several possible English renderings. Fixing them once keeps the whole book consistent. Approve the list as a block, or name the terms you want changed.",
+   "statement": "Words every tradition agrees on but with several possible English renderings. Approve as a block or name the ones to change.",
    "options": [
     {
      "key": "corrupted / clear",
-     "text": "paduṭṭha / pasanna, the state of mind (1–2)"
+     "text": "paduṭṭha / pasanna (1–2)"
     },
     {
      "key": "suffering / happiness",
      "text": "dukkha / sukha (1–2)"
     },
     {
-     "key": "attractive / unattractive",
-     "text": "subha / asubha, as an object of attention (7–8)"
-    },
-    {
      "key": "the senses",
-     "text": "indriya (7–8); alternative “faculties”"
+     "text": "indriya (7–8)"
     },
     {
      "key": "virtue",
@@ -164,236 +167,54 @@
      "text": "pamatta (19)"
     },
     {
-     "key": "recluse",
-     "text": "samaṇa (19–20)"
-    },
-    {
      "key": "developed",
      "text": "bhāvita (13–14)"
     }
    ],
-   "verses": [
-    1,
-    2,
-    6,
-    7,
-    8,
-    10,
-    11,
-    12,
-    13,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-   ],
+   "decided": null
+  }
+ ],
+ "principles": [
+  {
+   "id": "rule-1",
+   "title": "Count traditions by family",
+   "statement": "The Tibetan translates the Sanskrit Udānavarga, so the two count as one voice. Where the Tibetan alone departs from its Sanskrit (verse 1's “head cut off by a wheel”), that is a translation matter.",
+   "status": "proposed",
    "decided": null
   },
   {
-   "id": "R-T2-06",
-   "tier": 2,
+   "id": "rule-2",
+   "title": "A lone reading starts as the outsider",
+   "statement": "A reading found in one tradition only does not go into the first draft. It can still be chosen on its merits, as the best reading; the choice is then marked as such.",
    "status": "proposed",
-   "title": "Same idea, different word: follow the widest support",
-   "statement": "Often the traditions say the same thing with a different word (Pāli 'never leaving' vs 'following' for the shadow in verse 2). Default: use the word with the widest support across independent traditions; on a tie, keep the Pāli word. In Pairs this changes only verse 2: “like a shadow that follows”.",
-   "options": [
-    {
-     "key": "A",
-     "text": "Widest support; Pāli on a tie.",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "Always keep the Pāli word."
-    },
-    {
-     "key": "C",
-     "text": "Decide each case."
-    }
-   ],
-   "verses": [
-    2,
-    7,
-    8,
-    11,
-    13,
-    14,
-    16
-   ],
    "decided": null
   },
   {
-   "id": "R-T2-07",
-   "tier": 2,
+   "id": "rule-3",
+   "title": "The Chinese is a reading too",
+   "statement": "Where the Chinese says the same thing in its own idiom, it counts as agreement. Where it has its own image, the image is a candidate for the best reading (verse 2's “shadow following the body”), never thrown out by default.",
    "status": "proposed",
-   "title": "dhamma as the Buddha's teaching (verse 20)",
-   "statement": "Where dhamma means the teaching itself, say so in plain English, or keep the word Dhamma untranslated.",
-   "options": [
-    {
-     "key": "A",
-     "text": "“the teaching”",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "“the Dhamma”"
-    }
-   ],
-   "verses": [
-    20
-   ],
    "decided": null
   },
   {
-   "id": "R-T3-01",
-   "tier": 3,
+   "id": "rule-4",
+   "title": "Keep every Pāli line",
+   "statement": "Partial parallels inform but never add or remove lines. Where other traditions lack a line, that is noted, not treated as evidence against it.",
    "status": "proposed",
-   "title": "Count traditions by family, not by column",
-   "statement": "The Tibetan translates the Sanskrit Udānavarga, so the two count as one voice. Where the Tibetan alone departs from its Sanskrit, it is a Tibetan translation matter and is not followed. Example: in verse 1 the Tibetan has “like a head cut off by a wheel” where everyone else has the wheel following the ox.",
-   "options": [
-    {
-     "key": "A",
-     "text": "Adopt.",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "Count the Tibetan as its own voice."
-    }
-   ],
-   "verses": [
-    1,
-    3,
-    4,
-    5,
-    7,
-    8,
-    13,
-    14,
-    15
-   ],
    "decided": null
   },
   {
-   "id": "R-T3-02",
-   "tier": 3,
+   "id": "rule-5",
+   "title": "Family against family: decide verse by verse",
+   "statement": "When Pāli and Patna stand against Gāndhārī, Sanskrit and Tibetan, the evidence is roughly even, so it is a question for you in that verse.",
    "status": "proposed",
-   "title": "A lone voice gives way",
-   "statement": "A reading found in only one tradition gives way to a different reading shared by two or more others. It is recorded, not followed. A fragment of a damaged manuscript can confirm a reading but never carry one alone. Example: the Gāndhārī alone says “unguarded” where all others say “undeveloped” (verses 13–14).",
-   "options": [
-    {
-     "key": "A",
-     "text": "Adopt for every tradition.",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "Adopt, but exempt the Gāndhārī as the oldest manuscript, so its lone readings come to you."
-    }
-   ],
-   "verses": [
-    1,
-    8,
-    13,
-    14,
-    16,
-    20
-   ],
    "decided": null
   },
   {
-   "id": "R-T3-03",
-   "tier": 3,
+   "id": "rule-6",
+   "title": "Same idea, different word",
+   "statement": "The first draft uses the word with the widest support, the Pāli's on a tie. You may prefer another tradition's image when it is better.",
    "status": "proposed",
-   "title": "The Chinese counts where it agrees, informs where it recasts",
-   "statement": "The Chinese translator wrote in his own idiom. Where his words carry the same sense, that counts as agreement. Where he changes an image or a line (grass for a weak tree in verse 7; a herd of cattle in verse 19), it shows how an early reader understood the verse but does not replace what the Indic texts agree on.",
-   "options": [
-    {
-     "key": "A",
-     "text": "Adopt.",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "Treat changed Chinese images as full variants."
-    }
-   ],
-   "verses": [
-    3,
-    7,
-    8,
-    9,
-    14,
-    15,
-    16,
-    17,
-    18,
-    19,
-    20
-   ],
-   "decided": null
-  },
-  {
-   "id": "R-T3-04",
-   "tier": 3,
-   "status": "proposed",
-   "title": "Partial parallels and missing lines inform, not supply",
-   "statement": "A partial parallel (a different verse that shares some lines) can confirm a reading but never adds or removes a line. The Blend keeps every Pāli line; where other traditions lack a line, that is noted, not treated as evidence against it.",
-   "options": [
-    {
-     "key": "A",
-     "text": "Adopt: keep every line, line for line.",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "Drop or bracket lines most traditions lack."
-    }
-   ],
-   "verses": [
-    4,
-    6,
-    17,
-    18,
-    20
-   ],
-   "decided": null
-  },
-  {
-   "id": "R-T3-05",
-   "tier": 3,
-   "status": "proposed",
-   "title": "When Pāli and Patna stand against Gāndhārī, Sanskrit and Tibetan",
-   "statement": "Pāli and Patna are close relatives, and so are the Gāndhārī and the Udānavarga (Sanskrit and Tibetan). When the two groups disagree on a word that changes the meaning, the evidence is roughly even. Pairs has four such places (verses 3–4, 7–8, 9–10 and 19–20), listed below as T4 questions. Both readers advise deciding these one by one for now and revisiting once we see how often the pattern recurs.",
-   "options": [
-    {
-     "key": "A",
-     "text": "Decide each one yourself (they come to you as T4s); revisit after Pairs.",
-     "recommended": true
-    },
-    {
-     "key": "B",
-     "text": "Always keep the Pāli."
-    },
-    {
-     "key": "C",
-     "text": "Follow the Gāndhārī–Udānavarga side, as more independent witnesses."
-    }
-   ],
-   "verses": [
-    1,
-    2,
-    3,
-    4,
-    7,
-    8,
-    9,
-    10,
-    19,
-    20
-   ],
    "decided": null
   }
  ]

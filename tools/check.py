@@ -301,43 +301,52 @@ for chapter in audit["chapters"]:
 assert audit["summary"]["attested_lower_bound"] == sum(record["attested_parallel"] for record in audit["verses"]), "Tibetan overall lower bound changed."
 assert audit["summary"]["native_checked"] == sum(record["native_checked"] for record in audit["verses"]), "Tibetan overall native count changed."
 
-# Rosettapada Blend workspace: rulings and chapter files keep their provenance shape.
+# Rosettapada Blend workspace: words, principles, questions and drafts keep their provenance shape.
 blend_rulings_path = ROOT / "data/blend/rulings.json"
-blend_rulings = json.loads(blend_rulings_path.read_text())["rulings"] if blend_rulings_path.exists() else []
-ruling_ids = [r["id"] for r in blend_rulings]
-assert len(ruling_ids) == len(set(ruling_ids)), "Duplicate Blend ruling id."
-for r in blend_rulings:
-    assert re.fullmatch(r"R-T[23]-\d{2}", r["id"]) and r["id"][3] == str(r["tier"]), f'Bad Blend ruling id {r["id"]}'
-    assert r["status"] in {"proposed", "approved", "rejected", "revised"}, f'Bad status on {r["id"]}'
-    assert r["status"] == "proposed" or r.get("decided"), f'{r["id"]} is settled without a decision note'
+blend_rulings = json.loads(blend_rulings_path.read_text()) if blend_rulings_path.exists() else {"words": [], "principles": []}
+word_ids = [w["id"] for w in blend_rulings["words"]]
+principle_ids = [p["id"] for p in blend_rulings["principles"]]
+assert len(word_ids + principle_ids) == len(set(word_ids + principle_ids)), "Duplicate Blend word or principle id."
+for w in blend_rulings["words"]:
+    assert w["status"] in {"proposed", "decided"}, f'Bad status on word {w["id"]}'
+    assert w["status"] == "proposed" or w.get("decided"), f'Word {w["id"]} is settled without its decision and reason'
+question_ids = set()
+blend_lines = set()
 for path in sorted((ROOT / "data/blend/chapters").glob("*.json")):
     blend_chapter = json.loads(path.read_text())
     span = range(blend_chapter["chapter"]["start"], blend_chapter["chapter"]["end"] + 1)
     assert [v["no"] for v in blend_chapter["verses"]] == list(span), f"{path.name} does not cover its verses in order"
+    chapter_questions = {q["id"]: q for q in blend_chapter.get("questions", [])}
+    question_ids |= set(chapter_questions)
+    slot_ids = set(chapter_questions) | set(word_ids)
+    for q in chapter_questions.values():
+        assert q.get("options") or q.get("decided"), f"Question {q['id']} has no options"
     for v in blend_chapter["verses"]:
         assert v["lines"] and all(l["tier"] in (1, 2, 3, 4) for l in v["lines"]), f"{path.name} verse {v['no']} has an untiered line"
         assert v["tier"] == max(l["tier"] for l in v["lines"]), f"{path.name} verse {v['no']} tier is not its hardest line"
+        assert v.get("owner_tier") in (None, 1, 2, 3, 4), f"{path.name} verse {v['no']} has a bad owner tier"
+        assert set(v.get("questions", [])) <= set(chapter_questions), f"{path.name} verse {v['no']} names an unknown question"
         for l in v["lines"]:
+            blend_lines.add(f"{v['no']}.{l['line']}")
             known = [t for t in l["tiers"].values() if t]
             assert l["tier"] >= max(known, default=1), f"{path.name} verse {v['no']} line {l['line']} was tiered below a reader"
-            assert all(ref in ruling_ids for ref in l.get("rules", [])), f"{path.name} verse {v['no']} cites an unknown ruling"
+            assert set(l.get("rules", [])) <= set(word_ids) | set(principle_ids), f"{path.name} verse {v['no']} line {l['line']} cites an unknown word or principle"
+        if v.get("draft"):
+            assert len(v["draft"]) == len(v["lines"]), f"{path.name} verse {v['no']} draft is not line for line"
+            for dl in v["draft"]:
+                for seg in dl["segments"]:
+                    if not isinstance(seg, str):
+                        assert seg["slot"] in slot_ids, f"{path.name} verse {v['no']} draft slot {seg['slot']} is unknown"
         for b in v.get("blend") or []:
             assert b.get("witnesses") and b.get("tier") in (1, 2, 3, 4), f"{path.name} verse {v['no']} Blend line lacks provenance"
-            assert all(ref in ruling_ids for ref in b.get("rules", [])), f"{path.name} verse {v['no']} Blend cites an unknown ruling"
 findings_path = ROOT / "data/blend/findings.json"
 if findings_path.exists():
     findings = json.loads(findings_path.read_text())
-    blend_lines = set()
-    decision_ids = set()
-    for path in (ROOT / "data/blend/chapters").glob("*.json"):
-        blend_chapter = json.loads(path.read_text())
-        blend_lines |= {f"{v['no']}.{l['line']}" for v in blend_chapter["verses"] for l in v["lines"]}
-        decision_ids |= {d["id"] for d in blend_chapter.get("decisions", [])}
     notable_ids = {n["id"] for n in findings["notable"]}
     for n in findings["notable"]:
         assert n["weight"] in {"doctrine", "practice", "imagery", "translation"}, f'{n["id"]} has an unknown weight'
         assert set(n["lines"]) <= blend_lines, f'{n["id"]} cites a line that has not been read'
-        assert set(n["refs"]) <= set(ruling_ids) | decision_ids, f'{n["id"]} cites an unknown ruling or decision'
+        assert set(n["refs"]) <= set(word_ids) | set(principle_ids) | question_ids, f'{n["id"]} cites an unknown word, principle or question'
     for p in findings["patterns"]:
         assert p["status"] in {"hypothesis", "supported", "weakened", "dropped"}, f'{p["id"]} has an unknown status'
         assert set(p["evidence"]) | set(p["against"]) <= notable_ids, f'{p["id"]} cites unknown evidence'

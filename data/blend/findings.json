@@ -17,7 +17,7 @@
    "why": "The most quoted line of the Dhammapada is, on this evidence, the outlier. “Made of mind” invites the reading that mind constructs experience; “swift as mind” stresses the speed with which mind leads. The teaching that mind comes first stands in every tradition either way.",
    "weight": "doctrine",
    "refs": [
-    "T4-01"
+    "1.2"
    ]
   },
   {
@@ -36,7 +36,7 @@
    "why": "A negation (simply not returning enmity) against a named virtue to cultivate (patience). For practice, one says what to stop; the other what to develop.",
    "weight": "practice",
    "refs": [
-    "R-T3-01"
+    "rule-1"
    ]
   },
   {
@@ -56,7 +56,7 @@
    "why": "A personified tempter against a plain mental state. The same verse can read as mythic or psychological depending on the tradition.",
    "weight": "doctrine",
    "refs": [
-    "T4-04"
+    "7.5"
    ]
   },
   {
@@ -77,8 +77,8 @@
    "why": "The list of qualities that protect a practitioner shifts from faith toward attentiveness in the northern texts.",
    "weight": "practice",
    "refs": [
-    "R-T3-01",
-    "R-T3-02"
+    "rule-1",
+    "rule-2"
    ]
   },
   {
@@ -98,7 +98,7 @@
    "why": "Two different virtues define the true renunciant: truthfulness, or gentleness of manner.",
    "weight": "practice",
    "refs": [
-    "T4-05"
+    "9.3"
    ]
   },
   {
@@ -118,7 +118,7 @@
    "why": "The teaching on letting go of grudges applies either way; the Pāli makes the injury physical, the northern texts verbal.",
    "weight": "imagery",
    "refs": [
-    "T4-02"
+    "3.1"
    ]
   },
   {
@@ -134,7 +134,7 @@
    "why": "Guarding (a protective practice) against developing (a cultivating one). A lone reading, so it does not change the Blend, but it shows a different emphasis.",
    "weight": "practice",
    "refs": [
-    "R-T3-02"
+    "rule-2"
    ]
   },
   {
@@ -149,7 +149,7 @@
    "why": "A translation event inside the Tibetan, not an older reading. A reminder that a translation can carry its own errors or reinterpretations.",
    "weight": "translation",
    "refs": [
-    "R-T3-01"
+    "rule-1"
    ]
   },
   {
@@ -168,7 +168,7 @@
    "why": "The 3rd-century Chinese translator reads the verses as plain ethical advice in his own idiom. It shows how one early reader understood them.",
    "weight": "translation",
    "refs": [
-    "R-T3-03"
+    "rule-3"
    ]
   },
   {
@@ -187,7 +187,7 @@
    "why": "The fuller description of liberation may be an expansion in the Pāli (Patna shares only part of it), or a loss elsewhere. The Blend keeps it (R-T3-04).",
    "weight": "doctrine",
    "refs": [
-    "R-T3-04"
+    "rule-4"
    ]
   }
  ],
